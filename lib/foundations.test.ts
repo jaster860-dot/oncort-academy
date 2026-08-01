@@ -16,7 +16,13 @@ import stagingDocument from "../content/prostate/learn/staging_risk_biomarkers.j
 import systemicTherapyDocument from "../content/prostate/learn/systemic_therapy_foundations.json";
 import sourcesDocument from "../content/prostate/sources/index.json";
 
-function expectValidLessonSet(lessons: typeof foundationsDocument.lessons) {
+function expectValidLessonSet(lessons: Array<{
+  objectives: string[];
+  sections: Array<{ title: string; body: string }>;
+  checkpoint: { options: string[]; answerIndex: number };
+  flashcards: Array<{ front: string; back: string }>;
+  sources: string[];
+}>) {
   for (const lesson of lessons) {
     expect(lesson.objectives.length).toBeGreaterThanOrEqual(2);
     expect(lesson.sections.length).toBeGreaterThanOrEqual(2);

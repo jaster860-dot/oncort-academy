@@ -1,39 +1,101 @@
 {
   "id": "prostate_foundations_from_zero",
   "blockId": "foundations",
-  "title": "Prostate — les bases des bases",
-  "version": "0.1.0",
+  "title": "Prostate — comprendre avant de décider",
+  "version": "0.2.0",
   "status": "needs_review",
-  "lastUpdated": "2026-07-31",
-  "estimatedMinutes": 90,
-  "learningPromise": "À la fin de ce bloc, l'apprenant peut expliquer ce qu'est la prostate normale, comment fonctionne l'axe androgénique, ce que mesure réellement le PSA, comment naît un cancer prostatique et comment lire un score de Gleason/ISUP élémentaire.",
+  "lastUpdated": "2026-08-01",
+  "estimatedMinutes": 132,
+  "learningPromise": "À la fin de ce bloc, l'apprenant peut construire une représentation cohérente de la prostate normale et tumorale, relier axe androgénique et PSA à leur mécanisme, puis distinguer sans confusion architecture, grade, stade, volume et profil moléculaire.",
+  "evidenceScope": {
+    "provenanceNote": "Bloc pilote enrichi selon une lecture à trois niveaux. Les sources sont affichées et les formulations restent needs_review jusqu'à vérification nominative des propositions et des schémas par un clinicien.",
+    "anchors": [
+      {
+        "sourceId": "fine_reuter_prostate_anatomy_2012",
+        "locator": "Résumé PubMed et revue anatomopathologique : anatomie zonale, implications pour les biopsies et origines zonales"
+      },
+      {
+        "sourceId": "wilson_androgen_receptor_prostate_2020",
+        "locator": "Texte intégral PMC7385520 : sections 1.1, 2.1, 2.2 et 2.3 sur zones, DHT, récepteur aux androgènes et transcription"
+      },
+      {
+        "sourceId": "eau_prostate_2026",
+        "locator": "Diagnostic evaluation 5.2.2 pour le PSA ; Classification and staging systems pour Gleason et groupes ISUP ; Treatment pour la dépendance androgénique"
+      },
+      {
+        "sourceId": "tcga_prostate_taxonomy_2015",
+        "locator": "Résumé, Figure 1 et taxonomie moléculaire des adénocarcinomes primitifs"
+      },
+      {
+        "sourceId": "isup_grading_consensus_2019",
+        "locator": "Texte intégral PMC7382533 : tableaux 1 à 3, quantification du pattern 4, architecture cribriforme et carcinome intracanalaire"
+      }
+    ]
+  },
   "lessons": [
     {
       "id": "foundation_01_anatomy",
       "number": 1,
       "title": "Où est la prostate et comment est-elle organisée ?",
-      "durationMinutes": 12,
+      "durationMinutes": 20,
       "objectives": [
-        "Situer la prostate par rapport à la vessie, l'urètre, le rectum et les vésicules séminales.",
-        "Distinguer base, apex et principales zones prostatiques.",
-        "Relier cette anatomie à l'IRM, aux biopsies, à la chirurgie et à la radiothérapie."
+        "Situer la prostate par rapport à la vessie, l'urètre, le rectum, les vésicules séminales et le plancher pelvien.",
+        "Distinguer base, apex et compartiments périphérique, transitionnel, central et antérieur.",
+        "Traduire une localisation anatomique en conséquences pour l'IRM, les biopsies, la chirurgie et la radiothérapie."
       ],
+      "keyTakeaways": [
+        "La prostate est sous la vessie, autour de l'urètre prostatique et en avant du rectum.",
+        "Base–apex et zones prostatiques sont deux repères complémentaires, pas deux classifications concurrentes.",
+        "Une localisation n'est utile que si elle permet d'anticiper détection, extension et structures fonctionnelles voisines."
+      ],
+      "visual": {
+        "kind": "anatomy",
+        "title": "La prostate au centre d'un carrefour pelvien",
+        "altText": "Schéma sagittal simplifié montrant la vessie au-dessus de la prostate, l'urètre qui traverse la glande, le rectum en arrière, les vésicules séminales en haut et en arrière et le plancher pelvien sous l'apex.",
+        "caption": "Schéma relationnel simplifié, non à l'échelle et non destiné au contourage. Il sert à mémoriser les voisinages avant l'étude des coupes IRM.",
+        "items": [
+          {"label": "Vessie", "detail": "Au-dessus ; le col vésical est au contact de la base."},
+          {"label": "Prostate", "detail": "Glande traversée par l'urètre, organisée de la base vers l'apex."},
+          {"label": "Urètre", "detail": "Traverse la glande puis rejoint le sphincter distal."},
+          {"label": "Rectum", "detail": "En arrière ; voisin critique en imagerie et radiothérapie."},
+          {"label": "Vésicules séminales", "detail": "Postéro-supérieures, au voisinage de la base."},
+          {"label": "Plancher pelvien", "detail": "Sous l'apex, proche du sphincter strié."}
+        ]
+      },
       "sections": [
         {
-          "title": "La carte simple",
-          "body": "La prostate est une glande située sous la vessie. L'urètre proximal la traverse, le rectum est en arrière, les vésicules séminales sont en haut et en arrière. Sa base regarde la vessie ; son apex se dirige vers le diaphragme urogénital et le sphincter strié."
+          "title": "Un repère sagittal avant les coupes axiales",
+          "body": "La prostate se situe sous la vessie et en avant du rectum. Sa base est au contact du col vésical ; son apex se dirige vers le plancher pelvien et le sphincter urétral strié. L'urètre prostatique traverse la glande. Les vésicules séminales sont postéro-supérieures. Cette représentation sagittale empêche les inversions simples, mais l'analyse clinique doit ensuite revenir aux plans axial, sagittal et coronal."
         },
         {
-          "title": "Les zones",
-          "body": "On distingue surtout la zone périphérique, la zone transitionnelle, la zone centrale et le stroma fibromusculaire antérieur. L'hyperplasie bénigne se développe classiquement dans la région transitionnelle/péri-urétrale. Beaucoup d'adénocarcinomes naissent dans la zone périphérique, mais une tumeur peut aussi être antérieure ou transitionnelle."
+          "title": "Les zones ne sont pas des quartiers étanches",
+          "body": "La description de McNeal distingue une zone périphérique, une zone transitionnelle péri-urétrale, une zone centrale autour des canaux éjaculateurs et un stroma fibromusculaire antérieur non glandulaire. La distribution relative de ces compartiments change de la base vers l'apex et avec l'hyperplasie. Le terme radiologique « glande centrale » ne doit pas être confondu automatiquement avec la seule zone centrale anatomique."
         },
         {
-          "title": "Pourquoi c'est déjà clinique",
-          "body": "La proximité de l'urètre, du col vésical, du rectum, des sphincters et des structures neurovasculaires explique une grande partie des symptômes, des contraintes techniques et des toxicités possibles. L'anatomie zonale explique aussi pourquoi l'IRM et la stratégie de biopsie ne recherchent pas toutes les lésions de la même façon."
+          "title": "Zone d'origine et visibilité ne sont pas synonymes",
+          "body": "De nombreux adénocarcinomes prennent naissance dans la zone périphérique, mais une tumeur peut être transitionnelle ou antérieure. Une lésion antérieure profonde peut être moins accessible au toucher rectal et demander une stratégie de prélèvement adaptée. À l'inverse, la prédominance de l'hyperplasie bénigne dans la région transitionnelle explique qu'un volume important ou des symptômes urinaires ne prouvent pas un cancer."
+        },
+        {
+          "title": "L'anatomie devient immédiatement fonctionnelle",
+          "body": "La proximité du col vésical, de l'urètre, du sphincter, du rectum et des structures neurovasculaires conditionne les symptômes, les marges, le contourage et les toxicités. Une mention telle que « lésion postéro-latérale apicale » doit déclencher une carte mentale : zone périphérique probable, proximité du rectum en arrière, de l'apex et du sphincter en bas, puis recherche raisonnée d'une extension locale."
         }
       ],
-      "causalChain": ["Position et zones", "Voies de croissance possibles", "Choix de l'imagerie et du prélèvement", "Conséquences fonctionnelles du traitement"],
-      "commonTrap": "Réduire la prostate à une boule homogène située sous la vessie.",
+      "clinicalLens": {
+        "title": "Que signifie « lésion périphérique postéro-latérale de l'apex » ?",
+        "body": "Ce libellé localise une cible ; il ne donne ni le grade ni le stade. Il oriente la lecture vers le voisinage rectal, l'apex et les structures fonctionnelles distales, puis doit être confronté aux limites capsulaires, aux biopsies et au contexte clinique."
+      },
+      "deepDive": [
+        {
+          "title": "Pourquoi la base et l'apex sont des zones de vigilance ?",
+          "body": "À la base, l'interface avec le col vésical et les vésicules séminales complexifie la lecture de l'extension. À l'apex, les limites peuvent être moins nettes et la proximité du sphincter rend la précision anatomique particulièrement importante. Cette vigilance ne transforme pas une localisation en extension prouvée."
+        },
+        {
+          "title": "Pourquoi une carte zonale reste imparfaite ?",
+          "body": "La prostate réelle se déforme avec l'âge, l'hyperplasie, les traitements et le remplissage des organes voisins. Les zones sont des repères anatomopathologiques et radiologiques utiles, mais elles ne remplacent ni les images du patient ni une reconstruction multiplanaire."
+        }
+      ],
+      "causalChain": ["Position", "Zone", "Voisinage", "Voie d'extension", "Impact fonctionnel"],
+      "commonTrap": "Réduire la prostate à une boule homogène sous la vessie ou transformer une localisation en stade.",
       "checkpoint": {
         "prompt": "Quelle affirmation est correcte ?",
         "options": [
@@ -46,164 +108,301 @@
         "explanation": "L'urètre prostatique traverse la glande. La prostate est sous la vessie et en avant du rectum ; les cancers peuvent avoir plusieurs origines zonales."
       },
       "flashcards": [
-        {"front": "Base prostatique", "back": "Partie supérieure au contact du col vésical."},
-        {"front": "Apex prostatique", "back": "Partie inférieure proche du sphincter strié et du diaphragme urogénital."},
-        {"front": "Zone transitionnelle", "back": "Région péri-urétrale, siège classique de l'hyperplasie bénigne."}
+        {"front": "Base prostatique", "back": "Partie supérieure au contact du col vésical, proche des vésicules séminales."},
+        {"front": "Apex prostatique", "back": "Partie inférieure proche du plancher pelvien et du sphincter strié."},
+        {"front": "Zone transitionnelle", "back": "Région péri-urétrale, siège classique de l'hyperplasie bénigne et origine possible de cancer."}
       ],
-      "sources": ["fine_reuter_prostate_anatomy_2012", "eau_prostate_2026"]
+      "sources": ["fine_reuter_prostate_anatomy_2012", "wilson_androgen_receptor_prostate_2020", "eau_prostate_2026"]
     },
     {
       "id": "foundation_02_histology",
       "number": 2,
       "title": "À quoi ressemble une prostate normale au microscope ?",
-      "durationMinutes": 12,
+      "durationMinutes": 19,
       "objectives": [
-        "Reconnaître l'organisation glandulaire et stromale.",
-        "Distinguer cellules luminales et basales.",
-        "Comprendre pourquoi la disparition de l'organisation normale participe au diagnostic tumoral."
+        "Décrire l'unité glande–stroma et la fonction des cellules luminales et basales.",
+        "Comprendre pourquoi l'architecture précède les marqueurs dans le raisonnement anatomopathologique.",
+        "Distinguer hyperplasie bénigne, lésion précurseur et adénocarcinome invasif."
       ],
+      "keyTakeaways": [
+        "Une glande bénigne associe lumière, cellules luminales et couche basale, dans un stroma organisé.",
+        "L'adénocarcinome est d'abord un diagnostic morphologique d'architecture infiltrante ; l'immunohistochimie soutient les situations difficiles.",
+        "Volume prostatique, hyperplasie bénigne et cancer décrivent des phénomènes différents."
+      ],
+      "visual": {
+        "kind": "comparison",
+        "title": "Du tissu organisé à l'infiltration tumorale",
+        "altText": "Comparaison schématique entre une glande prostatique bénigne avec couche basale conservée et des glandes d'adénocarcinome infiltrantes sans couche basale identifiable.",
+        "caption": "Schéma conceptuel, pas une lame diagnostique. La morphologie réelle et l'interprétation par un anatomopathologiste restent indispensables.",
+        "items": [
+          {"label": "Glande bénigne", "detail": "Architecture régulière, cellules luminales vers la lumière, couche basale conservée, stroma non infiltré."},
+          {"label": "Adénocarcinome", "detail": "Glandes ou cellules tumorales infiltrantes, désorganisation architecturale et absence de couche basale identifiable dans les glandes invasives."}
+        ]
+      },
       "sections": [
         {
-          "title": "Glandes et stroma",
-          "body": "La prostate normale associe des glandes et canaux à un stroma contenant notamment muscle lisse et fibroblastes. Les glandes produisent une partie du liquide séminal ; leur architecture est aussi importante que l'aspect individuel des cellules."
+          "title": "Une unité épithéliale dans un stroma",
+          "body": "La prostate normale associe glandes et canaux à un stroma contenant notamment muscle lisse, fibroblastes, vaisseaux et matrice extracellulaire. Les cellules luminales sécrétoires bordent la lumière glandulaire ; elles expriment fortement le récepteur aux androgènes et produisent notamment le PSA. Des cellules basales bordent la membrane basale des glandes bénignes."
         },
         {
-          "title": "Deux étages épithéliaux utiles",
-          "body": "Les cellules luminales sécrétoires bordent la lumière glandulaire, expriment fortement le récepteur aux androgènes et produisent notamment le PSA. Une couche de cellules basales est présente dans les glandes bénignes. En pathologie, la perte de cette couche peut contribuer au diagnostic d'adénocarcinome, toujours avec la morphologie et, si nécessaire, l'immunohistochimie."
+          "title": "Le diagnostic commence par l'architecture",
+          "body": "L'anatomopathologiste recherche une prolifération glandulaire infiltrante, son organisation, son cytoplasme, ses noyaux et son rapport au tissu voisin. L'absence de couche basale peut soutenir le diagnostic d'adénocarcinome invasif, mais aucun marqueur isolé ne remplace la morphologie. Une immunohistochimie est un outil de résolution d'un doute, pas un automate qui nomme seul la maladie."
         },
         {
-          "title": "Bénin n'est pas un stade du cancer",
-          "body": "L'hyperplasie bénigne de prostate et l'adénocarcinome sont deux processus différents. Une grosse prostate n'est pas automatiquement cancéreuse, et une petite lésion cancéreuse peut être cliniquement significative."
+          "title": "Bénin, précurseur et invasif répondent à des questions différentes",
+          "body": "L'hyperplasie bénigne augmente le nombre de structures épithéliales et stromales, surtout dans la région transitionnelle, sans devenir un « petit cancer ». Les lésions intraépithéliales ou intracanalaire ont leur propre signification. L'adénocarcinome invasif franchit la logique d'une glande bénigne organisée et doit ensuite être gradé."
+        },
+        {
+          "title": "Échantillonner n'est pas cartographier toute la tumeur",
+          "body": "Une biopsie décrit les carottes prélevées : site, longueur tumorale, architecture et grade. Elle ne montre pas nécessairement tous les foyers ni la totalité de l'hétérogénéité. La pièce opératoire offre une cartographie plus large mais intervient dans un autre contexte. Toute discordance doit donc être pensée comme un problème d'échantillonnage possible avant d'être qualifiée d'erreur."
         }
       ],
-      "causalChain": ["Glande normale à deux couches", "Transformation clonale", "Architecture anormale", "Diagnostic et grade"],
-      "commonTrap": "Confondre volume prostatique, hyperplasie bénigne et cancer.",
+      "clinicalLens": {
+        "title": "Pourquoi une grosse prostate peut-elle avoir un PSA élevé sans cancer ?",
+        "body": "Un volume glandulaire bénin plus important peut augmenter la quantité de PSA produite. Cela modifie la probabilité prétest mais ne tranche pas le diagnostic : contexte, évolution, examen, densité de PSA, IRM et preuve histologique répondent à des niveaux d'incertitude différents."
+      },
+      "deepDive": [
+        {
+          "title": "Que signifie réellement « couche basale absente » ?",
+          "body": "C'est un élément en faveur d'une glande invasive lorsqu'il est interprété avec la morphologie. Une coupe peut ne pas montrer toutes les cellules basales d'une glande bénigne ; l'échantillonnage et la qualité technique imposent donc un raisonnement en faisceau."
+        },
+        {
+          "title": "Pourquoi stroma et épithélium doivent-ils rester liés ?",
+          "body": "La fonction prostatique et la croissance reposent sur des interactions entre compartiments. Une lecture uniquement centrée sur la cellule tumorale perd l'invasion du stroma, la réponse tissulaire et une partie de la signalisation paracrine."
+        }
+      ],
+      "causalChain": ["Glande organisée", "Anomalie architecturale", "Infiltration", "Diagnostic", "Grade"],
+      "commonTrap": "Confondre absence de cellule basale sur une image, diagnostic complet de cancer et grade tumoral.",
       "checkpoint": {
         "prompt": "Quelle cellule normale est principalement responsable de la sécrétion de PSA ?",
         "options": ["Cellule luminale sécrétoire", "Cellule musculaire lisse", "Lymphocyte", "Cellule endothéliale"],
         "answerIndex": 0,
-        "explanation": "Les cellules épithéliales luminales sécrétoires produisent le PSA."
+        "explanation": "Les cellules épithéliales luminales sécrétoires produisent le PSA ; ce fait n'en fait pas un marqueur spécifique du cancer."
       },
       "flashcards": [
-        {"front": "Cellule luminale", "back": "Cellule sécrétoire bordant la lumière glandulaire, riche en signalisation androgénique."},
-        {"front": "Cellule basale", "back": "Couche présente dans les glandes bénignes ; sa perte peut aider au diagnostic avec la morphologie."},
-        {"front": "Stroma prostatique", "back": "Tissu de soutien comprenant notamment muscle lisse et fibroblastes."}
+        {"front": "Cellule luminale", "back": "Cellule sécrétoire bordant la lumière glandulaire, riche en signalisation androgénique et productrice de PSA."},
+        {"front": "Cellule basale", "back": "Couche conservée dans les glandes bénignes ; son absence peut soutenir un diagnostic avec la morphologie."},
+        {"front": "Stroma prostatique", "back": "Tissu de soutien comprenant notamment muscle lisse, fibroblastes, vaisseaux et matrice."}
       ],
-      "sources": ["fine_reuter_prostate_anatomy_2012", "wilson_androgen_receptor_prostate_2020"]
+      "sources": ["fine_reuter_prostate_anatomy_2012", "wilson_androgen_receptor_prostate_2020", "isup_grading_consensus_2019"]
     },
     {
       "id": "foundation_03_androgen_axis",
       "number": 3,
-      "title": "L'axe androgénique, moteur physiologique et cible thérapeutique",
-      "durationMinutes": 15,
+      "title": "L'axe androgénique, de la physiologie à la résistance",
+      "durationMinutes": 23,
       "objectives": [
-        "Décrire l'axe hypothalamus–hypophyse–testicule.",
-        "Expliquer la conversion de testostérone en DHT et l'activation du récepteur aux androgènes.",
-        "Relier le mécanisme aux grandes familles de traitements hormonaux."
+        "Décrire l'axe hypothalamus–hypophyse–testicule et la contribution des précurseurs surrénaliens.",
+        "Expliquer la conversion de testostérone en DHT puis l'activation transcriptionnelle du récepteur aux androgènes.",
+        "Positionner les grandes familles thérapeutiques sur la voie sans confondre castration et indépendance androgénique."
       ],
+      "keyTakeaways": [
+        "GnRH, LH, testostérone, DHT et récepteur aux androgènes forment une chaîne régulée, pas un interrupteur unique.",
+        "Le récepteur activé entre dans le noyau et module un programme transcriptionnel dépendant du contexte cellulaire.",
+        "La résistance à la castration peut conserver une dépendance au récepteur aux androgènes."
+      ],
+      "visual": {
+        "kind": "pathway",
+        "title": "La voie androgénique et ses niveaux d'intervention",
+        "altText": "Chaîne allant de l'hypothalamus à la GnRH, à l'hypophyse et la LH, au testicule et la testostérone, à la DHT prostatique, au récepteur aux androgènes puis à la transcription génique.",
+        "caption": "Vue fonctionnelle simplifiée. Les précurseurs surrénaliens et la synthèse intratumorale créent des apports supplémentaires qui deviennent importants dans la maladie avancée.",
+        "items": [
+          {"label": "Hypothalamus", "detail": "Sécrétion pulsatile de GnRH."},
+          {"label": "Hypophyse", "detail": "La LH transmet le signal au testicule."},
+          {"label": "Testicule", "detail": "Source majeure de testostérone circulante."},
+          {"label": "DHT prostatique", "detail": "Conversion locale par la 5-alpha-réductase."},
+          {"label": "Récepteur AR", "detail": "Liaison, stabilisation et translocation nucléaire."},
+          {"label": "Transcription", "detail": "Programme de différenciation, sécrétion, survie ou prolifération selon le contexte."}
+        ]
+      },
       "sections": [
         {
-          "title": "La commande hormonale",
-          "body": "L'hypothalamus libère la GnRH, qui stimule l'hypophyse. La LH stimule ensuite les cellules de Leydig testiculaires à produire la majeure partie de la testostérone circulante. Des précurseurs androgéniques existent aussi d'origine surrénalienne."
+          "title": "Une commande endocrine avec rétrocontrôle",
+          "body": "L'hypothalamus libère la GnRH, qui stimule l'hypophyse. La LH stimule les cellules de Leydig testiculaires et soutient la production de la majeure partie de la testostérone circulante. Les androgènes exercent un rétrocontrôle sur l'axe. Des précurseurs d'origine surrénalienne et, dans certains contextes tumoraux, une synthèse locale complètent ce modèle."
         },
         {
-          "title": "Du ligand au programme cellulaire",
-          "body": "Dans le tissu prostatique, la testostérone peut être convertie en dihydrotestostérone par la 5-alpha-réductase. L'androgène se lie au récepteur aux androgènes, qui agit comme facteur de transcription et modifie l'expression de gènes impliqués dans la différenciation, la survie et la fonction sécrétoire."
+          "title": "La DHT amplifie le signal prostatique",
+          "body": "Dans le tissu prostatique, la 5-alpha-réductase convertit la testostérone en dihydrotestostérone. La DHT se lie au récepteur aux androgènes avec une forte affinité. La disponibilité du ligand, l'expression du récepteur, les cofacteurs et l'état de la chromatine déterminent ensemble la réponse ; la quantité d'androgène ne suffit donc pas à prédire tout le programme cellulaire."
         },
         {
-          "title": "La traduction thérapeutique",
-          "body": "La suppression androgénique réduit la stimulation hormonale. Les inhibiteurs de la voie du récepteur aux androgènes agissent à d'autres niveaux de cette même dépendance. Une tumeur résistante à la castration n'est pas nécessairement indépendante du récepteur : elle peut réactiver ou contourner la voie."
+          "title": "Le récepteur est un facteur de transcription",
+          "body": "Après liaison du ligand, le récepteur change de conformation, se stabilise, se dimérise et rejoint le noyau. Il reconnaît des éléments de réponse sur l'ADN avec des cofacteurs et modifie l'expression de gènes. Dans la cellule prostatique normale, ce programme soutient la différenciation et la fonction sécrétoire ; dans le cancer, la même voie peut acquérir une fonction pro-tumorale."
+        },
+        {
+          "title": "Cartographier les traitements sur la voie",
+          "body": "Les agonistes ou antagonistes de la GnRH diminuent la stimulation testiculaire ; l'inhibition de la synthèse androgénique agit plus en aval ; les inhibiteurs de la voie du récepteur réduisent sa signalisation. Les inhibiteurs de la 5-alpha-réductase utilisés dans l'hyperplasie bénigne ne sont pas interchangeables avec ces stratégies oncologiques. Une progression sous castration n'implique pas que la voie AR ait disparu."
         }
       ],
-      "causalChain": ["GnRH", "LH", "Testostérone", "DHT", "Récepteur aux androgènes", "Transcription génique"],
-      "commonTrap": "Croire que résistance à la castration signifie disparition complète de toute signalisation androgénique.",
+      "clinicalLens": {
+        "title": "Pourquoi doser la testostérone lors d'une progression sous suppression androgénique ?",
+        "body": "Le terme « résistant à la castration » suppose d'abord que le niveau de castration soit effectivement atteint. La progression biologique ou radiologique, l'observance, les injections, la testostéronémie et les mécanismes de réactivation de la voie répondent à des questions distinctes."
+      },
+      "deepDive": [
+        {
+          "title": "Castration-résistance ne veut pas dire hormone-indépendance",
+          "body": "Amplification ou mutation du récepteur, variants d'épissage, modification des cofacteurs, synthèse locale d'androgènes et reprogrammation transcriptionnelle peuvent entretenir la voie malgré une testostérone circulante basse. Cette nuance explique pourquoi plusieurs traitements ciblent encore AR dans la maladie résistante à la castration."
+        },
+        {
+          "title": "Pourquoi la même voie produit-elle des effets différents ?",
+          "body": "Le récepteur n'agit pas seul : coactivateurs, corépresseurs, facteurs pionniers et accessibilité de la chromatine définissent les gènes cibles. Une cellule normale, une cellule tumorale hormonosensible et un clone résistant peuvent donc répondre différemment au même ligand."
+        }
+      ],
+      "causalChain": ["GnRH", "LH", "Testostérone", "DHT", "Récepteur AR", "Transcription"],
+      "commonTrap": "Réduire la voie à la testostéronémie ou croire que résistance à la castration signifie disparition de toute signalisation AR.",
       "checkpoint": {
         "prompt": "Quel est le rôle direct du récepteur aux androgènes activé ?",
         "options": ["Détruire l'ADN", "Agir comme facteur de transcription", "Produire la LH", "Fabriquer le PSA dans le sang"],
         "answerIndex": 1,
-        "explanation": "Après activation, le récepteur aux androgènes régule la transcription de gènes cibles."
+        "explanation": "Après activation, le récepteur aux androgènes rejoint le noyau et régule la transcription de gènes cibles."
       },
       "flashcards": [
         {"front": "GnRH", "back": "Signal hypothalamique stimulant la sécrétion hypophysaire de gonadotrophines."},
-        {"front": "DHT", "back": "Androgène formé à partir de la testostérone par la 5-alpha-réductase."},
-        {"front": "Récepteur aux androgènes", "back": "Récepteur nucléaire/facteur de transcription activé par les androgènes."}
+        {"front": "DHT", "back": "Androgène formé localement à partir de la testostérone par la 5-alpha-réductase."},
+        {"front": "Récepteur aux androgènes", "back": "Récepteur nucléaire et facteur de transcription activé par les androgènes."}
       ],
       "sources": ["wilson_androgen_receptor_prostate_2020", "eau_prostate_2026"]
     },
     {
       "id": "foundation_04_psa",
       "number": 4,
-      "title": "Le PSA : ce qu'il mesure et ce qu'il ne prouve pas",
-      "durationMinutes": 14,
+      "title": "Le PSA : mesurer un signal, pas prononcer un diagnostic",
+      "durationMinutes": 23,
       "objectives": [
-        "Définir le PSA comme produit de l'épithélium prostatique.",
-        "Comprendre la différence entre marqueur d'organe et marqueur spécifique du cancer.",
-        "Interpréter un PSA comme une information continue et contextualisée."
+        "Définir le PSA comme enzyme produite par l'épithélium prostatique et dépendante de la signalisation androgénique.",
+        "Distinguer spécificité d'organe, probabilité de cancer, charge tumorale et réponse thérapeutique.",
+        "Standardiser le contexte d'un dosage avant d'en tirer une décision."
       ],
+      "keyTakeaways": [
+        "Le PSA est spécifique de l'organe prostatique, pas spécifique du cancer.",
+        "Une valeur s'interprète comme une variable continue avec ses mesures antérieures, le volume, les traitements et le contexte pré-analytique.",
+        "Répéter, calculer une densité ou demander une IRM répond à une question de risque ; seule l'histologie prouve habituellement le cancer."
+      ],
+      "visual": {
+        "kind": "decision",
+        "title": "De la valeur isolée à une décision traçable",
+        "altText": "Algorithme pédagogique allant du résultat de PSA à la vérification du contexte, à une répétition standardisée si indiquée, à l'estimation du risque puis à l'IRM ou aux biopsies selon le dossier.",
+        "caption": "Algorithme de compréhension, pas une prescription individuelle. Les seuils et délais doivent être rattachés au référentiel et au contexte clinique.",
+        "items": [
+          {"label": "Lire la valeur", "detail": "Unité, laboratoire, date et valeurs antérieures."},
+          {"label": "Vérifier le contexte", "detail": "Infection, rétention, biopsie récente, traitement, conditions de prélèvement."},
+          {"label": "Répéter si indiqué", "detail": "Même laboratoire et conditions standardisées selon le scénario."},
+          {"label": "Estimer le risque", "detail": "Âge, toucher rectal, volume, densité, antécédents et cinétique."},
+          {"label": "Réduire l'incertitude", "detail": "IRM, biomarqueur ou biopsie seulement si cela répond à la question clinique."}
+        ]
+      },
       "sections": [
         {
-          "title": "Une protéase prostatique",
-          "body": "Le PSA est une enzyme glycoprotéique produite par les cellules épithéliales prostatiques. Sa fonction physiologique concerne le liquide séminal. Une petite quantité passe dans la circulation et peut être dosée."
+          "title": "Une enzyme prostatique dosée dans le sang",
+          "body": "Le PSA est une glycoprotéine enzymatique sécrétée par les cellules épithéliales prostatiques. Sa fonction physiologique concerne le liquide séminal ; une petite fraction passe dans la circulation. La production dépend en partie de la signalisation androgénique, ce qui explique que certains traitements modifient la valeur indépendamment d'un changement tumoral."
         },
         {
-          "title": "Spécifique de l'organe, pas du cancer",
-          "body": "Un PSA élevé peut accompagner un cancer, mais aussi une hyperplasie bénigne, une inflammation, une infection ou certaines manipulations. Inversement, un cancer peut exister avec un PSA relativement faible. Le PSA n'est donc ni une biopsie liquide parfaite ni une réponse oui/non."
+          "title": "Spécifique d'organe, non spécifique du cancer",
+          "body": "Un PSA élevé peut accompagner un adénocarcinome mais aussi une hyperplasie bénigne, une prostatite, une infection urinaire fébrile, une rétention aiguë ou une manipulation récente. Un cancer peut inversement exister avec une valeur relativement basse. Il n'existe donc pas de frontière biologique universelle séparant à elle seule bénin et malin."
         },
         {
-          "title": "Interpréter proprement",
-          "body": "Le résultat dépend du contexte, des mesures antérieures, du volume prostatique, des médicaments et des conditions de prélèvement. Les recommandations européennes considèrent le PSA comme une variable continue et demandent, dans certaines situations asymptomatiques, de répéter le dosage dans des conditions standardisées avant d'aller plus loin."
+          "title": "La variabilité doit être traitée comme une donnée",
+          "body": "Comparer des valeurs suppose de connaître le laboratoire, le test, le délai et les conditions de prélèvement. Les inhibiteurs de la 5-alpha-réductase réduisent typiquement le PSA d'environ moitié selon l'EAU, ce qui impose d'identifier le traitement avant l'interprétation. Une variation peut être biologique, pré-analytique, bénigne ou tumorale ; la cinétique n'efface jamais le contexte."
+        },
+        {
+          "title": "Répéter avant d'escalader dans le scénario approprié",
+          "body": "L'EAU 2026 recommande, chez un homme avec PSA initial entre 3 et 10 ng/mL et palpation non suspecte, un second dosage après quatre semaines avant de poursuivre les investigations. Le prélèvement doit être standardisé, dans le même laboratoire et sans infection urinaire, manipulation ou éjaculation récente. Cette règle contextualisée n'est pas un délai universel applicable à toute situation."
         }
       ],
-      "causalChain": ["Production prostatique", "Passage sanguin variable", "Dosage", "Estimation de risque", "IRM/biopsie si indiquées"],
-      "commonTrap": "PSA élevé = cancer certain ; PSA bas = cancer impossible.",
+      "clinicalLens": {
+        "title": "PSA à 6,2 ng/mL sous finastéride : que manque-t-il avant toute conclusion ?",
+        "body": "Il faut connaître indication et durée du traitement, valeur de départ, volume prostatique, toucher rectal, symptômes, infection ou rétention, laboratoire et mesures antérieures. Corriger mentalement un chiffre ne remplace pas une estimation de risque structurée."
+      },
+      "deepDive": [
+        {
+          "title": "PSA total, densité et cinétique : trois informations non interchangeables",
+          "body": "Le PSA total est une concentration. La densité rapporte cette valeur au volume prostatique estimé et dépend donc de la qualité de la mesure du volume. La cinétique décrit l'évolution dans le temps et dépend du nombre, de l'espacement et de la comparabilité des dosages. Chacune répond à une question différente."
+        },
+        {
+          "title": "Pourquoi le PSA change-t-il de sens après un traitement ?",
+          "body": "Après prostatectomie, radiothérapie ou traitement systémique, la quantité de tissu prostatique et la biologie du signal ne sont plus les mêmes. Les définitions de réponse ou de rechute dépendent alors du traitement reçu ; elles seront abordées dans les blocs de suivi et de récidive."
+        }
+      ],
+      "causalChain": ["Production", "Passage sanguin", "Contexte", "Estimation de risque", "Preuve si nécessaire"],
+      "commonTrap": "PSA élevé égale cancer certain ; PSA bas égale cancer impossible ; vitesse élevée égale automatiquement progression.",
       "checkpoint": {
         "prompt": "Quelle formulation est la plus juste ?",
         "options": [
           "Le PSA est spécifique du cancer de prostate.",
           "Le PSA est spécifique de l'organe prostatique mais pas du cancer.",
           "Un PSA normal exclut toujours un cancer.",
-          "Le volume prostatique n'influence jamais le PSA."
+          "Le volume prostatique et les traitements n'influencent jamais le PSA."
         ],
         "answerIndex": 1,
-        "explanation": "Le PSA est produit par le tissu prostatique normal, bénin ou malin ; il doit être interprété dans son contexte."
+        "explanation": "Le PSA est produit par le tissu prostatique normal, bénin ou malin ; sa valeur doit être replacée dans un contexte clinique et analytique."
       },
       "flashcards": [
-        {"front": "PSA", "back": "Enzyme glycoprotéique sécrétée par l'épithélium prostatique, dosable dans le sang."},
-        {"front": "Spécifique d'organe", "back": "Associé principalement à la prostate, sans être spécifique d'un cancer."},
-        {"front": "PSA continu", "back": "Le risque évolue avec la valeur et le contexte ; il n'existe pas de frontière biologique parfaite."}
+        {"front": "PSA", "back": "Enzyme glycoprotéique sécrétée par l'épithélium prostatique, dont une fraction est dosable dans le sang."},
+        {"front": "Spécifique d'organe", "back": "Associé principalement à la prostate sans être spécifique d'un cancer."},
+        {"front": "Densité de PSA", "back": "PSA rapporté au volume prostatique ; utile seulement si les deux mesures sont interprétables."}
       ],
-      "sources": ["eau_prostate_2026"]
+      "sources": ["eau_prostate_2026", "wilson_androgen_receptor_prostate_2020"]
     },
     {
       "id": "foundation_05_carcinogenesis",
       "number": 5,
-      "title": "Comment une tumeur prostatique apparaît et progresse",
-      "durationMinutes": 16,
+      "title": "Une maladie, plusieurs dimensions biologiques",
+      "durationMinutes": 22,
       "objectives": [
-        "Comprendre la sélection clonale et l'hétérogénéité tumorale.",
+        "Expliquer sélection clonale, hétérogénéité spatiale et évolution sous pression thérapeutique.",
         "Distinguer volume, grade, stade et profil moléculaire.",
-        "Relier l'évolution biologique à l'invasion et aux métastases."
+        "Relier invasion locale, dissémination ganglionnaire ou osseuse et résistance sans imposer une trajectoire unique."
       ],
+      "keyTakeaways": [
+        "Une tumeur est une population évolutive de clones, pas une masse cellulaire uniforme.",
+        "Volume, grade, stade et profil moléculaire sont quatre axes complémentaires qui ne se remplacent pas.",
+        "La progression est probabiliste : toutes les tumeurs ne suivent ni la même vitesse ni la même trajectoire."
+      ],
+      "visual": {
+        "kind": "matrix",
+        "title": "Les quatre axes à ne jamais fusionner",
+        "altText": "Matrice de quatre dimensions tumorales : volume pour la quantité de maladie, grade pour l'architecture, stade pour l'extension anatomique et profil moléculaire pour les voies biologiques.",
+        "caption": "Une synthèse clinique robuste nomme chaque axe séparément avant de les intégrer dans un groupe de risque ou une décision.",
+        "items": [
+          {"label": "Volume", "detail": "Combien de tissu tumoral est détecté ou échantillonné ?"},
+          {"label": "Grade", "detail": "Comment l'architecture tumorale est-elle organisée ?"},
+          {"label": "Stade", "detail": "Jusqu'où la maladie s'étend-elle anatomiquement ?"},
+          {"label": "Moléculaire", "detail": "Quelles voies et altérations caractérisent les clones étudiés ?"}
+        ]
+      },
       "sections": [
         {
-          "title": "Du clone à la tumeur",
-          "body": "Une cellule acquiert des altérations génétiques et épigénétiques qui favorisent sa survie et sa prolifération. Ses descendantes forment un clone. D'autres altérations apparaissent ensuite : la tumeur devient un ensemble de sous-clones plutôt qu'une population parfaitement uniforme."
+          "title": "De l'altération à l'expansion clonale",
+          "body": "Une cellule acquiert des altérations génétiques et épigénétiques qui lui confèrent un avantage relatif de survie ou de prolifération. Ses descendantes forment un clone. De nouvelles altérations apparaissent au cours des divisions ; plusieurs sous-clones peuvent coexister, coopérer ou entrer en compétition dans différents foyers de la prostate."
         },
         {
-          "title": "Plusieurs dimensions différentes",
-          "body": "Le volume décrit la quantité de tumeur, le grade décrit l'architecture et l'agressivité morphologique, le stade décrit l'extension anatomique et le profil moléculaire décrit certaines voies biologiques. Une seule dimension ne résume jamais tout le comportement tumoral."
+          "title": "L'hétérogénéité existe dans l'espace et dans le temps",
+          "body": "Deux carottes biopsiques peuvent échantillonner des architectures différentes. Une métastase peut dériver d'un sous-clone minoritaire de la tumeur primitive. Sous traitement, les clones sensibles diminuent tandis que des clones préexistants ou nouvellement adaptés deviennent dominants. Une biopsie ou un test moléculaire décrit donc un échantillon à un moment donné."
         },
         {
-          "title": "Progression",
-          "body": "La progression peut conduire à l'extension extracapsulaire, à l'atteinte des vésicules séminales, aux ganglions puis à des métastases, fréquemment osseuses dans les formes avancées. Cette trajectoire n'est ni obligatoire ni identique pour toutes les tumeurs."
+          "title": "Quatre dimensions, quatre questions",
+          "body": "Le volume décrit la quantité de tumeur visible ou prélevée. Le grade décrit son architecture. Le stade décrit son extension anatomique. Le profil moléculaire décrit certaines altérations et voies biologiques. Un petit foyer de haut grade, une grosse tumeur de grade intermédiaire et une maladie métastatique à faible PSA illustrent pourquoi aucun axe ne résume seul le comportement."
         },
         {
-          "title": "Hétérogénéité moléculaire",
-          "body": "Les cancers primitifs de prostate présentent des altérations diverses, par exemple des fusions de gènes ETS ou des altérations de SPOP, FOXA1, de voies PI3K et de réparation de l'ADN. Ces exemples servent à comprendre l'hétérogénéité ; ils ne constituent pas à eux seuls une indication thérapeutique."
+          "title": "Progression et dissémination ne sont pas une ligne obligatoire",
+          "body": "La progression peut conduire à une extension extracapsulaire, une atteinte des vésicules séminales, des ganglions et des métastases, fréquemment osseuses dans les formes avancées. Mais cette séquence n'est ni obligatoire ni identique pour tous. Les taxonomies moléculaires décrivent des sous-groupes tels que fusions ETS ou altérations de SPOP et FOXA1 ; elles démontrent l'hétérogénéité sans constituer à elles seules une indication thérapeutique."
         }
       ],
-      "causalChain": ["Altération initiale", "Expansion clonale", "Sous-clones", "Invasion", "Dissémination", "Résistance thérapeutique"],
-      "commonTrap": "Imaginer qu'un cancer prostatique est une maladie unique et homogène chez tous les patients.",
+      "clinicalLens": {
+        "title": "Une seule biopsie peut-elle résumer toute la maladie ?",
+        "body": "Elle peut prouver un cancer et fournir un grade sur les tissus prélevés, mais elle ne garantit pas d'avoir capturé le foyer le plus agressif ni toutes les altérations moléculaires. La concordance avec l'IRM, le reste des biopsies, le PSA et, selon le contexte, la pièce opératoire est donc structurante."
+      },
+      "deepDive": [
+        {
+          "title": "Altération conductrice ou simple passagère ?",
+          "body": "Une altération conductrice contribue à l'avantage tumoral dans un contexte donné ; une altération passagère accompagne l'évolution sans effet majeur démontré. La fréquence d'une altération ne prouve ni son rôle causal ni son actionnabilité thérapeutique."
+        },
+        {
+          "title": "Pourquoi le traitement modifie-t-il la population tumorale ?",
+          "body": "Le traitement crée une pression de sélection. Les clones dépendants de la cible sont supprimés plus efficacement ; ceux qui utilisent une voie de contournement survivent proportionnellement mieux. La résistance clinique est donc une propriété émergente d'une population et de son environnement."
+        }
+      ],
+      "causalChain": ["Altération", "Clone", "Sous-clones", "Sélection", "Invasion", "Dissémination"],
+      "commonTrap": "Imaginer un cancer prostatique unique, homogène et entièrement décrit par un seul chiffre ou un seul prélèvement.",
       "checkpoint": {
         "prompt": "Quelle proposition distingue correctement grade et stade ?",
         "options": [
@@ -216,8 +415,8 @@
         "explanation": "Le grade est morphologique ; le stade est anatomique. Les deux contribuent au pronostic sans être interchangeables."
       },
       "flashcards": [
-        {"front": "Clone tumoral", "back": "Population descendant d'une cellule ayant acquis des avantages de survie/prolifération."},
-        {"front": "Grade", "back": "Description morphologique de l'organisation et de l'agressivité tumorales."},
+        {"front": "Clone tumoral", "back": "Population descendant d'une cellule et partageant des altérations, susceptible d'évoluer en sous-clones."},
+        {"front": "Grade", "back": "Description morphologique de l'architecture et de l'agressivité tumorales."},
         {"front": "Stade", "back": "Description de l'extension anatomique de la maladie."}
       ],
       "sources": ["tcga_prostate_taxonomy_2015", "eau_prostate_2026"]
@@ -225,45 +424,121 @@
     {
       "id": "foundation_06_gleason_isup",
       "number": 6,
-      "title": "Gleason et ISUP sans mémorisation aveugle",
-      "durationMinutes": 18,
+      "title": "Gleason et ISUP : lire une architecture, pas seulement un nombre",
+      "durationMinutes": 25,
       "objectives": [
-        "Comprendre que le grading repose surtout sur l'architecture glandulaire.",
-        "Expliquer pourquoi 3+4 diffère de 4+3.",
-        "Convertir les principaux scores de Gleason en groupes ISUP."
+        "Reconnaître la logique architecturale des patterns 3, 4 et 5.",
+        "Expliquer pourquoi 3+4 diffère de 4+3 et convertir les scores usuels en groupes ISUP.",
+        "Repérer pourcentage de pattern 4, architecture cribriforme, carcinome intracanalaire et limites d'échantillonnage."
       ],
+      "keyTakeaways": [
+        "Le Gleason contemporain grade l'architecture glandulaire tumorale, pas l'atypie nucléaire isolée.",
+        "Le premier nombre représente le pattern dominant selon les règles du prélèvement ; 3+4 et 4+3 n'ont donc pas le même sens.",
+        "Le groupe ISUP simplifie la lecture pronostique mais ne remplace pas les détails du compte rendu."
+      ],
+      "visual": {
+        "kind": "ladder",
+        "title": "Du score de Gleason au groupe ISUP",
+        "altText": "Échelle de cinq groupes ISUP : groupe 1 pour Gleason 3 plus 3, groupe 2 pour 3 plus 4, groupe 3 pour 4 plus 3, groupe 4 pour le score 8 et groupe 5 pour les scores 9 à 10.",
+        "caption": "L'échelle résume le grade. Pour un dossier réel, conserver le score, le groupe, le pourcentage de pattern 4 et les architectures défavorables rapportées.",
+        "items": [
+          {"label": "ISUP 1", "detail": "Gleason 3+3 : uniquement du pattern 3 dans le score."},
+          {"label": "ISUP 2", "detail": "Gleason 3+4 : pattern 3 prédominant, composante de pattern 4."},
+          {"label": "ISUP 3", "detail": "Gleason 4+3 : pattern 4 prédominant."},
+          {"label": "ISUP 4", "detail": "Score 8 : notamment 4+4, 3+5 ou 5+3."},
+          {"label": "ISUP 5", "detail": "Scores 9–10 : combinaisons dominées par les patterns 4 et 5."}
+        ]
+      },
       "sections": [
         {
-          "title": "On grade une architecture",
-          "body": "Le système de Gleason évalue la manière dont les cellules tumorales s'organisent en structures glandulaires. Dans la pratique contemporaine, les patterns tumoraux pertinents vont de 3 à 5 : le pattern 3 conserve des glandes individualisées, le pattern 4 comprend notamment des glandes fusionnées, mal formées ou cribriformes, et le pattern 5 perd presque toute différenciation glandulaire."
+          "title": "Pattern 3 : des glandes encore individualisées",
+          "body": "Le pattern 3 conserve des glandes tumorales individualisées qui infiltrent le tissu prostatique. Leur forme peut varier, mais elles gardent une lumière et ne fusionnent pas entre elles. Le diagnostic d'invasion reste morphologique ; une architecture bien différenciée n'est pas synonyme de tissu bénin."
         },
         {
-          "title": "Pourquoi l'ordre compte",
-          "body": "Le score additionne deux patterns selon les règles de prélèvement et de compte rendu. Un 3+4 contient majoritairement du pattern 3 avec une composante 4 ; un 4+3 contient davantage de pattern 4 et appartient donc à un groupe pronostique plus défavorable."
+          "title": "Pattern 4 : plusieurs architectures défavorables",
+          "body": "Le pattern 4 inclut notamment des glandes mal formées, fusionnées, gloméruloïdes ou cribriformes. Ces sous-architectures ne sont pas de simples synonymes et leur reproductibilité peut varier. Le consensus ISUP 2019 soutient le signalement de l'architecture cribriforme invasive et la quantification du pattern 4 sur les biopsies de score 7."
         },
         {
-          "title": "Les cinq groupes ISUP",
-          "body": "ISUP 1 correspond à Gleason 3+3 ; ISUP 2 à 3+4 ; ISUP 3 à 4+3 ; ISUP 4 regroupe notamment 4+4, 3+5 et 5+3 ; ISUP 5 correspond aux scores 9–10. Cette traduction rend plus intuitive la progression du risque."
+          "title": "Pattern 5 : perte de différenciation glandulaire",
+          "body": "Le pattern 5 correspond à des nappes solides, des cordons ou cellules isolées, ou certaines architectures avec comédonécrose, avec perte quasi complète de formation glandulaire. Une composante minoritaire de pattern 5 peut avoir une importance différente selon qu'elle est observée sur biopsie ou sur pièce opératoire ; les règles de compte rendu doivent être respectées plutôt que reconstruites intuitivement."
         },
         {
-          "title": "Ce que le compte rendu doit encore dire",
-          "body": "Le pourcentage de pattern 4, l'architecture cribriforme et le carcinome intracanalaire peuvent apporter une information importante. Une biopsie reste un échantillon : elle peut sous-estimer ou parfois reclasser la maladie par rapport à la pièce opératoire."
+          "title": "Additionner ne suffit pas : l'ordre et le prélèvement comptent",
+          "body": "Un Gleason 3+4=7 contient un pattern 3 prédominant et relève du groupe ISUP 2 ; un 4+3=7 contient davantage de pattern 4 et relève du groupe ISUP 3. Le groupe ISUP 4 correspond au score 8, et le groupe 5 aux scores 9–10. Le pourcentage de pattern 4, l'architecture cribriforme et le carcinome intracanalaire ajoutent des informations que le seul groupe ne doit pas effacer."
+        },
+        {
+          "title": "Biopsie et prostatectomie ne sont pas deux mesures identiques",
+          "body": "Une biopsie échantillonne des sites et peut manquer un foyer plus agressif ; la pièce opératoire examine un volume beaucoup plus large. Les règles d'attribution du score et des patterns mineurs diffèrent selon le type de prélèvement. Une discordance peut refléter l'hétérogénéité et l'échantillonnage ; elle doit être décrite plutôt que réduite à un simple « surclassement » ou « déclassement »."
         }
       ],
-      "causalChain": ["Architecture observée", "Patterns de Gleason", "Score", "Groupe ISUP", "Contribution au groupe de risque"],
-      "commonTrap": "Considérer 3+4 et 4+3 comme deux écritures équivalentes du chiffre 7.",
+      "clinicalLens": {
+        "title": "Que doit-on conserver d'un compte rendu « Gleason 3+4, ISUP 2, 10 % de pattern 4 » ?",
+        "body": "Le groupe ISUP 2 ne suffit pas : garder le score 3+4, la proportion de pattern 4, le site et la quantité de tissu tumoral, ainsi que la présence ou l'absence rapportée d'architecture cribriforme ou de carcinome intracanalaire."
+      },
+      "deepDive": [
+        {
+          "title": "Pourquoi 3+4 et 4+3 divergent-ils alors que la somme vaut 7 ?",
+          "body": "La somme encode aussi la hiérarchie des patterns. Lorsque le pattern 4 domine, la proportion d'architecture défavorable est plus importante ; le groupe ISUP 3 sépare donc 4+3 du groupe ISUP 2 correspondant à 3+4."
+        },
+        {
+          "title": "Cribriforme et intracanalaire : pourquoi les nommer ?",
+          "body": "Ces architectures portent une information défavorable et peuvent influencer l'interprétation du dossier. Le consensus ISUP 2019 demande de rapporter le cribriforme invasif et discute l'intégration du carcinome intracanalaire au grading. Leur présence doit rester visible dans la synthèse, au-delà du groupe ISUP seul."
+        }
+      ],
+      "causalChain": ["Architecture", "Patterns", "Ordre", "Score", "Groupe ISUP", "Risque"],
+      "commonTrap": "Considérer 3+4 et 4+3 comme deux écritures équivalentes du chiffre 7 ou laisser le groupe ISUP effacer le compte rendu détaillé.",
       "checkpoint": {
         "prompt": "Quel groupe ISUP correspond à un Gleason 4+3 ?",
         "options": ["ISUP 1", "ISUP 2", "ISUP 3", "ISUP 5"],
         "answerIndex": 2,
-        "explanation": "Gleason 4+3 correspond au groupe ISUP 3 ; le pattern 4 prédomine."
+        "explanation": "Gleason 4+3 correspond au groupe ISUP 3 ; le pattern 4 prédomine, contrairement au 3+4 classé ISUP 2."
       },
       "flashcards": [
-        {"front": "Gleason 3+4", "back": "Groupe ISUP 2 : pattern 3 prédominant, composante de pattern 4."},
+        {"front": "Gleason 3+4", "back": "Groupe ISUP 2 : pattern 3 prédominant et composante de pattern 4."},
         {"front": "Gleason 4+3", "back": "Groupe ISUP 3 : pattern 4 prédominant."},
         {"front": "ISUP 5", "back": "Scores de Gleason 9–10."}
       ],
       "sources": ["isup_grading_consensus_2019", "eau_prostate_2026"]
     }
-  ]
+  ],
+  "caseStudy": {
+    "id": "prostate_foundations_case_001_dimensions",
+    "title": "Ne pas demander à une donnée de répondre à la place d'une autre",
+    "status": "needs_review",
+    "dataClassification": "synthetic",
+    "vignette": "Homme de 67 ans, symptômes urinaires modérés, prostate estimée à 68 mL, PSA à 8,4 ng/mL sous finastéride depuis neuf mois. L'IRM décrit une lésion périphérique postéro-latérale apicale. Les biopsies montrent un adénocarcinome Gleason 3+4=7, groupe ISUP 2, avec 15 % de pattern 4. Aucun bilan d'extension n'est encore présenté.",
+    "decisionPoints": [
+      "Séparer ce que le volume prostatique et les symptômes suggèrent d'une preuve de cancer.",
+      "Interpréter le PSA en tenant compte du traitement, de l'historique et du contexte de prélèvement.",
+      "Traduire la localisation IRM en voisinages anatomiques sans inventer une extension.",
+      "Conserver score, groupe ISUP et pourcentage de pattern 4.",
+      "Identifier les informations encore manquantes avant tout stade ou groupe de risque complet."
+    ],
+    "expectedReasoning": [
+      "Le volume et les symptômes peuvent être compatibles avec une hyperplasie bénigne, mais les biopsies prouvent séparément un adénocarcinome.",
+      "Le PSA doit être contextualisé par la finastéride, les valeurs antérieures et les conditions du dosage ; il n'est pas interprétable comme un chiffre isolé.",
+      "La lésion périphérique apicale fournit une localisation et des voisinages, mais ni une extension extracapsulaire ni un stade T certain.",
+      "Gleason 3+4=7 correspond à ISUP 2 ; la proportion de pattern 4 reste une information à conserver.",
+      "Le stade anatomique, le groupe de risque et la stratégie thérapeutique demandent des données supplémentaires qui seront structurées dans les blocs suivants."
+    ],
+    "criticalErrors": [
+      "Conclure que l'hyperplasie bénigne explique tout le PSA et annule le cancer prouvé.",
+      "Doubler mécaniquement le PSA sans analyser durée du traitement et contexte.",
+      "Transformer une localisation apicale en extension sphinctérienne certaine.",
+      "Écrire Gleason 7 sans distinguer 3+4 de 4+3 ni conserver le pourcentage de pattern 4.",
+      "Attribuer un stade ou un traitement définitif à partir de ce seul dossier incomplet."
+    ],
+    "checkpoint": {
+      "prompt": "Quelle synthèse respecte le mieux les dimensions déjà disponibles ?",
+      "options": [
+        "HBP certaine ; le volume explique le PSA et exclut un cancer significatif.",
+        "Cancer métastatique certain car le PSA est élevé malgré la finastéride.",
+        "Adénocarcinome prouvé, Gleason 3+4 ISUP 2 avec 15 % de pattern 4 ; PSA à contextualiser sous finastéride ; localisation périphérique apicale sans stade complet disponible.",
+        "pT3 certain car la lésion est apicale et postéro-latérale."
+      ],
+      "answerIndex": 2,
+      "explanation": "La réponse conserve séparément preuve histologique, grade, contexte du PSA et localisation, tout en nommant l'absence de stadification complète."
+    },
+    "sources": ["fine_reuter_prostate_anatomy_2012", "eau_prostate_2026", "isup_grading_consensus_2019"]
+  }
 }

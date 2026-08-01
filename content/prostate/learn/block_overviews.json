@@ -7,14 +7,14 @@
     {
       "blockId": "foundations",
       "title": "Fondations : comprendre l'organe et la maladie",
-      "summary": "Avant de choisir un examen ou un traitement, il faut comprendre où se trouve la prostate, comment elle fonctionne, pourquoi le PSA varie, comment le cancer apparaît et comment le grade traduit son architecture.",
-      "outcomes": ["Situer l'organe et ses zones", "Relier axe androgénique et traitements", "Distinguer PSA, stade, grade et risque"],
+      "summary": "Avant tout examen ou traitement, ce bloc construit une carte mentale de l'organe, du tissu normal, de la dépendance androgénique, du PSA et de l'architecture tumorale. Chaque donnée garde sa question propre avant d'être intégrée au raisonnement clinique.",
+      "outcomes": ["Lire une localisation anatomique et ses voisinages", "Relier axe androgénique, PSA et traitements", "Distinguer preuve, volume, grade, stade et profil moléculaire"],
       "pillars": [
-        {"title": "Structure", "body": "L'anatomie zonale explique une partie des symptômes, des performances de l'imagerie, des voies de biopsie et des contraintes thérapeutiques."},
-        {"title": "Biologie", "body": "L'axe androgénique soutient la physiologie prostatique et reste un moteur majeur de la maladie, sans résumer toute son hétérogénéité."},
-        {"title": "Mesure", "body": "Le PSA renseigne sur l'activité prostatique ; Gleason/ISUP décrit l'architecture tumorale. Aucun de ces paramètres ne remplace les autres."}
+        {"title": "Cartographier", "body": "Base, apex, zones et organes voisins forment un langage commun pour l'IRM, les biopsies, l'anatomopathologie, la chirurgie et la radiothérapie."},
+        {"title": "Expliquer", "body": "L'axe androgénique relie physiologie, sécrétion du PSA, dépendance tumorale et mécanismes de résistance sans réduire la maladie à la testostérone."},
+        {"title": "Séparer puis intégrer", "body": "PSA, volume, architecture, grade, stade et profil moléculaire répondent à des questions différentes ; une synthèse robuste les assemble sans les confondre."}
       ],
-      "commonTrap": "Mémoriser des seuils avant de comprendre ce qu'ils mesurent.",
+      "commonTrap": "Demander à une valeur de PSA, une image ou un groupe ISUP de répondre à la place de toutes les autres dimensions.",
       "checkpoint": {"prompt": "Quel principe doit précéder la stratification ?", "options": ["Un PSA suffit", "Il faut intégrer anatomie, biologie, grade et contexte", "L'IRM donne toujours le diagnostic", "Le stade remplace l'ISUP"], "answerIndex": 1, "explanation": "La décision repose sur des dimensions complémentaires ; aucune donnée isolée ne suffit."},
       "sourceIds": ["fine_reuter_prostate_anatomy_2012", "isup_grading_consensus_2019", "eau_prostate_2026"]
     },

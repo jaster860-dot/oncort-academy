@@ -12,6 +12,25 @@ export type Flashcard = {
   back: string;
 };
 
+export type LessonVisualKind =
+  | "anatomy"
+  | "comparison"
+  | "pathway"
+  | "decision"
+  | "matrix"
+  | "ladder";
+
+export type LessonVisual = {
+  kind: LessonVisualKind;
+  title: string;
+  altText: string;
+  caption: string;
+  items: Array<{
+    label: string;
+    detail: string;
+  }>;
+};
+
 export type Lesson = {
   id: string;
   number: number;
@@ -19,7 +38,11 @@ export type Lesson = {
   title: string;
   durationMinutes: number;
   objectives: string[];
+  keyTakeaways?: string[];
+  visual?: LessonVisual;
   sections: Array<{ title: string; body: string }>;
+  clinicalLens?: { title: string; body: string };
+  deepDive?: Array<{ title: string; body: string }>;
   causalChain: string[];
   commonTrap: string;
   checkpoint: Checkpoint;
@@ -49,6 +72,10 @@ export type LearningDocument = {
   lastUpdated: string;
   estimatedMinutes: number;
   learningPromise: string;
+  evidenceScope?: {
+    provenanceNote: string;
+    anchors: Array<{ sourceId: string; locator: string }>;
+  };
   lessons: Lesson[];
   caseStudy?: IntegrativeCase;
 };

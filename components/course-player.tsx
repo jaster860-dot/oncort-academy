@@ -13,6 +13,7 @@ import {
 import type {
   BlockOverview,
   CourseBlock,
+  LessonVisual as LessonVisualData,
   LearningDocument,
   Source,
 } from "../lib/academy/types";
@@ -208,6 +209,15 @@ export function CoursePlayer({
                 <ul>{lesson.objectives.map((objective) => <li key={objective}>{objective}</li>)}</ul>
               </section>
 
+              {lesson.keyTakeaways && (
+                <section className="lessonEssentials">
+                  <div><span>Lecture 30 secondes</span><strong>L’essentiel avant d’approfondir</strong></div>
+                  <ol>{lesson.keyTakeaways.map((item) => <li key={item}>{item}</li>)}</ol>
+                </section>
+              )}
+
+              {lesson.visual && <LessonVisual visual={lesson.visual} />}
+
               <div className="lessonBody">
                 {lesson.sections.map((section, index) => (
                   <section className="lessonSection" key={section.title}>
@@ -216,6 +226,26 @@ export function CoursePlayer({
                   </section>
                 ))}
               </div>
+
+              {lesson.clinicalLens && (
+                <aside className="clinicalLens">
+                  <span>Application clinique</span>
+                  <h3>{lesson.clinicalLens.title}</h3>
+                  <p>{lesson.clinicalLens.body}</p>
+                </aside>
+              )}
+
+              {lesson.deepDive && (
+                <section className="deepDiveZone">
+                  <div><p className="eyebrow">Pour aller plus loin</p><h3>Nuances à ouvrir pendant l’audit</h3></div>
+                  {lesson.deepDive.map((item) => (
+                    <details key={item.title}>
+                      <summary>{item.title}<span>+</span></summary>
+                      <p>{item.body}</p>
+                    </details>
+                  ))}
+                </section>
+              )}
 
               <section className="causalChain">
                 <p className="eyebrow">La chaîne à comprendre</p>
@@ -310,6 +340,28 @@ export function CoursePlayer({
         </section>
       </div>
     </main>
+  );
+}
+
+function LessonVisual({ visual }: { visual: LessonVisualData }) {
+  return (
+    <figure className={`lessonVisual lessonVisual-${visual.kind}`} aria-label={visual.altText}>
+      <div className="visualHeading">
+        <span>Schéma de compréhension</span>
+        <h3>{visual.title}</h3>
+      </div>
+      <div className="visualCanvas">
+        {visual.items.map((item, index) => (
+          <article className="visualNode" key={`${item.label}-${index}`}>
+            <span>{String(index + 1).padStart(2, "0")}</span>
+            <strong>{item.label}</strong>
+            <small>{item.detail}</small>
+            {index < visual.items.length - 1 && <i aria-hidden="true">→</i>}
+          </article>
+        ))}
+      </div>
+      <figcaption>{visual.caption}</figcaption>
+    </figure>
   );
 }
 
