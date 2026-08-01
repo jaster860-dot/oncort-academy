@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
+  <title id="title">IRM et PI-RADS : localiser une suspicion</title>
+  <desc id="desc">Algorithme en quatre étapes reliant une acquisition IRM de qualité, la localisation et la catégorie PI-RADS, l'intégration du risque clinique et la stratégie de biopsie.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#52606d"/>
+    </marker>
+    <style>
+      .title{font:700 44px ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;fill:#172033}
+      .step{font:700 22px ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;fill:#172033}
+      .body{font:500 20px ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;fill:#334155}
+      .note{font:650 20px ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;fill:#172033}
+      .footer{font:650 22px ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;fill:#172033}
+      .edge{fill:none;stroke:#52606d;stroke-width:5;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <rect width="1376" height="768" fill="#fbf7ed"/>
+  <text x="688" y="74" text-anchor="middle" class="title">IRM et PI-RADS : localiser une suspicion</text>
+
+  <!-- Connectors are drawn before nodes so arrowheads remain behind the boxes. -->
+  <path class="edge" d="M342 310 H382"/>
+  <path class="edge" d="M674 310 H714"/>
+  <path class="edge" d="M1006 310 H1046"/>
+
+  <g>
+    <rect x="50" y="176" width="292" height="268" rx="24" fill="#dceef2" stroke="#147d88" stroke-width="3"/>
+    <circle cx="82" cy="206" r="22" fill="#147d88"/>
+    <text x="82" y="214" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="21" font-weight="700" fill="#fff">1</text>
+    <text x="200" y="216" text-anchor="middle" class="step">
+      <tspan x="200" dy="0">Acquisition de</tspan>
+      <tspan x="200" dy="28">qualité</tspan>
+    </text>
+    <line x1="82" y1="272" x2="310" y2="272" stroke="#8abdc3" stroke-width="2"/>
+    <text x="196" y="312" text-anchor="middle" class="body">T2</text>
+    <text x="196" y="354" text-anchor="middle" class="body">Diffusion</text>
+    <text x="196" y="396" text-anchor="middle" class="body">Perfusion si indiquée</text>
+  </g>
+
+  <g>
+    <rect x="382" y="176" width="292" height="268" rx="24" fill="#dbeafe" stroke="#2563a6" stroke-width="3"/>
+    <circle cx="414" cy="206" r="22" fill="#2563a6"/>
+    <text x="414" y="214" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="21" font-weight="700" fill="#fff">2</text>
+    <text x="532" y="216" text-anchor="middle" class="step">
+      <tspan x="532" dy="0">Localisation</tspan>
+      <tspan x="532" dy="28">+ catégorie PI-RADS</tspan>
+    </text>
+    <line x1="414" y1="272" x2="642" y2="272" stroke="#9dbfe8" stroke-width="2"/>
+    <text x="528" y="338" text-anchor="middle" class="body">Suspicion radiologique</text>
+    <text x="528" y="382" text-anchor="middle" class="body">standardisée</text>
+  </g>
+
+  <g>
+    <rect x="714" y="176" width="292" height="268" rx="24" fill="#feebc8" stroke="#d97706" stroke-width="3"/>
+    <circle cx="746" cy="206" r="22" fill="#d97706"/>
+    <text x="746" y="214" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="21" font-weight="700" fill="#fff">3</text>
+    <text x="864" y="224" text-anchor="middle" class="step">Risque intégré</text>
+    <line x1="746" y1="272" x2="974" y2="272" stroke="#e7b46c" stroke-width="2"/>
+    <text x="860" y="312" text-anchor="middle" class="body">PSA • densité</text>
+    <text x="860" y="354" text-anchor="middle" class="body">Examen • antécédents</text>
+    <text x="860" y="396" text-anchor="middle" class="body">Qualité de lecture</text>
+  </g>
+
+  <g>
+    <rect x="1046" y="176" width="280" height="268" rx="24" fill="#e6e8eb" stroke="#52606d" stroke-width="3"/>
+    <circle cx="1078" cy="206" r="22" fill="#52606d"/>
+    <text x="1078" y="214" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="21" font-weight="700" fill="#fff">4</text>
+    <text x="1192" y="216" text-anchor="middle" class="step">
+      <tspan x="1192" dy="0">Stratégie</tspan>
+      <tspan x="1192" dy="28">de biopsie</tspan>
+    </text>
+    <line x1="1078" y1="272" x2="1294" y2="272" stroke="#aab2bc" stroke-width="2"/>
+    <text x="1186" y="338" text-anchor="middle" class="body">Décision contextualisée</text>
+    <text x="1186" y="382" text-anchor="middle" class="body">non dictée par</text>
+    <text x="1186" y="416" text-anchor="middle" class="body">l’image seule</text>
+  </g>
+
+  <g>
+    <rect x="142" y="500" width="442" height="76" rx="18" fill="#fff3d6" stroke="#d97706" stroke-width="2"/>
+    <text x="363" y="547" text-anchor="middle" class="note">IRM positive ≠ cancer certain</text>
+    <rect x="792" y="500" width="442" height="76" rx="18" fill="#fff3d6" stroke="#d97706" stroke-width="2"/>
+    <text x="1013" y="547" text-anchor="middle" class="note">IRM négative ≠ risque nul</text>
+  </g>
+
+  <rect x="178" y="628" width="1020" height="76" rx="18" fill="#dceef2" stroke="#147d88" stroke-width="2"/>
+  <text x="688" y="675" text-anchor="middle" class="footer">PI-RADS n’est ni un groupe ISUP ni un stade métastatique</text>
+</svg>

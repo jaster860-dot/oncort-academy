@@ -2,10 +2,10 @@
   "id": "prostate_detection_diagnosis",
   "blockId": "detection_diagnosis",
   "title": "Prostate — de la suspicion à la preuve",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "status": "needs_review",
   "lastUpdated": "2026-08-01",
-  "estimatedMinutes": 84,
+  "estimatedMinutes": 106,
   "learningPromise": "À la fin de ce bloc, l'apprenant peut interpréter un PSA dans son contexte, expliquer le rôle de l'IRM, construire une stratégie de biopsie et extraire les informations décisionnelles d'un compte rendu anatomopathologique.",
   "evidenceScope": {
     "provenanceNote": "Synthèse éducative France-first puis européenne. Les pages publiques officielles ont été consultées le 2026-08-01 ; toutes les formulations et le cas restent needs_review jusqu'à vérification des passages par un clinicien identifié.",
@@ -35,6 +35,24 @@
         "Identifier les facteurs qui modifient le risque initial.",
         "Éviter une cascade automatique à partir d'une valeur isolée."
       ],
+      "keyTakeaways": [
+        "Le premier choix n'est pas un seuil de PSA mais l'intention clinique : détecter tôt, diagnostiquer une anomalie ou suivre une maladie connue.",
+        "Le risque prétest associe terrain, antécédents, horizon de santé et préférences ; l'âge seul ne décide pas.",
+        "Un dosage pertinent suppose d'avoir anticipé avec le patient les conséquences possibles d'un résultat normal, intermédiaire ou préoccupant."
+      ],
+      "visual": {
+        "kind": "decision",
+        "title": "Choisir le parcours avant de choisir le test",
+        "imageSrc": "/figures/prostate/detection-diagnosis/01-intention-avant-psa.png",
+        "altText": "Algorithme distinguant détection précoce chez un homme asymptomatique informé, diagnostic devant un symptôme ou une anomalie et surveillance d'une maladie déjà connue, puis intégrant risque individuel, horizon de santé et préférences avant le PSA.",
+        "caption": "L'intention clinique détermine la population, le bénéfice attendu et la conduite après le résultat. Ce schéma ne définit pas un âge ou un seuil automatique de dépistage.",
+        "items": [
+          {"label": "Détection précoce", "detail": "Asymptomatique, informé, bénéfice potentiel plausible."},
+          {"label": "Diagnostic", "detail": "Symptôme, anomalie clinique ou biologique à expliquer."},
+          {"label": "Surveillance", "detail": "Maladie déjà connue, question de suivi distincte."},
+          {"label": "Parcours anticipé", "detail": "Risque, horizon de santé, préférences et conséquences du résultat."}
+        ]
+      },
       "sections": [
         {
           "title": "Partir du risque, pas du tube",
@@ -47,7 +65,23 @@
         {
           "title": "Décider avec le patient",
           "body": "Avant le dosage, il faut expliquer bénéfice possible, faux positifs, examens secondaires, surdiagnostic et options si un cancer est découvert. Le consentement porte sur le parcours, pas uniquement sur la prise de sang."
+        },
+        {
+          "title": "Un résultat n'a de valeur que dans une stratégie",
+          "body": "Un PSA bas, intermédiaire ou élevé ne conduit pas mécaniquement à la même action chez tous les hommes. La décision ultérieure dépendra de l'examen clinique, de l'évolution antérieure, du risque individuel, de la possibilité d'une IRM ou d'une biopsie et de ce que le patient souhaite faire de l'information. Commencer sans stratégie expose à une succession d'examens dont personne n'a discuté la finalité."
+        },
+        {
+          "title": "Absence de symptôme ne signifie ni absence de risque ni obligation de rechercher",
+          "body": "Les cancers localisés sont souvent asymptomatiques, alors que les symptômes urinaires sont fréquemment liés à des causes bénignes. L'absence de symptôme ne suffit donc pas à exclure une maladie ; inversement, elle ne crée pas une indication universelle de dépistage. La démarche reste individualisée et proportionnée au bénéfice plausible."
         }
+      ],
+      "clinicalLens": {
+        "title": "Que faut-il décider avant de prescrire le dosage ?",
+        "body": "Il faut nommer l'intention, estimer si une détection utile est plausible, expliquer les faux positifs et le surdiagnostic, puis convenir de la façon dont un résultat préoccupant serait exploré. Le prélèvement sanguin vient après cette préparation, pas avant."
+      },
+      "deepDive": [
+        {"title": "Pourquoi l'horizon de santé compte-t-il autant que le risque de cancer ?", "body": "Un diagnostic précoce n'est utile que si le patient peut raisonnablement bénéficier de la connaissance et, le cas échéant, d'une intervention. Comorbidités, autonomie et préférences modifient le bénéfice absolu sans transformer l'âge civil en règle automatique."},
+        {"title": "Pourquoi parler de surdiagnostic avant le PSA ?", "body": "Le parcours peut découvrir une tumeur qui n'aurait jamais causé de symptôme. Cette possibilité influence l'acceptabilité des examens secondaires et la capacité à choisir ensuite une surveillance plutôt qu'un traitement immédiat."}
       ],
       "causalChain": ["Risque individuel", "Décision informée", "PSA et examen clinique", "IRM/biopsie si pertinent"],
       "commonTrap": "Prescrire un PSA sans avoir réfléchi à ce que l'on ferait d'un résultat anormal.",
@@ -74,6 +108,26 @@
         "Rechercher les causes de variation et confirmer lorsque pertinent.",
         "Comprendre densité et cinétique sans en faire des diagnostics autonomes."
       ],
+      "keyTakeaways": [
+        "Le PSA est un signal d'activité prostatique : il modifie une probabilité, il ne nomme pas la cause.",
+        "Avant toute escalade, vérifier symptômes, infection, rétention, instrumentation, traitements, laboratoire et valeurs antérieures.",
+        "Répétition standardisée, densité et cinétique affinent le risque mais ne remplacent jamais la synthèse clinique, l'IRM ou l'histologie."
+      ],
+      "visual": {
+        "kind": "matrix",
+        "title": "Le PSA au centre d'un contexte biologique et clinique",
+        "imageSrc": "/figures/prostate/detection-diagnosis/02-psa-contextualise.png",
+        "altText": "Carte plaçant le PSA mesuré au centre de facteurs de variation bénins ou contextuels, puis conduisant vers vérification des conditions, répétition standardisée si pertinente et estimation intégrée du risque.",
+        "caption": "Les facteurs représentés peuvent modifier la valeur ou son interprétation ; aucun n'explique automatiquement le résultat et aucun PSA isolé ne prouve un cancer.",
+        "items": [
+          {"label": "Volume et hyperplasie", "detail": "Plus de tissu prostatique peut augmenter le signal."},
+          {"label": "Inflammation ou infection", "detail": "Contexte clinique et délai de normalisation à analyser."},
+          {"label": "Rétention ou instrumentation", "detail": "Événements récents pouvant perturber le dosage."},
+          {"label": "Traitements", "detail": "Les inhibiteurs de la 5-alpha-réductase modifient la valeur attendue."},
+          {"label": "Variabilité et laboratoire", "detail": "Comparer dans des conditions et avec une méthode cohérentes."},
+          {"label": "Histoire du patient", "detail": "Valeurs antérieures, examen clinique et risque prétest."}
+        ]
+      },
       "sections": [
         {
           "title": "Un marqueur d'activité prostatique",
@@ -86,7 +140,23 @@
         {
           "title": "Densité et cinétique",
           "body": "La densité rapporte le PSA au volume prostatique ; la cinétique décrit une évolution temporelle. Elles affinent la probabilité mais ne remplacent ni l'IRM, ni l'examen clinique, ni l'histologie lorsque celle-ci est indiquée."
+        },
+        {
+          "title": "Les traitements peuvent déplacer le repère",
+          "body": "La production de PSA dépend notamment de la signalisation androgénique. Les inhibiteurs de la 5-alpha-réductase utilisés pour l'hyperplasie réduisent habituellement la concentration mesurée ; l'interprétation doit intégrer la molécule, la durée d'exposition et la trajectoire antérieure plutôt que d'appliquer une correction aveugle à toute situation."
+        },
+        {
+          "title": "Confirmer n'est pas retarder sans raison",
+          "body": "Lorsque le contexte clinique le permet, répéter dans le même laboratoire et dans des conditions standardisées teste la reproductibilité du signal. Une forte anomalie clinique, une infection symptomatique ou une situation urgente suit une autre logique. La répétition est une étape conditionnelle du raisonnement, pas une règle destinée à rassurer artificiellement."
         }
+      ],
+      "clinicalLens": {
+        "title": "PSA nouvellement élevé : quelle est la première question utile ?",
+        "body": "Avant de calculer un risque ou de demander une biopsie, vérifier si la valeur est interprétable : circonstances du prélèvement, infection ou rétention, gestes récents, traitements, laboratoire, volume et historique. La décision d'une répétition ou d'une exploration immédiate vient ensuite."
+      },
+      "deepDive": [
+        {"title": "Pourquoi la densité ne peut-elle pas être un diagnostic ?", "body": "Elle combine une concentration biologique et une estimation de volume, chacune avec sa variabilité. Elle déplace le risque prétest mais ne prouve ni la présence ni l'absence d'une architecture tumorale significative."},
+        {"title": "Pourquoi une cinétique apparemment rapide peut-elle tromper ?", "body": "Peu de mesures, des laboratoires différents, un événement inflammatoire ou une modification thérapeutique peuvent créer une pente artificielle. La chronologie et les conditions de mesure doivent être lisibles avant toute conclusion."}
       ],
       "causalChain": ["PSA mesuré", "Contexte et confirmation", "Probabilité affinée", "Décision d'IRM ou de surveillance"],
       "commonTrap": "Transformer un seuil de PSA en diagnostic de cancer.",
@@ -113,6 +183,25 @@
         "Interpréter PI-RADS comme catégorie de suspicion.",
         "Expliquer les limites d'une IRM positive ou négative."
       ],
+      "keyTakeaways": [
+        "L'IRM pré-biopsique localise une suspicion et organise l'échantillonnage ; elle n'établit pas à elle seule le diagnostic histologique.",
+        "PI-RADS standardise la suspicion d'un cancer cliniquement significatif sur une IRM de qualité, avec une lecture dépendante de la zone.",
+        "Une IRM positive n'est pas une preuve et une IRM négative n'est pas un risque nul : la densité de PSA, le terrain et la qualité de l'examen restent décisifs."
+      ],
+      "visual": {
+        "kind": "comparison",
+        "title": "De l'acquisition IRM à une décision de biopsie contextualisée",
+        "imageSrc": "/figures/prostate/detection-diagnosis/03-irm-pirads.svg",
+        "altText": "Schéma en trois étapes montrant une IRM prostatique de qualité, la localisation d'une lésion et sa catégorie PI-RADS, puis une décision de biopsie intégrant densité de PSA et risque clinique, avec les rappels qu'une IRM positive n'est pas un cancer certain et qu'une IRM négative n'annule pas le risque.",
+        "caption": "PI-RADS appartient au langage radiologique. Le groupe ISUP appartient à l'histologie et le stade d'extension à une autre dimension du dossier.",
+        "items": [
+          {"label": "Acquisition de qualité", "detail": "Anatomie T2, diffusion et séquences adaptées au protocole."},
+          {"label": "Localisation", "detail": "Zone, secteur, taille et rapports de la lésion."},
+          {"label": "Catégorie PI-RADS", "detail": "Niveau standardisé de suspicion radiologique."},
+          {"label": "Risque intégré", "detail": "PSA, densité, examen, antécédents et qualité de lecture."},
+          {"label": "Stratégie de prélèvement", "detail": "Décision contextualisée, non dictée par l'image seule."}
+        ]
+      },
       "sections": [
         {
           "title": "Une carte avant les prélèvements",
@@ -125,7 +214,23 @@
         {
           "title": "Les deux erreurs symétriques",
           "body": "Une lésion très suspecte peut être bénigne à l'histologie ou avoir été mal échantillonnée. Une IRM négative réduit le risque sans l'annuler, surtout si la densité de PSA, l'examen clinique ou le terrain restent préoccupants."
+        },
+        {
+          "title": "La qualité précède la catégorie",
+          "body": "La valeur de PI-RADS dépend d'une acquisition conforme, d'une interprétation entraînée et d'une localisation exploitable. Artéfacts, inflammation, hyperplasie, cicatrice ou hémorragie peuvent compliquer la lecture. Une catégorie ne doit pas masquer les limites techniques décrites dans le compte rendu ni empêcher une relecture si le dossier est discordant."
+        },
+        {
+          "title": "Une image doit pouvoir rejoindre la pathologie",
+          "body": "La cible doit être nommée de manière suffisamment précise pour guider le prélèvement et permettre ensuite une concordance radio-pathologique. Si une lésion très suspecte donne des biopsies bénignes, la question devient celle de la qualité du ciblage, de l'échantillonnage et des lectures, pas celle d'un verdict à choisir entre radiologie et anatomopathologie."
         }
+      ],
+      "clinicalLens": {
+        "title": "PI-RADS 5 signifie-t-il cancer agressif prouvé ?",
+        "body": "Non. Il exprime une forte suspicion radiologique de cancer cliniquement significatif dans une lésion localisée. Le type histologique, le grade et la stratégie thérapeutique nécessitent la preuve et la synthèse des autres dimensions du dossier."
+      },
+      "deepDive": [
+        {"title": "Pourquoi la zone prostatique modifie-t-elle la lecture ?", "body": "La séquence dominante et les diagnostics différentiels ne sont pas identiques en zone périphérique et en zone transitionnelle. Le lecteur combine architecture zonale, signal et diffusion plutôt qu'un aspect isolé."},
+        {"title": "Pourquoi la valeur prédictive d'une IRM change-t-elle selon la population ?", "body": "À performance technique identique, la probabilité après le test dépend de la fréquence de maladie significative avant l'examen. Une IRM négative est donc moins rassurante lorsque le risque prétest reste élevé."}
       ],
       "causalChain": ["Suspicion clinique", "IRM de qualité", "Catégorie PI-RADS", "Stratégie de biopsie contextualisée"],
       "commonTrap": "Lire PI-RADS comme un équivalent radiologique du groupe ISUP.",
@@ -152,6 +257,25 @@
         "Comprendre l'intérêt de la voie transpérinéale.",
         "Analyser un résultat négatif discordant avec une forte suspicion."
       ],
+      "keyTakeaways": [
+        "Le ciblage teste la lésion visible ; les prélèvements péri-lésionnels ou systématisés explorent le risque hors cible et la multifocalité.",
+        "La voie d'abord modifie notamment le profil infectieux, l'accès anatomique, l'anesthésie et l'organisation du geste.",
+        "Une biopsie négative répond seulement à la qualité et aux territoires réellement échantillonnés ; toute discordance persistante doit être auditée."
+      ],
+      "visual": {
+        "kind": "pathway",
+        "title": "Une biopsie est une stratégie d'échantillonnage",
+        "imageSrc": "/figures/prostate/detection-diagnosis/04-strategie-biopsie.png",
+        "altText": "Schéma d'une prostate avec cible IRM distinguant prélèvements ciblés, péri-lésionnels et systématisés, comparant les trajets transpérinéal et transrectal puis reliant le geste à la concordance radio-pathologique.",
+        "caption": "La représentation montre des fonctions complémentaires, pas un schéma universel de prélèvement. Le protocole dépend du contexte, du référentiel et de l'expertise locale.",
+        "items": [
+          {"label": "Cible IRM", "detail": "Localisation à tester avec précision."},
+          {"label": "Prélèvements ciblés", "detail": "Échantillonner le foyer identifié."},
+          {"label": "Péri-lésionnel ou systématisé", "detail": "Explorer le risque voisin et hors cible."},
+          {"label": "Voie d'abord", "detail": "Accès, infection, anesthésie et régions atteignables."},
+          {"label": "Concordance", "detail": "Le résultat explique-t-il réellement l'image et le risque ?"}
+        ]
+      },
       "sections": [
         {
           "title": "Deux informations complémentaires",
@@ -164,7 +288,23 @@
         {
           "title": "Négatif ne veut pas toujours dire absent",
           "body": "Un résultat bénin peut être concordant avec le nouveau risque ou traduire une cible manquée, une fusion imprécise ou un échantillonnage insuffisant. La décision de surveillance, relecture ou nouvelle biopsie dépend de la concordance globale."
+        },
+        {
+          "title": "Le schéma doit répondre à la question clinique",
+          "body": "Première biopsie, biopsies antérieures négatives, lésion antérieure ou petite cible n'imposent pas la même stratégie. Le nombre et la distribution des prélèvements doivent rester traçables par lésion et par territoire afin que l'anatomopathologiste et la RCP sachent ce qui a réellement été testé."
+        },
+        {
+          "title": "Auditer une discordance avant de répéter le même geste",
+          "body": "Une discordance importante conduit à vérifier acquisition et lecture de l'IRM, enregistrement ou ciblage, trajet des aiguilles, nombre de carottes, identification des sites, qualité tissulaire et lecture anatomopathologique. Répéter sans identifier le maillon fragile reproduit potentiellement la même erreur."
         }
+      ],
+      "clinicalLens": {
+        "title": "PI-RADS très suspect et biopsies bénignes : que faut-il faire d'abord ?",
+        "body": "Reconstruire la chaîne complète et la concordance : qualité et localisation IRM, technique de ciblage, territoires réellement prélevés, qualité des carottes et compte rendu. Le risque résiduel guide ensuite relecture, surveillance ou nouvelle biopsie."
+      },
+      "deepDive": [
+        {"title": "Pourquoi la voie transpérinéale est-elle souvent privilégiée ?", "body": "Elle évite le passage de l'aiguille à travers la muqueuse rectale et offre un accès direct à plusieurs régions, avec une organisation anesthésique propre. Ce bénéfice ne dispense ni d'asepsie ni d'une stratégie de prélèvement rigoureuse."},
+        {"title": "Pourquoi plus de carottes n'est-il pas toujours mieux ?", "body": "L'utilité dépend de la distribution et de la question posée. Un échantillonnage redondant augmente la charge sans corriger nécessairement un mauvais ciblage ; la qualité et la cartographie priment sur un nombre isolé."}
       ],
       "causalChain": ["Cible et risque résiduel", "Choix de voie et schéma", "Qualité des prélèvements", "Concordance radio-pathologique"],
       "commonTrap": "Considérer une biopsie négative comme une preuve absolue, même lorsque l'IRM et la biologie restent fortement discordantes.",
@@ -191,6 +331,25 @@
         "Relever quantité et répartition de la tumeur.",
         "Reconnaître les architectures et informations qui modifient le risque."
       ],
+      "keyTakeaways": [
+        "Le compte rendu doit permettre de reconstruire type tumoral, grade, quantité et territoire de chaque information utile.",
+        "Gleason et groupe ISUP résument l'architecture ; ils ne remplacent ni le volume échantillonné, ni le stade, ni les autres caractéristiques défavorables.",
+        "Pour un score 7, le pourcentage de pattern 4, le cribriforme ou l'intracanalaire et la concordance par cible peuvent modifier la lecture clinique."
+      ],
+      "visual": {
+        "kind": "matrix",
+        "title": "Lire un compte rendu sans perdre une dimension",
+        "imageSrc": "/figures/prostate/detection-diagnosis/05-carte-anatomopathologique.png",
+        "altText": "Carte décisionnelle d'un compte rendu de biopsies prostatiques avec cinq rubriques : type histologique, Gleason et groupe ISUP, pourcentage de pattern 4, quantité et répartition tumorales, architecture cribriforme ou intracanalaire et autres extensions décrites, toutes reliées à la synthèse radio-clinico-pathologique.",
+        "caption": "Le compte rendu décrit l'échantillon reçu. La synthèse doit conserver la provenance par cible et par site sans transformer la charge biopsique en volume tumoral total.",
+        "items": [
+          {"label": "Type histologique", "detail": "Acinaire, variante ou différenciation particulière."},
+          {"label": "Gleason et ISUP", "detail": "Architecture primaire, secondaire et groupe."},
+          {"label": "Pattern 4", "detail": "Proportion à conserver lorsque pertinente."},
+          {"label": "Quantité et répartition", "detail": "Carottes, longueur ou pourcentage et sites atteints."},
+          {"label": "Signaux associés", "detail": "Cribriforme, intracanalaire, extension ou invasion décrite."}
+        ]
+      },
       "sections": [
         {
           "title": "Nommer la maladie",
@@ -203,7 +362,23 @@
         {
           "title": "Signaux défavorables",
           "body": "Architecture cribriforme, carcinome intracanalaire et proportions de patterns élevés peuvent apporter une information défavorable. Elles doivent être lues avec le reste du dossier et selon les standards de compte rendu."
+        },
+        {
+          "title": "La provenance par site rend le résultat interprétable",
+          "body": "Une carotte ciblée et une carotte systématisée ne répondent pas exactement à la même question. Le repérage par lésion, côté ou secteur permet de comparer l'histologie à l'IRM, d'identifier une discordance et d'estimer la distribution échantillonnée. Une agrégation sans provenance peut masquer une cible non expliquée."
+        },
+        {
+          "title": "Le compte rendu décrit l'échantillon, pas toute la prostate",
+          "body": "La longueur tumorale et le nombre de carottes positives mesurent ce qui a été prélevé. Ils contribuent à l'estimation de charge mais ne constituent pas une mesure directe du volume tumoral total. La stratégie finale associe ces données au PSA, à l'IRM, au stade clinique et au contexte du patient."
         }
+      ],
+      "clinicalLens": {
+        "title": "Que perd-on en résumant le dossier par « ISUP 2 » ?",
+        "body": "On peut perdre le score 3+4, la proportion de pattern 4, l'architecture cribriforme ou intracanalaire, la quantité tumorale, la distribution par cible et la concordance avec l'IRM. Le groupe reste essentiel mais n'est qu'une ligne de la carte décisionnelle."
+      },
+      "deepDive": [
+        {"title": "Pourquoi distinguer cribriforme invasif et carcinome intracanalaire ?", "body": "Ces architectures ont des définitions et implications propres et nécessitent une identification anatomopathologique rigoureuse. La synthèse éducative doit conserver le libellé du compte rendu sans les fusionner ni les déduire d'un groupe ISUP."},
+        {"title": "Pourquoi une relecture peut-elle être utile ?", "body": "Une discordance majeure, une variante rare ou une architecture susceptible de modifier la stratégie peut justifier une expertise dédiée. La relecture vérifie l'interprétation du matériel disponible ; elle ne corrige pas un territoire qui n'a pas été prélevé."}
       ],
       "causalChain": ["Type histologique", "Architecture et groupe ISUP", "Charge échantillonnée", "Risque et stratégie"],
       "commonTrap": "Ne retenir que le groupe ISUP en ignorant répartition, quantité, cribriforme/intracanalaire et concordance avec l'IRM.",

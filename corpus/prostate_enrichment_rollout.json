@@ -1,0 +1,68 @@
+{
+  "project": "oncort_academy_prostate_layered_visual_rollout",
+  "status": "in_progress",
+  "startedAt": "2026-08-01",
+  "updatedAt": "2026-08-01",
+  "currentBlock": "staging_risk_biomarkers",
+  "releaseGate": "Every block and every clinical figure remains needs_review until named clinician validation.",
+  "standard": {
+    "keyTakeawaysPerLesson": 3,
+    "requiredLayers": [
+      "30-second synthesis",
+      "detailed clinical reasoning",
+      "expandable evidence or controversy"
+    ],
+    "requiredTeachingElements": [
+      "generated scientific figure, schematic or algorithm when it improves understanding",
+      "clinical application",
+      "common trap",
+      "checkpoint",
+      "flashcards",
+      "source traceability",
+      "alt text and textual fallback"
+    ],
+    "figureStyle": {
+      "aspectRatio": "16:9",
+      "resolution": "1376x768 or higher",
+      "palette": "colorblind-safe teal, blue, orange and charcoal",
+      "background": "warm ivory",
+      "language": "French",
+      "minimumQualityScore": 7.5,
+      "manualReviewRequired": true
+    },
+    "verification": [
+      "content validation",
+      "unit tests",
+      "TypeScript",
+      "production build",
+      "Playwright journeys",
+      "desktop and mobile visual audit"
+    ]
+  },
+  "summary": {
+    "blocks": 15,
+    "lessons": 91,
+    "completedBlocks": 2,
+    "completedLessons": 13,
+    "completedFigures": 13,
+    "remainingBlocks": 13,
+    "remainingLessons": 78
+  },
+  "blocks": [
+    {"number": 1, "id": "foundations", "lessons": 8, "status": "completed", "figures": 8},
+    {"number": 2, "id": "detection_diagnosis", "lessons": 5, "status": "completed", "figures": 5},
+    {"number": 3, "id": "staging_risk_biomarkers", "lessons": 6, "status": "in_progress", "figures": 0},
+    {"number": 4, "id": "deferred_management", "lessons": 5, "status": "pending", "figures": 0},
+    {"number": 5, "id": "localized_curative_options", "lessons": 5, "status": "pending", "figures": 0},
+    {"number": 6, "id": "definitive_radiotherapy", "lessons": 7, "status": "pending", "figures": 0},
+    {"number": 7, "id": "radiotherapy_planning", "lessons": 6, "status": "pending", "figures": 0},
+    {"number": 8, "id": "postprostatectomy_recurrence", "lessons": 6, "status": "pending", "figures": 0},
+    {"number": 9, "id": "postradiotherapy_and_oligorecurrence", "lessons": 4, "status": "pending", "figures": 0},
+    {"number": 10, "id": "high_risk_and_cn1", "lessons": 5, "status": "pending", "figures": 0},
+    {"number": 11, "id": "systemic_therapy_foundations", "lessons": 5, "status": "pending", "figures": 0},
+    {"number": 12, "id": "hormone_sensitive_and_nmcrpc", "lessons": 5, "status": "pending", "figures": 0},
+    {"number": 13, "id": "mcrpc_precision_palliation", "lessons": 11, "status": "pending", "figures": 0},
+    {"number": 14, "id": "complex_special_situations", "lessons": 5, "status": "pending", "figures": 0},
+    {"number": 15, "id": "followup_survivorship", "lessons": 8, "status": "pending", "figures": 0}
+  ]
+}

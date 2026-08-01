@@ -1,0 +1,18 @@
+{
+  "figure": "/figures/prostate/detection-diagnosis/03-irm-pirads.svg",
+  "generator": "diagram-maker clean-svg",
+  "reviewedAt": "2026-08-01",
+  "status": "passed_manual_review",
+  "checks": {
+    "matchesBrief": true,
+    "frenchLabelsVerified": true,
+    "noUnrequestedThresholds": true,
+    "noPrescriptiveBiopsyRule": true,
+    "colorblindSafeSemanticPalette": true,
+    "desktopRendered": true,
+    "mobileRendered": true,
+    "noHorizontalOverflow": true,
+    "textFallbackPresent": true
+  },
+  "note": "The first bitmap proposals were rejected during manual clinical review because they added unrequested PI-RADS details and a prescriptive biopsy strategy. The accepted vector version deliberately limits itself to the four-step reasoning chain in the approved brief."
+}

@@ -33,3 +33,16 @@ test("the foundations pilot exposes layered content and an accessible visual on 
   await expect(page.locator(".lessonVisual-anatomy .visualNode")).toHaveCount(6);
   await expect(page.evaluate(() => document.documentElement.scrollWidth)).resolves.toBe(390);
 });
+
+test("the detection and diagnosis block exposes its generated figures without mobile overflow", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto("/parcours/prostate/detection_diagnosis");
+  await page.getByRole("button", { name: /Commencer la première leçon/i }).click();
+
+  await expect(page.getByText("Lecture 30 secondes")).toBeVisible();
+  await expect(page.locator(".lessonVisualImage")).toBeVisible();
+  await expect(page.locator(".lessonVisualImage")).toHaveAttribute("src", /01-intention-avant-psa\.png$/);
+  await expect(page.getByText("Application clinique")).toBeVisible();
+  await expect(page.getByText("Nuances à ouvrir pendant l’audit")).toBeVisible();
+  await expect(page.evaluate(() => document.documentElement.scrollWidth)).resolves.toBe(390);
+});
