@@ -26,7 +26,10 @@ test("the foundations pilot exposes layered content and an accessible visual on 
 
   await expect(page.getByText("Lecture 30 secondes")).toBeVisible();
   await expect(page.getByRole("figure", { name: /Schéma sagittal simplifié/i })).toBeVisible();
+  await expect(page.locator(".lessonVisualImage")).toBeVisible();
+  await expect(page.locator(".lessonVisualImage")).toHaveAttribute("src", /01-anatomie-prostatique\.png$/);
   await expect(page.getByText("Application clinique")).toBeVisible();
   await expect(page.getByText("Nuances à ouvrir pendant l’audit")).toBeVisible();
   await expect(page.locator(".lessonVisual-anatomy .visualNode")).toHaveCount(6);
+  await expect(page.evaluate(() => document.documentElement.scrollWidth)).resolves.toBe(390);
 });

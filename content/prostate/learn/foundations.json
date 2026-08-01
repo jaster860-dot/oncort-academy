@@ -51,6 +51,7 @@
       "visual": {
         "kind": "anatomy",
         "title": "La prostate au centre d'un carrefour pelvien",
+        "imageSrc": "/figures/prostate/foundations/01-anatomie-prostatique.png",
         "altText": "Schéma sagittal simplifié montrant la vessie au-dessus de la prostate, l'urètre qui traverse la glande, le rectum en arrière, les vésicules séminales en haut et en arrière et le plancher pelvien sous l'apex.",
         "caption": "Schéma relationnel simplifié, non à l'échelle et non destiné au contourage. Il sert à mémoriser les voisinages avant l'étude des coupes IRM.",
         "items": [
@@ -132,6 +133,7 @@
       "visual": {
         "kind": "comparison",
         "title": "Du tissu organisé à l'infiltration tumorale",
+        "imageSrc": "/figures/prostate/foundations/02-histologie-comparaison.png",
         "altText": "Comparaison schématique entre une glande prostatique bénigne avec couche basale conservée et des glandes d'adénocarcinome infiltrantes sans couche basale identifiable.",
         "caption": "Schéma conceptuel, pas une lame diagnostique. La morphologie réelle et l'interprétation par un anatomopathologiste restent indispensables.",
         "items": [
@@ -204,6 +206,7 @@
       "visual": {
         "kind": "pathway",
         "title": "La voie androgénique et ses niveaux d'intervention",
+        "imageSrc": "/figures/prostate/foundations/03-axe-androgenique.png",
         "altText": "Chaîne allant de l'hypothalamus à la GnRH, à l'hypophyse et la LH, au testicule et la testostérone, à la DHT prostatique, au récepteur aux androgènes puis à la transcription génique.",
         "caption": "Vue fonctionnelle simplifiée. Les précurseurs surrénaliens et la synthèse intratumorale créent des apports supplémentaires qui deviennent importants dans la maladie avancée.",
         "items": [
@@ -280,6 +283,7 @@
       "visual": {
         "kind": "decision",
         "title": "De la valeur isolée à une décision traçable",
+        "imageSrc": "/figures/prostate/foundations/04-algorithme-psa.png",
         "altText": "Algorithme pédagogique allant du résultat de PSA à la vérification du contexte, à une répétition standardisée si indiquée, à l'estimation du risque puis à l'IRM ou aux biopsies selon le dossier.",
         "caption": "Algorithme de compréhension, pas une prescription individuelle. Les seuils et délais doivent être rattachés au référentiel et au contexte clinique.",
         "items": [
@@ -360,6 +364,7 @@
       "visual": {
         "kind": "matrix",
         "title": "Les quatre axes à ne jamais fusionner",
+        "imageSrc": "/figures/prostate/foundations/05-dimensions-tumorales.png",
         "altText": "Matrice de quatre dimensions tumorales : volume pour la quantité de maladie, grade pour l'architecture, stade pour l'extension anatomique et profil moléculaire pour les voies biologiques.",
         "caption": "Une synthèse clinique robuste nomme chaque axe séparément avant de les intégrer dans un groupe de risque ou une décision.",
         "items": [
@@ -439,6 +444,7 @@
       "visual": {
         "kind": "ladder",
         "title": "Du score de Gleason au groupe ISUP",
+        "imageSrc": "/figures/prostate/foundations/06-gleason-isup.png",
         "altText": "Échelle de cinq groupes ISUP : groupe 1 pour Gleason 3 plus 3, groupe 2 pour 3 plus 4, groupe 3 pour 4 plus 3, groupe 4 pour le score 8 et groupe 5 pour les scores 9 à 10.",
         "caption": "L'échelle résume le grade. Pour un dossier réel, conserver le score, le groupe, le pourcentage de pattern 4 et les architectures défavorables rapportées.",
         "items": [

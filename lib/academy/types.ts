@@ -18,11 +18,14 @@ export type LessonVisualKind =
   | "pathway"
   | "decision"
   | "matrix"
-  | "ladder";
+  | "ladder"
+  | "evidence"
+  | "balance";
 
 export type LessonVisual = {
   kind: LessonVisualKind;
   title: string;
+  imageSrc?: string;
   altText: string;
   caption: string;
   items: Array<{

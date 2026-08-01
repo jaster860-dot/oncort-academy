@@ -344,22 +344,43 @@ export function CoursePlayer({
 }
 
 function LessonVisual({ visual }: { visual: LessonVisualData }) {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+  const visualNodes = (
+    <div className="visualCanvas">
+      {visual.items.map((item, index) => (
+        <article className="visualNode" key={`${item.label}-${index}`}>
+          <span>{String(index + 1).padStart(2, "0")}</span>
+          <strong>{item.label}</strong>
+          <small>{item.detail}</small>
+          {index < visual.items.length - 1 && <i aria-hidden="true">→</i>}
+        </article>
+      ))}
+    </div>
+  );
+
   return (
     <figure className={`lessonVisual lessonVisual-${visual.kind}`} aria-label={visual.altText}>
       <div className="visualHeading">
-        <span>Schéma de compréhension</span>
+        <span>Figure pédagogique générée</span>
         <h3>{visual.title}</h3>
       </div>
-      <div className="visualCanvas">
-        {visual.items.map((item, index) => (
-          <article className="visualNode" key={`${item.label}-${index}`}>
-            <span>{String(index + 1).padStart(2, "0")}</span>
-            <strong>{item.label}</strong>
-            <small>{item.detail}</small>
-            {index < visual.items.length - 1 && <i aria-hidden="true">→</i>}
-          </article>
-        ))}
-      </div>
+      {visual.imageSrc ? (
+        <>
+          <img
+            className="lessonVisualImage"
+            src={`${basePath}${visual.imageSrc}`}
+            alt={visual.altText}
+            width={1376}
+            height={768}
+            loading="lazy"
+            decoding="async"
+          />
+          <details className="visualTextAlternative">
+            <summary>Lire le schéma en version textuelle</summary>
+            {visualNodes}
+          </details>
+        </>
+      ) : visualNodes}
       <figcaption>{visual.caption}</figcaption>
     </figure>
   );
