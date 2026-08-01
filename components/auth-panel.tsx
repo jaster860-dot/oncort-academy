@@ -10,6 +10,7 @@ export function AuthPanel() {
   const [checkingSession, setCheckingSession] = useState(true);
   const [state, setState] = useState<"idle" | "loading" | "sent" | "unconfigured" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
+  const [resendIn, setResendIn] = useState(0);
 
   useEffect(() => {
     const supabase = createBrowserSupabaseClient();
@@ -28,6 +29,12 @@ export function AuthPanel() {
     });
     return () => authListener.subscription.unsubscribe();
   }, []);
+
+  useEffect(() => {
+    if (resendIn <= 0) return;
+    const timer = window.setTimeout(() => setResendIn((seconds) => seconds - 1), 1000);
+    return () => window.clearTimeout(timer);
+  }, [resendIn]);
 
   const submit = async (event: React.FormEvent) => {
     event.preventDefault();
@@ -48,6 +55,7 @@ export function AuthPanel() {
       return;
     }
     setState("sent");
+    setResendIn(60);
   };
 
   const signOut = async () => {
@@ -77,5 +85,5 @@ export function AuthPanel() {
     );
   }
 
-  return <section className="authCard"><p className="eyebrow">Compte facultatif</p><h1>Retrouve ta progression partout.</h1><p>L’application fonctionne immédiatement sans compte. La connexion par lien sécurisé synchronise ensuite les leçons, checkpoints et cas entre tes appareils.</p><form onSubmit={submit}><label><span>Adresse e-mail</span><input type="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="sami@exemple.fr" /></label><button className="button buttonPrimary" disabled={state === "loading"}>{state === "loading" ? "Envoi…" : state === "sent" ? "Renvoyer un nouveau lien" : "Recevoir le lien de connexion"}</button></form>{state === "sent" && <div className="authMessage success" role="status">Nouveau lien envoyé. Utilise uniquement le dernier e-mail reçu ; il reste valable une heure.</div>}{state === "unconfigured" && <div className="authMessage">Supabase n’est pas encore relié à cet environnement. Ta progression locale continue de fonctionner.</div>}{state === "error" && <div className="authMessage error" role="alert">{errorMessage}</div>}<small>Aucun mot de passe. Les données pédagogiques sont isolées par RLS dans Supabase.</small></section>;
+  return <section className="authCard"><p className="eyebrow">Compte facultatif</p><h1>Retrouve ta progression partout.</h1><p>L’application fonctionne immédiatement sans compte. La connexion par lien sécurisé synchronise ensuite les leçons, checkpoints et cas entre tes appareils.</p><form onSubmit={submit}><label><span>Adresse e-mail</span><input type="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="sami@exemple.fr" /></label><button className="button buttonPrimary" disabled={state === "loading" || resendIn > 0}>{state === "loading" ? "Envoi…" : resendIn > 0 ? `Lien envoyé — ${resendIn} s` : state === "sent" ? "Renvoyer un nouveau lien" : "Recevoir le lien de connexion"}</button></form>{state === "sent" && <div className="authMessage success" role="status">Lien envoyé. Utilise uniquement le dernier e-mail reçu ; il reste valable une heure.</div>}{state === "unconfigured" && <div className="authMessage">Supabase n’est pas encore relié à cet environnement. Ta progression locale continue de fonctionner.</div>}{state === "error" && <div className="authMessage error" role="alert">{errorMessage}</div>}<small>Aucun mot de passe. Les données pédagogiques sont isolées par RLS dans Supabase.</small></section>;
 }

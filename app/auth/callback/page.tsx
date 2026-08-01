@@ -14,22 +14,40 @@ export default function AuthCallbackPage() {
     const tokenHash = params.get("token_hash");
     const code = params.get("code");
     const hasImplicitSession = window.location.hash.includes("access_token=");
-    if (!supabase || (!tokenHash && !code && !hasImplicitSession)) {
+    if (!supabase) {
       setState("error");
       return;
     }
 
-    // Token-hash links work even when the email is opened in a different
-    // browser from the one that requested it. Keep PKCE code support for old
-    // links generated before the email-template migration.
-    const verification = tokenHash
-      ? supabase.auth.verifyOtp({ token_hash: tokenHash, type: "email" })
-      : code
-        ? supabase.auth.exchangeCodeForSession(code)
-        : supabase.auth.getSession();
-    void verification.then(({ error }) => {
-      setState(error ? "error" : "success");
-    });
+    let active = true;
+    void (async () => {
+      // Token-hash links work even when the email is opened in a different
+      // browser from the one that requested it. Keep PKCE code support for old
+      // links generated before the email-template migration.
+      const verification = tokenHash
+        ? await supabase.auth.verifyOtp({ token_hash: tokenHash, type: "email" })
+        : code
+          ? await supabase.auth.exchangeCodeForSession(code)
+          : hasImplicitSession
+            ? await supabase.auth.getSession()
+            : null;
+
+      // Magic links are single-use. If the user reopens an already-consumed
+      // link in the same browser, Supabase correctly rejects the token but the
+      // existing authenticated session must still be treated as a success.
+      if (verification?.error || !verification) {
+        const { data } = await supabase.auth.getUser();
+        if (active) setState(data.user ? "success" : "error");
+        return;
+      }
+
+      window.history.replaceState({}, document.title, window.location.pathname);
+      if (active) setState("success");
+    })();
+
+    return () => {
+      active = false;
+    };
   }, []);
 
   return (
