@@ -1,0 +1,121 @@
+{
+  "id": "prostate_complex_special_situations",
+  "blockId": "complex_special_situations",
+  "title": "Prostate — situations complexes et adaptation personnalisée",
+  "version": "0.1.0",
+  "status": "needs_review",
+  "lastUpdated": "2026-08-01",
+  "estimatedMinutes": 102,
+  "learningPromise": "À la fin de ce bloc, l'apprenant peut adapter une stratégie à la fragilité, aux maladies digestives inflammatoires, à un antécédent de résection prostatique, aux prothèses de hanche et à la migration de stade moléculaire, sans transformer un facteur de risque en contre-indication automatique.",
+  "evidenceScope": {
+    "provenanceNote": "Synthèse éducative fondée sur EAU 2026, RecoRad 2025 privé et EANM/SNMMI 2023. Ces situations reposent souvent sur cohortes, consensus techniques et expertise de centre plutôt que comparaisons randomisées. Les détails dosimétriques exigent le protocole local et restent needs_review.",
+    "anchors": [
+      {"sourceId": "eau_prostate_2026", "locator": "Treatment, Quality of life et Follow-up : espérance de vie, fragilité, complications et décision partagée"},
+      {"sourceId": "sfro_recorad_prostate_2025", "locator": "PDF privé vérifié : préparation, technique, toxicités, TURP, contraintes et adaptation du plan"},
+      {"sourceId": "eanm_snmmi_psma_pet_2023", "locator": "Procédure PSMA-PET : limites, pièges, interprétation et contexte de stadification"}
+    ],
+    "divergences": [
+      {"topic": "Contre-indication relative", "summary": "MICI, TURP ou prothèse ne définissent pas seuls une impossibilité ; sévérité, activité, anatomie, technique et expertise transforment le risque."},
+      {"topic": "Stade moléculaire", "summary": "Une meilleure détection ne garantit pas que les stratégies étudiées en imagerie conventionnelle gardent exactement le même bénéfice."}
+    ]
+  },
+  "lessons": [
+    {
+      "id": "special_01_frailty",
+      "nodeId": "frailty_and_competing_mortality",
+      "number": 1,
+      "title": "Fragilité : adapter après évaluation, pas après l'âge",
+      "durationMinutes": 21,
+      "objectives": ["Distinguer âge, comorbidité et fragilité.", "Estimer mortalité compétitive.", "Identifier les vulnérabilités réversibles."],
+      "sections": [
+        {"title": "Deux risques concurrents", "body": "Le bénéfice oncologique dépend du risque tumoral et de l'horizon de vie ; le dommage dépend des réserves fonctionnelles. Performance, autonomie, cognition, nutrition, chutes, comorbidités, polymédication et soutien social sont évalués plutôt que résumés par l'âge civil."},
+        {"title": "Adapter sans sous-traiter", "body": "Une évaluation gériatrique peut conduire à optimisation, simplification, réhabilitation, traitement standard accompagné, adaptation proportionnée ou stratégie symptomatique. Fragilité n'est ni synonyme d'absence de traitement ni justification d'une intensification non tolérable."}
+      ],
+      "causalChain": ["Risque tumoral", "Horizon et réserves", "Vulnérabilités modifiables", "Stratégie proportionnée"],
+      "commonTrap": "Choisir ADT seule ou aucun traitement sur l'âge sans évaluer fonction, espérance de vie et préférence.",
+      "checkpoint": {"prompt": "Que doit déclencher une fragilité suspectée ?", "options": ["Exclusion automatique", "Évaluation multidimensionnelle et correction des vulnérabilités avant adaptation", "Traitement maximal", "Décision sur l'âge seul"], "answerIndex": 1, "explanation": "La fragilité est un état multidimensionnel potentiellement modifiable."},
+      "flashcards": [{"front": "Fragilité", "back": "Réserves diminuées ; distincte de l'âge et d'une comorbidité isolée."}, {"front": "Mortalité compétitive", "back": "Horizon non cancéreux pouvant réduire le bénéfice d'un traitement tardif."}, {"front": "Oncogériatrie", "back": "Optimiser, accompagner et adapter ; pas seulement exclure."}],
+      "sources": ["eau_prostate_2026", "ccafu_localised_2024_2026", "ccafu_advanced_2024_2026"]
+    },
+    {
+      "id": "special_02_ibd",
+      "nodeId": "inflammatory_bowel_disease",
+      "number": 2,
+      "title": "MICI : qualifier l'activité et réduire l'exposition digestive",
+      "durationMinutes": 21,
+      "objectives": ["Distinguer MICI active et quiescente.", "Reconstituer le risque digestif.", "Adapter technique et information."],
+      "sections": [
+        {"title": "Une histoire clinique détaillée", "body": "Type de MICI, activité, poussées, localisation rectale, chirurgie, traitement immunosuppresseur et toxicités antérieures sont documentés avec le gastro-entérologue. Une maladie active expose à un risque différent d'une maladie quiescente bien contrôlée."},
+        {"title": "Choix partagé et technique rigoureuse", "body": "La MICI est un facteur de prudence, non une interdiction universelle. Alternatives curatives, bénéfice oncologique, risque digestif, optimisation du transit, imagerie, contourage, contraintes et expertise du centre sont discutés. Toute poussée ou symptôme inhabituel reçoit une évaluation coordonnée."}
+      ],
+      "causalChain": ["MICI et activité", "Risque digestif individuel", "Option et technique", "Surveillance gastro-oncologique"],
+      "commonTrap": "Étiqueter toute MICI comme contre-indication absolue ou, inversement, ignorer son activité et sa localisation.",
+      "checkpoint": {"prompt": "Quelle information est déterminante avant une RT pelvienne chez un patient avec MICI ?", "options": ["Le diagnostic seul", "Activité, localisation, traitements, chirurgie et symptômes actuels", "PSA seul", "Âge seul"], "answerIndex": 1, "explanation": "Le risque dépend de la maladie digestive réelle et de la technique, pas de l'étiquette seule."},
+      "flashcards": [{"front": "MICI active", "back": "Risque digestif majoré ; coordination et prudence renforcées."}, {"front": "MICI quiescente", "back": "Pas une garantie d'absence de risque ni une contre-indication automatique."}, {"front": "Décision", "back": "Comparer bénéfice, alternatives, activité digestive et expertise technique."}],
+      "sources": ["eau_prostate_2026", "sfro_recorad_prostate_2025"]
+    },
+    {
+      "id": "special_03_turp",
+      "nodeId": "prior_turp_and_urinary_risk",
+      "number": 3,
+      "title": "Après TURP : reconstruire l'anatomie et le risque urinaire",
+      "durationMinutes": 20,
+      "objectives": ["Évaluer fonction urinaire et cicatrisation.", "Identifier cavité et urètre.", "Adapter modalité et calendrier."],
+      "sections": [
+        {"title": "Le geste antérieur compte", "body": "Date, indication, compte rendu opératoire, nombre de résections, complications, calibre urétral, continence, infections, rétention, débit et symptômes actuels sont recueillis. L'imagerie recherche cavité, défaut tissulaire et anatomie utile au plan."},
+        {"title": "Risque variable selon technique", "body": "Un antécédent de TURP peut augmenter sténose, hématurie ou incontinence selon anatomie, délai, fractionnement et technique, particulièrement pour certaines curiethérapies. Il impose sélection et information, pas exclusion mécanique de toute radiothérapie."}
+      ],
+      "causalChain": ["TURP et délai", "Fonction et anatomie", "Modalité RT", "Risque urinaire suivi"],
+      "commonTrap": "Décider sur le mot TURP sans revoir le compte rendu, la cavité et les symptômes.",
+      "checkpoint": {"prompt": "Que faut-il avant de choisir une modalité après TURP ?", "options": ["PSA uniquement", "Délai, compte rendu, fonction urinaire, anatomie et risque propre à la technique", "Exclusion de toute RT", "Aucun examen si asymptomatique"], "answerIndex": 1, "explanation": "Le risque urinaire dépend du geste, de l'anatomie résiduelle et de la modalité."},
+      "flashcards": [{"front": "Après TURP", "back": "Revoir date, indication, complications, continence, débit et infections."}, {"front": "Imagerie", "back": "Cartographier cavité, urètre et défaut tissulaire."}, {"front": "RT", "back": "Facteur de risque et de sélection ; pas interdiction universelle."}],
+      "sources": ["sfro_recorad_prostate_2025", "eau_prostate_2026"]
+    },
+    {
+      "id": "special_04_hip",
+      "nodeId": "hip_prosthesis_planning",
+      "number": 4,
+      "title": "Prothèse de hanche : maîtriser artefact et calcul de dose",
+      "durationMinutes": 20,
+      "objectives": ["Reconnaître les artefacts.", "Sécuriser densités et contourage.", "Comparer des plans robustes."],
+      "sections": [
+        {"title": "L'image peut mentir", "body": "Une ou deux prothèses peuvent dégrader le scanner, masquer anatomie et fausser les unités utilisées par le calcul. Protocole de réduction d'artefact, IRM recalée si disponible, revue des contours et correction de densité selon la commission locale sont nécessaires."},
+        {"title": "Éviter sans créer un autre défaut", "body": "Les faisceaux traversant le métal sont limités lorsque possible, mais l'évitement ne doit pas sacrifier couverture ou augmenter démesurément les faibles doses. VMAT, champs adaptés ou autre stratégie sont comparés avec contrôle qualité spécifique et documentation du matériau."}
+      ],
+      "causalChain": ["Type de prothèse", "Artefact et densité", "Plans comparés", "QA et robustesse"],
+      "commonTrap": "Accepter automatiquement le calcul dans l'artefact ou éviter le métal au prix d'une couverture insuffisante.",
+      "checkpoint": {"prompt": "Quel contrôle est prioritaire avec une prothèse de hanche ?", "options": ["Ignorer l'artefact", "Vérifier imagerie, densités, contours, traversée du métal, couverture et QA", "Supprimer le PTV", "Utiliser toujours le même arc"], "answerIndex": 1, "explanation": "La prothèse affecte acquisition, contourage, calcul et délivrance ; toute la chaîne est auditée."},
+      "flashcards": [{"front": "Artefact métal", "back": "Peut masquer anatomie et fausser densités de calcul."}, {"front": "Planification", "back": "Comparer couverture, OAR, traversée du métal et faibles doses."}, {"front": "QA", "back": "Contrôle spécifique et documentation du matériau/algorithme."}],
+      "sources": ["sfro_recorad_prostate_2025", "eau_prostate_2026"]
+    },
+    {
+      "id": "special_05_stage_migration",
+      "nodeId": "oligometastatic_stage_migration",
+      "number": 5,
+      "title": "Oligométastatique et migration de stade : deux cartes simultanées",
+      "durationMinutes": 20,
+      "objectives": ["Distinguer imagerie conventionnelle et PSMA.", "Préserver la population d'essai.", "Éviter une désintensification automatique."],
+      "sections": [
+        {"title": "Le nombre dépend de l'outil", "body": "Une maladie dite M0 ou oligométastatique au scanner et à la scintigraphie peut comporter davantage de lésions au TEP-PSMA. Le compte rendu cite territoires, certitude, corrélation anatomique et méthode ; un foyer équivoque n'est pas compté comme certitude thérapeutique."},
+        {"title": "Deux classifications utiles", "body": "La RCP conserve le stade conventionnel qui définit souvent la preuve et ajoute le stade moléculaire qui informe le plan. Elle n'annule pas automatiquement un traitement du primitif ou un standard systémique, et n'assimile pas toute lésion PSMA à une indication prouvée de MDT."}
+      ],
+      "causalChain": ["Risque prétest", "Imagerie conventionnelle", "Carte PSMA", "Décision avec extrapolation nommée"],
+      "commonTrap": "Laisser le TEP-PSMA effacer la population d'essai et dicter seul une escalade ou une désescalade.",
+      "checkpoint": {"prompt": "Comment rapporter un patient M0 conventionnel avec deux foyers PSMA-only ?", "options": ["M1 certain sans nuance", "Stade conventionnel et stade moléculaire séparés, avec certitude et applicabilité des essais", "Ignorer le TEP", "Annuler tout traitement local"], "answerIndex": 1, "explanation": "Les deux cartes répondent à des besoins différents et doivent rester visibles."},
+      "flashcards": [{"front": "Stage migration", "back": "Changement de catégorie lié à une imagerie plus sensible, pas forcément à une biologie différente."}, {"front": "Deux cartes", "back": "Stade conventionnel de preuve + stade moléculaire de planification."}, {"front": "PSMA-only", "back": "Certitude, territoire et extrapolation doivent être tracés."}],
+      "sources": ["eanm_snmmi_psma_pet_2023", "eau_prostate_2026", "sfro_recorad_prostate_2025"]
+    }
+  ],
+  "caseStudy": {
+    "id": "prostate_case_013_special_constraints",
+    "title": "Cinq contraintes, aucune contre-indication réflexe",
+    "status": "needs_review",
+    "dataClassification": "synthetic",
+    "vignette": "Un homme de 78 ans avec cancer localisé à haut risque vit seul, a perdu du poids, présente une rectocolite quiescente sous traitement, une TURP deux ans auparavant avec symptômes modérés et deux prothèses de hanche. Le scanner conventionnel est M0 ; le TEP-PSMA montre un foyer costal équivoque sans corrélat. Une radiothérapie combinée à l'ADT est discutée.",
+    "decisionPoints": ["Évaluer fragilité, nutrition, cognition, autonomie et soutien.", "Coordonner la MICI avec le gastro-entérologue.", "Revoir TURP, symptômes et anatomie.", "Planifier réduction d'artefact et QA des prothèses.", "Qualifier le foyer costal sans le transformer en certitude.", "Comparer stratégie standard, adaptations et alternatives.", "Tracer prévention et préférence."],
+    "expectedReasoning": ["Aucun facteur isolé ne décide tout.", "Les vulnérabilités réversibles doivent être traitées.", "La MICI quiescente reste un risque à encadrer.", "TURP et prothèses imposent un workflow technique.", "Le foyer PSMA équivoque ne doit pas annuler automatiquement le traitement local."],
+    "criticalErrors": ["Décider sur l'âge seul.", "Classer la MICI comme interdiction absolue sans évaluation.", "Ignorer la TURP ou les artefacts.", "Déclarer M1 sur foyer équivoque isolé.", "Marquer validated sans reviewer."],
+    "checkpoint": {"prompt": "Quelle approche est la plus rigoureuse ?", "options": ["Refuser tout traitement curatif", "Décomposer chaque contrainte, corriger ce qui est modifiable, adapter la technique et conserver l'incertitude PSMA", "Traiter comme sans comorbidité", "Donner ADT seule sur l'âge"], "answerIndex": 1, "explanation": "Une situation complexe se résout par décomposition, expertise et traçabilité."},
+    "sources": ["eau_prostate_2026", "sfro_recorad_prostate_2025", "eanm_snmmi_psma_pet_2023"]
+  }
+}

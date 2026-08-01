@@ -1,0 +1,264 @@
+{
+  "id": "prostate_detection_diagnosis",
+  "blockId": "detection_diagnosis",
+  "title": "Prostate — de la suspicion à la preuve",
+  "version": "0.2.0",
+  "status": "needs_review",
+  "lastUpdated": "2026-08-01",
+  "estimatedMinutes": 84,
+  "learningPromise": "À la fin de ce bloc, l'apprenant peut interpréter un PSA dans son contexte, expliquer le rôle de l'IRM, construire une stratégie de biopsie et extraire les informations décisionnelles d'un compte rendu anatomopathologique.",
+  "evidenceScope": {
+    "provenanceNote": "Synthèse éducative France-first puis européenne. Les pages publiques officielles ont été consultées le 2026-08-01 ; toutes les formulations et le cas restent needs_review jusqu'à vérification des passages par un clinicien identifié.",
+    "anchors": [
+      {
+        "sourceId": "ccafu_localised_2024_2026",
+        "locator": "Détection précoce ; IRM ; schéma et voie des biopsies ; indications de rebiopsies ; anatomopathologie"
+      },
+      {
+        "sourceId": "eau_prostate_2026",
+        "locator": "Diagnostic Evaluation, sections 5.1, 5.2.2–5.2.4, 5.3, 5.4, 5.5, 5.6 et 5.7.1"
+      },
+      {
+        "sourceId": "isup_grading_consensus_2019",
+        "locator": "Résumé PubMed et métadonnées vérifiés ; détails de grading à confirmer sur le texte source avant validation clinique"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "diagnosis_01_risk_and_psa",
+      "number": 1,
+      "title": "Avant le PSA : quelle question cherche-t-on à résoudre ?",
+      "durationMinutes": 14,
+      "objectives": [
+        "Distinguer détection précoce, dépistage individuel et diagnostic.",
+        "Identifier les facteurs qui modifient le risque initial.",
+        "Éviter une cascade automatique à partir d'une valeur isolée."
+      ],
+      "sections": [
+        {
+          "title": "Partir du risque, pas du tube",
+          "body": "L'âge, les antécédents familiaux, certaines ascendances, les variants germinaux connus, l'espérance de vie et les préférences définissent la pertinence d'une démarche de détection. Le même PSA n'a pas la même signification prétest chez tous les hommes."
+        },
+        {
+          "title": "Trois intentions à ne pas confondre",
+          "body": "La détection précoce recherche un cancer potentiellement significatif chez un homme asymptomatique informé. Le diagnostic explore une anomalie ou des symptômes. La surveillance suit une maladie déjà connue. Les examens et leurs conséquences ne sont donc pas interchangeables."
+        },
+        {
+          "title": "Décider avec le patient",
+          "body": "Avant le dosage, il faut expliquer bénéfice possible, faux positifs, examens secondaires, surdiagnostic et options si un cancer est découvert. Le consentement porte sur le parcours, pas uniquement sur la prise de sang."
+        }
+      ],
+      "causalChain": ["Risque individuel", "Décision informée", "PSA et examen clinique", "IRM/biopsie si pertinent"],
+      "commonTrap": "Prescrire un PSA sans avoir réfléchi à ce que l'on ferait d'un résultat anormal.",
+      "checkpoint": {
+        "prompt": "Avant une démarche de détection précoce, l'élément le plus structurant est :",
+        "options": ["La disponibilité d'une IRM", "Le risque individuel, l'espérance de vie et une décision informée", "Le volume de la prostate inconnu", "L'habitude du prescripteur"],
+        "answerIndex": 1,
+        "explanation": "La valeur d'une détection dépend du risque de cancer significatif, du bénéfice potentiel d'un traitement et des préférences du patient."
+      },
+      "flashcards": [
+        {"front": "Détection précoce", "back": "Démarche individualisée visant un cancer cliniquement significatif avant les symptômes."},
+        {"front": "Risque prétest", "back": "Probabilité avant le nouvel examen, construite à partir du patient et des données déjà connues."},
+        {"front": "Décision informée", "back": "Discussion des bénéfices, limites et conséquences possibles avant de commencer la cascade diagnostique."}
+      ],
+      "sources": ["eau_prostate_2026", "ccafu_localised_2024_2026"]
+    },
+    {
+      "id": "diagnosis_02_psa_interpretation",
+      "number": 2,
+      "title": "PSA anormal : raisonner avant de conclure",
+      "durationMinutes": 14,
+      "objectives": [
+        "Expliquer pourquoi le PSA n'est pas spécifique du cancer.",
+        "Rechercher les causes de variation et confirmer lorsque pertinent.",
+        "Comprendre densité et cinétique sans en faire des diagnostics autonomes."
+      ],
+      "sections": [
+        {
+          "title": "Un marqueur d'activité prostatique",
+          "body": "Le PSA est produit par l'épithélium prostatique. Cancer, hyperplasie bénigne, inflammation, infection, rétention, instrumentation et variabilité biologique peuvent augmenter sa concentration. Il n'existe pas de frontière biologique absolue séparant bénin et malin."
+        },
+        {
+          "title": "Vérifier le contexte",
+          "body": "Une valeur nouvelle doit être replacée dans les symptômes, les circonstances du prélèvement, les traitements, le volume prostatique et les valeurs antérieures. Chez un homme asymptomatique et dans certaines plages, une répétition standardisée peut éviter une conclusion sur une fluctuation."
+        },
+        {
+          "title": "Densité et cinétique",
+          "body": "La densité rapporte le PSA au volume prostatique ; la cinétique décrit une évolution temporelle. Elles affinent la probabilité mais ne remplacent ni l'IRM, ni l'examen clinique, ni l'histologie lorsque celle-ci est indiquée."
+        }
+      ],
+      "causalChain": ["PSA mesuré", "Contexte et confirmation", "Probabilité affinée", "Décision d'IRM ou de surveillance"],
+      "commonTrap": "Transformer un seuil de PSA en diagnostic de cancer.",
+      "checkpoint": {
+        "prompt": "Quelle phrase est exacte ?",
+        "options": ["Le PSA est spécifique du cancer", "Un PSA normal exclut tout cancer significatif", "Le PSA est spécifique de l'organe mais non du cancer", "La densité du PSA remplace les biopsies"],
+        "answerIndex": 2,
+        "explanation": "Le PSA provient de la prostate et varie dans plusieurs situations bénignes ou malignes ; il modifie une probabilité."
+      },
+      "flashcards": [
+        {"front": "PSA organo-spécifique", "back": "Il provient principalement de la prostate, mais n'est pas spécifique du cancer."},
+        {"front": "Densité du PSA", "back": "PSA rapporté au volume prostatique ; outil d'affinement du risque."},
+        {"front": "Répétition standardisée", "back": "Nouveau dosage dans des conditions comparables lorsque le contexte clinique le permet."}
+      ],
+      "sources": ["eau_prostate_2026", "ccafu_localised_2024_2026"]
+    },
+    {
+      "id": "diagnosis_03_mri_pirads",
+      "number": 3,
+      "title": "IRM et PI-RADS : localiser une suspicion, pas prononcer un verdict",
+      "durationMinutes": 15,
+      "objectives": [
+        "Comprendre les séquences et objectifs de l'IRM multiparamétrique.",
+        "Interpréter PI-RADS comme catégorie de suspicion.",
+        "Expliquer les limites d'une IRM positive ou négative."
+      ],
+      "sections": [
+        {
+          "title": "Une carte avant les prélèvements",
+          "body": "L'IRM multiparamétrique décrit anatomie, signal T2, diffusion et parfois perfusion. Elle recherche des lésions cliniquement significatives, précise leur localisation et contribue à planifier des prélèvements ciblés et régionaux/systématisés."
+        },
+        {
+          "title": "Ce que dit PI-RADS",
+          "body": "PI-RADS standardise la probabilité qu'une lésion corresponde à un cancer cliniquement significatif sur l'imagerie. La catégorie dépend notamment de la zone et des séquences dominantes ; elle ne fournit ni grade histologique ni stade métastatique."
+        },
+        {
+          "title": "Les deux erreurs symétriques",
+          "body": "Une lésion très suspecte peut être bénigne à l'histologie ou avoir été mal échantillonnée. Une IRM négative réduit le risque sans l'annuler, surtout si la densité de PSA, l'examen clinique ou le terrain restent préoccupants."
+        }
+      ],
+      "causalChain": ["Suspicion clinique", "IRM de qualité", "Catégorie PI-RADS", "Stratégie de biopsie contextualisée"],
+      "commonTrap": "Lire PI-RADS comme un équivalent radiologique du groupe ISUP.",
+      "checkpoint": {
+        "prompt": "Un score PI-RADS élevé indique principalement :",
+        "options": ["Le groupe ISUP", "Une probabilité élevée de cancer cliniquement significatif à l'IRM", "Une métastase", "L'indication obligatoire d'une chirurgie"],
+        "answerIndex": 1,
+        "explanation": "PI-RADS classe la suspicion radiologique ; l'histologie reste nécessaire lorsque la stratégie exige une preuve."
+      },
+      "flashcards": [
+        {"front": "PI-RADS", "back": "Système standardisé de suspicion de cancer cliniquement significatif à l'IRM prostatique."},
+        {"front": "IRM négative", "back": "Réduit le risque mais ne l'annule pas ; interprétation avec densité de PSA et contexte."},
+        {"front": "Cible IRM", "back": "Zone destinée à un prélèvement ciblé, sans garantie histologique préalable."}
+      ],
+      "sources": ["eau_prostate_2026", "ccafu_localised_2024_2026"]
+    },
+    {
+      "id": "diagnosis_04_biopsy_strategy",
+      "number": 4,
+      "title": "Biopsier intelligemment : voie, ciblage et cartographie",
+      "durationMinutes": 15,
+      "objectives": [
+        "Distinguer biopsies ciblées et prélèvements régionaux/systématisés.",
+        "Comprendre l'intérêt de la voie transpérinéale.",
+        "Analyser un résultat négatif discordant avec une forte suspicion."
+      ],
+      "sections": [
+        {
+          "title": "Deux informations complémentaires",
+          "body": "Les prélèvements ciblés testent la lésion vue à l'IRM. Les prélèvements régionaux ou systématisés explorent le reste de la glande et l'hétérogénéité. Leur combinaison dépend du contexte de première biopsie ou de biopsie répétée et du niveau de suspicion."
+        },
+        {
+          "title": "La voie compte",
+          "body": "La voie transpérinéale est privilégiée par les recommandations européennes actuelles, notamment pour diminuer les complications infectieuses et améliorer l'accès à certaines régions, sous réserve d'une organisation et d'une anesthésie adaptées."
+        },
+        {
+          "title": "Négatif ne veut pas toujours dire absent",
+          "body": "Un résultat bénin peut être concordant avec le nouveau risque ou traduire une cible manquée, une fusion imprécise ou un échantillonnage insuffisant. La décision de surveillance, relecture ou nouvelle biopsie dépend de la concordance globale."
+        }
+      ],
+      "causalChain": ["Cible et risque résiduel", "Choix de voie et schéma", "Qualité des prélèvements", "Concordance radio-pathologique"],
+      "commonTrap": "Considérer une biopsie négative comme une preuve absolue, même lorsque l'IRM et la biologie restent fortement discordantes.",
+      "checkpoint": {
+        "prompt": "Pourquoi associer ciblage et prélèvements régionaux dans certaines situations ?",
+        "options": ["Pour remplacer l'IRM", "Pour échantillonner la cible et le risque tumoral hors cible", "Pour déterminer le TNM métastatique", "Pour éviter l'anatomopathologie"],
+        "answerIndex": 1,
+        "explanation": "La maladie peut être multifocale et l'IRM n'identifie pas toutes les zones significatives ; les informations sont complémentaires."
+      },
+      "flashcards": [
+        {"front": "Biopsie ciblée", "back": "Prélèvement dirigé vers une lésion définie à l'imagerie."},
+        {"front": "Biopsie régionale/systématisée", "back": "Échantillonnage organisé du reste de la prostate selon le protocole."},
+        {"front": "Concordance radio-pathologique", "back": "Vérification que l'histologie explique réellement la cible et le niveau de suspicion."}
+      ],
+      "sources": ["eau_prostate_2026", "ccafu_localised_2024_2026"]
+    },
+    {
+      "id": "diagnosis_05_pathology_report",
+      "number": 5,
+      "title": "Lire le compte rendu anatomopathologique comme une carte décisionnelle",
+      "durationMinutes": 14,
+      "objectives": [
+        "Identifier type histologique, Gleason et groupe ISUP.",
+        "Relever quantité et répartition de la tumeur.",
+        "Reconnaître les architectures et informations qui modifient le risque."
+      ],
+      "sections": [
+        {
+          "title": "Nommer la maladie",
+          "body": "La majorité des cancers prostatiques sont des adénocarcinomes acinaires. Le compte rendu doit préciser le type, la qualité des prélèvements et le grade par site pertinent ; les variantes ou différenciations inhabituelles peuvent modifier la stratégie."
+        },
+        {
+          "title": "Grade et quantité",
+          "body": "Le score de Gleason assemble les architectures dominantes et les plus agressives selon les règles de grading, puis se traduit en groupe ISUP. Nombre de carottes atteintes, longueur ou pourcentage tumoral et latéralité décrivent la charge échantillonnée."
+        },
+        {
+          "title": "Signaux défavorables",
+          "body": "Architecture cribriforme, carcinome intracanalaire et proportions de patterns élevés peuvent apporter une information défavorable. Elles doivent être lues avec le reste du dossier et selon les standards de compte rendu."
+        }
+      ],
+      "causalChain": ["Type histologique", "Architecture et groupe ISUP", "Charge échantillonnée", "Risque et stratégie"],
+      "commonTrap": "Ne retenir que le groupe ISUP en ignorant répartition, quantité, cribriforme/intracanalaire et concordance avec l'IRM.",
+      "checkpoint": {
+        "prompt": "Le groupe ISUP résume principalement :",
+        "options": ["Le nombre de métastases", "L'architecture histologique et son agressivité", "Le volume prostatique", "La fonction urinaire"],
+        "answerIndex": 1,
+        "explanation": "ISUP dérive du grading architectural de Gleason ; il n'est ni un stade anatomique ni une mesure directe du volume tumoral."
+      },
+      "flashcards": [
+        {"front": "Groupe ISUP", "back": "Regroupement pronostique dérivé des architectures de Gleason."},
+        {"front": "Architecture cribriforme", "back": "Pattern architectural défavorable à signaler selon les standards anatomopathologiques."},
+        {"front": "Charge sur biopsies", "back": "Nombre, longueur ou proportion des prélèvements atteints ; estimation échantillonnée, non volume tumoral total."}
+      ],
+      "sources": ["isup_grading_consensus_2019", "eau_prostate_2026", "ccafu_localised_2024_2026"]
+    }
+  ],
+  "caseStudy": {
+    "id": "prostate_case_015_mri_biopsy_discordance",
+    "title": "PI-RADS 5 et biopsies négatives : résoudre la discordance sans inventer le diagnostic",
+    "status": "needs_review",
+    "dataClassification": "synthetic",
+    "vignette": "Homme de 64 ans, autonome, sans symptôme urinaire ni signe infectieux rapporté. PSA à 8,1 ng/mL puis 8,4 ng/mL lors d'un contrôle standardisé dans le même laboratoire ; toucher rectal non suspect. IRM de qualité jugée satisfaisante : lésion antérieure PI-RADS 5, prostate de 40 mL. Une première série transpérinéale associe prélèvements ciblés de la lésion et prélèvements systématisés ; le compte rendu ne décrit que du tissu bénin. Le patient pense que l'IRM prouve un cancer agressif, tandis qu'un autre interlocuteur considère les biopsies négatives comme une exclusion définitive.",
+    "decisionPoints": [
+      "Expliquer ce que le PSA, la densité de PSA, PI-RADS et l'histologie établissent séparément.",
+      "Vérifier la qualité et la concordance du parcours : conditions du PSA, qualité et relecture de l'IRM, localisation des carottes, ciblage et compte rendu anatomopathologique.",
+      "Estimer le risque résiduel à partir de l'ensemble du dossier plutôt qu'à partir d'un résultat isolé.",
+      "Discuter en réunion multidisciplinaire une surveillance rapprochée ou une nouvelle biopsie ciblée selon la persistance de la suspicion, sans annoncer de cancer avant preuve histologique."
+    ],
+    "expectedReasoning": [
+      "Le PSA est un marqueur prostatique non spécifique du cancer ; sa persistance et sa densité contribuent au risque prétest sans poser de diagnostic.",
+      "PI-RADS 5 traduit une forte suspicion radiologique de cancer cliniquement significatif, mais ne détermine ni histologie, ni groupe ISUP, ni traitement.",
+      "Des biopsies négatives diminuent la probabilité sans résoudre nécessairement une discordance avec une IRM très suspecte ; il faut rechercher une cible manquée, un échantillonnage insuffisant ou une discordance de lecture.",
+      "La suite dépend du risque persistant, de la qualité des examens et de la concordance radio-pathologique ; relecture, suivi ou nouvelle biopsie ciblée sont des options à hiérarchiser en RCP et avec le patient."
+    ],
+    "criticalErrors": [
+      "Annoncer un adénocarcinome ou un groupe ISUP sur le seul score PI-RADS.",
+      "Exclure définitivement un cancer significatif sur une seule série de biopsies négatives malgré une discordance persistante.",
+      "Proposer un traitement anticancéreux sans preuve diagnostique ni discussion de la discordance.",
+      "Répéter automatiquement le même geste sans auditer la qualité de l'IRM, du ciblage et de l'anatomopathologie."
+    ],
+    "checkpoint": {
+      "prompt": "Quelle conduite résume le mieux ce dossier ?",
+      "options": [
+        "PI-RADS 5 prouve un cancer ISUP 5 : il faut traiter sans nouvelle vérification",
+        "Les biopsies bénignes excluent tout cancer : aucun suivi n'est nécessaire",
+        "La discordance persiste : auditer PSA, IRM, ciblage et anatomopathologie, puis discuter suivi ou nouvelle biopsie ciblée selon le risque résiduel",
+        "Le PSA seul suffit à choisir entre chirurgie et radiothérapie"
+      ],
+      "answerIndex": 2,
+      "explanation": "Aucun résultat isolé ne résout la discordance. La démarche correcte conserve le niveau de preuve de chaque examen, contrôle la qualité du parcours et décide de la suite selon le risque résiduel."
+    },
+    "sources": [
+      "ccafu_localised_2024_2026",
+      "eau_prostate_2026"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "requested_references": 12,
+  "total_unique_references": 20,
+  "verified_references": 5,
+  "shortfall": 7,
+  "evidence_quality_mix": {
+    "high": 9,
+    "contextual": 10,
+    "moderate": 1
+  },
+  "verification_mix": {
+    "identifier-verified": 5,
+    "search-only": 15
+  },
+  "publication_years": {
+    "1999": 1,
+    "2009": 1,
+    "2013": 1,
+    "2015": 1,
+    "2020": 1,
+    "2023": 1,
+    "2024": 1,
+    "2025": 2,
+    "2026": 2
+  },
+  "scholarly_sources": 20,
+  "preprints": 0,
+  "retracted_or_withdrawn": 0,
+  "corrections_or_errata": 0,
+  "missing_doi_or_pmid": 15,
+  "full_text_note": "Extraction verifies available public page content; paywalled full text may remain unavailable and must not be represented as reviewed."
+}

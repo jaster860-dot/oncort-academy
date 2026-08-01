@@ -1,0 +1,3195 @@
+{
+  "generated_at": "2026-07-31T15:38:46.561318+00:00",
+  "definition": {
+    "core_started": "At least one core guideline is indexed; exhaustiveness is not implied.",
+    "context_or_discovery_only": "Only context, framework, or discovery sources are indexed.",
+    "uncovered": "No source is indexed yet."
+  },
+  "courses": [
+    {
+      "id": "tumor_biology",
+      "title": "Tumor Biology",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "aacr_hallmarks_new_dimensions_2022",
+          "organization_id": "aacr",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_foundational_framework"
+        }
+      ]
+    },
+    {
+      "id": "cancer_genetics_and_molecular_biology",
+      "title": "Cancer Genetics And Molecular Biology",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "esmo_ngs_advanced_cancer_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_with_corrigendum"
+        },
+        {
+          "document_id": "iarc_who_classification_tumours_online_2026",
+          "organization_id": "iarc_who",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "current_living_classification"
+        }
+      ]
+    },
+    {
+      "id": "oncologic_pathology",
+      "title": "Oncologic Pathology",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 1,
+      "linked_documents": [
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "iarc_who_classification_tumours_online_2026",
+          "organization_id": "iarc_who",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "current_living_classification"
+        }
+      ]
+    },
+    {
+      "id": "diagnostic_workup",
+      "title": "Diagnostic Workup",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "aristot_bronchoscopy_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "aristot_thoracic_nodules_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "inca_recommendations_index",
+          "organization_id": "inca",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "has_recommendations_index",
+          "organization_id": "has",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "inca_panorama_cancers_france_2026",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_national_data_reference"
+        }
+      ]
+    },
+    {
+      "id": "staging_and_prognosis",
+      "title": "Staging And Prognosis",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 1,
+      "linked_documents": [
+        {
+          "document_id": "inca_recommendations_index",
+          "organization_id": "inca",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "uicc_tnm_9_2025",
+          "organization_id": "uicc",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "current_effective_2026"
+        }
+      ]
+    },
+    {
+      "id": "oncologic_imaging",
+      "title": "Oncologic Imaging",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 1,
+      "linked_documents": [
+        {
+          "document_id": "recist_1_1_2009",
+          "organization_id": "nci_us",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_standard_with_later_clarifications"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        }
+      ]
+    },
+    {
+      "id": "epidemiology_prevention_screening",
+      "title": "Epidemiology Prevention Screening",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 4,
+      "linked_documents": [
+        {
+          "document_id": "aristot_smoking_cessation_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "inca_panorama_cancers_france_2026",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_national_data_reference"
+        },
+        {
+          "document_id": "inca_prevention_risques_cancer_2026",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_national_prevention_reference"
+        },
+        {
+          "document_id": "inca_screening_strategies_2026",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_living_national_reference"
+        },
+        {
+          "document_id": "inca_impulsion_lung_screening_2026",
+          "organization_id": "inca",
+          "relevance": "context",
+          "access_level": "web_native",
+          "status": "current_research_pilot_not_national_organized_screening"
+        }
+      ]
+    },
+    {
+      "id": "oncologic_surgery",
+      "title": "Oncologic Surgery",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 1,
+      "linked_documents": [
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "esso_core_curriculum_surgical_oncology_2021",
+          "organization_id": "esso",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_core_curriculum"
+        }
+      ]
+    },
+    {
+      "id": "cytotoxic_therapy",
+      "title": "Cytotoxic Therapy",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "inca_breast_systemic_localised_2025",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "inca_recommendations_index",
+          "organization_id": "inca",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        }
+      ]
+    },
+    {
+      "id": "endocrine_therapy",
+      "title": "Endocrine Therapy",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 1,
+      "linked_documents": [
+        {
+          "document_id": "inca_breast_systemic_localised_2025",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "inca_recommendations_index",
+          "organization_id": "inca",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        }
+      ]
+    },
+    {
+      "id": "targeted_therapy",
+      "title": "Targeted Therapy",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 7,
+      "linked_documents": [
+        {
+          "document_id": "aristot_innovation_access_2026",
+          "organization_id": "aristot",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "inca_breast_systemic_localised_2025",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "inca_recommendations_index",
+          "organization_id": "inca",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "esmo_ngs_advanced_cancer_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_with_corrigendum"
+        },
+        {
+          "document_id": "esmo_ovarian_cancer_express_update_2026",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_express_update_use_with_parent_guideline"
+        },
+        {
+          "document_id": "esmo_biliary_tract_interim_update_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_interim_update_use_with_parent_guideline"
+        },
+        {
+          "document_id": "esmo_cutaneous_melanoma_cpg_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "esmo_renal_cell_carcinoma_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline_check_living_updates"
+        }
+      ]
+    },
+    {
+      "id": "immunotherapy",
+      "title": "Immunotherapy",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 7,
+      "linked_documents": [
+        {
+          "document_id": "aristot_innovation_access_2026",
+          "organization_id": "aristot",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "inca_recommendations_index",
+          "organization_id": "inca",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "esmo_immunotherapy_toxicity_cpg_2022",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_guideline_verify_updates_before_clinical_use"
+        },
+        {
+          "document_id": "esmo_ovarian_cancer_express_update_2026",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_express_update_use_with_parent_guideline"
+        },
+        {
+          "document_id": "esmo_biliary_tract_interim_update_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_interim_update_use_with_parent_guideline"
+        },
+        {
+          "document_id": "esmo_cutaneous_melanoma_cpg_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "esmo_euracan_merkel_cell_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "esmo_renal_cell_carcinoma_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline_check_living_updates"
+        }
+      ]
+    },
+    {
+      "id": "antibody_drug_conjugates_and_novel_therapies",
+      "title": "Antibody Drug Conjugates And Novel Therapies",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "aristot_innovation_access_2026",
+          "organization_id": "aristot",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "etop_ibcsg_adc_position_2026",
+          "organization_id": "etop_ibcsg",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_position_statement"
+        },
+        {
+          "document_id": "ema_anticancer_medicinal_products_rev6_2024",
+          "organization_id": "ema",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_effective_revision_6_under_revision"
+        }
+      ]
+    },
+    {
+      "id": "clinical_pharmacology",
+      "title": "Clinical Pharmacology",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "esmo_ngs_advanced_cancer_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_with_corrigendum"
+        },
+        {
+          "document_id": "ema_anticancer_medicinal_products_rev6_2024",
+          "organization_id": "ema",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_effective_revision_6_under_revision"
+        }
+      ]
+    },
+    {
+      "id": "response_assessment",
+      "title": "Response Assessment",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "nci_ctcae_v6_2025",
+          "organization_id": "nci_us",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "recist_1_1_2009",
+          "organization_id": "nci_us",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_standard_with_later_clarifications"
+        }
+      ]
+    },
+    {
+      "id": "clinical_trials_and_evidence",
+      "title": "Clinical Trials And Evidence",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "aristot_innovation_access_2026",
+          "organization_id": "aristot",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "nci_ctcae_v6_2025",
+          "organization_id": "nci_us",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "recist_1_1_2009",
+          "organization_id": "nci_us",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_standard_with_later_clarifications"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "ema_anticancer_medicinal_products_rev6_2024",
+          "organization_id": "ema",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_effective_revision_6_under_revision"
+        }
+      ]
+    },
+    {
+      "id": "multidisciplinary_decision_making",
+      "title": "Multidisciplinary Decision Making",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "inca_rcp_2023",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_on_source_index"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "inca_end_of_treatment_framework_2025",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_france"
+        }
+      ]
+    },
+    {
+      "id": "supportive_care",
+      "title": "Supportive Care",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 6,
+      "linked_documents": [
+        {
+          "document_id": "aristot_supportive_care_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "aristot_smoking_cessation_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "afsos_recommendations_index",
+          "organization_id": "afsos",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "inca_recommendations_index",
+          "organization_id": "inca",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "has_recommendations_index",
+          "organization_id": "has",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "esmo_immunotherapy_toxicity_cpg_2022",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_guideline_verify_updates_before_clinical_use"
+        },
+        {
+          "document_id": "inca_end_of_treatment_framework_2025",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_france"
+        },
+        {
+          "document_id": "inca_prevention_risques_cancer_2026",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_national_prevention_reference"
+        },
+        {
+          "document_id": "endocrine_society_hypercalcemia_malignancy_2023",
+          "organization_id": "endocrine_society",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_international_guideline_contextualize_for_france"
+        }
+      ]
+    },
+    {
+      "id": "geriatric_oncology",
+      "title": "Geriatric Oncology",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "has_recommendations_index",
+          "organization_id": "has",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "inca_geriatric_assessment_2025",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_france"
+        },
+        {
+          "document_id": "inca_oncodage_g8_2012",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_tool_confirm_with_current_inca_page"
+        },
+        {
+          "document_id": "asco_geriatric_assessment_update_2023",
+          "organization_id": "asco",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_with_2025_erratum"
+        }
+      ]
+    },
+    {
+      "id": "palliative_care",
+      "title": "Palliative Care",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "aristot_bone_metastases_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "aristot_supportive_care_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "afsos_recommendations_index",
+          "organization_id": "afsos",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "has_recommendations_index",
+          "organization_id": "has",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        }
+      ]
+    },
+    {
+      "id": "survivorship",
+      "title": "Survivorship",
+      "track_id": "general_oncology",
+      "track_title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "afsos_recommendations_index",
+          "organization_id": "afsos",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "inca_recommendations_index",
+          "organization_id": "inca",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "has_recommendations_index",
+          "organization_id": "has",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "legifrance_des_oncology_2022",
+          "organization_id": "legifrance",
+          "relevance": "framework",
+          "access_level": "web_native",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "inca_end_of_treatment_framework_2025",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_france"
+        },
+        {
+          "document_id": "esmo_survivorship_consensus_2022",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_consensus"
+        },
+        {
+          "document_id": "inca_prevention_risques_cancer_2026",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_national_prevention_reference"
+        }
+      ]
+    },
+    {
+      "id": "radiation_physics",
+      "title": "Radiation Physics",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "iaea_trs398_rev1_2024",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "iaea_hhr17_megavoltage_2022",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_for_scope"
+        }
+      ]
+    },
+    {
+      "id": "dosimetry",
+      "title": "Dosimetry",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 4,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "iaea_trs398_rev1_2024",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "estro_eptn_proton_pencil_beam_dosimetry_2024",
+          "organization_id": "estro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "icru_report_91_stereotactic_2017",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard_full_text_missing"
+        }
+      ]
+    },
+    {
+      "id": "radiobiology",
+      "title": "Radiobiology",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        }
+      ]
+    },
+    {
+      "id": "fractionation",
+      "title": "Fractionation",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 4,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "sfro_recorad_prostate_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified_content_review_pending"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "icru_report_83_imrt_2010",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard"
+        }
+      ]
+    },
+    {
+      "id": "radiotherapy_consultation_and_prescription",
+      "title": "Radiotherapy Consultation And Prescription",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "asnr_decision_2021_dc_0708",
+          "organization_id": "asnr",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "in_force_verified_2026"
+        }
+      ]
+    },
+    {
+      "id": "simulation_and_immobilization",
+      "title": "Simulation And Immobilization",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "sfro_respiratory_motion_management_2022",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_french_foundational_reference"
+        }
+      ]
+    },
+    {
+      "id": "target_volume_concepts",
+      "title": "Target Volume Concepts",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 5,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "estro_eano_glioblastoma_rt_2023",
+          "organization_id": "eano",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_rt_guideline"
+        },
+        {
+          "document_id": "estro_eano_idh_mutant_glioma_rt_2025",
+          "organization_id": "eano",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_rt_guideline"
+        },
+        {
+          "document_id": "icru_report_89_cervix_brachytherapy_2013",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard_full_text_missing"
+        }
+      ]
+    },
+    {
+      "id": "contouring",
+      "title": "Contouring",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 7,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "sfro_recorad_prostate_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified_content_review_pending"
+        },
+        {
+          "document_id": "icru_report_83_imrt_2010",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard"
+        },
+        {
+          "document_id": "estro_eano_glioblastoma_rt_2023",
+          "organization_id": "eano",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_rt_guideline"
+        },
+        {
+          "document_id": "estro_eano_idh_mutant_glioma_rt_2025",
+          "organization_id": "eano",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_rt_guideline"
+        },
+        {
+          "document_id": "astro_anal_squamous_rt_2025",
+          "organization_id": "astro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_international_rt_guideline_contextualize_for_france"
+        },
+        {
+          "document_id": "icru_report_89_cervix_brachytherapy_2013",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard_full_text_missing"
+        }
+      ]
+    },
+    {
+      "id": "treatment_planning",
+      "title": "Treatment Planning",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 6,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "sfro_recorad_prostate_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified_content_review_pending"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "iaea_hhr17_megavoltage_2022",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_for_scope"
+        },
+        {
+          "document_id": "icru_report_83_imrt_2010",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard"
+        },
+        {
+          "document_id": "icru_report_91_stereotactic_2017",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard_full_text_missing"
+        }
+      ]
+    },
+    {
+      "id": "plan_evaluation_and_dvh",
+      "title": "Plan Evaluation And Dvh",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 5,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "sfro_recorad_prostate_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified_content_review_pending"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "icru_report_91_stereotactic_2017",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard_full_text_missing"
+        },
+        {
+          "document_id": "icru_report_89_cervix_brachytherapy_2013",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard_full_text_missing"
+        }
+      ]
+    },
+    {
+      "id": "igrt",
+      "title": "Igrt",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 4,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "sfro_recorad_prostate_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified_content_review_pending"
+        },
+        {
+          "document_id": "acr_astro_igrt_practice_parameter_2020",
+          "organization_id": "acr_astro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "foundational_practice_parameter"
+        },
+        {
+          "document_id": "sfro_respiratory_motion_management_2022",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_french_foundational_reference"
+        }
+      ]
+    },
+    {
+      "id": "motion_management",
+      "title": "Motion Management",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "sfro_respiratory_motion_management_2022",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_french_foundational_reference"
+        },
+        {
+          "document_id": "aapm_tg76_motion_management_2006",
+          "organization_id": "aapm",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_supplement_with_newer_sources"
+        }
+      ]
+    },
+    {
+      "id": "srs_fsrt_sbrt",
+      "title": "Srs Fsrt Sbrt",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 4,
+      "linked_documents": [
+        {
+          "document_id": "aristot_brain_metastases_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "nice_mscc_ng234_2023",
+          "organization_id": "nice",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_evidence_based_european_reference"
+        },
+        {
+          "document_id": "icru_report_91_stereotactic_2017",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard_full_text_missing"
+        }
+      ]
+    },
+    {
+      "id": "brachytherapy",
+      "title": "Brachytherapy",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "icru_report_89_cervix_brachytherapy_2013",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard_full_text_missing"
+        }
+      ]
+    },
+    {
+      "id": "proton_therapy",
+      "title": "Proton Therapy",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "icru_report_78_proton_2007",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard_supplement_with_2024_dosimetry"
+        },
+        {
+          "document_id": "estro_eptn_proton_pencil_beam_dosimetry_2024",
+          "organization_id": "estro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        }
+      ]
+    },
+    {
+      "id": "special_techniques",
+      "title": "Special Techniques",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 4,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "iaea_hhr17_megavoltage_2022",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_for_scope"
+        },
+        {
+          "document_id": "icru_report_91_stereotactic_2017",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard_full_text_missing"
+        }
+      ]
+    },
+    {
+      "id": "radiation_protection",
+      "title": "Radiation Protection",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 5,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "asnr_decision_2021_dc_0708",
+          "organization_id": "asnr",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "in_force_verified_2026"
+        },
+        {
+          "document_id": "asnr_quality_assurance_guide_2021",
+          "organization_id": "asnr",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "in_force_verified_2026"
+        },
+        {
+          "document_id": "ec_rp181_risk_management_2015",
+          "organization_id": "european_commission",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_later_incident_guidance"
+        }
+      ]
+    },
+    {
+      "id": "quality_and_safety",
+      "title": "Quality And Safety",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 8,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "iaea_trs398_rev1_2024",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "iaea_hhr17_megavoltage_2022",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_for_scope"
+        },
+        {
+          "document_id": "iaea_ai_medical_physics_tcs83_2023",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_for_training_framework"
+        },
+        {
+          "document_id": "asnr_decision_2021_dc_0708",
+          "organization_id": "asnr",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "in_force_verified_2026"
+        },
+        {
+          "document_id": "asnr_quality_assurance_guide_2021",
+          "organization_id": "asnr",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "in_force_verified_2026"
+        },
+        {
+          "document_id": "ec_rp181_risk_management_2015",
+          "organization_id": "european_commission",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_later_incident_guidance"
+        }
+      ]
+    },
+    {
+      "id": "acute_and_late_toxicities",
+      "title": "Acute And Late Toxicities",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "afsos_recommendations_index",
+          "organization_id": "afsos",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "iaea_radiation_oncology_physics_handbook_2005",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "foundational_needs_topic_specific_updates"
+        },
+        {
+          "document_id": "nci_ctcae_v6_2025",
+          "organization_id": "nci_us",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        }
+      ]
+    },
+    {
+      "id": "systemic_therapy_rt_combinations",
+      "title": "Systemic Therapy Rt Combinations",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 5,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "eortc_estro_oligocare_systemic_rt_2023",
+          "organization_id": "estro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_consensus_verify_drug_specific_updates"
+        },
+        {
+          "document_id": "esmo_pancreatic_cancer_express_update_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_express_update_use_with_parent_guideline"
+        },
+        {
+          "document_id": "esmo_oesophageal_ogj_interim_update_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_interim_update_use_with_parent_guideline"
+        },
+        {
+          "document_id": "astro_anal_squamous_rt_2025",
+          "organization_id": "astro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_international_rt_guideline_contextualize_for_france"
+        }
+      ]
+    },
+    {
+      "id": "reirradiation",
+      "title": "Reirradiation",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "sfro_recorad_prostate_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified_content_review_pending"
+        }
+      ]
+    },
+    {
+      "id": "adaptive_radiotherapy",
+      "title": "Adaptive Radiotherapy",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 1,
+      "linked_documents": [
+        {
+          "document_id": "estro_core_curriculum_4",
+          "organization_id": "estro",
+          "relevance": "framework",
+          "access_level": "full_text_local",
+          "status": "current_for_curriculum_design"
+        },
+        {
+          "document_id": "jastro_mr_guided_adaptive_rt_2022",
+          "organization_id": "jastro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_practical_foundation_needs_european_updates"
+        }
+      ]
+    },
+    {
+      "id": "ai_in_radiotherapy",
+      "title": "Ai In Radiotherapy",
+      "track_id": "radiotherapy_core",
+      "track_title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "iaea_ai_medical_physics_tcs83_2023",
+          "organization_id": "iaea",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_for_training_framework"
+        }
+      ]
+    },
+    {
+      "id": "breast",
+      "title": "Breast",
+      "track_id": "essential_disease_sites",
+      "track_title": "Localisations indispensables",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "onco_aura_breast_2023",
+          "organization_id": "onco_aura",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "inca_breast_systemic_localised_2025",
+          "organization_id": "inca",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "esmo_breast_pocket_2023",
+          "organization_id": "esmo",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "context_needs_update_check"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        }
+      ]
+    },
+    {
+      "id": "lung_nsclc_sclc",
+      "title": "Lung Nsclc Sclc",
+      "track_id": "essential_disease_sites",
+      "track_title": "Localisations indispensables",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 7,
+      "linked_documents": [
+        {
+          "document_id": "aristot_nsclc_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "aristot_sclc_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "aristot_pulmonary_neuroendocrine_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "aristot_bronchoscopy_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "aristot_supportive_care_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "aristot_smoking_cessation_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "aristot_thoracic_nodules_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "inca_impulsion_lung_screening_2026",
+          "organization_id": "inca",
+          "relevance": "context",
+          "access_level": "web_native",
+          "status": "current_research_pilot_not_national_organized_screening"
+        }
+      ]
+    },
+    {
+      "id": "prostate",
+      "title": "Prostate",
+      "track_id": "essential_disease_sites",
+      "track_title": "Localisations indispensables",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "afu_prostate_localised_2024_2026",
+          "organization_id": "afu",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current"
+        },
+        {
+          "document_id": "afu_prostate_recurrence_metastatic_2024_2026",
+          "organization_id": "afu",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current"
+        },
+        {
+          "document_id": "sfro_recorad_prostate_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified_content_review_pending"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        }
+      ]
+    },
+    {
+      "id": "rectum",
+      "title": "Rectum",
+      "track_id": "essential_disease_sites",
+      "track_title": "Localisations indispensables",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "tncd_rectum_2025",
+          "organization_id": "tncd",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        }
+      ]
+    },
+    {
+      "id": "metastases_and_palliative_rt",
+      "title": "Metastases And Palliative Rt",
+      "track_id": "essential_disease_sites",
+      "track_title": "Localisations indispensables",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 7,
+      "linked_documents": [
+        {
+          "document_id": "aristot_bone_metastases_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "aristot_brain_metastases_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "afu_prostate_recurrence_metastatic_2024_2026",
+          "organization_id": "afu",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "eortc_estro_oligocare_systemic_rt_2023",
+          "organization_id": "estro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_consensus_verify_drug_specific_updates"
+        },
+        {
+          "document_id": "eha_emn_multiple_myeloma_2025",
+          "organization_id": "eha",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "nice_mscc_ng234_2023",
+          "organization_id": "nice",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_evidence_based_european_reference"
+        }
+      ]
+    },
+    {
+      "id": "oncologic_emergencies",
+      "title": "Oncologic Emergencies",
+      "track_id": "essential_disease_sites",
+      "track_title": "Localisations indispensables",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "esmo_immunotherapy_toxicity_cpg_2022",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_guideline_verify_updates_before_clinical_use"
+        },
+        {
+          "document_id": "nice_mscc_ng234_2023",
+          "organization_id": "nice",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_evidence_based_european_reference"
+        },
+        {
+          "document_id": "endocrine_society_hypercalcemia_malignancy_2023",
+          "organization_id": "endocrine_society",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_international_guideline_contextualize_for_france"
+        }
+      ]
+    },
+    {
+      "id": "cancer_unknown_primary",
+      "title": "Cancer Unknown Primary",
+      "track_id": "essential_disease_sites",
+      "track_title": "Localisations indispensables",
+      "priority": 1,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "esmo_cup_cpg_2023",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "esmo_rare_neuroendocrine_neoplasms_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        }
+      ]
+    },
+    {
+      "id": "head_and_neck",
+      "title": "Head And Neck",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 4,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "esmo_euracan_salivary_gland_2022",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "esmo_euracan_sinonasal_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "esmo_euracan_nasopharyngeal_2021",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "latest_dedicated_esmo_euracan_found_verify_future_update"
+        }
+      ]
+    },
+    {
+      "id": "cervix",
+      "title": "Cervix",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "onco_aura_cervix_2023",
+          "organization_id": "onco_aura",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "esmo_gynaecological_cancers_pocket_2023",
+          "organization_id": "esmo",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "context_needs_update_check"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "icru_report_89_cervix_brachytherapy_2013",
+          "organization_id": "icru",
+          "relevance": "core",
+          "access_level": "restricted",
+          "status": "foundational_standard_full_text_missing"
+        }
+      ]
+    },
+    {
+      "id": "endometrium",
+      "title": "Endometrium",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "onco_aura_endometrium_2022",
+          "organization_id": "onco_aura",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "superseded_for_european_clinical_decisions"
+        },
+        {
+          "document_id": "esgo_estro_esp_endometrial_2025",
+          "organization_id": "esgo_estro_esp",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "esmo_gynaecological_cancers_pocket_2023",
+          "organization_id": "esmo",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "context_needs_update_check"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        }
+      ]
+    },
+    {
+      "id": "vulva_and_vagina",
+      "title": "Vulva And Vagina",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "onco_aura_vulva_2023",
+          "organization_id": "onco_aura",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "esmo_gynaecological_cancers_pocket_2023",
+          "organization_id": "esmo",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "context_needs_update_check"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        }
+      ]
+    },
+    {
+      "id": "ovary",
+      "title": "Ovary",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "onco_aura_ovary_2023",
+          "organization_id": "onco_aura",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "esmo_gynaecological_cancers_pocket_2023",
+          "organization_id": "esmo",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "context_needs_update_check"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "esmo_ovarian_cancer_express_update_2026",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_express_update_use_with_parent_guideline"
+        }
+      ]
+    },
+    {
+      "id": "bladder",
+      "title": "Bladder",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "esmo_bladder_cancer_cpg_2022",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "parent_guideline_supplement_with_2024_advanced_urothelial_update"
+        }
+      ]
+    },
+    {
+      "id": "kidney",
+      "title": "Kidney",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "esmo_renal_cell_carcinoma_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline_check_living_updates"
+        }
+      ]
+    },
+    {
+      "id": "testis_and_penis",
+      "title": "Testis And Penis",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 5,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "esmo_euracan_testicular_cancer_2022",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_fixed_european_guideline_supplemented_by_eau_2026"
+        },
+        {
+          "document_id": "eau_testicular_cancer_2026",
+          "organization_id": "eau",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_2026_limited_update"
+        },
+        {
+          "document_id": "esmo_euracan_penile_cancer_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_fixed_guideline_supplemented_by_eau_asco_2026"
+        },
+        {
+          "document_id": "eau_asco_penile_cancer_2026",
+          "organization_id": "eau",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_2026_complete_revision"
+        }
+      ]
+    },
+    {
+      "id": "oesophagus_and_stomach",
+      "title": "Oesophagus And Stomach",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "esmo_oesophageal_ogj_interim_update_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_interim_update_use_with_parent_guideline"
+        }
+      ]
+    },
+    {
+      "id": "pancreas_liver_biliary",
+      "title": "Pancreas Liver Biliary",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "esmo_pancreatic_cancer_express_update_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_express_update_use_with_parent_guideline"
+        },
+        {
+          "document_id": "esmo_biliary_tract_interim_update_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_interim_update_use_with_parent_guideline"
+        }
+      ]
+    },
+    {
+      "id": "anal_canal",
+      "title": "Anal Canal",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "esmo_anal_cancer_cpg_2021",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_dedicated_european_guideline_verify_future_updates"
+        },
+        {
+          "document_id": "astro_anal_squamous_rt_2025",
+          "organization_id": "astro",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_international_rt_guideline_contextualize_for_france"
+        }
+      ]
+    },
+    {
+      "id": "central_nervous_system",
+      "title": "Central Nervous System",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 5,
+      "linked_documents": [
+        {
+          "document_id": "aristot_brain_metastases_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "eano_euracan_sno_rare_cns_2022",
+          "organization_id": "eano",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_guideline_for_rare_circumscribed_entities"
+        },
+        {
+          "document_id": "estro_eano_glioblastoma_rt_2023",
+          "organization_id": "eano",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_rt_guideline"
+        },
+        {
+          "document_id": "estro_eano_idh_mutant_glioma_rt_2025",
+          "organization_id": "eano",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_rt_guideline"
+        }
+      ]
+    },
+    {
+      "id": "lymphoma_myeloma",
+      "title": "Lymphoma Myeloma",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "eha_large_b_cell_lymphoma_2025",
+          "organization_id": "eha",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "eha_emn_multiple_myeloma_2025",
+          "organization_id": "eha",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        }
+      ]
+    },
+    {
+      "id": "soft_tissue_and_bone_sarcoma",
+      "title": "Soft Tissue And Bone Sarcoma",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "esmo_euracan_genturis_soft_tissue_visceral_sarcoma_2021",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline_verify_future_updates"
+        },
+        {
+          "document_id": "esmo_euracan_genturis_ernpaedcan_bone_sarcoma_2021",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline_verify_future_updates"
+        }
+      ]
+    },
+    {
+      "id": "skin_melanoma_merkel",
+      "title": "Skin Melanoma Merkel",
+      "track_id": "advanced_disease_sites",
+      "track_title": "Localisations courantes et avancées",
+      "priority": 2,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "oncologik_reference_index",
+          "organization_id": "oncologik",
+          "relevance": "discovery",
+          "access_level": "web_native",
+          "status": "living"
+        },
+        {
+          "document_id": "esmo_cutaneous_melanoma_cpg_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "esmo_euracan_merkel_cell_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        }
+      ]
+    },
+    {
+      "id": "rare_head_and_neck",
+      "title": "Rare Head And Neck",
+      "track_id": "rare_disease_sites",
+      "track_title": "Localisations rares à connaître",
+      "priority": 3,
+      "coverage_status": "core_started",
+      "core_document_count": 6,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "esmo_rare_neuroendocrine_neoplasms_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "esmo_euracan_salivary_gland_2022",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "esmo_euracan_sinonasal_2025",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "esmo_euracan_nasopharyngeal_2021",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "latest_dedicated_esmo_euracan_found_verify_future_update"
+        },
+        {
+          "document_id": "esmo_euracan_merkel_cell_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        }
+      ]
+    },
+    {
+      "id": "mesothelioma_and_thymoma",
+      "title": "Mesothelioma And Thymoma",
+      "track_id": "rare_disease_sites",
+      "track_title": "Localisations rares à connaître",
+      "priority": 3,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "onco_aura_thymic_tumours_2020",
+          "organization_id": "onco_aura",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "historical_needs_update_check"
+        },
+        {
+          "document_id": "aristot_mesothelioma_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "esmo_malignant_pleural_mesothelioma_2022",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_parent_guideline_verify_living_updates"
+        }
+      ]
+    },
+    {
+      "id": "rare_genitourinary",
+      "title": "Rare Genitourinary",
+      "track_id": "rare_disease_sites",
+      "track_title": "Localisations rares à connaître",
+      "priority": 3,
+      "coverage_status": "core_started",
+      "core_document_count": 6,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "eau_testicular_cancer_2026",
+          "organization_id": "eau",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_2026_limited_update"
+        },
+        {
+          "document_id": "esmo_euracan_penile_cancer_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_fixed_guideline_supplemented_by_eau_asco_2026"
+        },
+        {
+          "document_id": "eau_asco_penile_cancer_2026",
+          "organization_id": "eau",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_2026_complete_revision"
+        },
+        {
+          "document_id": "eau_primary_urethral_carcinoma_2026",
+          "organization_id": "eau",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_2026_limited_update"
+        },
+        {
+          "document_id": "esmo_rare_neuroendocrine_neoplasms_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        }
+      ]
+    },
+    {
+      "id": "rare_central_nervous_system",
+      "title": "Rare Central Nervous System",
+      "track_id": "rare_disease_sites",
+      "track_title": "Localisations rares à connaître",
+      "priority": 3,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "onco_aura_paediatric_neuro_oncology_2022",
+          "organization_id": "onco_aura",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_on_source_index_needs_expert_cross_check"
+        },
+        {
+          "document_id": "eano_euracan_sno_rare_cns_2022",
+          "organization_id": "eano",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_guideline_for_rare_circumscribed_entities"
+        },
+        {
+          "document_id": "estro_eano_idh_mutant_glioma_rt_2025",
+          "organization_id": "eano",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_rt_guideline"
+        }
+      ]
+    },
+    {
+      "id": "cutaneous_lymphoma",
+      "title": "Cutaneous Lymphoma",
+      "track_id": "rare_disease_sites",
+      "track_title": "Localisations rares à connaître",
+      "priority": 3,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "eortc_cutaneous_lymphoma_rt_2024",
+          "organization_id": "eortc",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_rt_recommendations"
+        }
+      ]
+    },
+    {
+      "id": "ophthalmic_and_orbital",
+      "title": "Ophthalmic And Orbital",
+      "track_id": "rare_disease_sites",
+      "track_title": "Localisations rares à connaître",
+      "priority": 3,
+      "coverage_status": "core_started",
+      "core_document_count": 1,
+      "linked_documents": [
+        {
+          "document_id": "esmo_euracan_uveal_melanoma_2026",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "melanoma_focus_uveal_melanoma_2023",
+          "organization_id": "melanoma_focus",
+          "relevance": "context",
+          "access_level": "full_text_local",
+          "status": "european_context_superseded_for_systemic_updates_by_esmo_2026"
+        }
+      ]
+    },
+    {
+      "id": "paediatric_and_aya",
+      "title": "Paediatric And Aya",
+      "track_id": "rare_disease_sites",
+      "track_title": "Localisations rares à connaître",
+      "priority": 3,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "onco_aura_paediatric_neuro_oncology_2022",
+          "organization_id": "onco_aura",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_on_source_index_needs_expert_cross_check"
+        },
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        }
+      ]
+    },
+    {
+      "id": "rare_germ_cell",
+      "title": "Rare Germ Cell",
+      "track_id": "rare_disease_sites",
+      "track_title": "Localisations rares à connaître",
+      "priority": 3,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "sfro_recorad_2025",
+          "organization_id": "sfro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_user_supplied_copy_verified"
+        },
+        {
+          "document_id": "esmo_euracan_testicular_cancer_2022",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_fixed_european_guideline_supplemented_by_eau_2026"
+        },
+        {
+          "document_id": "eau_testicular_cancer_2026",
+          "organization_id": "eau",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_2026_limited_update"
+        }
+      ]
+    },
+    {
+      "id": "neuroendocrine_tumors",
+      "title": "Neuroendocrine Tumors",
+      "track_id": "rare_disease_sites",
+      "track_title": "Localisations rares à connaître",
+      "priority": 3,
+      "coverage_status": "core_started",
+      "core_document_count": 3,
+      "linked_documents": [
+        {
+          "document_id": "aristot_pulmonary_neuroendocrine_2026",
+          "organization_id": "aristot",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current"
+        },
+        {
+          "document_id": "esmo_rare_neuroendocrine_neoplasms_2024",
+          "organization_id": "esmo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_european_guideline"
+        },
+        {
+          "document_id": "enets_digestive_nec_2023",
+          "organization_id": "enets",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_entity_specific_guidance"
+        }
+      ]
+    },
+    {
+      "id": "gestational_trophoblastic_disease",
+      "title": "Gestational Trophoblastic Disease",
+      "track_id": "rare_disease_sites",
+      "track_title": "Localisations rares à connaître",
+      "priority": 3,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "eottd_esgo_gcig_isstd_gtd_2025",
+          "organization_id": "eottd_esgo_gcig_isstd",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_global_consensus_guideline"
+        },
+        {
+          "document_id": "figo_gtd_update_2025",
+          "organization_id": "figo",
+          "relevance": "core",
+          "access_level": "web_native",
+          "status": "current_international_update"
+        }
+      ]
+    },
+    {
+      "id": "selected_benign_rt",
+      "title": "Selected Benign Rt",
+      "track_id": "rare_disease_sites",
+      "track_title": "Localisations rares à connaître",
+      "priority": 3,
+      "coverage_status": "core_started",
+      "core_document_count": 2,
+      "linked_documents": [
+        {
+          "document_id": "degro_benign_diseases_s2e_v3_2022",
+          "organization_id": "degro",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_detailed_european_reference"
+        },
+        {
+          "document_id": "rcr_benign_disease_2023",
+          "organization_id": "rcr",
+          "relevance": "core",
+          "access_level": "full_text_local",
+          "status": "current_until_scheduled_review_2027"
+        },
+        {
+          "document_id": "astro_estro_degro_ranzcr_nonmalignant_framework_2026",
+          "organization_id": "estro",
+          "relevance": "context",
+          "access_level": "web_native",
+          "status": "current_intersociety_framework_not_disease_specific_guideline"
+        }
+      ]
+    }
+  ]
+}

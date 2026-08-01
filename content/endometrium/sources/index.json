@@ -1,0 +1,298 @@
+{
+  "version": "0.2.0",
+  "accessDate": "2026-07-31",
+  "status": "needs_review",
+  "sources": [
+    {
+      "id": "esgo_estro_esp_2025",
+      "title": "ESGO-ESTRO-ESP guidelines for the management of patients with endometrial carcinoma: update 2025",
+      "publisher": "ESGO / ESTRO / ESP / The Lancet Oncology",
+      "year": 2025,
+      "type": "guideline",
+      "jurisdiction": "Europe",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40744042/",
+      "fullTextUrl": "https://guidelines.esgo.org/media/2025/09/ESGO-ESTRO-ESP-Guidelines-for-EC_-LO-July-2025.pdf",
+      "doi": "10.1016/S1470-2045(25)00167-6",
+      "pmid": "40744042",
+      "accessLevel": "full_text_reviewed",
+      "verification": "metadata_and_full_text_verified",
+      "affectedConcepts": [
+        "figo_2023_staging",
+        "molecular_classification",
+        "risk_groups",
+        "lvsi",
+        "vaginal_brachytherapy_vs_pelvic_ebrt",
+        "dmmr_msi_immunotherapy",
+        "p53_abnormal"
+      ],
+      "notes": "Primary European anchor. The locally parsed PDF and supplementary appendix are stored under evidence/endometrium-2026-07-31."
+    },
+    {
+      "id": "esgo_estro_esp_2025_appendix",
+      "title": "Supplementary appendix to the ESGO-ESTRO-ESP 2025 endometrial carcinoma guideline",
+      "publisher": "ESGO / ESTRO / ESP / The Lancet Oncology",
+      "year": 2025,
+      "type": "guideline_appendix",
+      "jurisdiction": "Europe",
+      "url": "https://guidelines.esgo.org/media/2025/09/Appendix-ESTO-ESTRO-ESP-Guideline-for-EC_-LO-July-2025-.pdf",
+      "accessLevel": "full_text_reviewed",
+      "verification": "full_text_verified",
+      "affectedConcepts": [
+        "lvsi",
+        "risk_groups",
+        "molecular_classification",
+        "vaginal_brachytherapy_vs_pelvic_ebrt"
+      ],
+      "notes": "Provides the detailed LVSI definition, risk-group rationale, pathology requirements and evidence discussion."
+    },
+    {
+      "id": "sfro_2025",
+      "title": "Radiotherapy for endometrial cancer: 2025 update",
+      "publisher": "SFRO / Cancer Radiothérapie",
+      "year": 2025,
+      "type": "radiotherapy_guideline",
+      "jurisdiction": "France",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41086562/",
+      "doi": "10.1016/j.canrad.2025.104752",
+      "pmid": "41086562",
+      "accessLevel": "abstract_and_metadata",
+      "verification": "metadata_verified_full_text_pending",
+      "affectedConcepts": [
+        "risk_groups",
+        "vaginal_brachytherapy_vs_pelvic_ebrt",
+        "target_volume_concepts",
+        "dose_fractionation_templates"
+      ],
+      "notes": "Current French radiotherapy anchor. Full recommendation text requires institutional or licensed access before validating dose, volume or technique claims."
+    },
+    {
+      "id": "gineco_advanced_2026",
+      "title": "French recommendations for clinical practice, Nice/Saint-Paul-de-Vence 2024-2025: management of advanced or relapsing endometrial cancer",
+      "publisher": "GINECO / Bulletin du Cancer",
+      "year": 2026,
+      "type": "systemic_therapy_guideline",
+      "jurisdiction": "France",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41617622/",
+      "doi": "10.1016/j.bulcan.2026.01.001",
+      "pmid": "41617622",
+      "accessLevel": "abstract_and_metadata",
+      "verification": "metadata_verified_full_text_pending",
+      "affectedConcepts": [
+        "dmmr_msi_immunotherapy",
+        "recurrent_metastatic_lines",
+        "her2_serous_disease"
+      ],
+      "notes": "French systemic-therapy anchor for advanced or recurrent disease. Do not derive detailed treatment sequences from the abstract alone."
+    },
+    {
+      "id": "figo_2023",
+      "title": "FIGO staging of endometrial cancer: 2023",
+      "publisher": "FIGO / International Journal of Gynecology & Obstetrics",
+      "year": 2023,
+      "type": "staging",
+      "jurisdiction": "International",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37337978/",
+      "doi": "10.1002/ijgo.14923",
+      "pmid": "37337978",
+      "accessLevel": "abstract_and_metadata",
+      "verification": "metadata_verified",
+      "affectedConcepts": [
+        "figo_2023_staging",
+        "myometrial_invasion",
+        "lvsi",
+        "molecular_classification"
+      ],
+      "notes": "Staging anchor. FIGO stage and ESGO prognostic risk group must be taught as related but distinct constructs."
+    },
+    {
+      "id": "esmo_2022",
+      "title": "Endometrial cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up",
+      "publisher": "ESMO / Annals of Oncology",
+      "year": 2022,
+      "type": "guideline",
+      "jurisdiction": "Europe",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35690222/",
+      "doi": "10.1016/j.annonc.2022.05.009",
+      "pmid": "35690222",
+      "accessLevel": "metadata_verified",
+      "verification": "superseded_in_part",
+      "affectedConcepts": [
+        "diagnosis_staging",
+        "dmmr_msi_immunotherapy",
+        "surveillance"
+      ],
+      "notes": "Useful baseline, but postoperative molecular risk and systemic-therapy sections require reconciliation with 2025-2026 guidance."
+    },
+    {
+      "id": "astro_2023",
+      "title": "Radiation Therapy for Endometrial Cancer: An American Society for Radiation Oncology Clinical Practice Guideline",
+      "publisher": "ASTRO / Practical Radiation Oncology",
+      "year": 2023,
+      "type": "radiotherapy_guideline",
+      "jurisdiction": "United States",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36280107/",
+      "doi": "10.1016/j.prro.2022.09.002",
+      "pmid": "36280107",
+      "accessLevel": "abstract_and_metadata",
+      "verification": "metadata_verified",
+      "affectedConcepts": [
+        "vaginal_brachytherapy_vs_pelvic_ebrt",
+        "pelvic_lymphatic_drainage",
+        "dose_fractionation_templates"
+      ],
+      "notes": "US comparison source. Published in 2023 after online publication in 2022."
+    },
+    {
+      "id": "portec_lvsi_2015",
+      "title": "Substantial lymph-vascular space invasion is a significant risk factor for recurrence in endometrial cancer: a pooled analysis of PORTEC 1 and 2 trials",
+      "publisher": "European Journal of Cancer",
+      "year": 2015,
+      "type": "pooled_trial_analysis",
+      "jurisdiction": "International",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26049688/",
+      "doi": "10.1016/j.ejca.2015.05.015",
+      "pmid": "26049688",
+      "accessLevel": "abstract_and_metadata",
+      "verification": "metadata_and_abstract_verified",
+      "affectedConcepts": [
+        "lvsi",
+        "risk_groups",
+        "vaginal_brachytherapy_vs_pelvic_ebrt"
+      ],
+      "notes": "Mechanistic and prognostic evidence anchor for substantial rather than merely present LVSI."
+    },
+    {
+      "id": "portec2_10y_2018",
+      "title": "Ten-year results of the PORTEC-2 trial for high-intermediate risk endometrial carcinoma",
+      "publisher": "British Journal of Cancer",
+      "year": 2018,
+      "type": "randomized_trial_followup",
+      "jurisdiction": "International",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30356126/",
+      "doi": "10.1038/s41416-018-0310-8",
+      "pmid": "30356126",
+      "pmcid": "PMC6219495",
+      "accessLevel": "full_text_available",
+      "verification": "metadata_and_abstract_verified",
+      "affectedConcepts": [
+        "lvsi",
+        "risk_groups",
+        "vaginal_brachytherapy_vs_pelvic_ebrt"
+      ],
+      "notes": "Supports VBT for the studied high-intermediate-risk population while identifying unfavorable factors associated with greater pelvic recurrence risk."
+    },
+    {
+      "id": "gog249_2019",
+      "title": "Adjuvant pelvic radiation therapy versus vaginal brachytherapy plus paclitaxel and carboplatin in high-intermediate and high-risk early-stage endometrial cancer",
+      "publisher": "Journal of Clinical Oncology",
+      "year": 2019,
+      "type": "randomized_phase_3_trial",
+      "jurisdiction": "International",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30995174/",
+      "doi": "10.1200/JCO.18.01575",
+      "pmid": "30995174",
+      "pmcid": "PMC6804858",
+      "accessLevel": "full_text_available",
+      "verification": "metadata_and_abstract_verified",
+      "affectedConcepts": [
+        "vaginal_brachytherapy_vs_pelvic_ebrt",
+        "adjuvant_chemotherapy_logic"
+      ],
+      "notes": "VBT plus three cycles of chemotherapy did not improve recurrence-free or overall survival over pelvic RT and produced more nodal relapses."
+    },
+    {
+      "id": "portec_molecular_rt_2023",
+      "title": "Molecular Classification Predicts Response to Radiotherapy in the Randomized PORTEC-1 and PORTEC-2 Trials",
+      "publisher": "Journal of Clinical Oncology",
+      "year": 2023,
+      "type": "molecular_trial_analysis",
+      "jurisdiction": "International",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37487144/",
+      "doi": "10.1200/JCO.23.00062",
+      "pmid": "37487144",
+      "accessLevel": "abstract_and_metadata",
+      "verification": "metadata_and_abstract_verified",
+      "affectedConcepts": [
+        "molecular_classification",
+        "p53_abnormal",
+        "vaginal_brachytherapy_vs_pelvic_ebrt"
+      ],
+      "notes": "Post-hoc molecular analysis; predictive findings require cautious interpretation and should not be presented as a standalone treatment rule."
+    },
+    {
+      "id": "portec3_10y_2025",
+      "title": "Adjuvant chemoradiotherapy versus radiotherapy alone in women with high-risk endometrial cancer: PORTEC-3 10-year outcomes and molecular analysis",
+      "publisher": "The Lancet Oncology",
+      "year": 2025,
+      "type": "randomized_phase_3_followup",
+      "jurisdiction": "International",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40921169/",
+      "doi": "10.1016/S1470-2045(25)00379-1",
+      "pmid": "40921169",
+      "pmcid": "PMC12479390",
+      "accessLevel": "full_text_available",
+      "verification": "metadata_and_abstract_verified",
+      "affectedConcepts": [
+        "p53_abnormal",
+        "molecular_classification",
+        "adjuvant_chemotherapy_logic"
+      ],
+      "notes": "Long-term high-risk evidence. Molecular subgroup analyses are post-hoc and must be labeled as such."
+    },
+    {
+      "id": "portec4a_2026",
+      "title": "Molecular profile-based adjuvant treatment for women with high-intermediate risk endometrial cancer: PORTEC-4a",
+      "publisher": "The Lancet Oncology",
+      "year": 2026,
+      "type": "randomized_phase_3_trial",
+      "jurisdiction": "International",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41449145/",
+      "doi": "10.1016/S1470-2045(25)00612-6",
+      "pmid": "41449145",
+      "accessLevel": "abstract_and_metadata",
+      "verification": "metadata_and_abstract_verified",
+      "affectedConcepts": [
+        "molecular_classification",
+        "risk_groups",
+        "lvsi",
+        "vaginal_brachytherapy_vs_pelvic_ebrt"
+      ],
+      "notes": "Recent randomized evidence for molecular-profile-directed adjuvant treatment. Educational content must distinguish the trial algorithm from universal guideline implementation."
+    },
+    {
+      "id": "keynote_b21_dmmr_2025",
+      "title": "Pembrolizumab or placebo plus adjuvant chemotherapy with or without radiotherapy for newly diagnosed high-risk endometrial cancer: dMMR subgroup",
+      "publisher": "Journal of Clinical Oncology",
+      "year": 2025,
+      "type": "randomized_trial_subgroup_analysis",
+      "jurisdiction": "International",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39411812/",
+      "doi": "10.1200/JCO-24-01887",
+      "pmid": "39411812",
+      "accessLevel": "abstract_and_metadata",
+      "verification": "metadata_and_abstract_verified",
+      "affectedConcepts": [
+        "dmmr_msi_immunotherapy",
+        "adjuvant_chemotherapy_logic"
+      ],
+      "notes": "Subgroup evidence in high-risk adjuvant disease. Do not generalize beyond the studied setting or present subgroup findings without uncertainty."
+    },
+    {
+      "id": "nccn_uterine_2025_insights",
+      "title": "NCCN Guidelines Insights: Uterine Neoplasms, Version 3.2025",
+      "publisher": "NCCN / JNCCN",
+      "year": 2025,
+      "type": "guideline_insights",
+      "jurisdiction": "United States",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40763788/",
+      "pmid": "40763788",
+      "accessLevel": "metadata_only_unlicensed",
+      "verification": "metadata_verified",
+      "affectedConcepts": [
+        "systemic_therapy",
+        "guideline_divergence_handling"
+      ],
+      "notes": "US comparison only. Full NCCN recommendations must not be reproduced or inferred without licensed access."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "filepath": "corpus/research/triangulation-citations.bib",
+  "total_entries": 14,
+  "valid_entries": 14,
+  "errors": [],
+  "warnings": [
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Thieblemont2025large: Missing recommended field \"pages\"",
+      "entry": "Thieblemont2025large"
+    },
+    {
+      "type": "missing_recommended_field",
+      "field": "pages",
+      "severity": "medium",
+      "message": "Entry Sorbye2023european: Missing recommended field \"pages\"",
+      "entry": "Sorbye2023european"
+    }
+  ],
+  "duplicates": [],
+  "venue_standard_checked": null,
+  "min_count_checked": null,
+  "manuscript_results": {
+    "checked": false,
+    "manuscript_filepath": null,
+    "cited_keys": [],
+    "missing_keys": [],
+    "unused_keys": []
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "id": "prostate",
+  "title": "Cancer de la prostate",
+  "version": "0.1.0",
+  "status": "needs_review",
+  "lastUpdated": "2026-07-31",
+  "learningGoal": "Maîtriser le cancer de la prostate de la détection à la maladie avancée, en intégrant l'urologie, l'oncologie médicale, la radiothérapie et les soins de support dans un raisonnement de RCP.",
+  "masteryMeters": [
+    "medical_foundations",
+    "diagnosis_staging",
+    "pathology_biomarkers",
+    "urologic_oncology",
+    "medical_oncology",
+    "radiotherapy",
+    "supportive_care",
+    "rcp_reasoning",
+    "expert_nuance"
+  ],
+  "modules": [
+    {
+      "id": "foundations",
+      "title": "Fondations médicales",
+      "objective": "Comprendre l'anatomie, la biologie de l'axe androgénique, l'histoire naturelle et les déterminants de la décision.",
+      "nodes": [
+        "prostate_zonal_anatomy",
+        "androgen_receptor_biology",
+        "psa_biology_and_kinetics",
+        "gleason_isup_foundations",
+        "patterns_of_spread",
+        "life_expectancy_and_competing_risk",
+        "prostate_trial_literacy"
+      ]
+    },
+    {
+      "id": "diagnosis_staging",
+      "title": "Diagnostic, anatomopathologie et staging",
+      "objective": "Construire un dossier diagnostique complet et interpréter chaque donnée sans confondre détection, stade et pronostic.",
+      "nodes": [
+        "early_detection_and_psa",
+        "mri_pirads",
+        "biopsy_strategy",
+        "pathology_report",
+        "tnm_staging",
+        "eau_risk_groups",
+        "psma_pet_indications",
+        "psma_pet_limits",
+        "germline_and_somatic_testing"
+      ]
+    },
+    {
+      "id": "localized_disease",
+      "title": "Maladie localisée et localement avancée",
+      "objective": "Comparer surveillance, chirurgie et radiothérapie selon le risque, l'espérance de vie, les préférences et les conséquences fonctionnelles.",
+      "nodes": [
+        "active_surveillance",
+        "watchful_waiting",
+        "radical_prostatectomy",
+        "definitive_radiotherapy",
+        "brachytherapy",
+        "focal_therapy_evidence",
+        "risk_and_patient_context",
+        "multimodal_curative_options",
+        "shared_decision_quality_of_life"
+      ]
+    },
+    {
+      "id": "medical_oncology",
+      "title": "Oncologie médicale",
+      "objective": "Maîtriser les mécanismes, indications, séquences et toxicités des traitements systémiques pertinents.",
+      "nodes": [
+        "adt_mechanisms_and_agents",
+        "adt_rt_integration",
+        "androgen_receptor_pathway_inhibitors",
+        "docetaxel_and_cabazitaxel",
+        "hrr_brca_parp_inhibitors",
+        "msi_mmr_and_rare_biomarkers",
+        "radium_223",
+        "lutetium_psma",
+        "systemic_treatment_sequencing",
+        "bone_metabolic_cardiovascular_health"
+      ]
+    },
+    {
+      "id": "radiotherapy",
+      "title": "Radio-oncologie",
+      "objective": "Relier indication, intention, volume, fractionnement, traitements associés et prévention des toxicités.",
+      "nodes": [
+        "definitive_ebrt_indications",
+        "moderate_hypofractionation",
+        "ultrahypofractionation_sbrt",
+        "prostate_brachytherapy",
+        "pelvic_nodal_irradiation",
+        "dose_escalation_and_focal_boost",
+        "target_volume_delineation",
+        "oar_and_plan_evaluation",
+        "igrt_and_motion_management",
+        "adt_duration_with_rt",
+        "postprostatectomy_radiotherapy",
+        "metastasis_directed_rt",
+        "palliative_rt"
+      ]
+    },
+    {
+      "id": "recurrence",
+      "title": "Récidive après traitement local",
+      "objective": "Interpréter une récidive biochimique et sélectionner une stratégie de rattrapage réellement adaptée au risque.",
+      "nodes": [
+        "biochemical_recurrence_definitions",
+        "psa_doubling_time",
+        "psma_pet_in_recurrence",
+        "early_salvage_radiotherapy",
+        "adt_with_salvage_rt",
+        "salvage_after_radiotherapy",
+        "nodal_oligorecurrence",
+        "metastasis_directed_therapy_uncertainty"
+      ]
+    },
+    {
+      "id": "advanced_disease",
+      "title": "Maladie avancée et métastatique",
+      "objective": "Raisonner par état de sensibilité hormonale, volume, symptômes, biologie, traitements antérieurs et objectifs du patient.",
+      "nodes": [
+        "mhspc_doublet_triplet",
+        "primary_prostate_rt_in_m1",
+        "nmcrpc",
+        "mcrpc_sequences",
+        "precision_oncology_hrr_brca",
+        "psma_radioligand_therapy",
+        "bone_metastases_and_sre_prevention",
+        "neuroendocrine_transformation",
+        "palliative_and_supportive_integration"
+      ]
+    },
+    {
+      "id": "complex_cases",
+      "title": "RCP et cas complexes",
+      "objective": "Arbitrer les situations où plusieurs stratégies sont raisonnables et rendre explicites les incertitudes.",
+      "nodes": [
+        "high_risk_m0_rcp",
+        "cnode_positive_m0",
+        "frailty_and_competing_mortality",
+        "inflammatory_bowel_disease",
+        "prior_turp_and_urinary_risk",
+        "hip_prosthesis_planning",
+        "oligometastatic_stage_migration",
+        "guideline_divergence_handling"
+      ]
+    },
+    {
+      "id": "surveillance_survivorship",
+      "title": "Surveillance et après-cancer",
+      "objective": "Détecter récidive et toxicités, restaurer la qualité de vie et prévenir les complications des traitements.",
+      "nodes": [
+        "psa_followup_after_local_therapy",
+        "testosterone_recovery",
+        "urinary_toxicity",
+        "bowel_toxicity",
+        "sexual_health",
+        "bone_health",
+        "metabolic_and_cardiovascular_risk",
+        "psychosocial_survivorship"
+      ]
+    }
+  ]
+}

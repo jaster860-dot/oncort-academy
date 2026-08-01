@@ -1,0 +1,268 @@
+{
+  "introduction": {
+    "purpose": "Established background, significance, and unresolved gap.",
+    "reference_ids": [
+      "ref-001",
+      "ref-002",
+      "ref-003",
+      "ref-004",
+      "ref-005",
+      "ref-006",
+      "ref-007",
+      "ref-008",
+      "ref-009",
+      "ref-010",
+      "ref-011",
+      "ref-012",
+      "ref-013",
+      "ref-014",
+      "ref-015",
+      "ref-016",
+      "ref-017",
+      "ref-018",
+      "ref-019",
+      "ref-020"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "Postoperative Radiation Therapy and Controversies Regarding Hormonal Therapy in the Management of Prostate Cancer - ScienceDirect in the Management of Prostate Cancer Author links open overlay panel Vérane Achard * † , Alan Dal Pra ‡ , Paul Sargos * § Show more Add to Mendeley Share Cite https://doi.org/10.1016/j.semradonc.2025.04.009 Get rights and content Biochemical recurrence (BCR) after radical prostatectomy (RP) remains a clinical challenge, with significant heterogeneity in outcomes and optimal management strategies."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "French recommendations from the AFU Cancer Committee for prostate cancer: 2025 summary of changes prostate cancer: 2025 summary of changes Fr J Urol ."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "French AFU Cancer Committee Guidelines - Update 2024-2026: Prostate cancer - Management of metastatic disease and castration resistance - PubMed French AFU Cancer Committee Guidelines - Update 2024-2026: Prostate cancer - Management of metastatic disease and castration resistance Affiliations Expand Affiliations Keywords: Metastasis; Prostate cancer; Recommendations; Recurrence; Treatment."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "Androgen Deprivation Therapy (ADT) Plus Docetaxel ..."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "Metastatic Hormone-Sensitive Prostate Cancer (mHSPC): Advances and Treatment Strategies in the First-Line Setting | Oncology and Therapy | Springer Nature Link disease) populations, with no evidence of heterogeneity, leading the authors to conclude that the addition of docetaxel to ADT should not only be the standard of care (SOC) for all men with mHSPC, but also considered for all men with high-risk nonmetastatic prostate cancer (M0)."
+      },
+      {
+        "reference_id": "ref-006",
+        "finding": "Salvage radiotherapy with or without hormonal therapy for biochemical recurrence after radical prostatectomy: A systematic review and meta-analysis | Prostate Cancer and Prostatic Diseases Nature Japan Nature Middle East Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights Springer Nature © 2026 Springer Nature Limited *[DOI]: Digital Object Identifier *[ISSN]: International Standard Serial Number A total of 949 records were included in the selection."
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "SOC for all participants was modified to time-limited ARPi and ADT based on the results of the STAMPEDE meta-analysis of adding ARPi to ADT and RT in high-risk prostate cancer [ 15 ]."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "Hormonal Agents in Localized and Advanced Prostate Cancer: Current Use and Future Perspectives - ScienceDirect Nonsurgical salvage local therapies for radiorecurrent prostate cancer: a systematic review and meta-analysis Eur Urol Oncol (2020) CC Parker et al."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "Addition of androgen-receptor pathway inhibitors to standard of care in metastatic hormone-sensitive prostate cancer: A systematic review and meta-analysis - ScienceDirect Astellas, Janssen, IPSEN, Merck."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "Androgen-deprivation therapy alone or with docetaxel in non-castrate metastatic prostate cancer (GETUG-AFU 15): a randomised, open-label, phase 3 trial - The Lancet Oncology imbalances in previous systemic treatment with ADT, chemotherapy for local disease or isolated rising concentration of serum prostate-specific antigen, and Glass risk groups."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "The role of hormone therapy and chemotherapy in oligometastatic prostate cancer - PMC defined as having at least two of the three following high-risk factors: a Gleason score of 8 or more,≥3 bone lesions and the presence of visceral metastasis."
+      },
+      {
+        "reference_id": "ref-012",
+        "finding": "TITAN trial; shifting focus from hormone-refractory to hormone-sensitive prostate cancer - PMC Various trials and the median OS for mCSPC are summarized in Table 1 ."
+      },
+      {
+        "reference_id": "ref-013",
+        "finding": "Recommendations for radiation therapy in oligometastatic prostate cancer: An ESTRO-ACROP Delphi consensus - ScienceDirect Due to the experimental character of this therapeutic approach, careful patient selection and close follow-up remains mandatory with enrollment of patients in clinical trials or prospective registries highly encouraged."
+      },
+      {
+        "reference_id": "ref-014",
+        "finding": "Adherence to Treatment Guidelines and Associated Survival in Older Patients with Prostate Cancer: A Prospective Multicentre Cohort Study - PMC 63% in our study)."
+      },
+      {
+        "reference_id": "ref-015",
+        "finding": "However, 6 months of ADT generates multiple side effects impacting quality of life (QoL)."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "In the GETUG-AFU 15 study a much higher rate of survival than that expected was found in the ADT-alone group, and this finding could be due to the sample size calculation that was too low to show any differences in survival."
+      },
+      {
+        "reference_id": "ref-017",
+        "finding": "This trial did not show an OS benefit (HR 1.01, 95% CI 0.75–1.36)—thus, a negative trial—although it demonstrated an improved PSA progression-free survival (PFS) and radiographic PFS"
+      },
+      {
+        "reference_id": "ref-018",
+        "finding": "Androgen deprivation therapy combined with postoperative radiotherapy for prostate cancer management - The Lancet AFU 16, and NRG Oncology/RTOG 0534 SPPORT (hereafter referred to as SPPORT); 2–4 the addition of RADICALS-HD is a substantial extension of these results with the notable differences of including post-prostatectomy patients receiving adjuvant and salvage treatment, and using metastasis-free survival as the primary endpoint (9 years median follow-up)."
+      },
+      {
+        "reference_id": "ref-019",
+        "finding": "Timing of Early Salvage Therapy for Patients With Biochemical Relapse of Prostate Carcinoma - PMC The French GETUG-AFU 16 trial compared the effect of the addition of short-term ADT with gosereline for 6 months to the SRT therapy (66 Gy) in 743 patients with high-risk factors for relapse and pre-SRT PSA of 0.2–2 ng/mL after RP."
+      },
+      {
+        "reference_id": "ref-020",
+        "finding": "How to choose duration of additional androgen deprivation therapy ..."
+      }
+    ]
+  },
+  "methods-rationale": {
+    "purpose": "Published precedent for measures, protocols, models, and analyses.",
+    "reference_ids": [
+      "ref-006",
+      "ref-007",
+      "ref-008",
+      "ref-009",
+      "ref-011",
+      "ref-012",
+      "ref-013",
+      "ref-015",
+      "ref-016"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-006",
+        "finding": "Salvage radiotherapy with or without hormonal therapy for biochemical recurrence after radical prostatectomy: A systematic review and meta-analysis | Prostate Cancer and Prostatic Diseases Nature Japan Nature Middle East Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights Springer Nature © 2026 Springer Nature Limited *[DOI]: Digital Object Identifier *[ISSN]: International Standard Serial Number A total of 949 records were included in the selection."
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "SOC for all participants was modified to time-limited ARPi and ADT based on the results of the STAMPEDE meta-analysis of adding ARPi to ADT and RT in high-risk prostate cancer [ 15 ]."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "Hormonal Agents in Localized and Advanced Prostate Cancer: Current Use and Future Perspectives - ScienceDirect Nonsurgical salvage local therapies for radiorecurrent prostate cancer: a systematic review and meta-analysis Eur Urol Oncol (2020) CC Parker et al."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "Addition of androgen-receptor pathway inhibitors to standard of care in metastatic hormone-sensitive prostate cancer: A systematic review and meta-analysis - ScienceDirect Astellas, Janssen, IPSEN, Merck."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "The role of hormone therapy and chemotherapy in oligometastatic prostate cancer - PMC defined as having at least two of the three following high-risk factors: a Gleason score of 8 or more,≥3 bone lesions and the presence of visceral metastasis."
+      },
+      {
+        "reference_id": "ref-012",
+        "finding": "TITAN trial; shifting focus from hormone-refractory to hormone-sensitive prostate cancer - PMC Various trials and the median OS for mCSPC are summarized in Table 1 ."
+      },
+      {
+        "reference_id": "ref-013",
+        "finding": "Recommendations for radiation therapy in oligometastatic prostate cancer: An ESTRO-ACROP Delphi consensus - ScienceDirect Due to the experimental character of this therapeutic approach, careful patient selection and close follow-up remains mandatory with enrollment of patients in clinical trials or prospective registries highly encouraged."
+      },
+      {
+        "reference_id": "ref-015",
+        "finding": "However, 6 months of ADT generates multiple side effects impacting quality of life (QoL)."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "In the GETUG-AFU 15 study a much higher rate of survival than that expected was found in the ADT-alone group, and this finding could be due to the sample size calculation that was too low to show any differences in survival."
+      }
+    ]
+  },
+  "discussion": {
+    "purpose": "Supporting and conflicting studies, mechanisms, limits, and implications.",
+    "reference_ids": [
+      "ref-001",
+      "ref-002",
+      "ref-003",
+      "ref-004",
+      "ref-005",
+      "ref-006",
+      "ref-007",
+      "ref-008",
+      "ref-009",
+      "ref-010",
+      "ref-011",
+      "ref-012",
+      "ref-013",
+      "ref-014",
+      "ref-015",
+      "ref-016",
+      "ref-017",
+      "ref-018",
+      "ref-019",
+      "ref-020"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "Postoperative Radiation Therapy and Controversies Regarding Hormonal Therapy in the Management of Prostate Cancer - ScienceDirect in the Management of Prostate Cancer Author links open overlay panel Vérane Achard * † , Alan Dal Pra ‡ , Paul Sargos * § Show more Add to Mendeley Share Cite https://doi.org/10.1016/j.semradonc.2025.04.009 Get rights and content Biochemical recurrence (BCR) after radical prostatectomy (RP) remains a clinical challenge, with significant heterogeneity in outcomes and optimal management strategies."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "French recommendations from the AFU Cancer Committee for prostate cancer: 2025 summary of changes prostate cancer: 2025 summary of changes Fr J Urol ."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "French AFU Cancer Committee Guidelines - Update 2024-2026: Prostate cancer - Management of metastatic disease and castration resistance - PubMed French AFU Cancer Committee Guidelines - Update 2024-2026: Prostate cancer - Management of metastatic disease and castration resistance Affiliations Expand Affiliations Keywords: Metastasis; Prostate cancer; Recommendations; Recurrence; Treatment."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "Androgen Deprivation Therapy (ADT) Plus Docetaxel ..."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "Metastatic Hormone-Sensitive Prostate Cancer (mHSPC): Advances and Treatment Strategies in the First-Line Setting | Oncology and Therapy | Springer Nature Link disease) populations, with no evidence of heterogeneity, leading the authors to conclude that the addition of docetaxel to ADT should not only be the standard of care (SOC) for all men with mHSPC, but also considered for all men with high-risk nonmetastatic prostate cancer (M0)."
+      },
+      {
+        "reference_id": "ref-006",
+        "finding": "Salvage radiotherapy with or without hormonal therapy for biochemical recurrence after radical prostatectomy: A systematic review and meta-analysis | Prostate Cancer and Prostatic Diseases Nature Japan Nature Middle East Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights Springer Nature © 2026 Springer Nature Limited *[DOI]: Digital Object Identifier *[ISSN]: International Standard Serial Number A total of 949 records were included in the selection."
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "SOC for all participants was modified to time-limited ARPi and ADT based on the results of the STAMPEDE meta-analysis of adding ARPi to ADT and RT in high-risk prostate cancer [ 15 ]."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "Hormonal Agents in Localized and Advanced Prostate Cancer: Current Use and Future Perspectives - ScienceDirect Nonsurgical salvage local therapies for radiorecurrent prostate cancer: a systematic review and meta-analysis Eur Urol Oncol (2020) CC Parker et al."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "Addition of androgen-receptor pathway inhibitors to standard of care in metastatic hormone-sensitive prostate cancer: A systematic review and meta-analysis - ScienceDirect Astellas, Janssen, IPSEN, Merck."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "Androgen-deprivation therapy alone or with docetaxel in non-castrate metastatic prostate cancer (GETUG-AFU 15): a randomised, open-label, phase 3 trial - The Lancet Oncology imbalances in previous systemic treatment with ADT, chemotherapy for local disease or isolated rising concentration of serum prostate-specific antigen, and Glass risk groups."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "The role of hormone therapy and chemotherapy in oligometastatic prostate cancer - PMC defined as having at least two of the three following high-risk factors: a Gleason score of 8 or more,≥3 bone lesions and the presence of visceral metastasis."
+      },
+      {
+        "reference_id": "ref-012",
+        "finding": "TITAN trial; shifting focus from hormone-refractory to hormone-sensitive prostate cancer - PMC Various trials and the median OS for mCSPC are summarized in Table 1 ."
+      },
+      {
+        "reference_id": "ref-013",
+        "finding": "Recommendations for radiation therapy in oligometastatic prostate cancer: An ESTRO-ACROP Delphi consensus - ScienceDirect Due to the experimental character of this therapeutic approach, careful patient selection and close follow-up remains mandatory with enrollment of patients in clinical trials or prospective registries highly encouraged."
+      },
+      {
+        "reference_id": "ref-014",
+        "finding": "Adherence to Treatment Guidelines and Associated Survival in Older Patients with Prostate Cancer: A Prospective Multicentre Cohort Study - PMC 63% in our study)."
+      },
+      {
+        "reference_id": "ref-015",
+        "finding": "However, 6 months of ADT generates multiple side effects impacting quality of life (QoL)."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "In the GETUG-AFU 15 study a much higher rate of survival than that expected was found in the ADT-alone group, and this finding could be due to the sample size calculation that was too low to show any differences in survival."
+      },
+      {
+        "reference_id": "ref-017",
+        "finding": "This trial did not show an OS benefit (HR 1.01, 95% CI 0.75–1.36)—thus, a negative trial—although it demonstrated an improved PSA progression-free survival (PFS) and radiographic PFS"
+      },
+      {
+        "reference_id": "ref-018",
+        "finding": "Androgen deprivation therapy combined with postoperative radiotherapy for prostate cancer management - The Lancet AFU 16, and NRG Oncology/RTOG 0534 SPPORT (hereafter referred to as SPPORT); 2–4 the addition of RADICALS-HD is a substantial extension of these results with the notable differences of including post-prostatectomy patients receiving adjuvant and salvage treatment, and using metastasis-free survival as the primary endpoint (9 years median follow-up)."
+      },
+      {
+        "reference_id": "ref-019",
+        "finding": "Timing of Early Salvage Therapy for Patients With Biochemical Relapse of Prostate Carcinoma - PMC The French GETUG-AFU 16 trial compared the effect of the addition of short-term ADT with gosereline for 6 months to the SRT therapy (66 Gy) in 743 patients with high-risk factors for relapse and pre-SRT PSA of 0.2–2 ng/mL after RP."
+      },
+      {
+        "reference_id": "ref-020",
+        "finding": "How to choose duration of additional androgen deprivation therapy ..."
+      }
+    ]
+  }
+}

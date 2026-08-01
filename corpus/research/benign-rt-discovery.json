@@ -1,0 +1,672 @@
+[
+  {
+    "success": true,
+    "query": "Current official Europe or international consensus guideline for radiotherapy of benign diseases, including DEGRO, ESTRO, RCR or ASTRO, verify publication date and canonical URL",
+    "response": "## Findings\n\n### 1. International multi-society framework — newest identified\n\n**“Radiation Therapy for Nonmalignant Diseases: An ASTRO‑ESTRO‑DEGRO‑RANZCR Framework.”**\n\n- **Organizations represented:** ASTRO, ESTRO, DEGRO and RANZCR, as stated in the title of the publisher record.[^1]\n- **Status:** The record is categorized as a radiotherapy guideline/framework by the *International Journal of Radiation Oncology • Biology • Physics* (“Red Journal”).[^1]\n- **Canonical publisher URL:**  \n  https://www.redjournal.org/article/S0360-3016(25)06299-6/abstract\n- **Publisher PII:** `S0360-3016(25)06299-6`.[^1]\n- **Publication date:** The accessible search record establishes a **2025 publisher identifier**, but did not expose a sufficiently clear issue or online-publication date. I therefore cannot responsibly give an exact day or month without inventing it. The publisher page should be treated as the definitive source for its eventual “Available online” and issue dates.[^1]\n\n**Interpretation:** This is the most recent international, cross-society consensus-type document identified. It is called a **framework**, rather than a conventional disease-specific evidence-based clinical-practice guideline.[^1]\n\n### 2. United Kingdom — current official RCR recommendation\n\n**“Recommendations for using radiotherapy for benign disease in the UK.”**\n\n- **Issuing body:** Royal College of Radiologists.\n- **Publication year:** **2023**. The bibliographic citation in the newer ASTRO–ESTRO–DEGRO–RANZCR framework gives: “London: The Royal College of Radiologists; 2023.”[^1]\n- **Official RCR publication collection:**  \n  https://www.rcr.ac.uk/our-services/all-our-publications/clinical-oncology-publications/\n- **Canonical document URL:** The newer framework cites the RCR website, but the retrieved record truncated the document-specific path. Consequently, the official RCR publication catalogue above is verified, while a more specific URL should not be supplied without checking the live RCR record.[^1]\n\n**Source classification:** The RCR document itself is a **primary organizational source**. The 2023 date recovered here comes from the bibliography of the subsequent multi-society framework and is therefore **secondary bibliographic confirmation**, not direct inspection of the RCR PDF.[^1]\n\n### 3. Germany — DEGRO update and underlying peer-reviewed guideline series\n\n#### DEGRO organizational update\n\nThe multi-society framework cites:\n\n> **“Guidelines in radiotherapy: Radiotherapy for benign diseases: German Society for Radiation Oncology (DEGRO) Update. 2022;19:3.”**[^1]\n\n- **Issuing body:** German Society for Radiation Oncology (DEGRO).\n- **Publication year:** **2022**.[^1]\n- **Status:** This appears to be DEGRO’s more recent organizational update and should take precedence over the older 2014–2015 journal series when checking current German recommendations.[^1]\n- **Official DEGRO site:** https://www.degro.org/\n- **Canonical document URL:** A document-specific official URL was not exposed in the retrieved evidence, so I cannot verify one without risking a fabricated or obsolete link.\n\nAgain, the date and citation are presently verified through the later framework’s bibliography, which is **secondary evidence** for the DEGRO publication.[^1]\n\n#### Foundational peer-reviewed DEGRO guideline\n\n**Reichl B, et al. “DEGRO practical guidelines for radiotherapy of non-malignant disorders. Part I: physical principles, radiobiological mechanisms, and radiogenic risk.”**\n\n- **Journal publication:** *Strahlentherapie und Onkologie*, **2015**.[^2]\n- **Canonical DOI:** https://doi.org/10.1007/s00066-015-0817-3\n- **PubMed record:** https://pubmed.ncbi.nlm.nih.gov/26117368/\n- The article describes itself as a synopsis of the DEGRO **S2e guideline**, which had been reissued on **14 November 2013**.[^3]\n\nOther parts of the DEGRO non-malignant-disorders series appeared around 2014–2015. For example, the painful-degenerative-disorders paper was received 6 August 2014, accepted 5 September 2014 and published online **20 September 2014**.[^4] These papers remain important primary peer-reviewed sources, but they should not automatically be described as DEGRO’s **current** umbrella guidance when a 2022 DEGRO update is cited by the newer international framework.[^1]\n\n### 4. ESTRO and ASTRO\n\nI did **not** identify a separate, current, society-wide ASTRO-only or ESTRO-only guideline covering benign/nonmalignant radiotherapy as a whole. Their currently identifiable overarching contribution is the joint **ASTRO–ESTRO–DEGRO–RANZCR framework** above.[^1] This does not exclude condition-specific ASTRO or ESTRO recommendations—for example, guidance concerning heterotopic ossification, keloids or non-oncologic cardiac radiotherapy—but those are not equivalent to a comprehensive benign-disease guideline.\n\n## Practical conclusion\n\nFor a current hierarchy of authoritative material:\n\n1. **Newest international consensus/framework:**  \n   ASTRO–ESTRO–DEGRO–RANZCR, *Radiation Therapy for Nonmalignant Diseases* — publisher record with 2025 PII; exact publication date still needs confirmation on the live journal page.[^1]\n\n2. **Current UK national recommendation:**  \n   RCR, *Recommendations for using radiotherapy for benign disease in the UK* — **2023**.[^1]\n\n3. **Current German organizational update:**  \n   DEGRO, *Radiotherapy for benign diseases*, update — **2022**.[^1]\n\n4. **Foundational, peer-reviewed DEGRO evidence-based series:**  \n   Published principally in **2014–2015**, including Part I, DOI `10.1007/s00066-015-0817-3`.[^2][^4]\n\nThe principal unresolved bibliographic issue is the exact online/issue publication date of the new joint framework and the document-specific official URLs for the 2022 DEGRO and 2023 RCR publications. The retrieved evidence supports their existence and years, but not enough to invent those missing details.\n\n---\n\n[^1]: *International Journal of Radiation Oncology • Biology • Physics*, publisher record, “Radiation Therapy for Nonmalignant Diseases: An ASTRO‑ESTRO‑DEGRO‑RANZCR Framework,” PII S0360-3016(25)06299-6. https://www.redjournal.org/article/S0360-3016(25)06299-6/abstract  \n[^2]: PubMed, Reichl B, et al., “DEGRO practical guidelines for radiotherapy of non-malignant disorders. Part I,” 2015, PMID 26117368. https://pubmed.ncbi.nlm.nih.gov/26117368/ ; canonical DOI: https://doi.org/10.1007/s00066-015-0817-3  \n[^3]: IAEA INIS bibliographic record for DEGRO Part I, noting that the underlying S2e guideline was reissued on 14 November 2013. https://inis.iaea.org/records/tczq9-jy632  \n[^4]: Ott OJ, et al., “DEGRO guidelines for the radiotherapy of non-malignant disorders. Part II: Painful degenerative skeletal disorders,” publication metadata reproduced in the article PDF. https://dupuytrens.org/DupPDFs/2015_Ott.pdf",
+    "citations": [
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines for radiotherapy of non- ...",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26117368",
+        "publish_date": "",
+        "snippet": "DEGRO practical guidelines for radiotherapy of non- ...\nby B Reichl · 2015 · Cited by 61 — The basic principles of radiation physics and treatment delivery, evaluation of putative underlying radiobiological mechanisms, and the assessment of genetic",
+        "excerpts": [
+          "DEGRO practical guidelines for radiotherapy of non- ...\nby B Reichl · 2015 · Cited by 61 — The basic principles of radiation physics and treatment delivery, evaluation of putative underlying radiobiological mechanisms, and the assessment of genetic"
+        ],
+        "supporting_excerpts": [
+          "DEGRO practical guidelines for radiotherapy of non- ...\nby B Reichl · 2015 · Cited by 61 — The basic principles of radiation physics and treatment delivery, evaluation of putative underlying radiobiological mechanisms, and the assessment of genetic"
+        ],
+        "doi": "",
+        "pmid": "26117368",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines for radiotherapy of non-malignant disorders. Part I: physical principles, radiobiological mechanisms, and radiogenic risk",
+        "url": "https://inis.iaea.org/records/tczq9-jy632",
+        "publish_date": "",
+        "snippet": "Zusammenfassung des einfuehrenden Kapitels der DEGRO-S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen einschliesslich der physikalischen Grundlagen, strahlenbiologischer Mechanismen und des radiogenen Risikos. Basis fuer diesen Beitrag ist die am 14. November 2013 neu aufgelegte S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen. Dabei werden die allgemeinen Grundlagen der Strahlenphysik und Bestrahlungstechnik, zugrundeliegende radiobiologische Mechanismen und die Erfassung des genetischen und Tumorrisikos nach niedrigdosierter Bestrahlung dargestellt. Synopsis of the introductory paragraph of the DEGRO consensus S2e-guideline recommendations for the radiotherapy of benign disorders, including physical principles, radiobiological mechanisms, and radiogenic risk. This",
+        "excerpts": [
+          "Zusammenfassung des einfuehrenden Kapitels der DEGRO-S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen einschliesslich der physikalischen Grundlagen, strahlenbiologischer Mechanismen und des radiogenen Risikos. Basis fuer diesen Beitrag ist die am 14. November 2013 neu aufgelegte S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen. Dabei werden die allgemeinen Grundlagen der Strahlenphysik und Bestrahlungstechnik, zugrundeliegende radiobiologische Mechanismen und die Erfassung des genetischen und Tumorrisikos nach niedrigdosierter Bestrahlung dargestellt. Synopsis of the introductory paragraph of the DEGRO consensus S2e-guideline recommendations for the radiotherapy of benign disorders, including physical principles, radiobiological mechanisms, and radiogenic risk. This"
+        ],
+        "supporting_excerpts": [
+          "Zusammenfassung des einfuehrenden Kapitels der DEGRO-S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen einschliesslich der physikalischen Grundlagen, strahlenbiologischer Mechanismen und des radiogenen Risikos. Basis fuer diesen Beitrag ist die am 14. November 2013 neu aufgelegte S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen. Dabei werden die allgemeinen Grundlagen der Strahlenphysik und Bestrahlungstechnik, zugrundeliegende radiobiologische Mechanismen und die Erfassung des genetischen und Tumorrisikos nach niedrigdosierter Bestrahlung dargestellt. Synopsis of the introductory paragraph of the DEGRO consensus S2e-guideline recommendations for the radiotherapy of benign disorders, including physical principles, radiobiological mechanisms, and radiogenic risk. This"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO/DGK guideline for radiotherapy in patients with ...",
+        "url": "https://www.degro.org/wp-content/uploads/2020/02/s00066-015-0817-3.pdf",
+        "publish_date": "",
+        "snippet": "397 1 3 DEGRO/DGK guideline for radiotherapy in patients with cardiac implantable electronic devices Author Year n Tumor entity or site CIED RT dose Dose CIED/energy Effects Raitt [ 49 ] 1994 1 Thyroid cancer PM 4.8 GyE neutrons 0.9 GyE Uncontrollable increase in pacing frequency (runaway pacemaker, 180/min) Tsekos [ 61 ] 2000 1 Neuroendocrine cancer right arm PM 50.4/1.8 Gy ~ 50 Gy (PM in beam)/n.m. Indian J Radiol Imaging 16:857–877\nMouton J, Haug R, Bridier A et al (2002) Influence of high-energy photon beam irradiation on pacemaker operation. Phys Med Biol 47:2879–2893\nMunshi A, Wadasadawala T, Sharma PK et al (2008) Radiation therapy planning of a breast cancer patient with in situ pacemaker– challenges and lessons. Acta Oncol 47:255–260\nBoston Scientific (2012) Therapeutic",
+        "excerpts": [
+          "397 1 3 DEGRO/DGK guideline for radiotherapy in patients with cardiac implantable electronic devices Author Year n Tumor entity or site CIED RT dose Dose CIED/energy Effects Raitt [ 49 ] 1994 1 Thyroid cancer PM 4.8 GyE neutrons 0.9 GyE Uncontrollable increase in pacing frequency (runaway pacemaker, 180/min) Tsekos [ 61 ] 2000 1 Neuroendocrine cancer right arm PM 50.4/1.8 Gy ~ 50 Gy (PM in beam)/n.m. Indian J Radiol Imaging 16:857–877\nMouton J, Haug R, Bridier A et al (2002) Influence of high-energy photon beam irradiation on pacemaker operation. Phys Med Biol 47:2879–2893\nMunshi A, Wadasadawala T, Sharma PK et al (2008) Radiation therapy planning of a breast cancer patient with in situ pacemaker– challenges and lessons. Acta Oncol 47:255–260\nBoston Scientific (2012) Therapeutic"
+        ],
+        "supporting_excerpts": [
+          "397 1 3 DEGRO/DGK guideline for radiotherapy in patients with cardiac implantable electronic devices Author Year n Tumor entity or site CIED RT dose Dose CIED/energy Effects Raitt [ 49 ] 1994 1 Thyroid cancer PM 4.8 GyE neutrons 0.9 GyE Uncontrollable increase in pacing frequency (runaway pacemaker, 180/min) Tsekos [ 61 ] 2000 1 Neuroendocrine cancer right arm PM 50.4/1.8 Gy ~ 50 Gy (PM in beam)/n.m. Indian J Radiol Imaging 16:857–877\nMouton J, Haug R, Bridier A et al (2002) Influence of high-energy photon beam irradiation on pacemaker operation. Phys Med Biol 47:2879–2893\nMunshi A, Wadasadawala T, Sharma PK et al (2008) Radiation therapy planning of a breast cancer patient with in situ pacemaker– challenges and lessons. Acta Oncol 47:255–260\nBoston Scientific (2012) Therapeutic"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Refresher DEGRO 2017 Non Hodgkin Lymphoma",
+        "url": "https://www.degro.org/wp-content/uploads/2017/06/RK08_NHL_web.pdf",
+        "publish_date": "",
+        "snippet": "Section:  > \nRefresher DEGRO 2017 Non Hodgkin Lymphoma\nJun 16, 2017 — Evolution of Lymphoma Staging and treatment response evaluation criteria: • 1971: Ann Arbor Staging System.Read more Refresher DEGRO 2017 Non Hodgkin Lymphoma\n16 Jun 2017 — ILROG-Guideline Radiotherapy for nodal Non Hodgkin Lymphoma. Page 63. 16.06.2017. 63. Cologne | Christian Baues | University Hospital of Cologne",
+        "excerpts": [
+          "Section:  > \nRefresher DEGRO 2017 Non Hodgkin Lymphoma\nJun 16, 2017 — Evolution of Lymphoma Staging and treatment response evaluation criteria: • 1971: Ann Arbor Staging System.Read more Refresher DEGRO 2017 Non Hodgkin Lymphoma\n16 Jun 2017 — ILROG-Guideline Radiotherapy for nodal Non Hodgkin Lymphoma. Page 63. 16.06.2017. 63. Cologne | Christian Baues | University Hospital of Cologne"
+        ],
+        "supporting_excerpts": [
+          "Section:  > \nRefresher DEGRO 2017 Non Hodgkin Lymphoma\nJun 16, 2017 — Evolution of Lymphoma Staging and treatment response evaluation criteria: • 1971: Ann Arbor Staging System.Read more Refresher DEGRO 2017 Non Hodgkin Lymphoma\n16 Jun 2017 — ILROG-Guideline Radiotherapy for nodal Non Hodgkin Lymphoma. Page 63. 16.06.2017. 63. Cologne | Christian Baues | University Hospital of Cologne"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: bone metastases and metastatic spinal cord compression (MSCC) - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19714302",
+        "publish_date": "",
+        "snippet": "spinal cord compression (MSCC)\nRainer Souchon 1 , Frederik Wenz , Felix Sedlmayer , Wilfried Budach , Jürgen Dunst , Petra Feyer , Wulf Haase , Wolfgang Harms , Marie-Luise Sautter-Bihl , Rolf Sauer ; German Society of Radiation Oncology (DEGRO) Affiliations Expand\nAffiliation\n1 Department of Radiation Oncology, UKT Tübingen, Tübingen, Germany. rainer.souchon@med.uni-tuebingen.de\nPMID: 19714302\nDOI: 10.1007/s00066-009-2044-2 Item in Clipboard Practice Guideline\nDEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: bone metastases and metastatic spinal cord compression (MSCC) Most important criteria for prognosis and choice of treatment (mostly combined multimodal therapy) are neurologic status at diagnosis of MSCC, time course of duration and progression of",
+        "excerpts": [
+          "spinal cord compression (MSCC)\nRainer Souchon 1 , Frederik Wenz , Felix Sedlmayer , Wilfried Budach , Jürgen Dunst , Petra Feyer , Wulf Haase , Wolfgang Harms , Marie-Luise Sautter-Bihl , Rolf Sauer ; German Society of Radiation Oncology (DEGRO) Affiliations Expand\nAffiliation\n1 Department of Radiation Oncology, UKT Tübingen, Tübingen, Germany. rainer.souchon@med.uni-tuebingen.de\nPMID: 19714302\nDOI: 10.1007/s00066-009-2044-2 Item in Clipboard Practice Guideline\nDEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: bone metastases and metastatic spinal cord compression (MSCC) Most important criteria for prognosis and choice of treatment (mostly combined multimodal therapy) are neurologic status at diagnosis of MSCC, time course of duration and progression of",
+          "University of Luebeck\nDEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: Bone metastases and metastatic spinal cord compression (MSCC)\nRainer Souchon * , Frederik Wenz, Felix Sedlmayer, Wilfried Budach, Jürgen Dunst, Petra Feyer, Wulf Haase, Wolfgang Harms, Marie Luise Sautter-Bihl, Rolf Sauer APA\nAuthor\nBIBTEX\nHarvard\nStandard\nRIS\nVancouver Souchon, R., Wenz, F., Sedlmayer, F., Budach, W., Dunst, J., Feyer, P., Haase, W., Harms, W., Sautter-Bihl, M. L., & Sauer, R. (2009). DEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: Bone metastases and metastatic spinal cord compression (MSCC) . Strahlentherapie und Onkologie , 185 (7), 417-424. https://doi.org/10.1007/s00066-009-2044-2 Souchon, Rainer ; Wenz, Frederik ; Sedlmayer"
+        ],
+        "supporting_excerpts": [
+          "spinal cord compression (MSCC)\nRainer Souchon 1 , Frederik Wenz , Felix Sedlmayer , Wilfried Budach , Jürgen Dunst , Petra Feyer , Wulf Haase , Wolfgang Harms , Marie-Luise Sautter-Bihl , Rolf Sauer ; German Society of Radiation Oncology (DEGRO) Affiliations Expand\nAffiliation\n1 Department of Radiation Oncology, UKT Tübingen, Tübingen, Germany. rainer.souchon@med.uni-tuebingen.de\nPMID: 19714302\nDOI: 10.1007/s00066-009-2044-2 Item in Clipboard Practice Guideline\nDEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: bone metastases and metastatic spinal cord compression (MSCC) Most important criteria for prognosis and choice of treatment (mostly combined multimodal therapy) are neurologic status at diagnosis of MSCC, time course of duration and progression of"
+        ],
+        "doi": "10.1007/s00066-009-2044-2",
+        "pmid": "19714302",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines: radiotherapy of breast cancer—regional nodal irradiation | springermedizin.de",
+        "url": "https://www.springermedizin.de/degro-practical-guidelines-radiotherapy-of-breast-cancer-regiona/52641288",
+        "publish_date": "",
+        "snippet": "Metadaten\nBegleitmaterial\nLiteratur Titel DEGRO practical guidelines: radiotherapy of breast cancer—regional nodal irradiation Verfasst von Kai Borm, MD David Krug Stefanie Corradini Christiane Matuschek Leonard Christopher Schmeel Gerd Fastner Guido Henke Montserrat Pazos Rene Baumann Vratislav Strnad Wilfried Budach Marc D. Piroth Nona Marciana Duma Juliane Hörner-Rieber Breast Cancer Expert Panel of the German Society of Radiation Oncology DEGRO Publikationsdatum 14.06.2026 Verlag Springer Berlin Heidelberg Erschienen in Strahlentherapie und Onkologie / Ausgabe 7/2026 Print ISSN: 0179-7158 Elektronische ISSN: 1439-099X DOI https://doi.org/10.1007/s00066-026-02554-9\nSupplementary Information The evidence of de-escalation of RNI after NACT focuses consistently on patients with limited",
+        "excerpts": [
+          "Metadaten\nBegleitmaterial\nLiteratur Titel DEGRO practical guidelines: radiotherapy of breast cancer—regional nodal irradiation Verfasst von Kai Borm, MD David Krug Stefanie Corradini Christiane Matuschek Leonard Christopher Schmeel Gerd Fastner Guido Henke Montserrat Pazos Rene Baumann Vratislav Strnad Wilfried Budach Marc D. Piroth Nona Marciana Duma Juliane Hörner-Rieber Breast Cancer Expert Panel of the German Society of Radiation Oncology DEGRO Publikationsdatum 14.06.2026 Verlag Springer Berlin Heidelberg Erschienen in Strahlentherapie und Onkologie / Ausgabe 7/2026 Print ISSN: 0179-7158 Elektronische ISSN: 1439-099X DOI https://doi.org/10.1007/s00066-026-02554-9\nSupplementary Information The evidence of de-escalation of RNI after NACT focuses consistently on patients with limited"
+        ],
+        "supporting_excerpts": [
+          "Metadaten\nBegleitmaterial\nLiteratur Titel DEGRO practical guidelines: radiotherapy of breast cancer—regional nodal irradiation Verfasst von Kai Borm, MD David Krug Stefanie Corradini Christiane Matuschek Leonard Christopher Schmeel Gerd Fastner Guido Henke Montserrat Pazos Rene Baumann Vratislav Strnad Wilfried Budach Marc D. Piroth Nona Marciana Duma Juliane Hörner-Rieber Breast Cancer Expert Panel of the German Society of Radiation Oncology DEGRO Publikationsdatum 14.06.2026 Verlag Springer Berlin Heidelberg Erschienen in Strahlentherapie und Onkologie / Ausgabe 7/2026 Print ISSN: 0179-7158 Elektronische ISSN: 1439-099X DOI https://doi.org/10.1007/s00066-026-02554-9\nSupplementary Information The evidence of de-escalation of RNI after NACT focuses consistently on patients with limited"
+        ],
+        "doi": "10.1007/s00066-026-02554-9",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "\n            DEGRO practical guidelines: radiotherapy of breast cancer I: Radiotherapy following breast conserving therapy for invasive breast cancer - PMC\n        ",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3825416",
+        "publish_date": "",
+        "snippet": "View on publisher site icon\nDownload PDF icon\nCollections icon Collections icon\nCite icon\nShow article permalink icon Open article navigation icon As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Springer logo Strahlenther Onkol . 2013 Sep 5;189(10):825–833. doi: 10.1007/s00066-013-0437-8 Show available content in\nen\nde\nDEGRO practical guidelines: radiotherapy of breast cancer I Skip to main content An official website of the United States government Here's how you know Here's how you know NCBI home page Search Log in Primary site navigation Close Search Search Log in PMC search open icon PMC",
+        "excerpts": [
+          "View on publisher site icon\nDownload PDF icon\nCollections icon Collections icon\nCite icon\nShow article permalink icon Open article navigation icon As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Springer logo Strahlenther Onkol . 2013 Sep 5;189(10):825–833. doi: 10.1007/s00066-013-0437-8 Show available content in\nen\nde\nDEGRO practical guidelines: radiotherapy of breast cancer I Skip to main content An official website of the United States government Here's how you know Here's how you know NCBI home page Search Log in Primary site navigation Close Search Search Log in PMC search open icon PMC"
+        ],
+        "supporting_excerpts": [
+          "View on publisher site icon\nDownload PDF icon\nCollections icon Collections icon\nCite icon\nShow article permalink icon Open article navigation icon As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Springer logo Strahlenther Onkol . 2013 Sep 5;189(10):825–833. doi: 10.1007/s00066-013-0437-8 Show available content in\nen\nde\nDEGRO practical guidelines: radiotherapy of breast cancer I Skip to main content An official website of the United States government Here's how you know Here's how you know NCBI home page Search Log in Primary site navigation Close Search Search Log in PMC search open icon PMC"
+        ],
+        "doi": "10.1007/s00066-013-0437-8",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO guidelines for the radiotherapy of non-malignant ...",
+        "url": "https://dupuytrens.org/DupPDFs/2015_Ott.pdf",
+        "publish_date": "",
+        "snippet": "4 C Elbow syndrome 3.0–6.0 0.5–1.0 2–3/week 2c B Trochanteric bursitis 3.0–6.0 0.5–1.0 2–3/week 4 C Plantar fasciitis 3.0–6.0 0.5–1.0 2–3/week 1b A Gonarthrosis 3.0–6.0 0.5–1.0 2–3/week 2c B Coxarthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Hand and finger joint arthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Gy Gray, LoE Oxford Level of Evidence, GR Grade of Recommend- ation 5 1 3 DEGRO guidelines for the radiotherapy of non-malignant disorders 0.5–1.0 Gy, and total doses of 3.0–6.0 Gy/series applied with 2–3 fractions per week 1 3 Review aRticle Received: 6 August 2014 / Accepted: 5 September 2014 / Published online: 20 September 2014 © Springer-Verlag Berlin Heidelberg 2014 DEGRO guidelines for the radiotherapy of non-malignant disorders Part II: Painful",
+        "excerpts": [
+          "4 C Elbow syndrome 3.0–6.0 0.5–1.0 2–3/week 2c B Trochanteric bursitis 3.0–6.0 0.5–1.0 2–3/week 4 C Plantar fasciitis 3.0–6.0 0.5–1.0 2–3/week 1b A Gonarthrosis 3.0–6.0 0.5–1.0 2–3/week 2c B Coxarthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Hand and finger joint arthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Gy Gray, LoE Oxford Level of Evidence, GR Grade of Recommend- ation 5 1 3 DEGRO guidelines for the radiotherapy of non-malignant disorders 0.5–1.0 Gy, and total doses of 3.0–6.0 Gy/series applied with 2–3 fractions per week 1 3 Review aRticle Received: 6 August 2014 / Accepted: 5 September 2014 / Published online: 20 September 2014 © Springer-Verlag Berlin Heidelberg 2014 DEGRO guidelines for the radiotherapy of non-malignant disorders Part II: Painful"
+        ],
+        "supporting_excerpts": [
+          "4 C Elbow syndrome 3.0–6.0 0.5–1.0 2–3/week 2c B Trochanteric bursitis 3.0–6.0 0.5–1.0 2–3/week 4 C Plantar fasciitis 3.0–6.0 0.5–1.0 2–3/week 1b A Gonarthrosis 3.0–6.0 0.5–1.0 2–3/week 2c B Coxarthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Hand and finger joint arthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Gy Gray, LoE Oxford Level of Evidence, GR Grade of Recommend- ation 5 1 3 DEGRO guidelines for the radiotherapy of non-malignant disorders 0.5–1.0 Gy, and total doses of 3.0–6.0 Gy/series applied with 2–3 fractions per week 1 3 Review aRticle Received: 6 August 2014 / Accepted: 5 September 2014 / Published online: 20 September 2014 © Springer-Verlag Berlin Heidelberg 2014 DEGRO guidelines for the radiotherapy of non-malignant disorders Part II: Painful"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Radiation Therapy for Nonmalignant Diseases: An ASTRO-ESTRO-DEGRO-RANZCR Framework - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360301625062996",
+        "publish_date": "",
+        "snippet": "stocks Totipotent Capital and is consultant of Varian/Fuse Oncology. M.G. is a consultant of Varian/AstraZeneca/Johnson&Johnson; received research funding from Varian/AstraZeneca; and is member of ESTRO. B.J.F. is a consultant for Bayer/Accuray/AstraZeneca/Astellas; received research funding from IBA/Accuray; and is member of ESTRO. B.G., N.V., and S.K. are members of ASTRO. J.K. is member of DEGRO. Radiother Oncol (2023)\nM. Xi et al.\nRadiofrequency ablation versus stereotactic body radiotherapy for recurrent small hepatocellular carcinoma: a randomized, open-label, controlled trial\nJ Clin Oncol (2025)\nS.C. Darby et al.\nLong term mortality after a single treatment course with X-rays in patients treated for ankylosing spondylitis\nBr J Cancer (1987)\nL.B. Travis et al.\nSecond cancers among",
+        "excerpts": [
+          "stocks Totipotent Capital and is consultant of Varian/Fuse Oncology. M.G. is a consultant of Varian/AstraZeneca/Johnson&Johnson; received research funding from Varian/AstraZeneca; and is member of ESTRO. B.J.F. is a consultant for Bayer/Accuray/AstraZeneca/Astellas; received research funding from IBA/Accuray; and is member of ESTRO. B.G., N.V., and S.K. are members of ASTRO. J.K. is member of DEGRO. Radiother Oncol (2023)\nM. Xi et al.\nRadiofrequency ablation versus stereotactic body radiotherapy for recurrent small hepatocellular carcinoma: a randomized, open-label, controlled trial\nJ Clin Oncol (2025)\nS.C. Darby et al.\nLong term mortality after a single treatment course with X-rays in patients treated for ankylosing spondylitis\nBr J Cancer (1987)\nL.B. Travis et al.\nSecond cancers among"
+        ],
+        "supporting_excerpts": [
+          "stocks Totipotent Capital and is consultant of Varian/Fuse Oncology. M.G. is a consultant of Varian/AstraZeneca/Johnson&Johnson; received research funding from Varian/AstraZeneca; and is member of ESTRO. B.J.F. is a consultant for Bayer/Accuray/AstraZeneca/Astellas; received research funding from IBA/Accuray; and is member of ESTRO. B.G., N.V., and S.K. are members of ASTRO. J.K. is member of DEGRO. Radiother Oncol (2023)\nM. Xi et al.\nRadiofrequency ablation versus stereotactic body radiotherapy for recurrent small hepatocellular carcinoma: a randomized, open-label, controlled trial\nJ Clin Oncol (2025)\nS.C. Darby et al.\nLong term mortality after a single treatment course with X-rays in patients treated for ankylosing spondylitis\nBr J Cancer (1987)\nL.B. Travis et al.\nSecond cancers among"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Radiation Therapy for Nonmalignant Diseases: An ASTRO-ESTRO-DEGRO-RANZCR Framework - International Journal of Radiation Oncology, Biology, Physics",
+        "url": "https://www.redjournal.org/article/S0360-3016(25)06299-6/abstract",
+        "publish_date": "",
+        "snippet": "Philadelphia, Pennsylvania Search for articles by this author h ∙ Neha Vapiwala , MD, FASTRO Neha Vapiwala , MD, FASTRO Affiliations Department of Radiation Oncology, Clemenshospital Muenster, Germany Search for articles by this author i ∙ Sameer Keole , MD Sameer Keole , MD Affiliations Department of Radiation Oncology, Mayo Clinic, Phoenix, Arizona Search for articles by this author j … Show more Show Guidelines in radiotherapy: Radiotherapy for benign diseases: German Society for Radiation Oncology (DEGRO) Update. 2022;19:3. Google Scholar 50. Recommendations for using radiotherapy for benign disease in the UK. London: The Royal College of Radiologists. 2023. Accessed July 15, 2025. https://www.rcr.ac.uk/our-services/all-our-publications/clinical-oncology-publications",
+        "excerpts": [
+          "Philadelphia, Pennsylvania Search for articles by this author h ∙ Neha Vapiwala , MD, FASTRO Neha Vapiwala , MD, FASTRO Affiliations Department of Radiation Oncology, Clemenshospital Muenster, Germany Search for articles by this author i ∙ Sameer Keole , MD Sameer Keole , MD Affiliations Department of Radiation Oncology, Mayo Clinic, Phoenix, Arizona Search for articles by this author j … Show more Show Guidelines in radiotherapy: Radiotherapy for benign diseases: German Society for Radiation Oncology (DEGRO) Update. 2022;19:3. Google Scholar 50. Recommendations for using radiotherapy for benign disease in the UK. London: The Royal College of Radiologists. 2023. Accessed July 15, 2025. https://www.rcr.ac.uk/our-services/all-our-publications/clinical-oncology-publications"
+        ],
+        "supporting_excerpts": [
+          "Philadelphia, Pennsylvania Search for articles by this author h ∙ Neha Vapiwala , MD, FASTRO Neha Vapiwala , MD, FASTRO Affiliations Department of Radiation Oncology, Clemenshospital Muenster, Germany Search for articles by this author i ∙ Sameer Keole , MD Sameer Keole , MD Affiliations Department of Radiation Oncology, Mayo Clinic, Phoenix, Arizona Search for articles by this author j … Show more Show Guidelines in radiotherapy: Radiotherapy for benign diseases: German Society for Radiation Oncology (DEGRO) Update. 2022;19:3. Google Scholar 50. Recommendations for using radiotherapy for benign disease in the UK. London: The Royal College of Radiologists. 2023. Accessed July 15, 2025. https://www.rcr.ac.uk/our-services/all-our-publications/clinical-oncology-publications"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "\n        DEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways.\n      -  PMU Research Portal",
+        "url": "https://pure.pmu.ac.at/en/publications/degro-practical-guidelines-radiotherapy-of-breast-canceriii-radio",
+        "publish_date": "",
+        "snippet": "search Skip to main content\nDEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. / Sautter-Bihl, M-L; Sedlmayer, Felix (Co-author); Budach, W et al. In: STRAHLENTHERAPIE UND ONKOLOGIE , Vol. 190, No. 4, 2014, p. 342-351. Research output : Contribution to journal › Original Article › peer-review TY - JOUR T1 - DEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. AU - Sautter-Bihl, M-L AU - Sedlmayer, Felix AU - Budach, W AU - Dunst, J AU - Feyer, P AU - Fietkau, R AU - Fussl, C AU - Haase, W AU - Harms, W AU - Piroth, M D AU - Souchon, R AU - Wenz, F AU - Sauer, R AU - Of The Of Degro, Breast Cancer Expert Panel German Society Radiation Oncology Degro N1 - Felix Sedlmayer and Marie-Luise",
+        "excerpts": [
+          "search Skip to main content\nDEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. / Sautter-Bihl, M-L; Sedlmayer, Felix (Co-author); Budach, W et al. In: STRAHLENTHERAPIE UND ONKOLOGIE , Vol. 190, No. 4, 2014, p. 342-351. Research output : Contribution to journal › Original Article › peer-review TY - JOUR T1 - DEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. AU - Sautter-Bihl, M-L AU - Sedlmayer, Felix AU - Budach, W AU - Dunst, J AU - Feyer, P AU - Fietkau, R AU - Fussl, C AU - Haase, W AU - Harms, W AU - Piroth, M D AU - Souchon, R AU - Wenz, F AU - Sauer, R AU - Of The Of Degro, Breast Cancer Expert Panel German Society Radiation Oncology Degro N1 - Felix Sedlmayer and Marie-Luise"
+        ],
+        "supporting_excerpts": [
+          "search Skip to main content\nDEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. / Sautter-Bihl, M-L; Sedlmayer, Felix (Co-author); Budach, W et al. In: STRAHLENTHERAPIE UND ONKOLOGIE , Vol. 190, No. 4, 2014, p. 342-351. Research output : Contribution to journal › Original Article › peer-review TY - JOUR T1 - DEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. AU - Sautter-Bihl, M-L AU - Sedlmayer, Felix AU - Budach, W AU - Dunst, J AU - Feyer, P AU - Fietkau, R AU - Fussl, C AU - Haase, W AU - Harms, W AU - Piroth, M D AU - Souchon, R AU - Wenz, F AU - Sauer, R AU - Of The Of Degro, Breast Cancer Expert Panel German Society Radiation Oncology Degro N1 - Felix Sedlmayer and Marie-Luise"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines: radiotherapy of breast cancer III--radiotherapy of the lymphatic pathways. | University of Kentucky College of Arts & Sciences",
+        "url": "https://ens.as.uky.edu/bibcite/reference/2885",
+        "publish_date": "",
+        "snippet": "Breast Oncology\nAbstract | :\nThe purpose of this work is to update the practical guidelines for adjuvant radiotherapy of the regional lymphatics of breast cancer published in 2008 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO).\nYear of Publication | :\n2014\nJournal | :\nStrahlentherapie und Onkologie : Organ der Deutschen Rontgengesellschaft ... [et al]\nVolume | :\n190\nIssue | :\n4\nNumber of Pages | :\n342-51\nISSN Number | :\n0179-7158\nURL | :\nhttp://dx.doi.org/10.1007/s00066-013-0543-7\nDOI | :\n10.1007/s00066-013-0543-7\nShort Title | :\nStrahlenther Onkol\nDownload citation | * Google Scholar\nDOI |\nApply\nContact\nNews\nEvents\nGive University of Kentucky College of Arts & Sciences\nEnvironmental and Sustainability Studies Skip to main content\nDEGRO practical",
+        "excerpts": [
+          "Breast Oncology\nAbstract | :\nThe purpose of this work is to update the practical guidelines for adjuvant radiotherapy of the regional lymphatics of breast cancer published in 2008 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO).\nYear of Publication | :\n2014\nJournal | :\nStrahlentherapie und Onkologie : Organ der Deutschen Rontgengesellschaft ... [et al]\nVolume | :\n190\nIssue | :\n4\nNumber of Pages | :\n342-51\nISSN Number | :\n0179-7158\nURL | :\nhttp://dx.doi.org/10.1007/s00066-013-0543-7\nDOI | :\n10.1007/s00066-013-0543-7\nShort Title | :\nStrahlenther Onkol\nDownload citation | * Google Scholar\nDOI |\nApply\nContact\nNews\nEvents\nGive University of Kentucky College of Arts & Sciences\nEnvironmental and Sustainability Studies Skip to main content\nDEGRO practical"
+        ],
+        "supporting_excerpts": [
+          "Breast Oncology\nAbstract | :\nThe purpose of this work is to update the practical guidelines for adjuvant radiotherapy of the regional lymphatics of breast cancer published in 2008 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO).\nYear of Publication | :\n2014\nJournal | :\nStrahlentherapie und Onkologie : Organ der Deutschen Rontgengesellschaft ... [et al]\nVolume | :\n190\nIssue | :\n4\nNumber of Pages | :\n342-51\nISSN Number | :\n0179-7158\nURL | :\nhttp://dx.doi.org/10.1007/s00066-013-0543-7\nDOI | :\n10.1007/s00066-013-0543-7\nShort Title | :\nStrahlenther Onkol\nDownload citation | * Google Scholar\nDOI |\nApply\nContact\nNews\nEvents\nGive University of Kentucky College of Arts & Sciences\nEnvironmental and Sustainability Studies Skip to main content\nDEGRO practical"
+        ],
+        "doi": "10.1007/s00066-013-0543-7",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Dose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP Working Group Stereotactic Radiotherapy and Radiosurgery",
+        "url": "https://inis.iaea.org/records/q4tzc-nq044",
+        "publish_date": "",
+        "snippet": "Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published 2024 | Version v1 Journal article Metadata-only\nDose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP Working Group Stereotactic Radiotherapy and Radiosurgery\nShow affiliations To develop expert consensus statements on multiparametric dose prescriptions for stereotactic body radiotherapy (SBRT) aligning with ICRU report 91. These statements serve as a foundational step towards harmonizing current SBRT practices and refining dose prescription and documentation requirements for clinical trial designs. Based on the results of a literature review by the working group, a two-tier Delphi",
+        "excerpts": [
+          "Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published 2024 | Version v1 Journal article Metadata-only\nDose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP Working Group Stereotactic Radiotherapy and Radiosurgery\nShow affiliations To develop expert consensus statements on multiparametric dose prescriptions for stereotactic body radiotherapy (SBRT) aligning with ICRU report 91. These statements serve as a foundational step towards harmonizing current SBRT practices and refining dose prescription and documentation requirements for clinical trial designs. Based on the results of a literature review by the working group, a two-tier Delphi"
+        ],
+        "supporting_excerpts": [
+          "Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published 2024 | Version v1 Journal article Metadata-only\nDose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP Working Group Stereotactic Radiotherapy and Radiosurgery\nShow affiliations To develop expert consensus statements on multiparametric dose prescriptions for stereotactic body radiotherapy (SBRT) aligning with ICRU report 91. These statements serve as a foundational step towards harmonizing current SBRT practices and refining dose prescription and documentation requirements for clinical trial designs. Based on the results of a literature review by the working group, a two-tier Delphi"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines for radiotherapy of non-malignant disorders DEGRO-S2e-Leitlinie für die Strahlentherapie von…",
+        "url": "https://ouci.dntb.gov.ua/en/works/4ML6JLB7",
+        "publish_date": "",
+        "snippet": "practical guidelines for radiotherapy of non-malignant disorders DEGRO-S2e-Leitlinie für die Strahlentherapie von gutartigen Erkrankungen\nGeneral information\nPublication type Journal Article DOI 10.1007/s00066-015-0865-8 Journal 2015 , Strahlentherapie und Onkologie , № 9 , p. 701-709 Publisher Springer Science and Business Media LLC Authors the German Cooperative Group on Radiotherapy for Benign Diseases (GCG-BD), Berthold Reichl, Andreas Block, Ulrich Schäfer, Christoph Bert, Reinhold Müller, Horst Jung, Franz Rödel\nDetails\nNumber of citations 35 Number of works in the list of references 67 Indexed in Scopus Yes Indexed in Web of Science Yes\nList of references Rodel F, Frey B, Capalbo G et al (2010) Discontinuous induction of X-linked inhibitor of apoptosis in EA.hy.926 endothelial",
+        "excerpts": [
+          "practical guidelines for radiotherapy of non-malignant disorders DEGRO-S2e-Leitlinie für die Strahlentherapie von gutartigen Erkrankungen\nGeneral information\nPublication type Journal Article DOI 10.1007/s00066-015-0865-8 Journal 2015 , Strahlentherapie und Onkologie , № 9 , p. 701-709 Publisher Springer Science and Business Media LLC Authors the German Cooperative Group on Radiotherapy for Benign Diseases (GCG-BD), Berthold Reichl, Andreas Block, Ulrich Schäfer, Christoph Bert, Reinhold Müller, Horst Jung, Franz Rödel\nDetails\nNumber of citations 35 Number of works in the list of references 67 Indexed in Scopus Yes Indexed in Web of Science Yes\nList of references Rodel F, Frey B, Capalbo G et al (2010) Discontinuous induction of X-linked inhibitor of apoptosis in EA.hy.926 endothelial"
+        ],
+        "supporting_excerpts": [
+          "practical guidelines for radiotherapy of non-malignant disorders DEGRO-S2e-Leitlinie für die Strahlentherapie von gutartigen Erkrankungen\nGeneral information\nPublication type Journal Article DOI 10.1007/s00066-015-0865-8 Journal 2015 , Strahlentherapie und Onkologie , № 9 , p. 701-709 Publisher Springer Science and Business Media LLC Authors the German Cooperative Group on Radiotherapy for Benign Diseases (GCG-BD), Berthold Reichl, Andreas Block, Ulrich Schäfer, Christoph Bert, Reinhold Müller, Horst Jung, Franz Rödel\nDetails\nNumber of citations 35 Number of works in the list of references 67 Indexed in Scopus Yes Indexed in Web of Science Yes\nList of references Rodel F, Frey B, Capalbo G et al (2010) Discontinuous induction of X-linked inhibitor of apoptosis in EA.hy.926 endothelial"
+        ],
+        "doi": "10.1007/s00066-015-0865-8",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines for radiotherapy of breast cancer VI: therapy of locoregional breast cancer recurrences - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26931319",
+        "publish_date": "",
+        "snippet": "DEGRO practical guidelines for radiotherapy of breast cancer VI: therapy of locoregional breast cancer recurrences\nWolfgang Harms et al. Strahlenther Onkol . 2016 Apr . Show details Display options Display options Format Abstract PubMed PMID Strahlenther Onkol Actions\nSearch in PubMed\nSearch in NLM Catalog\nAdd to Search . 2016 Apr;192(4):199-208. doi: 10.1007/s00066-015-0939-7. Epub 2016 Mar 1.\nAuthors\nWolfgang Harms 1 , W Budach 2 , J Dunst 3 , P Feyer 4 , R Fietkau 5 , W Haase 6 , D Krug 7 , M D Piroth 8 , M-L Sautter-Bihl 9 , F Sedlmayer 10 , R Souchon 11 , F Wenz 12 , R Sauer 5 ; Breast Cancer Expert Panel of the German Society of Radiation Oncology (DEGRO)\nAffiliations Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page content",
+        "excerpts": [
+          "DEGRO practical guidelines for radiotherapy of breast cancer VI: therapy of locoregional breast cancer recurrences\nWolfgang Harms et al. Strahlenther Onkol . 2016 Apr . Show details Display options Display options Format Abstract PubMed PMID Strahlenther Onkol Actions\nSearch in PubMed\nSearch in NLM Catalog\nAdd to Search . 2016 Apr;192(4):199-208. doi: 10.1007/s00066-015-0939-7. Epub 2016 Mar 1.\nAuthors\nWolfgang Harms 1 , W Budach 2 , J Dunst 3 , P Feyer 4 , R Fietkau 5 , W Haase 6 , D Krug 7 , M D Piroth 8 , M-L Sautter-Bihl 9 , F Sedlmayer 10 , R Souchon 11 , F Wenz 12 , R Sauer 5 ; Breast Cancer Expert Panel of the German Society of Radiation Oncology (DEGRO)\nAffiliations Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page content",
+          "do not demonstrably affect the survival rates of the overall population, and there is very little information concerning the local-regional control with elective chemotherapy. The spread of information and the increased use of effective methods should be encouraged. PubMed Disclaimer Similar articles * DEGRO practical guidelines for radiotherapy of breast cancer VI: therapy of locoregional breast cancer recurrences. Harms W, Budach W, Dunst J, Feyer P, Fietkau R, Haase W, Krug D, Piroth MD, Sautter-Bihl ML, Sedlmayer F, Souchon R, Wenz F, Sauer R; Breast Cancer Expert Panel of the German Society of Radiation Oncology (DEGRO). Harms W, et al. Strahlenther Onkol. 2016 Apr;192(4):199-208. doi: 10.1007/s00066-015-0939-7. Epub 2016 Mar 1. Strahlenther Onkol. 2016. PMID: 26931319 Free PMC"
+        ],
+        "supporting_excerpts": [
+          "DEGRO practical guidelines for radiotherapy of breast cancer VI: therapy of locoregional breast cancer recurrences\nWolfgang Harms et al. Strahlenther Onkol . 2016 Apr . Show details Display options Display options Format Abstract PubMed PMID Strahlenther Onkol Actions\nSearch in PubMed\nSearch in NLM Catalog\nAdd to Search . 2016 Apr;192(4):199-208. doi: 10.1007/s00066-015-0939-7. Epub 2016 Mar 1.\nAuthors\nWolfgang Harms 1 , W Budach 2 , J Dunst 3 , P Feyer 4 , R Fietkau 5 , W Haase 6 , D Krug 7 , M D Piroth 8 , M-L Sautter-Bihl 9 , F Sedlmayer 10 , R Souchon 11 , F Wenz 12 , R Sauer 5 ; Breast Cancer Expert Panel of the German Society of Radiation Oncology (DEGRO)\nAffiliations Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page content"
+        ],
+        "doi": "10.1007/s00066-015-0939-7",
+        "pmid": "26931319",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Practice guidelines – AG Stereotaxie",
+        "url": "https://www.degro.org/ag-stereotaxie/projekte/practice-guidelines-of-the-degro-working-group-stereotactic-radiotherapy-radiosurgery",
+        "publish_date": "",
+        "snippet": "Strahlenther Onkol 2014; 190: 521-532. www.ncbi.nlm.nih.gov/pubmed/24715242 Impressum Datenschutz Zur DEGRO Privatsphäre Deutsche Gesellschaft für Radioonkologie e.V. Geschäftsstelle: Reinhardtstr. 47, 10117 Berlin Telefon: +49 30 8441 9188 Telefax: +49 30 8441 9189 E-Mail: office@degro.org Copyright © 2025 Degro Radiosurgery for brain metastases\nStereotactic body radiotherapy for early stage NSCLC\nStereotactic body radiotherapy for primary and secondary liver cancer\nStereotactic body radiotherapy for primary renal cell cancer and pancreatic cancer\nStereotactic body radiotherapy for ventricular tachycardia Referenzen:\nBrunner TB, Boda-Heggeman J, Bürgy D, et al. Dose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP",
+        "excerpts": [
+          "Strahlenther Onkol 2014; 190: 521-532. www.ncbi.nlm.nih.gov/pubmed/24715242 Impressum Datenschutz Zur DEGRO Privatsphäre Deutsche Gesellschaft für Radioonkologie e.V. Geschäftsstelle: Reinhardtstr. 47, 10117 Berlin Telefon: +49 30 8441 9188 Telefax: +49 30 8441 9189 E-Mail: office@degro.org Copyright © 2025 Degro Radiosurgery for brain metastases\nStereotactic body radiotherapy for early stage NSCLC\nStereotactic body radiotherapy for primary and secondary liver cancer\nStereotactic body radiotherapy for primary renal cell cancer and pancreatic cancer\nStereotactic body radiotherapy for ventricular tachycardia Referenzen:\nBrunner TB, Boda-Heggeman J, Bürgy D, et al. Dose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP"
+        ],
+        "supporting_excerpts": [
+          "Strahlenther Onkol 2014; 190: 521-532. www.ncbi.nlm.nih.gov/pubmed/24715242 Impressum Datenschutz Zur DEGRO Privatsphäre Deutsche Gesellschaft für Radioonkologie e.V. Geschäftsstelle: Reinhardtstr. 47, 10117 Berlin Telefon: +49 30 8441 9188 Telefax: +49 30 8441 9189 E-Mail: office@degro.org Copyright © 2025 Degro Radiosurgery for brain metastases\nStereotactic body radiotherapy for early stage NSCLC\nStereotactic body radiotherapy for primary and secondary liver cancer\nStereotactic body radiotherapy for primary renal cell cancer and pancreatic cancer\nStereotactic body radiotherapy for ventricular tachycardia Referenzen:\nBrunner TB, Boda-Heggeman J, Bürgy D, et al. Dose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Randomized multicenter trial on the effect of radiotherapy for plantar Fasciitis (painful heel spur) using very low doses--a study protocol",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18801159",
+        "publish_date": "",
+        "snippet": "Background: A lot of retrospective data concerning the effect of radiotherapy on the painful heel spur (plantar fasciitis) is available in the literature. Nevertheless, a randomized proof of this effect is still missing. Thus, the GCGBD (German cooperative group on radiotherapy for benign diseases) of the DEGRO (German Society for Radiation Oncology) decided to start a randomized multicenter trial in order to find out if the effect of a conventional total dose is superior compared to that of a very low dose. Randomized multicenter trial on the effect of radiotherapy for plantar Fasciitis (painful heel spur) using very low doses--a study protocol\nRadiat Oncol . 2008 Sep 18:3:27. doi: 10.1186/1748-717X-3-27.\nAuthors\nMarcus Niewald 1 , M Heinrich Seegenschmiedt , Oliver Micke , Stefan Gräber",
+        "excerpts": [
+          "Background: A lot of retrospective data concerning the effect of radiotherapy on the painful heel spur (plantar fasciitis) is available in the literature. Nevertheless, a randomized proof of this effect is still missing. Thus, the GCGBD (German cooperative group on radiotherapy for benign diseases) of the DEGRO (German Society for Radiation Oncology) decided to start a randomized multicenter trial in order to find out if the effect of a conventional total dose is superior compared to that of a very low dose. Randomized multicenter trial on the effect of radiotherapy for plantar Fasciitis (painful heel spur) using very low doses--a study protocol\nRadiat Oncol . 2008 Sep 18:3:27. doi: 10.1186/1748-717X-3-27.\nAuthors\nMarcus Niewald 1 , M Heinrich Seegenschmiedt , Oliver Micke , Stefan Gräber"
+        ],
+        "supporting_excerpts": [
+          "Background: A lot of retrospective data concerning the effect of radiotherapy on the painful heel spur (plantar fasciitis) is available in the literature. Nevertheless, a randomized proof of this effect is still missing. Thus, the GCGBD (German cooperative group on radiotherapy for benign diseases) of the DEGRO (German Society for Radiation Oncology) decided to start a randomized multicenter trial in order to find out if the effect of a conventional total dose is superior compared to that of a very low dose. Randomized multicenter trial on the effect of radiotherapy for plantar Fasciitis (painful heel spur) using very low doses--a study protocol\nRadiat Oncol . 2008 Sep 18:3:27. doi: 10.1186/1748-717X-3-27.\nAuthors\nMarcus Niewald 1 , M Heinrich Seegenschmiedt , Oliver Micke , Stefan Gräber"
+        ],
+        "doi": "10.1186/1748-717x-3-27",
+        "pmid": "18801159",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines for radiotherapy of breast cancer I. Breast-conserving therapy",
+        "url": "https://inis.iaea.org/records/6es15-z0m50",
+        "publish_date": "",
+        "snippet": "Background: The present paper is an update of the practical guidelines for radiotherapy of breast cancer published in 2006 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO). These recommendations have been elaborated on the basis of the S3 guidelines of the German Cancer Society that were revised in March 2007 by an interdisciplinary panel. Methods: The DEGRO expert panel performed a comprehensive survey of the literature, comprising lately published meta-analyses, data from recent randomized trials and guidelines of international breast cancer societies, referring to the criteria of evidence-based medicine. Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published December",
+        "excerpts": [
+          "Background: The present paper is an update of the practical guidelines for radiotherapy of breast cancer published in 2006 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO). These recommendations have been elaborated on the basis of the S3 guidelines of the German Cancer Society that were revised in March 2007 by an interdisciplinary panel. Methods: The DEGRO expert panel performed a comprehensive survey of the literature, comprising lately published meta-analyses, data from recent randomized trials and guidelines of international breast cancer societies, referring to the criteria of evidence-based medicine. Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published December"
+        ],
+        "supporting_excerpts": [
+          "Background: The present paper is an update of the practical guidelines for radiotherapy of breast cancer published in 2006 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO). These recommendations have been elaborated on the basis of the S3 guidelines of the German Cancer Society that were revised in March 2007 by an interdisciplinary panel. Methods: The DEGRO expert panel performed a comprehensive survey of the literature, comprising lately published meta-analyses, data from recent randomized trials and guidelines of international breast cancer societies, referring to the criteria of evidence-based medicine. Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published December"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "doi",
+        "doi": "10.1007/s00066-015-0817-3",
+        "url": "https://doi.org/10.1007/s00066-015-0817-3",
+        "title": "",
+        "pmid": "",
+        "facets": [],
+        "excerpts": []
+      },
+      {
+        "type": "url",
+        "url": "https://www.redjournal.org/article/S0360-3016(25",
+        "title": "",
+        "doi": "",
+        "pmid": "",
+        "facets": [],
+        "excerpts": []
+      },
+      {
+        "type": "url",
+        "url": "https://www.rcr.ac.uk/our-services/all-our-publications/clinical-oncology-publications",
+        "title": "",
+        "doi": "",
+        "pmid": "",
+        "facets": [],
+        "excerpts": []
+      },
+      {
+        "type": "url",
+        "url": "https://www.degro.org/",
+        "title": "",
+        "doi": "",
+        "pmid": "",
+        "facets": [],
+        "excerpts": []
+      }
+    ],
+    "sources": [
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines for radiotherapy of non- ...",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26117368",
+        "publish_date": "",
+        "snippet": "DEGRO practical guidelines for radiotherapy of non- ...\nby B Reichl · 2015 · Cited by 61 — The basic principles of radiation physics and treatment delivery, evaluation of putative underlying radiobiological mechanisms, and the assessment of genetic",
+        "excerpts": [
+          "DEGRO practical guidelines for radiotherapy of non- ...\nby B Reichl · 2015 · Cited by 61 — The basic principles of radiation physics and treatment delivery, evaluation of putative underlying radiobiological mechanisms, and the assessment of genetic"
+        ],
+        "supporting_excerpts": [
+          "DEGRO practical guidelines for radiotherapy of non- ...\nby B Reichl · 2015 · Cited by 61 — The basic principles of radiation physics and treatment delivery, evaluation of putative underlying radiobiological mechanisms, and the assessment of genetic"
+        ],
+        "doi": "",
+        "pmid": "26117368",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines for radiotherapy of non-malignant disorders. Part I: physical principles, radiobiological mechanisms, and radiogenic risk",
+        "url": "https://inis.iaea.org/records/tczq9-jy632",
+        "publish_date": "",
+        "snippet": "Zusammenfassung des einfuehrenden Kapitels der DEGRO-S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen einschliesslich der physikalischen Grundlagen, strahlenbiologischer Mechanismen und des radiogenen Risikos. Basis fuer diesen Beitrag ist die am 14. November 2013 neu aufgelegte S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen. Dabei werden die allgemeinen Grundlagen der Strahlenphysik und Bestrahlungstechnik, zugrundeliegende radiobiologische Mechanismen und die Erfassung des genetischen und Tumorrisikos nach niedrigdosierter Bestrahlung dargestellt. Synopsis of the introductory paragraph of the DEGRO consensus S2e-guideline recommendations for the radiotherapy of benign disorders, including physical principles, radiobiological mechanisms, and radiogenic risk. This",
+        "excerpts": [
+          "Zusammenfassung des einfuehrenden Kapitels der DEGRO-S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen einschliesslich der physikalischen Grundlagen, strahlenbiologischer Mechanismen und des radiogenen Risikos. Basis fuer diesen Beitrag ist die am 14. November 2013 neu aufgelegte S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen. Dabei werden die allgemeinen Grundlagen der Strahlenphysik und Bestrahlungstechnik, zugrundeliegende radiobiologische Mechanismen und die Erfassung des genetischen und Tumorrisikos nach niedrigdosierter Bestrahlung dargestellt. Synopsis of the introductory paragraph of the DEGRO consensus S2e-guideline recommendations for the radiotherapy of benign disorders, including physical principles, radiobiological mechanisms, and radiogenic risk. This"
+        ],
+        "supporting_excerpts": [
+          "Zusammenfassung des einfuehrenden Kapitels der DEGRO-S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen einschliesslich der physikalischen Grundlagen, strahlenbiologischer Mechanismen und des radiogenen Risikos. Basis fuer diesen Beitrag ist die am 14. November 2013 neu aufgelegte S2e-Leitlinie zur Strahlentherapie gutartiger Erkrankungen. Dabei werden die allgemeinen Grundlagen der Strahlenphysik und Bestrahlungstechnik, zugrundeliegende radiobiologische Mechanismen und die Erfassung des genetischen und Tumorrisikos nach niedrigdosierter Bestrahlung dargestellt. Synopsis of the introductory paragraph of the DEGRO consensus S2e-guideline recommendations for the radiotherapy of benign disorders, including physical principles, radiobiological mechanisms, and radiogenic risk. This"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO/DGK guideline for radiotherapy in patients with ...",
+        "url": "https://www.degro.org/wp-content/uploads/2020/02/s00066-015-0817-3.pdf",
+        "publish_date": "",
+        "snippet": "397 1 3 DEGRO/DGK guideline for radiotherapy in patients with cardiac implantable electronic devices Author Year n Tumor entity or site CIED RT dose Dose CIED/energy Effects Raitt [ 49 ] 1994 1 Thyroid cancer PM 4.8 GyE neutrons 0.9 GyE Uncontrollable increase in pacing frequency (runaway pacemaker, 180/min) Tsekos [ 61 ] 2000 1 Neuroendocrine cancer right arm PM 50.4/1.8 Gy ~ 50 Gy (PM in beam)/n.m. Indian J Radiol Imaging 16:857–877\nMouton J, Haug R, Bridier A et al (2002) Influence of high-energy photon beam irradiation on pacemaker operation. Phys Med Biol 47:2879–2893\nMunshi A, Wadasadawala T, Sharma PK et al (2008) Radiation therapy planning of a breast cancer patient with in situ pacemaker– challenges and lessons. Acta Oncol 47:255–260\nBoston Scientific (2012) Therapeutic",
+        "excerpts": [
+          "397 1 3 DEGRO/DGK guideline for radiotherapy in patients with cardiac implantable electronic devices Author Year n Tumor entity or site CIED RT dose Dose CIED/energy Effects Raitt [ 49 ] 1994 1 Thyroid cancer PM 4.8 GyE neutrons 0.9 GyE Uncontrollable increase in pacing frequency (runaway pacemaker, 180/min) Tsekos [ 61 ] 2000 1 Neuroendocrine cancer right arm PM 50.4/1.8 Gy ~ 50 Gy (PM in beam)/n.m. Indian J Radiol Imaging 16:857–877\nMouton J, Haug R, Bridier A et al (2002) Influence of high-energy photon beam irradiation on pacemaker operation. Phys Med Biol 47:2879–2893\nMunshi A, Wadasadawala T, Sharma PK et al (2008) Radiation therapy planning of a breast cancer patient with in situ pacemaker– challenges and lessons. Acta Oncol 47:255–260\nBoston Scientific (2012) Therapeutic"
+        ],
+        "supporting_excerpts": [
+          "397 1 3 DEGRO/DGK guideline for radiotherapy in patients with cardiac implantable electronic devices Author Year n Tumor entity or site CIED RT dose Dose CIED/energy Effects Raitt [ 49 ] 1994 1 Thyroid cancer PM 4.8 GyE neutrons 0.9 GyE Uncontrollable increase in pacing frequency (runaway pacemaker, 180/min) Tsekos [ 61 ] 2000 1 Neuroendocrine cancer right arm PM 50.4/1.8 Gy ~ 50 Gy (PM in beam)/n.m. Indian J Radiol Imaging 16:857–877\nMouton J, Haug R, Bridier A et al (2002) Influence of high-energy photon beam irradiation on pacemaker operation. Phys Med Biol 47:2879–2893\nMunshi A, Wadasadawala T, Sharma PK et al (2008) Radiation therapy planning of a breast cancer patient with in situ pacemaker– challenges and lessons. Acta Oncol 47:255–260\nBoston Scientific (2012) Therapeutic"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Refresher DEGRO 2017 Non Hodgkin Lymphoma",
+        "url": "https://www.degro.org/wp-content/uploads/2017/06/RK08_NHL_web.pdf",
+        "publish_date": "",
+        "snippet": "Section:  > \nRefresher DEGRO 2017 Non Hodgkin Lymphoma\nJun 16, 2017 — Evolution of Lymphoma Staging and treatment response evaluation criteria: • 1971: Ann Arbor Staging System.Read more Refresher DEGRO 2017 Non Hodgkin Lymphoma\n16 Jun 2017 — ILROG-Guideline Radiotherapy for nodal Non Hodgkin Lymphoma. Page 63. 16.06.2017. 63. Cologne | Christian Baues | University Hospital of Cologne",
+        "excerpts": [
+          "Section:  > \nRefresher DEGRO 2017 Non Hodgkin Lymphoma\nJun 16, 2017 — Evolution of Lymphoma Staging and treatment response evaluation criteria: • 1971: Ann Arbor Staging System.Read more Refresher DEGRO 2017 Non Hodgkin Lymphoma\n16 Jun 2017 — ILROG-Guideline Radiotherapy for nodal Non Hodgkin Lymphoma. Page 63. 16.06.2017. 63. Cologne | Christian Baues | University Hospital of Cologne"
+        ],
+        "supporting_excerpts": [
+          "Section:  > \nRefresher DEGRO 2017 Non Hodgkin Lymphoma\nJun 16, 2017 — Evolution of Lymphoma Staging and treatment response evaluation criteria: • 1971: Ann Arbor Staging System.Read more Refresher DEGRO 2017 Non Hodgkin Lymphoma\n16 Jun 2017 — ILROG-Guideline Radiotherapy for nodal Non Hodgkin Lymphoma. Page 63. 16.06.2017. 63. Cologne | Christian Baues | University Hospital of Cologne"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: bone metastases and metastatic spinal cord compression (MSCC) - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19714302",
+        "publish_date": "",
+        "snippet": "spinal cord compression (MSCC)\nRainer Souchon 1 , Frederik Wenz , Felix Sedlmayer , Wilfried Budach , Jürgen Dunst , Petra Feyer , Wulf Haase , Wolfgang Harms , Marie-Luise Sautter-Bihl , Rolf Sauer ; German Society of Radiation Oncology (DEGRO) Affiliations Expand\nAffiliation\n1 Department of Radiation Oncology, UKT Tübingen, Tübingen, Germany. rainer.souchon@med.uni-tuebingen.de\nPMID: 19714302\nDOI: 10.1007/s00066-009-2044-2 Item in Clipboard Practice Guideline\nDEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: bone metastases and metastatic spinal cord compression (MSCC) Most important criteria for prognosis and choice of treatment (mostly combined multimodal therapy) are neurologic status at diagnosis of MSCC, time course of duration and progression of",
+        "excerpts": [
+          "spinal cord compression (MSCC)\nRainer Souchon 1 , Frederik Wenz , Felix Sedlmayer , Wilfried Budach , Jürgen Dunst , Petra Feyer , Wulf Haase , Wolfgang Harms , Marie-Luise Sautter-Bihl , Rolf Sauer ; German Society of Radiation Oncology (DEGRO) Affiliations Expand\nAffiliation\n1 Department of Radiation Oncology, UKT Tübingen, Tübingen, Germany. rainer.souchon@med.uni-tuebingen.de\nPMID: 19714302\nDOI: 10.1007/s00066-009-2044-2 Item in Clipboard Practice Guideline\nDEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: bone metastases and metastatic spinal cord compression (MSCC) Most important criteria for prognosis and choice of treatment (mostly combined multimodal therapy) are neurologic status at diagnosis of MSCC, time course of duration and progression of",
+          "University of Luebeck\nDEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: Bone metastases and metastatic spinal cord compression (MSCC)\nRainer Souchon * , Frederik Wenz, Felix Sedlmayer, Wilfried Budach, Jürgen Dunst, Petra Feyer, Wulf Haase, Wolfgang Harms, Marie Luise Sautter-Bihl, Rolf Sauer APA\nAuthor\nBIBTEX\nHarvard\nStandard\nRIS\nVancouver Souchon, R., Wenz, F., Sedlmayer, F., Budach, W., Dunst, J., Feyer, P., Haase, W., Harms, W., Sautter-Bihl, M. L., & Sauer, R. (2009). DEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: Bone metastases and metastatic spinal cord compression (MSCC) . Strahlentherapie und Onkologie , 185 (7), 417-424. https://doi.org/10.1007/s00066-009-2044-2 Souchon, Rainer ; Wenz, Frederik ; Sedlmayer"
+        ],
+        "supporting_excerpts": [
+          "spinal cord compression (MSCC)\nRainer Souchon 1 , Frederik Wenz , Felix Sedlmayer , Wilfried Budach , Jürgen Dunst , Petra Feyer , Wulf Haase , Wolfgang Harms , Marie-Luise Sautter-Bihl , Rolf Sauer ; German Society of Radiation Oncology (DEGRO) Affiliations Expand\nAffiliation\n1 Department of Radiation Oncology, UKT Tübingen, Tübingen, Germany. rainer.souchon@med.uni-tuebingen.de\nPMID: 19714302\nDOI: 10.1007/s00066-009-2044-2 Item in Clipboard Practice Guideline\nDEGRO practice guidelines for palliative radiotherapy of metastatic breast cancer: bone metastases and metastatic spinal cord compression (MSCC) Most important criteria for prognosis and choice of treatment (mostly combined multimodal therapy) are neurologic status at diagnosis of MSCC, time course of duration and progression of"
+        ],
+        "doi": "10.1007/s00066-009-2044-2",
+        "pmid": "19714302",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines: radiotherapy of breast cancer—regional nodal irradiation | springermedizin.de",
+        "url": "https://www.springermedizin.de/degro-practical-guidelines-radiotherapy-of-breast-cancer-regiona/52641288",
+        "publish_date": "",
+        "snippet": "Metadaten\nBegleitmaterial\nLiteratur Titel DEGRO practical guidelines: radiotherapy of breast cancer—regional nodal irradiation Verfasst von Kai Borm, MD David Krug Stefanie Corradini Christiane Matuschek Leonard Christopher Schmeel Gerd Fastner Guido Henke Montserrat Pazos Rene Baumann Vratislav Strnad Wilfried Budach Marc D. Piroth Nona Marciana Duma Juliane Hörner-Rieber Breast Cancer Expert Panel of the German Society of Radiation Oncology DEGRO Publikationsdatum 14.06.2026 Verlag Springer Berlin Heidelberg Erschienen in Strahlentherapie und Onkologie / Ausgabe 7/2026 Print ISSN: 0179-7158 Elektronische ISSN: 1439-099X DOI https://doi.org/10.1007/s00066-026-02554-9\nSupplementary Information The evidence of de-escalation of RNI after NACT focuses consistently on patients with limited",
+        "excerpts": [
+          "Metadaten\nBegleitmaterial\nLiteratur Titel DEGRO practical guidelines: radiotherapy of breast cancer—regional nodal irradiation Verfasst von Kai Borm, MD David Krug Stefanie Corradini Christiane Matuschek Leonard Christopher Schmeel Gerd Fastner Guido Henke Montserrat Pazos Rene Baumann Vratislav Strnad Wilfried Budach Marc D. Piroth Nona Marciana Duma Juliane Hörner-Rieber Breast Cancer Expert Panel of the German Society of Radiation Oncology DEGRO Publikationsdatum 14.06.2026 Verlag Springer Berlin Heidelberg Erschienen in Strahlentherapie und Onkologie / Ausgabe 7/2026 Print ISSN: 0179-7158 Elektronische ISSN: 1439-099X DOI https://doi.org/10.1007/s00066-026-02554-9\nSupplementary Information The evidence of de-escalation of RNI after NACT focuses consistently on patients with limited"
+        ],
+        "supporting_excerpts": [
+          "Metadaten\nBegleitmaterial\nLiteratur Titel DEGRO practical guidelines: radiotherapy of breast cancer—regional nodal irradiation Verfasst von Kai Borm, MD David Krug Stefanie Corradini Christiane Matuschek Leonard Christopher Schmeel Gerd Fastner Guido Henke Montserrat Pazos Rene Baumann Vratislav Strnad Wilfried Budach Marc D. Piroth Nona Marciana Duma Juliane Hörner-Rieber Breast Cancer Expert Panel of the German Society of Radiation Oncology DEGRO Publikationsdatum 14.06.2026 Verlag Springer Berlin Heidelberg Erschienen in Strahlentherapie und Onkologie / Ausgabe 7/2026 Print ISSN: 0179-7158 Elektronische ISSN: 1439-099X DOI https://doi.org/10.1007/s00066-026-02554-9\nSupplementary Information The evidence of de-escalation of RNI after NACT focuses consistently on patients with limited"
+        ],
+        "doi": "10.1007/s00066-026-02554-9",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "\n            DEGRO practical guidelines: radiotherapy of breast cancer I: Radiotherapy following breast conserving therapy for invasive breast cancer - PMC\n        ",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3825416",
+        "publish_date": "",
+        "snippet": "View on publisher site icon\nDownload PDF icon\nCollections icon Collections icon\nCite icon\nShow article permalink icon Open article navigation icon As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Springer logo Strahlenther Onkol . 2013 Sep 5;189(10):825–833. doi: 10.1007/s00066-013-0437-8 Show available content in\nen\nde\nDEGRO practical guidelines: radiotherapy of breast cancer I Skip to main content An official website of the United States government Here's how you know Here's how you know NCBI home page Search Log in Primary site navigation Close Search Search Log in PMC search open icon PMC",
+        "excerpts": [
+          "View on publisher site icon\nDownload PDF icon\nCollections icon Collections icon\nCite icon\nShow article permalink icon Open article navigation icon As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Springer logo Strahlenther Onkol . 2013 Sep 5;189(10):825–833. doi: 10.1007/s00066-013-0437-8 Show available content in\nen\nde\nDEGRO practical guidelines: radiotherapy of breast cancer I Skip to main content An official website of the United States government Here's how you know Here's how you know NCBI home page Search Log in Primary site navigation Close Search Search Log in PMC search open icon PMC"
+        ],
+        "supporting_excerpts": [
+          "View on publisher site icon\nDownload PDF icon\nCollections icon Collections icon\nCite icon\nShow article permalink icon Open article navigation icon As a library, NLM provides access to scientific literature. Inclusion in an NLM database does not imply endorsement of, or agreement with, the contents by NLM or the National Institutes of Health. Learn more: PMC Disclaimer | PMC Copyright Notice Springer logo Strahlenther Onkol . 2013 Sep 5;189(10):825–833. doi: 10.1007/s00066-013-0437-8 Show available content in\nen\nde\nDEGRO practical guidelines: radiotherapy of breast cancer I Skip to main content An official website of the United States government Here's how you know Here's how you know NCBI home page Search Log in Primary site navigation Close Search Search Log in PMC search open icon PMC"
+        ],
+        "doi": "10.1007/s00066-013-0437-8",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO guidelines for the radiotherapy of non-malignant ...",
+        "url": "https://dupuytrens.org/DupPDFs/2015_Ott.pdf",
+        "publish_date": "",
+        "snippet": "4 C Elbow syndrome 3.0–6.0 0.5–1.0 2–3/week 2c B Trochanteric bursitis 3.0–6.0 0.5–1.0 2–3/week 4 C Plantar fasciitis 3.0–6.0 0.5–1.0 2–3/week 1b A Gonarthrosis 3.0–6.0 0.5–1.0 2–3/week 2c B Coxarthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Hand and finger joint arthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Gy Gray, LoE Oxford Level of Evidence, GR Grade of Recommend- ation 5 1 3 DEGRO guidelines for the radiotherapy of non-malignant disorders 0.5–1.0 Gy, and total doses of 3.0–6.0 Gy/series applied with 2–3 fractions per week 1 3 Review aRticle Received: 6 August 2014 / Accepted: 5 September 2014 / Published online: 20 September 2014 © Springer-Verlag Berlin Heidelberg 2014 DEGRO guidelines for the radiotherapy of non-malignant disorders Part II: Painful",
+        "excerpts": [
+          "4 C Elbow syndrome 3.0–6.0 0.5–1.0 2–3/week 2c B Trochanteric bursitis 3.0–6.0 0.5–1.0 2–3/week 4 C Plantar fasciitis 3.0–6.0 0.5–1.0 2–3/week 1b A Gonarthrosis 3.0–6.0 0.5–1.0 2–3/week 2c B Coxarthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Hand and finger joint arthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Gy Gray, LoE Oxford Level of Evidence, GR Grade of Recommend- ation 5 1 3 DEGRO guidelines for the radiotherapy of non-malignant disorders 0.5–1.0 Gy, and total doses of 3.0–6.0 Gy/series applied with 2–3 fractions per week 1 3 Review aRticle Received: 6 August 2014 / Accepted: 5 September 2014 / Published online: 20 September 2014 © Springer-Verlag Berlin Heidelberg 2014 DEGRO guidelines for the radiotherapy of non-malignant disorders Part II: Painful"
+        ],
+        "supporting_excerpts": [
+          "4 C Elbow syndrome 3.0–6.0 0.5–1.0 2–3/week 2c B Trochanteric bursitis 3.0–6.0 0.5–1.0 2–3/week 4 C Plantar fasciitis 3.0–6.0 0.5–1.0 2–3/week 1b A Gonarthrosis 3.0–6.0 0.5–1.0 2–3/week 2c B Coxarthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Hand and finger joint arthrosis 3.0–6.0 0.5–1.0 2–3/week 4 C Gy Gray, LoE Oxford Level of Evidence, GR Grade of Recommend- ation 5 1 3 DEGRO guidelines for the radiotherapy of non-malignant disorders 0.5–1.0 Gy, and total doses of 3.0–6.0 Gy/series applied with 2–3 fractions per week 1 3 Review aRticle Received: 6 August 2014 / Accepted: 5 September 2014 / Published online: 20 September 2014 © Springer-Verlag Berlin Heidelberg 2014 DEGRO guidelines for the radiotherapy of non-malignant disorders Part II: Painful"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Radiation Therapy for Nonmalignant Diseases: An ASTRO-ESTRO-DEGRO-RANZCR Framework - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0360301625062996",
+        "publish_date": "",
+        "snippet": "stocks Totipotent Capital and is consultant of Varian/Fuse Oncology. M.G. is a consultant of Varian/AstraZeneca/Johnson&Johnson; received research funding from Varian/AstraZeneca; and is member of ESTRO. B.J.F. is a consultant for Bayer/Accuray/AstraZeneca/Astellas; received research funding from IBA/Accuray; and is member of ESTRO. B.G., N.V., and S.K. are members of ASTRO. J.K. is member of DEGRO. Radiother Oncol (2023)\nM. Xi et al.\nRadiofrequency ablation versus stereotactic body radiotherapy for recurrent small hepatocellular carcinoma: a randomized, open-label, controlled trial\nJ Clin Oncol (2025)\nS.C. Darby et al.\nLong term mortality after a single treatment course with X-rays in patients treated for ankylosing spondylitis\nBr J Cancer (1987)\nL.B. Travis et al.\nSecond cancers among",
+        "excerpts": [
+          "stocks Totipotent Capital and is consultant of Varian/Fuse Oncology. M.G. is a consultant of Varian/AstraZeneca/Johnson&Johnson; received research funding from Varian/AstraZeneca; and is member of ESTRO. B.J.F. is a consultant for Bayer/Accuray/AstraZeneca/Astellas; received research funding from IBA/Accuray; and is member of ESTRO. B.G., N.V., and S.K. are members of ASTRO. J.K. is member of DEGRO. Radiother Oncol (2023)\nM. Xi et al.\nRadiofrequency ablation versus stereotactic body radiotherapy for recurrent small hepatocellular carcinoma: a randomized, open-label, controlled trial\nJ Clin Oncol (2025)\nS.C. Darby et al.\nLong term mortality after a single treatment course with X-rays in patients treated for ankylosing spondylitis\nBr J Cancer (1987)\nL.B. Travis et al.\nSecond cancers among"
+        ],
+        "supporting_excerpts": [
+          "stocks Totipotent Capital and is consultant of Varian/Fuse Oncology. M.G. is a consultant of Varian/AstraZeneca/Johnson&Johnson; received research funding from Varian/AstraZeneca; and is member of ESTRO. B.J.F. is a consultant for Bayer/Accuray/AstraZeneca/Astellas; received research funding from IBA/Accuray; and is member of ESTRO. B.G., N.V., and S.K. are members of ASTRO. J.K. is member of DEGRO. Radiother Oncol (2023)\nM. Xi et al.\nRadiofrequency ablation versus stereotactic body radiotherapy for recurrent small hepatocellular carcinoma: a randomized, open-label, controlled trial\nJ Clin Oncol (2025)\nS.C. Darby et al.\nLong term mortality after a single treatment course with X-rays in patients treated for ankylosing spondylitis\nBr J Cancer (1987)\nL.B. Travis et al.\nSecond cancers among"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Radiation Therapy for Nonmalignant Diseases: An ASTRO-ESTRO-DEGRO-RANZCR Framework - International Journal of Radiation Oncology, Biology, Physics",
+        "url": "https://www.redjournal.org/article/S0360-3016(25)06299-6/abstract",
+        "publish_date": "",
+        "snippet": "Philadelphia, Pennsylvania Search for articles by this author h ∙ Neha Vapiwala , MD, FASTRO Neha Vapiwala , MD, FASTRO Affiliations Department of Radiation Oncology, Clemenshospital Muenster, Germany Search for articles by this author i ∙ Sameer Keole , MD Sameer Keole , MD Affiliations Department of Radiation Oncology, Mayo Clinic, Phoenix, Arizona Search for articles by this author j … Show more Show Guidelines in radiotherapy: Radiotherapy for benign diseases: German Society for Radiation Oncology (DEGRO) Update. 2022;19:3. Google Scholar 50. Recommendations for using radiotherapy for benign disease in the UK. London: The Royal College of Radiologists. 2023. Accessed July 15, 2025. https://www.rcr.ac.uk/our-services/all-our-publications/clinical-oncology-publications",
+        "excerpts": [
+          "Philadelphia, Pennsylvania Search for articles by this author h ∙ Neha Vapiwala , MD, FASTRO Neha Vapiwala , MD, FASTRO Affiliations Department of Radiation Oncology, Clemenshospital Muenster, Germany Search for articles by this author i ∙ Sameer Keole , MD Sameer Keole , MD Affiliations Department of Radiation Oncology, Mayo Clinic, Phoenix, Arizona Search for articles by this author j … Show more Show Guidelines in radiotherapy: Radiotherapy for benign diseases: German Society for Radiation Oncology (DEGRO) Update. 2022;19:3. Google Scholar 50. Recommendations for using radiotherapy for benign disease in the UK. London: The Royal College of Radiologists. 2023. Accessed July 15, 2025. https://www.rcr.ac.uk/our-services/all-our-publications/clinical-oncology-publications"
+        ],
+        "supporting_excerpts": [
+          "Philadelphia, Pennsylvania Search for articles by this author h ∙ Neha Vapiwala , MD, FASTRO Neha Vapiwala , MD, FASTRO Affiliations Department of Radiation Oncology, Clemenshospital Muenster, Germany Search for articles by this author i ∙ Sameer Keole , MD Sameer Keole , MD Affiliations Department of Radiation Oncology, Mayo Clinic, Phoenix, Arizona Search for articles by this author j … Show more Show Guidelines in radiotherapy: Radiotherapy for benign diseases: German Society for Radiation Oncology (DEGRO) Update. 2022;19:3. Google Scholar 50. Recommendations for using radiotherapy for benign disease in the UK. London: The Royal College of Radiologists. 2023. Accessed July 15, 2025. https://www.rcr.ac.uk/our-services/all-our-publications/clinical-oncology-publications"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "\n        DEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways.\n      -  PMU Research Portal",
+        "url": "https://pure.pmu.ac.at/en/publications/degro-practical-guidelines-radiotherapy-of-breast-canceriii-radio",
+        "publish_date": "",
+        "snippet": "search Skip to main content\nDEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. / Sautter-Bihl, M-L; Sedlmayer, Felix (Co-author); Budach, W et al. In: STRAHLENTHERAPIE UND ONKOLOGIE , Vol. 190, No. 4, 2014, p. 342-351. Research output : Contribution to journal › Original Article › peer-review TY - JOUR T1 - DEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. AU - Sautter-Bihl, M-L AU - Sedlmayer, Felix AU - Budach, W AU - Dunst, J AU - Feyer, P AU - Fietkau, R AU - Fussl, C AU - Haase, W AU - Harms, W AU - Piroth, M D AU - Souchon, R AU - Wenz, F AU - Sauer, R AU - Of The Of Degro, Breast Cancer Expert Panel German Society Radiation Oncology Degro N1 - Felix Sedlmayer and Marie-Luise",
+        "excerpts": [
+          "search Skip to main content\nDEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. / Sautter-Bihl, M-L; Sedlmayer, Felix (Co-author); Budach, W et al. In: STRAHLENTHERAPIE UND ONKOLOGIE , Vol. 190, No. 4, 2014, p. 342-351. Research output : Contribution to journal › Original Article › peer-review TY - JOUR T1 - DEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. AU - Sautter-Bihl, M-L AU - Sedlmayer, Felix AU - Budach, W AU - Dunst, J AU - Feyer, P AU - Fietkau, R AU - Fussl, C AU - Haase, W AU - Harms, W AU - Piroth, M D AU - Souchon, R AU - Wenz, F AU - Sauer, R AU - Of The Of Degro, Breast Cancer Expert Panel German Society Radiation Oncology Degro N1 - Felix Sedlmayer and Marie-Luise"
+        ],
+        "supporting_excerpts": [
+          "search Skip to main content\nDEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. / Sautter-Bihl, M-L; Sedlmayer, Felix (Co-author); Budach, W et al. In: STRAHLENTHERAPIE UND ONKOLOGIE , Vol. 190, No. 4, 2014, p. 342-351. Research output : Contribution to journal › Original Article › peer-review TY - JOUR T1 - DEGRO practical guidelines: radiotherapy of breast cancer III-radiotherapy of the lymphatic pathways. AU - Sautter-Bihl, M-L AU - Sedlmayer, Felix AU - Budach, W AU - Dunst, J AU - Feyer, P AU - Fietkau, R AU - Fussl, C AU - Haase, W AU - Harms, W AU - Piroth, M D AU - Souchon, R AU - Wenz, F AU - Sauer, R AU - Of The Of Degro, Breast Cancer Expert Panel German Society Radiation Oncology Degro N1 - Felix Sedlmayer and Marie-Luise"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines: radiotherapy of breast cancer III--radiotherapy of the lymphatic pathways. | University of Kentucky College of Arts & Sciences",
+        "url": "https://ens.as.uky.edu/bibcite/reference/2885",
+        "publish_date": "",
+        "snippet": "Breast Oncology\nAbstract | :\nThe purpose of this work is to update the practical guidelines for adjuvant radiotherapy of the regional lymphatics of breast cancer published in 2008 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO).\nYear of Publication | :\n2014\nJournal | :\nStrahlentherapie und Onkologie : Organ der Deutschen Rontgengesellschaft ... [et al]\nVolume | :\n190\nIssue | :\n4\nNumber of Pages | :\n342-51\nISSN Number | :\n0179-7158\nURL | :\nhttp://dx.doi.org/10.1007/s00066-013-0543-7\nDOI | :\n10.1007/s00066-013-0543-7\nShort Title | :\nStrahlenther Onkol\nDownload citation | * Google Scholar\nDOI |\nApply\nContact\nNews\nEvents\nGive University of Kentucky College of Arts & Sciences\nEnvironmental and Sustainability Studies Skip to main content\nDEGRO practical",
+        "excerpts": [
+          "Breast Oncology\nAbstract | :\nThe purpose of this work is to update the practical guidelines for adjuvant radiotherapy of the regional lymphatics of breast cancer published in 2008 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO).\nYear of Publication | :\n2014\nJournal | :\nStrahlentherapie und Onkologie : Organ der Deutschen Rontgengesellschaft ... [et al]\nVolume | :\n190\nIssue | :\n4\nNumber of Pages | :\n342-51\nISSN Number | :\n0179-7158\nURL | :\nhttp://dx.doi.org/10.1007/s00066-013-0543-7\nDOI | :\n10.1007/s00066-013-0543-7\nShort Title | :\nStrahlenther Onkol\nDownload citation | * Google Scholar\nDOI |\nApply\nContact\nNews\nEvents\nGive University of Kentucky College of Arts & Sciences\nEnvironmental and Sustainability Studies Skip to main content\nDEGRO practical"
+        ],
+        "supporting_excerpts": [
+          "Breast Oncology\nAbstract | :\nThe purpose of this work is to update the practical guidelines for adjuvant radiotherapy of the regional lymphatics of breast cancer published in 2008 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO).\nYear of Publication | :\n2014\nJournal | :\nStrahlentherapie und Onkologie : Organ der Deutschen Rontgengesellschaft ... [et al]\nVolume | :\n190\nIssue | :\n4\nNumber of Pages | :\n342-51\nISSN Number | :\n0179-7158\nURL | :\nhttp://dx.doi.org/10.1007/s00066-013-0543-7\nDOI | :\n10.1007/s00066-013-0543-7\nShort Title | :\nStrahlenther Onkol\nDownload citation | * Google Scholar\nDOI |\nApply\nContact\nNews\nEvents\nGive University of Kentucky College of Arts & Sciences\nEnvironmental and Sustainability Studies Skip to main content\nDEGRO practical"
+        ],
+        "doi": "10.1007/s00066-013-0543-7",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Dose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP Working Group Stereotactic Radiotherapy and Radiosurgery",
+        "url": "https://inis.iaea.org/records/q4tzc-nq044",
+        "publish_date": "",
+        "snippet": "Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published 2024 | Version v1 Journal article Metadata-only\nDose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP Working Group Stereotactic Radiotherapy and Radiosurgery\nShow affiliations To develop expert consensus statements on multiparametric dose prescriptions for stereotactic body radiotherapy (SBRT) aligning with ICRU report 91. These statements serve as a foundational step towards harmonizing current SBRT practices and refining dose prescription and documentation requirements for clinical trial designs. Based on the results of a literature review by the working group, a two-tier Delphi",
+        "excerpts": [
+          "Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published 2024 | Version v1 Journal article Metadata-only\nDose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP Working Group Stereotactic Radiotherapy and Radiosurgery\nShow affiliations To develop expert consensus statements on multiparametric dose prescriptions for stereotactic body radiotherapy (SBRT) aligning with ICRU report 91. These statements serve as a foundational step towards harmonizing current SBRT practices and refining dose prescription and documentation requirements for clinical trial designs. Based on the results of a literature review by the working group, a two-tier Delphi"
+        ],
+        "supporting_excerpts": [
+          "Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published 2024 | Version v1 Journal article Metadata-only\nDose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP Working Group Stereotactic Radiotherapy and Radiosurgery\nShow affiliations To develop expert consensus statements on multiparametric dose prescriptions for stereotactic body radiotherapy (SBRT) aligning with ICRU report 91. These statements serve as a foundational step towards harmonizing current SBRT practices and refining dose prescription and documentation requirements for clinical trial designs. Based on the results of a literature review by the working group, a two-tier Delphi"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines for radiotherapy of non-malignant disorders DEGRO-S2e-Leitlinie für die Strahlentherapie von…",
+        "url": "https://ouci.dntb.gov.ua/en/works/4ML6JLB7",
+        "publish_date": "",
+        "snippet": "practical guidelines for radiotherapy of non-malignant disorders DEGRO-S2e-Leitlinie für die Strahlentherapie von gutartigen Erkrankungen\nGeneral information\nPublication type Journal Article DOI 10.1007/s00066-015-0865-8 Journal 2015 , Strahlentherapie und Onkologie , № 9 , p. 701-709 Publisher Springer Science and Business Media LLC Authors the German Cooperative Group on Radiotherapy for Benign Diseases (GCG-BD), Berthold Reichl, Andreas Block, Ulrich Schäfer, Christoph Bert, Reinhold Müller, Horst Jung, Franz Rödel\nDetails\nNumber of citations 35 Number of works in the list of references 67 Indexed in Scopus Yes Indexed in Web of Science Yes\nList of references Rodel F, Frey B, Capalbo G et al (2010) Discontinuous induction of X-linked inhibitor of apoptosis in EA.hy.926 endothelial",
+        "excerpts": [
+          "practical guidelines for radiotherapy of non-malignant disorders DEGRO-S2e-Leitlinie für die Strahlentherapie von gutartigen Erkrankungen\nGeneral information\nPublication type Journal Article DOI 10.1007/s00066-015-0865-8 Journal 2015 , Strahlentherapie und Onkologie , № 9 , p. 701-709 Publisher Springer Science and Business Media LLC Authors the German Cooperative Group on Radiotherapy for Benign Diseases (GCG-BD), Berthold Reichl, Andreas Block, Ulrich Schäfer, Christoph Bert, Reinhold Müller, Horst Jung, Franz Rödel\nDetails\nNumber of citations 35 Number of works in the list of references 67 Indexed in Scopus Yes Indexed in Web of Science Yes\nList of references Rodel F, Frey B, Capalbo G et al (2010) Discontinuous induction of X-linked inhibitor of apoptosis in EA.hy.926 endothelial"
+        ],
+        "supporting_excerpts": [
+          "practical guidelines for radiotherapy of non-malignant disorders DEGRO-S2e-Leitlinie für die Strahlentherapie von gutartigen Erkrankungen\nGeneral information\nPublication type Journal Article DOI 10.1007/s00066-015-0865-8 Journal 2015 , Strahlentherapie und Onkologie , № 9 , p. 701-709 Publisher Springer Science and Business Media LLC Authors the German Cooperative Group on Radiotherapy for Benign Diseases (GCG-BD), Berthold Reichl, Andreas Block, Ulrich Schäfer, Christoph Bert, Reinhold Müller, Horst Jung, Franz Rödel\nDetails\nNumber of citations 35 Number of works in the list of references 67 Indexed in Scopus Yes Indexed in Web of Science Yes\nList of references Rodel F, Frey B, Capalbo G et al (2010) Discontinuous induction of X-linked inhibitor of apoptosis in EA.hy.926 endothelial"
+        ],
+        "doi": "10.1007/s00066-015-0865-8",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines for radiotherapy of breast cancer VI: therapy of locoregional breast cancer recurrences - PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/26931319",
+        "publish_date": "",
+        "snippet": "DEGRO practical guidelines for radiotherapy of breast cancer VI: therapy of locoregional breast cancer recurrences\nWolfgang Harms et al. Strahlenther Onkol . 2016 Apr . Show details Display options Display options Format Abstract PubMed PMID Strahlenther Onkol Actions\nSearch in PubMed\nSearch in NLM Catalog\nAdd to Search . 2016 Apr;192(4):199-208. doi: 10.1007/s00066-015-0939-7. Epub 2016 Mar 1.\nAuthors\nWolfgang Harms 1 , W Budach 2 , J Dunst 3 , P Feyer 4 , R Fietkau 5 , W Haase 6 , D Krug 7 , M D Piroth 8 , M-L Sautter-Bihl 9 , F Sedlmayer 10 , R Souchon 11 , F Wenz 12 , R Sauer 5 ; Breast Cancer Expert Panel of the German Society of Radiation Oncology (DEGRO)\nAffiliations Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page content",
+        "excerpts": [
+          "DEGRO practical guidelines for radiotherapy of breast cancer VI: therapy of locoregional breast cancer recurrences\nWolfgang Harms et al. Strahlenther Onkol . 2016 Apr . Show details Display options Display options Format Abstract PubMed PMID Strahlenther Onkol Actions\nSearch in PubMed\nSearch in NLM Catalog\nAdd to Search . 2016 Apr;192(4):199-208. doi: 10.1007/s00066-015-0939-7. Epub 2016 Mar 1.\nAuthors\nWolfgang Harms 1 , W Budach 2 , J Dunst 3 , P Feyer 4 , R Fietkau 5 , W Haase 6 , D Krug 7 , M D Piroth 8 , M-L Sautter-Bihl 9 , F Sedlmayer 10 , R Souchon 11 , F Wenz 12 , R Sauer 5 ; Breast Cancer Expert Panel of the German Society of Radiation Oncology (DEGRO)\nAffiliations Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page content",
+          "do not demonstrably affect the survival rates of the overall population, and there is very little information concerning the local-regional control with elective chemotherapy. The spread of information and the increased use of effective methods should be encouraged. PubMed Disclaimer Similar articles * DEGRO practical guidelines for radiotherapy of breast cancer VI: therapy of locoregional breast cancer recurrences. Harms W, Budach W, Dunst J, Feyer P, Fietkau R, Haase W, Krug D, Piroth MD, Sautter-Bihl ML, Sedlmayer F, Souchon R, Wenz F, Sauer R; Breast Cancer Expert Panel of the German Society of Radiation Oncology (DEGRO). Harms W, et al. Strahlenther Onkol. 2016 Apr;192(4):199-208. doi: 10.1007/s00066-015-0939-7. Epub 2016 Mar 1. Strahlenther Onkol. 2016. PMID: 26931319 Free PMC"
+        ],
+        "supporting_excerpts": [
+          "DEGRO practical guidelines for radiotherapy of breast cancer VI: therapy of locoregional breast cancer recurrences\nWolfgang Harms et al. Strahlenther Onkol . 2016 Apr . Show details Display options Display options Format Abstract PubMed PMID Strahlenther Onkol Actions\nSearch in PubMed\nSearch in NLM Catalog\nAdd to Search . 2016 Apr;192(4):199-208. doi: 10.1007/s00066-015-0939-7. Epub 2016 Mar 1.\nAuthors\nWolfgang Harms 1 , W Budach 2 , J Dunst 3 , P Feyer 4 , R Fietkau 5 , W Haase 6 , D Krug 7 , M D Piroth 8 , M-L Sautter-Bihl 9 , F Sedlmayer 10 , R Souchon 11 , F Wenz 12 , R Sauer 5 ; Breast Cancer Expert Panel of the German Society of Radiation Oncology (DEGRO)\nAffiliations Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page content"
+        ],
+        "doi": "10.1007/s00066-015-0939-7",
+        "pmid": "26931319",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Practice guidelines – AG Stereotaxie",
+        "url": "https://www.degro.org/ag-stereotaxie/projekte/practice-guidelines-of-the-degro-working-group-stereotactic-radiotherapy-radiosurgery",
+        "publish_date": "",
+        "snippet": "Strahlenther Onkol 2014; 190: 521-532. www.ncbi.nlm.nih.gov/pubmed/24715242 Impressum Datenschutz Zur DEGRO Privatsphäre Deutsche Gesellschaft für Radioonkologie e.V. Geschäftsstelle: Reinhardtstr. 47, 10117 Berlin Telefon: +49 30 8441 9188 Telefax: +49 30 8441 9189 E-Mail: office@degro.org Copyright © 2025 Degro Radiosurgery for brain metastases\nStereotactic body radiotherapy for early stage NSCLC\nStereotactic body radiotherapy for primary and secondary liver cancer\nStereotactic body radiotherapy for primary renal cell cancer and pancreatic cancer\nStereotactic body radiotherapy for ventricular tachycardia Referenzen:\nBrunner TB, Boda-Heggeman J, Bürgy D, et al. Dose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP",
+        "excerpts": [
+          "Strahlenther Onkol 2014; 190: 521-532. www.ncbi.nlm.nih.gov/pubmed/24715242 Impressum Datenschutz Zur DEGRO Privatsphäre Deutsche Gesellschaft für Radioonkologie e.V. Geschäftsstelle: Reinhardtstr. 47, 10117 Berlin Telefon: +49 30 8441 9188 Telefax: +49 30 8441 9189 E-Mail: office@degro.org Copyright © 2025 Degro Radiosurgery for brain metastases\nStereotactic body radiotherapy for early stage NSCLC\nStereotactic body radiotherapy for primary and secondary liver cancer\nStereotactic body radiotherapy for primary renal cell cancer and pancreatic cancer\nStereotactic body radiotherapy for ventricular tachycardia Referenzen:\nBrunner TB, Boda-Heggeman J, Bürgy D, et al. Dose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP"
+        ],
+        "supporting_excerpts": [
+          "Strahlenther Onkol 2014; 190: 521-532. www.ncbi.nlm.nih.gov/pubmed/24715242 Impressum Datenschutz Zur DEGRO Privatsphäre Deutsche Gesellschaft für Radioonkologie e.V. Geschäftsstelle: Reinhardtstr. 47, 10117 Berlin Telefon: +49 30 8441 9188 Telefax: +49 30 8441 9189 E-Mail: office@degro.org Copyright © 2025 Degro Radiosurgery for brain metastases\nStereotactic body radiotherapy for early stage NSCLC\nStereotactic body radiotherapy for primary and secondary liver cancer\nStereotactic body radiotherapy for primary renal cell cancer and pancreatic cancer\nStereotactic body radiotherapy for ventricular tachycardia Referenzen:\nBrunner TB, Boda-Heggeman J, Bürgy D, et al. Dose prescription for stereotactic body radiotherapy: general and organ-specific consensus statement from the DEGRO/DGMP"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Randomized multicenter trial on the effect of radiotherapy for plantar Fasciitis (painful heel spur) using very low doses--a study protocol",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18801159",
+        "publish_date": "",
+        "snippet": "Background: A lot of retrospective data concerning the effect of radiotherapy on the painful heel spur (plantar fasciitis) is available in the literature. Nevertheless, a randomized proof of this effect is still missing. Thus, the GCGBD (German cooperative group on radiotherapy for benign diseases) of the DEGRO (German Society for Radiation Oncology) decided to start a randomized multicenter trial in order to find out if the effect of a conventional total dose is superior compared to that of a very low dose. Randomized multicenter trial on the effect of radiotherapy for plantar Fasciitis (painful heel spur) using very low doses--a study protocol\nRadiat Oncol . 2008 Sep 18:3:27. doi: 10.1186/1748-717X-3-27.\nAuthors\nMarcus Niewald 1 , M Heinrich Seegenschmiedt , Oliver Micke , Stefan Gräber",
+        "excerpts": [
+          "Background: A lot of retrospective data concerning the effect of radiotherapy on the painful heel spur (plantar fasciitis) is available in the literature. Nevertheless, a randomized proof of this effect is still missing. Thus, the GCGBD (German cooperative group on radiotherapy for benign diseases) of the DEGRO (German Society for Radiation Oncology) decided to start a randomized multicenter trial in order to find out if the effect of a conventional total dose is superior compared to that of a very low dose. Randomized multicenter trial on the effect of radiotherapy for plantar Fasciitis (painful heel spur) using very low doses--a study protocol\nRadiat Oncol . 2008 Sep 18:3:27. doi: 10.1186/1748-717X-3-27.\nAuthors\nMarcus Niewald 1 , M Heinrich Seegenschmiedt , Oliver Micke , Stefan Gräber"
+        ],
+        "supporting_excerpts": [
+          "Background: A lot of retrospective data concerning the effect of radiotherapy on the painful heel spur (plantar fasciitis) is available in the literature. Nevertheless, a randomized proof of this effect is still missing. Thus, the GCGBD (German cooperative group on radiotherapy for benign diseases) of the DEGRO (German Society for Radiation Oncology) decided to start a randomized multicenter trial in order to find out if the effect of a conventional total dose is superior compared to that of a very low dose. Randomized multicenter trial on the effect of radiotherapy for plantar Fasciitis (painful heel spur) using very low doses--a study protocol\nRadiat Oncol . 2008 Sep 18:3:27. doi: 10.1186/1748-717X-3-27.\nAuthors\nMarcus Niewald 1 , M Heinrich Seegenschmiedt , Oliver Micke , Stefan Gräber"
+        ],
+        "doi": "10.1186/1748-717x-3-27",
+        "pmid": "18801159",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "DEGRO practical guidelines for radiotherapy of breast cancer I. Breast-conserving therapy",
+        "url": "https://inis.iaea.org/records/6es15-z0m50",
+        "publish_date": "",
+        "snippet": "Background: The present paper is an update of the practical guidelines for radiotherapy of breast cancer published in 2006 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO). These recommendations have been elaborated on the basis of the S3 guidelines of the German Cancer Society that were revised in March 2007 by an interdisciplinary panel. Methods: The DEGRO expert panel performed a comprehensive survey of the literature, comprising lately published meta-analyses, data from recent randomized trials and guidelines of international breast cancer societies, referring to the criteria of evidence-based medicine. Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published December",
+        "excerpts": [
+          "Background: The present paper is an update of the practical guidelines for radiotherapy of breast cancer published in 2006 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO). These recommendations have been elaborated on the basis of the S3 guidelines of the German Cancer Society that were revised in March 2007 by an interdisciplinary panel. Methods: The DEGRO expert panel performed a comprehensive survey of the literature, comprising lately published meta-analyses, data from recent randomized trials and guidelines of international breast cancer societies, referring to the criteria of evidence-based medicine. Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published December"
+        ],
+        "supporting_excerpts": [
+          "Background: The present paper is an update of the practical guidelines for radiotherapy of breast cancer published in 2006 by the breast cancer expert panel of the German Society of Radiation Oncology (DEGRO). These recommendations have been elaborated on the basis of the S3 guidelines of the German Cancer Society that were revised in March 2007 by an interdisciplinary panel. Methods: The DEGRO expert panel performed a comprehensive survey of the literature, comprising lately published meta-analyses, data from recent randomized trials and guidelines of international breast cancer societies, referring to the criteria of evidence-based medicine. Skip to main INIS – International Nuclear Information System home Communities My dashboard Thesaurus Subject Categories Log in Published December"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      }
+    ],
+    "timestamp": "2026-07-31 09:45:51",
+    "backend": "openrouter",
+    "model": "google/gemini-3.5-flash-lite+web/parallel",
+    "usage": {
+      "prompt_tokens": 11048,
+      "completion_tokens": 3046,
+      "total_tokens": 14094,
+      "cost": 0.1293327,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 1329,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.1183327,
+        "upstream_inference_prompt_cost": 0.0288777,
+        "upstream_inference_completions_cost": 0.08945499999999999
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 2,
+        "tool_calls_requested": 2,
+        "tool_calls_executed": 2
+      }
+    },
+    "academic": false,
+    "references": [],
+    "search_ledger": [
+      {
+        "capability": "openrouter:web_search",
+        "engine": "parallel",
+        "model": "google/gemini-3.5-flash-lite",
+        "domains": [],
+        "after_date": null,
+        "timestamp": "2026-07-31T09:46:33.406613+00:00",
+        "result_count": 18,
+        "max_searches": 3,
+        "status": "complete"
+      }
+    ]
+  }
+]

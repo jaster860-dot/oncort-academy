@@ -1,0 +1,233 @@
+{
+  "introduction": {
+    "purpose": "Established background, significance, and unresolved gap.",
+    "reference_ids": [
+      "ref-001",
+      "ref-002",
+      "ref-003",
+      "ref-004",
+      "ref-005",
+      "ref-006",
+      "ref-007",
+      "ref-008",
+      "ref-009",
+      "ref-010",
+      "ref-011",
+      "ref-012",
+      "ref-013",
+      "ref-014",
+      "ref-015",
+      "ref-016",
+      "ref-017",
+      "ref-018",
+      "ref-019"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "Patient and Physician Perspectives on Prostate Cancer Data Presented at ASCO 2025 - PMC castration-resistant prostate cancer: results of the EORTC 1333/PEACE-3 trial."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "Prostate Cancer Survivorship Essentials Chambers SK, Ferguson M, Gardiner RA, et al ."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology - PubMed Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology Daniel E Spratt et al."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "Evolving strategies in prostate cancer: Emerging approaches and unmet needs from the Bridging the Gaps in Prostate Cancer expert panel - PubMed treatment-related toxicity."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "Re: EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer - PubMed Affiliations 1 Department of Urology, Vivantes Klinikum am Urban, Berlin, Germany; Knowuro GmbH, Berlin, Germany."
+      },
+      {
+        "reference_id": "ref-006",
+        "finding": "The contemporary management of prostate cancer The contemporary management of prostate cancer CA Cancer J Clin ."
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "Prostate cancer is \"found\" through a multistep risk-based EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate ..."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "Prostate cancer in a nutshell - Kirby - 2024 Prostate cancer in a nutshell - Kirby - 2024 by M Kirby · 2024 · Cited by 2 — EAU-EANM-ESTRO-ESUR-ISUP-SIOG guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "Prostate Cancer, Version 4.2023, NCCN Clinical Practice Guidelines in Oncology Prostate Cancer, Version 4.2023, NCCN Clinical Practice Guidelines in Oncology J Natl Compr Canc Netw ."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "Adherence to American Cancer Society Guideline and Mortality in Men With Nonmetastatic Prostate Cancer | Oncology | JAMA Network Open | JAMA Network prostate, colorectal, and gynecologic cancers: a gap in survivorship care? ﻿ J Cancer Surviv ."
+      },
+      {
+        "reference_id": "ref-012",
+        "finding": "EAU guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-013",
+        "finding": "Global, regional, and national prevalence of prostate cancer from 1990 to 2021: a trend and health inequality analyses - PMC guideline endorsement."
+      },
+      {
+        "reference_id": "ref-014",
+        "finding": "EAU guidelines on prostate cancer - PubMed Checking your browser before accessing pubmed.ncbi.nlm.nih.gov ..."
+      },
+      {
+        "reference_id": "ref-015",
+        "finding": "EAU Guidelines on Prostate Cancer - ScienceDirect.com It is not possible to state that one therapy is clearly superior over another, as randomized controlled trials are lacking in this field."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "EAU Guidelines on Prostate Cancer."
+      },
+      {
+        "reference_id": "ref-017",
+        "finding": "Clinical decision making in prostate cancer care—evaluation of EAU-guidelines use and novel decision support software | Scientific Reports Skip to main content Thank you for visiting nature.com."
+      },
+      {
+        "reference_id": "ref-018",
+        "finding": "Improving research for prostate cancer survivorship - Europe PMC Improving research for prostate cancer survivorship - Europe PMC Abstract: Survivorship care for patients with prostate cancer requires careful consideration of unique disease-specific factors, including the prolonged"
+      },
+      {
+        "reference_id": "ref-019",
+        "finding": "Investing in prostate cancer survivorship - PMC The study by Nuyens et al provides more than another incremental contribution to survivorship research; it offers a pragmatic model for how urologic oncology programs can translate evidence into practice."
+      }
+    ]
+  },
+  "methods-rationale": {
+    "purpose": "Published precedent for measures, protocols, models, and analyses.",
+    "reference_ids": [
+      "ref-001",
+      "ref-002",
+      "ref-016",
+      "ref-019"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "Patient and Physician Perspectives on Prostate Cancer Data Presented at ASCO 2025 - PMC castration-resistant prostate cancer: results of the EORTC 1333/PEACE-3 trial."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "Prostate Cancer Survivorship Essentials Chambers SK, Ferguson M, Gardiner RA, et al ."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "EAU Guidelines on Prostate Cancer."
+      },
+      {
+        "reference_id": "ref-019",
+        "finding": "Investing in prostate cancer survivorship - PMC The study by Nuyens et al provides more than another incremental contribution to survivorship research; it offers a pragmatic model for how urologic oncology programs can translate evidence into practice."
+      }
+    ]
+  },
+  "discussion": {
+    "purpose": "Supporting and conflicting studies, mechanisms, limits, and implications.",
+    "reference_ids": [
+      "ref-001",
+      "ref-002",
+      "ref-003",
+      "ref-004",
+      "ref-005",
+      "ref-006",
+      "ref-007",
+      "ref-008",
+      "ref-009",
+      "ref-010",
+      "ref-011",
+      "ref-012",
+      "ref-013",
+      "ref-014",
+      "ref-015",
+      "ref-016",
+      "ref-017",
+      "ref-018",
+      "ref-019"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "Patient and Physician Perspectives on Prostate Cancer Data Presented at ASCO 2025 - PMC castration-resistant prostate cancer: results of the EORTC 1333/PEACE-3 trial."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "Prostate Cancer Survivorship Essentials Chambers SK, Ferguson M, Gardiner RA, et al ."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology - PubMed Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology Daniel E Spratt et al."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "Evolving strategies in prostate cancer: Emerging approaches and unmet needs from the Bridging the Gaps in Prostate Cancer expert panel - PubMed treatment-related toxicity."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "Re: EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer - PubMed Affiliations 1 Department of Urology, Vivantes Klinikum am Urban, Berlin, Germany; Knowuro GmbH, Berlin, Germany."
+      },
+      {
+        "reference_id": "ref-006",
+        "finding": "The contemporary management of prostate cancer The contemporary management of prostate cancer CA Cancer J Clin ."
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "Prostate cancer is \"found\" through a multistep risk-based EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate ..."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "Prostate cancer in a nutshell - Kirby - 2024 Prostate cancer in a nutshell - Kirby - 2024 by M Kirby · 2024 · Cited by 2 — EAU-EANM-ESTRO-ESUR-ISUP-SIOG guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "Prostate Cancer, Version 4.2023, NCCN Clinical Practice Guidelines in Oncology Prostate Cancer, Version 4.2023, NCCN Clinical Practice Guidelines in Oncology J Natl Compr Canc Netw ."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "Adherence to American Cancer Society Guideline and Mortality in Men With Nonmetastatic Prostate Cancer | Oncology | JAMA Network Open | JAMA Network prostate, colorectal, and gynecologic cancers: a gap in survivorship care? ﻿ J Cancer Surviv ."
+      },
+      {
+        "reference_id": "ref-012",
+        "finding": "EAU guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-013",
+        "finding": "Global, regional, and national prevalence of prostate cancer from 1990 to 2021: a trend and health inequality analyses - PMC guideline endorsement."
+      },
+      {
+        "reference_id": "ref-014",
+        "finding": "EAU guidelines on prostate cancer - PubMed Checking your browser before accessing pubmed.ncbi.nlm.nih.gov ..."
+      },
+      {
+        "reference_id": "ref-015",
+        "finding": "EAU Guidelines on Prostate Cancer - ScienceDirect.com It is not possible to state that one therapy is clearly superior over another, as randomized controlled trials are lacking in this field."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "EAU Guidelines on Prostate Cancer."
+      },
+      {
+        "reference_id": "ref-017",
+        "finding": "Clinical decision making in prostate cancer care—evaluation of EAU-guidelines use and novel decision support software | Scientific Reports Skip to main content Thank you for visiting nature.com."
+      },
+      {
+        "reference_id": "ref-018",
+        "finding": "Improving research for prostate cancer survivorship - Europe PMC Improving research for prostate cancer survivorship - Europe PMC Abstract: Survivorship care for patients with prostate cancer requires careful consideration of unique disease-specific factors, including the prolonged"
+      },
+      {
+        "reference_id": "ref-019",
+        "finding": "Investing in prostate cancer survivorship - PMC The study by Nuyens et al provides more than another incremental contribution to survivorship research; it offers a pragmatic model for how urologic oncology programs can translate evidence into practice."
+      }
+    ]
+  }
+}

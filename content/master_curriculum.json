@@ -1,0 +1,171 @@
+{
+  "id": "oncort_master_curriculum",
+  "version": "0.1.0",
+  "status": "needs_review",
+  "lastUpdated": "2026-07-31",
+  "audience": "radiation_oncologist_france",
+  "tracks": [
+    {
+      "id": "general_oncology",
+      "title": "Tronc commun d'oncologie",
+      "priority": 1,
+      "modules": [
+        "tumor_biology",
+        "cancer_genetics_and_molecular_biology",
+        "oncologic_pathology",
+        "diagnostic_workup",
+        "staging_and_prognosis",
+        "oncologic_imaging",
+        "epidemiology_prevention_screening",
+        "oncologic_surgery",
+        "cytotoxic_therapy",
+        "endocrine_therapy",
+        "targeted_therapy",
+        "immunotherapy",
+        "antibody_drug_conjugates_and_novel_therapies",
+        "clinical_pharmacology",
+        "response_assessment",
+        "clinical_trials_and_evidence",
+        "multidisciplinary_decision_making",
+        "supportive_care",
+        "geriatric_oncology",
+        "palliative_care",
+        "survivorship"
+      ]
+    },
+    {
+      "id": "radiotherapy_core",
+      "title": "Tronc commun de radiothérapie",
+      "priority": 1,
+      "modules": [
+        "radiation_physics",
+        "dosimetry",
+        "radiobiology",
+        "fractionation",
+        "radiotherapy_consultation_and_prescription",
+        "simulation_and_immobilization",
+        "target_volume_concepts",
+        "contouring",
+        "treatment_planning",
+        "plan_evaluation_and_dvh",
+        "igrt",
+        "motion_management",
+        "srs_fsrt_sbrt",
+        "brachytherapy",
+        "proton_therapy",
+        "special_techniques",
+        "radiation_protection",
+        "quality_and_safety",
+        "acute_and_late_toxicities",
+        "systemic_therapy_rt_combinations",
+        "reirradiation",
+        "adaptive_radiotherapy",
+        "ai_in_radiotherapy"
+      ]
+    },
+    {
+      "id": "essential_disease_sites",
+      "title": "Localisations indispensables",
+      "priority": 1,
+      "modules": [
+        "breast",
+        "lung_nsclc_sclc",
+        "prostate",
+        "rectum",
+        "metastases_and_palliative_rt",
+        "oncologic_emergencies",
+        "cancer_unknown_primary"
+      ]
+    },
+    {
+      "id": "advanced_disease_sites",
+      "title": "Localisations courantes et avancées",
+      "priority": 2,
+      "modules": [
+        "head_and_neck",
+        "cervix",
+        "endometrium",
+        "vulva_and_vagina",
+        "ovary",
+        "bladder",
+        "kidney",
+        "testis_and_penis",
+        "oesophagus_and_stomach",
+        "pancreas_liver_biliary",
+        "anal_canal",
+        "central_nervous_system",
+        "lymphoma_myeloma",
+        "soft_tissue_and_bone_sarcoma",
+        "skin_melanoma_merkel"
+      ]
+    },
+    {
+      "id": "rare_disease_sites",
+      "title": "Localisations rares à connaître",
+      "priority": 3,
+      "modules": [
+        "rare_head_and_neck",
+        "mesothelioma_and_thymoma",
+        "rare_genitourinary",
+        "rare_central_nervous_system",
+        "cutaneous_lymphoma",
+        "ophthalmic_and_orbital",
+        "paediatric_and_aya",
+        "rare_germ_cell",
+        "neuroendocrine_tumors",
+        "gestational_trophoblastic_disease",
+        "selected_benign_rt"
+      ]
+    }
+  ],
+  "diseaseSiteTemplate": [
+    "anatomy_and_lymphatic_drainage",
+    "epidemiology_risk_prevention",
+    "carcinogenesis_and_molecular_biology",
+    "pathology_minimum_dataset",
+    "diagnosis_and_workup",
+    "staging_and_risk_groups",
+    "surgery",
+    "systemic_therapy",
+    "radiotherapy_indications",
+    "simulation_and_immobilization",
+    "target_volumes",
+    "dose_fractionation_technique",
+    "organs_at_risk_constraints",
+    "toxicity_prevention_management",
+    "surveillance_survivorship",
+    "recurrence_oligometastases_reirradiation",
+    "special_populations",
+    "controversies_and_practice_changing_trials",
+    "tumor_board_checklist",
+    "progressive_cases_common_errors_retests"
+  ],
+  "recommendedSequence": [
+    "general_oncology_foundations",
+    "radiotherapy_foundations",
+    "breast",
+    "lung_nsclc_sclc",
+    "prostate",
+    "rectum",
+    "metastases_emergencies_palliation",
+    "head_and_neck",
+    "gynaecology",
+    "genitourinary",
+    "upper_gi_and_hepatopancreatobiliary",
+    "central_nervous_system",
+    "haematology",
+    "sarcoma",
+    "skin",
+    "rare_and_expert_topics"
+  ],
+  "sources": [
+    {
+      "id": "french_des_oncology_2022",
+      "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047115315"
+    },
+    {
+      "id": "estro_core_curriculum_4",
+      "url": "https://www.estro.org/ESTRO/media/ESTRO/Education/Estro-curriculum-4th-Edition-version-14-02-19.pdf"
+    }
+  ]
+}

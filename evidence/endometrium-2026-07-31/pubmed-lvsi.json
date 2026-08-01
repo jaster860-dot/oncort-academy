@@ -1,0 +1,18 @@
+{
+  "query": "endometrial cancer substantial lymphovascular space invasion PORTEC pooled analysis",
+  "count": 1,
+  "results": [
+    {
+      "pmid": "32718729",
+      "doi": "10.1016/j.ygyno.2020.07.024",
+      "title": "Is the risk of substantial LVSI in stage I endometrial cancer similar to PORTEC in the North American population? - A single-institution study.",
+      "authors": "Pifer, P M and Bhargava, R and Patel, A K and Ling, D C and Vargo, J A and Orr, B C and Sukumvanich, P and Courtney-Brooks, M B and Boisen, M M and Berger, J L and Taylor, S and Olawaiye, A B and Comerci, J T and Lesnock, J L and Edwards, R P and Beriwal, S",
+      "journal": "Gynecologic oncology",
+      "year": "2020",
+      "volume": "159",
+      "issue": "1",
+      "pages": "23-29",
+      "abstract": "A pooled analysis of PORTEC-1 & 2 identified substantial lymphovascular space invasion (LVSI) in 4.8% of patients, which predicted for pelvic recurrence, distant metastasis, and overall survival. Our institution implemented the PORTEC three-tier system of LVSI reporting (absent, focal, or substantial). We aimed to quantify the incidence of substantial LVSI in a North American population and to correlate extent of LVSI with lymph node (LN) involvement."
+    }
+  ]
+}

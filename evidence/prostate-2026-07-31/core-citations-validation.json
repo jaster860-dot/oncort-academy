@@ -1,0 +1,46 @@
+{
+  "filepath": "evidence/prostate-2026-07-31/core-citations-clean.bib",
+  "total_entries": 16,
+  "valid_entries": 12,
+  "errors": [
+    {
+      "type": "invalid_doi",
+      "entry": "Garje2025systemic",
+      "doi": "10.1200/JCO-25-00007",
+      "severity": "high",
+      "message": "Entry Garje2025systemic: DOI does not resolve: 10.1200/JCO-25-00007"
+    },
+    {
+      "type": "invalid_doi",
+      "entry": "Yu2025germline",
+      "doi": "10.1200/JCO-24-02608",
+      "severity": "high",
+      "message": "Entry Yu2025germline: DOI does not resolve: 10.1200/JCO-24-02608"
+    },
+    {
+      "type": "invalid_doi",
+      "entry": "vanLeenders2020international",
+      "doi": "10.1097/PAS.0000000000001497",
+      "severity": "high",
+      "message": "Entry vanLeenders2020international: DOI does not resolve: 10.1097/PAS.0000000000001497"
+    },
+    {
+      "type": "invalid_doi",
+      "entry": "Fine2012anatomy",
+      "doi": "10.1111/j.1365-2559.2011.04004.x",
+      "severity": "high",
+      "message": "Entry Fine2012anatomy: DOI does not resolve: 10.1111/j.1365-2559.2011.04004.x"
+    }
+  ],
+  "warnings": [],
+  "duplicates": [],
+  "venue_standard_checked": null,
+  "min_count_checked": 16,
+  "manuscript_results": {
+    "checked": false,
+    "manuscript_filepath": null,
+    "cited_keys": [],
+    "missing_keys": [],
+    "unused_keys": []
+  }
+}

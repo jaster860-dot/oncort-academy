@@ -1,0 +1,95 @@
+{
+  "consensus_evidence": [
+    {
+      "reference_id": "ref-001",
+      "finding": "Patient and Physician Perspectives on Prostate Cancer Data Presented at ASCO 2025 - PMC castration-resistant prostate cancer: results of the EORTC 1333/PEACE-3 trial."
+    },
+    {
+      "reference_id": "ref-001",
+      "finding": "Associated Data This section collects any data citations, data availability"
+    },
+    {
+      "reference_id": "ref-002",
+      "finding": "Prostate Cancer Survivorship Essentials Chambers SK, Ferguson M, Gardiner RA, et al ."
+    },
+    {
+      "reference_id": "ref-002",
+      "finding": "Proscan for men: randomised controlled trial of a decision support intervention for men with Localised prostate cancer."
+    },
+    {
+      "reference_id": "ref-003",
+      "finding": "Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology - PubMed Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology Daniel E Spratt et al."
+    },
+    {
+      "reference_id": "ref-003",
+      "finding": "Show details Display options J Natl Compr Canc Netw ."
+    },
+    {
+      "reference_id": "ref-004",
+      "finding": "Evolving strategies in prostate cancer: Emerging approaches and unmet needs from the Bridging the Gaps in Prostate Cancer expert panel - PubMed treatment-related toxicity."
+    },
+    {
+      "reference_id": "ref-004",
+      "finding": "Ongoing research efforts are needed to optimize risk-based treatment, sequence of therapies throughout the disease continuum, and survivorship care."
+    },
+    {
+      "reference_id": "ref-005",
+      "finding": "Re: EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer - PubMed Affiliations 1 Department of Urology, Vivantes Klinikum am Urban, Berlin, Germany; Knowuro GmbH, Berlin, Germany."
+    },
+    {
+      "reference_id": "ref-005",
+      "finding": "Electronic address: ines@knowuro.com."
+    },
+    {
+      "reference_id": "ref-006",
+      "finding": "The contemporary management of prostate cancer The contemporary management of prostate cancer CA Cancer J Clin ."
+    },
+    {
+      "reference_id": "ref-006",
+      "finding": "2025 Nov-Dec;75(6):552-586. doi: 10.3322/caac.70020."
+    },
+    {
+      "reference_id": "ref-007",
+      "finding": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al."
+    },
+    {
+      "reference_id": "ref-007",
+      "finding": "Show details Display options J Natl Compr Canc Netw ."
+    },
+    {
+      "reference_id": "ref-008",
+      "finding": "Prostate cancer is \"found\" through a multistep risk-based EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate ..."
+    },
+    {
+      "reference_id": "ref-008",
+      "finding": "Prostate cancer is \"found\" through a multistep risk-based Section: > EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on ... by P Cornford · 2024 · Cited by 1545 — This article is the summary of the guidelines for \"curable\" prostate cancer."
+    },
+    {
+      "reference_id": "ref-008",
+      "finding": "Prostate cancer is curable if it resides in the prostate; it is then classified into low-, intermediary-, and high-risk localised and locally advanced prostate Section: > EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on ... by P Cornford · 2024 · Cited by 1189 — This paper aims to present a summary of the 2024 version of the EAU-EANM-ESTRO-ESUR-ISUP-SIOG guidelines on the screening, diagnosis, and treatment of EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on ... by P Cornford · 2024 · Cited by 1189 — Prostate cancer is “found” through a multistep risk-based screening process ."
+    },
+    {
+      "reference_id": "ref-009",
+      "finding": "Prostate cancer in a nutshell - Kirby - 2024 Prostate cancer in a nutshell - Kirby - 2024 by M Kirby · 2024 · Cited by 2 — EAU-EANM-ESTRO-ESUR-ISUP-SIOG guidelines on prostate cancer."
+    },
+    {
+      "reference_id": "ref-009",
+      "finding": "Limited update March 2023 (https://uroweb.org/guidelines/prostate-cancer"
+    },
+    {
+      "reference_id": "ref-010",
+      "finding": "Prostate Cancer, Version 4.2023, NCCN Clinical Practice Guidelines in Oncology Prostate Cancer, Version 4.2023, NCCN Clinical Practice Guidelines in Oncology J Natl Compr Canc Netw ."
+    }
+  ],
+  "conflicting_evidence": [],
+  "methodological_patterns": {
+    "clinical trial": 1,
+    "randomized controlled trial": 2,
+    "primary/other": 14,
+    "review": 1,
+    "systematic review": 1
+  },
+  "research_gaps": [
+    "No explicit contradictory or null evidence was identified; run a targeted negative-results search before asserting consensus."
+  ]
+}

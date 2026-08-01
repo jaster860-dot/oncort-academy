@@ -1,0 +1,402 @@
+{
+  "id": "prostate_definitive_radiotherapy",
+  "blockId": "definitive_radiotherapy",
+  "title": "Prostate — construire une radiothérapie définitive",
+  "version": "0.1.0",
+  "status": "needs_review",
+  "lastUpdated": "2026-08-01",
+  "estimatedMinutes": 126,
+  "learningPromise": "À la fin de ce bloc, l'apprenant peut transformer le groupe de risque et le contexte du patient en une proposition raisonnée de radiothérapie définitive : technique, fractionnement, volumes, éventuel boost et traitement hormonal, en rendant explicites les divergences France–Europe et les paramètres à valider localement.",
+  "evidenceScope": {
+    "provenanceNote": "Synthèse éducative France-first à partir du texte intégral privé RecoRad 2025, triangulée avec CCAFU 2024–2026, EAU 2026 et ESTRO-ACROP. Toutes les prescriptions restent needs_review ; le PDF privé ne doit pas être redistribué ni servi par l'application.",
+    "anchors": [
+      {
+        "sourceId": "sfro_recorad_prostate_2025",
+        "locator": "PDF privé vérifié, pages 2–5 : indications par risque, tableau 1, volumes, fractionnements, irradiation pelvienne et boost"
+      },
+      {
+        "sourceId": "ccafu_localised_2024_2026",
+        "locator": "Radiothérapie externe, dose, hypofractionnement, irradiation ganglionnaire et indications des risques intermédiaire et élevé"
+      },
+      {
+        "sourceId": "eau_prostate_2026",
+        "locator": "Treatment, sections 6.2.3, 6.3.2 et 6.3.4 : radiothérapie par groupe de risque, boost, curiethérapie, pelvis et ADT"
+      },
+      {
+        "sourceId": "estro_acrop_adt_ebrt_2023",
+        "locator": "Résumé et métadonnées vérifiés ; recommandations ESTRO-ACROP sur l'association ADT–radiothérapie externe, détails à confirmer sur texte intégral"
+      }
+    ],
+    "divergences": [
+      {
+        "topic": "Hypofractionnement modéré au haut risque",
+        "france": "RecoRad 2025 liste des schémas modérément hypofractionnés pour le haut risque ; le CCAFU 2024–2026 conserve le normofractionnement comme standard et réserve l'hypofractionnement modéré à des patients sélectionnés.",
+        "europe": "EAU 2026 accepte un équivalent modérément hypofractionné avec IMRT/VMAT, IGRT et ADT longue.",
+        "teachingRule": "Ne pas présenter un schéma unique comme universel ; citer le référentiel, le protocole du centre et la population d'essai."
+      },
+      {
+        "topic": "Irradiation ganglionnaire pelvienne prophylactique cN0",
+        "france": "RecoRad 2025 la recommande pour le haut risque, notamment si le risque ganglionnaire estimé dépasse 20 %, tandis que le CCAFU indique que la question reste non résolue.",
+        "europe": "EAU 2026 juge les données insuffisantes pour définir un changement de pratique systématique en cN0.",
+        "teachingRule": "Tracer le risque ganglionnaire, les preuves, les toxicités et la règle locale ; ne jamais transformer une discussion en automatisme."
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "definitive_rt_01_indications",
+      "nodeId": "definitive_ebrt_indications",
+      "number": 1,
+      "title": "Partir du risque pour définir l'intention",
+      "durationMinutes": 17,
+      "objectives": [
+        "Relier chaque groupe de risque aux grandes stratégies de radiothérapie définitive.",
+        "Distinguer radiothérapie exclusive, radio-hormonothérapie et stratégie intensifiée.",
+        "Vérifier l'horizon de bénéfice et la décision partagée avant la prescription."
+      ],
+      "sections": [
+        {
+          "title": "Faible risque et intermédiaire favorable",
+          "body": "La surveillance active demeure la stratégie de référence pour un faible risque éligible. Si un traitement curatif est choisi, la radiothérapie externe peut être proposée ; dans le faible risque et l'intermédiaire favorable, elle est généralement réalisée sans hormonothérapie, après vérification de la fonction urinaire, de l'anatomie et des préférences."
+        },
+        {
+          "title": "Intermédiaire défavorable",
+          "body": "Le risque intermédiaire défavorable associe en règle une radiothérapie externe et une suppression androgénique courte de quatre à six mois. Le choix entre fractionnement conventionnel ou modérément hypofractionné, l'éventuel pelvis et un boost doivent être explicités séparément : ils ne découlent pas tous automatiquement de l'étiquette intermédiaire."
+        },
+        {
+          "title": "Haut risque et localement avancé",
+          "body": "La référence est une radio-hormonothérapie avec irradiation prostatique à dose élevée et suppression androgénique longue. Les vésicules séminales, le pelvis, un boost focal ou curiethérapique et une intensification systémique relèvent d'une construction multidisciplinaire ; le détail de l'intensification très haut risque et cN1 appartient au bloc 10."
+        }
+      ],
+      "causalChain": ["Groupe de risque", "Intention curative", "Modalité locale et systémique", "Prescription à documenter"],
+      "commonTrap": "Attribuer une dose et une durée d'hormonothérapie sur le seul PSA sans intégrer cT, ISUP, charge tumorale, état ganglionnaire, espérance de vie et comorbidités.",
+      "checkpoint": {
+        "prompt": "Quelle proposition résume correctement le passage du risque à la radiothérapie définitive ?",
+        "options": [
+          "Le même traitement est utilisé pour tous les groupes de risque",
+          "Le risque détermine l'intention, puis fractionnement, volumes, boost et hormonothérapie sont construits et tracés séparément",
+          "Le PSA seul fixe la totalité de la prescription",
+          "Une imagerie négative supprime le besoin de discuter une maladie microscopique"
+        ],
+        "answerIndex": 1,
+        "explanation": "Une prescription robuste décompose la stratégie en plusieurs décisions reliées au risque et au patient, plutôt que d'appliquer un forfait unique."
+      },
+      "flashcards": [
+        {"front": "Faible risque traité", "back": "Radiothérapie curative possible si un traitement est choisi, généralement sans ADT ; la surveillance active reste la référence chez l'éligible."},
+        {"front": "Intermédiaire défavorable", "back": "Radiothérapie associée en règle à une ADT courte de quatre à six mois."},
+        {"front": "Haut risque", "back": "Radio-hormonothérapie longue, avec volumes et intensifications discutés selon extension, preuves et contexte."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "ccafu_localised_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "definitive_rt_02_moderate_hypofractionation",
+      "nodeId": "moderate_hypofractionation",
+      "number": 2,
+      "title": "Hypofractionnement modéré : un standard qui exige son contexte",
+      "durationMinutes": 17,
+      "objectives": [
+        "Expliquer le principe et les schémas de référence de l'hypofractionnement modéré.",
+        "Identifier technique, volumes et population avant de transposer un schéma.",
+        "Rendre explicite la divergence française pour le haut risque."
+      ],
+      "sections": [
+        {
+          "title": "Réduire le nombre de séances sans réduire l'exigence",
+          "body": "L'hypofractionnement modéré augmente la dose par fraction et raccourcit le traitement. RecoRad 2025 présente 60 à 62 Gy en 20 fractions sur quatre semaines comme un standard thérapeutique ; le schéma 60 Gy en 20 fractions est l'ancre française et européenne la plus facilement transférable."
+        },
+        {
+          "title": "La technique fait partie du schéma",
+          "body": "Un nombre de fractions ne suffit pas à prescrire. La population étudiée, les volumes, l'IMRT ou VMAT, l'IGRT prostatique quotidienne, les contraintes des organes à risque et l'éventuelle ADT doivent correspondre au protocole retenu. L'irradiation pelvienne simultanée ne peut pas être déduite d'un schéma prostate seule."
+        },
+        {
+          "title": "Haut risque : nommer la divergence",
+          "body": "RecoRad 2025 propose 60 à 62 Gy en 20 fractions ou 68 Gy en 25 fractions parmi les schémas du haut risque. Le CCAFU 2024–2026 conserve le normofractionnement comme standard et l'hypofractionnement modéré comme option chez des patients sélectionnés, alors que l'EAU accepte un équivalent modérément hypofractionné. La RCP doit donc citer la recommandation et le protocole local."
+        }
+      ],
+      "causalChain": ["Schéma validé", "Population et volumes concordants", "IMRT–IGRT et contraintes", "Transposition sûre"],
+      "commonTrap": "Copier 60 Gy en 20 fractions sans vérifier si l'essai, les volumes, l'ADT, l'IGRT et les contraintes correspondent au patient traité.",
+      "checkpoint": {
+        "prompt": "Avant d'adopter un schéma de 60 Gy en 20 fractions, que faut-il vérifier ?",
+        "options": [
+          "Uniquement le nombre de places de parking",
+          "Population, volumes, technique, IGRT, contraintes et traitements associés du protocole",
+          "Que toutes les maladies à haut risque utilisent exactement le même schéma",
+          "Que l'irradiation pelvienne est toujours incluse"
+        ],
+        "answerIndex": 1,
+        "explanation": "Le fractionnement n'est qu'un composant de la prescription ; sa sécurité dépend du contexte technique et clinique complet."
+      },
+      "flashcards": [
+        {"front": "Schéma modéré d'ancrage", "back": "60 Gy en 20 fractions sur quatre semaines, sous IMRT/VMAT et IGRT appropriées."},
+        {"front": "RecoRad 2025 haut risque", "back": "Liste 60–62 Gy en 20 fractions ou 68 Gy en 25 fractions parmi les options, avec ADT longue."},
+        {"front": "Divergence CCAFU", "back": "Au haut risque, normofractionnement standard ; hypofractionnement modéré réservé à des patients sélectionnés."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "ccafu_localised_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "definitive_rt_03_sbrt",
+      "nodeId": "ultrahypofractionation_sbrt",
+      "number": 3,
+      "title": "Ultra-hypofractionnement : sélectionner avant d'accélérer",
+      "durationMinutes": 18,
+      "objectives": [
+        "Définir la place actuelle de la radiothérapie stéréotaxique prostatique.",
+        "Reconnaître les limites du transfert aux hauts risques et au pelvis.",
+        "Intégrer fonction urinaire et rigueur technique à la sélection."
+      ],
+      "sections": [
+        {
+          "title": "Population et schémas documentés",
+          "body": "RecoRad 2025 décrit 35 à 40 Gy en cinq fractions, prostate seule et en conditions stéréotaxiques, comme un standard récent dans les risques favorables et intermédiaires. Le schéma le plus documenté est 36,25 Gy en cinq fractions sur environ deux semaines ; l'EAU cite aussi 42,7 Gy en sept fractions pour certains intermédiaires favorables."
+        },
+        {
+          "title": "Sélection fonctionnelle et toxicité",
+          "body": "Une bonne fonction urinaire, l'absence d'obstacle majeur et la capacité à respecter préparation et guidage sont essentielles. Dans PACE, la toxicité génito-urinaire de grade 2 cumulée était plus élevée avec la stéréotaxie, sans différence digestive significative rapportée dans la synthèse RecoRad ; le gain de temps ne doit donc pas masquer l'information fonctionnelle."
+        },
+        {
+          "title": "Ne pas extrapoler au haut risque",
+          "body": "La radiothérapie stéréotaxique du haut risque reste en évaluation dans les référentiels français cités. Un schéma prostate seule ne valide ni une irradiation pelvienne ultra-hypofractionnée ni l'omission de l'ADT. Toute proposition hors population validée doit être identifiée comme protocolaire ou discutée en centre expert."
+        }
+      ],
+      "causalChain": ["Risque favorable ou intermédiaire", "Fonction urinaire compatible", "Technique stéréotaxique et IGRT", "Cinq ou sept fractions validées"],
+      "commonTrap": "Choisir cinq fractions pour la seule commodité, puis extrapoler au pelvis ou au haut risque sans preuve ni protocole.",
+      "checkpoint": {
+        "prompt": "Quel patient correspond le mieux au périmètre le plus établi d'une SBRT prostatique définitive ?",
+        "options": [
+          "Haut risque cN1 avec irradiation pelvienne obligatoire en cinq fractions",
+          "Risque favorable ou intermédiaire sélectionné, bonne fonction urinaire, prostate seule et technique stéréotaxique rigoureuse",
+          "Toute récidive après irradiation sans biopsie",
+          "Patient dont le groupe de risque n'est pas connu"
+        ],
+        "answerIndex": 1,
+        "explanation": "Les données les plus établies concernent une prostate seule chez des risques favorables ou intermédiaires correctement sélectionnés."
+      },
+      "flashcards": [
+        {"front": "SBRT prostatique RecoRad", "back": "35–40 Gy en cinq fractions, prostate seule, sous conditions stéréotaxiques, pour risques favorables et intermédiaires sélectionnés."},
+        {"front": "PACE-B", "back": "Schéma de référence 36,25 Gy en cinq fractions sur environ deux semaines dans une population surtout favorable/intermédiaire."},
+        {"front": "SBRT haut risque", "back": "Reste en évaluation ; ne justifie ni pelvis en cinq fractions ni omission automatique de l'ADT."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "ccafu_localised_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "definitive_rt_04_brachytherapy",
+      "nodeId": "prostate_brachytherapy",
+      "number": 4,
+      "title": "Curiethérapie exclusive ou boost : deux intentions distinctes",
+      "durationMinutes": 17,
+      "objectives": [
+        "Distinguer curiethérapie exclusive et boost curiethérapique.",
+        "Relier chaque usage au risque et à la fonction urinaire.",
+        "Présenter le compromis contrôle biochimique–toxicité sans surpromesse."
+      ],
+      "sections": [
+        {
+          "title": "Monothérapie chez des profils favorables",
+          "body": "La curiethérapie LDR à l'iode 125 peut constituer un traitement exclusif chez certains faibles risques et intermédiaires favorables. La sélection associe groupe de risque, fonction urinaire, volume et anatomie prostatiques, antécédent de résection, faisabilité pubienne et expertise du centre."
+        },
+        {
+          "title": "Boost dans les risques plus élevés",
+          "body": "Un boost LDR ou HDR après radiothérapie externe peut être discuté dans l'intermédiaire défavorable ou le haut risque, avec l'ADT adaptée au risque. Il intensifie localement la dose mais transforme aussi la trajectoire technique et fonctionnelle ; il ne doit pas être assimilé à une simple variante de fractionnement externe."
+        },
+        {
+          "title": "Bénéfice et coût fonctionnel",
+          "body": "Les essais de référence soutiennent un meilleur contrôle biochimique avec un boost curiethérapique, sans bénéfice de survie globale démontré, au prix d'une toxicité génito-urinaire accrue. L'information doit donc séparer bénéfice de contrôle, incertitude de survie, symptômes urinaires et expérience de l'équipe."
+        }
+      ],
+      "causalChain": ["Risque tumoral", "Fonction urinaire et anatomie", "Monothérapie ou boost", "Contrôle et toxicité"],
+      "commonTrap": "Proposer un boost curiethérapique sur le seul haut risque sans évaluer symptômes urinaires, anatomie, bénéfice attendu et expertise du centre.",
+      "checkpoint": {
+        "prompt": "Quelle distinction est indispensable avant de proposer une curiethérapie prostatique ?",
+        "options": [
+          "Aucune : toutes les curiethérapies ont la même intention",
+          "Monothérapie des profils sélectionnés versus boost associé à l'externe dans des risques plus élevés, avec sélection urinaire",
+          "LDR signifie toujours traitement palliatif",
+          "La fonction urinaire n'a aucun rôle"
+        ],
+        "answerIndex": 1,
+        "explanation": "Monothérapie et boost concernent des populations, des parcours et des toxicités différents."
+      },
+      "flashcards": [
+        {"front": "Curiethérapie exclusive", "back": "Option chez certains faibles risques ou intermédiaires favorables, après sélection urinaire et anatomique."},
+        {"front": "Boost curiethérapique", "back": "Intensification LDR ou HDR associée à l'externe chez certains intermédiaires défavorables ou hauts risques."},
+        {"front": "Compromis du boost", "back": "Meilleur contrôle biochimique possible, toxicité génito-urinaire accrue, sans gain de survie globale démontré."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "ccafu_localised_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "definitive_rt_05_pelvis",
+      "nodeId": "pelvic_nodal_irradiation",
+      "number": 5,
+      "title": "Volumes : prostate, vésicules et pelvis ne sont pas un paquet",
+      "durationMinutes": 19,
+      "objectives": [
+        "Adapter les grands volumes cibles au risque et à l'extension locale.",
+        "Identifier l'incertitude de l'irradiation pelvienne prophylactique cN0.",
+        "Tracer une divergence de recommandations sans la masquer."
+      ],
+      "sections": [
+        {
+          "title": "Prostate et vésicules selon le risque",
+          "body": "RecoRad 2025 retient la prostate seule pour le faible risque et l'intermédiaire favorable. Pour l'intermédiaire défavorable et le haut risque, la base des vésicules séminales est incluse selon le risque d'atteinte ; une extension T3b impose de traiter les vésicules dans leur totalité. Les contours détaillés et marges appartiennent au bloc 7."
+        },
+        {
+          "title": "Pelvis cN0 : une décision distincte",
+          "body": "Dans l'intermédiaire défavorable, RecoRad qualifie le pelvis d'option sans bénéfice clairement démontré. Pour le haut risque, RecoRad le recommande notamment lorsque le risque ganglionnaire estimé par la formule de Roach dépasse 20 %, mais le CCAFU considère la question non résolue et l'EAU juge les données insuffisantes pour une systématisation."
+        },
+        {
+          "title": "Documenter plutôt que lisser",
+          "body": "La RCP doit consigner le statut cN0 ou cN1, la méthode de stadification, le risque ganglionnaire estimé, le bénéfice attendu, les toxicités et la règle du centre. Une imagerie PSMA négative n'exclut pas une maladie microscopique, mais ne transforme pas non plus l'irradiation pelvienne en obligation universelle."
+        }
+      ],
+      "causalChain": ["Extension locale", "Risque ganglionnaire", "Preuves et toxicités", "Volumes tracés"],
+      "commonTrap": "Inclure ou exclure automatiquement le pelvis sur la seule négativité du PSMA-PET, sans estimation du risque ni discussion des recommandations divergentes.",
+      "checkpoint": {
+        "prompt": "Chez un patient cN0 à haut risque, comment aborder l'irradiation pelvienne ?",
+        "options": [
+          "Elle est toujours obligatoire car le PSMA-PET est négatif",
+          "Estimer le risque ganglionnaire, exposer les preuves et divergences, puis appliquer une décision RCP et un protocole local tracés",
+          "Elle est toujours interdite",
+          "Décider uniquement selon l'âge civil"
+        ],
+        "answerIndex": 1,
+        "explanation": "La donnée française et européenne n'est pas parfaitement concordante ; une décision robuste rend cette incertitude explicite."
+      },
+      "flashcards": [
+        {"front": "Volume faible risque", "back": "Prostate seule dans la synthèse RecoRad 2025."},
+        {"front": "T3b", "back": "Inclure les vésicules séminales dans leur totalité."},
+        {"front": "Pelvis cN0 haut risque", "back": "Sujet divergent : RecoRad favorable notamment si risque ganglionnaire >20 %, CCAFU et EAU plus prudents sur la systématisation."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "ccafu_localised_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "definitive_rt_06_boost",
+      "nodeId": "dose_escalation_and_focal_boost",
+      "number": 6,
+      "title": "Escalade et boost focal : intensifier sans sacrifier les organes à risque",
+      "durationMinutes": 18,
+      "objectives": [
+        "Distinguer escalade homogène, boost focal externe et boost curiethérapique.",
+        "Relier le boost focal à une lésion dominante définie par IRM.",
+        "Hiérarchiser contrôle biochimique, toxicité et critères de survie."
+      ],
+      "sections": [
+        {
+          "title": "Escalade de dose conventionnelle",
+          "body": "RecoRad 2025 situe le fractionnement standard entre 74 et 80 Gy par fractions de 2 Gy et recommande au moins 78 Gy pour les risques intermédiaire et élevé dans les contextes décrits. L'escalade améliore surtout le contrôle biochimique ; elle ne remplace pas une ADT indiquée."
+        },
+        {
+          "title": "Boost focal guidé par l'IRM",
+          "body": "Une lésion intraprostatique dominante définie par IRM peut recevoir un boost focal sous IMRT et IGRT, à condition de respecter les contraintes des organes à risque. Les données de référence montrent une amélioration du contrôle biochimique, sans démonstration d'un bénéfice en survie sans métastase ou en survie globale dans la synthèse RecoRad."
+        },
+        {
+          "title": "Trois formes d'intensification à ne pas confondre",
+          "body": "Augmenter la dose à toute la prostate, réaliser un boost focal externe ou associer un boost curiethérapique n'ont ni la même preuve, ni la même distribution de dose, ni la même toxicité. La prescription doit nommer la cible, le schéma, le bénéfice visé et la priorité donnée aux contraintes des organes à risque."
+        }
+      ],
+      "causalChain": ["Risque de contrôle local", "Lésion dominante vérifiée", "Technique de boost", "Contraintes et bénéfice attendu"],
+      "commonTrap": "Présenter un meilleur contrôle biochimique comme une preuve automatique de survie globale ou ignorer les contraintes des organes à risque.",
+      "checkpoint": {
+        "prompt": "Quelle formulation est correcte à propos d'un boost focal prostatique ?",
+        "options": [
+          "Il est obligatoire dès qu'une IRM existe",
+          "Il cible une lésion dominante définie par IRM, vise surtout le contrôle biochimique et reste conditionné au respect des organes à risque",
+          "Il remplace toute ADT au haut risque",
+          "Il a démontré un bénéfice universel de survie globale"
+        ],
+        "answerIndex": 1,
+        "explanation": "Le boost focal est une intensification sélectionnée ; ses preuves et ses contraintes doivent être décrites sans extrapolation."
+      },
+      "flashcards": [
+        {"front": "Dose standard RecoRad", "back": "74–80 Gy par fractions de 2 Gy ; au moins 78 Gy dans les contextes intermédiaire et haut risque décrits."},
+        {"front": "Cible du boost focal", "back": "Lésion intraprostatique dominante définie sur IRM, avec respect prioritaire des contraintes des organes à risque."},
+        {"front": "Niveau de bénéfice", "back": "Amélioration du contrôle biochimique ; pas de bénéfice de survie sans métastase ou globale démontré dans la synthèse citée."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "ccafu_localised_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "definitive_rt_07_adt",
+      "nodeId": "adt_duration_with_rt",
+      "number": 7,
+      "title": "ADT avec radiothérapie : indication, durée et prévention forment un tout",
+      "durationMinutes": 20,
+      "objectives": [
+        "Relier l'indication et la durée de l'ADT au groupe de risque.",
+        "Distinguer absence d'ADT, durée courte et durée longue.",
+        "Intégrer comorbidités, toxicités et surveillance à la prescription."
+      ],
+      "sections": [
+        {
+          "title": "Quand ne pas ajouter d'ADT",
+          "body": "Dans le faible risque et l'intermédiaire favorable correctement classé, la radiothérapie définitive est généralement réalisée sans ADT. Omettre l'ADT ne doit toutefois pas servir à reclasser artificiellement un intermédiaire défavorable ou un haut risque."
+        },
+        {
+          "title": "Durée courte ou longue",
+          "body": "L'intermédiaire défavorable relève en règle d'une ADT courte de quatre à six mois. Pour le haut risque, RecoRad propose 18 à 36 mois, tandis que le CCAFU et l'EAU cadrent une durée longue de deux à trois ans ; le CCAFU rappelle que 36 mois n'ont pas démontré de supériorité sur 18 mois et que les comorbidités peuvent modifier la balance."
+        },
+        {
+          "title": "Une prescription systémique complète",
+          "body": "La stratégie doit préciser classe et calendrier, date de début, durée cible, prévention osseuse et métabolique, risque cardiovasculaire, santé sexuelle et modalités de surveillance. L'intensification par abiratérone dans certains très hauts risques ou cN1 doit être traitée dans le bloc 10 plutôt que déduite automatiquement de ce module."
+        }
+      ],
+      "causalChain": ["Groupe de risque", "Bénéfice attendu de l'ADT", "Durée et calendrier", "Prévention et surveillance"],
+      "commonTrap": "Écrire seulement « ADT associée » sans préciser durée, calendrier, comorbidités, prévention ni responsabilités de suivi.",
+      "checkpoint": {
+        "prompt": "Quelle prescription hormonale est suffisamment structurée avec une radiothérapie définitive ?",
+        "options": [
+          "ADT sans durée ni surveillance",
+          "Indication par risque, durée cible, calendrier, balance des comorbidités et plan de prévention–surveillance",
+          "Six mois pour tous les groupes de risque",
+          "Aucune ADT dès que la dose prostatique est élevée"
+        ],
+        "answerIndex": 1,
+        "explanation": "L'ADT est un traitement oncologique à part entière ; sa durée et sa gestion des toxicités doivent être aussi explicites que la dose de radiothérapie."
+      },
+      "flashcards": [
+        {"front": "Intermédiaire favorable", "back": "Radiothérapie généralement sans ADT si la classification favorable est robuste."},
+        {"front": "Intermédiaire défavorable", "back": "ADT courte de quatre à six mois associée à la radiothérapie dans les référentiels cités."},
+        {"front": "Haut risque", "back": "ADT longue : RecoRad 18–36 mois ; CCAFU/EAU deux à trois ans, adaptée aux comorbidités et au contexte."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "ccafu_localised_2024_2026", "eau_prostate_2026", "estro_acrop_adt_ebrt_2023"]
+    }
+  ],
+  "caseStudy": {
+    "id": "prostate_case_005_high_risk_rt_prescription",
+    "title": "Haut risque cN0 : prescrire sans masquer les divergences",
+    "status": "needs_review",
+    "dataClassification": "synthetic",
+    "vignette": "Homme de 69 ans, autonome, espérance de vie supérieure à dix ans. PSA 26 ng/mL, cT3a au toucher rectal, ISUP 4, IRM montrant une extension extracapsulaire et une lésion dominante sans atteinte certaine des vésicules. PSMA-PET sans ganglion ni métastase visible. IPSS 4, débit conservé, pas d'antécédent digestif inflammatoire ; cardiopathie ischémique stable et diabète équilibré. Il choisit une radiothérapie après décision partagée.",
+    "decisionPoints": [
+      "Confirmer le haut risque cN0 M0 et rappeler que le PSMA-PET négatif n'exclut pas la maladie microscopique.",
+      "Définir prostate et vésicules comme volumes de principe, sans détailler contours ni marges avant le bloc 7.",
+      "Choisir un fractionnement validé en citant la divergence française pour l'hypofractionnement modéré au haut risque.",
+      "Discuter séparément irradiation pelvienne et éventuel boost focal, avec preuves, toxicités et protocole local.",
+      "Associer une ADT longue avec durée cible, prévention métabolique, osseuse et cardiovasculaire et responsabilités de suivi."
+    ],
+    "expectedReasoning": [
+      "Une option robuste est une IMRT/VMAT guidée par l'image, avec dose conventionnelle élevée ou schéma modérément hypofractionné validé localement ; une SBRT prostate seule en cinq fractions n'est pas un standard établi pour ce haut risque.",
+      "RecoRad permet l'hypofractionnement modéré au haut risque, alors que le CCAFU le réserve à des patients sélectionnés ; cette divergence doit apparaître dans la synthèse.",
+      "Le pelvis cN0 n'est pas automatique : RecoRad est plus favorable, le CCAFU et l'EAU soulignent l'incertitude ; le risque ganglionnaire et le protocole du centre doivent être tracés.",
+      "Un boost focal sur la lésion IRM peut être discuté si les contraintes des organes à risque restent respectées, avec un bénéfice présenté principalement sur le contrôle biochimique.",
+      "L'ADT longue est indispensable à la stratégie ; la cardiopathie et le diabète exigent une évaluation et une prévention coordonnées, pas une omission réflexe."
+    ],
+    "criticalErrors": [
+      "Omettre l'ADT parce que la dose prostatique est élevée.",
+      "Prescrire cinq fractions comme standard établi du haut risque avec pelvis.",
+      "Déduire de la négativité du PSMA-PET l'absence de risque ganglionnaire microscopique.",
+      "Présenter l'irradiation pelvienne cN0 comme universellement obligatoire ou interdite.",
+      "Promettre un bénéfice de survie globale du boost focal."
+    ],
+    "checkpoint": {
+      "prompt": "Quelle synthèse de RCP est la plus solide ?",
+      "options": [
+        "SBRT prostate et pelvis en cinq fractions, sans ADT car le PSMA-PET est négatif",
+        "Radio-hormonothérapie longue sous IMRT/IGRT ; fractionnement validé et volumes prostatique–vésiculaire, pelvis et boost discutés séparément avec divergences et protocole local tracés",
+        "ADT seule car les comorbidités interdisent toute radiothérapie",
+        "Boost focal obligatoire avec bénéfice certain de survie globale"
+      ],
+      "answerIndex": 1,
+      "explanation": "La bonne réponse construit chaque composant de la stratégie et rend visibles les incertitudes, sans omettre l'ADT ni extrapoler la SBRT au haut risque."
+    },
+    "sources": ["sfro_recorad_prostate_2025", "ccafu_localised_2024_2026", "eau_prostate_2026", "estro_acrop_adt_ebrt_2023"]
+  }
+}

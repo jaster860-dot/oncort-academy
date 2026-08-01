@@ -1,0 +1,218 @@
+{
+  "version": "0.3.0",
+  "lastUpdated": "2026-08-01",
+  "status": "needs_review",
+  "purpose": "Première couche pédagogique jouable couvrant les quinze blocs du cursus prostate complet.",
+  "overviews": [
+    {
+      "blockId": "foundations",
+      "title": "Fondations : comprendre l'organe et la maladie",
+      "summary": "Avant de choisir un examen ou un traitement, il faut comprendre où se trouve la prostate, comment elle fonctionne, pourquoi le PSA varie, comment le cancer apparaît et comment le grade traduit son architecture.",
+      "outcomes": ["Situer l'organe et ses zones", "Relier axe androgénique et traitements", "Distinguer PSA, stade, grade et risque"],
+      "pillars": [
+        {"title": "Structure", "body": "L'anatomie zonale explique une partie des symptômes, des performances de l'imagerie, des voies de biopsie et des contraintes thérapeutiques."},
+        {"title": "Biologie", "body": "L'axe androgénique soutient la physiologie prostatique et reste un moteur majeur de la maladie, sans résumer toute son hétérogénéité."},
+        {"title": "Mesure", "body": "Le PSA renseigne sur l'activité prostatique ; Gleason/ISUP décrit l'architecture tumorale. Aucun de ces paramètres ne remplace les autres."}
+      ],
+      "commonTrap": "Mémoriser des seuils avant de comprendre ce qu'ils mesurent.",
+      "checkpoint": {"prompt": "Quel principe doit précéder la stratification ?", "options": ["Un PSA suffit", "Il faut intégrer anatomie, biologie, grade et contexte", "L'IRM donne toujours le diagnostic", "Le stade remplace l'ISUP"], "answerIndex": 1, "explanation": "La décision repose sur des dimensions complémentaires ; aucune donnée isolée ne suffit."},
+      "sourceIds": ["fine_reuter_prostate_anatomy_2012", "isup_grading_consensus_2019", "eau_prostate_2026"]
+    },
+    {
+      "blockId": "detection_diagnosis",
+      "title": "Détection et preuve diagnostique",
+      "summary": "Le parcours va d'un risque individuel à une suspicion, puis à une preuve histologique. Chaque étape doit réduire une incertitude précise plutôt que déclencher automatiquement la suivante.",
+      "outcomes": ["Interpréter un PSA dans son contexte", "Comprendre le rôle de l'IRM et de PI-RADS", "Lire une stratégie de biopsie et un compte rendu anatomopathologique"],
+      "pillars": [
+        {"title": "PSA raisonné", "body": "Le PSA est spécifique de l'organe mais non du cancer. Infection, volume prostatique, manipulation et variabilité biologique peuvent modifier sa valeur."},
+        {"title": "IRM avant preuve", "body": "L'IRM multiparamétrique localise des zones suspectes et affine la stratégie de prélèvement ; PI-RADS exprime une probabilité, pas un diagnostic histologique."},
+        {"title": "Biopsies et compte rendu", "body": "La voie, les prélèvements ciblés et systématisés/régionaux, la longueur tumorale, le grade et les architectures défavorables déterminent la qualité du dossier."}
+      ],
+      "commonTrap": "Confondre PI-RADS 5 avec un cancer prouvé ou IRM négative avec absence de cancer significatif.",
+      "checkpoint": {"prompt": "Que prouve une lésion PI-RADS 5 ?", "options": ["Un cancer métastatique", "Un adénocarcinome ISUP 5", "Une forte suspicion nécessitant une interprétation clinique et souvent histologique", "L'indication automatique d'une prostatectomie"], "answerIndex": 2, "explanation": "PI-RADS standardise le niveau de suspicion à l'IRM ; le diagnostic et le grade reposent sur l'histologie."},
+      "sourceIds": ["ccafu_localised_2024_2026", "eau_prostate_2026", "isup_grading_consensus_2019"]
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "title": "Stade, risque, imagerie moléculaire et biomarqueurs",
+      "summary": "Après la preuve, il faut séparer extension anatomique, agressivité histologique, risque pronostique et information moléculaire afin d'ordonner les examens utiles.",
+      "outcomes": ["Construire TNM et groupe de risque", "Indiquer et critiquer le PSMA-PET", "Choisir le bon moment pour les analyses germinales ou somatiques"],
+      "pillars": [
+        {"title": "Risque prétest", "body": "PSA, cT, ISUP, volume tumoral et contexte du patient construisent la probabilité d'extension avant toute imagerie avancée."},
+        {"title": "Migration de stade", "body": "Le PSMA-PET détecte mieux certaines localisations que l'imagerie conventionnelle, mais une négativité n'exclut pas la maladie microscopique."},
+        {"title": "Biomarqueurs actionnables", "body": "Les tests germinaux et somatiques répondent à des questions distinctes : prédisposition familiale, pronostic ou accès à une thérapie ciblée selon l'état de maladie."}
+      ],
+      "commonTrap": "Laisser un examen plus sensible effacer le risque clinique initial.",
+      "checkpoint": {"prompt": "Un PSMA-PET négatif chez un patient à haut risque signifie :", "options": ["Absence de maladie microscopique", "Absence de cible détectable au seuil de l'examen, sans annuler le risque", "Cancer de faible grade", "Inutilité de tout traitement systémique"], "answerIndex": 1, "explanation": "L'imagerie décrit ce qu'elle détecte ; elle ne reclassifie pas automatiquement la biologie ni le risque de micrométastases."},
+      "sourceIds": ["eau_prostate_2026", "eanm_snmmi_psma_pet_2023", "asco_genomic_testing_2025"]
+    },
+    {
+      "blockId": "deferred_management",
+      "title": "Surveillance active, abstention-surveillance et traitements focaux",
+      "summary": "Ne pas traiter immédiatement peut être une stratégie curative organisée ou une stratégie centrée sur les symptômes. Les mots doivent rester précis pour préserver l'objectif de soins.",
+      "outcomes": ["Distinguer surveillance active et abstention-surveillance", "Sélectionner selon risque et espérance de vie", "Présenter honnêtement les limites des traitements focaux"],
+      "pillars": [
+        {"title": "Surveillance active", "body": "Elle vise à différer ou éviter un traitement curatif tout en maintenant une fenêtre de guérison grâce à un protocole de surveillance et des critères de reclassification."},
+        {"title": "Abstention-surveillance", "body": "Elle privilégie la qualité de vie et un traitement symptomatique différé lorsque le bénéfice d'un traitement curatif est improbable au regard de l'espérance de vie ou des comorbidités."},
+        {"title": "Focalité", "body": "Traiter uniquement une cible visible peut réduire certaines toxicités, mais impose d'expliquer multifocalité, suivi intensif, reprises et maturité comparative des preuves."}
+      ],
+      "commonTrap": "Employer “surveillance” sans préciser intention, calendrier et seuils de changement.",
+      "checkpoint": {"prompt": "Quelle différence est fondamentale ?", "options": ["La surveillance active garde une intention curative différée", "L'abstention-surveillance exige plus de biopsies", "Les deux termes sont synonymes", "Un traitement focal supprime le suivi"], "answerIndex": 0, "explanation": "L'intention et le mécanisme de déclenchement d'un traitement distinguent les deux stratégies."},
+      "sourceIds": ["ccafu_localised_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "blockId": "localized_curative_options",
+      "title": "Options curatives de la maladie localisée",
+      "summary": "La chirurgie, la radiothérapie externe et la curiethérapie sont des parcours avec bénéfices, risques fonctionnels, contraintes et possibilités de rattrapage différents.",
+      "outcomes": ["Comparer les parcours complets", "Intégrer risque tumoral et contexte du patient", "Conduire une décision partagée non biaisée"],
+      "pillars": [
+        {"title": "Prostatectomie", "body": "Elle fournit une pièce anatomopathologique complète mais peut être suivie d'une surveillance, d'une radiothérapie de rattrapage et parfois d'un traitement hormonal."},
+        {"title": "Irradiation", "body": "Elle peut associer radiothérapie externe, curiethérapie et suppression androgénique selon le risque ; le traitement local n'est donc pas toujours isolé."},
+        {"title": "Fonctions et préférences", "body": "Urinaire, sexuelle, digestive, comorbidités, logistique et attitude face à l'incertitude doivent être discutées avec les résultats oncologiques."}
+      ],
+      "commonTrap": "Comparer uniquement prostatectomie et séance de radiothérapie en oubliant les traitements complémentaires possibles.",
+      "checkpoint": {"prompt": "La comparaison la plus honnête oppose :", "options": ["Deux gestes techniques isolés", "Des parcours oncologiques complets avec leurs rattrapages", "Uniquement les taux de PSA", "Uniquement les toxicités aiguës"], "answerIndex": 1, "explanation": "Une option locale peut ouvrir un parcours multimodal ; la décision partagée doit porter sur l'ensemble du parcours probable."},
+      "sourceIds": ["ccafu_localised_2024_2026", "eau_prostate_2026", "aua_astro_localized_rt_summary_2024"]
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "title": "Radiothérapie définitive : indications et modalités",
+      "summary": "Une prescription de radiothérapie n'est pas une dose seule : elle associe intention, sélection, volumes, fractionnement, technique, éventuelle hormonothérapie et stratégie de contrôle.",
+      "outcomes": ["Choisir une modalité cohérente avec le risque", "Distinguer hypofractionnement modéré et ultra-hypofractionnement", "Relier irradiation ganglionnaire, boost et ADT à une question clinique"],
+      "pillars": [
+        {"title": "Fractionnement", "body": "Les schémas validés reposent sur des populations, techniques, contraintes et niveaux de preuve précis ; ils ne sont pas interchangeables par simple équivalence biologique."},
+        {"title": "Volumes et intensification locale", "body": "Prostate seule, vésicules séminales, pelvis ganglionnaire et boost intraprostatique répondent à des risques différents et ne doivent pas être ajoutés mécaniquement."},
+        {"title": "Traitement hormonal associé", "body": "L'indication et la durée de suppression androgénique dépendent du groupe de risque, des bénéfices attendus, des comorbidités et parfois d'une intensification supplémentaire."}
+      ],
+      "commonTrap": "Copier un schéma de dose sans vérifier population, technique, contraintes et traitement systémique associé.",
+      "checkpoint": {"prompt": "Une prescription complète doit préciser :", "options": ["La dose totale seulement", "Intention, volumes, fractionnement, technique, IGRT et traitements associés", "Le PSA seulement", "Le nom de la machine"], "answerIndex": 1, "explanation": "La sécurité et l'interprétation oncologique exigent un ensemble cohérent de paramètres."},
+      "sourceIds": ["sfro_recorad_prostate_2025", "eau_prostate_2026", "estro_acrop_adt_ebrt_2023"]
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "title": "Simulation, volumes, dosimétrie et IGRT",
+      "summary": "La chaîne technique transforme une intention clinique en distribution de dose reproductible malgré les incertitudes anatomiques et les mouvements interfractionnels.",
+      "outcomes": ["Définir préparation et immobilisation", "Construire GTV/CTV/PTV et organes à risque", "Évaluer DVH, robustesse et stratégie IGRT"],
+      "pillars": [
+        {"title": "Simulation", "body": "Protocoles vésical et rectal, scanner, fusion IRM et repères fiduciaires éventuels doivent être cohérents avec la technique et reproductibles."},
+        {"title": "Volumes", "body": "Le CTV traduit le risque anatomoclinique ; le PTV traduit l'incertitude. Une marge n'est pas un substitut à l'IGRT ni à la qualité du contourage."},
+        {"title": "Évaluation du plan", "body": "Couverture, points chauds, organes à risque, compromis et image-guidage sont analysés ensemble ; un DVH correct ne prouve pas à lui seul un traitement correct."}
+      ],
+      "commonTrap": "Valider un DVH sans revoir anatomie, contours, préparation et images de repositionnement.",
+      "checkpoint": {"prompt": "Le PTV représente principalement :", "options": ["La tumeur visible", "Le risque microscopique", "Une enveloppe géométrique liée aux incertitudes autour du CTV", "Un organe à risque"], "answerIndex": 2, "explanation": "Le PTV gère des incertitudes définies ; il ne remplace ni la définition clinique du CTV ni l'IGRT."},
+      "sourceIds": ["estro_acrop_primary_contouring_2018", "sfro_recorad_prostate_2025"]
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "title": "Après prostatectomie et récidive biochimique",
+      "summary": "Le PSA postopératoire, sa persistance ou sa remontée, les facteurs anatomopathologiques et la cinétique déterminent l'urgence et l'intensité du rattrapage.",
+      "outcomes": ["Distinguer PSA persistant et récidive ultérieure", "Interpréter temps de doublement et imagerie", "Discuter radiothérapie précoce et éventuelle ADT"],
+      "pillars": [
+        {"title": "Chronologie du PSA", "body": "Après prostatectomie, un PSA détectable persistant et un PSA initialement indétectable puis ascendant ne portent pas exactement la même information."},
+        {"title": "Imagerie sans retard indu", "body": "Le PSMA-PET peut localiser une rechute, mais une imagerie négative à faible PSA n'exclut pas une maladie microscopique du lit prostatique."},
+        {"title": "Rattrapage individualisé", "body": "Précocité, champs, dose et traitement hormonal associé dépendent du risque, de la cinétique, de l'anatomopathologie et des preuves disponibles."}
+      ],
+      "commonTrap": "Attendre une image positive alors que la probabilité de maladie microscopique curable est déjà suffisante pour discuter le rattrapage.",
+      "checkpoint": {"prompt": "Un PSMA-PET négatif à faible PSA après prostatectomie :", "options": ["Exclut une rechute locale", "Interdit la radiothérapie", "Doit être intégré sans retarder automatiquement une stratégie de rattrapage indiquée", "Prouve une erreur de laboratoire"], "answerIndex": 2, "explanation": "La sensibilité dépend notamment du niveau de PSA ; la décision garde une base clinique et pronostique."},
+      "sourceIds": ["eau_prostate_2026", "estro_acrop_prostate_bed_2023", "eanm_snmmi_psma_pet_2023"]
+    },
+    {
+      "blockId": "postradiotherapy_and_oligorecurrence",
+      "title": "Récidive après irradiation et oligorecurrence",
+      "summary": "Un rattrapage local après irradiation exige de confirmer le site, d'exclure autant que possible une maladie diffuse et d'accepter un compromis de toxicité plus étroit.",
+      "outcomes": ["Confirmer une récidive locale pertinente", "Comparer chirurgie, ablation et réirradiation", "Expliquer l'incertitude des traitements dirigés contre les métastases"],
+      "pillars": [
+        {"title": "Confirmation", "body": "Cinétique du PSA, IRM, PSMA-PET et souvent histologie doivent converger avant une nouvelle procédure locale potentiellement toxique."},
+        {"title": "Sélection", "body": "Intervalle, localisation, charge métastatique, fonction urinaire, doses antérieures et espérance de vie conditionnent la balance bénéfice-risque."},
+        {"title": "Oligorecurrence", "body": "Traiter des lésions visibles peut retarder certaines progressions ou traitements, mais ne garantit pas l'éradication d'une maladie systémique invisible."}
+      ],
+      "commonTrap": "Confondre petit nombre de lésions détectées et maladie biologiquement limitée.",
+      "checkpoint": {"prompt": "Avant un rattrapage local après radiothérapie, la priorité est :", "options": ["Traiter la première anomalie au PET", "Documenter localisation, extension, fonction et faisabilité", "Commencer une ADT à vie chez tous", "Ignorer la dosimétrie antérieure"], "answerIndex": 1, "explanation": "Le bénéfice potentiel dépend d'une sélection multidimensionnelle et d'une connaissance précise des traitements antérieurs."},
+      "sourceIds": ["ccafu_recurrence_2024_2026", "eau_prostate_2026", "eanm_snmmi_psma_pet_2023", "sfro_recorad_prostate_2025", "peace_v_storm_2025", "stomp_2018", "radiosa_2025"]
+    },
+    {
+      "blockId": "high_risk_and_cn1",
+      "title": "Haut risque, localement avancé et cN1 M0",
+      "summary": "Ces maladies nécessitent souvent une stratégie multimodale : contrôle du primitif et du risque régional, suppression androgénique prolongée et, chez certains patients, intensification systémique.",
+      "outcomes": ["Construire une stratégie locale et systémique", "Distinguer haut risque, très haut risque et cN1", "Comparer recommandations et applicabilité française"],
+      "pillars": [
+        {"title": "Contrôle local", "body": "L'absence de métastase détectable ne transforme pas une maladie agressive en maladie systémique seule ; le traitement du primitif reste central dans les stratégies curatives."},
+        {"title": "Intensification", "body": "La durée de l'ADT et l'ajout éventuel d'un ARPI doivent être reliés au niveau de risque, au statut ganglionnaire, aux preuves et aux comorbidités."},
+        {"title": "RCP", "body": "Chirurgie dans un parcours multimodal, radiothérapie pelvi-prostatique et traitements systémiques se discutent avec l'urologue, l'oncologue médical et le patient."}
+      ],
+      "commonTrap": "Considérer un PSMA-PET négatif comme une raison de désintensifier automatiquement.",
+      "checkpoint": {"prompt": "Le principe directeur d'une maladie haut risque M0 est :", "options": ["Opposer traitement local et systémique", "Construire leur intégration selon le risque et le patient", "Attendre la métastase", "Utiliser le PSA seul"], "answerIndex": 1, "explanation": "La question clinique porte souvent sur l'intégration et l'intensification, non sur un choix binaire."},
+      "sourceIds": ["ccafu_localised_2024_2026", "eau_prostate_2026", "sfro_recorad_prostate_2025", "estro_acrop_adt_ebrt_2023", "stampede_abiraterone_m0_2022"]
+    },
+    {
+      "blockId": "systemic_therapy_foundations",
+      "title": "Fondations des traitements systémiques",
+      "summary": "L'ADT est une famille de stratégies de suppression de l'axe androgénique. ARPI, taxanes et autres traitements ajoutent des mécanismes et toxicités distincts.",
+      "outcomes": ["Distinguer agoniste, antagoniste et orchidectomie", "Comprendre les principales classes d'ARPI et taxanes", "Prévenir risques osseux, métaboliques et cardiovasculaires"],
+      "pillars": [
+        {"title": "Backbone hormonal", "body": "La castration médicale ou chirurgicale réduit la stimulation androgénique ; choix et surveillance tiennent compte du délai d'action, du flare éventuel, de l'adhésion et des comorbidités."},
+        {"title": "Intensification", "body": "Les ARPI et taxanes n'ont ni le même mécanisme, ni les mêmes interactions, ni le même profil de toxicité ; leur valeur dépend de l'état de maladie et des traitements antérieurs."},
+        {"title": "Préhabilitation", "body": "Évaluation cardiovasculaire et métabolique, activité physique, santé osseuse, sexualité et symptômes doivent commencer avec le traitement, pas après la toxicité."}
+      ],
+      "commonTrap": "Réduire l'ADT à une injection sans prescription de prévention ni surveillance.",
+      "checkpoint": {"prompt": "Une prescription d'ADT complète inclut :", "options": ["Le produit seulement", "Objectif, durée, prévention, surveillance et gestion des effets indésirables", "Une densitométrie pour tous sans contexte", "Aucun suivi du risque cardiovasculaire"], "answerIndex": 1, "explanation": "Le traitement systémique est un parcours comprenant efficacité, prévention et qualité de vie."},
+      "sourceIds": ["ccafu_advanced_2024_2026", "esmo_advanced_prostate_2026", "estro_acrop_adt_ebrt_2023"]
+    },
+    {
+      "blockId": "hormone_sensitive_and_nmcrpc",
+      "title": "Maladie hormonosensible métastatique et nmCRPC",
+      "summary": "L'état de maladie se définit par sensibilité à la castration, visibilité métastatique, volume, synchronie et vitesse d'évolution. Ces variables organisent l'intensification.",
+      "outcomes": ["Définir mHSPC et nmCRPC", "Choisir doublet ou triplet selon preuves et fitness", "Discuter l'irradiation du primitif dans les situations appropriées"],
+      "pillars": [
+        {"title": "mHSPC", "body": "Chez la plupart des patients aptes, l'ADT seule n'est plus la stratégie de référence ; l'intensification est choisie selon présentation, charge, symptômes, comorbidités et accès."},
+        {"title": "Primitif en M1", "body": "La radiothérapie prostatique a une place dans des sous-groupes définis, notamment selon la charge métastatique et le contexte de maladie de novo."},
+        {"title": "nmCRPC", "body": "La résistance biologique sans métastase conventionnelle visible impose de confirmer la castration et d'intégrer la cinétique du PSA avant l'intensification."}
+      ],
+      "commonTrap": "Employer “métastatique” sans préciser sensibilité hormonale, volume, synchronie et traitements antérieurs.",
+      "checkpoint": {"prompt": "Avant de choisir une intensification en mHSPC, il faut d'abord :", "options": ["Connaître uniquement l'âge", "Définir précisément l'état de maladie et la fitness", "Attendre la résistance", "Faire un test génomique à tous comme seule donnée"], "answerIndex": 1, "explanation": "Le même mot “métastatique” recouvre des situations pronostiques et thérapeutiques différentes."},
+      "sourceIds": ["ccafu_advanced_2024_2026", "esmo_advanced_prostate_2026", "eau_prostate_2026"]
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "title": "mCRPC, oncologie de précision, radioligands et palliation",
+      "summary": "En mCRPC, la meilleure séquence dépend surtout des expositions antérieures, de la distribution de la maladie, des symptômes, des biomarqueurs et des objectifs du patient.",
+      "outcomes": ["Construire une matrice de séquençage", "Interpréter HRR/BRCA, MSI/MMR et expression PSMA", "Intégrer radiopharmaceutiques, radiothérapie palliative et soins de support"],
+      "pillars": [
+        {"title": "Séquence", "body": "Réutiliser mécaniquement une classe proche peut exposer à des résistances croisées ; la décision tient compte de la réponse et de la tolérance aux lignes précédentes."},
+        {"title": "Précision", "body": "Les altérations HRR/BRCA, MSI/MMR et l'imagerie PSMA peuvent ouvrir des options, mais test, tissu, temporalité et critères d'éligibilité doivent être vérifiés."},
+        {"title": "Objectifs", "body": "Contrôle tumoral, soulagement, prévention des événements osseux et préservation fonctionnelle sont poursuivis ensemble ; les soins de support ne sont pas une ligne tardive."}
+      ],
+      "commonTrap": "Choisir le prochain traitement sans reconstruire l'historique complet des expositions et résistances.",
+      "checkpoint": {"prompt": "La variable la plus structurante avant une nouvelle ligne de mCRPC est :", "options": ["Le nom du dernier scanner", "L'ensemble état clinique–sites–biomarqueurs–traitements antérieurs–objectifs", "Le PSA isolé", "La préférence du prescripteur"], "answerIndex": 1, "explanation": "Le séquençage est multidimensionnel et doit rester traçable."},
+      "sourceIds": ["esmo_advanced_prostate_2026", "asco_mcrpc_2025", "asco_genomic_testing_2025"]
+    },
+    {
+      "blockId": "complex_special_situations",
+      "title": "Situations complexes et adaptation personnalisée",
+      "summary": "La qualité d'une RCP se voit lorsque le patient ne ressemble pas au participant moyen d'un essai : fragilité, pathologie digestive, gestes urologiques antérieurs ou contraintes d'imagerie imposent une adaptation explicite.",
+      "outcomes": ["Évaluer fragilité et risque compétitif", "Adapter technique et toxicité aux antécédents", "Reconnaître quand l'incertitude doit modifier la décision"],
+      "pillars": [
+        {"title": "Fragilité", "body": "Âge chronologique, autonomie, cognition, nutrition, comorbidités et espérance de vie n'apportent pas la même information ; une évaluation gériatrique peut changer l'intensité raisonnable."},
+        {"title": "Contraintes locales", "body": "MICI, TURP, symptômes urinaires, prothèses de hanche et anatomie modifient faisabilité, imagerie, dosimétrie et balance de toxicité."},
+        {"title": "Incertitude", "body": "Une migration de stade par imagerie plus sensible ne doit pas faire appliquer automatiquement une stratégie validée dans une autre ère d'imagerie."}
+      ],
+      "commonTrap": "Transformer une comorbidité en contre-indication absolue sans analyser sa sévérité, son activité et les alternatives techniques.",
+      "checkpoint": {"prompt": "Dans une situation complexe, la bonne démarche est :", "options": ["Appliquer le même algorithme", "Décomposer risque tumoral, risque compétitif, faisabilité, toxicité et préférences", "Éviter toute discussion de RCP", "Choisir le traitement le plus court"], "answerIndex": 1, "explanation": "L'adaptation doit être argumentée sur plusieurs dimensions, et non intuitive."},
+      "sourceIds": ["eau_prostate_2026", "sfro_recorad_prostate_2025", "eanm_snmmi_psma_pet_2023"]
+    },
+    {
+      "blockId": "followup_survivorship",
+      "title": "Suivi, toxicités, réhabilitation et après-cancer",
+      "summary": "Le suivi ne cherche pas uniquement une remontée du PSA : il surveille les effets tardifs, la récupération hormonale, les fonctions et les risques induits par les traitements.",
+      "outcomes": ["Interpréter le PSA selon le traitement initial", "Dépister toxicités urinaires, digestives, sexuelles et osseuses", "Construire un plan de prévention et de réhabilitation"],
+      "pillars": [
+        {"title": "Biologie du suivi", "body": "Après prostatectomie et après radiothérapie, la cinétique attendue du PSA diffère ; rebond, nadir et récupération de la testostérone doivent être replacés dans le temps."},
+        {"title": "Toxicités", "body": "Les symptômes urinaires, digestifs, sexuels, métaboliques, cardiovasculaires et osseux doivent être recherchés activement avec des outils adaptés."},
+        {"title": "Après-cancer", "body": "Activité physique, santé mentale, sexualité, continence, prévention cardiovasculaire et coordination des soins font partie du résultat oncologique vécu."}
+      ],
+      "commonTrap": "Conclure qu'un suivi est normal parce que le PSA est rassurant malgré une toxicité fonctionnelle non recherchée.",
+      "checkpoint": {"prompt": "Une consultation de suivi complète associe :", "options": ["PSA uniquement", "Oncologie, symptômes, toxicités, prévention, fonctions et préférences", "Scanner systématique à chaque visite", "Aucun bilan de l'ADT"], "answerIndex": 1, "explanation": "Le contrôle tumoral et la santé globale après traitement doivent être suivis conjointement."},
+      "sourceIds": ["ccafu_localised_2024_2026", "ccafu_advanced_2024_2026", "eau_prostate_2026"]
+    }
+  ]
+}

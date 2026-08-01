@@ -1,0 +1,67 @@
+{
+  "id": "endometrium_prerequisite_graph",
+  "version": "0.2.0",
+  "status": "needs_review",
+  "nodes": [
+    {
+      "id": "pelvic_anatomy",
+      "title": "Anatomie pelvienne de base",
+      "dependsOn": [],
+      "unlocks": ["pelvic_lymphatic_drainage", "target_volume_concepts", "vaginal_brachytherapy_indications"]
+    },
+    {
+      "id": "uterine_histology",
+      "title": "Histologie normale de l'endomètre",
+      "dependsOn": [],
+      "unlocks": ["histologic_subtypes", "tumor_grade", "endometrial_carcinogenesis"]
+    },
+    {
+      "id": "endometrial_carcinogenesis",
+      "title": "Cancérogenèse endométriale",
+      "dependsOn": ["uterine_histology"],
+      "unlocks": ["molecular_classification", "histologic_subtypes"]
+    },
+    {
+      "id": "pelvic_lymphatic_drainage",
+      "title": "Drainage lymphatique pelvien et para-aortique",
+      "dependsOn": ["pelvic_anatomy"],
+      "unlocks": ["lvsi", "risk_groups", "pelvic_ebrt_indications", "node_positive_disease"]
+    },
+    {
+      "id": "myometrial_invasion",
+      "title": "Invasion myométriale",
+      "dependsOn": ["pelvic_anatomy", "uterine_histology"],
+      "unlocks": ["figo_2023_staging", "risk_groups", "adjuvant_strategy_selection"]
+    },
+    {
+      "id": "lvsi",
+      "title": "Emboles lymphovasculaires",
+      "dependsOn": ["pelvic_lymphatic_drainage", "myometrial_invasion"],
+      "unlocks": ["risk_groups", "local_vs_regional_vs_distant_risk", "pelvic_ebrt_indications"]
+    },
+    {
+      "id": "histologic_subtypes",
+      "title": "Sous-types histologiques",
+      "dependsOn": ["uterine_histology", "endometrial_carcinogenesis"],
+      "unlocks": ["molecular_classification", "risk_groups", "p53_abnormal", "her2_serous_disease"]
+    },
+    {
+      "id": "molecular_classification",
+      "title": "Classification moléculaire",
+      "dependsOn": ["endometrial_carcinogenesis", "histologic_subtypes"],
+      "unlocks": ["figo_2023_staging", "risk_groups", "dmmr_msi_immunotherapy", "adjuvant_strategy_selection"]
+    },
+    {
+      "id": "figo_2023_staging",
+      "title": "Staging FIGO 2023",
+      "dependsOn": ["myometrial_invasion", "histologic_subtypes", "molecular_classification"],
+      "unlocks": ["risk_groups", "adjuvant_strategy_selection"]
+    },
+    {
+      "id": "risk_groups",
+      "title": "Groupes de risque postopératoires",
+      "dependsOn": ["figo_2023_staging", "lvsi", "molecular_classification", "tumor_grade"],
+      "unlocks": ["vaginal_brachytherapy_indications", "pelvic_ebrt_indications", "adjuvant_chemotherapy_logic"]
+    }
+  ]
+}

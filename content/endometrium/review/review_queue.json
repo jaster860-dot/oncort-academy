@@ -1,0 +1,92 @@
+{
+  "version": "0.1.0",
+  "generatedAt": "2026-07-31",
+  "status": "open",
+  "items": [
+    {
+      "id": "endo_review_001",
+      "priority": "critical",
+      "scope": "first_playable_loop",
+      "artifacts": [
+        "concepts/lvsi.md",
+        "concepts/pelvic_lymphatic_drainage.md",
+        "concepts/risk_groups.md",
+        "concepts/vaginal_brachytherapy_vs_pelvic_ebrt.md",
+        "cases/seed_cases.json#endo_case_001_lvsi_reasoning",
+        "questions/seed_questions.json#q_endo_lvsi_retest_001"
+      ],
+      "decisionNeeded": "Validation médicale du contenu et de la logique de cotation par Sami.",
+      "exitCriteria": [
+        "Les affirmations médicales sont acceptées ou corrigées.",
+        "Les erreurs critiques et seuils de maîtrise sont acceptés.",
+        "Chaque artifact approuvé reçoit le statut validated avec date et reviewer."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "endo_review_002",
+      "priority": "high",
+      "scope": "french_radiotherapy_details",
+      "artifacts": ["sources/index.json#sfro_2025"],
+      "decisionNeeded": "Obtenir et analyser le texte intégral SFRO 2025 avant d'introduire doses, fractionnements, volumes ou contraintes comme recommandations françaises.",
+      "exitCriteria": [
+        "Texte intégral vérifié.",
+        "Recommandations atomisées avec pages ou sections.",
+        "Divergences éventuelles avec ESGO-ESTRO-ESP documentées."
+      ],
+      "status": "blocked_by_full_text"
+    },
+    {
+      "id": "endo_review_003",
+      "priority": "high",
+      "scope": "advanced_recurrent_systemic_therapy",
+      "artifacts": [
+        "concepts/dmmr_msi_immunotherapy.md",
+        "sources/index.json#gineco_advanced_2026"
+      ],
+      "decisionNeeded": "Vérifier le texte intégral GINECO 2026 et reconstruire la capsule à partir de recommandations datées et contextualisées.",
+      "exitCriteria": [
+        "Texte intégral vérifié.",
+        "Place des biomarqueurs et séquences thérapeutiques explicitée sans extrapolation.",
+        "Interactions utiles au radiothérapeute distinguées des décisions d'oncologie médicale."
+      ],
+      "status": "blocked_by_full_text"
+    },
+    {
+      "id": "endo_review_004",
+      "priority": "medium",
+      "scope": "remaining_seed_content",
+      "artifacts": [
+        "concepts/dmmr_msi_immunotherapy.md",
+        "concepts/histologic_subtypes.md",
+        "concepts/molecular_classification.md",
+        "concepts/myometrial_invasion.md",
+        "concepts/p53_abnormal.md",
+        "concepts/trial_literacy.md",
+        "cases/seed_cases.json",
+        "questions/seed_questions.json"
+      ],
+      "decisionNeeded": "Réviser les six capsules et les quatre cas restants selon le même standard que la boucle LVSI.",
+      "exitCriteria": [
+        "Contenu intégralement francophone.",
+        "Chaque affirmation décisionnelle possède une source précise.",
+        "Chaque cas possède données disponibles, réponse attendue, grille, erreurs, remédiation et re-test.",
+        "Chaque élément passe la revue médicale."
+      ],
+      "status": "ready_for_revision"
+    },
+    {
+      "id": "endo_review_005",
+      "priority": "medium",
+      "scope": "curriculum_coverage",
+      "artifacts": ["curriculum.json", "prerequisite_graph.json"],
+      "decisionNeeded": "Créer ou retirer les nœuds curriculaires encore sans capsule avant de déclarer la localisation complète.",
+      "exitCriteria": [
+        "Chaque nœud possède une ressource pédagogique ou un statut explicitement différé.",
+        "Le graphe de prérequis ne contient aucun identifiant orphelin.",
+        "La progression novice-vers-expert est testée sur plusieurs parcours."
+      ],
+      "status": "ready_for_design"
+    }
+  ]
+}

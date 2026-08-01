@@ -1,0 +1,2275 @@
+{
+  "schema_version": "1.0",
+  "query": "2024-2026 prostate radiotherapy special situations frailty inflammatory bowel disease TURP hip prosthesis oligometastatic stage migration",
+  "manuscript_context": {},
+  "target_references": 12,
+  "references": [
+    {
+      "reference_id": "ref-001",
+      "title": "Individual and Population Comparisons of Surgery and Radiotherapy Outcomes in Prostate Cancer Using Bayesian Multistate Models | Oncology | JAMA Network Open | JAMA Network",
+      "authors": "",
+      "year": "2042",
+      "venue": "",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2723424",
+      "doi": "10.1111/j.1442-2042.2012.03052.x",
+      "pmid": "",
+      "publication_type": "clinical trial",
+      "study_design": "clinical trial",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "The results from 3 contemporary clinical trials are available, 2 of which have fewer than 100 patients. doi: 10.1111/j.1442-2042.2012.03052.x PubMed Google Scholar Crossref 6."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "high",
+      "quality_rationale": "Classified as clinical trial.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "oncologic benefit for some individual patients if treated with surgery and for other patients if treated with radiotherapy. Individualized predictions provide a novel approach to facilitate treatment decision making. Introduction The relative merits of using surgery or radiotherapy as the primary therapy for localized prostate cancer have been debated for decades. Large randomized clinical trials comparing surgery vs radiotherapy would provide the highest level of evidence regarding this comparison. The results from 3 contemporary clinical trials are available, 2 of which have fewer than 100 patients. doi: 10.1111/j.1442-2042.2012.03052.x PubMed Google Scholar Crossref 6. Albertsen PC, Hanley JA, Penson DF, Barrows G, Fine J. 13-Year outcomes following treatment for clinically localized"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-002",
+      "title": "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials - PubMed",
+      "authors": "",
+      "year": "2026",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40447512",
+      "doi": "10.1016/j.euo.2025.05.003",
+      "pmid": "40447512",
+      "publication_type": "meta-analysis",
+      "study_design": "meta-analysis",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials - PubMed Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials Satı Coşkun Yazgan et al.",
+        "Show details Display options Display options Format Abstract PubMed PMID Eur Urol Oncol Actions Search in PubMed Search in NLM Catalog Add to Search ."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "high",
+      "quality_rationale": "Classified as meta-analysis.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials\nSatı Coşkun Yazgan et al. Eur Urol Oncol . 2026 Apr . Show details Display options Display options Format Abstract PubMed PMID Eur Urol Oncol Actions\nSearch in PubMed\nSearch in NLM Catalog\nAdd to Search . 2026 Apr;9(2):438-446. doi: 10.1016/j.euo.2025.05.003. Epub 2025 May 30.\nAffiliations Create a new collection\nAdd to an existing collection Name your collection: Name must be less than 100 characters Choose a collection: Unable to load your collection due to an error Please try again Add Cancel Permalink Permalink Copy Display options\nPage navigation\nTitle & authors\nAbstract\nPublication types\nMeSH terms\nLinkOut"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-003",
+      "title": "Association of frailty and its trajectory with the risk of cancer: evidence from the China health and retirement longitudinal study (CHARLS) | BMC Public Health | Springer Nature Link",
+      "authors": "",
+      "year": "2022",
+      "venue": "",
+      "url": "https://link.springer.com/article/10.1186/s12889-025-22959-y",
+      "doi": "10.1186/s12889-025-22959-y",
+      "pmid": "",
+      "publication_type": "cohort study",
+      "study_design": "cohort study",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Effect of frailty in health resource use in aged cancer patients.",
+        "Results from two large population-based studies."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "moderate",
+      "quality_rationale": "Classified as cohort study.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "Impact of frailty on survivals of prostate Cancer patients treated with radiotherapy. Arch Gerontol Geriatr. 2022;100:104651. Article CAS PubMed Google Scholar\nMoreno-Carmona R, Serra-Prat M, Serra-Colomer J, Ferro T, Lavado À. Effect of frailty in health resource use in aged cancer patients. Gac Sanit. 2024;38:102360. Article PubMed Google Scholar\nLiu F, Peng Y, Wang P, Qiao Y, Si C, Wang X, et al. Associations of physical frailty with incidence and mortality of overall and site-specific cancers: A prospective cohort study from UK biobank. Prev Med. 2023;177:107742. Article PubMed Google Scholar\nMak JKL, Kuja-Halkola R, Wang Y, Hägg S, Jylhävä J. Can frailty scores predict the incidence of cancer? Results from two large population-based studies. The Cox proportional hazards model was"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-004",
+      "title": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - PubMed",
+      "authors": "",
+      "year": "2011",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35220058",
+      "doi": "",
+      "pmid": "35220058",
+      "publication_type": "cohort study",
+      "study_design": "cohort study",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - PubMed cancer (PCa), which in turn impacts survival.",
+        "We evaluated the associations between frailty and risks of all-cause mortality and cancer-specific mortality in PCa patients treated with radiotherapy (RT)."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "moderate",
+      "quality_rationale": "Classified as cohort study.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "cancer (PCa), which in turn impacts survival. We evaluated the associations between frailty and risks of all-cause mortality and cancer-specific mortality in PCa patients treated with radiotherapy (RT). Methods: We conducted a retrospective cohort study using the Taiwan Cancer Registry Database and National Health Insurance Research Database. Patients aged ≥65 years with newly-diagnosed PCa, and receiving RT as initial treatment between 2011 and 2015 were identified in the study. Frailty was measured using the multimorbidity frailty index (mFI), categorized as fit, mild frailty, moderate frailty, and severe frailty. Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page content An official website of the United States government"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-005",
+      "title": "Fifteen-Year Outcomes after Monitoring, Surgery, or Radiotherapy for Prostate Cancer | New England Journal of Medicine",
+      "authors": "",
+      "year": "2026",
+      "venue": "",
+      "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2214122",
+      "doi": "10.1056/nejmoa2214122",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Fifteen-Year Outcomes after Monitoring, Surgery, or Radiotherapy for Prostate Cancer | New England Journal of Medicine Tschernichovsky, Dimitri Bragilovski, Miriam Weinstock-Sabbah, Jonathan Kindler, Ruth Dadush Azuz, Roman Radus, Oded Icht, Shay Golan, Tzippora Shochet, Dror Limon, Two-year toxicity and PSA dynamics in the initial cohort of the SABR-Dual trial − two-fraction stereotactic radiotherapy for localized prostate cancer using rectal spacing, Radiotherapy and Oncology, 219 , (111497), (2026). https://doi.org/10.1016/j.radonc.2026.111497 Crossref their clinician about the benefits and harms of screening.",
+        "71 This recommendation is similar to American Cancer Society guidelines since 2010, which recommend that asymptomatic men with at least a 10‐year life expectancy make an informed decision with their health care provider about whether to be screened beginning at age 50 years for men at average risk, age 45 years for Black men, and as early as age 40 years for men at even higher risk."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Tschernichovsky,\nDimitri Bragilovski,\nMiriam Weinstock-Sabbah,\nJonathan Kindler,\nRuth Dadush Azuz,\nRoman Radus,\nOded Icht,\nShay Golan,\nTzippora Shochet,\nDror Limon, Two-year toxicity and PSA dynamics in the initial cohort of the SABR-Dual trial − two-fraction stereotactic radiotherapy for localized prostate cancer using rectal spacing, Radiotherapy and Oncology, 219 , (111497), (2026). https://doi.org/10.1016/j.radonc.2026.111497 Crossref",
+        "their clinician about the benefits and harms of screening. 71 This recommendation is similar to American Cancer Society guidelines since 2010, which recommend that asymptomatic men with at least a 10‐year life expectancy make an informed decision with their health care provider about whether to be screened beginning at age 50 years for men at average risk, age 45 years for Black men, and as early as age 40 years for men at even higher risk. Fifteen‐year outcomes after monitoring, surgery, or radiotherapy for prostate cancer. N Engl J Med. 2023;388(17):1547‐1558. doi: 10.1056/NEJMoa2214122 [ DOI ] [ PubMed ] [ Google Scholar ]\nAl Hussein AAB, Wallis CJD, Penson DF, et al. Functional outcomes after localized prostate cancer treatment. JAMA. 2024;331(4):302‐317. doi: 10.1001/jama"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-006",
+      "title": "Review of current best practice in radiation oncology for older adults with cancer: Updates from the International Society of Geriatric Oncology (SIOG) Task Force",
+      "authors": "",
+      "year": "2025",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41429070",
+      "doi": "",
+      "pmid": "41429070",
+      "publication_type": "review",
+      "study_design": "review",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Advanced techniques such as stereotactic body radiotherapy (SBRT) and hypofractionated regimens are highly effective non-invasive treatment options that may avoid the need for hospital admission, the potential"
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as review.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "geriatric oncology as applied to radiation oncology, options for dose fractionation schedules and techniques across pre-defined tumor sites and appropriate individualised modifications of regimens in the setting of frailty, discussion of expected tolerability and toxicity (if any) in older adults, and the unique perspectives of care around older adults requiring RT in low- and middle-income countries. Keywords: Geriatric oncology; Older adults; Radiation oncology; Radiation therapy; Radiotherapy. Copyright © 2025 The Authors. Published by Elsevier Ltd.. All rights reserved. Advanced techniques such as stereotactic body radiotherapy (SBRT) and hypofractionated regimens are highly effective non-invasive treatment options that may avoid the need for hospital admission, the potential"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-007",
+      "title": "Outcomes of prostate cancer treatments - 2025 - BJU International",
+      "authors": "",
+      "year": "2025",
+      "venue": "",
+      "url": "https://bjui-journals.onlinelibrary.wiley.com/doi/full/10.1111/bju.16633",
+      "doi": "10.1111/bju.16633",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "They randomised 874 patients in an Outcomes of prostate cancer treatments - 2025 - BJU International This month's column focuses on outcomes associated with the treatment of prostate cancer."
+      ],
+      "quantitative_findings": [
+        "Section: > Outcomes of prostate cancer treatments - BJU International Jan 20, 2025 — Men undergoing radical prostatectomy had a 48% lower risk of death from prostate cancer compared to watchful waiting and a 26% lower risk of"
+      ],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Section:  > \nOutcomes of prostate cancer treatments - 2025 - BJU International\nJan 20, 2025 · Van As et al. conducted a phase 3 trial of stereotactic body radiotherapy for localised prostate cancer. They randomised 874 patients in an Outcomes of prostate cancer treatments - 2025 - BJU International\nThis month's column focuses on outcomes associated with the treatment of prostate cancer. Unger et al. chronicled long-term ... Section:  > \nOutcomes of prostate cancer treatments - BJU International\nJan 20, 2025 — Men undergoing radical prostatectomy had a 48% lower risk of death from prostate cancer compared to watchful waiting and a 26% lower risk of"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-008",
+      "title": "Acute toxicity of prostate cancer radiotherapy associated with late toxicity - Nierengarten - 2025 - Cancer - Wiley Online Library",
+      "authors": "",
+      "year": "2025",
+      "venue": "",
+      "url": "https://acsjournals.onlinelibrary.wiley.com/doi/full/10.1002/cncr.35886",
+      "doi": "10.1002/cncr.35886",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Acute toxicity of prostate cancer radiotherapy associated with late toxicity - Nierengarten - 2025 - Cancer - Wiley Online Library Acute toxicity of prostate cancer radiotherapy associated with late toxicity Acute toxicity following prostate cancer radiotherapy was statistically and significantly associated with late toxicity in patient-reported quality-of-life metrics.",
+        "Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author First published: 17 June 2025 https://doi.org/10.1002/cncr.35886 Digital Object Identifier (DOI) view metrics Nierengarten, M.B. (2025), Acute toxicity of prostate cancer radiotherapy associated with late toxicity."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Acute toxicity of prostate cancer radiotherapy associated with late toxicity\nAcute toxicity following prostate cancer radiotherapy was statistically and significantly associated with late toxicity in patient-reported quality-of-life metrics.\nMary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author First published: 17 June 2025 https://doi.org/10.1002/cncr.35886 Digital Object Identifier (DOI) view metrics Nierengarten, M.B. (2025), Acute toxicity of prostate cancer radiotherapy associated with late toxicity. Cancer, 131: e35886. https://doi.org/10.1002/cncr.35886 PDF About\nReferences\nRelated\nInformation\nPDF CITE Tools QR Code Acute toxicity related to prostate cancer"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-009",
+      "title": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed",
+      "authors": "",
+      "year": "2024",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38626801",
+      "doi": "10.6004/jnccn.2024.0019",
+      "pmid": "38626801",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al.",
+        "Show details Display options J Natl Compr Canc Netw ."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024\nEdward M Schaeffer et al. J Natl Compr Canc Netw . 2024 Apr . Show details Display options J Natl Compr Canc Netw . 2024 Apr;22(3):140-150. doi: 10.6004/jnccn.2024.0019.\nAffiliations Abstract\nThe NCCN Guidelines for Prostate Cancer include recommendations for staging and risk assessment after a prostate cancer diagnosis and for the care of patients with localized, regional, recurrent, and metastatic disease. These NCCN Guidelines Insights summarize the panel's discussions for the 2024 update to the guidelines with regard to initial risk stratification, initial management of very-low-risk disease, and the treatment of nonmetastatic recurrence. PubMed Disclaimer\nPublication types\nResearch Support, Non-U.S. Gov't\nMeSH terms\nHumans"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-010",
+      "title": "Functional Outcomes After Localized Prostate Cancer Treatment",
+      "authors": "",
+      "year": "2023",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38261043",
+      "doi": "10.1001/jama.2023.26491",
+      "pmid": "38261043",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "PMID: 38261043 PMCID: PMC10807259 DOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy.",
+        "Conclusions and relevance: Among patients treated for localized prostate cancer, radical prostatectomy was associated with worse urinary incontinence but not worse sexual function at 10-year follow-up compared with radiotherapy or surveillance among people with more favorable prognosis and compared with radiotherapy for those with unfavorable prognosis.",
+        "Abstract Importance: Adverse outcomes associated"
+      ],
+      "quantitative_findings": [
+        "PMID: 38261043 PMCID: PMC10807259 DOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy."
+      ],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Anderson Center, Houston.\nPMID: 38261043\nPMCID: PMC10807259\nDOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy. Conclusions and relevance: Among patients treated for localized prostate cancer, radical prostatectomy was associated with worse urinary incontinence but not worse sexual function at 10-year follow-up compared with radiotherapy or surveillance among people with more favorable prognosis and compared with radiotherapy for those with unfavorable prognosis. Abstract Importance: Adverse outcomes associated"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-011",
+      "title": "Radical Prostatectomy Versus Radiotherapy for Prostate Cancer: Stage-, Age-, and Frailty-Specific Cancer-Control Outcomes of 2600 Patients - PMC",
+      "authors": "",
+      "year": "2018",
+      "venue": "",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12599177",
+      "doi": "10.1007/s00345-017-2102-9",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Radical Prostatectomy Versus Radiotherapy for Prostate Cancer: Stage-, Age-, and Frailty-Specific Cancer-Control Outcomes of 2600 Patients - PMC Radical prostatectomy or radiotherapy reduce prostate cancer mortality in elderly patients: A population-based propensity score adjusted analysis.",
+        "2018;36:7–13. doi: 10.1007/s00345-017-2102-9. [ DOI ] [ PubMed ] [ Google Scholar ] Hoeh B, Hohenhorst JL, Flammia R, et al."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "Radical prostatectomy or radiotherapy reduce prostate cancer mortality in elderly patients: A population-based propensity score adjusted analysis. World J Urol. 2018;36:7–13. doi: 10.1007/s00345-017-2102-9. [ DOI ] [ PubMed ] [ Google Scholar ]\nHoeh B, Hohenhorst JL, Flammia R, et al. Cancer-specific mortality after radical prostatectomy vs external beam radiotherapy in high-risk Hispanic/Latino prostate cancer patients. Int Urol Nephrol. 2022;54:81–87. doi: 10.1007/s11255-021-03055-7. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]\nWenzel M, Würnschimmel C, Chierigo F, et al. Pattern of biopsy Gleason Grade Group 5 (4 5 vs 5 4 vs 5 5) predicts survival after radical prostatectomy or external beam radiation therapy. Eur Urol Focus. 2022;8:710–717. Journal List\nUser Guide"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-012",
+      "title": "Impact of diabetes and metformin use on prostate cancer outcome of patients treated with radiation therapy: results from a large institutional database - PubMed",
+      "authors": "",
+      "year": "",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30281009",
+      "doi": "",
+      "pmid": "30281009",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Impact of diabetes and metformin use on prostate cancer outcome of patients treated with radiation therapy: results from a large institutional database - PubMed treated with radiotherapy or brachytherapy.",
+        "Results: A total of 2441 patients with complete data was identified."
+      ],
+      "quantitative_findings": [
+        "Among the 382 patients (16% of total) were diabetic.",
+        "Two-hundred and eighty-one of the 382 diabetics (74%) were treated with metformin and 101 were treated with other anti-diabetic medication."
+      ],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "treated with radiotherapy or brachytherapy. Materials and methods: All patients from a large institutionalized database, treated for primary localized prostate cancer with either brachytherapy or external-beam radiotherapy ± androgen deprivation therapy were identified. Groups were compared by Kaplan-Meier analyses and Cox regression models. Multivariate analysis was adjusted for CAPRA-Score, type of treatment and age. Results: A total of 2441 patients with complete data was identified. Among the 382 patients (16% of total) were diabetic. Two-hundred and eighty-one of the 382 diabetics (74%) were treated with metformin and 101 were treated with other anti-diabetic medication. Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-013",
+      "title": "Management of high-risk prostate cancer in Spain: results from a ...",
+      "authors": "",
+      "year": "",
+      "venue": "",
+      "url": "https://link.springer.com/content/pdf/10.1007/s12094-025-04078-7.pdf",
+      "doi": "10.1007/s12094-025-04078-7.pdf",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Management of high-risk prostate cancer in Spain: results from a ...",
+        "Management of high-risk prostate cancer in Spain: results from a ..."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Management of high-risk prostate cancer in Spain: results from a ...\nThis study represents the current status of the management of HR-prostate cancer in Spain, highlighting the wide variety of radiotherapy treatments as well as the need for national consensus guidelines"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-014",
+      "title": "Long-term Overall Survival after External Beam Radiotherapy for Localised Prostate Cancer - ScienceDirect",
+      "authors": "",
+      "year": "2022",
+      "venue": "",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0936655523003412",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "meta-analysis",
+      "study_design": "meta-analysis",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Long-term Overall Survival after External Beam Radiotherapy for Localised Prostate Cancer - ScienceDirect external beam radiotherapy are typically in good health, their comorbidity score and smoking habits appeared to be dominant predictors for overall survival.",
+        "Overall survival rates within the high-risk group varied, showing improved overall survival with ADT prescription and worse overall survival in the case of Gleason score ≥8."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "high",
+      "quality_rationale": "Classified as meta-analysis.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "external beam radiotherapy are typically in good health, their comorbidity score and smoking habits appeared to be dominant predictors for overall survival. Overall survival rates within the high-risk group varied, showing improved overall survival with ADT prescription and worse overall survival in the case of Gleason score ≥8.\nIntroduction Local failure events in prostate cancer treated with radiotherapy: a pooled analysis of 18 randomized trials from the meta-analysis of randomized trials in cancer of the prostate consortium (leviathan)\nEur Urol (2022)\nA. Naser-Tavakolian et al.\nThe impact of life expectancy on cost-efefctiveness of treatment options for clinically localized prostate cancer\nUrol Oncol (2023)\nJ.A. Eastham et al.\nClinically localized prostate cancer: AUA/ASTRO guideline"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-015",
+      "title": "The risk of second malignancies following prostate cancer radiotherapy in the era of conformal radiotherapy: a statement of the Prostate Cancer Working Group of the German Society of Radiation Oncology (DEGRO) - PMC",
+      "authors": "",
+      "year": "2014",
+      "venue": "",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11739244",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "systematic review",
+      "study_design": "systematic review",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Murray L et al (2014) Second primary cancers after radiation for prostate cancer: a systematic review of the clinical data"
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "high",
+      "quality_rationale": "Classified as systematic review.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "with worse survival (adjusted HR: 1.76) Open in a new tab Abbreviations: aOR  adjusted odds ratio, RP  radical prostatectomy, RT  radiotherapy, IMRT  intensity-modulated radiotherapy, CFRT  conventionally fractionated radiotherapy, HFRT  hypo-fractionated radiotherapy, BT  brachytherapy, SPC  second primary cancer, SBRT  stereotactic body radiotherapy, PCa  prostate cancer, SEER  Surveillance, Epidemiology and End Results, NCDB  National Cancer Database, HR  hazard ratio, IQR  interquartile range, y  years The retrospective study by Dee et al. [ 8 ] included 303,432 patients diagnosed with PCa before 2014 from the National Cancer Database in the USA. Murray L et al (2014) Second primary cancers after radiation for prostate cancer: a systematic review of the clinical data"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-016",
+      "title": "Clinical Outcomes for Radiographic Node-Positive Prostate Cancer Following Definitive Radiotherapy - ScienceDirect",
+      "authors": "",
+      "year": "2025",
+      "venue": "",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0027968425002664",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Recommended articles No articles found."
+      ],
+      "quantitative_findings": [
+        "Clinical Outcomes for Radiographic Node-Positive Prostate Cancer Following Definitive Radiotherapy - ScienceDirect Conclusion In this cohort of patients treated with ADT and definitive RT, 5-year DMFS was 67%."
+      ],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Conclusion\nIn this cohort of patients treated with ADT and definitive RT, 5-year DMFS was 67%. Gleason score and age were the strongest prognostic features. There was no significant association, but numerically higher survival seen with use of ARSI or brachytherapy boost. Future work characterizing patterns of care and failure is needed to help optimize management.\nReferences (0)\nCited by (0)\nView full text Copyright © 2025 Published by Elsevier Inc.\nRecommended articles\nNo articles found. Clinical Outcomes for Radiographic Node-Positive Prostate Cancer Following Definitive Radiotherapy Author links open overlay panel Jade K. Dodge MS , Lily Boe PhD , Kevin Boehm MD, PhD , David Guttmann MD , Zachary Moore MD, PhD , Dhwani Parikh MD , Andrew Barsky MD , Marisa Kollmeier MD , Sean McBride"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-017",
+      "title": "Predicting dose response to prostate cancer radiotherapy ...",
+      "authors": "",
+      "year": "2025",
+      "venue": "",
+      "url": "https://europepmc.org/article/med/39986927",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Predicting dose response to prostate cancer radiotherapy ...",
+        "Predicting dose response to prostate cancer radiotherapy ... by A Dal Pra · 2025 · Cited by 15 — We investigated a previously developed Post-Operative Radiation Therapy Outcomes Score (PORTOS) to identify preferential benefit from radiation dose escalation"
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Predicting dose response to prostate cancer radiotherapy ...\nby A Dal Pra · 2025 · Cited by 15 — We investigated a previously developed Post-Operative Radiation Therapy Outcomes Score (PORTOS) to identify preferential benefit from radiation dose escalation"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-018",
+      "title": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - ScienceDirect",
+      "authors": "",
+      "year": "2022",
+      "venue": "",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167494322000322",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "review",
+      "study_design": "review",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - ScienceDirect approach to address the impact of aging on cancer survival.",
+        "In this study, we proposed to adopt the multimorbidity frailty index (mFI) based on the cumulative deficits approach to measure frailty and to investigate the impact of pretreatment frailty on clinical outcomes in older adults going through radiotherapy for prostate malignancy."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as review.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "approach to address the impact of aging on cancer survival. In this study, we proposed to adopt the multimorbidity frailty index (mFI) based on the cumulative deficits approach to measure frailty and to investigate the impact of pretreatment frailty on clinical outcomes in older adults going through radiotherapy for prostate malignancy. Skip to main content Skip to article\nJournals & Books\nHelp\nSearch My account Sign in\nAccess through your organization\nPurchase PDF\nPatient Access\nOther access options Search ScienceDirect\nArticle preview\nAbstract\nIntroduction\nSection snippets\nReferences (42)\nCited by (17)\nArchives of Gerontology and Geriatrics\nVolume 100 , May–June 2022, 104651\nImpact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy\nAuthor links open overlay"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-019",
+      "title": "Setting the PACE for prostate radiotherapy - The Lancet Oncology",
+      "authors": "",
+      "year": "",
+      "venue": "",
+      "url": "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(25)00277-3/abstract",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Setting the PACE for prostate radiotherapy - The Lancet Oncology Section: > Setting the PACE for prostate radiotherapy - The Lancet Oncology Radical prostatectomy versus stereotactic radiotherapy for clinically localised prostate cancer: results of the PACE-A randomised trial."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Section:  > \nSetting the PACE for prostate radiotherapy - The Lancet Oncology\nRadical prostatectomy versus stereotactic radiotherapy for clinically localised prostate cancer: results of the PACE-A randomised trial. Eur ... Setting the PACE for prostate radiotherapy - The Lancet Oncology\n3. Kishan, AU ∙ Dang, A ∙ Katz, AJ ∙ et al. Long-term outcomes of stereotactic body radiotherapy for low-risk and intermediate-risk prostate cancer"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    }
+  ],
+  "evidence_matrix": [
+    {
+      "reference_id": "ref-001",
+      "title": "Individual and Population Comparisons of Surgery and Radiotherapy Outcomes in Prostate Cancer Using Bayesian Multistate Models | Oncology | JAMA Network Open | JAMA Network",
+      "authors": "",
+      "year": "2042",
+      "venue": "",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2723424",
+      "doi": "10.1111/j.1442-2042.2012.03052.x",
+      "pmid": "",
+      "publication_type": "clinical trial",
+      "study_design": "clinical trial",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "The results from 3 contemporary clinical trials are available, 2 of which have fewer than 100 patients. doi: 10.1111/j.1442-2042.2012.03052.x PubMed Google Scholar Crossref 6."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "high",
+      "quality_rationale": "Classified as clinical trial.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "oncologic benefit for some individual patients if treated with surgery and for other patients if treated with radiotherapy. Individualized predictions provide a novel approach to facilitate treatment decision making. Introduction The relative merits of using surgery or radiotherapy as the primary therapy for localized prostate cancer have been debated for decades. Large randomized clinical trials comparing surgery vs radiotherapy would provide the highest level of evidence regarding this comparison. The results from 3 contemporary clinical trials are available, 2 of which have fewer than 100 patients. doi: 10.1111/j.1442-2042.2012.03052.x PubMed Google Scholar Crossref 6. Albertsen PC, Hanley JA, Penson DF, Barrows G, Fine J. 13-Year outcomes following treatment for clinically localized"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-002",
+      "title": "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials - PubMed",
+      "authors": "",
+      "year": "2026",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40447512",
+      "doi": "10.1016/j.euo.2025.05.003",
+      "pmid": "40447512",
+      "publication_type": "meta-analysis",
+      "study_design": "meta-analysis",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials - PubMed Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials Satı Coşkun Yazgan et al.",
+        "Show details Display options Display options Format Abstract PubMed PMID Eur Urol Oncol Actions Search in PubMed Search in NLM Catalog Add to Search ."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "high",
+      "quality_rationale": "Classified as meta-analysis.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials\nSatı Coşkun Yazgan et al. Eur Urol Oncol . 2026 Apr . Show details Display options Display options Format Abstract PubMed PMID Eur Urol Oncol Actions\nSearch in PubMed\nSearch in NLM Catalog\nAdd to Search . 2026 Apr;9(2):438-446. doi: 10.1016/j.euo.2025.05.003. Epub 2025 May 30.\nAffiliations Create a new collection\nAdd to an existing collection Name your collection: Name must be less than 100 characters Choose a collection: Unable to load your collection due to an error Please try again Add Cancel Permalink Permalink Copy Display options\nPage navigation\nTitle & authors\nAbstract\nPublication types\nMeSH terms\nLinkOut"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-003",
+      "title": "Association of frailty and its trajectory with the risk of cancer: evidence from the China health and retirement longitudinal study (CHARLS) | BMC Public Health | Springer Nature Link",
+      "authors": "",
+      "year": "2022",
+      "venue": "",
+      "url": "https://link.springer.com/article/10.1186/s12889-025-22959-y",
+      "doi": "10.1186/s12889-025-22959-y",
+      "pmid": "",
+      "publication_type": "cohort study",
+      "study_design": "cohort study",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Effect of frailty in health resource use in aged cancer patients.",
+        "Results from two large population-based studies."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "moderate",
+      "quality_rationale": "Classified as cohort study.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "Impact of frailty on survivals of prostate Cancer patients treated with radiotherapy. Arch Gerontol Geriatr. 2022;100:104651. Article CAS PubMed Google Scholar\nMoreno-Carmona R, Serra-Prat M, Serra-Colomer J, Ferro T, Lavado À. Effect of frailty in health resource use in aged cancer patients. Gac Sanit. 2024;38:102360. Article PubMed Google Scholar\nLiu F, Peng Y, Wang P, Qiao Y, Si C, Wang X, et al. Associations of physical frailty with incidence and mortality of overall and site-specific cancers: A prospective cohort study from UK biobank. Prev Med. 2023;177:107742. Article PubMed Google Scholar\nMak JKL, Kuja-Halkola R, Wang Y, Hägg S, Jylhävä J. Can frailty scores predict the incidence of cancer? Results from two large population-based studies. The Cox proportional hazards model was"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-004",
+      "title": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - PubMed",
+      "authors": "",
+      "year": "2011",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35220058",
+      "doi": "",
+      "pmid": "35220058",
+      "publication_type": "cohort study",
+      "study_design": "cohort study",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - PubMed cancer (PCa), which in turn impacts survival.",
+        "We evaluated the associations between frailty and risks of all-cause mortality and cancer-specific mortality in PCa patients treated with radiotherapy (RT)."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "moderate",
+      "quality_rationale": "Classified as cohort study.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "cancer (PCa), which in turn impacts survival. We evaluated the associations between frailty and risks of all-cause mortality and cancer-specific mortality in PCa patients treated with radiotherapy (RT). Methods: We conducted a retrospective cohort study using the Taiwan Cancer Registry Database and National Health Insurance Research Database. Patients aged ≥65 years with newly-diagnosed PCa, and receiving RT as initial treatment between 2011 and 2015 were identified in the study. Frailty was measured using the multimorbidity frailty index (mFI), categorized as fit, mild frailty, moderate frailty, and severe frailty. Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page content An official website of the United States government"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-005",
+      "title": "Fifteen-Year Outcomes after Monitoring, Surgery, or Radiotherapy for Prostate Cancer | New England Journal of Medicine",
+      "authors": "",
+      "year": "2026",
+      "venue": "",
+      "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2214122",
+      "doi": "10.1056/nejmoa2214122",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Fifteen-Year Outcomes after Monitoring, Surgery, or Radiotherapy for Prostate Cancer | New England Journal of Medicine Tschernichovsky, Dimitri Bragilovski, Miriam Weinstock-Sabbah, Jonathan Kindler, Ruth Dadush Azuz, Roman Radus, Oded Icht, Shay Golan, Tzippora Shochet, Dror Limon, Two-year toxicity and PSA dynamics in the initial cohort of the SABR-Dual trial − two-fraction stereotactic radiotherapy for localized prostate cancer using rectal spacing, Radiotherapy and Oncology, 219 , (111497), (2026). https://doi.org/10.1016/j.radonc.2026.111497 Crossref their clinician about the benefits and harms of screening.",
+        "71 This recommendation is similar to American Cancer Society guidelines since 2010, which recommend that asymptomatic men with at least a 10‐year life expectancy make an informed decision with their health care provider about whether to be screened beginning at age 50 years for men at average risk, age 45 years for Black men, and as early as age 40 years for men at even higher risk."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Tschernichovsky,\nDimitri Bragilovski,\nMiriam Weinstock-Sabbah,\nJonathan Kindler,\nRuth Dadush Azuz,\nRoman Radus,\nOded Icht,\nShay Golan,\nTzippora Shochet,\nDror Limon, Two-year toxicity and PSA dynamics in the initial cohort of the SABR-Dual trial − two-fraction stereotactic radiotherapy for localized prostate cancer using rectal spacing, Radiotherapy and Oncology, 219 , (111497), (2026). https://doi.org/10.1016/j.radonc.2026.111497 Crossref",
+        "their clinician about the benefits and harms of screening. 71 This recommendation is similar to American Cancer Society guidelines since 2010, which recommend that asymptomatic men with at least a 10‐year life expectancy make an informed decision with their health care provider about whether to be screened beginning at age 50 years for men at average risk, age 45 years for Black men, and as early as age 40 years for men at even higher risk. Fifteen‐year outcomes after monitoring, surgery, or radiotherapy for prostate cancer. N Engl J Med. 2023;388(17):1547‐1558. doi: 10.1056/NEJMoa2214122 [ DOI ] [ PubMed ] [ Google Scholar ]\nAl Hussein AAB, Wallis CJD, Penson DF, et al. Functional outcomes after localized prostate cancer treatment. JAMA. 2024;331(4):302‐317. doi: 10.1001/jama"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-006",
+      "title": "Review of current best practice in radiation oncology for older adults with cancer: Updates from the International Society of Geriatric Oncology (SIOG) Task Force",
+      "authors": "",
+      "year": "2025",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41429070",
+      "doi": "",
+      "pmid": "41429070",
+      "publication_type": "review",
+      "study_design": "review",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Advanced techniques such as stereotactic body radiotherapy (SBRT) and hypofractionated regimens are highly effective non-invasive treatment options that may avoid the need for hospital admission, the potential"
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as review.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "geriatric oncology as applied to radiation oncology, options for dose fractionation schedules and techniques across pre-defined tumor sites and appropriate individualised modifications of regimens in the setting of frailty, discussion of expected tolerability and toxicity (if any) in older adults, and the unique perspectives of care around older adults requiring RT in low- and middle-income countries. Keywords: Geriatric oncology; Older adults; Radiation oncology; Radiation therapy; Radiotherapy. Copyright © 2025 The Authors. Published by Elsevier Ltd.. All rights reserved. Advanced techniques such as stereotactic body radiotherapy (SBRT) and hypofractionated regimens are highly effective non-invasive treatment options that may avoid the need for hospital admission, the potential"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-007",
+      "title": "Outcomes of prostate cancer treatments - 2025 - BJU International",
+      "authors": "",
+      "year": "2025",
+      "venue": "",
+      "url": "https://bjui-journals.onlinelibrary.wiley.com/doi/full/10.1111/bju.16633",
+      "doi": "10.1111/bju.16633",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "They randomised 874 patients in an Outcomes of prostate cancer treatments - 2025 - BJU International This month's column focuses on outcomes associated with the treatment of prostate cancer."
+      ],
+      "quantitative_findings": [
+        "Section: > Outcomes of prostate cancer treatments - BJU International Jan 20, 2025 — Men undergoing radical prostatectomy had a 48% lower risk of death from prostate cancer compared to watchful waiting and a 26% lower risk of"
+      ],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Section:  > \nOutcomes of prostate cancer treatments - 2025 - BJU International\nJan 20, 2025 · Van As et al. conducted a phase 3 trial of stereotactic body radiotherapy for localised prostate cancer. They randomised 874 patients in an Outcomes of prostate cancer treatments - 2025 - BJU International\nThis month's column focuses on outcomes associated with the treatment of prostate cancer. Unger et al. chronicled long-term ... Section:  > \nOutcomes of prostate cancer treatments - BJU International\nJan 20, 2025 — Men undergoing radical prostatectomy had a 48% lower risk of death from prostate cancer compared to watchful waiting and a 26% lower risk of"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-008",
+      "title": "Acute toxicity of prostate cancer radiotherapy associated with late toxicity - Nierengarten - 2025 - Cancer - Wiley Online Library",
+      "authors": "",
+      "year": "2025",
+      "venue": "",
+      "url": "https://acsjournals.onlinelibrary.wiley.com/doi/full/10.1002/cncr.35886",
+      "doi": "10.1002/cncr.35886",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Acute toxicity of prostate cancer radiotherapy associated with late toxicity - Nierengarten - 2025 - Cancer - Wiley Online Library Acute toxicity of prostate cancer radiotherapy associated with late toxicity Acute toxicity following prostate cancer radiotherapy was statistically and significantly associated with late toxicity in patient-reported quality-of-life metrics.",
+        "Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author First published: 17 June 2025 https://doi.org/10.1002/cncr.35886 Digital Object Identifier (DOI) view metrics Nierengarten, M.B. (2025), Acute toxicity of prostate cancer radiotherapy associated with late toxicity."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Acute toxicity of prostate cancer radiotherapy associated with late toxicity\nAcute toxicity following prostate cancer radiotherapy was statistically and significantly associated with late toxicity in patient-reported quality-of-life metrics.\nMary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author First published: 17 June 2025 https://doi.org/10.1002/cncr.35886 Digital Object Identifier (DOI) view metrics Nierengarten, M.B. (2025), Acute toxicity of prostate cancer radiotherapy associated with late toxicity. Cancer, 131: e35886. https://doi.org/10.1002/cncr.35886 PDF About\nReferences\nRelated\nInformation\nPDF CITE Tools QR Code Acute toxicity related to prostate cancer"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-009",
+      "title": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed",
+      "authors": "",
+      "year": "2024",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38626801",
+      "doi": "10.6004/jnccn.2024.0019",
+      "pmid": "38626801",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al.",
+        "Show details Display options J Natl Compr Canc Netw ."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024\nEdward M Schaeffer et al. J Natl Compr Canc Netw . 2024 Apr . Show details Display options J Natl Compr Canc Netw . 2024 Apr;22(3):140-150. doi: 10.6004/jnccn.2024.0019.\nAffiliations Abstract\nThe NCCN Guidelines for Prostate Cancer include recommendations for staging and risk assessment after a prostate cancer diagnosis and for the care of patients with localized, regional, recurrent, and metastatic disease. These NCCN Guidelines Insights summarize the panel's discussions for the 2024 update to the guidelines with regard to initial risk stratification, initial management of very-low-risk disease, and the treatment of nonmetastatic recurrence. PubMed Disclaimer\nPublication types\nResearch Support, Non-U.S. Gov't\nMeSH terms\nHumans"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-010",
+      "title": "Functional Outcomes After Localized Prostate Cancer Treatment",
+      "authors": "",
+      "year": "2023",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38261043",
+      "doi": "10.1001/jama.2023.26491",
+      "pmid": "38261043",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "PMID: 38261043 PMCID: PMC10807259 DOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy.",
+        "Conclusions and relevance: Among patients treated for localized prostate cancer, radical prostatectomy was associated with worse urinary incontinence but not worse sexual function at 10-year follow-up compared with radiotherapy or surveillance among people with more favorable prognosis and compared with radiotherapy for those with unfavorable prognosis.",
+        "Abstract Importance: Adverse outcomes associated"
+      ],
+      "quantitative_findings": [
+        "PMID: 38261043 PMCID: PMC10807259 DOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy."
+      ],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Anderson Center, Houston.\nPMID: 38261043\nPMCID: PMC10807259\nDOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy. Conclusions and relevance: Among patients treated for localized prostate cancer, radical prostatectomy was associated with worse urinary incontinence but not worse sexual function at 10-year follow-up compared with radiotherapy or surveillance among people with more favorable prognosis and compared with radiotherapy for those with unfavorable prognosis. Abstract Importance: Adverse outcomes associated"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-011",
+      "title": "Radical Prostatectomy Versus Radiotherapy for Prostate Cancer: Stage-, Age-, and Frailty-Specific Cancer-Control Outcomes of 2600 Patients - PMC",
+      "authors": "",
+      "year": "2018",
+      "venue": "",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12599177",
+      "doi": "10.1007/s00345-017-2102-9",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Radical Prostatectomy Versus Radiotherapy for Prostate Cancer: Stage-, Age-, and Frailty-Specific Cancer-Control Outcomes of 2600 Patients - PMC Radical prostatectomy or radiotherapy reduce prostate cancer mortality in elderly patients: A population-based propensity score adjusted analysis.",
+        "2018;36:7–13. doi: 10.1007/s00345-017-2102-9. [ DOI ] [ PubMed ] [ Google Scholar ] Hoeh B, Hohenhorst JL, Flammia R, et al."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "Radical prostatectomy or radiotherapy reduce prostate cancer mortality in elderly patients: A population-based propensity score adjusted analysis. World J Urol. 2018;36:7–13. doi: 10.1007/s00345-017-2102-9. [ DOI ] [ PubMed ] [ Google Scholar ]\nHoeh B, Hohenhorst JL, Flammia R, et al. Cancer-specific mortality after radical prostatectomy vs external beam radiotherapy in high-risk Hispanic/Latino prostate cancer patients. Int Urol Nephrol. 2022;54:81–87. doi: 10.1007/s11255-021-03055-7. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]\nWenzel M, Würnschimmel C, Chierigo F, et al. Pattern of biopsy Gleason Grade Group 5 (4 5 vs 5 4 vs 5 5) predicts survival after radical prostatectomy or external beam radiation therapy. Eur Urol Focus. 2022;8:710–717. Journal List\nUser Guide"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-012",
+      "title": "Impact of diabetes and metformin use on prostate cancer outcome of patients treated with radiation therapy: results from a large institutional database - PubMed",
+      "authors": "",
+      "year": "",
+      "venue": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30281009",
+      "doi": "",
+      "pmid": "30281009",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Impact of diabetes and metformin use on prostate cancer outcome of patients treated with radiation therapy: results from a large institutional database - PubMed treated with radiotherapy or brachytherapy.",
+        "Results: A total of 2441 patients with complete data was identified."
+      ],
+      "quantitative_findings": [
+        "Among the 382 patients (16% of total) were diabetic.",
+        "Two-hundred and eighty-one of the 382 diabetics (74%) were treated with metformin and 101 were treated with other anti-diabetic medication."
+      ],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "treated with radiotherapy or brachytherapy. Materials and methods: All patients from a large institutionalized database, treated for primary localized prostate cancer with either brachytherapy or external-beam radiotherapy ± androgen deprivation therapy were identified. Groups were compared by Kaplan-Meier analyses and Cox regression models. Multivariate analysis was adjusted for CAPRA-Score, type of treatment and age. Results: A total of 2441 patients with complete data was identified. Among the 382 patients (16% of total) were diabetic. Two-hundred and eighty-one of the 382 diabetics (74%) were treated with metformin and 101 were treated with other anti-diabetic medication. Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-013",
+      "title": "Management of high-risk prostate cancer in Spain: results from a ...",
+      "authors": "",
+      "year": "",
+      "venue": "",
+      "url": "https://link.springer.com/content/pdf/10.1007/s12094-025-04078-7.pdf",
+      "doi": "10.1007/s12094-025-04078-7.pdf",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Management of high-risk prostate cancer in Spain: results from a ...",
+        "Management of high-risk prostate cancer in Spain: results from a ..."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "identifier-verified",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Management of high-risk prostate cancer in Spain: results from a ...\nThis study represents the current status of the management of HR-prostate cancer in Spain, highlighting the wide variety of radiotherapy treatments as well as the need for national consensus guidelines"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-014",
+      "title": "Long-term Overall Survival after External Beam Radiotherapy for Localised Prostate Cancer - ScienceDirect",
+      "authors": "",
+      "year": "2022",
+      "venue": "",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0936655523003412",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "meta-analysis",
+      "study_design": "meta-analysis",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Long-term Overall Survival after External Beam Radiotherapy for Localised Prostate Cancer - ScienceDirect external beam radiotherapy are typically in good health, their comorbidity score and smoking habits appeared to be dominant predictors for overall survival.",
+        "Overall survival rates within the high-risk group varied, showing improved overall survival with ADT prescription and worse overall survival in the case of Gleason score ≥8."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "high",
+      "quality_rationale": "Classified as meta-analysis.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "external beam radiotherapy are typically in good health, their comorbidity score and smoking habits appeared to be dominant predictors for overall survival. Overall survival rates within the high-risk group varied, showing improved overall survival with ADT prescription and worse overall survival in the case of Gleason score ≥8.\nIntroduction Local failure events in prostate cancer treated with radiotherapy: a pooled analysis of 18 randomized trials from the meta-analysis of randomized trials in cancer of the prostate consortium (leviathan)\nEur Urol (2022)\nA. Naser-Tavakolian et al.\nThe impact of life expectancy on cost-efefctiveness of treatment options for clinically localized prostate cancer\nUrol Oncol (2023)\nJ.A. Eastham et al.\nClinically localized prostate cancer: AUA/ASTRO guideline"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-015",
+      "title": "The risk of second malignancies following prostate cancer radiotherapy in the era of conformal radiotherapy: a statement of the Prostate Cancer Working Group of the German Society of Radiation Oncology (DEGRO) - PMC",
+      "authors": "",
+      "year": "2014",
+      "venue": "",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11739244",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "systematic review",
+      "study_design": "systematic review",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Murray L et al (2014) Second primary cancers after radiation for prostate cancer: a systematic review of the clinical data"
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "high",
+      "quality_rationale": "Classified as systematic review.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "with worse survival (adjusted HR: 1.76) Open in a new tab Abbreviations: aOR  adjusted odds ratio, RP  radical prostatectomy, RT  radiotherapy, IMRT  intensity-modulated radiotherapy, CFRT  conventionally fractionated radiotherapy, HFRT  hypo-fractionated radiotherapy, BT  brachytherapy, SPC  second primary cancer, SBRT  stereotactic body radiotherapy, PCa  prostate cancer, SEER  Surveillance, Epidemiology and End Results, NCDB  National Cancer Database, HR  hazard ratio, IQR  interquartile range, y  years The retrospective study by Dee et al. [ 8 ] included 303,432 patients diagnosed with PCa before 2014 from the National Cancer Database in the USA. Murray L et al (2014) Second primary cancers after radiation for prostate cancer: a systematic review of the clinical data"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-016",
+      "title": "Clinical Outcomes for Radiographic Node-Positive Prostate Cancer Following Definitive Radiotherapy - ScienceDirect",
+      "authors": "",
+      "year": "2025",
+      "venue": "",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0027968425002664",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Recommended articles No articles found."
+      ],
+      "quantitative_findings": [
+        "Clinical Outcomes for Radiographic Node-Positive Prostate Cancer Following Definitive Radiotherapy - ScienceDirect Conclusion In this cohort of patients treated with ADT and definitive RT, 5-year DMFS was 67%."
+      ],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Conclusion\nIn this cohort of patients treated with ADT and definitive RT, 5-year DMFS was 67%. Gleason score and age were the strongest prognostic features. There was no significant association, but numerically higher survival seen with use of ARSI or brachytherapy boost. Future work characterizing patterns of care and failure is needed to help optimize management.\nReferences (0)\nCited by (0)\nView full text Copyright © 2025 Published by Elsevier Inc.\nRecommended articles\nNo articles found. Clinical Outcomes for Radiographic Node-Positive Prostate Cancer Following Definitive Radiotherapy Author links open overlay panel Jade K. Dodge MS , Lily Boe PhD , Kevin Boehm MD, PhD , David Guttmann MD , Zachary Moore MD, PhD , Dhwani Parikh MD , Andrew Barsky MD , Marisa Kollmeier MD , Sean McBride"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-017",
+      "title": "Predicting dose response to prostate cancer radiotherapy ...",
+      "authors": "",
+      "year": "2025",
+      "venue": "",
+      "url": "https://europepmc.org/article/med/39986927",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Predicting dose response to prostate cancer radiotherapy ...",
+        "Predicting dose response to prostate cancer radiotherapy ... by A Dal Pra · 2025 · Cited by 15 — We investigated a previously developed Post-Operative Radiation Therapy Outcomes Score (PORTOS) to identify preferential benefit from radiation dose escalation"
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Predicting dose response to prostate cancer radiotherapy ...\nby A Dal Pra · 2025 · Cited by 15 — We investigated a previously developed Post-Operative Radiation Therapy Outcomes Score (PORTOS) to identify preferential benefit from radiation dose escalation"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-018",
+      "title": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - ScienceDirect",
+      "authors": "",
+      "year": "2022",
+      "venue": "",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167494322000322",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "review",
+      "study_design": "review",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - ScienceDirect approach to address the impact of aging on cancer survival.",
+        "In this study, we proposed to adopt the multimorbidity frailty index (mFI) based on the cumulative deficits approach to measure frailty and to investigate the impact of pretreatment frailty on clinical outcomes in older adults going through radiotherapy for prostate malignancy."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as review.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction",
+        "methods-rationale"
+      ],
+      "supporting_excerpts": [
+        "approach to address the impact of aging on cancer survival. In this study, we proposed to adopt the multimorbidity frailty index (mFI) based on the cumulative deficits approach to measure frailty and to investigate the impact of pretreatment frailty on clinical outcomes in older adults going through radiotherapy for prostate malignancy. Skip to main content Skip to article\nJournals & Books\nHelp\nSearch My account Sign in\nAccess through your organization\nPurchase PDF\nPatient Access\nOther access options Search ScienceDirect\nArticle preview\nAbstract\nIntroduction\nSection snippets\nReferences (42)\nCited by (17)\nArchives of Gerontology and Geriatrics\nVolume 100 , May–June 2022, 104651\nImpact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy\nAuthor links open overlay"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    },
+    {
+      "reference_id": "ref-019",
+      "title": "Setting the PACE for prostate radiotherapy - The Lancet Oncology",
+      "authors": "",
+      "year": "",
+      "venue": "",
+      "url": "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(25)00277-3/abstract",
+      "doi": "",
+      "pmid": "",
+      "publication_type": "primary/other",
+      "study_design": "primary/other",
+      "population_or_system": "",
+      "sample_size": "",
+      "methods": "",
+      "intervention_or_exposure": "",
+      "comparator": "",
+      "outcomes": "",
+      "key_findings": [
+        "Setting the PACE for prostate radiotherapy - The Lancet Oncology Section: > Setting the PACE for prostate radiotherapy - The Lancet Oncology Radical prostatectomy versus stereotactic radiotherapy for clinically localised prostate cancer: results of the PACE-A randomised trial."
+      ],
+      "quantitative_findings": [],
+      "limitations": [],
+      "evidence_quality": "contextual",
+      "quality_rationale": "Classified as primary/other.",
+      "preprint": false,
+      "retracted": false,
+      "corrected": false,
+      "verification_status": "search-only",
+      "manuscript_sections": [
+        "discussion",
+        "introduction"
+      ],
+      "supporting_excerpts": [
+        "Section:  > \nSetting the PACE for prostate radiotherapy - The Lancet Oncology\nRadical prostatectomy versus stereotactic radiotherapy for clinically localised prostate cancer: results of the PACE-A randomised trial. Eur ... Setting the PACE for prostate radiotherapy - The Lancet Oncology\n3. Kishan, AU ∙ Dang, A ∙ Katz, AJ ∙ et al. Long-term outcomes of stereotactic body radiotherapy for low-risk and intermediate-risk prostate cancer"
+      ],
+      "facets": [],
+      "scholarly_source": true
+    }
+  ],
+  "claim_source_map": [
+    {
+      "claim": "The results from 3 contemporary clinical trials are available, 2 of which have fewer than 100 patients. doi: 10.1111/j.1442-2042.2012.03052.x PubMed Google Scholar Crossref 6.",
+      "reference_ids": [
+        "ref-001"
+      ],
+      "supporting_excerpts": [
+        "oncologic benefit for some individual patients if treated with surgery and for other patients if treated with radiotherapy. Individualized predictions provide a novel approach to facilitate treatment decision making. Introduction The relative merits of using surgery or radiotherapy as the primary therapy for localized prostate cancer have been debated for decades. Large randomized clinical trials comparing surgery vs radiotherapy would provide the highest level of evidence regarding this comparison. The results from 3 contemporary clinical trials are available, 2 of which have fewer than 100 patients. doi: 10.1111/j.1442-2042.2012.03052.x PubMed Google Scholar Crossref 6. Albertsen PC, Hanley JA, Penson DF, Barrows G, Fine J. 13-Year outcomes following treatment for clinically localized"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials - PubMed Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials Satı Coşkun Yazgan et al.",
+      "reference_ids": [
+        "ref-002"
+      ],
+      "supporting_excerpts": [
+        "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials\nSatı Coşkun Yazgan et al. Eur Urol Oncol . 2026 Apr . Show details Display options Display options Format Abstract PubMed PMID Eur Urol Oncol Actions\nSearch in PubMed\nSearch in NLM Catalog\nAdd to Search . 2026 Apr;9(2):438-446. doi: 10.1016/j.euo.2025.05.003. Epub 2025 May 30.\nAffiliations Create a new collection\nAdd to an existing collection Name your collection: Name must be less than 100 characters Choose a collection: Unable to load your collection due to an error Please try again Add Cancel Permalink Permalink Copy Display options\nPage navigation\nTitle & authors\nAbstract\nPublication types\nMeSH terms\nLinkOut"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Show details Display options Display options Format Abstract PubMed PMID Eur Urol Oncol Actions Search in PubMed Search in NLM Catalog Add to Search .",
+      "reference_ids": [
+        "ref-002"
+      ],
+      "supporting_excerpts": [
+        "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials\nSatı Coşkun Yazgan et al. Eur Urol Oncol . 2026 Apr . Show details Display options Display options Format Abstract PubMed PMID Eur Urol Oncol Actions\nSearch in PubMed\nSearch in NLM Catalog\nAdd to Search . 2026 Apr;9(2):438-446. doi: 10.1016/j.euo.2025.05.003. Epub 2025 May 30.\nAffiliations Create a new collection\nAdd to an existing collection Name your collection: Name must be less than 100 characters Choose a collection: Unable to load your collection due to an error Please try again Add Cancel Permalink Permalink Copy Display options\nPage navigation\nTitle & authors\nAbstract\nPublication types\nMeSH terms\nLinkOut"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Effect of frailty in health resource use in aged cancer patients.",
+      "reference_ids": [
+        "ref-003"
+      ],
+      "supporting_excerpts": [
+        "Impact of frailty on survivals of prostate Cancer patients treated with radiotherapy. Arch Gerontol Geriatr. 2022;100:104651. Article CAS PubMed Google Scholar\nMoreno-Carmona R, Serra-Prat M, Serra-Colomer J, Ferro T, Lavado À. Effect of frailty in health resource use in aged cancer patients. Gac Sanit. 2024;38:102360. Article PubMed Google Scholar\nLiu F, Peng Y, Wang P, Qiao Y, Si C, Wang X, et al. Associations of physical frailty with incidence and mortality of overall and site-specific cancers: A prospective cohort study from UK biobank. Prev Med. 2023;177:107742. Article PubMed Google Scholar\nMak JKL, Kuja-Halkola R, Wang Y, Hägg S, Jylhävä J. Can frailty scores predict the incidence of cancer? Results from two large population-based studies. The Cox proportional hazards model was"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Results from two large population-based studies.",
+      "reference_ids": [
+        "ref-003"
+      ],
+      "supporting_excerpts": [
+        "Impact of frailty on survivals of prostate Cancer patients treated with radiotherapy. Arch Gerontol Geriatr. 2022;100:104651. Article CAS PubMed Google Scholar\nMoreno-Carmona R, Serra-Prat M, Serra-Colomer J, Ferro T, Lavado À. Effect of frailty in health resource use in aged cancer patients. Gac Sanit. 2024;38:102360. Article PubMed Google Scholar\nLiu F, Peng Y, Wang P, Qiao Y, Si C, Wang X, et al. Associations of physical frailty with incidence and mortality of overall and site-specific cancers: A prospective cohort study from UK biobank. Prev Med. 2023;177:107742. Article PubMed Google Scholar\nMak JKL, Kuja-Halkola R, Wang Y, Hägg S, Jylhävä J. Can frailty scores predict the incidence of cancer? Results from two large population-based studies. The Cox proportional hazards model was"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - PubMed cancer (PCa), which in turn impacts survival.",
+      "reference_ids": [
+        "ref-004"
+      ],
+      "supporting_excerpts": [
+        "cancer (PCa), which in turn impacts survival. We evaluated the associations between frailty and risks of all-cause mortality and cancer-specific mortality in PCa patients treated with radiotherapy (RT). Methods: We conducted a retrospective cohort study using the Taiwan Cancer Registry Database and National Health Insurance Research Database. Patients aged ≥65 years with newly-diagnosed PCa, and receiving RT as initial treatment between 2011 and 2015 were identified in the study. Frailty was measured using the multimorbidity frailty index (mFI), categorized as fit, mild frailty, moderate frailty, and severe frailty. Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page content An official website of the United States government"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "We evaluated the associations between frailty and risks of all-cause mortality and cancer-specific mortality in PCa patients treated with radiotherapy (RT).",
+      "reference_ids": [
+        "ref-004"
+      ],
+      "supporting_excerpts": [
+        "cancer (PCa), which in turn impacts survival. We evaluated the associations between frailty and risks of all-cause mortality and cancer-specific mortality in PCa patients treated with radiotherapy (RT). Methods: We conducted a retrospective cohort study using the Taiwan Cancer Registry Database and National Health Insurance Research Database. Patients aged ≥65 years with newly-diagnosed PCa, and receiving RT as initial treatment between 2011 and 2015 were identified in the study. Frailty was measured using the multimorbidity frailty index (mFI), categorized as fit, mild frailty, moderate frailty, and severe frailty. Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page content An official website of the United States government"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Fifteen-Year Outcomes after Monitoring, Surgery, or Radiotherapy for Prostate Cancer | New England Journal of Medicine Tschernichovsky, Dimitri Bragilovski, Miriam Weinstock-Sabbah, Jonathan Kindler, Ruth Dadush Azuz, Roman Radus, Oded Icht, Shay Golan, Tzippora Shochet, Dror Limon, Two-year toxicity and PSA dynamics in the initial cohort of the SABR-Dual trial − two-fraction stereotactic radiotherapy for localized prostate cancer using rectal spacing, Radiotherapy and Oncology, 219 , (111497), (2026). https://doi.org/10.1016/j.radonc.2026.111497 Crossref their clinician about the benefits and harms of screening.",
+      "reference_ids": [
+        "ref-005"
+      ],
+      "supporting_excerpts": [
+        "Tschernichovsky,\nDimitri Bragilovski,\nMiriam Weinstock-Sabbah,\nJonathan Kindler,\nRuth Dadush Azuz,\nRoman Radus,\nOded Icht,\nShay Golan,\nTzippora Shochet,\nDror Limon, Two-year toxicity and PSA dynamics in the initial cohort of the SABR-Dual trial − two-fraction stereotactic radiotherapy for localized prostate cancer using rectal spacing, Radiotherapy and Oncology, 219 , (111497), (2026). https://doi.org/10.1016/j.radonc.2026.111497 Crossref",
+        "their clinician about the benefits and harms of screening. 71 This recommendation is similar to American Cancer Society guidelines since 2010, which recommend that asymptomatic men with at least a 10‐year life expectancy make an informed decision with their health care provider about whether to be screened beginning at age 50 years for men at average risk, age 45 years for Black men, and as early as age 40 years for men at even higher risk. Fifteen‐year outcomes after monitoring, surgery, or radiotherapy for prostate cancer. N Engl J Med. 2023;388(17):1547‐1558. doi: 10.1056/NEJMoa2214122 [ DOI ] [ PubMed ] [ Google Scholar ]\nAl Hussein AAB, Wallis CJD, Penson DF, et al. Functional outcomes after localized prostate cancer treatment. JAMA. 2024;331(4):302‐317. doi: 10.1001/jama"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "71 This recommendation is similar to American Cancer Society guidelines since 2010, which recommend that asymptomatic men with at least a 10‐year life expectancy make an informed decision with their health care provider about whether to be screened beginning at age 50 years for men at average risk, age 45 years for Black men, and as early as age 40 years for men at even higher risk.",
+      "reference_ids": [
+        "ref-005"
+      ],
+      "supporting_excerpts": [
+        "Tschernichovsky,\nDimitri Bragilovski,\nMiriam Weinstock-Sabbah,\nJonathan Kindler,\nRuth Dadush Azuz,\nRoman Radus,\nOded Icht,\nShay Golan,\nTzippora Shochet,\nDror Limon, Two-year toxicity and PSA dynamics in the initial cohort of the SABR-Dual trial − two-fraction stereotactic radiotherapy for localized prostate cancer using rectal spacing, Radiotherapy and Oncology, 219 , (111497), (2026). https://doi.org/10.1016/j.radonc.2026.111497 Crossref",
+        "their clinician about the benefits and harms of screening. 71 This recommendation is similar to American Cancer Society guidelines since 2010, which recommend that asymptomatic men with at least a 10‐year life expectancy make an informed decision with their health care provider about whether to be screened beginning at age 50 years for men at average risk, age 45 years for Black men, and as early as age 40 years for men at even higher risk. Fifteen‐year outcomes after monitoring, surgery, or radiotherapy for prostate cancer. N Engl J Med. 2023;388(17):1547‐1558. doi: 10.1056/NEJMoa2214122 [ DOI ] [ PubMed ] [ Google Scholar ]\nAl Hussein AAB, Wallis CJD, Penson DF, et al. Functional outcomes after localized prostate cancer treatment. JAMA. 2024;331(4):302‐317. doi: 10.1001/jama"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Advanced techniques such as stereotactic body radiotherapy (SBRT) and hypofractionated regimens are highly effective non-invasive treatment options that may avoid the need for hospital admission, the potential",
+      "reference_ids": [
+        "ref-006"
+      ],
+      "supporting_excerpts": [
+        "geriatric oncology as applied to radiation oncology, options for dose fractionation schedules and techniques across pre-defined tumor sites and appropriate individualised modifications of regimens in the setting of frailty, discussion of expected tolerability and toxicity (if any) in older adults, and the unique perspectives of care around older adults requiring RT in low- and middle-income countries. Keywords: Geriatric oncology; Older adults; Radiation oncology; Radiation therapy; Radiotherapy. Copyright © 2025 The Authors. Published by Elsevier Ltd.. All rights reserved. Advanced techniques such as stereotactic body radiotherapy (SBRT) and hypofractionated regimens are highly effective non-invasive treatment options that may avoid the need for hospital admission, the potential"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "They randomised 874 patients in an Outcomes of prostate cancer treatments - 2025 - BJU International This month's column focuses on outcomes associated with the treatment of prostate cancer.",
+      "reference_ids": [
+        "ref-007"
+      ],
+      "supporting_excerpts": [
+        "Section:  > \nOutcomes of prostate cancer treatments - 2025 - BJU International\nJan 20, 2025 · Van As et al. conducted a phase 3 trial of stereotactic body radiotherapy for localised prostate cancer. They randomised 874 patients in an Outcomes of prostate cancer treatments - 2025 - BJU International\nThis month's column focuses on outcomes associated with the treatment of prostate cancer. Unger et al. chronicled long-term ... Section:  > \nOutcomes of prostate cancer treatments - BJU International\nJan 20, 2025 — Men undergoing radical prostatectomy had a 48% lower risk of death from prostate cancer compared to watchful waiting and a 26% lower risk of"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Acute toxicity of prostate cancer radiotherapy associated with late toxicity - Nierengarten - 2025 - Cancer - Wiley Online Library Acute toxicity of prostate cancer radiotherapy associated with late toxicity Acute toxicity following prostate cancer radiotherapy was statistically and significantly associated with late toxicity in patient-reported quality-of-life metrics.",
+      "reference_ids": [
+        "ref-008"
+      ],
+      "supporting_excerpts": [
+        "Acute toxicity of prostate cancer radiotherapy associated with late toxicity\nAcute toxicity following prostate cancer radiotherapy was statistically and significantly associated with late toxicity in patient-reported quality-of-life metrics.\nMary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author First published: 17 June 2025 https://doi.org/10.1002/cncr.35886 Digital Object Identifier (DOI) view metrics Nierengarten, M.B. (2025), Acute toxicity of prostate cancer radiotherapy associated with late toxicity. Cancer, 131: e35886. https://doi.org/10.1002/cncr.35886 PDF About\nReferences\nRelated\nInformation\nPDF CITE Tools QR Code Acute toxicity related to prostate cancer"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author First published: 17 June 2025 https://doi.org/10.1002/cncr.35886 Digital Object Identifier (DOI) view metrics Nierengarten, M.B. (2025), Acute toxicity of prostate cancer radiotherapy associated with late toxicity.",
+      "reference_ids": [
+        "ref-008"
+      ],
+      "supporting_excerpts": [
+        "Acute toxicity of prostate cancer radiotherapy associated with late toxicity\nAcute toxicity following prostate cancer radiotherapy was statistically and significantly associated with late toxicity in patient-reported quality-of-life metrics.\nMary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author First published: 17 June 2025 https://doi.org/10.1002/cncr.35886 Digital Object Identifier (DOI) view metrics Nierengarten, M.B. (2025), Acute toxicity of prostate cancer radiotherapy associated with late toxicity. Cancer, 131: e35886. https://doi.org/10.1002/cncr.35886 PDF About\nReferences\nRelated\nInformation\nPDF CITE Tools QR Code Acute toxicity related to prostate cancer"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al.",
+      "reference_ids": [
+        "ref-009"
+      ],
+      "supporting_excerpts": [
+        "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024\nEdward M Schaeffer et al. J Natl Compr Canc Netw . 2024 Apr . Show details Display options J Natl Compr Canc Netw . 2024 Apr;22(3):140-150. doi: 10.6004/jnccn.2024.0019.\nAffiliations Abstract\nThe NCCN Guidelines for Prostate Cancer include recommendations for staging and risk assessment after a prostate cancer diagnosis and for the care of patients with localized, regional, recurrent, and metastatic disease. These NCCN Guidelines Insights summarize the panel's discussions for the 2024 update to the guidelines with regard to initial risk stratification, initial management of very-low-risk disease, and the treatment of nonmetastatic recurrence. PubMed Disclaimer\nPublication types\nResearch Support, Non-U.S. Gov't\nMeSH terms\nHumans"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Show details Display options J Natl Compr Canc Netw .",
+      "reference_ids": [
+        "ref-009"
+      ],
+      "supporting_excerpts": [
+        "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024\nEdward M Schaeffer et al. J Natl Compr Canc Netw . 2024 Apr . Show details Display options J Natl Compr Canc Netw . 2024 Apr;22(3):140-150. doi: 10.6004/jnccn.2024.0019.\nAffiliations Abstract\nThe NCCN Guidelines for Prostate Cancer include recommendations for staging and risk assessment after a prostate cancer diagnosis and for the care of patients with localized, regional, recurrent, and metastatic disease. These NCCN Guidelines Insights summarize the panel's discussions for the 2024 update to the guidelines with regard to initial risk stratification, initial management of very-low-risk disease, and the treatment of nonmetastatic recurrence. PubMed Disclaimer\nPublication types\nResearch Support, Non-U.S. Gov't\nMeSH terms\nHumans"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "PMID: 38261043 PMCID: PMC10807259 DOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy.",
+      "reference_ids": [
+        "ref-010"
+      ],
+      "supporting_excerpts": [
+        "Anderson Center, Houston.\nPMID: 38261043\nPMCID: PMC10807259\nDOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy. Conclusions and relevance: Among patients treated for localized prostate cancer, radical prostatectomy was associated with worse urinary incontinence but not worse sexual function at 10-year follow-up compared with radiotherapy or surveillance among people with more favorable prognosis and compared with radiotherapy for those with unfavorable prognosis. Abstract Importance: Adverse outcomes associated"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Conclusions and relevance: Among patients treated for localized prostate cancer, radical prostatectomy was associated with worse urinary incontinence but not worse sexual function at 10-year follow-up compared with radiotherapy or surveillance among people with more favorable prognosis and compared with radiotherapy for those with unfavorable prognosis.",
+      "reference_ids": [
+        "ref-010"
+      ],
+      "supporting_excerpts": [
+        "Anderson Center, Houston.\nPMID: 38261043\nPMCID: PMC10807259\nDOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy. Conclusions and relevance: Among patients treated for localized prostate cancer, radical prostatectomy was associated with worse urinary incontinence but not worse sexual function at 10-year follow-up compared with radiotherapy or surveillance among people with more favorable prognosis and compared with radiotherapy for those with unfavorable prognosis. Abstract Importance: Adverse outcomes associated"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Abstract Importance: Adverse outcomes associated",
+      "reference_ids": [
+        "ref-010"
+      ],
+      "supporting_excerpts": [
+        "Anderson Center, Houston.\nPMID: 38261043\nPMCID: PMC10807259\nDOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy. Conclusions and relevance: Among patients treated for localized prostate cancer, radical prostatectomy was associated with worse urinary incontinence but not worse sexual function at 10-year follow-up compared with radiotherapy or surveillance among people with more favorable prognosis and compared with radiotherapy for those with unfavorable prognosis. Abstract Importance: Adverse outcomes associated"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Radical Prostatectomy Versus Radiotherapy for Prostate Cancer: Stage-, Age-, and Frailty-Specific Cancer-Control Outcomes of 2600 Patients - PMC Radical prostatectomy or radiotherapy reduce prostate cancer mortality in elderly patients: A population-based propensity score adjusted analysis.",
+      "reference_ids": [
+        "ref-011"
+      ],
+      "supporting_excerpts": [
+        "Radical prostatectomy or radiotherapy reduce prostate cancer mortality in elderly patients: A population-based propensity score adjusted analysis. World J Urol. 2018;36:7–13. doi: 10.1007/s00345-017-2102-9. [ DOI ] [ PubMed ] [ Google Scholar ]\nHoeh B, Hohenhorst JL, Flammia R, et al. Cancer-specific mortality after radical prostatectomy vs external beam radiotherapy in high-risk Hispanic/Latino prostate cancer patients. Int Urol Nephrol. 2022;54:81–87. doi: 10.1007/s11255-021-03055-7. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]\nWenzel M, Würnschimmel C, Chierigo F, et al. Pattern of biopsy Gleason Grade Group 5 (4 5 vs 5 4 vs 5 5) predicts survival after radical prostatectomy or external beam radiation therapy. Eur Urol Focus. 2022;8:710–717. Journal List\nUser Guide"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "2018;36:7–13. doi: 10.1007/s00345-017-2102-9. [ DOI ] [ PubMed ] [ Google Scholar ] Hoeh B, Hohenhorst JL, Flammia R, et al.",
+      "reference_ids": [
+        "ref-011"
+      ],
+      "supporting_excerpts": [
+        "Radical prostatectomy or radiotherapy reduce prostate cancer mortality in elderly patients: A population-based propensity score adjusted analysis. World J Urol. 2018;36:7–13. doi: 10.1007/s00345-017-2102-9. [ DOI ] [ PubMed ] [ Google Scholar ]\nHoeh B, Hohenhorst JL, Flammia R, et al. Cancer-specific mortality after radical prostatectomy vs external beam radiotherapy in high-risk Hispanic/Latino prostate cancer patients. Int Urol Nephrol. 2022;54:81–87. doi: 10.1007/s11255-021-03055-7. [ DOI ] [ PMC free article ] [ PubMed ] [ Google Scholar ]\nWenzel M, Würnschimmel C, Chierigo F, et al. Pattern of biopsy Gleason Grade Group 5 (4 5 vs 5 4 vs 5 5) predicts survival after radical prostatectomy or external beam radiation therapy. Eur Urol Focus. 2022;8:710–717. Journal List\nUser Guide"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Impact of diabetes and metformin use on prostate cancer outcome of patients treated with radiation therapy: results from a large institutional database - PubMed treated with radiotherapy or brachytherapy.",
+      "reference_ids": [
+        "ref-012"
+      ],
+      "supporting_excerpts": [
+        "treated with radiotherapy or brachytherapy. Materials and methods: All patients from a large institutionalized database, treated for primary localized prostate cancer with either brachytherapy or external-beam radiotherapy ± androgen deprivation therapy were identified. Groups were compared by Kaplan-Meier analyses and Cox regression models. Multivariate analysis was adjusted for CAPRA-Score, type of treatment and age. Results: A total of 2441 patients with complete data was identified. Among the 382 patients (16% of total) were diabetic. Two-hundred and eighty-one of the 382 diabetics (74%) were treated with metformin and 101 were treated with other anti-diabetic medication. Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Results: A total of 2441 patients with complete data was identified.",
+      "reference_ids": [
+        "ref-012"
+      ],
+      "supporting_excerpts": [
+        "treated with radiotherapy or brachytherapy. Materials and methods: All patients from a large institutionalized database, treated for primary localized prostate cancer with either brachytherapy or external-beam radiotherapy ± androgen deprivation therapy were identified. Groups were compared by Kaplan-Meier analyses and Cox regression models. Multivariate analysis was adjusted for CAPRA-Score, type of treatment and age. Results: A total of 2441 patients with complete data was identified. Among the 382 patients (16% of total) were diabetic. Two-hundred and eighty-one of the 382 diabetics (74%) were treated with metformin and 101 were treated with other anti-diabetic medication. Clipboard, Search History, and several other advanced features are temporarily unavailable. Skip to main page"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Management of high-risk prostate cancer in Spain: results from a ...",
+      "reference_ids": [
+        "ref-013"
+      ],
+      "supporting_excerpts": [
+        "Management of high-risk prostate cancer in Spain: results from a ...\nThis study represents the current status of the management of HR-prostate cancer in Spain, highlighting the wide variety of radiotherapy treatments as well as the need for national consensus guidelines"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Management of high-risk prostate cancer in Spain: results from a ...",
+      "reference_ids": [
+        "ref-013"
+      ],
+      "supporting_excerpts": [
+        "Management of high-risk prostate cancer in Spain: results from a ...\nThis study represents the current status of the management of HR-prostate cancer in Spain, highlighting the wide variety of radiotherapy treatments as well as the need for national consensus guidelines"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Long-term Overall Survival after External Beam Radiotherapy for Localised Prostate Cancer - ScienceDirect external beam radiotherapy are typically in good health, their comorbidity score and smoking habits appeared to be dominant predictors for overall survival.",
+      "reference_ids": [
+        "ref-014"
+      ],
+      "supporting_excerpts": [
+        "external beam radiotherapy are typically in good health, their comorbidity score and smoking habits appeared to be dominant predictors for overall survival. Overall survival rates within the high-risk group varied, showing improved overall survival with ADT prescription and worse overall survival in the case of Gleason score ≥8.\nIntroduction Local failure events in prostate cancer treated with radiotherapy: a pooled analysis of 18 randomized trials from the meta-analysis of randomized trials in cancer of the prostate consortium (leviathan)\nEur Urol (2022)\nA. Naser-Tavakolian et al.\nThe impact of life expectancy on cost-efefctiveness of treatment options for clinically localized prostate cancer\nUrol Oncol (2023)\nJ.A. Eastham et al.\nClinically localized prostate cancer: AUA/ASTRO guideline"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Overall survival rates within the high-risk group varied, showing improved overall survival with ADT prescription and worse overall survival in the case of Gleason score ≥8.",
+      "reference_ids": [
+        "ref-014"
+      ],
+      "supporting_excerpts": [
+        "external beam radiotherapy are typically in good health, their comorbidity score and smoking habits appeared to be dominant predictors for overall survival. Overall survival rates within the high-risk group varied, showing improved overall survival with ADT prescription and worse overall survival in the case of Gleason score ≥8.\nIntroduction Local failure events in prostate cancer treated with radiotherapy: a pooled analysis of 18 randomized trials from the meta-analysis of randomized trials in cancer of the prostate consortium (leviathan)\nEur Urol (2022)\nA. Naser-Tavakolian et al.\nThe impact of life expectancy on cost-efefctiveness of treatment options for clinically localized prostate cancer\nUrol Oncol (2023)\nJ.A. Eastham et al.\nClinically localized prostate cancer: AUA/ASTRO guideline"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Murray L et al (2014) Second primary cancers after radiation for prostate cancer: a systematic review of the clinical data",
+      "reference_ids": [
+        "ref-015"
+      ],
+      "supporting_excerpts": [
+        "with worse survival (adjusted HR: 1.76) Open in a new tab Abbreviations: aOR  adjusted odds ratio, RP  radical prostatectomy, RT  radiotherapy, IMRT  intensity-modulated radiotherapy, CFRT  conventionally fractionated radiotherapy, HFRT  hypo-fractionated radiotherapy, BT  brachytherapy, SPC  second primary cancer, SBRT  stereotactic body radiotherapy, PCa  prostate cancer, SEER  Surveillance, Epidemiology and End Results, NCDB  National Cancer Database, HR  hazard ratio, IQR  interquartile range, y  years The retrospective study by Dee et al. [ 8 ] included 303,432 patients diagnosed with PCa before 2014 from the National Cancer Database in the USA. Murray L et al (2014) Second primary cancers after radiation for prostate cancer: a systematic review of the clinical data"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Recommended articles No articles found.",
+      "reference_ids": [
+        "ref-016"
+      ],
+      "supporting_excerpts": [
+        "Conclusion\nIn this cohort of patients treated with ADT and definitive RT, 5-year DMFS was 67%. Gleason score and age were the strongest prognostic features. There was no significant association, but numerically higher survival seen with use of ARSI or brachytherapy boost. Future work characterizing patterns of care and failure is needed to help optimize management.\nReferences (0)\nCited by (0)\nView full text Copyright © 2025 Published by Elsevier Inc.\nRecommended articles\nNo articles found. Clinical Outcomes for Radiographic Node-Positive Prostate Cancer Following Definitive Radiotherapy Author links open overlay panel Jade K. Dodge MS , Lily Boe PhD , Kevin Boehm MD, PhD , David Guttmann MD , Zachary Moore MD, PhD , Dhwani Parikh MD , Andrew Barsky MD , Marisa Kollmeier MD , Sean McBride"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Predicting dose response to prostate cancer radiotherapy ...",
+      "reference_ids": [
+        "ref-017"
+      ],
+      "supporting_excerpts": [
+        "Predicting dose response to prostate cancer radiotherapy ...\nby A Dal Pra · 2025 · Cited by 15 — We investigated a previously developed Post-Operative Radiation Therapy Outcomes Score (PORTOS) to identify preferential benefit from radiation dose escalation"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Predicting dose response to prostate cancer radiotherapy ... by A Dal Pra · 2025 · Cited by 15 — We investigated a previously developed Post-Operative Radiation Therapy Outcomes Score (PORTOS) to identify preferential benefit from radiation dose escalation",
+      "reference_ids": [
+        "ref-017"
+      ],
+      "supporting_excerpts": [
+        "Predicting dose response to prostate cancer radiotherapy ...\nby A Dal Pra · 2025 · Cited by 15 — We investigated a previously developed Post-Operative Radiation Therapy Outcomes Score (PORTOS) to identify preferential benefit from radiation dose escalation"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - ScienceDirect approach to address the impact of aging on cancer survival.",
+      "reference_ids": [
+        "ref-018"
+      ],
+      "supporting_excerpts": [
+        "approach to address the impact of aging on cancer survival. In this study, we proposed to adopt the multimorbidity frailty index (mFI) based on the cumulative deficits approach to measure frailty and to investigate the impact of pretreatment frailty on clinical outcomes in older adults going through radiotherapy for prostate malignancy. Skip to main content Skip to article\nJournals & Books\nHelp\nSearch My account Sign in\nAccess through your organization\nPurchase PDF\nPatient Access\nOther access options Search ScienceDirect\nArticle preview\nAbstract\nIntroduction\nSection snippets\nReferences (42)\nCited by (17)\nArchives of Gerontology and Geriatrics\nVolume 100 , May–June 2022, 104651\nImpact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy\nAuthor links open overlay"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "In this study, we proposed to adopt the multimorbidity frailty index (mFI) based on the cumulative deficits approach to measure frailty and to investigate the impact of pretreatment frailty on clinical outcomes in older adults going through radiotherapy for prostate malignancy.",
+      "reference_ids": [
+        "ref-018"
+      ],
+      "supporting_excerpts": [
+        "approach to address the impact of aging on cancer survival. In this study, we proposed to adopt the multimorbidity frailty index (mFI) based on the cumulative deficits approach to measure frailty and to investigate the impact of pretreatment frailty on clinical outcomes in older adults going through radiotherapy for prostate malignancy. Skip to main content Skip to article\nJournals & Books\nHelp\nSearch My account Sign in\nAccess through your organization\nPurchase PDF\nPatient Access\nOther access options Search ScienceDirect\nArticle preview\nAbstract\nIntroduction\nSection snippets\nReferences (42)\nCited by (17)\nArchives of Gerontology and Geriatrics\nVolume 100 , May–June 2022, 104651\nImpact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy\nAuthor links open overlay"
+      ],
+      "status": "single-source"
+    },
+    {
+      "claim": "Setting the PACE for prostate radiotherapy - The Lancet Oncology Section: > Setting the PACE for prostate radiotherapy - The Lancet Oncology Radical prostatectomy versus stereotactic radiotherapy for clinically localised prostate cancer: results of the PACE-A randomised trial.",
+      "reference_ids": [
+        "ref-019"
+      ],
+      "supporting_excerpts": [
+        "Section:  > \nSetting the PACE for prostate radiotherapy - The Lancet Oncology\nRadical prostatectomy versus stereotactic radiotherapy for clinically localised prostate cancer: results of the PACE-A randomised trial. Eur ... Setting the PACE for prostate radiotherapy - The Lancet Oncology\n3. Kishan, AU ∙ Dang, A ∙ Katz, AJ ∙ et al. Long-term outcomes of stereotactic body radiotherapy for low-risk and intermediate-risk prostate cancer"
+      ],
+      "status": "single-source"
+    }
+  ],
+  "synthesis": {
+    "consensus_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "The results from 3 contemporary clinical trials are available, 2 of which have fewer than 100 patients. doi: 10.1111/j.1442-2042.2012.03052.x PubMed Google Scholar Crossref 6."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials - PubMed Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials Satı Coşkun Yazgan et al."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "Show details Display options Display options Format Abstract PubMed PMID Eur Urol Oncol Actions Search in PubMed Search in NLM Catalog Add to Search ."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "Effect of frailty in health resource use in aged cancer patients."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "Results from two large population-based studies."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - PubMed cancer (PCa), which in turn impacts survival."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "We evaluated the associations between frailty and risks of all-cause mortality and cancer-specific mortality in PCa patients treated with radiotherapy (RT)."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "Fifteen-Year Outcomes after Monitoring, Surgery, or Radiotherapy for Prostate Cancer | New England Journal of Medicine Tschernichovsky, Dimitri Bragilovski, Miriam Weinstock-Sabbah, Jonathan Kindler, Ruth Dadush Azuz, Roman Radus, Oded Icht, Shay Golan, Tzippora Shochet, Dror Limon, Two-year toxicity and PSA dynamics in the initial cohort of the SABR-Dual trial − two-fraction stereotactic radiotherapy for localized prostate cancer using rectal spacing, Radiotherapy and Oncology, 219 , (111497), (2026). https://doi.org/10.1016/j.radonc.2026.111497 Crossref their clinician about the benefits and harms of screening."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "71 This recommendation is similar to American Cancer Society guidelines since 2010, which recommend that asymptomatic men with at least a 10‐year life expectancy make an informed decision with their health care provider about whether to be screened beginning at age 50 years for men at average risk, age 45 years for Black men, and as early as age 40 years for men at even higher risk."
+      },
+      {
+        "reference_id": "ref-006",
+        "finding": "Advanced techniques such as stereotactic body radiotherapy (SBRT) and hypofractionated regimens are highly effective non-invasive treatment options that may avoid the need for hospital admission, the potential"
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "They randomised 874 patients in an Outcomes of prostate cancer treatments - 2025 - BJU International This month's column focuses on outcomes associated with the treatment of prostate cancer."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "Acute toxicity of prostate cancer radiotherapy associated with late toxicity - Nierengarten - 2025 - Cancer - Wiley Online Library Acute toxicity of prostate cancer radiotherapy associated with late toxicity Acute toxicity following prostate cancer radiotherapy was statistically and significantly associated with late toxicity in patient-reported quality-of-life metrics."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author Mary Beth Nierengarten , Mary Beth Nierengarten Search for more papers by this author First published: 17 June 2025 https://doi.org/10.1002/cncr.35886 Digital Object Identifier (DOI) view metrics Nierengarten, M.B. (2025), Acute toxicity of prostate cancer radiotherapy associated with late toxicity."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "Show details Display options J Natl Compr Canc Netw ."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "PMID: 38261043 PMCID: PMC10807259 DOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "Conclusions and relevance: Among patients treated for localized prostate cancer, radical prostatectomy was associated with worse urinary incontinence but not worse sexual function at 10-year follow-up compared with radiotherapy or surveillance among people with more favorable prognosis and compared with radiotherapy for those with unfavorable prognosis."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "Abstract Importance: Adverse outcomes associated"
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "Radical Prostatectomy Versus Radiotherapy for Prostate Cancer: Stage-, Age-, and Frailty-Specific Cancer-Control Outcomes of 2600 Patients - PMC Radical prostatectomy or radiotherapy reduce prostate cancer mortality in elderly patients: A population-based propensity score adjusted analysis."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "2018;36:7–13. doi: 10.1007/s00345-017-2102-9. [ DOI ] [ PubMed ] [ Google Scholar ] Hoeh B, Hohenhorst JL, Flammia R, et al."
+      }
+    ],
+    "conflicting_evidence": [],
+    "methodological_patterns": {
+      "clinical trial": 1,
+      "meta-analysis": 2,
+      "cohort study": 2,
+      "primary/other": 11,
+      "review": 2,
+      "systematic review": 1
+    },
+    "research_gaps": [
+      "No explicit contradictory or null evidence was identified; run a targeted negative-results search before asserting consensus."
+    ]
+  },
+  "section_briefs": {
+    "introduction": {
+      "purpose": "Established background, significance, and unresolved gap.",
+      "reference_ids": [
+        "ref-001",
+        "ref-002",
+        "ref-003",
+        "ref-004",
+        "ref-005",
+        "ref-006",
+        "ref-007",
+        "ref-008",
+        "ref-009",
+        "ref-010",
+        "ref-011",
+        "ref-012",
+        "ref-013",
+        "ref-014",
+        "ref-015",
+        "ref-016",
+        "ref-017",
+        "ref-018",
+        "ref-019"
+      ],
+      "candidate_evidence": [
+        {
+          "reference_id": "ref-001",
+          "finding": "The results from 3 contemporary clinical trials are available, 2 of which have fewer than 100 patients. doi: 10.1111/j.1442-2042.2012.03052.x PubMed Google Scholar Crossref 6."
+        },
+        {
+          "reference_id": "ref-002",
+          "finding": "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials - PubMed Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials Satı Coşkun Yazgan et al."
+        },
+        {
+          "reference_id": "ref-003",
+          "finding": "Effect of frailty in health resource use in aged cancer patients."
+        },
+        {
+          "reference_id": "ref-004",
+          "finding": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - PubMed cancer (PCa), which in turn impacts survival."
+        },
+        {
+          "reference_id": "ref-005",
+          "finding": "Fifteen-Year Outcomes after Monitoring, Surgery, or Radiotherapy for Prostate Cancer | New England Journal of Medicine Tschernichovsky, Dimitri Bragilovski, Miriam Weinstock-Sabbah, Jonathan Kindler, Ruth Dadush Azuz, Roman Radus, Oded Icht, Shay Golan, Tzippora Shochet, Dror Limon, Two-year toxicity and PSA dynamics in the initial cohort of the SABR-Dual trial − two-fraction stereotactic radiotherapy for localized prostate cancer using rectal spacing, Radiotherapy and Oncology, 219 , (111497), (2026). https://doi.org/10.1016/j.radonc.2026.111497 Crossref their clinician about the benefits and harms of screening."
+        },
+        {
+          "reference_id": "ref-006",
+          "finding": "Advanced techniques such as stereotactic body radiotherapy (SBRT) and hypofractionated regimens are highly effective non-invasive treatment options that may avoid the need for hospital admission, the potential"
+        },
+        {
+          "reference_id": "ref-007",
+          "finding": "They randomised 874 patients in an Outcomes of prostate cancer treatments - 2025 - BJU International This month's column focuses on outcomes associated with the treatment of prostate cancer."
+        },
+        {
+          "reference_id": "ref-008",
+          "finding": "Acute toxicity of prostate cancer radiotherapy associated with late toxicity - Nierengarten - 2025 - Cancer - Wiley Online Library Acute toxicity of prostate cancer radiotherapy associated with late toxicity Acute toxicity following prostate cancer radiotherapy was statistically and significantly associated with late toxicity in patient-reported quality-of-life metrics."
+        },
+        {
+          "reference_id": "ref-009",
+          "finding": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al."
+        },
+        {
+          "reference_id": "ref-010",
+          "finding": "PMID: 38261043 PMCID: PMC10807259 DOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy."
+        },
+        {
+          "reference_id": "ref-011",
+          "finding": "Radical Prostatectomy Versus Radiotherapy for Prostate Cancer: Stage-, Age-, and Frailty-Specific Cancer-Control Outcomes of 2600 Patients - PMC Radical prostatectomy or radiotherapy reduce prostate cancer mortality in elderly patients: A population-based propensity score adjusted analysis."
+        },
+        {
+          "reference_id": "ref-012",
+          "finding": "Impact of diabetes and metformin use on prostate cancer outcome of patients treated with radiation therapy: results from a large institutional database - PubMed treated with radiotherapy or brachytherapy."
+        },
+        {
+          "reference_id": "ref-013",
+          "finding": "Management of high-risk prostate cancer in Spain: results from a ..."
+        },
+        {
+          "reference_id": "ref-014",
+          "finding": "Long-term Overall Survival after External Beam Radiotherapy for Localised Prostate Cancer - ScienceDirect external beam radiotherapy are typically in good health, their comorbidity score and smoking habits appeared to be dominant predictors for overall survival."
+        },
+        {
+          "reference_id": "ref-015",
+          "finding": "Murray L et al (2014) Second primary cancers after radiation for prostate cancer: a systematic review of the clinical data"
+        },
+        {
+          "reference_id": "ref-016",
+          "finding": "Recommended articles No articles found."
+        },
+        {
+          "reference_id": "ref-017",
+          "finding": "Predicting dose response to prostate cancer radiotherapy ..."
+        },
+        {
+          "reference_id": "ref-018",
+          "finding": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - ScienceDirect approach to address the impact of aging on cancer survival."
+        },
+        {
+          "reference_id": "ref-019",
+          "finding": "Setting the PACE for prostate radiotherapy - The Lancet Oncology Section: > Setting the PACE for prostate radiotherapy - The Lancet Oncology Radical prostatectomy versus stereotactic radiotherapy for clinically localised prostate cancer: results of the PACE-A randomised trial."
+        }
+      ]
+    },
+    "methods-rationale": {
+      "purpose": "Published precedent for measures, protocols, models, and analyses.",
+      "reference_ids": [
+        "ref-001",
+        "ref-002",
+        "ref-003",
+        "ref-004",
+        "ref-011",
+        "ref-012",
+        "ref-014",
+        "ref-018"
+      ],
+      "candidate_evidence": [
+        {
+          "reference_id": "ref-001",
+          "finding": "The results from 3 contemporary clinical trials are available, 2 of which have fewer than 100 patients. doi: 10.1111/j.1442-2042.2012.03052.x PubMed Google Scholar Crossref 6."
+        },
+        {
+          "reference_id": "ref-002",
+          "finding": "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials - PubMed Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials Satı Coşkun Yazgan et al."
+        },
+        {
+          "reference_id": "ref-003",
+          "finding": "Effect of frailty in health resource use in aged cancer patients."
+        },
+        {
+          "reference_id": "ref-004",
+          "finding": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - PubMed cancer (PCa), which in turn impacts survival."
+        },
+        {
+          "reference_id": "ref-011",
+          "finding": "Radical Prostatectomy Versus Radiotherapy for Prostate Cancer: Stage-, Age-, and Frailty-Specific Cancer-Control Outcomes of 2600 Patients - PMC Radical prostatectomy or radiotherapy reduce prostate cancer mortality in elderly patients: A population-based propensity score adjusted analysis."
+        },
+        {
+          "reference_id": "ref-012",
+          "finding": "Impact of diabetes and metformin use on prostate cancer outcome of patients treated with radiation therapy: results from a large institutional database - PubMed treated with radiotherapy or brachytherapy."
+        },
+        {
+          "reference_id": "ref-014",
+          "finding": "Long-term Overall Survival after External Beam Radiotherapy for Localised Prostate Cancer - ScienceDirect external beam radiotherapy are typically in good health, their comorbidity score and smoking habits appeared to be dominant predictors for overall survival."
+        },
+        {
+          "reference_id": "ref-018",
+          "finding": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - ScienceDirect approach to address the impact of aging on cancer survival."
+        }
+      ]
+    },
+    "discussion": {
+      "purpose": "Supporting and conflicting studies, mechanisms, limits, and implications.",
+      "reference_ids": [
+        "ref-001",
+        "ref-002",
+        "ref-003",
+        "ref-004",
+        "ref-005",
+        "ref-006",
+        "ref-007",
+        "ref-008",
+        "ref-009",
+        "ref-010",
+        "ref-011",
+        "ref-012",
+        "ref-013",
+        "ref-014",
+        "ref-015",
+        "ref-016",
+        "ref-017",
+        "ref-018",
+        "ref-019"
+      ],
+      "candidate_evidence": [
+        {
+          "reference_id": "ref-001",
+          "finding": "The results from 3 contemporary clinical trials are available, 2 of which have fewer than 100 patients. doi: 10.1111/j.1442-2042.2012.03052.x PubMed Google Scholar Crossref 6."
+        },
+        {
+          "reference_id": "ref-002",
+          "finding": "Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials - PubMed Impact of Prostate Radiotherapy on Survival Outcomes in Patients with Metastatic Castration-sensitive Prostate Cancer: A Meta-analysis of Randomized Phase 3 Clinical Trials Satı Coşkun Yazgan et al."
+        },
+        {
+          "reference_id": "ref-003",
+          "finding": "Effect of frailty in health resource use in aged cancer patients."
+        },
+        {
+          "reference_id": "ref-004",
+          "finding": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - PubMed cancer (PCa), which in turn impacts survival."
+        },
+        {
+          "reference_id": "ref-005",
+          "finding": "Fifteen-Year Outcomes after Monitoring, Surgery, or Radiotherapy for Prostate Cancer | New England Journal of Medicine Tschernichovsky, Dimitri Bragilovski, Miriam Weinstock-Sabbah, Jonathan Kindler, Ruth Dadush Azuz, Roman Radus, Oded Icht, Shay Golan, Tzippora Shochet, Dror Limon, Two-year toxicity and PSA dynamics in the initial cohort of the SABR-Dual trial − two-fraction stereotactic radiotherapy for localized prostate cancer using rectal spacing, Radiotherapy and Oncology, 219 , (111497), (2026). https://doi.org/10.1016/j.radonc.2026.111497 Crossref their clinician about the benefits and harms of screening."
+        },
+        {
+          "reference_id": "ref-006",
+          "finding": "Advanced techniques such as stereotactic body radiotherapy (SBRT) and hypofractionated regimens are highly effective non-invasive treatment options that may avoid the need for hospital admission, the potential"
+        },
+        {
+          "reference_id": "ref-007",
+          "finding": "They randomised 874 patients in an Outcomes of prostate cancer treatments - 2025 - BJU International This month's column focuses on outcomes associated with the treatment of prostate cancer."
+        },
+        {
+          "reference_id": "ref-008",
+          "finding": "Acute toxicity of prostate cancer radiotherapy associated with late toxicity - Nierengarten - 2025 - Cancer - Wiley Online Library Acute toxicity of prostate cancer radiotherapy associated with late toxicity Acute toxicity following prostate cancer radiotherapy was statistically and significantly associated with late toxicity in patient-reported quality-of-life metrics."
+        },
+        {
+          "reference_id": "ref-009",
+          "finding": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al."
+        },
+        {
+          "reference_id": "ref-010",
+          "finding": "PMID: 38261043 PMCID: PMC10807259 DOI: 10.1001/jama.2023.26491 Among patients with unfavorable prognosis, external beam radiotherapy with androgen deprivation therapy was associated with worse bowel (adjusted mean difference, -4.9 [95% CI, -9.2 to -0.7]) and hormone (adjusted mean difference, -4.9 [95% CI, -9.5 to -0.3]) function compared with radical prostatectomy."
+        },
+        {
+          "reference_id": "ref-011",
+          "finding": "Radical Prostatectomy Versus Radiotherapy for Prostate Cancer: Stage-, Age-, and Frailty-Specific Cancer-Control Outcomes of 2600 Patients - PMC Radical prostatectomy or radiotherapy reduce prostate cancer mortality in elderly patients: A population-based propensity score adjusted analysis."
+        },
+        {
+          "reference_id": "ref-012",
+          "finding": "Impact of diabetes and metformin use on prostate cancer outcome of patients treated with radiation therapy: results from a large institutional database - PubMed treated with radiotherapy or brachytherapy."
+        },
+        {
+          "reference_id": "ref-013",
+          "finding": "Management of high-risk prostate cancer in Spain: results from a ..."
+        },
+        {
+          "reference_id": "ref-014",
+          "finding": "Long-term Overall Survival after External Beam Radiotherapy for Localised Prostate Cancer - ScienceDirect external beam radiotherapy are typically in good health, their comorbidity score and smoking habits appeared to be dominant predictors for overall survival."
+        },
+        {
+          "reference_id": "ref-015",
+          "finding": "Murray L et al (2014) Second primary cancers after radiation for prostate cancer: a systematic review of the clinical data"
+        },
+        {
+          "reference_id": "ref-016",
+          "finding": "Recommended articles No articles found."
+        },
+        {
+          "reference_id": "ref-017",
+          "finding": "Predicting dose response to prostate cancer radiotherapy ..."
+        },
+        {
+          "reference_id": "ref-018",
+          "finding": "Impact of Frailty on Survivals of Prostate Cancer Patients Treated with Radiotherapy - ScienceDirect approach to address the impact of aging on cancer survival."
+        },
+        {
+          "reference_id": "ref-019",
+          "finding": "Setting the PACE for prostate radiotherapy - The Lancet Oncology Section: > Setting the PACE for prostate radiotherapy - The Lancet Oncology Radical prostatectomy versus stereotactic radiotherapy for clinically localised prostate cancer: results of the PACE-A randomised trial."
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "requested_references": 12,
+    "total_unique_references": 19,
+    "verified_references": 13,
+    "shortfall": 0,
+    "evidence_quality_mix": {
+      "high": 4,
+      "moderate": 2,
+      "contextual": 13
+    },
+    "verification_mix": {
+      "identifier-verified": 13,
+      "search-only": 6
+    },
+    "publication_years": {
+      "2011": 1,
+      "2014": 1,
+      "2018": 1,
+      "2022": 3,
+      "2023": 1,
+      "2024": 1,
+      "2025": 5,
+      "2026": 2,
+      "2042": 1
+    },
+    "scholarly_sources": 19,
+    "preprints": 0,
+    "retracted_or_withdrawn": 0,
+    "corrections_or_errata": 0,
+    "missing_doi_or_pmid": 6,
+    "full_text_note": "Extraction verifies available public page content; paywalled full text may remain unavailable and must not be represented as reviewed."
+  },
+  "search_ledger": [
+    {
+      "capability": "openrouter:web_search",
+      "engine": "parallel",
+      "model": "google/gemini-3.5-flash-lite",
+      "domains": [
+        "pubmed.ncbi.nlm.nih.gov",
+        "pmc.ncbi.nlm.nih.gov",
+        "europepmc.org",
+        "crossref.org",
+        "openalex.org",
+        "semanticscholar.org",
+        "arxiv.org",
+        "biorxiv.org",
+        "medrxiv.org",
+        "ncbi.nlm.nih.gov",
+        "nature.com",
+        "science.org",
+        "cell.com",
+        "pnas.org",
+        "nejm.org",
+        "thelancet.com",
+        "jamanetwork.com",
+        "bmj.com",
+        "springer.com",
+        "wiley.com",
+        "sciencedirect.com",
+        "ieee.org",
+        "acm.org",
+        "nih.gov",
+        "who.int"
+      ],
+      "after_date": null,
+      "timestamp": "2026-08-01T08:42:43.386986+00:00",
+      "result_count": 19,
+      "max_searches": 2,
+      "status": "complete"
+    }
+  ],
+  "warnings": [
+    "No structured manuscript context was supplied; section briefs are broad."
+  ]
+}

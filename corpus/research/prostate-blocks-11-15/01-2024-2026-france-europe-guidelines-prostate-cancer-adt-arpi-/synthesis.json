@@ -1,0 +1,100 @@
+{
+  "consensus_evidence": [
+    {
+      "reference_id": "ref-001",
+      "finding": "Postoperative Radiation Therapy and Controversies Regarding Hormonal Therapy in the Management of Prostate Cancer - ScienceDirect in the Management of Prostate Cancer Author links open overlay panel Vérane Achard * † , Alan Dal Pra ‡ , Paul Sargos * § Show more Add to Mendeley Share Cite https://doi.org/10.1016/j.semradonc.2025.04.009 Get rights and content Biochemical recurrence (BCR) after radical prostatectomy (RP) remains a clinical challenge, with significant heterogeneity in outcomes and optimal management strategies."
+    },
+    {
+      "reference_id": "ref-001",
+      "finding": "Salvage radiotherapy (sRT) is the standard approach, yet the role and duration of concurrent hormonal therapy (ADT) are still debated."
+    },
+    {
+      "reference_id": "ref-002",
+      "finding": "French recommendations from the AFU Cancer Committee for prostate cancer: 2025 summary of changes prostate cancer: 2025 summary of changes Fr J Urol ."
+    },
+    {
+      "reference_id": "ref-002",
+      "finding": "2025 Dec;35(12):103010. doi: 10.1016/j.fjurol.2025.103010."
+    },
+    {
+      "reference_id": "ref-003",
+      "finding": "French AFU Cancer Committee Guidelines - Update 2024-2026: Prostate cancer - Management of metastatic disease and castration resistance - PubMed French AFU Cancer Committee Guidelines - Update 2024-2026: Prostate cancer - Management of metastatic disease and castration resistance Affiliations Expand Affiliations Keywords: Metastasis; Prostate cancer; Recommendations; Recurrence; Treatment."
+    },
+    {
+      "reference_id": "ref-003",
+      "finding": "Copyright © 2024 Société Française du Cancer."
+    },
+    {
+      "reference_id": "ref-004",
+      "finding": "Androgen Deprivation Therapy (ADT) Plus Docetaxel ..."
+    },
+    {
+      "reference_id": "ref-004",
+      "finding": "Checking your browser before accessing pubmed.ncbi.nlm.nih.gov ..."
+    },
+    {
+      "reference_id": "ref-005",
+      "finding": "Metastatic Hormone-Sensitive Prostate Cancer (mHSPC): Advances and Treatment Strategies in the First-Line Setting | Oncology and Therapy | Springer Nature Link disease) populations, with no evidence of heterogeneity, leading the authors to conclude that the addition of docetaxel to ADT should not only be the standard of care (SOC) for all men with mHSPC, but also considered for all men with high-risk nonmetastatic prostate cancer (M0)."
+    },
+    {
+      "reference_id": "ref-005",
+      "finding": "The GETUG-AFU 15 French study [ 14 ] was the first phase III study to explore the use of docetaxel in the mHSPC setting and included 385 men with mHSPC randomised to receive ADT + docetaxel or ADT alone"
+    },
+    {
+      "reference_id": "ref-006",
+      "finding": "Salvage radiotherapy with or without hormonal therapy for biochemical recurrence after radical prostatectomy: A systematic review and meta-analysis | Prostate Cancer and Prostatic Diseases Nature Japan Nature Middle East Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights Springer Nature © 2026 Springer Nature Limited *[DOI]: Digital Object Identifier *[ISSN]: International Standard Serial Number A total of 949 records were included in the selection."
+    },
+    {
+      "reference_id": "ref-006",
+      "finding": "After removal of duplicates and review, systematic review, meta-analysis, retrospective trials, guidelines, news, preclinical trials (821 records), 51 documents were screened for this meta-analysis."
+    },
+    {
+      "reference_id": "ref-007",
+      "finding": "SOC for all participants was modified to time-limited ARPi and ADT based on the results of the STAMPEDE meta-analysis of adding ARPi to ADT and RT in high-risk prostate cancer [ 15 ]."
+    },
+    {
+      "reference_id": "ref-007",
+      "finding": "Patients enrolled prior to 2023 will be included in the intention‑to‑treat population, and a separate sensitivity analysis will be performed to assess the robustness of the primary results in light of the 2023 protocol amendments."
+    },
+    {
+      "reference_id": "ref-008",
+      "finding": "Hormonal Agents in Localized and Advanced Prostate Cancer: Current Use and Future Perspectives - ScienceDirect Nonsurgical salvage local therapies for radiorecurrent prostate cancer: a systematic review and meta-analysis Eur Urol Oncol (2020) CC Parker et al."
+    },
+    {
+      "reference_id": "ref-008",
+      "finding": "Duration of androgen deprivation therapy with postoperative radiotherapy for prostate cancer: a comparison of long-course versus short-course androgen deprivation therapy in the RADICALS-HD randomised trial Lancet (2024) G Gravis et al."
+    },
+    {
+      "reference_id": "ref-009",
+      "finding": "Addition of androgen-receptor pathway inhibitors to standard of care in metastatic hormone-sensitive prostate cancer: A systematic review and meta-analysis - ScienceDirect Astellas, Janssen, IPSEN, Merck."
+    },
+    {
+      "reference_id": "ref-009",
+      "finding": "Research Funding (Institution): Merck."
+    },
+    {
+      "reference_id": "ref-010",
+      "finding": "Androgen-deprivation therapy alone or with docetaxel in non-castrate metastatic prostate cancer (GETUG-AFU 15): a randomised, open-label, phase 3 trial - The Lancet Oncology imbalances in previous systemic treatment with ADT, chemotherapy for local disease or isolated rising concentration of serum prostate-specific antigen, and Glass risk groups."
+    },
+    {
+      "reference_id": "ref-010",
+      "finding": "Patients, physicians, and data analysts were not masked to treatment allocation."
+    }
+  ],
+  "conflicting_evidence": [
+    {
+      "reference_id": "ref-017",
+      "finding": "This trial did not show an OS benefit (HR 1.01, 95% CI 0.75–1.36)—thus, a negative trial—although it demonstrated an improved PSA progression-free survival (PFS) and radiographic PFS"
+    }
+  ],
+  "methodological_patterns": {
+    "randomized controlled trial": 1,
+    "primary/other": 9,
+    "systematic review": 3,
+    "meta-analysis": 3,
+    "clinical trial": 2,
+    "cohort study": 1,
+    "methods/protocol": 1
+  },
+  "research_gaps": []
+}

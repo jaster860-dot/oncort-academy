@@ -1,0 +1,334 @@
+{
+  "version": "0.9.0",
+  "generatedAt": "2026-08-01",
+  "status": "open",
+  "items": [
+    {
+      "id": "prostate_review_000",
+      "priority": "critical",
+      "scope": "foundation_learning_path",
+      "artifacts": [
+        "learn/foundations.json",
+        "sources/index.json#fine_reuter_prostate_anatomy_2012",
+        "sources/index.json#wilson_androgen_receptor_prostate_2020",
+        "sources/index.json#isup_grading_consensus_2019",
+        "sources/index.json#tcga_prostate_taxonomy_2015",
+        "sources/index.json#eau_prostate_2026"
+      ],
+      "decisionNeeded": "Validation médicale et pédagogique des six leçons d'entrée, de leurs pièges, checkpoints et explications.",
+      "exitCriteria": [
+        "Les formulations anatomiques, histologiques, biologiques et pathologiques sont exactes et adaptées à un départ de zéro.",
+        "Chaque checkpoint teste une compréhension utile sans ambiguïté.",
+        "Chaque objet approuvé reçoit le statut validated avec date et reviewer."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_005",
+      "priority": "critical",
+      "scope": "detection_diagnosis_learning_path",
+      "artifacts": [
+        "learn/detection_diagnosis.json"
+      ],
+      "decisionNeeded": "Valider les cinq leçons et le cas synthétique PSA–IRM–biopsies–anatomopathologie, en particulier les formulations sur répétition du PSA, stratégie combinée de prélèvements, préférence transpérinéale et conduite devant une discordance PI-RADS 5–biopsies négatives.",
+      "exitCriteria": [
+        "Les formulations concordent avec EAU 2026 et CCAFU 2024–2026.",
+        "Les limites de PI-RADS et d'une biopsie négative sont correctement présentées.",
+        "Le cas ne transforme ni PI-RADS 5 en diagnostic histologique, ni une première biopsie négative en exclusion définitive.",
+        "Les checkpoints ne contiennent aucune ambiguïté clinique."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_006",
+      "priority": "critical",
+      "scope": "staging_risk_biomarkers_learning_path",
+      "artifacts": [
+        "learn/staging_risk_biomarkers.json",
+        "sources/index.json#ccafu_localised_2024_2026",
+        "sources/index.json#eau_prostate_2026",
+        "sources/index.json#eanm_snmmi_psma_pet_2023",
+        "sources/index.json#asco_genomic_testing_2025"
+      ],
+      "decisionNeeded": "Valider les cinq leçons et le cas synthétique, en particulier la convention cT fondée sur le toucher rectal dans la grille EAU, les catégories de risque 2026, les indications et limites du PSMA-PET et l'orientation germinale versus somatique.",
+      "exitCriteria": [
+        "La distinction cT, stade IRM, cN/cM et pTNM est exacte et compatible avec le vocabulaire de RCP retenu.",
+        "Les seuils EAU 2026 et la différence avec D'Amico sont vérifiés dans les passages sources indiqués.",
+        "La négativité du PSMA-PET ne conduit jamais à exclure la maladie microscopique ou à désintensifier automatiquement.",
+        "Les critères français d'oncogénétique et la séparation germinal/somatique sont acceptés ou corrigés.",
+        "Chaque objet approuvé reçoit le statut validated avec date, reviewer et version de source."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_007",
+      "priority": "critical",
+      "scope": "deferred_management_learning_path",
+      "artifacts": [
+        "learn/deferred_management.json",
+        "sources/index.json#ccafu_localised_2024_2026",
+        "sources/index.json#eau_prostate_2026",
+        "sources/index.json#sfro_recorad_prostate_2025"
+      ],
+      "decisionNeeded": "Valider les cinq leçons et le cas comparatif, notamment la sélection et le suivi de surveillance active, le passage éventuel à l'abstention-surveillance et la présentation non standard des traitements focaux.",
+      "exitCriteria": [
+        "L'intention curative différée de la surveillance active et l'intention palliative de l'abstention-surveillance sont séparées sans ambiguïté.",
+        "Le PSA et l'IRM sont présentés comme signaux de réévaluation, sans déclencher seuls un traitement radical.",
+        "Les critères histologiques défavorables et la place d'une confirmation biopsique concordent avec CCAFU 2024–2026 et EAU 2026.",
+        "Le traitement focal reste présenté comme une technique en évaluation réservée à un essai ou registre prospectif.",
+        "Chaque objet approuvé reçoit le statut validated avec date, reviewer et version de source."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_008",
+      "priority": "critical",
+      "scope": "localized_curative_options_learning_path",
+      "artifacts": [
+        "learn/localized_curative_options.json",
+        "sources/index.json#ccafu_localised_2024_2026",
+        "sources/index.json#eau_prostate_2026",
+        "sources/index.json#sfro_recorad_prostate_2025",
+        "sources/index.json#aua_astro_localized_rt_summary_2024"
+      ],
+      "decisionNeeded": "Valider les cinq leçons et le cas comparatif, en particulier la présentation des trajectoires chirurgie–radiothérapie–curiethérapie, des toxicités fonctionnelles et des possibilités de rattrapage.",
+      "exitCriteria": [
+        "Aucune modalité n'est présentée comme universellement supérieure ou individuellement équivalente sans contexte.",
+        "Le parcours chirurgical inclut pathologie, PSA postopératoire et possibilité de rattrapage.",
+        "Le parcours radiothérapeutique inclut technique, volumes, fractionnement et éventuelle hormonothérapie sans anticiper les détails du bloc 6.",
+        "La sélection à la curiethérapie tient compte du risque, de la fonction urinaire, de l'anatomie et de l'expertise du centre.",
+        "Les rattrapages après chirurgie et après irradiation sont présentés comme asymétriques."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_009",
+      "priority": "critical",
+      "scope": "definitive_radiotherapy_learning_path",
+      "artifacts": [
+        "learn/definitive_radiotherapy.json",
+        "learn/high_risk_and_cn1.json",
+        "sources/index.json#sfro_recorad_prostate_2025",
+        "sources/index.json#ccafu_localised_2024_2026",
+        "sources/index.json#eau_prostate_2026",
+        "sources/index.json#estro_acrop_adt_ebrt_2023"
+      ],
+      "decisionNeeded": "Valider les sept leçons et le cas de prescription, notamment les fractionnements par risque, la sélection SBRT et curiethérapie, le pelvis cN0, le boost focal et les durées d'ADT.",
+      "exitCriteria": [
+        "Chaque dose et chaque volume de synthèse concordent avec les pages 2 à 5 du RecoRad prostate 2025 ou sont corrigés.",
+        "Les divergences RecoRad–CCAFU–EAU sur le haut risque et le pelvis cN0 sont acceptées, reformulées ou résolues par une règle locale explicite.",
+        "La SBRT n'est pas extrapolée au haut risque ou au pelvis sans protocole et la sélection urinaire de la curiethérapie est explicite.",
+        "Les durées d'ADT et les mesures de prévention–surveillance sont médicalement validées.",
+        "Chaque objet approuvé reçoit le statut validated avec date, reviewer et version de source."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_010",
+      "priority": "critical",
+      "scope": "radiotherapy_planning_learning_path",
+      "artifacts": [
+        "learn/radiotherapy_planning.json",
+        "sources/index.json#sfro_recorad_prostate_2025",
+        "sources/index.json#estro_acrop_primary_contouring_2018",
+        "sources/index.json#estro_acrop_igrt_2019",
+        "sources/index.json#eau_prostate_2026"
+      ],
+      "decisionNeeded": "Valider les six leçons et l'audit synthétique, notamment préparation, CTV/PTV, définitions d'OAR, repères DVH 60 Gy/20, marges et workflow prostate–pelvis.",
+      "exitCriteria": [
+        "Les localisateurs RecoRad pages 5 à 10 et toutes les valeurs dosimétriques sont vérifiés.",
+        "Chaque contrainte reste liée à sa définition d'organe et à son fractionnement.",
+        "Les marges et règles IGRT ne sont jamais transposées hors de leur workflow sans justification locale.",
+        "Le cas distingue clairement les écarts bloquants des optimisations souhaitables.",
+        "Chaque objet approuvé reçoit le statut validated avec date, reviewer et version de source."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_011",
+      "priority": "critical",
+      "scope": "postprostatectomy_recurrence_learning_path",
+      "artifacts": [
+        "learn/postprostatectomy_recurrence.json",
+        "sources/index.json#ccafu_recurrence_2024_2026",
+        "sources/index.json#eau_prostate_2026",
+        "sources/index.json#sfro_recorad_prostate_2025",
+        "sources/index.json#estro_acrop_prostate_bed_2023",
+        "sources/index.json#eanm_snmmi_psma_pet_2023"
+      ],
+      "decisionNeeded": "Valider les six leçons et le cas synthétique, notamment définitions du PSA, seuils et calcul du PSADT, interprétation d'un TEP-PSMA négatif, fenêtre de rattrapage, ajout d'ADT et technique postopératoire.",
+      "exitCriteria": [
+        "Persistance et récidive après nadir sont distinguées sans confondre seuil définitionnel et seuil d'action.",
+        "Les catégories de temps de doublement et leur divergence mineure entre CCAFU et RecoRad sont explicites.",
+        "Un TEP-PSMA négatif à faible PSA ne retarde jamais automatiquement un rattrapage indiqué.",
+        "Les repères de six et vingt-quatre mois d'ADT restent sélectionnés, contextualisés et reliés à leurs toxicités.",
+        "Dose, volumes et hypofractionnement postopératoires concordent avec RecoRad pages 10 à 12 et ESTRO-ACROP.",
+        "Chaque objet approuvé reçoit le statut validated avec date, reviewer et version de source."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_012",
+      "priority": "critical",
+      "scope": "postradiotherapy_and_oligorecurrence_learning_path",
+      "artifacts": [
+        "learn/postradiotherapy_and_oligorecurrence.json",
+        "sources/index.json#ccafu_recurrence_2024_2026",
+        "sources/index.json#eau_prostate_2026",
+        "sources/index.json#sfro_recorad_prostate_2025",
+        "sources/index.json#peace_v_storm_2025",
+        "sources/index.json#stomp_2018",
+        "sources/index.json#radiosa_2025"
+      ],
+      "decisionNeeded": "Valider les quatre leçons et le cas comparatif, notamment Phoenix et PI-RR, la preuve histologique avant rattrapage local, la sélection à la réirradiation, l'interprétation de PEACE V–STORM et la place de l'ADT avec MDT.",
+      "exitCriteria": [
+        "Une récidive locale après irradiation n'est traitée qu'après stadification et confirmation histologique chez un patient sélectionné.",
+        "PI-RR est utilisé pour l'IRM de récidive et n'est pas remplacé par PI-RADS.",
+        "Les anciens plans et doses cumulées sont requis avant toute réirradiation.",
+        "Le signal PEACE V–STORM en faveur de l'irradiation élective n'est pas présenté comme une preuve de survie globale ou extrapolé hors population.",
+        "STOMP et RADIOSA restent décrits comme essais de phase II portant sur des critères intermédiaires et des stratégies d'ADT différentes.",
+        "Chaque objet approuvé reçoit le statut validated avec date, reviewer et version de source."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_013",
+      "priority": "critical",
+      "scope": "high_risk_and_cn1_learning_path",
+      "artifacts": [
+        "learn/high_risk_and_cn1.json",
+        "sources/index.json#ccafu_localised_2024_2026",
+        "sources/index.json#eau_prostate_2026",
+        "sources/index.json#sfro_recorad_prostate_2025",
+        "sources/index.json#estro_acrop_adt_ebrt_2023",
+        "sources/index.json#stampede_abiraterone_m0_2022"
+      ],
+      "decisionNeeded": "Valider les cinq leçons et le cas synthétique, notamment la convention d'imagerie du cN1, les critères STAMPEDE M0, les durées d'ADT, l'abiratérone, le pelvis cN0 et la méthode de résolution des divergences.",
+      "exitCriteria": [
+        "cN1 conventionnel, ganglion pelvien PSMA-only et M1a sont séparés sans ambiguïté.",
+        "L'abiratérone deux ans n'est proposée qu'aux populations correspondant aux critères STAMPEDE M0 et avec prévention adaptée.",
+        "La chirurgie et la radio-hormonothérapie sont comparées comme parcours multimodaux sans supériorité randomisée inventée.",
+        "Le docétaxel n'est pas présenté comme un standard de routine du haut risque M0.",
+        "Les divergences CCAFU–EAU–RecoRad sur pelvis et fractionnement sont explicites et résolues par une règle locale traçable.",
+        "Chaque objet approuvé reçoit le statut validated avec date, reviewer et version de source."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_014",
+      "priority": "critical",
+      "scope": "systemic_therapy_foundations_learning_path",
+      "artifacts": ["learn/systemic_therapy_foundations.json", "sources/index.json#ccafu_advanced_2024_2026", "sources/index.json#eau_prostate_2026", "sources/index.json#esmo_advanced_prostate_2026", "sources/index.json#estro_acrop_adt_ebrt_2023"],
+      "decisionNeeded": "Valider les cinq leçons et le cas, notamment la définition de castration, le flare, les profils ARPI, la place des taxanes et la séparation entre ostéoporose et événements osseux métastatiques.",
+      "exitCriteria": ["Une résistance à la castration n'est jamais conclue sans testostérone et progression documentée.", "Les toxicités et interactions de chaque classe sont exactes et actionnables.", "Le choix du taxane repose sur séquence et fitness, pas âge seul.", "Prévention osseuse et cardiométabolique commence avec le traitement.", "Chaque objet approuvé reçoit validated avec reviewer et date."],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_015",
+      "priority": "critical",
+      "scope": "hormone_sensitive_and_nmcrpc_learning_path",
+      "artifacts": ["learn/hormone_sensitive_and_nmcrpc.json", "sources/index.json#ccafu_advanced_2024_2026", "sources/index.json#eau_prostate_2026", "sources/index.json#esmo_advanced_prostate_2026", "sources/index.json#eanm_snmmi_psma_pet_2023"],
+      "decisionNeeded": "Valider doublets/triplets, irradiation prostatique du M1 faible volume, critères nmCRPC et gestion des métastases osseuses.",
+      "exitCriteria": ["Volume, synchronie, fitness et imagerie conventionnelle sont toujours explicités.", "Le triplet n'est pas présenté comme supérieur à chaque doublet moderne.", "La RT prostatique complète le systémique dans sa population de preuve.", "Le nmCRPC exige castration, progression et M0 conventionnel.", "Les urgences osseuses et objectifs anti-résorptifs sont séparés."],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_016",
+      "priority": "critical",
+      "scope": "mcrpc_precision_palliation_learning_path",
+      "artifacts": ["learn/mcrpc_precision_palliation.json", "sources/index.json#ccafu_advanced_2024_2026", "sources/index.json#eau_prostate_2026", "sources/index.json#esmo_advanced_prostate_2026", "sources/index.json#asco_mcrpc_2025", "sources/index.json#asco_genomic_testing_2025"],
+      "decisionNeeded": "Valider les onze leçons et le cas : séquençage post-ARPI/docétaxel, HRR/BRCA, PARP, MSI/MMR, radium-223, lutétium-PSMA, transformation neuroendocrine, RT palliative et soins de support.",
+      "exitCriteria": ["Les tests non informatifs ne sont pas présentés comme négatifs.", "Chaque PARP reste lié au gène, à la ligne, à l'exposition et à l'accès.", "Radium-223 et Lu-PSMA conservent leurs critères de sélection et de sécurité.", "La résistance croisée entre ARPI est explicite.", "Palliation et soutien sont intégrés précocement."],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_017",
+      "priority": "critical",
+      "scope": "complex_special_situations_learning_path",
+      "artifacts": ["learn/complex_special_situations.json", "sources/index.json#eau_prostate_2026", "sources/index.json#sfro_recorad_prostate_2025", "sources/index.json#eanm_snmmi_psma_pet_2023"],
+      "decisionNeeded": "Valider les adaptations proposées pour fragilité, MICI, TURP, prothèses de hanche et migration de stade PSMA.",
+      "exitCriteria": ["Aucun facteur isolé n'est transformé en contre-indication absolue sans contexte.", "Les vulnérabilités gériatriques modifiables sont identifiées.", "Les risques digestifs et urinaires sont reliés à activité, anatomie et technique.", "Le workflow prothèse couvre acquisition, calcul et QA.", "Stades conventionnel et moléculaire restent séparés."],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_018",
+      "priority": "critical",
+      "scope": "followup_survivorship_learning_path",
+      "artifacts": ["learn/followup_survivorship.json", "sources/index.json#ccafu_localised_2024_2026", "sources/index.json#ccafu_recurrence_2024_2026", "sources/index.json#eau_prostate_2026", "sources/index.json#inca_organisation_soins_ppac_2017"],
+      "decisionNeeded": "Valider les huit leçons et la consultation synthétique de suivi, notamment PSA selon traitement, récupération hormonale, toxicités, santé sexuelle, os, risque cardiométabolique, détresse et contenu du PPAC.",
+      "exitCriteria": ["Les trajectoires PSA post-RP et post-RT ne sont jamais confondues.", "L'imagerie n'est proposée que si elle peut modifier la décision.", "Hématurie et saignement rectal persistent comme diagnostics à explorer.", "Os, métabolisme, sexualité et psychologie ont un responsable et un suivi.", "Le PPAC est compréhensible, partagé avec le médecin traitant et révisable.", "Les affirmations du bloc sont reliées uniquement à des pages publiques ou à du texte intégral officiellement accessible ; aucune source restreinte ni résumé seul ne sert d'ancre clinique."],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_001",
+      "priority": "critical",
+      "scope": "first_playable_loop",
+      "artifacts": [
+        "concepts/psma_pet_limits.md",
+        "concepts/adt_rt_integration.md",
+        "concepts/multimodal_curative_options.md",
+        "concepts/risk_and_patient_context.md",
+        "cases/seed_cases.json#prostate_case_001_high_risk_m0",
+        "questions/seed_questions.json#q_prostate_high_risk_retest_001"
+      ],
+      "decisionNeeded": "Validation médicale du contenu, des erreurs critiques et de la logique de cotation par Sami.",
+      "exitCriteria": [
+        "La formulation haut risque et les limites du PSMA-PET sont acceptées ou corrigées.",
+        "La place de l'ADT et la présentation des parcours curatifs sont acceptées.",
+        "Chaque objet approuvé reçoit le statut validated avec date et reviewer."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_002",
+      "priority": "high",
+      "scope": "french_radiotherapy_details",
+      "artifacts": [
+        "sources/index.json#sfro_recorad_prostate_2025",
+        "sources/index.json#sfro_recorad_prostate_erratum_2026",
+        "concepts/sfro_rt_fractionation_2025.md",
+        "learn/definitive_radiotherapy.json",
+        "learn/radiotherapy_planning.json",
+        "learn/postprostatectomy_recurrence.json",
+        "learn/postradiotherapy_and_oligorecurrence.json"
+      ],
+      "decisionNeeded": "Relire médicalement l'atomisation RecoRad du bloc de radiothérapie définitive avant toute validation.",
+      "exitCriteria": [
+        "Chaque valeur possède une page ou section source.",
+        "Les divergences avec EAU/ESTRO sont explicites.",
+        "Les données restent éducatives jusqu'à validation médicale."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_004",
+      "priority": "critical",
+      "scope": "complete_course_overviews",
+      "artifacts": [
+        "course_map.json",
+        "node_labels.json",
+        "learn/block_overviews.json"
+      ],
+      "decisionNeeded": "Valider que les quinze vues d'ensemble sont exactes, équilibrées entre oncologie médicale, urologie et radiothérapie, et suffisamment pédagogiques avant approfondissement des 81 compétences.",
+      "exitCriteria": [
+        "Les 81 compétences restent réparties sans omission ni doublon.",
+        "Les formulations de standard, d'incertitude et de sélection sont acceptées ou corrigées.",
+        "Chaque bloc approuvé reçoit une date, un reviewer et une version de sources."
+      ],
+      "status": "awaiting_clinician_review"
+    },
+    {
+      "id": "prostate_review_003",
+      "priority": "high",
+      "scope": "medical_oncology_depth",
+      "artifacts": ["learn/systemic_therapy_foundations.json", "learn/hormone_sensitive_and_nmcrpc.json", "learn/mcrpc_precision_palliation.json", "sources/index.json#ccafu_advanced_2024_2026", "sources/index.json#esmo_advanced_prostate_2026"],
+      "decisionNeeded": "Relire médicalement l'ensemble oncologie médicale construit en séquence France-first avant toute validation ou libération.",
+      "exitCriteria": [
+        "Les états de maladie et traitements antérieurs sont explicites.",
+        "Chaque séquence est datée et reliée à son niveau de preuve.",
+        "Accès, AMM et applicabilité française sont distingués des résultats d'essais."
+      ],
+      "status": "awaiting_clinician_review"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "prostate_complete_pathway",
+  "version": "0.7.0",
+  "lastUpdated": "2026-08-01",
+  "status": "needs_review",
+  "audience": "Oncologue radiothérapeute reprenant le cancer de la prostate depuis les bases",
+  "progression": ["foundations", "clinical_competence", "expert_rcp"],
+  "releaseRule": "Un bloc reste éducatif et non libéré tant que son contenu clinique n'a pas été validé par un oncologue radiothérapeute identifié.",
+  "blocks": [
+    {
+      "number": 1,
+      "id": "foundations",
+      "title": "Fondations : comprendre l'organe et la maladie",
+      "level": "foundations",
+      "objective": "Relier anatomie, histologie, axe androgénique, PSA, carcinogenèse et grade avant toute stratégie thérapeutique.",
+      "nodeIds": [
+        "prostate_zonal_anatomy",
+        "androgen_receptor_biology",
+        "psa_biology_and_kinetics",
+        "gleason_isup_foundations",
+        "patterns_of_spread",
+        "life_expectancy_and_competing_risk",
+        "prostate_trial_literacy"
+      ],
+      "sourceIds": ["fine_reuter_prostate_anatomy_2012", "wilson_androgen_receptor_prostate_2020", "isup_grading_consensus_2019", "tcga_prostate_taxonomy_2015", "eau_prostate_2026"],
+      "assessment": "Six checkpoints, cartes de rappel et mini-cas de synthèse"
+    },
+    {
+      "number": 2,
+      "id": "detection_diagnosis",
+      "title": "Détection et preuve diagnostique",
+      "level": "foundations",
+      "objective": "Passer d'un PSA anormal à une preuve histologique sans confondre dépistage, suspicion et diagnostic.",
+      "nodeIds": ["early_detection_and_psa", "mri_pirads", "biopsy_strategy", "pathology_report"],
+      "sourceIds": ["ccafu_localised_2024_2026", "eau_prostate_2026", "isup_grading_consensus_2019"],
+      "assessment": "Dossier progressif PSA–IRM–biopsies–compte rendu anatomopathologique"
+    },
+    {
+      "number": 3,
+      "id": "staging_risk_biomarkers",
+      "title": "Stade, risque, imagerie moléculaire et biomarqueurs",
+      "level": "clinical_competence",
+      "objective": "Construire le risque prétest et choisir les examens qui changent réellement la décision.",
+      "nodeIds": ["tnm_staging", "eau_risk_groups", "psma_pet_indications", "psma_pet_limits", "germline_and_somatic_testing"],
+      "sourceIds": ["ccafu_localised_2024_2026", "eau_prostate_2026", "eanm_snmmi_psma_pet_2023", "asco_genomic_testing_2025"],
+      "assessment": "Cas de stadification avec piège de migration de stade"
+    },
+    {
+      "number": 4,
+      "id": "deferred_management",
+      "title": "Surveillance active, abstention-surveillance et traitements focaux",
+      "level": "clinical_competence",
+      "objective": "Distinguer une stratégie curative différée d'une stratégie palliative et expliquer les incertitudes des traitements focaux.",
+      "nodeIds": ["active_surveillance", "watchful_waiting", "focal_therapy_evidence", "shared_decision_quality_of_life"],
+      "sourceIds": ["ccafu_localised_2024_2026", "eau_prostate_2026", "sfro_recorad_prostate_2025", "aua_astro_localized_rt_summary_2024"],
+      "assessment": "Comparaison de trois patients de même tumeur mais d'espérance de vie différente"
+    },
+    {
+      "number": 5,
+      "id": "localized_curative_options",
+      "title": "Options curatives de la maladie localisée",
+      "level": "clinical_competence",
+      "objective": "Comparer chirurgie, radiothérapie externe et curiethérapie comme parcours complets, et non comme gestes isolés.",
+      "nodeIds": ["radical_prostatectomy", "definitive_radiotherapy", "brachytherapy", "risk_and_patient_context", "multimodal_curative_options"],
+      "sourceIds": ["ccafu_localised_2024_2026", "eau_prostate_2026", "sfro_recorad_prostate_2025", "aua_astro_localized_rt_summary_2024"],
+      "assessment": "Décision partagée avec bénéfices, rattrapages possibles et conséquences fonctionnelles"
+    },
+    {
+      "number": 6,
+      "id": "definitive_radiotherapy",
+      "title": "Radiothérapie définitive : indications et modalités",
+      "level": "clinical_competence",
+      "objective": "Relier groupe de risque, volume, fractionnement, éventuel boost et traitement hormonal associé.",
+      "nodeIds": ["definitive_ebrt_indications", "moderate_hypofractionation", "ultrahypofractionation_sbrt", "prostate_brachytherapy", "pelvic_nodal_irradiation", "dose_escalation_and_focal_boost", "adt_duration_with_rt"],
+      "sourceIds": ["sfro_recorad_prostate_2025", "ccafu_localised_2024_2026", "eau_prostate_2026", "estro_acrop_adt_ebrt_2023", "aua_astro_localized_rt_summary_2024"],
+      "assessment": "Prescription raisonnée avec identification des paramètres à valider localement"
+    },
+    {
+      "number": 7,
+      "id": "radiotherapy_planning",
+      "title": "Simulation, volumes, dosimétrie et IGRT",
+      "level": "expert_rcp",
+      "objective": "Transformer une indication en traitement reproductible, traçable et sûr.",
+      "nodeIds": ["target_volume_delineation", "oar_and_plan_evaluation", "igrt_and_motion_management"],
+      "sourceIds": ["estro_acrop_primary_contouring_2018", "estro_acrop_igrt_2019", "sfro_recorad_prostate_2025", "eau_prostate_2026"],
+      "assessment": "Audit simulé d'une prescription, d'un contourage et d'un DVH"
+    },
+    {
+      "number": 8,
+      "id": "postprostatectomy_recurrence",
+      "title": "Après prostatectomie et récidive biochimique",
+      "level": "clinical_competence",
+      "objective": "Interpréter le PSA postopératoire, estimer le risque et discuter précocement le rattrapage.",
+      "nodeIds": ["biochemical_recurrence_definitions", "psa_doubling_time", "psma_pet_in_recurrence", "early_salvage_radiotherapy", "adt_with_salvage_rt", "postprostatectomy_radiotherapy"],
+      "sourceIds": ["ccafu_recurrence_2024_2026", "eau_prostate_2026", "estro_acrop_prostate_bed_2023", "eanm_snmmi_psma_pet_2023", "sfro_recorad_prostate_2025"],
+      "assessment": "Cas postopératoire avec PSA persistant ou ascendant et imagerie négative"
+    },
+    {
+      "number": 9,
+      "id": "postradiotherapy_and_oligorecurrence",
+      "title": "Récidive après irradiation et oligorecurrence",
+      "level": "expert_rcp",
+      "objective": "Sélectionner les patients pour un traitement local de rattrapage ou dirigé contre les métastases sans surinterpréter l'imagerie.",
+      "nodeIds": ["salvage_after_radiotherapy", "nodal_oligorecurrence", "metastasis_directed_therapy_uncertainty", "metastasis_directed_rt"],
+      "sourceIds": ["ccafu_recurrence_2024_2026", "eau_prostate_2026", "eanm_snmmi_psma_pet_2023", "sfro_recorad_prostate_2025", "peace_v_storm_2025", "stomp_2018", "radiosa_2025"],
+      "assessment": "RCP d'une rechute intraprostatique ou ganglionnaire documentée"
+    },
+    {
+      "number": 10,
+      "id": "high_risk_and_cn1",
+      "title": "Haut risque, localement avancé et cN1 M0",
+      "level": "expert_rcp",
+      "objective": "Construire une stratégie multimodale locale et systémique en rendant explicites preuves, durée et intensification.",
+      "nodeIds": ["high_risk_m0_rcp", "cnode_positive_m0", "guideline_divergence_handling"],
+      "sourceIds": ["ccafu_localised_2024_2026", "eau_prostate_2026", "sfro_recorad_prostate_2025", "estro_acrop_adt_ebrt_2023", "stampede_abiraterone_m0_2022"],
+      "assessment": "RCP complète haut risque M0 puis cN1"
+    },
+    {
+      "number": 11,
+      "id": "systemic_therapy_foundations",
+      "title": "Fondations des traitements systémiques",
+      "level": "clinical_competence",
+      "objective": "Maîtriser mécanismes, indications et toxicités de l'ADT, des ARPI et des taxanes.",
+      "nodeIds": ["adt_mechanisms_and_agents", "adt_rt_integration", "androgen_receptor_pathway_inhibitors", "docetaxel_and_cabazitaxel", "bone_metabolic_cardiovascular_health"],
+      "sourceIds": ["ccafu_advanced_2024_2026", "esmo_advanced_prostate_2026", "estro_acrop_adt_ebrt_2023"],
+      "assessment": "Choix d'une classe thérapeutique avec prévention et surveillance de ses toxicités"
+    },
+    {
+      "number": 12,
+      "id": "hormone_sensitive_and_nmcrpc",
+      "title": "Maladie hormonosensible métastatique et nmCRPC",
+      "level": "expert_rcp",
+      "objective": "Raisonner par état de maladie, volume, synchronie, fitness et traitements antérieurs.",
+      "nodeIds": ["mhspc_doublet_triplet", "primary_prostate_rt_in_m1", "nmcrpc", "bone_metastases_and_sre_prevention"],
+      "sourceIds": ["ccafu_advanced_2024_2026", "esmo_advanced_prostate_2026", "eau_prostate_2026"],
+      "assessment": "Séquençage initial d'une maladie de novo et d'une rechute métastatique"
+    },
+    {
+      "number": 13,
+      "id": "mcrpc_precision_palliation",
+      "title": "mCRPC, oncologie de précision, radioligands et palliation",
+      "level": "expert_rcp",
+      "objective": "Construire une séquence individualisée selon exposition antérieure, biomarqueurs, symptômes et objectifs du patient.",
+      "nodeIds": ["mcrpc_sequences", "precision_oncology_hrr_brca", "hrr_brca_parp_inhibitors", "msi_mmr_and_rare_biomarkers", "radium_223", "lutetium_psma", "psma_radioligand_therapy", "systemic_treatment_sequencing", "neuroendocrine_transformation", "palliative_rt", "palliative_and_supportive_integration"],
+      "sourceIds": ["ccafu_advanced_2024_2026", "esmo_advanced_prostate_2026", "asco_mcrpc_2025", "asco_genomic_testing_2025"],
+      "assessment": "RCP séquentielle avec réévaluation à chaque progression"
+    },
+    {
+      "number": 14,
+      "id": "complex_special_situations",
+      "title": "Situations complexes et adaptation personnalisée",
+      "level": "expert_rcp",
+      "objective": "Adapter les options à la fragilité, aux antécédents et aux contraintes techniques sans appliquer mécaniquement un algorithme.",
+      "nodeIds": ["frailty_and_competing_mortality", "inflammatory_bowel_disease", "prior_turp_and_urinary_risk", "hip_prosthesis_planning", "oligometastatic_stage_migration"],
+      "sourceIds": ["eau_prostate_2026", "sfro_recorad_prostate_2025", "eanm_snmmi_psma_pet_2023"],
+      "assessment": "Cinq micro-RCP avec une contrainte dominante différente"
+    },
+    {
+      "number": 15,
+      "id": "followup_survivorship",
+      "title": "Suivi, toxicités, réhabilitation et après-cancer",
+      "level": "clinical_competence",
+      "objective": "Détecter récidive et toxicités, prévenir les complications et restaurer la qualité de vie.",
+      "nodeIds": ["psa_followup_after_local_therapy", "testosterone_recovery", "urinary_toxicity", "bowel_toxicity", "sexual_health", "bone_health", "metabolic_and_cardiovascular_risk", "psychosocial_survivorship"],
+      "sourceIds": ["ccafu_localised_2024_2026", "ccafu_advanced_2024_2026", "eau_prostate_2026"],
+      "assessment": "Consultation de suivi structurée et plan personnalisé après cancer"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-07-31",
+  "scope": "Resources that cannot be lawfully completed through public retrieval alone",
+  "security_rule": "Never share a password or institutional credential. Download an authorised copy yourself and upload only if its licence permits private local use.",
+  "missing_restricted_resources": [
+    {
+      "priority": 1,
+      "document_id": "uicc_tnm_9_2025",
+      "title": "TNM Classification of Malignant Tumours, 9th Edition, with current errata",
+      "reason": "Commercial classification; public metadata do not provide the complete licensed tables and entity-specific rules.",
+      "requested_intervention": "If you own an authorised digital copy, download it from your account and upload the file. Otherwise, validate the staging tables during medical review using your licensed access.",
+      "handling": "Private local reference only; no redistribution or verbatim republication."
+    },
+    {
+      "priority": 1,
+      "document_id": "iarc_who_classification_tumours_online_2026",
+      "title": "WHO Classification of Tumours Online — relevant 5th/6th edition volumes",
+      "reason": "Subscription resource and living collection; complete tumour definitions and diagnostic criteria are not publicly retrievable.",
+      "requested_intervention": "Provide authorised exports or local copies only where your subscription permits it, or validate pathology claims and chapter versions directly during review.",
+      "handling": "Private local reference only; store chapter/version provenance, never reproduce protected text."
+    },
+    {
+      "priority": 1,
+      "document_id": "icru_report_83_imrt_2010",
+      "title": "ICRU Report 83 — Prescribing, Recording, and Reporting Photon-Beam IMRT",
+      "reason": "Commercial full report; central to IMRT prescription, DVH evaluation and reporting.",
+      "requested_intervention": "Upload a licensed PDF if available through your institution or personal purchase.",
+      "handling": "Private local reference only; recommendations will be paraphrased and cited."
+    },
+    {
+      "priority": 1,
+      "document_id": "icru_report_91_stereotactic_2017",
+      "title": "ICRU Report 91 — Stereotactic Treatments with Small Photon Beams",
+      "reason": "Commercial full report; needed for small-field dosimetry, SRS/FSRT/SBRT prescription, QA and reporting.",
+      "requested_intervention": "Upload a licensed PDF if available through your institution or personal purchase.",
+      "handling": "Private local reference only; recommendations will be paraphrased and cited."
+    },
+    {
+      "priority": 2,
+      "document_id": "icru_report_89_cervix_brachytherapy_2013",
+      "title": "ICRU Report 89 — Brachytherapy for Cancer of the Cervix",
+      "reason": "Commercial ICRU/GEC-ESTRO report; important for IGABT concepts, EQD2, targets, OARs and reporting.",
+      "requested_intervention": "Upload a licensed PDF if available. Do not use unauthorised copies circulating online.",
+      "handling": "Private local reference only; no redistribution."
+    },
+    {
+      "priority": 2,
+      "document_id": "icru_report_78_proton_2007",
+      "title": "ICRU Report 78 — Prescribing, Recording, and Reporting Proton-Beam Therapy",
+      "reason": "Commercial full report; relevant to proton prescription, uncertainties, RBE, motion and QA.",
+      "requested_intervention": "Upload a licensed PDF if proton-therapy depth is a near-term priority; otherwise defer until the proton module is drafted.",
+      "handling": "Private local reference only; no redistribution."
+    }
+  ],
+  "non_document_interventions": [
+    {
+      "type": "medical_review",
+      "timing": "After each course synthesis, not during source collection",
+      "requested_intervention": "Validate France-specific applicability, resolve discrepancies between sources, and approve or reject the educational claims before release."
+    },
+    {
+      "type": "local_practice_context",
+      "timing": "Optional",
+      "requested_intervention": "Provide institutional protocols only when you want the app to compare national guidance with local workflow; they will be labelled as local practice, never as national recommendations."
+    }
+  ]
+}

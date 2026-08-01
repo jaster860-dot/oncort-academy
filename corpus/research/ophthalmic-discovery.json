@@ -1,0 +1,661 @@
+[
+  {
+    "success": true,
+    "query": "Current official France or European guideline for ophthalmic and orbital tumours radiotherapy, including Institut Curie, SFRO, ESMO, EURACAN, SIOPE or ESTRO, verify publication date and canonical URL",
+    "response": "## Bottom line\n\nThere is **no single current pan-European guideline covering radiotherapy for every ophthalmic and orbital tumour**. The most authoritative documents are disease-specific:\n\n1. **French broad radiotherapy reference:** the **2022 SFRO RecoRad chapter on malignant tumours of the eye and ocular adnexa**.\n2. **European uveal-melanoma standard:** the **2023 ESMO Clinical Practice Guideline for uveal melanoma**.\n3. Orbital lymphoma, rhabdomyosarcoma, lacrimal-gland malignancy and orbital sarcoma are generally covered by their respective lymphoma, paediatric sarcoma, head-and-neck or soft-tissue-sarcoma pathways rather than one ophthalmic-radiotherapy guideline.\n\n## Authoritative sources\n\n| Scope | Document and authority | Publication status/date | Canonical or best authoritative URL | Assessment |\n|---|---|---|---|---|\n| Eye and ocular-adnexal malignancies; radiotherapy techniques and indications | **“Radiotherapy of malignant tumours of the eye and adnexa”**, part of the Société française de radiothérapie oncologique (**SFRO**) RecoRad recommendations | Published in *Cancer/Radiothérapie*, **volume 26, 2022**, in the SFRO recommendations issue | [Cancer/Radiothérapie, volume 26 issue index – ScienceDirect](https://www.sciencedirect.com/journal/cancer-radiotherapie/vol/26/issue/1) | **Primary French professional guideline.** This is the most directly relevant French radiotherapy reference located. The journal issue is authoritative, but I could not safely verify an article-level DOI/PII from the retrieved material and therefore do not provide one. |\n| Uveal melanoma: diagnosis, local treatment—including plaque brachytherapy, proton/charged-particle treatment and stereotactic approaches—and follow-up | **“Uveal melanoma: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up”** | *Annals of Oncology* **34(12), December 2023, pp. 1203–1218**; DOI **10.1016/j.annonc.2023.08.011** | [DOI landing page](https://doi.org/10.1016/j.annonc.2023.08.011) | **Primary European multidisciplinary guideline.** This is the clearest current European guideline for adult uveal melanoma and should normally be used alongside national radiotherapy technique guidance. |\n| UK uveal melanoma, including orbital adjuvant and palliative RT | **“Uveal Melanoma UK national guidelines: 2023 update”** | Published online in the *European Journal of Cancer* in **2025**; the document identifies itself as the 2023 update | [Journal full text](https://www.ejcancer.com/article/S0959-8049(25)00469-1/fulltext) | **Primary national guideline, but UK—not French or pan-European.** Useful as a recent comparator, particularly where the ESMO document is less technically detailed. |\n\n## Findings for the named organisations\n\n### Institut Curie\n\nInstitut Curie is a major French reference centre for ocular oncology and proton treatment, but its publicly accessible disease and treatment pages should be treated as **institutional patient-care information**, not automatically as a formally developed national clinical-practice guideline. For prescriptive French radiotherapy guidance, the **SFRO RecoRad document** is the stronger authority; for uveal melanoma, it should be paired with the **2023 ESMO guideline**.\n\nI did not identify, from the retrieved evidence, a separately published current Institut Curie document that clearly declares a guideline methodology, consensus process, publication date and version control comparable with SFRO or ESMO. Accordingly, an Institut Curie webpage should not be cited as “the French guideline” unless a specific dated protocol or référentiel is supplied.\n\n### SFRO\n\nThe **2022 eye-and-adnexa chapter in the SFRO RecoRad series** is the principal broad French radiotherapy source identified. It is a professional-society recommendation published in the society’s guideline issue of *Cancer/Radiothérapie*, rather than merely a centre-specific review. The exact article-level canonical URL could not be verified from the retrieved records, so the journal issue URL above is supplied without inventing a DOI.\n\n### ESMO\n\nThe **2023 ESMO uveal-melanoma guideline** is the strongest current European disease-specific document identified. Its date and DOI are bibliographically identifiable: *Annals of Oncology*, December 2023, DOI [10.1016/j.annonc.2023.08.011](https://doi.org/10.1016/j.annonc.2023.08.011).\n\n### EURACAN\n\nEURACAN covers rare adult solid cancers, including rare ocular cancers through its rare-cancer network activity, but I did not verify a separate, current **EURACAN-branded ophthalmic/orbital radiotherapy guideline** from the retrieved material. Do not describe the ESMO uveal-melanoma guideline as “ESMO–EURACAN” unless the title or official record explicitly carries that joint designation.\n\n### ESTRO\n\nI did not verify a current standalone **ESTRO clinical guideline encompassing ophthalmic and orbital tumours as a group**. ESTRO publications may address individual techniques—particularly brachytherapy, particle therapy, stereotactic radiotherapy or target delineation—but those should not be represented as a comprehensive ocular-oncology guideline without an exact title and society endorsement.\n\n### SIOPE\n\nFor children, particularly **orbital rhabdomyosarcoma and retinoblastoma**, management is protocol- and disease-group-specific. I did not verify a current public SIOPE document devoted specifically to “ophthalmic and orbital tumour radiotherapy.” SIOPE/European paediatric soft-tissue-sarcoma protocols may govern orbital rhabdomyosarcoma, but they are not interchangeable with the adult SFRO or ESMO documents and may not be publicly available in their current protocol form.\n\n## Practical citation hierarchy\n\nFor a French or European radiotherapy protocol, the defensible hierarchy is:\n\n1. **Uveal melanoma:** cite the **2023 ESMO guideline** as the European disease-management standard, then use the **2022 SFRO RecoRad eye/adnexa chapter** for French radiotherapy practice.\n2. **Other adult ocular or adnexal tumours:** start with the **2022 SFRO chapter**, supplemented by the relevant disease guideline—for example lymphoma, sarcoma, skin cancer or head-and-neck guidance.\n3. **Paediatric orbital tumours:** use the current tumour-group protocol, particularly for rhabdomyosarcoma or retinoblastoma; do not extrapolate adult uveal-melanoma recommendations.\n4. **Institut Curie material:** use as centre-specific implementation or patient information unless the document is explicitly labelled, dated and methodologically documented as a guideline.\n\nThe two documents that can presently be identified most confidently as the core authorities are therefore the **SFRO 2022 recommendation** and the **ESMO 2023 uveal-melanoma guideline**.",
+    "citations": [
+      {
+        "type": "source",
+        "title": "Management and work-up procedures of patients with head and neck malignancies treated by radiation - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1278321821002699",
+        "publish_date": "",
+        "snippet": "Une mise à jour des recommandations de la Société française de radiothérapie oncologique (SFRO) sur les indications et les modalités techniques de radiothérapie des tumeurs des glandes salivaires en termes de fractionnement, délinéation des volumes cibles et organes à risque est présentée dans ce chapitre.\nPractice guidelines Conformal radiotherapy in management of soft tissue sarcoma in adults Le Péchoux C., …, Thariat J.O. Cancer Radiotherapie • Volume 26 • 2022 Citation Excerpt: The margins from CTV to PTV depend on different centres and according to image-guided technique used of 3 to 5 mm. The doses to the organs at risk should be limited and are detailed in a dedicated article on ENT carcinomas [38]. Organizational access\nGet full-text access by signing in with",
+        "excerpts": [
+          "Une mise à jour des recommandations de la Société française de radiothérapie oncologique (SFRO) sur les indications et les modalités techniques de radiothérapie des tumeurs des glandes salivaires en termes de fractionnement, délinéation des volumes cibles et organes à risque est présentée dans ce chapitre.\nPractice guidelines Conformal radiotherapy in management of soft tissue sarcoma in adults Le Péchoux C., …, Thariat J.O. Cancer Radiotherapie • Volume 26 • 2022 Citation Excerpt: The margins from CTV to PTV depend on different centres and according to image-guided technique used of 3 to 5 mm. The doses to the organs at risk should be limited and are detailed in a dedicated article on ENT carcinomas [38]. Organizational access\nGet full-text access by signing in with"
+        ],
+        "supporting_excerpts": [
+          "Une mise à jour des recommandations de la Société française de radiothérapie oncologique (SFRO) sur les indications et les modalités techniques de radiothérapie des tumeurs des glandes salivaires en termes de fractionnement, délinéation des volumes cibles et organes à risque est présentée dans ce chapitre.\nPractice guidelines Conformal radiotherapy in management of soft tissue sarcoma in adults Le Péchoux C., …, Thariat J.O. Cancer Radiotherapie • Volume 26 • 2022 Citation Excerpt: The margins from CTV to PTV depend on different centres and according to image-guided technique used of 3 to 5 mm. The doses to the organs at risk should be limited and are detailed in a dedicated article on ENT carcinomas [38]. Organizational access\nGet full-text access by signing in with"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "External beam radiotherapy for prostatic cancers: 2025 update - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1278321825001933",
+        "publish_date": "",
+        "snippet": "recommandations de la Société française de radiothérapie oncologique (SFRO) aborde les questions relatives à la réirradiation, avec un accent particulier sur les tumeurs de la prostate, les tumeurs gynécologiques et les tumeurs pelviennes. ☆ This article is part of the special issue RecoRad™, 4th edition on the 2025 update of the recommendations of the Société française de radiothérapie oncologique (SFRO) on external radiotherapy and brachytherapy procedures. View full text © 2025 Société française de radiothérapie oncologique (SFRO). Published by Elsevier Masson SAS. C. Salembier et al.\nESTRO ACROP consensus guideline on CT- and MRI-based target volume delineation for primary radiation therapy of localized prostate cancer\nRadiother Oncol (2018)\nJ. Le Guévelou et al",
+        "excerpts": [
+          "recommandations de la Société française de radiothérapie oncologique (SFRO) aborde les questions relatives à la réirradiation, avec un accent particulier sur les tumeurs de la prostate, les tumeurs gynécologiques et les tumeurs pelviennes. ☆ This article is part of the special issue RecoRad™, 4th edition on the 2025 update of the recommendations of the Société française de radiothérapie oncologique (SFRO) on external radiotherapy and brachytherapy procedures. View full text © 2025 Société française de radiothérapie oncologique (SFRO). Published by Elsevier Masson SAS. C. Salembier et al.\nESTRO ACROP consensus guideline on CT- and MRI-based target volume delineation for primary radiation therapy of localized prostate cancer\nRadiother Oncol (2018)\nJ. Le Guévelou et al"
+        ],
+        "supporting_excerpts": [
+          "recommandations de la Société française de radiothérapie oncologique (SFRO) aborde les questions relatives à la réirradiation, avec un accent particulier sur les tumeurs de la prostate, les tumeurs gynécologiques et les tumeurs pelviennes. ☆ This article is part of the special issue RecoRad™, 4th edition on the 2025 update of the recommendations of the Société française de radiothérapie oncologique (SFRO) on external radiotherapy and brachytherapy procedures. View full text © 2025 Société française de radiothérapie oncologique (SFRO). Published by Elsevier Masson SAS. C. Salembier et al.\nESTRO ACROP consensus guideline on CT- and MRI-based target volume delineation for primary radiation therapy of localized prostate cancer\nRadiother Oncol (2018)\nJ. Le Guévelou et al"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ASTRO 2025: September 27 – October 1,  2025, San Francisco, - BEBIG Medical GmbH",
+        "url": "https://bebigmedical.com/news_13/181.html",
+        "publish_date": "",
+        "snippet": "2025-09-23 Page Views : 700 Author : admin BEBIG Medical GmbH will be attending ASTRO 2025 from September 27 – October 1 at at the Moscone Center, San Francisco . Visit our booth #1401 to explore our latest innovations in radiation therapy. Prev : SFRO 2025: SEPTEMBER 17-19, 2025, Bordeaux, France Next : ESTRO 2026 : May15 - 18 Related News BEBIG Medical Strengthens Its Presence in the Philippines with LINAC Launch and Office Opening Tuguegarao / Manila, Philippines – January 23–24, 2026BEBIG Medical, a global provider of radiation therapy solutions dedicated to advancing cancer treatment worldwide, marked two significant milestones in the Philippines with the successfulLinear Accelerator (LINAC) Opening Ceremony at St. 2026-01-26 sales@bebigmedical.com +49 30 9487888-10 Karower Damm",
+        "excerpts": [
+          "2025-09-23 Page Views : 700 Author : admin BEBIG Medical GmbH will be attending ASTRO 2025 from September 27 – October 1 at at the Moscone Center, San Francisco . Visit our booth #1401 to explore our latest innovations in radiation therapy. Prev : SFRO 2025: SEPTEMBER 17-19, 2025, Bordeaux, France Next : ESTRO 2026 : May15 - 18 Related News BEBIG Medical Strengthens Its Presence in the Philippines with LINAC Launch and Office Opening Tuguegarao / Manila, Philippines – January 23–24, 2026BEBIG Medical, a global provider of radiation therapy solutions dedicated to advancing cancer treatment worldwide, marked two significant milestones in the Philippines with the successfulLinear Accelerator (LINAC) Opening Ceremony at St. 2026-01-26 sales@bebigmedical.com +49 30 9487888-10 Karower Damm",
+          "23 Page Views : 798 Author : admin BEBIG Medical GmbH will be attending ASTRO 2025 from September 27 – October 1 at at the Moscone Center, San Francisco . Visit our booth #1401 to explore our latest innovations in radiation therapy. Prev : SFRO 2025: SEPTEMBER 17-19, 2025, Bordeaux, France Next : ESTRO 2026 : May15 - 18 Related News"
+        ],
+        "supporting_excerpts": [
+          "2025-09-23 Page Views : 700 Author : admin BEBIG Medical GmbH will be attending ASTRO 2025 from September 27 – October 1 at at the Moscone Center, San Francisco . Visit our booth #1401 to explore our latest innovations in radiation therapy. Prev : SFRO 2025: SEPTEMBER 17-19, 2025, Bordeaux, France Next : ESTRO 2026 : May15 - 18 Related News BEBIG Medical Strengthens Its Presence in the Philippines with LINAC Launch and Office Opening Tuguegarao / Manila, Philippines – January 23–24, 2026BEBIG Medical, a global provider of radiation therapy solutions dedicated to advancing cancer treatment worldwide, marked two significant milestones in the Philippines with the successfulLinear Accelerator (LINAC) Opening Ceremony at St. 2026-01-26 sales@bebigmedical.com +49 30 9487888-10 Karower Damm"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "https://www-sop.inria.fr/asclepios/biblio/Author/MALANDAIN-G.html",
+        "url": "https://www-sop.inria.fr/asclepios/biblio/Author/MALANDAIN-G.html",
+        "publish_date": "",
+        "snippet": "risque cérébraux : optimisation par radiothérapie stéréotaxique robotisée et atlas de segmentation automatique versus radiothérapie conformationnelle tridimensionnelle . 18e Congrès de la Société Française de Radiothérapie Oncologique (SFRO), 2007. Note: Cancer radiothérapie 11(6-7):399, 2007. [ bibtex-entry ]\nA. Isambert, V. Gregoire, F. Bidault, G. Calais, O. Commowick , G. Malandain , J.B. Ruaud, M. Tomsej, C. Bramoulle, J. Bourhis, and D. Lefkopoulos. Atlas-based automatic segmentation (ABAS) of head and neck (H&N) structures in conformal radiotherapy (CRT) . Acts of the 26th European Society for Therapeutic Radiology and Oncology (ESTRO), 2007. [ bibtex-entry ] Vandermeulen, P. A. van den Elsen, S. Napel, T. S. Sumanaweera, B. Harkness, P. F. Hemler, D. L. G. Hill, D. J",
+        "excerpts": [
+          "risque cérébraux : optimisation par radiothérapie stéréotaxique robotisée et atlas de segmentation automatique versus radiothérapie conformationnelle tridimensionnelle . 18e Congrès de la Société Française de Radiothérapie Oncologique (SFRO), 2007. Note: Cancer radiothérapie 11(6-7):399, 2007. [ bibtex-entry ]\nA. Isambert, V. Gregoire, F. Bidault, G. Calais, O. Commowick , G. Malandain , J.B. Ruaud, M. Tomsej, C. Bramoulle, J. Bourhis, and D. Lefkopoulos. Atlas-based automatic segmentation (ABAS) of head and neck (H&N) structures in conformal radiotherapy (CRT) . Acts of the 26th European Society for Therapeutic Radiology and Oncology (ESTRO), 2007. [ bibtex-entry ] Vandermeulen, P. A. van den Elsen, S. Napel, T. S. Sumanaweera, B. Harkness, P. F. Hemler, D. L. G. Hill, D. J"
+        ],
+        "supporting_excerpts": [
+          "risque cérébraux : optimisation par radiothérapie stéréotaxique robotisée et atlas de segmentation automatique versus radiothérapie conformationnelle tridimensionnelle . 18e Congrès de la Société Française de Radiothérapie Oncologique (SFRO), 2007. Note: Cancer radiothérapie 11(6-7):399, 2007. [ bibtex-entry ]\nA. Isambert, V. Gregoire, F. Bidault, G. Calais, O. Commowick , G. Malandain , J.B. Ruaud, M. Tomsej, C. Bramoulle, J. Bourhis, and D. Lefkopoulos. Atlas-based automatic segmentation (ABAS) of head and neck (H&N) structures in conformal radiotherapy (CRT) . Acts of the 26th European Society for Therapeutic Radiology and Oncology (ESTRO), 2007. [ bibtex-entry ] Vandermeulen, P. A. van den Elsen, S. Napel, T. S. Sumanaweera, B. Harkness, P. F. Hemler, D. L. G. Hill, D. J"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "YOULIA KIROVA - Institut Curie",
+        "url": "https://institut-curie.org/person/youlia-kirova",
+        "publish_date": "",
+        "snippet": "Lymphoma Radiation Oncology Group (ILROG) (steering committee member), the French Society of Radiation Oncology (SFRO), the FRancilian Oncogeriatric Group (FROG) (vice-president since the group was launched), the French Society of Senology and Breast Pathology (SFSMP), and the SKAGEN group. She is also an international professor involved in courses delivered by ESTRO (Multidisciplinary Breast Cancer Management, Evidence Based Radiation Oncology), ILROG, ESO, ESSO, and others. She is an active member of the Women’s Cancer Institute, working in the field of clinical research in radiotherapy for breast cancer, and is involved in clinical and translational research as a member of the LITO. She also contributes to the development of new techniques such as FLASH and mini-beams in the treatment",
+        "excerpts": [
+          "Lymphoma Radiation Oncology Group (ILROG) (steering committee member), the French Society of Radiation Oncology (SFRO), the FRancilian Oncogeriatric Group (FROG) (vice-president since the group was launched), the French Society of Senology and Breast Pathology (SFSMP), and the SKAGEN group. She is also an international professor involved in courses delivered by ESTRO (Multidisciplinary Breast Cancer Management, Evidence Based Radiation Oncology), ILROG, ESO, ESSO, and others. She is an active member of the Women’s Cancer Institute, working in the field of clinical research in radiotherapy for breast cancer, and is involved in clinical and translational research as a member of the LITO. She also contributes to the development of new techniques such as FLASH and mini-beams in the treatment"
+        ],
+        "supporting_excerpts": [
+          "Lymphoma Radiation Oncology Group (ILROG) (steering committee member), the French Society of Radiation Oncology (SFRO), the FRancilian Oncogeriatric Group (FROG) (vice-president since the group was launched), the French Society of Senology and Breast Pathology (SFSMP), and the SKAGEN group. She is also an international professor involved in courses delivered by ESTRO (Multidisciplinary Breast Cancer Management, Evidence Based Radiation Oncology), ILROG, ESO, ESSO, and others. She is an active member of the Women’s Cancer Institute, working in the field of clinical research in radiotherapy for breast cancer, and is involved in clinical and translational research as a member of the LITO. She also contributes to the development of new techniques such as FLASH and mini-beams in the treatment"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ESTRO - 🌟  Milestone for ESTRO & SFRO 🌟 🇫🇷\nWe are pleased... | Facebook",
+        "url": "https://www.facebook.com/ESTRO.org/posts/-milestone-for-estro-sfro-we-are-pleased-to-announce-that-estro-and-sfro-the-fre/1558434165490527",
+        "publish_date": "",
+        "snippet": "October 3, 2025 · 🌟 Milestone for ESTRO & SFRO 🌟 🇫🇷 We are pleased to announce that ESTRO and SFRO, the French National Society for Radiation Oncology, have signed a Joint Membership collaboration, effective from 2026. 🙌 Through this pilot project, all SFRO members will have the opportunity to become ESTRO–SFRO joint members, strengthening collaboration and fostering closer ties between our societies. This marks an important step in our shared mission to advance radiation oncology in Europe! Congrès de la SFRO No photo description available. Are you interested in this post? Interested Not interested Interested Not interested All reactions: 23 1 comment 2 shares Like Comment Most relevant ﻿ Nicolas Pourel Fantastique ! 18w 2 Allow the use of cookies from Facebook on",
+        "excerpts": [
+          "October 3, 2025 · 🌟 Milestone for ESTRO & SFRO 🌟 🇫🇷 We are pleased to announce that ESTRO and SFRO, the French National Society for Radiation Oncology, have signed a Joint Membership collaboration, effective from 2026. 🙌 Through this pilot project, all SFRO members will have the opportunity to become ESTRO–SFRO joint members, strengthening collaboration and fostering closer ties between our societies. This marks an important step in our shared mission to advance radiation oncology in Europe! Congrès de la SFRO No photo description available. Are you interested in this post? Interested Not interested Interested Not interested All reactions: 23 1 comment 2 shares Like Comment Most relevant ﻿ Nicolas Pourel Fantastique ! 18w 2 Allow the use of cookies from Facebook on"
+        ],
+        "supporting_excerpts": [
+          "October 3, 2025 · 🌟 Milestone for ESTRO & SFRO 🌟 🇫🇷 We are pleased to announce that ESTRO and SFRO, the French National Society for Radiation Oncology, have signed a Joint Membership collaboration, effective from 2026. 🙌 Through this pilot project, all SFRO members will have the opportunity to become ESTRO–SFRO joint members, strengthening collaboration and fostering closer ties between our societies. This marks an important step in our shared mission to advance radiation oncology in Europe! Congrès de la SFRO No photo description available. Are you interested in this post? Interested Not interested Interested Not interested All reactions: 23 1 comment 2 shares Like Comment Most relevant ﻿ Nicolas Pourel Fantastique ! 18w 2 Allow the use of cookies from Facebook on"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Uveal Melanoma UK national guidelines: 2023 update - European Journal of Cancer",
+        "url": "https://www.ejcancer.com/article/S0959-8049(25)00469-1/fulltext",
+        "publish_date": "",
+        "snippet": "... therapies for hepatic disease;\nIII.\nThe role of adjuvant radiotherapy to the orbit in cases at high-risk of local tumour recurrence and the use of palliative radiotherapy to manage advanced disease;\nIV.\nClinical and radiological surveillance ... ",
+        "excerpts": [
+          "... therapies for hepatic disease;\nIII.\nThe role of adjuvant radiotherapy to the orbit in cases at high-risk of local tumour recurrence and the use of palliative radiotherapy to manage advanced disease;\nIV.\nClinical and radiological surveillance ... "
+        ],
+        "supporting_excerpts": [
+          "... therapies for hepatic disease;\nIII.\nThe role of adjuvant radiotherapy to the orbit in cases at high-risk of local tumour recurrence and the use of palliative radiotherapy to manage advanced disease;\nIV.\nClinical and radiological surveillance ... "
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Delineation of the post-operative primary tumour and nodal clinical target volumes in oral cavity squamous cell carcinoma: European Society for Radiotherapy and Oncology (ESTRO) clinical guidelines - Radiotherapy and Oncology",
+        "url": "https://www.thegreenjournal.com/article/S0167-8140%2825%2904639-0/fulltext",
+        "publish_date": "",
+        "snippet": "... access\n\nDownload Full Issue\n\nDownload started\n\n[Ok](#)\n\n# Delineation of the post-operative primary tumour and nodal clinical target volumes in oral cavity squamous cell carcinoma: European Society for Radiotherapy and Oncology (ESTRO) clinical g",
+        "excerpts": [
+          "... access\n\nDownload Full Issue\n\nDownload started\n\n[Ok](#)\n\n# Delineation of the post-operative primary tumour and nodal clinical target volumes in oral cavity squamous cell carcinoma: European Society for Radiotherapy and Oncology (ESTRO) clinical g"
+        ],
+        "supporting_excerpts": [
+          "... access\n\nDownload Full Issue\n\nDownload started\n\n[Ok](#)\n\n# Delineation of the post-operative primary tumour and nodal clinical target volumes in oral cavity squamous cell carcinoma: European Society for Radiotherapy and Oncology (ESTRO) clinical g"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "EANO/ESTRO Target Delineation and Radiotherapy for Idh ...",
+        "url": "https://www.guidelinecentral.com/guideline/4543509",
+        "publish_date": "",
+        "snippet": "EANO/ESTRO Target Delineation and Radiotherapy for Idh ...\nThis guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma,",
+        "excerpts": [
+          "EANO/ESTRO Target Delineation and Radiotherapy for Idh ...\nThis guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma,"
+        ],
+        "supporting_excerpts": [
+          "EANO/ESTRO Target Delineation and Radiotherapy for Idh ...\nThis guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma,"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ASTRO, ESTRO Radiation Oncology Guidelines | ITN",
+        "url": "https://www.itnonline.com/content/astro-estro-collaborate-radiation-oncology-clinical-guidelines",
+        "publish_date": "",
+        "snippet": "ASTRO, ESTRO Radiation Oncology Guidelines | ITN\nMay 19, 2026 · ASTRO and ESTRO each regularly develop clinical practice guidelines to support evidence‑based decision‑making in radiation oncology. Through",
+        "excerpts": [
+          "ASTRO, ESTRO Radiation Oncology Guidelines | ITN\nMay 19, 2026 · ASTRO and ESTRO each regularly develop clinical practice guidelines to support evidence‑based decision‑making in radiation oncology. Through"
+        ],
+        "supporting_excerpts": [
+          "ASTRO, ESTRO Radiation Oncology Guidelines | ITN\nMay 19, 2026 · ASTRO and ESTRO each regularly develop clinical practice guidelines to support evidence‑based decision‑making in radiation oncology. Through"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ESTRO-EANO guideline on target delineation and ...",
+        "url": "https://pure.amsterdamumc.nl/en/publications/estro-eano-guideline-on-target-delineation-and-radiotherapy-for-i",
+        "publish_date": "",
+        "snippet": "ESTRO-EANO guideline on target delineation and ...\nby BG Baumert · 2025 · Cited by 30 — This guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma, using the latest 2021 WHO (5th)",
+        "excerpts": [
+          "ESTRO-EANO guideline on target delineation and ...\nby BG Baumert · 2025 · Cited by 30 — This guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma, using the latest 2021 WHO (5th)"
+        ],
+        "supporting_excerpts": [
+          "ESTRO-EANO guideline on target delineation and ...\nby BG Baumert · 2025 · Cited by 30 — This guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma, using the latest 2021 WHO (5th)"
+        ],
+        "doi": "",
+        "pmid": "39454886",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "EANO Guidelines",
+        "url": "https://www.eano.eu/publications/eano-guidelines",
+        "publish_date": "",
+        "snippet": "EANO Guidelines\nESTRO-EANO guideline on target delineation and radiotherapy details for glioblastoma (2023)",
+        "excerpts": [
+          "EANO Guidelines\nESTRO-EANO guideline on target delineation and radiotherapy details for glioblastoma (2023)"
+        ],
+        "supporting_excerpts": [
+          "EANO Guidelines\nESTRO-EANO guideline on target delineation and radiotherapy details for glioblastoma (2023)"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Perilesional dominance: radiomics of multiparametric MRI enhances differentiation of IgG4-Related ophthalmic disease and orbital MALT lymphoma | BMC Medical Imaging | Springer Nature Link",
+        "url": "https://link.springer.com/article/10.1186/s12880-025-01771-5",
+        "publish_date": "",
+        "snippet": "... article/10.1186/s12880-025-01771-5#MOESM1) \\- [S3](/article/10.1186/s12880-025-01771-5#MOESM1) ); (3) prior orbital therapy (surgery, radiotherapy, or chemotherapy); (4) incomplete clinical records. Pathological slides were independently ... unde",
+        "excerpts": [
+          "... article/10.1186/s12880-025-01771-5#MOESM1) \\- [S3](/article/10.1186/s12880-025-01771-5#MOESM1) ); (3) prior orbital therapy (surgery, radiotherapy, or chemotherapy); (4) incomplete clinical records. Pathological slides were independently ... unde"
+        ],
+        "supporting_excerpts": [
+          "... article/10.1186/s12880-025-01771-5#MOESM1) \\- [S3](/article/10.1186/s12880-025-01771-5#MOESM1) ); (3) prior orbital therapy (surgery, radiotherapy, or chemotherapy); (4) incomplete clinical records. Pathological slides were independently ... unde"
+        ],
+        "doi": "10.1186/s12880-025-01771-5",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ESTRO-EANO guideline on target delineation and radiotherapy details for glioblastoma - Radiotherapy and Oncology",
+        "url": "https://www.thegreenjournal.com/article/S0167-8140%2823%2900201-3/fulltext",
+        "publish_date": "",
+        "snippet": "...  on crossmark\") Linked Articles\n\n[Cover Image - Radiotherapy and Oncology, Volume 184, Issue](https://www.thegreenjournal.com/issue/S0167-8140\\(23\\)X0007-3)\n\n## Highlights\n\n•\n\nThe present ESTRO-EANO guideline reports the novel standard for target",
+        "excerpts": [
+          "...  on crossmark\") Linked Articles\n\n[Cover Image - Radiotherapy and Oncology, Volume 184, Issue](https://www.thegreenjournal.com/issue/S0167-8140\\(23\\)X0007-3)\n\n## Highlights\n\n•\n\nThe present ESTRO-EANO guideline reports the novel standard for target"
+        ],
+        "supporting_excerpts": [
+          "...  on crossmark\") Linked Articles\n\n[Cover Image - Radiotherapy and Oncology, Volume 184, Issue](https://www.thegreenjournal.com/issue/S0167-8140\\(23\\)X0007-3)\n\n## Highlights\n\n•\n\nThe present ESTRO-EANO guideline reports the novel standard for target"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "European Society for Radiotherapy and Oncology (ESTRO ...",
+        "url": "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045%2823%2900534-X/abstract",
+        "publish_date": "",
+        "snippet": "European Society for Radiotherapy and Oncology (ESTRO ...\nInternational multidisciplinary consensus on the integration of radiotherapy with new systemic treatments for breast cancer.",
+        "excerpts": [
+          "European Society for Radiotherapy and Oncology (ESTRO ...\nInternational multidisciplinary consensus on the integration of radiotherapy with new systemic treatments for breast cancer."
+        ],
+        "supporting_excerpts": [
+          "European Society for Radiotherapy and Oncology (ESTRO ...\nInternational multidisciplinary consensus on the integration of radiotherapy with new systemic treatments for breast cancer."
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Adjuvant radiotherapy in orbital malignancy | Eye News",
+        "url": "https://www.eyenews.uk.com/reviews/journal-reviews/post/adjuvant-radiotherapy-in-orbital-malignancy",
+        "publish_date": "",
+        "snippet": "... reviews/journal-reviews/post/adjuvant-radiotherapy-in-orbital-malignancy&title=Adjuvant radiotherapy in orbital malignancy \"On Reddit\")\n\n[James Hsuan](https://www.eyenews.uk.com/contributors/person/james ... contributors/)\n* [Company Awards](http",
+        "excerpts": [
+          "... reviews/journal-reviews/post/adjuvant-radiotherapy-in-orbital-malignancy&title=Adjuvant radiotherapy in orbital malignancy \"On Reddit\")\n\n[James Hsuan](https://www.eyenews.uk.com/contributors/person/james ... contributors/)\n* [Company Awards](http"
+        ],
+        "supporting_excerpts": [
+          "... reviews/journal-reviews/post/adjuvant-radiotherapy-in-orbital-malignancy&title=Adjuvant radiotherapy in orbital malignancy \"On Reddit\")\n\n[James Hsuan](https://www.eyenews.uk.com/contributors/person/james ... contributors/)\n* [Company Awards](http"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ESTRO-EANO guideline on target delineation and ... EANO - European Association of Neuro-Oncology https://www.eano.eu › estro-ean...",
+        "url": "https://www.eano.eu/publications/eano-guidelines/estro-eano-guideline-on-target-delineation-and-radiotherapy-details-for-glioblastoma-2023",
+        "publish_date": "",
+        "snippet": "ESTRO-EANO guideline on target delineation and",
+        "excerpts": [
+          "ESTRO-EANO guideline on target delineation and"
+        ],
+        "supporting_excerpts": [
+          "ESTRO-EANO guideline on target delineation and"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Guidelines - American Society for Radiation Oncology (ASTRO)",
+        "url": "https://www.astro.org/provider-resources/guidelines/clinical-practice-guidelines",
+        "publish_date": "",
+        "snippet": "Guidelines - American Society for Radiation Oncology (ASTRO)\nBreast. Recommendations on Preoperative Radiation Therapy in Breast Cancer: Current and Future Perspectives (ESTRO) – 2025 ASTRO endorsement. Postmastectomy",
+        "excerpts": [
+          "Guidelines - American Society for Radiation Oncology (ASTRO)\nBreast. Recommendations on Preoperative Radiation Therapy in Breast Cancer: Current and Future Perspectives (ESTRO) – 2025 ASTRO endorsement. Postmastectomy"
+        ],
+        "supporting_excerpts": [
+          "Guidelines - American Society for Radiation Oncology (ASTRO)\nBreast. Recommendations on Preoperative Radiation Therapy in Breast Cancer: Current and Future Perspectives (ESTRO) – 2025 ASTRO endorsement. Postmastectomy"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "doi",
+        "doi": "10.1016/j.annonc.2023.08.011",
+        "url": "https://doi.org/10.1016/j.annonc.2023.08.011",
+        "title": "",
+        "pmid": "",
+        "facets": [],
+        "excerpts": []
+      },
+      {
+        "type": "url",
+        "url": "https://www.sciencedirect.com/journal/cancer-radiotherapie/vol/26/issue/1",
+        "title": "",
+        "doi": "",
+        "pmid": "",
+        "facets": [],
+        "excerpts": []
+      },
+      {
+        "type": "url",
+        "url": "https://www.ejcancer.com/article/S0959-8049(25",
+        "title": "",
+        "doi": "",
+        "pmid": "",
+        "facets": [],
+        "excerpts": []
+      }
+    ],
+    "sources": [
+      {
+        "type": "source",
+        "title": "Management and work-up procedures of patients with head and neck malignancies treated by radiation - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1278321821002699",
+        "publish_date": "",
+        "snippet": "Une mise à jour des recommandations de la Société française de radiothérapie oncologique (SFRO) sur les indications et les modalités techniques de radiothérapie des tumeurs des glandes salivaires en termes de fractionnement, délinéation des volumes cibles et organes à risque est présentée dans ce chapitre.\nPractice guidelines Conformal radiotherapy in management of soft tissue sarcoma in adults Le Péchoux C., …, Thariat J.O. Cancer Radiotherapie • Volume 26 • 2022 Citation Excerpt: The margins from CTV to PTV depend on different centres and according to image-guided technique used of 3 to 5 mm. The doses to the organs at risk should be limited and are detailed in a dedicated article on ENT carcinomas [38]. Organizational access\nGet full-text access by signing in with",
+        "excerpts": [
+          "Une mise à jour des recommandations de la Société française de radiothérapie oncologique (SFRO) sur les indications et les modalités techniques de radiothérapie des tumeurs des glandes salivaires en termes de fractionnement, délinéation des volumes cibles et organes à risque est présentée dans ce chapitre.\nPractice guidelines Conformal radiotherapy in management of soft tissue sarcoma in adults Le Péchoux C., …, Thariat J.O. Cancer Radiotherapie • Volume 26 • 2022 Citation Excerpt: The margins from CTV to PTV depend on different centres and according to image-guided technique used of 3 to 5 mm. The doses to the organs at risk should be limited and are detailed in a dedicated article on ENT carcinomas [38]. Organizational access\nGet full-text access by signing in with"
+        ],
+        "supporting_excerpts": [
+          "Une mise à jour des recommandations de la Société française de radiothérapie oncologique (SFRO) sur les indications et les modalités techniques de radiothérapie des tumeurs des glandes salivaires en termes de fractionnement, délinéation des volumes cibles et organes à risque est présentée dans ce chapitre.\nPractice guidelines Conformal radiotherapy in management of soft tissue sarcoma in adults Le Péchoux C., …, Thariat J.O. Cancer Radiotherapie • Volume 26 • 2022 Citation Excerpt: The margins from CTV to PTV depend on different centres and according to image-guided technique used of 3 to 5 mm. The doses to the organs at risk should be limited and are detailed in a dedicated article on ENT carcinomas [38]. Organizational access\nGet full-text access by signing in with"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "External beam radiotherapy for prostatic cancers: 2025 update - ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1278321825001933",
+        "publish_date": "",
+        "snippet": "recommandations de la Société française de radiothérapie oncologique (SFRO) aborde les questions relatives à la réirradiation, avec un accent particulier sur les tumeurs de la prostate, les tumeurs gynécologiques et les tumeurs pelviennes. ☆ This article is part of the special issue RecoRad™, 4th edition on the 2025 update of the recommendations of the Société française de radiothérapie oncologique (SFRO) on external radiotherapy and brachytherapy procedures. View full text © 2025 Société française de radiothérapie oncologique (SFRO). Published by Elsevier Masson SAS. C. Salembier et al.\nESTRO ACROP consensus guideline on CT- and MRI-based target volume delineation for primary radiation therapy of localized prostate cancer\nRadiother Oncol (2018)\nJ. Le Guévelou et al",
+        "excerpts": [
+          "recommandations de la Société française de radiothérapie oncologique (SFRO) aborde les questions relatives à la réirradiation, avec un accent particulier sur les tumeurs de la prostate, les tumeurs gynécologiques et les tumeurs pelviennes. ☆ This article is part of the special issue RecoRad™, 4th edition on the 2025 update of the recommendations of the Société française de radiothérapie oncologique (SFRO) on external radiotherapy and brachytherapy procedures. View full text © 2025 Société française de radiothérapie oncologique (SFRO). Published by Elsevier Masson SAS. C. Salembier et al.\nESTRO ACROP consensus guideline on CT- and MRI-based target volume delineation for primary radiation therapy of localized prostate cancer\nRadiother Oncol (2018)\nJ. Le Guévelou et al"
+        ],
+        "supporting_excerpts": [
+          "recommandations de la Société française de radiothérapie oncologique (SFRO) aborde les questions relatives à la réirradiation, avec un accent particulier sur les tumeurs de la prostate, les tumeurs gynécologiques et les tumeurs pelviennes. ☆ This article is part of the special issue RecoRad™, 4th edition on the 2025 update of the recommendations of the Société française de radiothérapie oncologique (SFRO) on external radiotherapy and brachytherapy procedures. View full text © 2025 Société française de radiothérapie oncologique (SFRO). Published by Elsevier Masson SAS. C. Salembier et al.\nESTRO ACROP consensus guideline on CT- and MRI-based target volume delineation for primary radiation therapy of localized prostate cancer\nRadiother Oncol (2018)\nJ. Le Guévelou et al"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ASTRO 2025: September 27 – October 1,  2025, San Francisco, - BEBIG Medical GmbH",
+        "url": "https://bebigmedical.com/news_13/181.html",
+        "publish_date": "",
+        "snippet": "2025-09-23 Page Views : 700 Author : admin BEBIG Medical GmbH will be attending ASTRO 2025 from September 27 – October 1 at at the Moscone Center, San Francisco . Visit our booth #1401 to explore our latest innovations in radiation therapy. Prev : SFRO 2025: SEPTEMBER 17-19, 2025, Bordeaux, France Next : ESTRO 2026 : May15 - 18 Related News BEBIG Medical Strengthens Its Presence in the Philippines with LINAC Launch and Office Opening Tuguegarao / Manila, Philippines – January 23–24, 2026BEBIG Medical, a global provider of radiation therapy solutions dedicated to advancing cancer treatment worldwide, marked two significant milestones in the Philippines with the successfulLinear Accelerator (LINAC) Opening Ceremony at St. 2026-01-26 sales@bebigmedical.com +49 30 9487888-10 Karower Damm",
+        "excerpts": [
+          "2025-09-23 Page Views : 700 Author : admin BEBIG Medical GmbH will be attending ASTRO 2025 from September 27 – October 1 at at the Moscone Center, San Francisco . Visit our booth #1401 to explore our latest innovations in radiation therapy. Prev : SFRO 2025: SEPTEMBER 17-19, 2025, Bordeaux, France Next : ESTRO 2026 : May15 - 18 Related News BEBIG Medical Strengthens Its Presence in the Philippines with LINAC Launch and Office Opening Tuguegarao / Manila, Philippines – January 23–24, 2026BEBIG Medical, a global provider of radiation therapy solutions dedicated to advancing cancer treatment worldwide, marked two significant milestones in the Philippines with the successfulLinear Accelerator (LINAC) Opening Ceremony at St. 2026-01-26 sales@bebigmedical.com +49 30 9487888-10 Karower Damm",
+          "23 Page Views : 798 Author : admin BEBIG Medical GmbH will be attending ASTRO 2025 from September 27 – October 1 at at the Moscone Center, San Francisco . Visit our booth #1401 to explore our latest innovations in radiation therapy. Prev : SFRO 2025: SEPTEMBER 17-19, 2025, Bordeaux, France Next : ESTRO 2026 : May15 - 18 Related News"
+        ],
+        "supporting_excerpts": [
+          "2025-09-23 Page Views : 700 Author : admin BEBIG Medical GmbH will be attending ASTRO 2025 from September 27 – October 1 at at the Moscone Center, San Francisco . Visit our booth #1401 to explore our latest innovations in radiation therapy. Prev : SFRO 2025: SEPTEMBER 17-19, 2025, Bordeaux, France Next : ESTRO 2026 : May15 - 18 Related News BEBIG Medical Strengthens Its Presence in the Philippines with LINAC Launch and Office Opening Tuguegarao / Manila, Philippines – January 23–24, 2026BEBIG Medical, a global provider of radiation therapy solutions dedicated to advancing cancer treatment worldwide, marked two significant milestones in the Philippines with the successfulLinear Accelerator (LINAC) Opening Ceremony at St. 2026-01-26 sales@bebigmedical.com +49 30 9487888-10 Karower Damm"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "https://www-sop.inria.fr/asclepios/biblio/Author/MALANDAIN-G.html",
+        "url": "https://www-sop.inria.fr/asclepios/biblio/Author/MALANDAIN-G.html",
+        "publish_date": "",
+        "snippet": "risque cérébraux : optimisation par radiothérapie stéréotaxique robotisée et atlas de segmentation automatique versus radiothérapie conformationnelle tridimensionnelle . 18e Congrès de la Société Française de Radiothérapie Oncologique (SFRO), 2007. Note: Cancer radiothérapie 11(6-7):399, 2007. [ bibtex-entry ]\nA. Isambert, V. Gregoire, F. Bidault, G. Calais, O. Commowick , G. Malandain , J.B. Ruaud, M. Tomsej, C. Bramoulle, J. Bourhis, and D. Lefkopoulos. Atlas-based automatic segmentation (ABAS) of head and neck (H&N) structures in conformal radiotherapy (CRT) . Acts of the 26th European Society for Therapeutic Radiology and Oncology (ESTRO), 2007. [ bibtex-entry ] Vandermeulen, P. A. van den Elsen, S. Napel, T. S. Sumanaweera, B. Harkness, P. F. Hemler, D. L. G. Hill, D. J",
+        "excerpts": [
+          "risque cérébraux : optimisation par radiothérapie stéréotaxique robotisée et atlas de segmentation automatique versus radiothérapie conformationnelle tridimensionnelle . 18e Congrès de la Société Française de Radiothérapie Oncologique (SFRO), 2007. Note: Cancer radiothérapie 11(6-7):399, 2007. [ bibtex-entry ]\nA. Isambert, V. Gregoire, F. Bidault, G. Calais, O. Commowick , G. Malandain , J.B. Ruaud, M. Tomsej, C. Bramoulle, J. Bourhis, and D. Lefkopoulos. Atlas-based automatic segmentation (ABAS) of head and neck (H&N) structures in conformal radiotherapy (CRT) . Acts of the 26th European Society for Therapeutic Radiology and Oncology (ESTRO), 2007. [ bibtex-entry ] Vandermeulen, P. A. van den Elsen, S. Napel, T. S. Sumanaweera, B. Harkness, P. F. Hemler, D. L. G. Hill, D. J"
+        ],
+        "supporting_excerpts": [
+          "risque cérébraux : optimisation par radiothérapie stéréotaxique robotisée et atlas de segmentation automatique versus radiothérapie conformationnelle tridimensionnelle . 18e Congrès de la Société Française de Radiothérapie Oncologique (SFRO), 2007. Note: Cancer radiothérapie 11(6-7):399, 2007. [ bibtex-entry ]\nA. Isambert, V. Gregoire, F. Bidault, G. Calais, O. Commowick , G. Malandain , J.B. Ruaud, M. Tomsej, C. Bramoulle, J. Bourhis, and D. Lefkopoulos. Atlas-based automatic segmentation (ABAS) of head and neck (H&N) structures in conformal radiotherapy (CRT) . Acts of the 26th European Society for Therapeutic Radiology and Oncology (ESTRO), 2007. [ bibtex-entry ] Vandermeulen, P. A. van den Elsen, S. Napel, T. S. Sumanaweera, B. Harkness, P. F. Hemler, D. L. G. Hill, D. J"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "YOULIA KIROVA - Institut Curie",
+        "url": "https://institut-curie.org/person/youlia-kirova",
+        "publish_date": "",
+        "snippet": "Lymphoma Radiation Oncology Group (ILROG) (steering committee member), the French Society of Radiation Oncology (SFRO), the FRancilian Oncogeriatric Group (FROG) (vice-president since the group was launched), the French Society of Senology and Breast Pathology (SFSMP), and the SKAGEN group. She is also an international professor involved in courses delivered by ESTRO (Multidisciplinary Breast Cancer Management, Evidence Based Radiation Oncology), ILROG, ESO, ESSO, and others. She is an active member of the Women’s Cancer Institute, working in the field of clinical research in radiotherapy for breast cancer, and is involved in clinical and translational research as a member of the LITO. She also contributes to the development of new techniques such as FLASH and mini-beams in the treatment",
+        "excerpts": [
+          "Lymphoma Radiation Oncology Group (ILROG) (steering committee member), the French Society of Radiation Oncology (SFRO), the FRancilian Oncogeriatric Group (FROG) (vice-president since the group was launched), the French Society of Senology and Breast Pathology (SFSMP), and the SKAGEN group. She is also an international professor involved in courses delivered by ESTRO (Multidisciplinary Breast Cancer Management, Evidence Based Radiation Oncology), ILROG, ESO, ESSO, and others. She is an active member of the Women’s Cancer Institute, working in the field of clinical research in radiotherapy for breast cancer, and is involved in clinical and translational research as a member of the LITO. She also contributes to the development of new techniques such as FLASH and mini-beams in the treatment"
+        ],
+        "supporting_excerpts": [
+          "Lymphoma Radiation Oncology Group (ILROG) (steering committee member), the French Society of Radiation Oncology (SFRO), the FRancilian Oncogeriatric Group (FROG) (vice-president since the group was launched), the French Society of Senology and Breast Pathology (SFSMP), and the SKAGEN group. She is also an international professor involved in courses delivered by ESTRO (Multidisciplinary Breast Cancer Management, Evidence Based Radiation Oncology), ILROG, ESO, ESSO, and others. She is an active member of the Women’s Cancer Institute, working in the field of clinical research in radiotherapy for breast cancer, and is involved in clinical and translational research as a member of the LITO. She also contributes to the development of new techniques such as FLASH and mini-beams in the treatment"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ESTRO - 🌟  Milestone for ESTRO & SFRO 🌟 🇫🇷\nWe are pleased... | Facebook",
+        "url": "https://www.facebook.com/ESTRO.org/posts/-milestone-for-estro-sfro-we-are-pleased-to-announce-that-estro-and-sfro-the-fre/1558434165490527",
+        "publish_date": "",
+        "snippet": "October 3, 2025 · 🌟 Milestone for ESTRO & SFRO 🌟 🇫🇷 We are pleased to announce that ESTRO and SFRO, the French National Society for Radiation Oncology, have signed a Joint Membership collaboration, effective from 2026. 🙌 Through this pilot project, all SFRO members will have the opportunity to become ESTRO–SFRO joint members, strengthening collaboration and fostering closer ties between our societies. This marks an important step in our shared mission to advance radiation oncology in Europe! Congrès de la SFRO No photo description available. Are you interested in this post? Interested Not interested Interested Not interested All reactions: 23 1 comment 2 shares Like Comment Most relevant ﻿ Nicolas Pourel Fantastique ! 18w 2 Allow the use of cookies from Facebook on",
+        "excerpts": [
+          "October 3, 2025 · 🌟 Milestone for ESTRO & SFRO 🌟 🇫🇷 We are pleased to announce that ESTRO and SFRO, the French National Society for Radiation Oncology, have signed a Joint Membership collaboration, effective from 2026. 🙌 Through this pilot project, all SFRO members will have the opportunity to become ESTRO–SFRO joint members, strengthening collaboration and fostering closer ties between our societies. This marks an important step in our shared mission to advance radiation oncology in Europe! Congrès de la SFRO No photo description available. Are you interested in this post? Interested Not interested Interested Not interested All reactions: 23 1 comment 2 shares Like Comment Most relevant ﻿ Nicolas Pourel Fantastique ! 18w 2 Allow the use of cookies from Facebook on"
+        ],
+        "supporting_excerpts": [
+          "October 3, 2025 · 🌟 Milestone for ESTRO & SFRO 🌟 🇫🇷 We are pleased to announce that ESTRO and SFRO, the French National Society for Radiation Oncology, have signed a Joint Membership collaboration, effective from 2026. 🙌 Through this pilot project, all SFRO members will have the opportunity to become ESTRO–SFRO joint members, strengthening collaboration and fostering closer ties between our societies. This marks an important step in our shared mission to advance radiation oncology in Europe! Congrès de la SFRO No photo description available. Are you interested in this post? Interested Not interested Interested Not interested All reactions: 23 1 comment 2 shares Like Comment Most relevant ﻿ Nicolas Pourel Fantastique ! 18w 2 Allow the use of cookies from Facebook on"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Uveal Melanoma UK national guidelines: 2023 update - European Journal of Cancer",
+        "url": "https://www.ejcancer.com/article/S0959-8049(25)00469-1/fulltext",
+        "publish_date": "",
+        "snippet": "... therapies for hepatic disease;\nIII.\nThe role of adjuvant radiotherapy to the orbit in cases at high-risk of local tumour recurrence and the use of palliative radiotherapy to manage advanced disease;\nIV.\nClinical and radiological surveillance ... ",
+        "excerpts": [
+          "... therapies for hepatic disease;\nIII.\nThe role of adjuvant radiotherapy to the orbit in cases at high-risk of local tumour recurrence and the use of palliative radiotherapy to manage advanced disease;\nIV.\nClinical and radiological surveillance ... "
+        ],
+        "supporting_excerpts": [
+          "... therapies for hepatic disease;\nIII.\nThe role of adjuvant radiotherapy to the orbit in cases at high-risk of local tumour recurrence and the use of palliative radiotherapy to manage advanced disease;\nIV.\nClinical and radiological surveillance ... "
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Delineation of the post-operative primary tumour and nodal clinical target volumes in oral cavity squamous cell carcinoma: European Society for Radiotherapy and Oncology (ESTRO) clinical guidelines - Radiotherapy and Oncology",
+        "url": "https://www.thegreenjournal.com/article/S0167-8140%2825%2904639-0/fulltext",
+        "publish_date": "",
+        "snippet": "... access\n\nDownload Full Issue\n\nDownload started\n\n[Ok](#)\n\n# Delineation of the post-operative primary tumour and nodal clinical target volumes in oral cavity squamous cell carcinoma: European Society for Radiotherapy and Oncology (ESTRO) clinical g",
+        "excerpts": [
+          "... access\n\nDownload Full Issue\n\nDownload started\n\n[Ok](#)\n\n# Delineation of the post-operative primary tumour and nodal clinical target volumes in oral cavity squamous cell carcinoma: European Society for Radiotherapy and Oncology (ESTRO) clinical g"
+        ],
+        "supporting_excerpts": [
+          "... access\n\nDownload Full Issue\n\nDownload started\n\n[Ok](#)\n\n# Delineation of the post-operative primary tumour and nodal clinical target volumes in oral cavity squamous cell carcinoma: European Society for Radiotherapy and Oncology (ESTRO) clinical g"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "EANO/ESTRO Target Delineation and Radiotherapy for Idh ...",
+        "url": "https://www.guidelinecentral.com/guideline/4543509",
+        "publish_date": "",
+        "snippet": "EANO/ESTRO Target Delineation and Radiotherapy for Idh ...\nThis guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma,",
+        "excerpts": [
+          "EANO/ESTRO Target Delineation and Radiotherapy for Idh ...\nThis guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma,"
+        ],
+        "supporting_excerpts": [
+          "EANO/ESTRO Target Delineation and Radiotherapy for Idh ...\nThis guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma,"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ASTRO, ESTRO Radiation Oncology Guidelines | ITN",
+        "url": "https://www.itnonline.com/content/astro-estro-collaborate-radiation-oncology-clinical-guidelines",
+        "publish_date": "",
+        "snippet": "ASTRO, ESTRO Radiation Oncology Guidelines | ITN\nMay 19, 2026 · ASTRO and ESTRO each regularly develop clinical practice guidelines to support evidence‑based decision‑making in radiation oncology. Through",
+        "excerpts": [
+          "ASTRO, ESTRO Radiation Oncology Guidelines | ITN\nMay 19, 2026 · ASTRO and ESTRO each regularly develop clinical practice guidelines to support evidence‑based decision‑making in radiation oncology. Through"
+        ],
+        "supporting_excerpts": [
+          "ASTRO, ESTRO Radiation Oncology Guidelines | ITN\nMay 19, 2026 · ASTRO and ESTRO each regularly develop clinical practice guidelines to support evidence‑based decision‑making in radiation oncology. Through"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ESTRO-EANO guideline on target delineation and ...",
+        "url": "https://pure.amsterdamumc.nl/en/publications/estro-eano-guideline-on-target-delineation-and-radiotherapy-for-i",
+        "publish_date": "",
+        "snippet": "ESTRO-EANO guideline on target delineation and ...\nby BG Baumert · 2025 · Cited by 30 — This guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma, using the latest 2021 WHO (5th)",
+        "excerpts": [
+          "ESTRO-EANO guideline on target delineation and ...\nby BG Baumert · 2025 · Cited by 30 — This guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma, using the latest 2021 WHO (5th)"
+        ],
+        "supporting_excerpts": [
+          "ESTRO-EANO guideline on target delineation and ...\nby BG Baumert · 2025 · Cited by 30 — This guideline will discuss radiotherapeutic management of IDH-mutant grade 2 and grade 3 diffuse glioma, using the latest 2021 WHO (5th)"
+        ],
+        "doi": "",
+        "pmid": "39454886",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "EANO Guidelines",
+        "url": "https://www.eano.eu/publications/eano-guidelines",
+        "publish_date": "",
+        "snippet": "EANO Guidelines\nESTRO-EANO guideline on target delineation and radiotherapy details for glioblastoma (2023)",
+        "excerpts": [
+          "EANO Guidelines\nESTRO-EANO guideline on target delineation and radiotherapy details for glioblastoma (2023)"
+        ],
+        "supporting_excerpts": [
+          "EANO Guidelines\nESTRO-EANO guideline on target delineation and radiotherapy details for glioblastoma (2023)"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Perilesional dominance: radiomics of multiparametric MRI enhances differentiation of IgG4-Related ophthalmic disease and orbital MALT lymphoma | BMC Medical Imaging | Springer Nature Link",
+        "url": "https://link.springer.com/article/10.1186/s12880-025-01771-5",
+        "publish_date": "",
+        "snippet": "... article/10.1186/s12880-025-01771-5#MOESM1) \\- [S3](/article/10.1186/s12880-025-01771-5#MOESM1) ); (3) prior orbital therapy (surgery, radiotherapy, or chemotherapy); (4) incomplete clinical records. Pathological slides were independently ... unde",
+        "excerpts": [
+          "... article/10.1186/s12880-025-01771-5#MOESM1) \\- [S3](/article/10.1186/s12880-025-01771-5#MOESM1) ); (3) prior orbital therapy (surgery, radiotherapy, or chemotherapy); (4) incomplete clinical records. Pathological slides were independently ... unde"
+        ],
+        "supporting_excerpts": [
+          "... article/10.1186/s12880-025-01771-5#MOESM1) \\- [S3](/article/10.1186/s12880-025-01771-5#MOESM1) ); (3) prior orbital therapy (surgery, radiotherapy, or chemotherapy); (4) incomplete clinical records. Pathological slides were independently ... unde"
+        ],
+        "doi": "10.1186/s12880-025-01771-5",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ESTRO-EANO guideline on target delineation and radiotherapy details for glioblastoma - Radiotherapy and Oncology",
+        "url": "https://www.thegreenjournal.com/article/S0167-8140%2823%2900201-3/fulltext",
+        "publish_date": "",
+        "snippet": "...  on crossmark\") Linked Articles\n\n[Cover Image - Radiotherapy and Oncology, Volume 184, Issue](https://www.thegreenjournal.com/issue/S0167-8140\\(23\\)X0007-3)\n\n## Highlights\n\n•\n\nThe present ESTRO-EANO guideline reports the novel standard for target",
+        "excerpts": [
+          "...  on crossmark\") Linked Articles\n\n[Cover Image - Radiotherapy and Oncology, Volume 184, Issue](https://www.thegreenjournal.com/issue/S0167-8140\\(23\\)X0007-3)\n\n## Highlights\n\n•\n\nThe present ESTRO-EANO guideline reports the novel standard for target"
+        ],
+        "supporting_excerpts": [
+          "...  on crossmark\") Linked Articles\n\n[Cover Image - Radiotherapy and Oncology, Volume 184, Issue](https://www.thegreenjournal.com/issue/S0167-8140\\(23\\)X0007-3)\n\n## Highlights\n\n•\n\nThe present ESTRO-EANO guideline reports the novel standard for target"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "European Society for Radiotherapy and Oncology (ESTRO ...",
+        "url": "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045%2823%2900534-X/abstract",
+        "publish_date": "",
+        "snippet": "European Society for Radiotherapy and Oncology (ESTRO ...\nInternational multidisciplinary consensus on the integration of radiotherapy with new systemic treatments for breast cancer.",
+        "excerpts": [
+          "European Society for Radiotherapy and Oncology (ESTRO ...\nInternational multidisciplinary consensus on the integration of radiotherapy with new systemic treatments for breast cancer."
+        ],
+        "supporting_excerpts": [
+          "European Society for Radiotherapy and Oncology (ESTRO ...\nInternational multidisciplinary consensus on the integration of radiotherapy with new systemic treatments for breast cancer."
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Adjuvant radiotherapy in orbital malignancy | Eye News",
+        "url": "https://www.eyenews.uk.com/reviews/journal-reviews/post/adjuvant-radiotherapy-in-orbital-malignancy",
+        "publish_date": "",
+        "snippet": "... reviews/journal-reviews/post/adjuvant-radiotherapy-in-orbital-malignancy&title=Adjuvant radiotherapy in orbital malignancy \"On Reddit\")\n\n[James Hsuan](https://www.eyenews.uk.com/contributors/person/james ... contributors/)\n* [Company Awards](http",
+        "excerpts": [
+          "... reviews/journal-reviews/post/adjuvant-radiotherapy-in-orbital-malignancy&title=Adjuvant radiotherapy in orbital malignancy \"On Reddit\")\n\n[James Hsuan](https://www.eyenews.uk.com/contributors/person/james ... contributors/)\n* [Company Awards](http"
+        ],
+        "supporting_excerpts": [
+          "... reviews/journal-reviews/post/adjuvant-radiotherapy-in-orbital-malignancy&title=Adjuvant radiotherapy in orbital malignancy \"On Reddit\")\n\n[James Hsuan](https://www.eyenews.uk.com/contributors/person/james ... contributors/)\n* [Company Awards](http"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "ESTRO-EANO guideline on target delineation and ... EANO - European Association of Neuro-Oncology https://www.eano.eu › estro-ean...",
+        "url": "https://www.eano.eu/publications/eano-guidelines/estro-eano-guideline-on-target-delineation-and-radiotherapy-details-for-glioblastoma-2023",
+        "publish_date": "",
+        "snippet": "ESTRO-EANO guideline on target delineation and",
+        "excerpts": [
+          "ESTRO-EANO guideline on target delineation and"
+        ],
+        "supporting_excerpts": [
+          "ESTRO-EANO guideline on target delineation and"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      },
+      {
+        "type": "source",
+        "title": "Guidelines - American Society for Radiation Oncology (ASTRO)",
+        "url": "https://www.astro.org/provider-resources/guidelines/clinical-practice-guidelines",
+        "publish_date": "",
+        "snippet": "Guidelines - American Society for Radiation Oncology (ASTRO)\nBreast. Recommendations on Preoperative Radiation Therapy in Breast Cancer: Current and Future Perspectives (ESTRO) – 2025 ASTRO endorsement. Postmastectomy",
+        "excerpts": [
+          "Guidelines - American Society for Radiation Oncology (ASTRO)\nBreast. Recommendations on Preoperative Radiation Therapy in Breast Cancer: Current and Future Perspectives (ESTRO) – 2025 ASTRO endorsement. Postmastectomy"
+        ],
+        "supporting_excerpts": [
+          "Guidelines - American Society for Radiation Oncology (ASTRO)\nBreast. Recommendations on Preoperative Radiation Therapy in Breast Cancer: Current and Future Perspectives (ESTRO) – 2025 ASTRO endorsement. Postmastectomy"
+        ],
+        "doi": "",
+        "pmid": "",
+        "facets": []
+      }
+    ],
+    "timestamp": "2026-07-31 09:45:51",
+    "backend": "openrouter",
+    "model": "google/gemini-3.5-flash-lite+web/parallel",
+    "usage": {
+      "prompt_tokens": 12274,
+      "completion_tokens": 4280,
+      "total_tokens": 16554,
+      "cost": 0.1814431,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 2697,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.17044310000000001,
+        "upstream_inference_prompt_cost": 0.0435006,
+        "upstream_inference_completions_cost": 0.12694249999999999
+      },
+      "server_tool_use_details": {
+        "web_search_requests": 3,
+        "tool_calls_requested": 3,
+        "tool_calls_executed": 3
+      }
+    },
+    "academic": false,
+    "references": [],
+    "search_ledger": [
+      {
+        "capability": "openrouter:web_search",
+        "engine": "parallel",
+        "model": "google/gemini-3.5-flash-lite",
+        "domains": [],
+        "after_date": null,
+        "timestamp": "2026-07-31T09:47:09.774730+00:00",
+        "result_count": 18,
+        "max_searches": 3,
+        "status": "complete"
+      }
+    ]
+  }
+]

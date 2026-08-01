@@ -1,0 +1,218 @@
+{
+  "introduction": {
+    "purpose": "Established background, significance, and unresolved gap.",
+    "reference_ids": [
+      "ref-001",
+      "ref-002",
+      "ref-003",
+      "ref-004",
+      "ref-005",
+      "ref-006",
+      "ref-007",
+      "ref-008",
+      "ref-009",
+      "ref-010",
+      "ref-011",
+      "ref-012",
+      "ref-013",
+      "ref-014",
+      "ref-015",
+      "ref-016",
+      "ref-017",
+      "ref-018",
+      "ref-019"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology - PubMed Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology Daniel E Spratt et al."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "Rethinking combination strategies in metastatic castration-resistant prostate cancer (mCRPC)—lessons from KEYNOTE-641 - PMC Journal List User Guide Open resources icon View on publisher site icon View on publisher site Download PDF icon Download PDF Collections icon Collections icon Add to Collections Cite icon Cite Show article permalink icon Permalink Open article navigation icon As a library, NLM provides access to scientific literature."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "Re: EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer - PubMed Affiliations 1 Department of Urology, Vivantes Klinikum am Urban, Berlin, Germany; Knowuro GmbH, Berlin, Germany."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "2025 Canadian Urological Association-Canadian Uro-oncology Group Guideline: Metastatic castration-resistant prostate cancer (Update) - PMC Journal List User Guide Open resources icon View on publisher site icon View on publisher site Download PDF icon Download PDF Collections icon Collections icon Add to Collections Cite icon Cite Show article permalink icon Permalink Open article navigation icon As a library, NLM provides access to scientific literature."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al."
+      },
+      {
+        "reference_id": "ref-006",
+        "finding": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer."
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "Prostate cancer is \"found\" through a multistep risk-based EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate ..."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "Prostate cancer treatment recommendation study based on machine learning and SHAP interpreter - Tang - 2024 - Cancer Science - Wiley Online Library Cornford P , van den Bergh RCN , Briers E , et al."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "Prostate cancer in a nutshell - Kirby - 2024 Prostate cancer in a nutshell - Kirby - 2024 by M Kirby · 2024 · Cited by 2 — EAU-EANM-ESTRO-ESUR-ISUP-SIOG guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "EAU guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "EAU guidelines on prostate cancer - PubMed Checking your browser before accessing pubmed.ncbi.nlm.nih.gov ..."
+      },
+      {
+        "reference_id": "ref-012",
+        "finding": "EAU Guidelines on Prostate Cancer - ScienceDirect.com It is not possible to state that one therapy is clearly superior over another, as randomized controlled trials are lacking in this field."
+      },
+      {
+        "reference_id": "ref-013",
+        "finding": "EAU Guidelines on Prostate Cancer."
+      },
+      {
+        "reference_id": "ref-014",
+        "finding": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer ..."
+      },
+      {
+        "reference_id": "ref-015",
+        "finding": "External beam radiotherapy for prostatic cancers: 2025 update - ScienceDirect castration-sensitive prostate cancer (PEACE-1): a multicentre, open-label, randomised, phase 3 study with a 2 × 2 factorial design Lancet (2022) A."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "Clinical decision making in prostate cancer care—evaluation of EAU-guidelines use and novel decision support software | Scientific Reports Skip to main content Thank you for visiting nature.com."
+      },
+      {
+        "reference_id": "ref-017",
+        "finding": "Hormonal Agents in Localized and Advanced Prostate Cancer: Current Use and Future Perspectives - ScienceDirect Engl J Med (2019) K Fizazi et al."
+      },
+      {
+        "reference_id": "ref-018",
+        "finding": "Treatment of nonmetastatic castration-resistant prostate cancer: focus on second-generation androgen receptor inhibitors - PMC survival, mHSPC metastatic hormone-sensitive prostate cancer, mPC metastatic prostate cancer, MRI magnetic resonance imaging, nmCRPC nonmetastatic castration-resistant prostate cancer, nmPC nonmetastatic prostate cancer, NE not estimable, NR not reached, OS overall survival, PBO placebo, PC prostate cancer, PFS progression-free survival, PR25 prostate cancer-specific 25-item questionnaire, QoL quality of life, rPFS radiographic progression-free survival, SSE symptomatic skeletal event. a Only significant results are reported in this table."
+      },
+      {
+        "reference_id": "ref-019",
+        "finding": "Pattern of Clinical Progression Until Metastatic Castration-Resistant Prostate Cancer: An Epidemiological Study from the European Prostate Cancer Registry - PMC Open in a new tab Flowchart of included patients. mCRPC metastatic castration resistance prostate cancer, mHSPC metastatic hormone-sensitive prostate cancer, nmCRPC non-metastatic castration-resistant prostate cancer Figure 2 presents the distribution of patients between treatment sequences and the median duration between the disease stages."
+      }
+    ]
+  },
+  "methods-rationale": {
+    "purpose": "Published precedent for measures, protocols, models, and analyses.",
+    "reference_ids": [
+      "ref-013"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-013",
+        "finding": "EAU Guidelines on Prostate Cancer."
+      }
+    ]
+  },
+  "discussion": {
+    "purpose": "Supporting and conflicting studies, mechanisms, limits, and implications.",
+    "reference_ids": [
+      "ref-001",
+      "ref-002",
+      "ref-003",
+      "ref-004",
+      "ref-005",
+      "ref-006",
+      "ref-007",
+      "ref-008",
+      "ref-009",
+      "ref-010",
+      "ref-011",
+      "ref-012",
+      "ref-013",
+      "ref-014",
+      "ref-015",
+      "ref-016",
+      "ref-017",
+      "ref-018",
+      "ref-019"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology - PubMed Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology Daniel E Spratt et al."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "Rethinking combination strategies in metastatic castration-resistant prostate cancer (mCRPC)—lessons from KEYNOTE-641 - PMC Journal List User Guide Open resources icon View on publisher site icon View on publisher site Download PDF icon Download PDF Collections icon Collections icon Add to Collections Cite icon Cite Show article permalink icon Permalink Open article navigation icon As a library, NLM provides access to scientific literature."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "Re: EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer - PubMed Affiliations 1 Department of Urology, Vivantes Klinikum am Urban, Berlin, Germany; Knowuro GmbH, Berlin, Germany."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "2025 Canadian Urological Association-Canadian Uro-oncology Group Guideline: Metastatic castration-resistant prostate cancer (Update) - PMC Journal List User Guide Open resources icon View on publisher site icon View on publisher site Download PDF icon Download PDF Collections icon Collections icon Add to Collections Cite icon Cite Show article permalink icon Permalink Open article navigation icon As a library, NLM provides access to scientific literature."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al."
+      },
+      {
+        "reference_id": "ref-006",
+        "finding": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer."
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "Prostate cancer is \"found\" through a multistep risk-based EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate ..."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "Prostate cancer treatment recommendation study based on machine learning and SHAP interpreter - Tang - 2024 - Cancer Science - Wiley Online Library Cornford P , van den Bergh RCN , Briers E , et al."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "Prostate cancer in a nutshell - Kirby - 2024 Prostate cancer in a nutshell - Kirby - 2024 by M Kirby · 2024 · Cited by 2 — EAU-EANM-ESTRO-ESUR-ISUP-SIOG guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "EAU guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "EAU guidelines on prostate cancer - PubMed Checking your browser before accessing pubmed.ncbi.nlm.nih.gov ..."
+      },
+      {
+        "reference_id": "ref-012",
+        "finding": "EAU Guidelines on Prostate Cancer - ScienceDirect.com It is not possible to state that one therapy is clearly superior over another, as randomized controlled trials are lacking in this field."
+      },
+      {
+        "reference_id": "ref-013",
+        "finding": "EAU Guidelines on Prostate Cancer."
+      },
+      {
+        "reference_id": "ref-014",
+        "finding": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer ..."
+      },
+      {
+        "reference_id": "ref-015",
+        "finding": "External beam radiotherapy for prostatic cancers: 2025 update - ScienceDirect castration-sensitive prostate cancer (PEACE-1): a multicentre, open-label, randomised, phase 3 study with a 2 × 2 factorial design Lancet (2022) A."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "Clinical decision making in prostate cancer care—evaluation of EAU-guidelines use and novel decision support software | Scientific Reports Skip to main content Thank you for visiting nature.com."
+      },
+      {
+        "reference_id": "ref-017",
+        "finding": "Hormonal Agents in Localized and Advanced Prostate Cancer: Current Use and Future Perspectives - ScienceDirect Engl J Med (2019) K Fizazi et al."
+      },
+      {
+        "reference_id": "ref-018",
+        "finding": "Treatment of nonmetastatic castration-resistant prostate cancer: focus on second-generation androgen receptor inhibitors - PMC survival, mHSPC metastatic hormone-sensitive prostate cancer, mPC metastatic prostate cancer, MRI magnetic resonance imaging, nmCRPC nonmetastatic castration-resistant prostate cancer, nmPC nonmetastatic prostate cancer, NE not estimable, NR not reached, OS overall survival, PBO placebo, PC prostate cancer, PFS progression-free survival, PR25 prostate cancer-specific 25-item questionnaire, QoL quality of life, rPFS radiographic progression-free survival, SSE symptomatic skeletal event. a Only significant results are reported in this table."
+      },
+      {
+        "reference_id": "ref-019",
+        "finding": "Pattern of Clinical Progression Until Metastatic Castration-Resistant Prostate Cancer: An Epidemiological Study from the European Prostate Cancer Registry - PMC Open in a new tab Flowchart of included patients. mCRPC metastatic castration resistance prostate cancer, mHSPC metastatic hormone-sensitive prostate cancer, nmCRPC non-metastatic castration-resistant prostate cancer Figure 2 presents the distribution of patients between treatment sequences and the median duration between the disease stages."
+      }
+    ]
+  }
+}

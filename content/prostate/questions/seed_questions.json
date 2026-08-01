@@ -1,0 +1,47 @@
+{
+  "version": "0.1.0",
+  "status": "needs_review",
+  "questions": [
+    {
+      "id": "q_prostate_high_risk_retest_001",
+      "diseaseSite": "prostate",
+      "type": "qroc",
+      "linkedConcepts": ["psma_pet_limits", "adt_rt_integration", "multimodal_curative_options"],
+      "prompt": "Chez un patient cT3a, ISUP 4, PSA 32 ng/mL et PSMA-PET N0M0, pourquoi l'imagerie négative ne permet-elle pas de réduire automatiquement la stratégie à une radiothérapie prostatique seule ?",
+      "expectedAnswer": "Le PSMA-PET ne montre pas de maladie macroscopique détectable mais n'exclut pas un risque microscopique régional ou distant. La stratégie dépend du haut risque clinique, du contexte du patient et d'une discussion multidisciplinaire ; si une radiothérapie définitive est retenue, l'intégration d'une suppression androgénique doit être discutée selon les recommandations et la balance bénéfice-toxicité.",
+      "rubric": {
+        "maxScore": 4,
+        "fullCredit": [
+          "Identifie la maladie à haut risque.",
+          "Explique la limite du PSMA-PET pour la maladie microscopique.",
+          "Discute une stratégie curative multimodale.",
+          "Intègre le rôle et les toxicités de l'ADT."
+        ],
+        "criticalErrors": [
+          "Affirme qu'un PSMA-PET négatif exclut toute maladie microscopique.",
+          "Affirme que l'imagerie négative rend l'ADT inutile par principe.",
+          "Présente l'ADT seule comme traitement curatif standard de cette maladie M0."
+        ]
+      },
+      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026", "estro_acrop_adt_ebrt_2023", "eanm_snmmi_psma_pet_2023"],
+      "status": "needs_review"
+    },
+    {
+      "id": "q_prostate_systemic_001",
+      "diseaseSite": "prostate",
+      "type": "qcm",
+      "linkedConcepts": ["adt_rt_integration"],
+      "prompt": "Quelle formulation décrit le mieux le rôle de l'ADT associée à la radiothérapie d'une maladie à haut risque ?",
+      "options": [
+        "Elle sert uniquement à réduire temporairement le volume prostatique.",
+        "Elle fait partie d'une stratégie oncologique combinée, avec bénéfices potentiels et toxicités propres à individualiser.",
+        "Elle devient inutile dès que le PSMA-PET est négatif.",
+        "Elle remplace toujours la radiothérapie."
+      ],
+      "answerIndex": 1,
+      "explanation": "L'ADT est une composante oncologique de la stratégie combinée et non un simple outil dosimétrique. Sa durée, son intensité et sa tolérance dépendent du niveau de risque et du patient.",
+      "sources": ["eau_prostate_2026", "estro_acrop_adt_ebrt_2023", "sfro_recorad_prostate_2025"],
+      "status": "needs_review"
+    }
+  ]
+}

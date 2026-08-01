@@ -1,0 +1,121 @@
+{
+  "id": "endometrium",
+  "title": "Cancer de l'endomètre",
+  "version": "0.2.0",
+  "status": "needs_review",
+  "lastUpdated": "2026-07-31",
+  "learningGoal": "Reconstruire le raisonnement sur le cancer de l'endomètre, des fondations médicales jusqu'aux décisions expertes de RCP, en intégrant l'oncologie médicale et la radiothérapie.",
+  "masteryMeters": [
+    "medical_foundations",
+    "diagnosis_staging",
+    "pathology_molecular",
+    "medical_oncology",
+    "radiotherapy",
+    "rcp_reasoning",
+    "expert_nuance"
+  ],
+  "modules": [
+    {
+      "id": "foundations",
+      "title": "Fondations médicales",
+      "objective": "Comprendre l'anatomie, l'anatomopathologie, les voies de dissémination et les mécanismes qui sous-tendent les facteurs de risque.",
+      "nodes": [
+        "pelvic_anatomy",
+        "uterine_histology",
+        "endometrial_carcinogenesis",
+        "pelvic_lymphatic_drainage",
+        "myometrial_invasion",
+        "lvsi",
+        "histologic_subtypes",
+        "tumor_grade",
+        "molecular_classification",
+        "trial_literacy"
+      ]
+    },
+    {
+      "id": "diagnosis_staging",
+      "title": "Diagnostic et staging",
+      "objective": "Savoir quelles informations sont nécessaires avant la RCP et pourquoi chacune modifie le raisonnement.",
+      "nodes": [
+        "symptoms_initial_workup",
+        "biopsy_pathology_report",
+        "mri_pelvis_reading",
+        "ct_pet_indications",
+        "figo_2023_staging",
+        "tnm_mapping",
+        "risk_groups"
+      ]
+    },
+    {
+      "id": "medical_oncology",
+      "title": "Oncologie médicale essentielle",
+      "objective": "Comprendre les traitements systémiques qui modifient les décisions du radiothérapeute.",
+      "nodes": [
+        "adjuvant_chemotherapy_logic",
+        "platinum_taxane_basics",
+        "dmmr_msi_immunotherapy",
+        "p53_abnormal",
+        "her2_serous_disease",
+        "hormonal_therapy_low_grade_recurrent",
+        "recurrent_metastatic_lines",
+        "systemic_rt_interactions"
+      ]
+    },
+    {
+      "id": "rcp_reasoning",
+      "title": "Décision RCP",
+      "objective": "Transformer les données cliniques, anatomopathologiques, radiologiques, chirurgicales et moléculaires en stratégie argumentée.",
+      "nodes": [
+        "missing_data_detection",
+        "risk_groups",
+        "adjuvant_strategy_selection",
+        "local_vs_regional_vs_distant_risk",
+        "patient_frailty_tradeoffs",
+        "guideline_divergence_handling"
+      ]
+    },
+    {
+      "id": "radiotherapy",
+      "title": "Radio-oncologie",
+      "objective": "Maîtriser les indications, l'intention, les volumes, la dose et le fractionnement, les OAR et la logique des toxicités.",
+      "nodes": [
+        "vaginal_brachytherapy_indications",
+        "pelvic_ebrt_indications",
+        "vaginal_brachytherapy_vs_pelvic_ebrt",
+        "extended_field_logic",
+        "dose_fractionation_templates",
+        "target_volume_concepts",
+        "oar_constraints_principles",
+        "acute_late_toxicities",
+        "reirradiation_basics"
+      ]
+    },
+    {
+      "id": "complex_cases",
+      "title": "Cas complexes",
+      "objective": "Gérer les situations non standard avec un raisonnement explicite et une incertitude calibrée.",
+      "nodes": [
+        "node_positive_disease",
+        "positive_margins",
+        "cervical_stromal_invasion",
+        "aggressive_histology",
+        "oligometastatic_recurrence",
+        "locoregional_recurrence",
+        "medically_inoperable_patient"
+      ]
+    },
+    {
+      "id": "surveillance",
+      "title": "Surveillance et rechute",
+      "objective": "Savoir quoi surveiller, pourquoi, et comment le profil de rechute modifie la prise en charge.",
+      "nodes": [
+        "followup_schedule_logic",
+        "vaginal_recurrence",
+        "pelvic_recurrence",
+        "distant_relapse",
+        "late_toxicity_detection",
+        "survivorship_issues"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "version": "0.1.0",
+  "status": "needs_review",
+  "cases": [
+    {
+      "id": "prostate_case_001_high_risk_m0",
+      "title": "Haut risque M0 : ne pas opposer local et systémique",
+      "diseaseSite": "prostate",
+      "difficulty": 1,
+      "mode": "clinical_reasoning",
+      "learningObjective": "Construire une stratégie curative multidisciplinaire pour un cancer de prostate à haut risque sans utiliser un PSMA-PET négatif pour effacer le risque microscopique.",
+      "vignette": "Homme de 68 ans, PSA 32 ng/mL. L'IRM décrit une lésion avec extension extracapsulaire compatible cT3a. Les biopsies montrent un adénocarcinome ISUP 4. Le PSMA-PET ne montre ni adénopathie ni métastase. Un collègue conclut : « le PET est négatif, une radiothérapie prostatique seule suffit ». Le dossier arrive en RCP.",
+      "availableData": {
+        "clinical": "68 ans ; espérance de vie, comorbidités, traitements, statut cardiovasculaire, symptômes urinaires, fonction sexuelle et préférences non précisés.",
+        "biology": "PSA 32 ng/mL ; cinétique antérieure et testostérone non fournis.",
+        "imaging": "IRM compatible cT3a ; PSMA-PET N0M0 ; qualité et détails du compte rendu à vérifier.",
+        "pathology": "Adénocarcinome ISUP 4 ; nombre/longueur des carottes positives, proportion de grade 4, cribriforme/intraductal non précisés.",
+        "multidisciplinary": "Avis urologique, évaluation oncogériatrique si indiquée et bilan de tolérance d'une suppression androgénique non fournis."
+      },
+      "tasks": [
+        "Classer le risque et identifier les informations qui manquent encore à la décision.",
+        "Expliquer ce qu'un PSMA-PET négatif permet et ne permet pas de conclure.",
+        "Présenter les grandes options curatives multimodales sans affirmer qu'une stratégie est universellement supérieure.",
+        "Expliquer pourquoi l'intégration d'une suppression androgénique doit être discutée avec une radiothérapie dans ce contexte.",
+        "Identifier les toxicités et facteurs du patient qui doivent influencer la décision partagée."
+      ],
+      "expectedReasoning": [
+        "PSA 32, cT3a et ISUP 4 définissent une maladie à haut risque ; le stade et le groupe de risque doivent rester distincts.",
+        "Un PSMA-PET N0M0 améliore le staging macroscopique mais n'exclut pas une maladie ganglionnaire ou distante microscopique.",
+        "Les options curatives reposent notamment sur la prostatectomie dans une stratégie potentiellement multimodale ou sur la radiothérapie associée à une suppression androgénique ; le choix dépend du patient et de la discussion multidisciplinaire.",
+        "La suppression androgénique n'est pas un simple accompagnement technique : elle traite une composante biologique et systémique du risque et son bénéfice doit être mis en balance avec ses toxicités.",
+        "Une éventuelle intensification systémique ne doit pas être automatisée : ses critères, preuves, accès en France et risques doivent être vérifiés."
+      ],
+      "acceptedAnswers": [
+        {
+          "label": "Réponse complète",
+          "criteria": [
+            "Classe la maladie à haut risque à partir du PSA, du stade T et du groupe ISUP.",
+            "Explique qu'un PSMA-PET négatif n'exclut pas une maladie microscopique.",
+            "Compare chirurgie et radiothérapie comme parcours potentiellement multimodaux.",
+            "Intègre l'ADT, ses toxicités et le contexte du patient."
+          ]
+        },
+        {
+          "label": "Réponse partielle",
+          "criteria": [
+            "Reconnaît le haut risque mais utilise l'imagerie comme argument trop rassurant.",
+            "Propose un traitement local sans développer la composante d'oncologie médicale."
+          ]
+        }
+      ],
+      "gradingRubric": {
+        "finalAnswerAccuracy": { "maxScore": 2 },
+        "missingDataDetection": { "maxScore": 2 },
+        "riskStratification": { "maxScore": 2 },
+        "systemicTherapyReasoning": { "maxScore": 2 },
+        "localTreatmentReasoning": { "maxScore": 2 }
+      },
+      "commonErrors": [
+        { "error": "PSMA-PET négatif égal absence de risque microscopique", "gap": "imaging_gap", "remediationConcept": "psma_pet_limits" },
+        { "error": "Radiothérapie seule choisie sans discuter l'ADT", "gap": "medical_oncology_gap", "remediationConcept": "adt_rt_integration" },
+        { "error": "Chirurgie et radiothérapie présentées comme des monothérapies toujours exclusives", "gap": "rcp_gap", "remediationConcept": "multimodal_curative_options" },
+        { "error": "Traitement choisi sans espérance de vie, comorbidités ni préférences", "gap": "patient_gap", "remediationConcept": "risk_and_patient_context" }
+      ],
+      "retestQuestionId": "q_prostate_high_risk_retest_001",
+      "linkedConcepts": [
+        "eau_risk_groups",
+        "psma_pet_limits",
+        "adt_rt_integration",
+        "multimodal_curative_options",
+        "risk_and_patient_context"
+      ],
+      "sources": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "estro_acrop_adt_ebrt_2023",
+        "eanm_snmmi_psma_pet_2023",
+        "sfro_recorad_prostate_2025"
+      ],
+      "status": "needs_review"
+    }
+  ]
+}

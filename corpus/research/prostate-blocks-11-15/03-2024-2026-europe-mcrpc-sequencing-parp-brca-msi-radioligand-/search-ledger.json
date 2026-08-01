@@ -1,0 +1,39 @@
+[
+  {
+    "capability": "openrouter:web_search",
+    "engine": "parallel",
+    "model": "google/gemini-3.5-flash-lite",
+    "domains": [
+      "pubmed.ncbi.nlm.nih.gov",
+      "pmc.ncbi.nlm.nih.gov",
+      "europepmc.org",
+      "crossref.org",
+      "openalex.org",
+      "semanticscholar.org",
+      "arxiv.org",
+      "biorxiv.org",
+      "medrxiv.org",
+      "ncbi.nlm.nih.gov",
+      "nature.com",
+      "science.org",
+      "cell.com",
+      "pnas.org",
+      "nejm.org",
+      "thelancet.com",
+      "jamanetwork.com",
+      "bmj.com",
+      "springer.com",
+      "wiley.com",
+      "sciencedirect.com",
+      "ieee.org",
+      "acm.org",
+      "nih.gov",
+      "who.int"
+    ],
+    "after_date": null,
+    "timestamp": "2026-08-01T08:41:25.428287+00:00",
+    "result_count": 19,
+    "max_searches": 2,
+    "status": "complete"
+  }
+]

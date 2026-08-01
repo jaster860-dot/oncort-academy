@@ -1,0 +1,94 @@
+{
+  "project": "academy_guideline_corpus",
+  "started_at": "2026-07-31",
+  "updated_at": "2026-08-01",
+  "status": "in_progress",
+  "continuation": {
+    "mode": "completed",
+    "job_id": null,
+    "interval_minutes": null,
+    "completed_at": "2026-08-01",
+    "stop_condition": "Achieved: all 15 blocks have detailed lessons, assessments and cases; final validation, tests, build, UI audit and review queue audit pass."
+  },
+  "strategy": "France-first, then European, then international and pivotal evidence",
+  "academy_pilot": {
+    "course": "prostate",
+    "previous_prototype_retained": "endometrium",
+    "scope": "multidisciplinary oncology including urology, pathology, imaging, medical oncology, radiotherapy and supportive care",
+    "entry_mode": "guided foundations from zero",
+    "course_blocks": 15,
+    "mapped_competencies": 81,
+    "playable_block_overviews": 15,
+    "detailed_playable_blocks": 15,
+    "detailed_lessons": 87,
+    "detailed_checkpoints": 87,
+    "detailed_flashcards": 261,
+    "detailed_learning_cases": 14,
+    "prostate_sources": 24,
+    "foundation_lessons": 6,
+    "foundation_checkpoints": 6,
+    "foundation_flashcards": 18,
+    "first_playable_case": "prostate_case_001_high_risk_m0",
+    "latest_controlled_draft_block": "detection_diagnosis",
+    "next_incomplete_block": null,
+    "status": "needs_review_complete_course"
+  },
+  "metrics": {
+    "organizations": 41,
+    "documents": 108,
+    "local_validated_pdfs": 47,
+    "courses_with_any_source": "77/77",
+    "courses_with_core_source": "77/77",
+    "courses_with_two_or_more_core_sources": "69/77",
+    "courses_with_only_one_linked_source": "0/77",
+    "general_oncology_fundamentals_with_core_source": "21/21",
+    "radiotherapy_fundamentals_with_core_source": "23/23",
+    "recorad_2025_articles_indexed": 29,
+    "new_guideline_citations_validated": 26,
+    "restricted_resources_requiring_user_intervention": 6
+  },
+  "phases": [
+    {
+      "id": "foundation",
+      "title": "Gouvernance, schéma, manifeste et validation",
+      "status": "completed"
+    },
+    {
+      "id": "priority_1",
+      "title": "Cours de priorité 1",
+      "status": "in_progress"
+    },
+    {
+      "id": "fundamentals",
+      "title": "Sources cœur pour les 44 cours fondamentaux",
+      "status": "completed"
+    },
+    {
+      "id": "priority_2",
+      "title": "Cours de priorité 2",
+      "status": "in_progress"
+    },
+    {
+      "id": "transversal",
+      "title": "Radiothérapie, traitements systémiques et soins de support",
+      "status": "in_progress"
+    },
+    {
+      "id": "rare",
+      "title": "Localisations rares et sujets experts",
+      "status": "in_progress"
+    },
+    {
+      "id": "maintenance",
+      "title": "Veille, détection des mises à jour et revue médicale",
+      "status": "pending"
+    }
+  ],
+  "rules": [
+    "No access-control bypass",
+    "No document is marked current without a dated verification",
+    "Every local file is type-checked and hashed",
+    "Copyright-restricted files are local references only",
+    "Educational synthesis requires medical review before release"
+  ]
+}

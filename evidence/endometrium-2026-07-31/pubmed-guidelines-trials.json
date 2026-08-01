@@ -1,0 +1,66 @@
+{
+  "query": "40744042[PMID] OR 41449145[PMID] OR 37337978[PMID] OR 36280107[PMID] OR 35690222[PMID]",
+  "count": 5,
+  "results": [
+    {
+      "pmid": "41449145",
+      "doi": "10.1016/S1470-2045(25)00612-6",
+      "title": "Molecular profile-based adjuvant treatment for women with high-intermediate risk endometrial cancer (PORTEC-4a): results of a randomised, open-label, phase 3, multicentre, non-inferiority trial.",
+      "authors": "van den Heerik, Anne Sophie V M and Horeweg, Nanda and Haverkort, Marie A D and Kuijsters, Nienke and Kommoss, Stefan and Koppe, Friederike L A and Nowee, Marlies E and Westerveld, Henrike and De Jong, Maria A A and Fr\u00fchauf, Filip and Cnossen, Jeltsje S and Mens, Jan Willem M and Beukema, Jannet C and Chargari, Cyrus and Gillham, Charles and Jurgenliemk-Schulz, Ina M and Vandecasteele, Katrien and Hamann, Moritz and Kiderlen, Mandy and Staebler, Annette and Nijman, Hans W and Wortman, Bastiaan G and Asteinidou, Elefteria and de Boer, Stephanie M and van den Hout, Wilbert B and Verhoeven-Adema, Karen W and Nout, Remi A and Putter, Hein and Bosse, Tjalling and Creutzberg, Carien L",
+      "journal": "The Lancet. Oncology",
+      "year": "2026",
+      "volume": "27",
+      "issue": "1",
+      "pages": "23-35",
+      "abstract": "PORTEC-4a investigated molecular risk profile-based individualised adjuvant treatment for women with high-intermediate risk endometrial cancer, aiming to reduce both overtreatment and undertreatment while optimising locoregional control."
+    },
+    {
+      "pmid": "40744042",
+      "doi": "10.1016/S1470-2045(25)00167-6",
+      "title": "ESGO-ESTRO-ESP guidelines for the management of patients with endometrial carcinoma: update 2025.",
+      "authors": "Concin, Nicole and Matias-Guiu, Xavier and Cibula, David and Colombo, Nicoletta and Creutzberg, Carien L and Ledermann, Jonathan and Mirza, Mansoor Raza and Vergote, Ignace and Abu-Rustum, Nadeem R and Bosse, Tjalling and Chargari, Cyrus and Espenel, Sophie and Fagotti, Anna and Fotopoulou, Christina and Gatius, Sonia and Gonz\u00e1lez-Martin, Antonio and Lax, Sigurd and Levy, Bar and Lorusso, Domenica and Macchia, Gabriella and Marth, Christian and Morice, Philippe and Oaknin, Ana and Raspollini, Maria Rosaria and Schwameis, Richard and Sehouli, Jalid and Sturdza, Alina and Taylor, Alexandra and Westermann, Anneke and Wimberger, Pauline and Planchamp, Fran\u00e7ois and Nout, Remi A",
+      "journal": "The Lancet. Oncology",
+      "year": "2025",
+      "volume": "26",
+      "issue": "8",
+      "pages": "e423-e435",
+      "abstract": "In 2023, based on advances in the understanding of the pathological and molecular features of endometrial carcinoma, an updated International Federation of Gynaecology and Obstetrics (FIGO) staging system was published, aiming to better define prognostic groups and identify relevant treatment subgroups by including factors reflecting tumour biology (histological subtypes, lymphovascular space invasion, and molecular classification) alongside refinements of anatomical factors (peritoneal carcinomatosis and lymph node metastasis). As part of its mission to improve the quality of care for people with gynaecological cancers, the European Society of Gynaecological Oncology (ESGO), European Society for Radiotherapy and Oncology (ESTRO), and the European Society of Pathology (ESP) updated the ESGO-ESTRO-ESP evidence-based guidelines published in 2021 by incorporating this revised FIGO staging and the large body of new evidence addressing the management of endometrial carcinoma. The development process of these guidelines was based on a systematic literature review and critical appraisal process involving an international multidisciplinary development group consisting of 30 experts from relevant disciplines (gynaecological oncology, radiation oncology, medical oncology, and pathology). A patient representative was also included. Before publication, the guidelines were reviewed by 225 independent international practitioners in cancer care delivery and three patient representatives from Asia, Europe, North Africa, North America, the Middle East, and South America to ensure a global perspective. These guidelines comprehensively cover diagnosis, management, follow-up, and patient education. Management includes surgical and adjuvant therapy according to the stage of the disease, and metastatic and recurrent disease. The management algorithms and the principles of radiotherapy and pathological evaluation are also defined."
+    },
+    {
+      "pmid": "37337978",
+      "doi": "10.1002/ijgo.14923",
+      "title": "FIGO staging of endometrial cancer: 2023.",
+      "authors": "Berek, Jonathan S and Matias-Guiu, Xavier and Creutzberg, Carien and Fotopoulou, Christina and Gaffney, David and Kehoe, Sean and Lindemann, Kristina and Mutch, David and Concin, Nicole",
+      "journal": "International journal of gynaecology and obstetrics: the official organ of the International Federation of Gynaecology and Obstetrics",
+      "year": "2023",
+      "volume": "162",
+      "issue": "2",
+      "pages": "383-394",
+      "abstract": "Many advances in the understanding of the pathologic and molecular features of endometrial cancer have occurred since the FIGO staging was last updated in 2009. Substantially more outcome and biological behavior data are now available regarding the several histological types. Molecular and genetic findings have accelerated since the publication of The Cancer Genome Atlas (TCGA) data and provide improved clarity on the diverse biological nature of this collection of endometrial cancers and their differing prognostic outcomes. The goals of the new staging system are to better define these prognostic groups and create substages that indicate more appropriate surgical, radiation, and systemic therapies."
+    },
+    {
+      "pmid": "36280107",
+      "doi": "10.1016/j.prro.2022.09.002",
+      "title": "Radiation Therapy for Endometrial Cancer: An American Society for Radiation Oncology Clinical Practice Guideline.",
+      "authors": "Harkenrider, Matthew M and Abu-Rustum, Nadeem and Albuquerque, Kevin and Bradfield, Lisa and Bradley, Kristin and Dolinar, Ellen and Doll, Corinne M and Elshaikh, Mohamed and Frick, Melissa A and Gehrig, Paola A and Han, Kathy and Hathout, Lara and Jones, Ellen and Klopp, Ann and Mourtada, Firas and Suneja, Gita and Wright, Alexi A and Yashar, Catheryn and Erickson, Beth A",
+      "journal": "Practical radiation oncology",
+      "year": "2023",
+      "volume": "13",
+      "issue": "1",
+      "pages": "41-65",
+      "abstract": "With the results of several recently published clinical trials, this guideline informs on the use of adjuvant radiation therapy (RT) and systemic therapy in the treatment of endometrial cancer. Updated evidence-based recommendations provide indications for adjuvant RT and the associated techniques, the utilization and sequencing of adjuvant systemic therapies, and the effect of surgical staging techniques and molecular tumor profiling."
+    },
+    {
+      "pmid": "35690222",
+      "doi": "10.1016/j.annonc.2022.05.009",
+      "title": "Endometrial cancer: ESMO Clinical Practice Guideline for diagnosis, treatment and follow-up.",
+      "authors": "Oaknin, A and Bosse, T J and Creutzberg, C L and Giornelli, G and Harter, P and Joly, F and Lorusso, D and Marth, C and Makker, V and Mirza, M R and Ledermann, J A and Colombo, N",
+      "journal": "Annals of oncology : official journal of the European Society for Medical Oncology",
+      "year": "2022",
+      "volume": "33",
+      "issue": "9",
+      "pages": "860-877",
+      "abstract": ""
+    }
+  ]
+}

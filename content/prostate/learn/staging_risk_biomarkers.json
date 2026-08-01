@@ -1,0 +1,284 @@
+{
+  "id": "prostate_staging_risk_biomarkers",
+  "blockId": "staging_risk_biomarkers",
+  "title": "Prostate — du diagnostic au dossier de stadification",
+  "version": "0.1.0",
+  "status": "needs_review",
+  "lastUpdated": "2026-07-31",
+  "estimatedMinutes": 82,
+  "learningPromise": "À la fin de ce bloc, l'apprenant peut distinguer stade, grade et groupe de risque, sélectionner le bilan d'extension adapté, interpréter un PSMA-PET sans effacer le risque prétest et orienter correctement les analyses germinales ou somatiques.",
+  "evidenceScope": {
+    "provenanceNote": "Synthèse éducative France-first puis européenne. Les propositions restent needs_review jusqu'à vérification des passages par un clinicien identifié.",
+    "anchors": [
+      {
+        "sourceId": "ccafu_localised_2024_2026",
+        "locator": "Stadification : Classifications, Extension locorégionale, Ganglionnaire, TEP/TDM au PSMA et Impact thérapeutique ; Génétique"
+      },
+      {
+        "sourceId": "eau_prostate_2026",
+        "locator": "Classification and staging systems, tables 4.1 et 4.3 ; Diagnostic evaluation, sections 5.1.6, 5.8.2.c et 5.8.5"
+      },
+      {
+        "sourceId": "eanm_snmmi_psma_pet_2023",
+        "locator": "Table 1 ; Initial staging of unfavourable intermediate- to high-risk prostate cancer ; Important pitfalls"
+      },
+      {
+        "sourceId": "asco_genomic_testing_2025",
+        "locator": "Résumé PubMed vérifié ; recommandation spécialisée limitée au cancer métastatique"
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "id": "staging_01_tnm",
+      "nodeId": "tnm_staging",
+      "number": 1,
+      "title": "TNM : décrire l'extension sans mélanger les instruments",
+      "durationMinutes": 15,
+      "objectives": [
+        "Distinguer extension T, atteinte ganglionnaire N et maladie métastatique M.",
+        "Séparer stade clinique, constatations d'imagerie et stade pathologique.",
+        "Éviter de confondre TNM, grade ISUP et pronostic."
+      ],
+      "sections": [
+        {
+          "title": "Trois questions anatomiques",
+          "body": "T décrit l'extension de la tumeur primitive, N l'atteinte des ganglions régionaux et M les métastases à distance. Le TNM répond à une question d'étendue anatomique ; il ne résume ni l'agressivité histologique, ni la probabilité de rechute, ni l'état général du patient."
+        },
+        {
+          "title": "Nommer la méthode",
+          "body": "Le préfixe c désigne une estimation clinique avant traitement, tandis que p repose sur l'analyse anatomopathologique d'une pièce opératoire et des prélèvements disponibles. Dans la classification EAU actuelle, le cT utilisé pour le groupe de risque est fondé sur le toucher rectal ; les constatations IRM doivent être consignées séparément. Cette convention doit être explicitée lorsque les documents locaux emploient autrement le mot stade."
+        },
+        {
+          "title": "L'IRM complète, elle ne fusionne pas tout",
+          "body": "L'IRM apporte des informations sur une extension extraprostatique, les vésicules séminales et les ganglions visibles. Une absence d'extension visible n'exclut pas une extension microscopique. Le compte rendu de RCP doit donc conserver côte à côte cT, stade IRM, cN/cM et niveau de certitude."
+        }
+      ],
+      "causalChain": ["Examen clinique", "Imagerie nommée", "cTNM explicite", "Décision sans faux mélange"],
+      "commonTrap": "Transformer automatiquement une suspicion d'extension à l'IRM en cT du groupe de risque EAU sans préciser la convention utilisée.",
+      "checkpoint": {
+        "prompt": "Dans un dossier aligné sur la classification EAU, comment rapporter une extension extraprostatique suspectée à l'IRM chez un patient cT1c au toucher rectal ?",
+        "options": [
+          "Remplacer sans commentaire cT1c par cT3a",
+          "Conserver le cT fondé sur le toucher rectal et rapporter séparément la suspicion IRM",
+          "Classer d'emblée pT3a",
+          "Ignorer l'IRM"
+        ],
+        "answerIndex": 1,
+        "explanation": "Le cT du groupe de risque EAU repose sur le toucher rectal ; l'information IRM reste décisionnelle mais doit être nommée séparément. pT exige une information pathologique."
+      },
+      "flashcards": [
+        {"front": "TNM", "back": "Description anatomique : tumeur primitive, ganglions régionaux et métastases à distance."},
+        {"front": "cT", "back": "Stade clinique ; dans la classification de risque EAU, il est fondé sur le toucher rectal."},
+        {"front": "pT", "back": "Stade pathologique établi sur une pièce opératoire ; il ne peut pas être attribué par l'imagerie."}
+      ],
+      "sources": ["eau_prostate_2026", "ccafu_localised_2024_2026"]
+    },
+    {
+      "id": "staging_02_risk_groups",
+      "nodeId": "eau_risk_groups",
+      "number": 2,
+      "title": "Groupes de risque : combiner PSA, cT et ISUP",
+      "durationMinutes": 16,
+      "objectives": [
+        "Construire un groupe de risque à partir de variables définies.",
+        "Distinguer risque intermédiaire favorable et défavorable selon l'EAU.",
+        "Reconnaître qu'un groupe de risque n'est ni un TNM complet ni une prescription."
+      ],
+      "sections": [
+        {
+          "title": "Un modèle pronostique, pas une nouvelle anatomie",
+          "body": "Les groupes de risque assemblent le PSA initial, le cT et le groupe ISUP biopsique afin de regrouper des probabilités de récidive après traitement local. Ils ne remplacent pas le TNM, le volume tumoral, l'IRM, l'espérance de vie ou les préférences."
+        },
+        {
+          "title": "La grille EAU actuelle",
+          "body": "Le faible risque exige simultanément ISUP 1, PSA inférieur à 10 ng/mL et cT1–2. Le risque intermédiaire favorable comprend notamment ISUP 2 avec PSA inférieur à 10 ng/mL, ou ISUP 1 avec PSA entre 10 et 20 ng/mL, en cT1–2. L'intermédiaire défavorable comprend ISUP 2 avec PSA entre 10 et 20 ng/mL, ou ISUP 3, en cT1–2. ISUP 4–5 ou PSA supérieur à 20 ng/mL définit le haut risque localisé ; cT3–4 ou cN+ relève du localement avancé dans cette grille."
+        },
+        {
+          "title": "Toujours nommer le référentiel",
+          "body": "La classification française de D'Amico et la grille EAU ne découpent pas exactement les mêmes catégories. Un dossier transmissible indique le référentiel, sa version et les variables sources plutôt que d'écrire seulement “intermédiaire” ou “haut risque”."
+        }
+      ],
+      "causalChain": ["PSA initial", "cT et ISUP", "Référentiel daté", "Groupe de risque reproductible"],
+      "commonTrap": "Mélanger dans une même étiquette les seuils de D'Amico, la subdivision EAU et des critères issus d'un autre référentiel.",
+      "checkpoint": {
+        "prompt": "Selon la grille EAU 2026, un cancer cT1c, ISUP 2, PSA 8 ng/mL appartient à quel groupe ?",
+        "options": ["Faible risque", "Risque intermédiaire favorable", "Risque intermédiaire défavorable", "Haut risque"],
+        "answerIndex": 1,
+        "explanation": "ISUP 2 avec PSA inférieur à 10 ng/mL et cT1–2 correspond au risque intermédiaire favorable dans la grille EAU actuelle."
+      },
+      "flashcards": [
+        {"front": "Faible risque EAU", "back": "ISUP 1 ET PSA < 10 ng/mL ET cT1–2, selon la version 2026."},
+        {"front": "Intermédiaire défavorable EAU", "back": "ISUP 2 avec PSA 10–20 ng/mL, ou ISUP 3, en cT1–2."},
+        {"front": "Référentiel de risque", "back": "Toujours nommer système et version ; les catégories ne sont pas parfaitement interchangeables."}
+      ],
+      "sources": ["eau_prostate_2026", "ccafu_localised_2024_2026"]
+    },
+    {
+      "id": "staging_03_imaging_indications",
+      "nodeId": "psma_pet_indications",
+      "number": 3,
+      "title": "Choisir le bilan d'extension qui peut changer la décision",
+      "durationMinutes": 16,
+      "objectives": [
+        "Relier le groupe de risque à l'intensité raisonnable du bilan d'extension.",
+        "Situer le PSMA-PET par rapport à l'imagerie conventionnelle.",
+        "Éviter l'imagerie sans question clinique préalable."
+      ],
+      "sections": [
+        {
+          "title": "Commencer par la probabilité prétest",
+          "body": "Le rendement d'une recherche ganglionnaire ou métastatique augmente avec le risque construit par PSA, cT, ISUP et charge biopsique. L'examen doit répondre à une question capable de modifier le volume traité, le parcours local ou la stratégie systémique."
+        },
+        {
+          "title": "Une intensité graduée",
+          "body": "L'EAU 2026 ne recommande pas d'imagerie additionnelle de stadification pour les maladies de faible risque ou intermédiaire favorable. Pour l'intermédiaire défavorable, un PSMA-PET peut être réalisé s'il est disponible afin d'améliorer l'exactitude, sinon au minimum une imagerie abdominopelvienne en coupe et une scintigraphie osseuse. Pour le haut risque ou le localement avancé, le dépistage métastatique par PSMA-PET s'il est disponible, ou au minimum par imagerie conventionnelle, est recommandé."
+        },
+        {
+          "title": "France : disponibilité et héritage des essais",
+          "body": "Le CCAFU décrit une meilleure performance du PSMA-PET que le couple scanner–scintigraphie dans le haut risque, avec une disponibilité encore hétérogène. De nombreuses stratégies thérapeutiques restent toutefois fondées sur des essais ayant défini volume et stade par imagerie conventionnelle ; la modalité utilisée doit donc apparaître dans le raisonnement."
+        }
+      ],
+      "causalChain": ["Groupe de risque", "Question de stadification", "Modalité disponible", "Impact décisionnel explicite"],
+      "commonTrap": "Demander un PSMA-PET à tout cancer prouvé, indépendamment du risque et de l'effet attendu sur la décision.",
+      "checkpoint": {
+        "prompt": "Quelle stratégie est la plus conforme à l'EAU 2026 pour un haut risque localisé nouvellement diagnostiqué ?",
+        "options": [
+          "Aucune imagerie d'extension",
+          "PSMA-PET s'il est disponible, sinon au minimum imagerie abdominopelvienne en coupe et scintigraphie osseuse",
+          "IRM prostatique seule dans tous les cas",
+          "TEP-FDG systématique"
+        ],
+        "answerIndex": 1,
+        "explanation": "Le haut risque justifie un dépistage métastatique ; le PSMA-PET est privilégié s'il est disponible, avec une alternative conventionnelle minimale."
+      },
+      "flashcards": [
+        {"front": "Faible risque / intermédiaire favorable", "back": "EAU 2026 : pas d'imagerie additionnelle de stadification."},
+        {"front": "Intermédiaire défavorable", "back": "PSMA-PET si disponible pour améliorer l'exactitude, sinon bilan conventionnel minimal ; recommandation EAU faible."},
+        {"front": "Haut risque / localement avancé", "back": "Dépistage métastatique par PSMA-PET si disponible, sinon imagerie en coupe et scintigraphie osseuse ; recommandation EAU forte."}
+      ],
+      "sources": ["eau_prostate_2026", "ccafu_localised_2024_2026", "eanm_snmmi_psma_pet_2023"]
+    },
+    {
+      "id": "staging_04_psma_limits",
+      "nodeId": "psma_pet_limits",
+      "number": 4,
+      "title": "PSMA-PET : gagner en détection sans perdre l'esprit critique",
+      "durationMinutes": 17,
+      "objectives": [
+        "Expliquer pourquoi un examen plus exact peut produire une migration de stade.",
+        "Reconnaître les principaux mécanismes de faux négatifs et faux positifs.",
+        "Conserver le risque clinique initial lors de l'interprétation."
+      ],
+      "sections": [
+        {
+          "title": "Voir des lésions auparavant invisibles",
+          "body": "Le PSMA-PET localise mieux de nombreuses atteintes ganglionnaires et osseuses que l'imagerie conventionnelle, surtout dans les groupes à risque élevé. Il peut donc déplacer un patient d'une catégorie historique vers une catégorie moléculaire plus avancée sans que la biologie de sa maladie ait changé."
+        },
+        {
+          "title": "Une négativité n'est pas une stérilisation du risque",
+          "body": "La résolution spatiale limite la détection des micrométastases ganglionnaires et certaines tumeurs expriment peu le PSMA. Un examen négatif signifie qu'aucune cible certaine n'est détectée au seuil de la méthode ; il n'annule ni le risque prétest, ni une indication construite sur des facteurs cliniques validés."
+        },
+        {
+          "title": "Une fixation n'est pas toujours un cancer prostatique",
+          "body": "Des ganglions sympathiques, des lésions osseuses bénignes, des processus inflammatoires ou d'autres tumeurs peuvent fixer un ligand du PSMA. Une lésion unique sans corrélat morphologique convaincant doit être interprétée avec sa localisation, son intensité, l'imagerie morphologique et, si la décision est majeure, une confirmation adaptée."
+        }
+      ],
+      "causalChain": ["Risque prétest", "Signal PSMA et morphologie", "Limites techniques", "Décision proportionnée"],
+      "commonTrap": "Omettre un traitement ou modifier radicalement le stade sur un résultat PSMA isolé sans cohérence clinique ni discussion de confirmation.",
+      "checkpoint": {
+        "prompt": "Un PSMA-PET négatif avant traitement d'un cancer à haut risque permet-il d'exclure une atteinte ganglionnaire microscopique ?",
+        "options": ["Oui, toujours", "Non, les petites métastases peuvent rester sous la résolution de la TEP", "Oui, si l'IRM est négative", "Oui, si le PSA est inférieur à 50 ng/mL"],
+        "answerIndex": 1,
+        "explanation": "Les études histologiques montrent une sensibilité ganglionnaire limitée pour les petits dépôts ; la spécificité élevée d'une lésion positive ne transforme pas la négativité en preuve d'absence microscopique."
+      },
+      "flashcards": [
+        {"front": "Migration de stade", "back": "Reclassement provoqué par une méthode plus sensible, sans changement biologique instantané de la maladie."},
+        {"front": "PSMA-PET négatif", "back": "Aucune cible détectable au seuil de l'examen ; les micrométastases et tumeurs peu exprimantes restent possibles."},
+        {"front": "Faux positif PSMA", "back": "Fixation non spécifique possible dans structures ganglionnaires, lésions bénignes, inflammation ou autres tumeurs ; corrélation morphologique requise."}
+      ],
+      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026", "eanm_snmmi_psma_pet_2023"]
+    },
+    {
+      "id": "staging_05_germline_somatic",
+      "nodeId": "germline_and_somatic_testing",
+      "number": 5,
+      "title": "Germinal ou somatique : poser la bonne question au bon moment",
+      "durationMinutes": 18,
+      "objectives": [
+        "Distinguer anomalie constitutionnelle héritée et anomalie acquise dans la tumeur.",
+        "Repérer une indication d'orientation en oncogénétique.",
+        "Relier type de prélèvement, consentement et conséquence clinique."
+      ],
+      "sections": [
+        {
+          "title": "Deux analyses, deux responsabilités",
+          "body": "Le test germinal recherche dans le sang ou la salive une variation constitutionnelle susceptible de concerner le patient et sa famille. Le test somatique analyse la tumeur, ou dans certaines situations l'ADN tumoral circulant, afin d'identifier des altérations acquises potentiellement prédictives d'un traitement. Une anomalie tumorale peut révéler une origine germinale et justifier une confirmation dédiée."
+        },
+        {
+          "title": "Repérer avant de prescrire",
+          "body": "Le CCAFU recommande de rechercher systématiquement les signaux d'une forme héréditaire : âge inhabituellement jeune avec maladie agressive ou métastatique, agrégation familiale de cancers prostatiques précoces, histoire évocatrice de syndrome sein–ovaire ou de Lynch, ou anomalie BRCA1/2 somatique. L'orientation en oncogénétique organise information, consentement, test et conséquences familiales."
+        },
+        {
+          "title": "L'état de maladie change l'utilité",
+          "body": "Dans la maladie métastatique, les tests somatiques et germinaux prennent une importance thérapeutique croissante, notamment pour les voies de réparation de l'ADN. En maladie localisée, l'objectif peut être surtout familial ou pronostique selon le contexte. Le panel, l'échantillon, la temporalité et l'accès en France doivent être validés dans la recommandation applicable ; un test sans conséquence anticipée produit surtout de l'ambiguïté."
+        }
+      ],
+      "causalChain": ["Question clinique", "Germinal ou somatique", "Conseil et consentement", "Conséquence patient–famille–traitement"],
+      "commonTrap": "Présenter un résultat somatique comme une information héréditaire certaine ou demander un panel sans avoir prévu l'interprétation et la prise en charge d'un variant.",
+      "checkpoint": {
+        "prompt": "Quelle affirmation distingue correctement les deux analyses ?",
+        "options": [
+          "Le somatique prouve toujours une transmission familiale",
+          "Le germinal étudie une variation constitutionnelle ; le somatique étudie la tumeur et peut conduire à une confirmation germinale",
+          "Le germinal ne nécessite jamais d'information du patient",
+          "Les deux analyses ont toujours le même panel et la même finalité"
+        ],
+        "answerIndex": 1,
+        "explanation": "Les finalités, les prélèvements et les implications diffèrent. Une anomalie tumorale compatible avec une origine constitutionnelle doit être confirmée dans un parcours germinal adapté."
+      },
+      "flashcards": [
+        {"front": "Test germinal", "back": "Analyse constitutionnelle, généralement sang ou salive, avec implications possibles pour la famille et conseil génétique."},
+        {"front": "Test somatique", "back": "Analyse d'altérations tumorales acquises, sur tissu ou parfois ADN tumoral circulant, à visée notamment thérapeutique."},
+        {"front": "BRCA somatique positif", "back": "Peut justifier une confirmation germinale ; le résultat tumoral seul ne prouve pas l'hérédité."}
+      ],
+      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026", "asco_genomic_testing_2025"]
+    }
+  ],
+  "caseStudy": {
+    "id": "prostate_case_002_stage_migration",
+    "title": "Haut risque, IRM suspecte et PSMA-PET négatif",
+    "status": "needs_review",
+    "dataClassification": "synthetic",
+    "vignette": "Homme de 67 ans, autonome, sans comorbidité limitante. PSA initial 24 ng/mL. Toucher rectal : anomalie limitée à un lobe, cT2a. IRM : lésion périphérique avec suspicion d'extension extraprostatique focale, sans adénopathie morphologique. Biopsies : adénocarcinome ISUP 3, 7 carottes positives sur 14. PSMA-PET : aucune lésion ganglionnaire ou à distance certaine. Son frère a eu un cancer de prostate à 54 ans et sa mère un cancer de l'ovaire.",
+    "decisionPoints": [
+      "Rapporter séparément cT fondé sur le toucher rectal et suspicion d'extension à l'IRM.",
+      "Classer le risque à partir du PSA, du cT et de l'ISUP en nommant le référentiel.",
+      "Interpréter la négativité du PSMA-PET sans exclure la maladie microscopique.",
+      "Repérer l'histoire familiale évocatrice et orienter vers l'oncogénétique."
+    ],
+    "expectedReasoning": [
+      "Le PSA supérieur à 20 ng/mL suffit à placer le dossier dans le haut risque localisé EAU, même si le cT clinique est T2a et l'ISUP 3.",
+      "La suspicion IRM d'extension extraprostatique est une information locale importante, mais elle est consignée séparément du cT EAU fondé sur le toucher rectal.",
+      "Le PSMA-PET négatif n'annule pas la probabilité de micrométastases et ne doit pas, isolément, désintensifier une stratégie construite pour le haut risque.",
+      "L'agrégation familiale prostate précoce–ovaire justifie une évaluation oncogénétique selon le parcours français."
+    ],
+    "criticalErrors": [
+      "Reclasser le patient en faible risque parce que le PSMA-PET est négatif.",
+      "Attribuer un pT3a sur la seule IRM.",
+      "Confondre l'orientation en oncogénétique avec un test somatique tumoral isolé."
+    ],
+    "checkpoint": {
+      "prompt": "Quelle synthèse de RCP est la plus robuste ?",
+      "options": [
+        "Maladie faible risque car le PSMA-PET est négatif ; aucun autre signal à traiter",
+        "Haut risque EAU par PSA, cT2a clinique avec suspicion IRM d'extension à rapporter séparément, PSMA-PET sans cible détectée mais risque microscopique persistant, orientation oncogénétique",
+        "pT3aN0M0 prouvé par IRM et PSMA-PET",
+        "Maladie métastatique occulte certaine et mutation BRCA héréditaire certaine"
+      ],
+      "answerIndex": 1,
+      "explanation": "La réponse conserve chaque niveau d'information, nomme le référentiel de risque, respecte les limites du PSMA-PET et transforme l'histoire familiale en orientation plutôt qu'en diagnostic génétique."
+    },
+    "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026", "eanm_snmmi_psma_pet_2023"]
+  }
+}

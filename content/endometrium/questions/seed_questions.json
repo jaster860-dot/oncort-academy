@@ -1,0 +1,173 @@
+{
+  "version": "0.2.0",
+  "status": "needs_review",
+  "questions": [
+    {
+      "id": "q_endo_lvsi_001",
+      "diseaseSite": "endometrium",
+      "type": "qroc",
+      "linkedConcepts": [
+        "lvsi",
+        "pelvic_lymphatic_drainage",
+        "risk_groups"
+      ],
+      "prompt": "Explique en deux phrases pourquoi un LVSI substantiel modifie le raisonnement adjuvant, sans constituer à lui seul une prescription.",
+      "expectedAnswer": "Le LVSI substantiel témoigne d'un accès tumoral aux voies lymphovasculaires et est associé à un risque accru de dissémination régionale et distante. Il doit être intégré au stade, au type histologique, au grade, au statut ganglionnaire, à la classe moléculaire et aux facteurs liés à la patiente avant de choisir une stratégie adjuvante.",
+      "rubric": {
+        "maxScore": 4,
+        "fullCredit": [
+          "Relie le LVSI à l'accès aux voies lymphovasculaires.",
+          "Identifie un risque régional et/ou distant, et pas seulement vaginal.",
+          "Précise que le LVSI doit être intégré aux autres facteurs pronostiques."
+        ],
+        "partialCredit": [
+          "Indique seulement que le LVSI augmente le risque.",
+          "Décrit correctement le mécanisme mais ne mentionne pas la stratification globale."
+        ],
+        "criticalErrors": [
+          "Affirme que le LVSI prédit uniquement une récidive vaginale.",
+          "Utilise le LVSI isolément comme indication complète de traitement."
+        ]
+      },
+      "explanation": "La valeur pédagogique du LVSI est de relier une observation anatomopathologique à un profil de rechute. La catégorie substantielle doit être distinguée du LVSI focal, puis intégrée à la classification pronostique complète.",
+      "sources": [
+        "esgo_estro_esp_2025",
+        "esgo_estro_esp_2025_appendix",
+        "portec_lvsi_2015"
+      ],
+      "status": "needs_review"
+    },
+    {
+      "id": "q_endo_lvsi_retest_001",
+      "diseaseSite": "endometrium",
+      "type": "qroc",
+      "linkedConcepts": [
+        "lvsi",
+        "vaginal_brachytherapy_vs_pelvic_ebrt"
+      ],
+      "prompt": "Une patiente présente un LVSI substantiel après hystérectomie. Pourquoi cette seule information ne permet-elle ni de valider une curiethérapie vaginale seule, ni de prescrire automatiquement une radiothérapie pelvienne ?",
+      "expectedAnswer": "Le LVSI substantiel augmente la préoccupation pour une dissémination lymphovasculaire, mais la modalité adjuvante dépend du profil de risque complet et des données manquantes, notamment le grade, l'extension, le statut ganglionnaire et la classe moléculaire. La curiethérapie et la radiothérapie pelvienne ne couvrent pas le même profil de rechute ; aucune ne peut donc être choisie automatiquement sur le seul LVSI.",
+      "rubric": {
+        "maxScore": 4,
+        "fullCredit": [
+          "Refuse les deux automatismes thérapeutiques.",
+          "Demande une stratification pronostique complète.",
+          "Distingue le risque vaginal du risque pelvien plus large."
+        ],
+        "partialCredit": [
+          "Refuse l'automatisme mais ne distingue pas les volumes ou profils de rechute.",
+          "Cite les données manquantes sans expliquer leur conséquence."
+        ],
+        "criticalErrors": [
+          "Affirme qu'un LVSI substantiel impose toujours une radiothérapie pelvienne.",
+          "Affirme que la résection complète rend toute irradiation inutile."
+        ]
+      },
+      "explanation": "Le re-test vérifie le transfert : le but n'est pas de mémoriser une phrase sur le LVSI, mais de résister à une décision automatique et d'associer chaque outil thérapeutique au risque qu'il vise.",
+      "sources": [
+        "esgo_estro_esp_2025",
+        "portec_lvsi_2015",
+        "portec2_10y_2018"
+      ],
+      "status": "needs_review"
+    },
+    {
+      "id": "q_endo_rt_001",
+      "diseaseSite": "endometrium",
+      "type": "qcm",
+      "linkedConcepts": [
+        "vaginal_brachytherapy_vs_pelvic_ebrt"
+      ],
+      "prompt": "Quelle affirmation est conceptuellement correcte ?",
+      "options": [
+        "La curiethérapie vaginale et la RT pelvienne préviennent exactement le même risque.",
+        "La curiethérapie vaginale cible surtout le risque du fond vaginal, tandis que la RT pelvienne répond à un risque pelvien plus large.",
+        "La RT pelvienne est toujours plus indiquée que la curiethérapie vaginale.",
+        "La décision dépend seulement de l'âge."
+      ],
+      "answerIndex": 1,
+      "explanation": "Les deux modalités ne couvrent pas les mêmes volumes et ne répondent pas au même profil de rechute. La sélection dépend de la stratification complète, et non d'une hiérarchie absolue entre les techniques.",
+      "sources": [
+        "esgo_estro_esp_2025",
+        "portec2_10y_2018",
+        "gog249_2019"
+      ],
+      "status": "needs_review"
+    },
+    {
+      "id": "q_endo_mol_001",
+      "diseaseSite": "endometrium",
+      "type": "qroc",
+      "linkedConcepts": [
+        "molecular_classification"
+      ],
+      "prompt": "Pourquoi la classification moléculaire a-t-elle changé le raisonnement en cancer de l'endomètre ?",
+      "rubric": {
+        "mustMention": [
+          "biology beyond morphology",
+          "prognosis/risk stratification",
+          "treatment implications"
+        ],
+        "partialCredit": [
+          "mentions MMR/p53/POLE without explaining consequence"
+        ]
+      },
+      "sources": [
+        "esgo_estro_esp_2025",
+        "portec_molecular_rt_2023"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "q_endo_dmmr_001",
+      "diseaseSite": "endometrium",
+      "type": "qroc",
+      "linkedConcepts": [
+        "dmmr_msi_immunotherapy"
+      ],
+      "prompt": "Relie dMMR/MSI, immunogénicité et immunothérapie en une chaîne causale courte.",
+      "rubric": {
+        "mustMention": [
+          "MMR deficiency",
+          "mutation/neoantigen load",
+          "checkpoint inhibitor rationale"
+        ],
+        "criticalErrors": [
+          "confuses MSI with hormone receptors"
+        ]
+      },
+      "sources": [
+        "esgo_estro_esp_2025",
+        "gineco_advanced_2026"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "q_endo_risk_001",
+      "diseaseSite": "endometrium",
+      "type": "qroc",
+      "linkedConcepts": [
+        "risk_groups"
+      ],
+      "prompt": "Avant de choisir entre surveillance, curiethérapie, RT pelvienne et traitement systémique, quelles dimensions de risque dois-tu clarifier ?",
+      "rubric": {
+        "mustMention": [
+          "stage",
+          "grade/histology",
+          "LVSI",
+          "nodal status",
+          "molecular class",
+          "relapse pattern"
+        ],
+        "partialCredit": [
+          "lists factors but not relapse pattern"
+        ]
+      },
+      "sources": [
+        "esgo_estro_esp_2025",
+        "esgo_estro_esp_2025_appendix"
+      ],
+      "status": "draft"
+    }
+  ]
+}

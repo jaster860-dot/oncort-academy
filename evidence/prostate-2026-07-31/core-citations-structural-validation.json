@@ -1,0 +1,17 @@
+{
+  "filepath": "evidence/prostate-2026-07-31/core-citations-clean.bib",
+  "total_entries": 17,
+  "valid_entries": 17,
+  "errors": [],
+  "warnings": [],
+  "duplicates": [],
+  "venue_standard_checked": null,
+  "min_count_checked": 17,
+  "manuscript_results": {
+    "checked": false,
+    "manuscript_filepath": null,
+    "cited_keys": [],
+    "missing_keys": [],
+    "unused_keys": []
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0.0",
+  "collection_id": "sfro_recorad_2025",
+  "title": "RecoRad 4e édition — mise à jour 2025 des recommandations de la SFRO",
+  "publication": "Cancer/Radiothérapie, volume 29, numéro spécial 2025",
+  "publication_date": "2025-11",
+  "page_count": 270,
+  "article_count": 29,
+  "verified_at": "2026-07-31",
+  "metadata_sources": [
+    "Premières pages du PDF privé fourni par l'utilisateur",
+    "Notices Crossref associées aux DOI"
+  ],
+  "rights": "Index de métadonnées uniquement. Le PDF source et l'extraction plein texte sont privés, à droits mixtes, et ne doivent pas être redistribués ni servis par l'application.",
+  "articles": [
+    {
+      "order": 1,
+      "doi": "10.1016/j.canrad.2025.104762",
+      "title": "RecoRad™ 4th edition: The Société française de radiothérapie oncologique's ‘Recommendations’ Commission-driven RecoRad™ 2025 updated version",
+      "start_page": 1,
+      "end_page": 1,
+      "courses": ["radiotherapy_consultation_and_prescription", "quality_and_safety"],
+      "relevance": "framework"
+    },
+    {
+      "order": 2,
+      "doi": "10.1016/j.canrad.2025.104753",
+      "title": "Radiotherapy and brachytherapy for cervical cancer: Recommendations of the Société française de radiothérapie oncologique",
+      "start_page": 2,
+      "end_page": 13,
+      "courses": ["cervix", "brachytherapy", "systemic_therapy_rt_combinations", "contouring", "igrt"],
+      "relevance": "core"
+    },
+    {
+      "order": 3,
+      "doi": "10.1016/j.canrad.2025.104718",
+      "title": "Guidelines for external radiotherapy and brachytherapy procedures: 4th edition",
+      "start_page": 14,
+      "end_page": 17,
+      "courses": ["radiotherapy_consultation_and_prescription", "simulation_and_immobilization", "target_volume_concepts", "contouring", "treatment_planning", "plan_evaluation_and_dvh", "igrt", "brachytherapy", "quality_and_safety"],
+      "relevance": "core"
+    },
+    {
+      "order": 4,
+      "doi": "10.1016/j.canrad.2025.104715",
+      "title": "Role of radiotherapy in the management of bladder cancer: Recommendations of the Société française de radiothérapie oncologique, 2025 update",
+      "start_page": 18,
+      "end_page": 26,
+      "courses": ["bladder", "systemic_therapy_rt_combinations", "brachytherapy"],
+      "relevance": "core"
+    },
+    {
+      "order": 5,
+      "doi": "10.1016/j.canrad.2025.104716",
+      "title": "Radiotherapy of pancreatic cancers: 2025 update",
+      "start_page": 27,
+      "end_page": 34,
+      "courses": ["pancreas_liver_biliary", "srs_fsrt_sbrt", "systemic_therapy_rt_combinations", "motion_management"],
+      "relevance": "core"
+    },
+    {
+      "order": 6,
+      "doi": "10.1016/j.canrad.2025.104711",
+      "title": "Radiotherapy for nasopharyngeal cancer: 2025 update",
+      "start_page": 35,
+      "end_page": 42,
+      "courses": ["head_and_neck", "rare_head_and_neck", "contouring", "systemic_therapy_rt_combinations"],
+      "relevance": "core"
+    },
+    {
+      "order": 7,
+      "doi": "10.1016/j.canrad.2025.104724",
+      "title": "Radiotherapy of skin cancers",
+      "start_page": 43,
+      "end_page": 61,
+      "courses": ["skin_melanoma_merkel", "cutaneous_lymphoma", "fractionation", "brachytherapy"],
+      "relevance": "core"
+    },
+    {
+      "order": 8,
+      "doi": "10.1016/j.canrad.2025.104754",
+      "title": "Radiotherapy for haematological malignancies: Current best practices and advancements",
+      "start_page": 62,
+      "end_page": 77,
+      "courses": ["lymphoma_myeloma", "fractionation", "contouring"],
+      "relevance": "core"
+    },
+    {
+      "order": 9,
+      "doi": "10.1016/j.canrad.2025.104759",
+      "title": "Radiotherapy for cancers of the oesophagus, gastroesophageal junction, and stomach",
+      "start_page": 78,
+      "end_page": 87,
+      "courses": ["oesophagus_and_stomach", "systemic_therapy_rt_combinations", "motion_management"],
+      "relevance": "core"
+    },
+    {
+      "order": 10,
+      "doi": "10.1016/j.canrad.2025.104752",
+      "title": "Radiotherapy for endometrial cancer: 2025 update",
+      "start_page": 88,
+      "end_page": 95,
+      "courses": ["endometrium", "brachytherapy", "contouring"],
+      "relevance": "core"
+    },
+    {
+      "order": 11,
+      "doi": "10.1016/j.canrad.2025.104714",
+      "title": "Best practice in brachytherapy: 2025 update",
+      "start_page": 96,
+      "end_page": 101,
+      "courses": ["brachytherapy", "dosimetry", "radiation_protection", "quality_and_safety"],
+      "relevance": "core"
+    },
+    {
+      "order": 12,
+      "doi": "10.1016/j.canrad.2025.104719",
+      "title": "Radiotherapy and pregnancy: 2025 update",
+      "start_page": 102,
+      "end_page": 108,
+      "courses": ["radiation_protection", "special_techniques", "quality_and_safety"],
+      "relevance": "core"
+    },
+    {
+      "order": 13,
+      "doi": "10.1016/j.canrad.2025.104721",
+      "title": "Management of cervical lymphadenopathies of unknown primary cancer",
+      "start_page": 109,
+      "end_page": 114,
+      "courses": ["cancer_unknown_primary", "head_and_neck", "rare_head_and_neck", "diagnostic_workup", "contouring"],
+      "relevance": "core"
+    },
+    {
+      "order": 14,
+      "doi": "10.1016/j.canrad.2025.104755",
+      "title": "Radiotherapy for hypopharynx cancers: 2025 update",
+      "start_page": 115,
+      "end_page": 121,
+      "courses": ["head_and_neck", "contouring", "systemic_therapy_rt_combinations"],
+      "relevance": "core"
+    },
+    {
+      "order": 15,
+      "doi": "10.1016/j.canrad.2025.104758",
+      "title": "Delineation of organs at risk in radiotherapy and perspectives",
+      "start_page": 122,
+      "end_page": 139,
+      "courses": ["contouring", "target_volume_concepts", "reirradiation", "ai_in_radiotherapy", "acute_and_late_toxicities"],
+      "relevance": "core"
+    },
+    {
+      "order": 16,
+      "doi": "10.1016/j.canrad.2025.104756",
+      "title": "Guide for paediatric radiotherapy procedures: 2025 update",
+      "start_page": 140,
+      "end_page": 152,
+      "courses": ["paediatric_and_aya", "special_techniques", "radiation_protection", "survivorship"],
+      "relevance": "core"
+    },
+    {
+      "order": 17,
+      "doi": "10.1016/j.canrad.2025.104723",
+      "title": "Management of metallic implants in radiotherapy: 2025 update",
+      "start_page": 153,
+      "end_page": 159,
+      "courses": ["special_techniques", "treatment_planning", "dosimetry", "quality_and_safety"],
+      "relevance": "core"
+    },
+    {
+      "order": 18,
+      "doi": "10.1016/j.canrad.2025.104765",
+      "title": "Radiotherapy for brain metastases: 2025 update",
+      "start_page": 160,
+      "end_page": 168,
+      "courses": ["metastases_and_palliative_rt", "central_nervous_system", "srs_fsrt_sbrt", "reirradiation"],
+      "relevance": "core"
+    },
+    {
+      "order": 19,
+      "doi": "10.1016/j.canrad.2025.104717",
+      "title": "Radiotherapy for patients with pacemakers and implantable cardioverter defibrillators: A review of the recommendations and practical application",
+      "start_page": 169,
+      "end_page": 173,
+      "courses": ["special_techniques", "quality_and_safety", "radiation_protection"],
+      "relevance": "core"
+    },
+    {
+      "order": 20,
+      "doi": "10.1016/j.canrad.2025.104722",
+      "title": "Rectal cancer radiotherapy: 2025 update",
+      "start_page": 174,
+      "end_page": 181,
+      "courses": ["rectum", "contouring", "systemic_therapy_rt_combinations"],
+      "relevance": "core"
+    },
+    {
+      "order": 21,
+      "doi": "10.1016/j.canrad.2025.104712",
+      "title": "Role of radiotherapy in the management of testicular cancer: Recommendations from the French society for radiation oncology",
+      "start_page": 182,
+      "end_page": 189,
+      "courses": ["testis_and_penis", "rare_germ_cell", "radiation_protection", "survivorship"],
+      "relevance": "core"
+    },
+    {
+      "order": 22,
+      "doi": "10.1016/j.canrad.2025.104761",
+      "title": "Radiotherapy for penile cancers: 2025 update",
+      "start_page": 190,
+      "end_page": 198,
+      "courses": ["testis_and_penis", "rare_genitourinary", "brachytherapy"],
+      "relevance": "core"
+    },
+    {
+      "order": 23,
+      "doi": "10.1016/j.canrad.2025.104726",
+      "title": "Role of radiotherapy in the management of vulvar cancer: Recommendations of the Société française de radiothérapie oncologique, 2025 update",
+      "start_page": 199,
+      "end_page": 204,
+      "courses": ["vulva_and_vagina", "brachytherapy", "systemic_therapy_rt_combinations"],
+      "relevance": "core"
+    },
+    {
+      "order": 24,
+      "doi": "10.1016/j.canrad.2025.104763",
+      "title": "Respiratory motion management for external radiotherapy: 2025 update",
+      "start_page": 205,
+      "end_page": 213,
+      "courses": ["motion_management", "simulation_and_immobilization", "igrt", "adaptive_radiotherapy"],
+      "relevance": "core"
+    },
+    {
+      "order": 25,
+      "doi": "10.1016/j.canrad.2025.104725",
+      "title": "Role of radiotherapy in the treatment of primary vaginal cancer: Recommendations of the Société française de radiothérapie oncologique, 2025 update",
+      "start_page": 214,
+      "end_page": 220,
+      "courses": ["vulva_and_vagina", "brachytherapy", "contouring"],
+      "relevance": "core"
+    },
+    {
+      "order": 26,
+      "doi": "10.1016/j.canrad.2025.104713",
+      "title": "Role of radiotherapy in the management of primary renal cell carcinoma: Recommendations from the Société française de radiothérapie oncologique (SFRO, the French society for radiation oncology)",
+      "start_page": 221,
+      "end_page": 228,
+      "courses": ["kidney", "srs_fsrt_sbrt", "motion_management"],
+      "relevance": "core"
+    },
+    {
+      "order": 27,
+      "doi": "10.1016/j.canrad.2025.104720",
+      "title": "Tumour and normal tissue radiosensitivity: 2025 update",
+      "start_page": 229,
+      "end_page": 238,
+      "courses": ["radiobiology", "tumor_biology", "acute_and_late_toxicities", "fractionation"],
+      "relevance": "core"
+    },
+    {
+      "order": 28,
+      "doi": "10.1016/j.canrad.2025.104727",
+      "title": "Radiotherapy for laryngeal cancers: 2025 update",
+      "start_page": 239,
+      "end_page": 248,
+      "courses": ["head_and_neck", "contouring", "fractionation"],
+      "relevance": "core"
+    },
+    {
+      "order": 29,
+      "doi": "10.1016/j.canrad.2025.104757",
+      "title": "Guidelines about radiotherapy and oncologic systemic treatments: Stop or continue?",
+      "start_page": 249,
+      "end_page": 270,
+      "courses": ["systemic_therapy_rt_combinations", "cytotoxic_therapy", "targeted_therapy", "immunotherapy", "antibody_drug_conjugates_and_novel_therapies", "clinical_pharmacology", "acute_and_late_toxicities"],
+      "relevance": "core"
+    }
+  ]
+}

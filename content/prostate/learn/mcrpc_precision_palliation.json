@@ -1,0 +1,226 @@
+{
+  "id": "prostate_mcrpc_precision_palliation",
+  "blockId": "mcrpc_precision_palliation",
+  "title": "Prostate — mCRPC, précision, radioligands et palliation",
+  "version": "0.1.0",
+  "status": "needs_review",
+  "lastUpdated": "2026-08-01",
+  "estimatedMinutes": 176,
+  "learningPromise": "À la fin de ce bloc, l'apprenant peut confirmer un mCRPC, construire une séquence selon expositions, phénotype et biomarqueurs, sélectionner prudemment PARP, radium-223 ou radioligand PSMA, et intégrer radiothérapie palliative et soins de support sans attendre l'épuisement des lignes actives.",
+  "evidenceScope": {
+    "provenanceNote": "Synthèse éducative CCAFU-first, triangulée avec EAU et ESMO 2026, ASCO mCRPC 2025 et ASCO génomique 2025. Les AMM, remboursements, plateformes moléculaires et critères de radioligands évoluent ; preuve, recommandation et accès français sont documentés séparément. Tout reste needs_review.",
+    "anchors": [
+      {"sourceId": "ccafu_advanced_2024_2026", "locator": "Recommandations françaises : mCRPC, chimiothérapies, thérapies ciblées, radiopharmaceutiques et soins de support"},
+      {"sourceId": "eau_prostate_2026", "locator": "Treatment 6.7 : définition CRPC, séquences, génomique, PARP, radium-223, lutétium-PSMA et palliation"},
+      {"sourceId": "esmo_advanced_prostate_2026", "locator": "Guideline 2026 : algorithmes mCRPC selon exposition, biomarqueurs, symptômes et accès"},
+      {"sourceId": "asco_mcrpc_2025", "locator": "Guideline update 2025 : options systémiques et séquençage du mCRPC"},
+      {"sourceId": "asco_genomic_testing_2025", "locator": "Guideline 2025 : tests germinaux et somatiques dans la maladie métastatique"}
+    ],
+    "divergences": [
+      {"topic": "Combinaisons ARPI–PARP", "summary": "Le gain moyen de rPFS et la toxicité hématologique varient fortement selon BRCA/HRR ; les combinaisons ne doivent pas être présentées comme équivalentes ou universelles."},
+      {"topic": "Radioligand PSMA", "summary": "La population, l'imagerie de sélection, les traitements antérieurs et l'accès diffèrent selon essai, recommandation et juridiction ; la positivité PSMA seule ne suffit pas."},
+      {"topic": "Séquence optimale", "summary": "Il existe peu de comparaisons directes couvrant toutes les expositions modernes du mHSPC ; la séquence est individualisée et révisée à chaque progression."}
+    ]
+  },
+  "lessons": [
+    {
+      "id": "mcrpc_01_state",
+      "nodeId": "mcrpc_sequences",
+      "number": 1,
+      "title": "Confirmer le mCRPC et cartographier la trajectoire",
+      "durationMinutes": 16,
+      "objectives": ["Confirmer castration et progression.", "Recenser toutes les expositions.", "Définir le problème dominant."],
+      "sections": [
+        {"title": "Un état, pas un PSA", "body": "Le mCRPC requiert testostérone au niveau de castration, progression documentée et maladie métastatique. L'ADT est poursuivie sauf castration chirurgicale. PSA, imagerie, symptômes et biologie peuvent évoluer de façon discordante."},
+        {"title": "La trajectoire décide", "body": "La RCP recense ARPI, docétaxel, PARP, radiopharmaceutiques, réponses, durées, toxicités, biomarqueurs et accès. Symptômes, vitesse, viscéral, os, moelle, rein, foie, performance et préférence définissent la priorité."}
+      ],
+      "causalChain": ["Castration + progression + M1", "Expositions et réponses", "Phénotype actuel", "Options réellement disponibles"],
+      "commonTrap": "Choisir une ligne sur le seul PSA sans reconstituer la trajectoire ni rechercher une progression clinique ou viscérale.",
+      "checkpoint": {"prompt": "Quel dossier minimal précède une séquence mCRPC ?", "options": ["PSA seul", "Testostérone, progression, sites, symptômes, expositions, biomarqueurs, réserves et préférence", "Âge seul", "Dernier compte rendu uniquement"], "answerIndex": 1, "explanation": "Le mCRPC est une décision longitudinale fondée sur l'état actuel et tout l'historique."},
+      "flashcards": [{"front": "mCRPC", "back": "M1 avec progression sous castration confirmée."}, {"front": "Discordance", "back": "PSA, imagerie et clinique peuvent diverger ; ne pas surveiller un seul axe."}, {"front": "Trajectoire", "back": "Expositions, réponse, durée et toxicités conditionnent la prochaine ligne."}],
+      "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026", "asco_mcrpc_2025"]
+    },
+    {
+      "id": "mcrpc_02_testing",
+      "nodeId": "precision_oncology_hrr_brca",
+      "number": 2,
+      "title": "Oncologie de précision : tester assez tôt et au bon niveau",
+      "durationMinutes": 16,
+      "objectives": ["Distinguer germinal et somatique.", "Planifier tissu ou ADN tumoral circulant.", "Préserver conseil et consentement."],
+      "sections": [
+        {"title": "Deux questions complémentaires", "body": "Le germinal recherche une prédisposition transmissible ; le somatique recherche des altérations tumorales actionnables. Dans la maladie métastatique, leur planification précoce évite de découvrir trop tard qu'un prélèvement est épuisé ou inaccessible."},
+        {"title": "Un résultat négatif a des limites", "body": "Qualité et ancienneté du tissu, fraction tumorale du plasma, traitements intermédiaires et panel utilisé influencent le résultat. Un test non informatif n'est pas un vrai négatif ; une rebiopsie ou une autre matrice peut être discutée."}
+      ],
+      "causalChain": ["Question germinale/somatique", "Matrice et qualité", "Interprétation multidisciplinaire", "Traitement et implications familiales"],
+      "commonTrap": "Présenter un test plasmatique non informatif comme absence certaine d'altération.",
+      "checkpoint": {"prompt": "Pourquoi anticiper les tests moléculaires ?", "options": ["Pour remplacer l'histologie", "Pour disposer d'une matrice exploitable, orienter les options et organiser le conseil germinal", "Pour prédire toute réponse", "Pour éviter la RCP"], "answerIndex": 1, "explanation": "Le temps, la qualité de l'échantillon et les implications familiales font partie du parcours."},
+      "flashcards": [{"front": "Germinal", "back": "Prédisposition constitutionnelle ; implications familiales et conseil."}, {"front": "Somatique", "back": "Altérations de la tumeur pouvant orienter une thérapie."}, {"front": "Test non informatif", "back": "Qualité ou fraction tumorale insuffisante ; ne vaut pas vrai négatif."}],
+      "sources": ["eau_prostate_2026", "esmo_advanced_prostate_2026", "asco_genomic_testing_2025"]
+    },
+    {
+      "id": "mcrpc_03_parp",
+      "nodeId": "hrr_brca_parp_inhibitors",
+      "number": 3,
+      "title": "HRR/BRCA et PARP : lire le gène, la ligne et le partenaire",
+      "durationMinutes": 17,
+      "objectives": ["Distinguer BRCA des autres HRR.", "Relier molécule et indication exacte.", "Surveiller la toxicité hématologique."],
+      "sections": [
+        {"title": "Tous les HRR ne se valent pas", "body": "Le signal thérapeutique est généralement le plus robuste pour BRCA1/2, particulièrement BRCA2 ; l'ampleur est plus incertaine pour plusieurs autres gènes HRR. La RCP cite gène, caractère mono- ou biallélique si connu, méthode et niveau de preuve."},
+        {"title": "Une indication précise", "body": "Monothérapie ou combinaison avec ARPI dépend de la molécule, du biomarqueur, de la ligne et de l'exposition antérieure. Anémie, thrombopénie, fatigue, interactions et réserves médullaires sont intégrées ; le bénéfice moyen ne justifie pas une combinaison sans sélection."}
+      ],
+      "causalChain": ["Altération HRR qualifiée", "Indication réglementaire", "Expositions antérieures", "PARP et surveillance"],
+      "commonTrap": "Écrire HRR positif comme une catégorie homogène et ignorer la toxicité ajoutée d'une combinaison.",
+      "checkpoint": {"prompt": "Que doit préciser une proposition de PARP ?", "options": ["Seulement HRR+", "Gène, test, ligne, exposition ARPI, indication de la molécule et réserves hématologiques", "PSA seul", "Aucun plan de NFS"], "answerIndex": 1, "explanation": "Le bénéfice et l'accès dépendent du biomarqueur et de la séquence exacts."},
+      "flashcards": [{"front": "BRCA2", "back": "Sous-groupe avec signal PARP particulièrement robuste."}, {"front": "HRR", "back": "Famille hétérogène ; ne pas extrapoler un même effet à tous les gènes."}, {"front": "Toxicité PARP", "back": "Anémie et autres cytopénies, fatigue et interactions ; surveiller les réserves."}],
+      "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026", "asco_mcrpc_2025", "asco_genomic_testing_2025"]
+    },
+    {
+      "id": "mcrpc_04_rare_biomarkers",
+      "nodeId": "msi_mmr_and_rare_biomarkers",
+      "number": 4,
+      "title": "MSI/MMR et biomarqueurs rares : chercher sans surpromettre",
+      "durationMinutes": 15,
+      "objectives": ["Identifier MSI-H/dMMR.", "Reconnaître la rareté.", "Vérifier accès et preuve."],
+      "sections": [
+        {"title": "Un petit sous-groupe potentiellement actionnable", "body": "MSI-H ou déficit MMR est rare dans le cancer de la prostate mais peut ouvrir une option d'immunothérapie selon juridiction et ligne. Le test et son interprétation doivent être validés ; une signature isolée ne remplace pas un compte rendu moléculaire."},
+        {"title": "Rareté n'est pas certitude", "body": "TMB élevé, altérations CDK12 ou autres marqueurs peuvent avoir une valeur exploratoire ou contextuelle. Essai clinique, RCP moléculaire, AMM et remboursement sont séparés d'une plausibilité biologique."}
+      ],
+      "causalChain": ["Biomarqueur validé", "Niveau de preuve", "Accès", "Option ou essai clinique"],
+      "commonTrap": "Transformer un biomarqueur rare ou exploratoire en indication standard sans vérifier validation et accès.",
+      "checkpoint": {"prompt": "Comment présenter MSI-H/dMMR ?", "options": ["Comme fréquent", "Comme rare mais potentiellement actionnable, après test validé et vérification d'accès", "Comme preuve de BRCA", "Comme indication automatique de taxane"], "answerIndex": 1, "explanation": "La rareté n'annule pas l'intérêt, mais impose une traçabilité stricte."},
+      "flashcards": [{"front": "MSI-H/dMMR", "back": "Rare dans la prostate ; potentiellement actionnable selon ligne et juridiction."}, {"front": "TMB/biomarqueur rare", "back": "Valeur variable ; RCP moléculaire et niveau de preuve nécessaires."}, {"front": "Accès", "back": "Séparer plausibilité, essai, recommandation, AMM et remboursement."}],
+      "sources": ["eau_prostate_2026", "esmo_advanced_prostate_2026", "asco_genomic_testing_2025"]
+    },
+    {
+      "id": "mcrpc_05_radium",
+      "nodeId": "radium_223",
+      "number": 5,
+      "title": "Radium-223 : sélectionner le phénotype osseux",
+      "durationMinutes": 16,
+      "objectives": ["Identifier le profil approprié.", "Exclure une maladie viscérale dominante.", "Prévenir fractures et toxicité médullaire."],
+      "sections": [
+        {"title": "Un alpha-émetteur ciblant l'os", "body": "Le radium-223 concerne un mCRPC à métastases osseuses, sans métastase viscérale, dans un contexte symptomatique ou sélectionné selon la recommandation applicable. Il ne traite pas efficacement une progression ganglionnaire ou viscérale dominante."},
+        {"title": "Os et moelle avant tout", "body": "NFS, réserve médullaire, risque fracturaire, traitement anti-résorptif approprié et santé dentaire sont évalués. Une association non validée, notamment avec abiratérone sans protection osseuse, expose à un excès de fractures et ne doit pas être banalisée."}
+      ],
+      "causalChain": ["mCRPC osseux", "Pas de viscéral dominant", "Moelle et fracture", "Radium avec protection adaptée"],
+      "commonTrap": "Utiliser le radium-223 comme traitement général d'un mCRPC viscéral ou sans plan de protection osseuse.",
+      "checkpoint": {"prompt": "Quel profil est le plus cohérent avec le radium-223 ?", "options": ["Progression hépatique dominante", "mCRPC osseux sans viscéral, avec moelle et prévention osseuse évaluées", "nmCRPC", "Récidive locale isolée"], "answerIndex": 1, "explanation": "Le phénotype osseux, l'absence de viscéral et la sécurité médullaire structurent la sélection."},
+      "flashcards": [{"front": "Radium-223", "back": "Alpha-émetteur pour mCRPC osseux sélectionné, pas maladie viscérale dominante."}, {"front": "Avant radium", "back": "NFS, moelle, fracture, anti-résorptif et dentaire."}, {"front": "Piège", "back": "Associations non validées sans protection osseuse : risque de fractures."}],
+      "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026", "asco_mcrpc_2025"]
+    },
+    {
+      "id": "mcrpc_06_lutetium",
+      "nodeId": "lutetium_psma",
+      "number": 6,
+      "title": "Lutétium-PSMA : au-delà d'un TEP positif",
+      "durationMinutes": 16,
+      "objectives": ["Évaluer expression PSMA et sites discordants.", "Vérifier expositions exigées.", "Évaluer moelle, rein et salivaires."],
+      "sections": [
+        {"title": "Une sélection theranostique", "body": "Le radioligand PSMA requiert une expression suffisante sur l'imagerie selon les critères de la stratégie retenue et l'absence de maladie dominante incompatible. Un TEP simplement qualifié positif ne résume pas l'hétérogénéité interlésionnelle."},
+        {"title": "Éligibilité complète", "body": "Ligne, ARPI et taxane antérieurs, performance, espérance, fonction médullaire et rénale, xérostomie attendue, accès au centre et radioprotection sont vérifiés. Les critères diffèrent selon essai, recommandation et accès français."}
+      ],
+      "causalChain": ["mCRPC et expositions", "Imagerie PSMA qualifiée", "Réserves et logistique", "Radioligand avec suivi"],
+      "commonTrap": "Déduire l'éligibilité au lutétium-PSMA d'une seule lésion avidement fixante.",
+      "checkpoint": {"prompt": "Que faut-il au-delà d'un TEP-PSMA positif ?", "options": ["Rien", "Critères d'imagerie, expositions, absence de discordance dominante, moelle, rein et accès", "Seulement le PSA", "Une biopsie prostatique récente dans tous les cas"], "answerIndex": 1, "explanation": "La sélection est theranostique, clinique, biologique et réglementaire."},
+      "flashcards": [{"front": "Lu-PSMA", "back": "Radioligand beta ciblant PSMA dans un mCRPC sélectionné."}, {"front": "Hétérogénéité PSMA", "back": "Une lésion positive ne garantit pas que toutes les lésions pertinentes expriment la cible."}, {"front": "Réserves", "back": "Moelle, rein, glandes salivaires, performance et logistique."}],
+      "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026", "asco_mcrpc_2025", "eanm_snmmi_psma_pet_2023"]
+    },
+    {
+      "id": "mcrpc_07_rlt_workflow",
+      "nodeId": "psma_radioligand_therapy",
+      "number": 7,
+      "title": "Radioligand PSMA : organiser le parcours et l'évaluation",
+      "durationMinutes": 15,
+      "objectives": ["Coordonner médecine nucléaire et oncologie.", "Suivre réponse et toxicités.", "Reconnaître une discordance."],
+      "sections": [
+        {"title": "Un traitement multidisciplinaire", "body": "Sélection d'imagerie, validation de l'indication, information de radioprotection, calendrier, biologie pré-cycle et conduite en cas de cytopénie ou insuffisance rénale sont définis avant la première administration."},
+        {"title": "Ne pas suivre le PSA seul", "body": "Symptômes, performance, hémogramme, rein, imagerie et PSA sont réévalués. Une aggravation clinique ou radiologique discordante peut révéler un clone peu PSMA-exprimant et impose une nouvelle discussion de séquence."}
+      ],
+      "causalChain": ["Sélection RCP", "Préparation radioprotection", "Cycles et biologie", "Évaluation multiaxiale"],
+      "commonTrap": "Poursuivre des cycles sur la seule baisse du PSA malgré aggravation clinique ou lésion discordante.",
+      "checkpoint": {"prompt": "Comment suivre un radioligand PSMA ?", "options": ["PSA seul", "Clinique, performance, NFS, rein, PSA et imagerie selon calendrier", "Aucune biologie", "TEP hebdomadaire"], "answerIndex": 1, "explanation": "Réponse et toxicité sont multiaxiales ; le PSA isolé peut tromper."},
+      "flashcards": [{"front": "Parcours RLT", "back": "RCP, imagerie, médecine nucléaire, biologie, radioprotection et suivi."}, {"front": "Toxicités", "back": "Cytopénies, rein, fatigue et xérostomie à surveiller."}, {"front": "Discordance", "back": "Progression d'un clone peu PSMA malgré réponse ailleurs : reconsidérer la séquence."}],
+      "sources": ["eau_prostate_2026", "esmo_advanced_prostate_2026", "asco_mcrpc_2025", "eanm_snmmi_psma_pet_2023"]
+    },
+    {
+      "id": "mcrpc_08_sequence",
+      "nodeId": "systemic_treatment_sequencing",
+      "number": 8,
+      "title": "Séquencer : changer de mécanisme et préserver la suite",
+      "durationMinutes": 16,
+      "objectives": ["Éviter deux ARPI mécaniques.", "Choisir selon menace clinique.", "Anticiper les réserves futures."],
+      "sections": [
+        {"title": "Le mécanisme compte", "body": "Après progression rapide sous ARPI, un second ARPI a souvent une activité limitée. Selon expositions et aptitude, taxane, traitement biomarqué, radium ou radioligand peuvent offrir un changement de mécanisme plus rationnel."},
+        {"title": "La meilleure ligne n'épuise pas la suivante", "body": "Une maladie viscérale rapide privilégie une option active rapidement ; une moelle fragile limite taxane et radiopharmaceutique ; un biomarqueur actionnable doit être utilisé avant perte de fitness. La séquence reste datée, révisable et dépendante de l'accès."}
+      ],
+      "causalChain": ["Résistance et rythme", "Mécanisme nouveau", "Réserves actuelles", "Option suivante préservée"],
+      "commonTrap": "Enchaîner abiratérone et enzalutamide par commodité sans discuter une autre classe.",
+      "checkpoint": {"prompt": "Que privilégier après progression rapide sous un ARPI ?", "options": ["Toujours un second ARPI", "Un changement de mécanisme adapté aux expositions, au phénotype, aux biomarqueurs et aux réserves", "Arrêter l'ADT", "Décider sans imagerie"], "answerIndex": 1, "explanation": "La résistance croisée rend le changement de mécanisme souvent préférable."},
+      "flashcards": [{"front": "Cross-résistance ARPI", "back": "Limite l'intérêt d'un second ARPI après progression."}, {"front": "Menace viscérale", "back": "Rythme et besoin de réponse rapide influencent la classe."}, {"front": "Préserver la suite", "back": "Moelle, rein, performance et accès futurs comptent dès maintenant."}],
+      "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026", "asco_mcrpc_2025"]
+    },
+    {
+      "id": "mcrpc_09_neuroendocrine",
+      "nodeId": "neuroendocrine_transformation",
+      "number": 9,
+      "title": "Transformation neuroendocrine : suspecter une biologie discordante",
+      "durationMinutes": 15,
+      "objectives": ["Reconnaître les signaux d'alerte.", "Indiquer une biopsie utile.", "Ne pas diagnostiquer sur un marqueur isolé."],
+      "sections": [
+        {"title": "Quand y penser", "body": "Progression viscérale ou lytique rapide, masse croissante avec PSA peu contributif, courte réponse aux thérapies de l'axe androgénique ou discordance majeure doivent faire discuter une transformation agressive ou neuroendocrine."},
+        {"title": "Reprouver la maladie", "body": "Une biopsie d'un site progressif, si faisable et susceptible de changer la stratégie, permet histologie et profil moléculaire. Chromogranine ou NSE isolées ne suffisent pas à poser le diagnostic ; la RCP anatomo-clinique est essentielle."}
+      ],
+      "causalChain": ["Discordance clinique–PSA", "Site accessible", "Biopsie et pathologie", "Séquence adaptée"],
+      "commonTrap": "Diagnostiquer une transformation neuroendocrine sur une chromogranine élevée sans histologie ni contexte.",
+      "checkpoint": {"prompt": "Quel signal justifie une rebiopsie si elle change la conduite ?", "options": ["PSA stable et maladie stable", "Progression hépatique rapide avec PSA peu élevé", "Bouffées de chaleur", "Ostéopénie isolée"], "answerIndex": 1, "explanation": "Une discordance agressive peut signaler une transformation et mérite une preuve tissulaire."},
+      "flashcards": [{"front": "Alerte NE", "back": "Viscéral/lytique rapide, masse–PSA discordants, résistance agressive."}, {"front": "Biopsie", "back": "Site progressif si faisable et décisionnelle."}, {"front": "Marqueur sérique", "back": "Chromogranine/NSE isolée ne diagnostique pas la transformation."}],
+      "sources": ["eau_prostate_2026", "esmo_advanced_prostate_2026", "asco_mcrpc_2025"]
+    },
+    {
+      "id": "mcrpc_10_palliative_rt",
+      "nodeId": "palliative_rt",
+      "number": 10,
+      "title": "Radiothérapie palliative : traiter le problème local maintenant",
+      "durationMinutes": 15,
+      "objectives": ["Identifier les indications symptomatiques.", "Choisir un schéma proportionné.", "Coordonner avec le systémique."],
+      "sections": [
+        {"title": "Objectif explicite", "body": "Douleur osseuse, saignement, obstruction, masse compressive ou risque neurologique peuvent justifier une irradiation palliative. Le volume et le fractionnement dépendent de l'objectif, du pronostic, d'une irradiation antérieure, de la stabilité et de la logistique."},
+        {"title": "L'urgence ne suit pas la ligne", "body": "Une compression médullaire ou obstruction urgente est prise en charge sans attendre la prochaine ligne systémique. Chirurgie, radiothérapie, corticothérapie et soutien sont coordonnés selon anatomie et état général."}
+      ],
+      "causalChain": ["Symptôme local", "Urgence et stabilité", "Objectif palliatif", "RT proportionnée et coordination"],
+      "commonTrap": "Retarder une irradiation antalgique ou décompressive jusqu'à l'échec formel du traitement systémique.",
+      "checkpoint": {"prompt": "Quand intégrer une RT palliative ?", "options": ["Uniquement après toutes les lignes", "Dès qu'un problème local symptomatique ou menaçant le justifie", "Seulement si PSA très élevé", "Jamais avec un systémique"], "answerIndex": 1, "explanation": "La palliation locale suit les besoins du patient, pas un rang fixe dans la séquence."},
+      "flashcards": [{"front": "RT palliative", "back": "Douleur, compression, saignement ou obstruction avec objectif explicite."}, {"front": "Fractionnement", "back": "Selon objectif, pronostic, re-irradiation, stabilité et logistique."}, {"front": "Urgence", "back": "Prise en charge immédiate, coordonnée au systémique mais non retardée par lui."}],
+      "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026", "sfro_recorad_prostate_2025"]
+    },
+    {
+      "id": "mcrpc_11_supportive",
+      "nodeId": "palliative_and_supportive_integration",
+      "number": 11,
+      "title": "Soins de support : une ligne parallèle, jamais la dernière ligne",
+      "durationMinutes": 15,
+      "objectives": ["Dépister les symptômes tôt.", "Anticiper objectifs et décisions.", "Soutenir proches et aidants."],
+      "sections": [
+        {"title": "Intégration précoce", "body": "Douleur, fatigue, nutrition, sommeil, anxiété, fonction, sexualité, symptômes urinaires et digestifs sont évalués en parallèle des traitements actifs. Les soins palliatifs spécialisés peuvent être associés tôt sans signifier l'arrêt de l'oncologie."},
+        {"title": "Décisions anticipées", "body": "La RCP clarifie objectif de chaque ligne, probabilité de bénéfice, toxicité, conditions d'arrêt, préférences, personne de confiance et projet de vie. Une dégradation rapide déclenche une réévaluation globale plutôt qu'une escalade automatique."}
+      ],
+      "causalChain": ["Besoins multidimensionnels", "Soutien précoce", "Objectifs partagés", "Réévaluation proportionnée"],
+      "commonTrap": "Présenter les soins palliatifs comme incompatibles avec une thérapie anticancéreuse active.",
+      "checkpoint": {"prompt": "Quand proposer des soins de support structurés ?", "options": ["Seulement en fin de vie", "Dès les besoins, parallèlement aux traitements actifs", "Après le dernier PSA", "Uniquement à la demande familiale"], "answerIndex": 1, "explanation": "L'intégration précoce améliore le contrôle symptomatique et la qualité des décisions."},
+      "flashcards": [{"front": "Support précoce", "back": "Parallèle à l'oncologie active, pas synonyme d'abandon."}, {"front": "Objectif de ligne", "back": "Bénéfice attendu, toxicité, critères d'arrêt et préférence."}, {"front": "Dégradation", "back": "Réévaluer globalement plutôt qu'intensifier automatiquement."}],
+      "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026", "asco_mcrpc_2025"]
+    }
+  ],
+  "caseStudy": {
+    "id": "prostate_case_012_mcrpc_sequence",
+    "title": "mCRPC après ARPI et docétaxel : choisir sans perdre la suite",
+    "status": "needs_review",
+    "dataClassification": "synthetic",
+    "vignette": "Un homme de 71 ans avec mCRPC a reçu ADT, un ARPI puis docétaxel. Il progresse sur l'os et deux ganglions, reste ECOG 1, a une anémie modérée et une douleur iliaque. Le tissu ancien est insuffisant ; un test plasmatique est non informatif. Le TEP-PSMA est intense sur la majorité des lésions mais une adénopathie progresse avec faible expression. Aucun viscéral n'est vu.",
+    "decisionPoints": ["Confirmer castration et progression multiaxiale.", "Ne pas considérer le plasma non informatif comme HRR négatif.", "Discuter nouvelle matrice moléculaire si décisionnelle.", "Comparer cabazitaxel, option biomarquée future et radioligand selon accès et réserves.", "Interroger la lésion faiblement PSMA et la biopsier si utile.", "Traiter la douleur iliaque par RT palliative sans attendre.", "Évaluer os, moelle, symptômes et objectifs."],
+    "expectedReasoning": ["Un second ARPI mécanique est peu attractif.", "L'anémie influence taxane, PARP et radiopharmaceutique.", "L'hétérogénéité PSMA peut limiter une stratégie theranostique.", "La palliation locale est compatible avec la poursuite d'une stratégie active.", "La séquence doit préserver les options et rester liée à l'accès français."],
+    "criticalErrors": ["Déclarer HRR négatif sur plasma non informatif.", "Déduire l'éligibilité Lu-PSMA d'une majorité de lésions positives sans analyser la discordance.", "Enchaîner automatiquement un second ARPI.", "Omettre la NFS et les réserves.", "Retarder la RT antalgique.", "Marquer validated sans reviewer."],
+    "checkpoint": {"prompt": "Quelle synthèse est la plus rigoureuse ?", "options": ["Second ARPI puis attente", "Changer de mécanisme, requalifier le biomarqueur, analyser la lésion discordante, intégrer la RT antalgique et choisir selon moelle et accès", "Lu-PSMA automatique", "Arrêter toute ADT"], "answerIndex": 1, "explanation": "La trajectoire, l'hétérogénéité et les besoins symptomatiques doivent être traités ensemble."},
+    "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026", "asco_mcrpc_2025", "asco_genomic_testing_2025", "eanm_snmmi_psma_pet_2023"]
+  }
+}

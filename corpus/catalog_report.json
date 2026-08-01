@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-07-31T15:38:46.561318+00:00",
+  "schema_version": "1.1.0",
+  "organizations": 41,
+  "documents": 109,
+  "local_full_texts": 47,
+  "documents_by_access": {
+    "full_text_local": 47,
+    "web_native": 56,
+    "restricted": 6
+  },
+  "courses_total": 77,
+  "courses_with_any_source": 77,
+  "courses_with_core_source": 77,
+  "coverage_by_priority": {
+    "1": {
+      "with_any_source": 51,
+      "with_core_source": 51,
+      "total": 51
+    },
+    "2": {
+      "with_any_source": 15,
+      "with_core_source": 15,
+      "total": 15
+    },
+    "3": {
+      "with_any_source": 11,
+      "with_core_source": 11,
+      "total": 11
+    }
+  },
+  "courses_without_any_source": [],
+  "courses_without_core_source": [],
+  "warnings": []
+}

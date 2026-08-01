@@ -1,0 +1,114 @@
+{
+  "query": "41086562[PMID] OR 41617622[PMID] OR 40921169[PMID] OR 41449145[PMID] OR 30356126[PMID] OR 26049688[PMID] OR 30995174[PMID] OR 37487144[PMID] OR 39411812[PMID]",
+  "count": 9,
+  "results": [
+    {
+      "pmid": "41617622",
+      "doi": "10.1016/j.bulcan.2026.01.001",
+      "title": "[French recommendations for clinical practice, Nice/Saint-Paul-de-Vence 2024-2025: Management of advanced/relapsing endometrial cancer].",
+      "authors": "Eberst, Lauriane and Jeanne, Corinne and Bataillon, Guillaume and Angelergues, Antoine and Lebreton, Coriolan and D'Hondt, V\u00e9ronique and Leary, Alexandra and Lortholary, Alain and Gaillard, Anne-Lise and Serre, Anne-Agathe and Akladios, Ch\u00e9rif and Joly, Florence and Frenel, Jean-S\u00e9bastien and Beinse, Guillaume and Alexandre, J\u00e9r\u00f4me",
+      "journal": "Bulletin du cancer",
+      "year": "2026",
+      "volume": "113",
+      "issue": "2",
+      "pages": "232-246",
+      "abstract": "Histomolecular diagnosis of endometrial cancer systematically includes the evaluation of hormonal receptors, P53 and MMR statutes (determination of PD-L1 and HRD statutes is not required). Therapeutic progress in advanced endometrial cancer is mainly related to the first-line utilization of immunotherapy associated with chemotherapy, a strategy assessed in five randomized controlled trials, although at the moment, only dostarlimab is available in France. Immunotherapy administration requires specific pretherapeutic workup and monitoring. Hormone therapy remains an option in non-aggressive, low grade endometrioid cancer, expressing hormone receptors. Treatment choice is based on clinical situation (upfront metastatic disease or relapse after adjuvant therapy, and duration of platinum-free interval in case of adjuvant therapy), disease aggressivity, molecular status (in particular, MMR status) and patients' comorbidities. PARP inhibitors are not recommended as maintenance therapy. In second line, the combination of pembrolizumab and lenvatinib is the standard treatment if chemoimmunotherapy has not been used previously. If it has been, therapeutic strategy depends on the duration of platinum-free interval. Inclusion in a clinical trial should always be considered when the patient's performance status makes it possible. The choice of the trial is guided by HER2 status in immunohistochemistry and results of new generation sequencing when available. The current trend towards the development of personalized medicine highlights the importance of pathological and molecular characterization of the tumor."
+    },
+    {
+      "pmid": "41449145",
+      "doi": "10.1016/S1470-2045(25)00612-6",
+      "title": "Molecular profile-based adjuvant treatment for women with high-intermediate risk endometrial cancer (PORTEC-4a): results of a randomised, open-label, phase 3, multicentre, non-inferiority trial.",
+      "authors": "van den Heerik, Anne Sophie V M and Horeweg, Nanda and Haverkort, Marie A D and Kuijsters, Nienke and Kommoss, Stefan and Koppe, Friederike L A and Nowee, Marlies E and Westerveld, Henrike and De Jong, Maria A A and Fr\u00fchauf, Filip and Cnossen, Jeltsje S and Mens, Jan Willem M and Beukema, Jannet C and Chargari, Cyrus and Gillham, Charles and Jurgenliemk-Schulz, Ina M and Vandecasteele, Katrien and Hamann, Moritz and Kiderlen, Mandy and Staebler, Annette and Nijman, Hans W and Wortman, Bastiaan G and Asteinidou, Elefteria and de Boer, Stephanie M and van den Hout, Wilbert B and Verhoeven-Adema, Karen W and Nout, Remi A and Putter, Hein and Bosse, Tjalling and Creutzberg, Carien L",
+      "journal": "The Lancet. Oncology",
+      "year": "2026",
+      "volume": "27",
+      "issue": "1",
+      "pages": "23-35",
+      "abstract": "PORTEC-4a investigated molecular risk profile-based individualised adjuvant treatment for women with high-intermediate risk endometrial cancer, aiming to reduce both overtreatment and undertreatment while optimising locoregional control."
+    },
+    {
+      "pmid": "41086562",
+      "doi": "10.1016/j.canrad.2025.104752",
+      "title": "Radiotherapy for endometrial cancer: 2025 update.",
+      "authors": "Chargari, Cyrus and Ducassou, Anne and Leblanc, Julie and Lucia, Fran\u00e7ois and Petit, Adeline and Flandin, Isabelle and Cordoba, Abel and Lafond, Caroline and Renard, Sophie and Escande, Alexandre",
+      "journal": "Cancer radiotherapie : journal de la Societe francaise de radiotherapie oncologique",
+      "year": "2025",
+      "volume": "29",
+      "issue": "7-8",
+      "pages": "104752",
+      "abstract": "The first intent upfront treatment of endometrial cancer is surgery. External radiotherapy and brachytherapy, however, are important tools in adjuvant setting, according to histopathological risk factors for locoregional recurrence or in the event of an inoperable tumour. We present the 2025 update of the recommendations of the Soci\u00e9t\u00e9 fran\u00e7aise de radioth\u00e9rapie oncologique (SFRO; French society of radiation oncology) on the indications and technical methods of performing radiotherapy and brachytherapy for endometrial cancer."
+    },
+    {
+      "pmid": "40921169",
+      "doi": "10.1016/S1470-2045(25)00379-1",
+      "title": "Adjuvant chemoradiotherapy versus radiotherapy alone in women with high-risk endometrial cancer (PORTEC-3): 10-year clinical outcomes and post-hoc analysis by molecular classification from a randomised phase 3 trial.",
+      "authors": "Post, Cathalijne C B and de Boer, Stephanie M and Powell, Melanie E and Mileshkin, Linda and Katsaros, Dionyssios and Bessette, Paul and Leary, Alexandra and Ottevanger, Petronella B and McCormack, Mary and Khaw, Pearly and D'Amico, Romerai and Fyles, Anthony and Chargari, Cyrus and Kitchener, Henry C and Do, Viet and Lissoni, Andrea and Provencher, Diane and Genestie, Catherine and Nijman, Hans W and Whitmarsh, Karen and J\u00fcrgenliemk-Schulz, Ina M and Feeney, Amanda and Lutgens, Ludy C H W and Bouma, Jeanette and Leon-Castillo, Alicia and Nout, Remi A and Putter, Hein and Bosse, Tjalling and Creutzberg, Carien L",
+      "journal": "The Lancet. Oncology",
+      "year": "2025",
+      "volume": "26",
+      "issue": "10",
+      "pages": "1370-1381",
+      "abstract": "The PORTEC-3 trial investigated the benefit of chemoradiotherapy versus pelvic radiotherapy alone for women with high-risk endometrial cancer. We present the preplanned long-term analysis of the randomised PORTEC-3 trial with a post-hoc analysis including molecular classification of the tumours."
+    },
+    {
+      "pmid": "39411812",
+      "doi": "10.1200/JCO-24-01887",
+      "title": "Pembrolizumab or Placebo Plus Adjuvant Chemotherapy With or Without Radiotherapy for Newly Diagnosed, High-Risk Endometrial Cancer: Results in Mismatch Repair-Deficient Tumors.",
+      "authors": "Slomovitz, Brian M and Cibula, David and Lv, Weiguo and Orta\u00e7, F\u0131rat and Hietanen, Sakari and Backes, Floor and Kikuchi, Akira and Lorusso, Domenica and Da\u0144ska-Bidzi\u0144ska, Anna and Samou\u00eblian, Vanessa and Barretina-Ginesta, Maria-Pilar and Vulsteke, Christof and Lai, Chyong-Huey and Pothuri, Bhavana and Zhang, Yu and Magallanes-Maciel, Manuel and Amit, Amnon and Guarneri, Valentina and Zagouri, Flora and Bell, Maria and Welz, Julia and Eminowicz, Gemma and Hruda, Martin and Willmott, Lyndsay J and Lichfield, Jasmine and Wang, Wei and Orlowski, Robert and Aktan, Gursel and Gladieff, Laurence and Van Gorp, Toon",
+      "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+      "year": "2025",
+      "volume": "43",
+      "issue": "3",
+      "pages": "251-259",
+      "abstract": "Mismatch repair-deficient (dMMR) endometrial cancer (EC) is an inflamed phenotype with poor outcomes when meeting high-risk criteria and limited treatment options in the adjuvant setting. We report protocol-prespecified subgroup analysis of patients with dMMR tumors from the phase III ENGOT-en11/GOG-3053/KEYNOTE-B21 study (ClinicalTrials.gov identifier: NCT04634877) in newly diagnosed, high-risk EC after surgery with curative intent. Patients were randomly assigned to pembrolizumab 200 mg or placebo (six cycles) plus carboplatin-paclitaxel (four to six cycles) once every 3 weeks, then pembrolizumab 400 mg or placebo once every 6 weeks (six cycles), respectively. MMR status was a stratification factor. Patients received radiotherapy at investigator discretion. Investigator-assessed disease-free survival (DFS) was a primary end point. No formal hypothesis testing was performed for subgroup analysis. In the intention-to-treat population, 141 patients in the pembrolizumab arm and 140 in the placebo arm had dMMR tumors. At this interim analysis, hazard ratio for DFS favored pembrolizumab (0.31 [95% CI, 0.14 to 0.69]); median DFS was not reached in either group. Two-year DFS rates were 92.4% (95% CI, 84.4 to 96.4) and 80.2% (95% CI, 70.8 to 86.9), respectively. No new safety signals occurred. Longer-term follow-up of outcomes will be evaluated at final analysis. Preplanned subgroup analysis on the basis of the study's stratification factors suggests that pembrolizumab plus chemotherapy improves DFS and is clinically relevant for patients with dMMR tumors in the curative-intent setting."
+    },
+    {
+      "pmid": "37487144",
+      "doi": "10.1200/JCO.23.00062",
+      "title": "Molecular Classification Predicts Response to Radiotherapy in the Randomized PORTEC-1 and PORTEC-2 Trials for Early-Stage Endometrioid Endometrial Cancer.",
+      "authors": "Horeweg, Nanda and Nout, Remi A and J\u00fcrgenliemk-Schulz, Ina M and Lutgens, Ludy C H W and Jobsen, Jan J and Haverkort, Marie A D and Mens, Jan Willem M and Slot, Annerie and Wortman, Bastiaan G and de Boer, Stephanie M and Stelloo, Ellen and Verhoeven-Adema, Karen W and Putter, Hein and Smit, Vincent T H B M and Bosse, Tjalling and Creutzberg, Carien L",
+      "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+      "year": "2023",
+      "volume": "41",
+      "issue": "27",
+      "pages": "4369-4380",
+      "abstract": "The molecular classification of endometrial cancer (EC) has proven to have prognostic value and is predictive of response to adjuvant chemotherapy. Here, we investigate its predictive value for response to external beam radiotherapy (EBRT) and vaginal brachytherapy (VBT) in early-stage endometrioid EC (EEC)."
+    },
+    {
+      "pmid": "30995174",
+      "doi": "10.1200/JCO.18.01575",
+      "title": "Phase III Trial: Adjuvant Pelvic Radiation Therapy Versus Vaginal Brachytherapy Plus Paclitaxel/Carboplatin in High-Intermediate and High-Risk Early Stage Endometrial Cancer.",
+      "authors": "Randall, Marcus E and Filiaci, Virginia and McMeekin, D Scott and von Gruenigen, Vivian and Huang, Helen and Yashar, Catheryn M and Mannel, Robert S and Kim, Jae-Weon and Salani, Ritu and DiSilvestro, Paul A and Burke, James J and Rutherford, Thomas and Spirtos, Nick M and Terada, Keith and Anderson, Penny R and Brewster, Wendy R and Small, William and Aghajanian, Carol A and Miller, David S",
+      "journal": "Journal of clinical oncology : official journal of the American Society of Clinical Oncology",
+      "year": "2019",
+      "volume": "37",
+      "issue": "21",
+      "pages": "1810-1818",
+      "abstract": "The primary objective was to determine if vaginal cuff brachytherapy and chemotherapy (VCB/C) increases recurrence-free survival (RFS) compared with pelvic radiation therapy (RT) in high-intermediate and high-risk early-stage endometrial carcinoma."
+    },
+    {
+      "pmid": "30356126",
+      "doi": "10.1038/s41416-018-0310-8",
+      "title": "Ten-year results of the PORTEC-2 trial for high-intermediate risk endometrial carcinoma: improving patient selection for adjuvant therapy.",
+      "authors": "Wortman, B G and Creutzberg, C L and Putter, H and J\u00fcrgenliemk-Schulz, I M and Jobsen, J J and Lutgens, L C H W and van der Steen-Banasik, E M and Mens, J W M and Slot, A and Kroese, M C Stenfert and van Triest, B and Nijman, H W and Stelloo, E and Bosse, T and de Boer, S M and van Putten, W L J and Smit, V T H B M and Nout, R A",
+      "journal": "British journal of cancer",
+      "year": "2018",
+      "volume": "119",
+      "issue": "9",
+      "pages": "1067-1074",
+      "abstract": "PORTEC-2 was a randomised trial for women with high-intermediate risk (HIR) endometrial cancer, comparing pelvic external beam radiotherapy (EBRT) with vaginal brachytherapy (VBT). We evaluated long-term outcomes combined with the results of pathology review and molecular analysis."
+    },
+    {
+      "pmid": "26049688",
+      "doi": "10.1016/j.ejca.2015.05.015",
+      "title": "Substantial lymph-vascular space invasion (LVSI) is a significant risk factor for recurrence in endometrial cancer--A pooled analysis of PORTEC 1 and 2 trials.",
+      "authors": "Bosse, Tjalling and Peters, Elke E M and Creutzberg, Carien L and J\u00fcrgenliemk-Schulz, Ina M and Jobsen, Jan J and Mens, Jan Willem M and Lutgens, Ludy C H W and van der Steen-Banasik, Elzbieta M and Smit, Vincent T H B M and Nout, Remi A",
+      "journal": "European journal of cancer (Oxford, England : 1990)",
+      "year": "2015",
+      "volume": "51",
+      "issue": "13",
+      "pages": "1742-50",
+      "abstract": "Lymph-vascular space invasion (LVSI) is an important adverse prognostic factor in endometrial cancer (EC). However, its role in relation to type of recurrence and adjuvant treatment is not well defined, and there is significant interobserver variation. This study aimed to quantify LVSI and correlate this to risk and type of recurrence."
+    }
+  ]
+}

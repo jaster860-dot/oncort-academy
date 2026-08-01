@@ -1,0 +1,201 @@
+{
+  "version": "0.2.0",
+  "status": "needs_review",
+  "cases": [
+    {
+      "id": "endo_case_001_lvsi_reasoning",
+      "title": "Pourquoi le LVSI change le raisonnement",
+      "diseaseSite": "endometrium",
+      "difficulty": 1,
+      "mode": "clinical_reasoning",
+      "learningObjective": "Reconnaître qu'un LVSI substantiel modifie le profil de rechute sans constituer, à lui seul, une prescription automatique.",
+      "vignette": "Patiente de 67 ans opérée d'un carcinome endométrioïde de l'endomètre. Le compte rendu mentionne une invasion myométriale d'au moins 50 % et un LVSI substantiel. Un interne propose une curiethérapie vaginale seule au motif que la tumeur a été complètement réséquée.",
+      "availableData": {
+        "clinical": "67 ans, état général et comorbidités non précisés.",
+        "pathology": "Carcinome endométrioïde ; grade, atteinte cervicale, marges et autres extensions non précisés ; invasion myométriale ≥50 % ; LVSI substantiel.",
+        "imaging": "Bilan préopératoire non fourni.",
+        "surgery": "Hystérectomie avec annexectomie ; voie d'abord et stadification ganglionnaire non précisées.",
+        "biomarkers": "POLE, MMR, p53 et récepteurs aux œstrogènes non fournis."
+      },
+      "tasks": [
+        "Identifier les données manquantes qui empêchent une décision adjuvante définitive.",
+        "Expliquer le mécanisme par lequel le LVSI substantiel modifie le risque.",
+        "Distinguer les risques vaginal, ganglionnaire pelvien et distant.",
+        "Expliquer pourquoi une curiethérapie vaginale seule ne peut pas être validée à partir des seules données fournies."
+      ],
+      "expectedReasoning": [
+        "Il faut au minimum préciser le grade, l'atteinte cervicale et extra-utérine, les marges, la stadification ganglionnaire, la classe moléculaire et les facteurs liés à la patiente.",
+        "Un LVSI substantiel montre un accès tumoral aux voies lymphovasculaires et augmente la plausibilité d'une atteinte régionale ou distante.",
+        "La curiethérapie vaginale cible surtout le fond vaginal, alors que la radiothérapie pelvienne vise un risque pelvien microscopique plus large.",
+        "La décision dépend du groupe de risque ESGO-ESTRO-ESP complet ; le LVSI substantiel n'est ni un détail ni une indication isolée."
+      ],
+      "acceptedAnswers": [
+        {
+          "label": "Réponse complète",
+          "criteria": [
+            "Refuse de conclure définitivement avec les données incomplètes.",
+            "Demande la classe moléculaire, le grade, l'atteinte cervicale, les marges et le statut ganglionnaire.",
+            "Relie le LVSI substantiel au risque régional et distant.",
+            "Distingue explicitement le volume traité par curiethérapie de celui de la radiothérapie pelvienne."
+          ]
+        },
+        {
+          "label": "Réponse partielle",
+          "criteria": [
+            "Reconnaît que le LVSI augmente le risque mais sans expliquer le mécanisme ou le profil de rechute.",
+            "Demande certaines données manquantes mais propose tout de même un traitement définitif."
+          ]
+        }
+      ],
+      "gradingRubric": {
+        "finalAnswerAccuracy": {
+          "maxScore": 2,
+          "fullCredit": "Conclut qu'aucune modalité adjuvante ne peut être validée avant stratification complète.",
+          "partialCredit": "Rejette la curiethérapie seule mais remplace trop vite par une radiothérapie pelvienne automatique."
+        },
+        "missingDataDetection": {
+          "maxScore": 2,
+          "mustMention": [
+            "grade",
+            "cervical_or_extrauterine_extension",
+            "nodal_staging",
+            "molecular_classification",
+            "patient_factors"
+          ]
+        },
+        "mechanismUnderstanding": {
+          "maxScore": 2,
+          "mustMention": [
+            "lymphovascular_access",
+            "regional_or_distant_dissemination"
+          ]
+        },
+        "treatmentToolMatching": {
+          "maxScore": 2,
+          "mustMention": [
+            "vbt_targets_vaginal_cuff",
+            "ebrt_targets_broader_pelvic_risk"
+          ]
+        },
+        "confidenceCalibration": {
+          "maxScore": 2,
+          "criticalError": "Prescrit un traitement définitif malgré les données décisionnelles manquantes."
+        }
+      },
+      "commonErrors": [
+        {
+          "error": "LVSI égal récidive vaginale",
+          "gap": "risk_gap",
+          "remediationConcept": "lvsi"
+        },
+        {
+          "error": "Curiethérapie et radiothérapie pelvienne considérées comme équivalentes",
+          "gap": "rt_gap",
+          "remediationConcept": "vaginal_brachytherapy_vs_pelvic_ebrt"
+        },
+        {
+          "error": "Traitement proposé sans demander le statut ganglionnaire",
+          "gap": "rcp_gap",
+          "remediationConcept": "pelvic_lymphatic_drainage"
+        },
+        {
+          "error": "Traitement proposé sans classe moléculaire",
+          "gap": "risk_gap",
+          "remediationConcept": "risk_groups"
+        }
+      ],
+      "retestQuestionId": "q_endo_lvsi_retest_001",
+      "linkedConcepts": [
+        "lvsi",
+        "pelvic_lymphatic_drainage",
+        "vaginal_brachytherapy_vs_pelvic_ebrt",
+        "risk_groups"
+      ],
+      "sources": [
+        "esgo_estro_esp_2025",
+        "esgo_estro_esp_2025_appendix",
+        "portec_lvsi_2015",
+        "portec2_10y_2018"
+      ],
+      "status": "needs_review"
+    },
+    {
+      "id": "endo_case_002_molecular_gap",
+      "title": "Le marqueur moléculaire manquant",
+      "difficulty": 1,
+      "mode": "missing_data",
+      "vignette": "Patiente avec carcinome de l'endomètre de haut grade, stade apparemment limité à l'utérus. Le dossier contient histologie, grade, IRM et chirurgie, mais pas de statut MMR, p53 ni POLE.",
+      "tasks": [
+        "Identify missing molecular data",
+        "Explain why molecular classification can change risk interpretation",
+        "List the clinical consequences of dMMR/MSI"
+      ],
+      "expectedReasoning": [
+        "MMR, p53 and POLE status may be needed for modern classification/risk.",
+        "High-grade morphology is not enough to define biology.",
+        "dMMR/MSI matters for Lynch screening and immunotherapy logic in advanced/recurrent settings."
+      ],
+      "linkedConcepts": ["molecular_classification", "dmmr_msi_immunotherapy", "p53_abnormal"],
+      "status": "draft"
+    },
+    {
+      "id": "endo_case_003_rt_tool_selection",
+      "title": "Choisir l'outil de RT selon le risque",
+      "difficulty": 2,
+      "mode": "treatment_selection",
+      "vignette": "Après hystérectomie, la question posée en RCP est: curiethérapie vaginale, RT pelvienne, traitement systémique, combinaison ou surveillance?",
+      "tasks": [
+        "Define the relapse pattern each treatment is meant to reduce",
+        "List patient/tumor variables needed to choose",
+        "Explain why 'RT oui/non' is the wrong first question"
+      ],
+      "expectedReasoning": [
+        "VBT primarily targets vaginal cuff risk; pelvic EBRT targets pelvic microscopic risk; systemic therapy targets distant risk.",
+        "Need stage, grade, histology, LVSI, nodal status, margins, molecular class and comorbidities.",
+        "Treatment choice follows risk pattern, not a generic RT decision."
+      ],
+      "linkedConcepts": ["vaginal_brachytherapy_vs_pelvic_ebrt", "risk_groups", "pelvic_lymphatic_drainage"],
+      "status": "draft"
+    },
+    {
+      "id": "endo_case_004_dmmr_systemic",
+      "title": "dMMR: de la biologie au traitement systémique",
+      "difficulty": 2,
+      "mode": "medical_oncology",
+      "vignette": "Patiente avec rechute métastatique d'un cancer de l'endomètre. Le dossier mentionne dMMR/MSI. Le radio-oncologue doit comprendre la discussion d'oncologie médicale.",
+      "tasks": [
+        "Explain what dMMR/MSI means biologically",
+        "Explain why immunotherapy is discussed",
+        "List RT-relevant issues during systemic therapy"
+      ],
+      "expectedReasoning": [
+        "MMR deficiency causes accumulation of mutations and neoantigens.",
+        "This creates biological plausibility for immune checkpoint blockade.",
+        "RT physician should know disease sites requiring palliation, timing, immune toxicities and multidisciplinary sequencing."
+      ],
+      "linkedConcepts": ["dmmr_msi_immunotherapy", "trial_literacy"],
+      "status": "draft"
+    },
+    {
+      "id": "endo_case_005_boss_fight_postop",
+      "title": "Boss fight: RCP postopératoire complète",
+      "difficulty": 3,
+      "mode": "boss_fight",
+      "vignette": "Dossier postopératoire incomplet d'un cancer de l'endomètre. L'utilisateur doit demander les informations manquantes, reconstruire le risque, proposer une stratégie, puis justifier chaque étape.",
+      "tasks": [
+        "Request missing data",
+        "Build stage/risk hypothesis",
+        "Define relapse-risk pattern",
+        "Propose adjuvant strategy options",
+        "State uncertainty and guideline sources to verify"
+      ],
+      "expectedReasoning": [
+        "No definitive treatment plan without pathology, molecular class and surgical/nodal details.",
+        "The user should reason by risk pattern and treatment intent.",
+        "Uncertainty should be explicit, not hidden."
+      ],
+      "linkedConcepts": ["risk_groups", "figo_2023_staging", "lvsi", "molecular_classification", "vaginal_brachytherapy_vs_pelvic_ebrt"],
+      "status": "draft"
+    }
+  ]
+}

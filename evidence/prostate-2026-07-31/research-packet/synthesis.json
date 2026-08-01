@@ -1,0 +1,94 @@
+{
+  "consensus_evidence": [
+    {
+      "reference_id": "ref-001",
+      "finding": "Results: Biparametric MRI is an alternative to multiparametric MRI imaging to guide biopsy decision making provided that a high-quality imaging and radiology expertise is achieved."
+    },
+    {
+      "reference_id": "ref-002",
+      "finding": "Results: On NMIBC BCa guidelines: the addition of a new recommendation to the sections \"4.3."
+    },
+    {
+      "reference_id": "ref-003",
+      "finding": "Results: The recommendations set out the genetics, epidemiology and diagnostic methods of PCa, as well as the concepts of screening and early detection."
+    },
+    {
+      "reference_id": "ref-004",
+      "finding": "Results: MIBC is diagosed after the must complete tumor resection possible ."
+    },
+    {
+      "reference_id": "ref-005",
+      "finding": "French AFU Cancer Committee Guidelines - Update 2024-2026: Prostate cancer - Management of metastatic disease and castration resistance - PubMed French AFU Cancer Committee Guidelines - Update 2024-2026: Prostate cancer - Management of metastatic disease and castration resistance Affiliations Expand Affiliations Keywords: Metastasis; Prostate cancer; Recommendations; Recurrence; Treatment."
+    },
+    {
+      "reference_id": "ref-005",
+      "finding": "Copyright © 2024 Société Française du Cancer."
+    },
+    {
+      "reference_id": "ref-006",
+      "finding": "Results: UTUC is a rare malignancy with specific risk factors, including exposure to aristolochic acid and Lynch syndrome."
+    },
+    {
+      "reference_id": "ref-007",
+      "finding": "French AFU Cancer Committee Guidelines Update 2022-2024: Adrenal tumor - Assessment of an adrenal incidetaloma and oncological management - PubMed Camparo P, Rouprêt M."
+    },
+    {
+      "reference_id": "ref-007",
+      "finding": "2024 Nov;34(12):102748. doi: 10.1016/j.fjurol.2024.102748."
+    },
+    {
+      "reference_id": "ref-008",
+      "finding": "French AFU Cancer Committee Guidelines - Update 2022-2024: management of kidney cancer - PubMed renal cell carcinoma: cross-sectional study."
+    },
+    {
+      "reference_id": "ref-008",
+      "finding": "2023 Jun 7;85(8):3833-3837. doi: 10.1097/MS9.0000000000000862. eCollection 2023 Aug."
+    },
+    {
+      "reference_id": "ref-009",
+      "finding": "Results Prostate cancer Diagnosis Treatment Guidelines Screening Recommended articles Cited by (0) View Abstract © 2024 Elsevier Masson SAS."
+    },
+    {
+      "reference_id": "ref-010",
+      "finding": "Screening and prostate cancer mortality: results of the European Randomised Study of Screening for Prostate Cancer (ERSPC) at 13 years of follow-up Lancet (2014) J."
+    },
+    {
+      "reference_id": "ref-011",
+      "finding": "Results Skip to main content Skip to article Elsevier logo Journals & Books Help Search My account Sign in Access through your organization Purchase PDF Patient Access Other access options Search ScienceDirect Article preview Abstract Section snippets References (245) Cited by (2) Elsevier Progrès en Urologie - FMC Volume 34, Issue 7 , November 2024, Pages F442-F479 Progrès en Urologie - FMC Recommandations Prostate International, Volume 8, Issue 4, 2020, pp."
+    },
+    {
+      "reference_id": "ref-012",
+      "finding": "Five and Ten-Year Outcomes of Neoadjuvant Chemotherapy and Surgery for High-Risk Upper Tract Urothelial Carcinoma - ScienceDirect 2026: Upper urinary tract urothelial cancer (UTUC) 2024, French Journal of Urology Show abstract The purpose of this study was to propose an update of the French guidelines from the national committee ccAFU on upper tract urothelial carcinomas (UTUC)."
+    },
+    {
+      "reference_id": "ref-012",
+      "finding": "A systematic Medline search for epidemiology, risk factors, diagnosis, prognosis, treatment options and follow-up of UTUC was performed between 2022 and 2024 to evaluate available references and their levels of evidence."
+    },
+    {
+      "reference_id": "ref-013",
+      "finding": "French AFU Cancer Committee Guidelines – Update 2024–2026 : Assessment of an adrenal incidentaloma and oncological management - ScienceDirect Adrenocortical carcinoma Malignant pheochromocytoma Adrenal metastasis This article provides urologists with recommendations for an initial diagnostic work-up and the subsequent management (discontinuation of follow-up, monitoring or surgery) of unilateral adrenal incidentaloma."
+    },
+    {
+      "reference_id": "ref-013",
+      "finding": "Therapeutic management is all the more detailed the more malignant the work-up suspects it to be."
+    },
+    {
+      "reference_id": "ref-014",
+      "finding": "[PDF] European Society of Endocrinology Clinical Practice Guideline for long-term follow-up of patients operated on for a phaeochromocytoma or a paraganglioma. | Semantic Scholar Morgan Roupret Medicine The French journal of urology 2024 TLDR The multidisciplinary working group updated the CCAFU 2022 recommendations for the carcinological management of adrenal incidentalomas on the basis of a comprehensive PubMed review of the literature."
+    },
+    {
+      "reference_id": "ref-014",
+      "finding": "Expand 8 Save Disease monitoring of patients with pheochromocytoma or paraganglioma by biomarkers and imaging studies."
+    }
+  ],
+  "conflicting_evidence": [],
+  "methodological_patterns": {
+    "systematic review": 7,
+    "primary/other": 6,
+    "review": 2,
+    "cross-sectional study": 1
+  },
+  "research_gaps": [
+    "No explicit contradictory or null evidence was identified; run a targeted negative-results search before asserting consensus."
+  ]
+}

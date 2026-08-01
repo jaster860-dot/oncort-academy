@@ -1,0 +1,175 @@
+{
+  "id": "prostate_followup_survivorship",
+  "blockId": "followup_survivorship",
+  "title": "Prostate — suivi, toxicités, réhabilitation et après-cancer",
+  "version": "0.2.0",
+  "status": "needs_review",
+  "lastUpdated": "2026-08-01",
+  "estimatedMinutes": 140,
+  "learningPromise": "À la fin de ce bloc, l'apprenant peut organiser un suivi oncologique et fonctionnel après traitement local ou systémique, détecter les urgences et toxicités tardives, accompagner la récupération hormonale et construire un plan personnalisé d'après-cancer.",
+  "evidenceScope": {
+    "provenanceNote": "Synthèse éducative France-first à partir des pages publiques du CCAFU 2024–2026 et du cadre organisationnel INCa, triangulée avec EAU 2026. Les intervalles de suivi ont une base prospective limitée et doivent être adaptés au risque, au traitement et à l'aptitude au rattrapage. Les sources restreintes et les résumés seuls ne servent pas d'ancre à ce bloc. Tout reste needs_review.",
+    "anchors": [
+      {"sourceId": "ccafu_localised_2024_2026", "locator": "Suivi après traitement local, récidive, toxicités et qualité de vie"},
+      {"sourceId": "ccafu_recurrence_2024_2026", "locator": "Page publique Urofrance : suivi sous suppression androgénique, toxicités osseuses et cardiovasculaires, qualité de vie"},
+      {"sourceId": "eau_prostate_2026", "locator": "Chapitres 7 Follow-up et 8 Quality of life : PSA, imagerie décisionnelle, complications, PROMs et survivorship"},
+      {"sourceId": "inca_organisation_soins_ppac_2017", "locator": "Section Programme personnalisé de l'après-cancer : suivi conjoint, accompagnement socioprofessionnel, soins de support et relais de proximité"}
+    ],
+    "divergences": [
+      {"topic": "Calendrier", "summary": "L'EAU propose un cadre semestriel initial puis annuel après traitement local, mais reconnaît un faible niveau de preuve pour l'intervalle exact ; le calendrier est individualisé."},
+      {"topic": "Détectable versus cliniquement pertinent", "summary": "Un PSA détectable ou fluctuant ne signifie pas automatiquement récidive nécessitant un traitement ; seuil, cinétique, traitement initial et possibilité de rattrapage comptent."}
+    ]
+  },
+  "lessons": [
+    {
+      "id": "followup_01_psa",
+      "nodeId": "psa_followup_after_local_therapy",
+      "number": 1,
+      "title": "PSA après traitement local : interpréter avant d'imager",
+      "durationMinutes": 18,
+      "objectives": ["Distinguer trajectoires après chirurgie et RT.", "Individualiser le calendrier.", "Limiter l'imagerie aux décisions utiles."],
+      "sections": [
+        {"title": "Deux cinétiques attendues", "body": "Après prostatectomie, le PSA doit devenir indétectable ; après radiothérapie, la prostate restant en place, le nadir est plus lent et des fluctuations sont possibles. Persistance, récidive et rebond ne sont donc pas interprétés avec le même seuil."},
+        {"title": "Un cadre adaptable", "body": "L'EAU décrit en pratique un PSA et une histoire spécifique tous les six mois pendant trois ans puis annuellement, tout en reconnaissant la faiblesse de la preuve sur l'intervalle. Risque initial, cinétique, symptômes, espérance de vie et aptitude au rattrapage modulent ce cadre."},
+        {"title": "Imager pour agir", "body": "Chez un patient asymptomatique avec PSA stable, l'imagerie systématique n'est pas utile. En cas de hausse ou symptôme, l'examen est choisi si son résultat peut modifier le plan ; un TEP sensible ne remplace ni la cinétique ni le contexte."}
+      ],
+      "causalChain": ["Traitement initial", "Trajectoire PSA", "Risque et symptômes", "Imagerie seulement décisionnelle"],
+      "commonTrap": "Appliquer le seuil Phoenix après prostatectomie ou exiger un PSA indétectable après radiothérapie.",
+      "checkpoint": {"prompt": "Quelle différence est fondamentale ?", "options": ["Aucune", "Après chirurgie le PSA doit devenir indétectable ; après RT le nadir est progressif et le seuil de récidive diffère", "Le PSA est inutile après RT", "Toute hausse impose un TEP"], "answerIndex": 1, "explanation": "L'organe restant après RT explique des trajectoires et définitions différentes."},
+      "flashcards": [{"front": "Après RP", "back": "PSA attendu indétectable ; persistance et remontée à qualifier."}, {"front": "Après RT", "back": "Nadir progressif, fluctuations possibles ; définition biochimique spécifique."}, {"front": "Imagerie", "back": "À réaliser si elle peut modifier le traitement, pas en routine PSA stable."}],
+      "sources": ["ccafu_localised_2024_2026", "ccafu_recurrence_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "followup_02_testosterone",
+      "nodeId": "testosterone_recovery",
+      "number": 2,
+      "title": "Récupération de la testostérone : expliquer l'incertitude",
+      "durationMinutes": 16,
+      "objectives": ["Relier récupération à durée et terrain.", "Interpréter PSA avec testostérone.", "Évaluer symptômes persistants."],
+      "sections": [
+        {"title": "Une récupération variable", "body": "Après arrêt d'une ADT temporaire, la récupération dépend de l'âge, de la testostérone initiale, de la durée et de la molécule, des comorbidités et de la fonction testiculaire. Elle peut être lente ou incomplète ; promettre une date fixe est trompeur."},
+        {"title": "Mesurer si cela change l'interprétation", "body": "Testostérone, PSA et symptômes sont lus ensemble. Fatigue, bouffées, humeur, sexualité, sarcopénie et santé osseuse peuvent persister ; un déficit prolongé appelle une évaluation, sans supplémentation automatique chez un patient traité pour cancer prostatique."}
+      ],
+      "causalChain": ["Durée et agent ADT", "Terrain", "Testostérone + symptômes", "Réhabilitation et suivi PSA"],
+      "commonTrap": "Promettre une normalisation à date fixe ou interpréter le PSA sans connaître la récupération hormonale.",
+      "checkpoint": {"prompt": "Que dire après arrêt d'une ADT longue ?", "options": ["La testostérone revient toujours en un mois", "La récupération est variable ; suivre symptômes, testostérone et PSA", "Elle ne revient jamais", "Donner systématiquement une substitution"], "answerIndex": 1, "explanation": "La récupération est individuelle et influence à la fois qualité de vie et lecture oncologique."},
+      "flashcards": [{"front": "Récupération T", "back": "Dépend âge, niveau initial, durée/agent ADT et comorbidités."}, {"front": "PSA + T", "back": "Interpréter ensemble après arrêt de l'ADT."}, {"front": "Symptômes", "back": "Fatigue, sexualité, humeur, muscle et os peuvent persister."}],
+      "sources": ["ccafu_recurrence_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "followup_03_urinary",
+      "nodeId": "urinary_toxicity",
+      "number": 3,
+      "title": "Toxicité urinaire : caractériser avant de traiter",
+      "durationMinutes": 17,
+      "objectives": ["Distinguer irritation, obstruction et incontinence.", "Rechercher infection, sténose ou récidive.", "Reconnaître les signaux d'alarme."],
+      "sections": [
+        {"title": "Un symptôme, plusieurs mécanismes", "body": "Urgence, fréquence, dysurie, rétention, incontinence et hématurie sont décrites avec chronologie, débit, résidu, bandelette ou culture, médicaments et traitement initial. Après chirurgie dominent souvent incontinence ou sténose ; après RT, irritation, obstruction tardive ou hématurie peuvent survenir."},
+        {"title": "Ne pas banaliser l'hématurie", "body": "Hématurie persistante, caillots, anémie, douleur, infection, insuffisance rénale ou rétention nécessitent une évaluation urologique. La toxicité radique est un diagnostic de contexte, pas une raison d'omettre récidive, tumeur urothéliale, calcul ou infection."}
+      ],
+      "causalChain": ["Symptôme et délai", "Mécanisme probable", "Examens ciblés", "Rééducation, médicament ou geste"],
+      "commonTrap": "Étiqueter toute hématurie tardive comme cystite radique sans exploration appropriée.",
+      "checkpoint": {"prompt": "Que faire devant une hématurie tardive persistante après RT ?", "options": ["Rassurer sans examen", "Évaluer gravité et rechercher causes urologiques avant d'attribuer à la RT", "Arrêter tout suivi", "Mesurer seulement le PSA"], "answerIndex": 1, "explanation": "Une toxicité possible n'exclut pas une autre cause traitable ou grave."},
+      "flashcards": [{"front": "Urinaire", "back": "Décrire stockage, vidange, incontinence, sang, douleur et délai."}, {"front": "Hématurie", "back": "Explorer ; ne pas conclure radiation par défaut."}, {"front": "Réhabilitation", "back": "Pelvi-périnéale, médicaments ou geste selon mécanisme."}],
+      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "followup_04_bowel",
+      "nodeId": "bowel_toxicity",
+      "number": 4,
+      "title": "Toxicité digestive : quantifier, explorer, coordonner",
+      "durationMinutes": 16,
+      "objectives": ["Décrire fréquence, urgence, sang et douleur.", "Écarter causes concurrentes.", "Orienter selon gravité."],
+      "sections": [
+        {"title": "Au-delà du terme rectite", "body": "Fréquence, urgence, diarrhée, ténesme, douleur, mucus, saignement, incontinence et impact social sont quantifiés. Alimentation, médicaments, infection, MICI, hémorroïdes et autre pathologie digestive sont recherchés."},
+        {"title": "Le geste doit être prudent", "body": "Saignement persistant, anémie, douleur importante ou altération de l'état général justifient un avis spécialisé. Une endoscopie tient compte de l'irradiation antérieure ; les biopsies d'une muqueuse irradiée ne sont pas routinières sans indication car la cicatrisation peut être altérée."}
+      ],
+      "causalChain": ["Symptôme digestif", "Gravité et causes", "Avis spécialisé", "Traitement gradué"],
+      "commonTrap": "Réduire toute plainte à une rectite radique et multiplier les gestes invasifs sans indication.",
+      "checkpoint": {"prompt": "Que nécessite un saignement rectal persistant avec anémie ?", "options": ["Aucun bilan", "Évaluation digestive spécialisée et prudente, avec recherche de causes", "PSA seul", "Arrêt définitif de toute alimentation"], "answerIndex": 1, "explanation": "La gravité et les diagnostics concurrents imposent une évaluation structurée."},
+      "flashcards": [{"front": "Digestif", "back": "Quantifier fréquence, urgence, sang, douleur, continence et impact."}, {"front": "Causes", "back": "RT, médicaments, infection, MICI, hémorroïdes ou autre pathologie."}, {"front": "Endoscopie", "back": "Informer de l'irradiation ; biopsier seulement si indication."}],
+      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "followup_05_sexual",
+      "nodeId": "sexual_health",
+      "number": 5,
+      "title": "Santé sexuelle : ouvrir la conversation et proposer un parcours",
+      "durationMinutes": 17,
+      "objectives": ["Évaluer désir, érection et intimité.", "Intégrer partenaire et préférence.", "Escalader la réhabilitation."],
+      "sections": [
+        {"title": "Plus que l'érection", "body": "Désir, érection, orgasme, éjaculation, longueur perçue, douleur, continence pendant les rapports, image corporelle et relation sont abordés avec consentement. ADT, chirurgie, RT, âge, diabète, médicaments et état psychologique contribuent différemment."},
+        {"title": "Une stratégie progressive", "body": "Information réaliste, activité sexuelle choisie, inhibiteur de PDE5 si approprié, dispositif vacuum, injections, sexologie ou solution prothétique sont discutés selon sécurité, préférence et objectif. Le partenaire peut être associé si le patient le souhaite."}
+      ],
+      "causalChain": ["Fonction initiale", "Mécanismes et objectifs", "Option progressive", "Réévaluation du couple/patient"],
+      "commonTrap": "Attendre que le patient demande ou réduire la santé sexuelle à une prescription de PDE5.",
+      "checkpoint": {"prompt": "Quelle approche est correcte ?", "options": ["Ne rien demander", "Évaluer plusieurs dimensions et proposer des options progressives selon objectif et sécurité", "Promettre la récupération", "Traiter uniquement le partenaire"], "answerIndex": 1, "explanation": "La santé sexuelle est multidimensionnelle et mérite un parcours individualisé."},
+      "flashcards": [{"front": "Santé sexuelle", "back": "Désir, érection, orgasme, continence, image et relation."}, {"front": "Réhabilitation", "back": "Information, PDE5, vacuum, injections, sexologie ou prothèse selon contexte."}, {"front": "Partenaire", "back": "Associé avec consentement du patient, jamais présumé."}],
+      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "followup_06_bone",
+      "nodeId": "bone_health",
+      "number": 6,
+      "title": "Santé osseuse après cancer : mesurer le risque et le mouvement",
+      "durationMinutes": 17,
+      "objectives": ["Évaluer fracture et chute.", "Distinguer supplément et anti-résorptif.", "Prescrire exercice et suivi."],
+      "sections": [
+        {"title": "Risque cumulatif", "body": "Durée d'ADT, âge, fracture antérieure, chutes, corticoïdes, poids, tabac, alcool, vitamine D et densité osseuse construisent le risque. Une DXA initiale est recommandée lors d'une ADT prolongée ; sa répétition dépend du résultat et de la trajectoire."},
+        {"title": "Prévenir réellement", "body": "Exercice porteur et résistance, prévention des chutes, apport protéique et calcique adapté et correction d'une carence en vitamine D sont associés au traitement pharmacologique lorsqu'il est indiqué. Avant un anti-résorptif : dents, calcémie, rein et plan d'arrêt ou relais sont anticipés."}
+      ],
+      "causalChain": ["ADT et facteurs de fracture", "DXA/risque", "Exercice et nutrition", "Anti-résorptif si indiqué"],
+      "commonTrap": "Considérer calcium et vitamine D comme traitement suffisant d'une ostéoporose à haut risque.",
+      "checkpoint": {"prompt": "Que comprend un vrai plan osseux sous ADT longue ?", "options": ["Calcium seul", "Risque de fracture, DXA, exercice, chutes, nutrition et traitement si seuil atteint", "Aucune mesure sans métastase", "Radiographie annuelle systématique"], "answerIndex": 1, "explanation": "La prévention combine mesure du risque, mouvement, nutrition et médicament selon indication."},
+      "flashcards": [{"front": "DXA", "back": "Mesure densité ; à interpréter avec fractures, chutes et facteurs cliniques."}, {"front": "Exercice", "back": "Résistance + activité portante, adaptée au risque métastatique et de chute."}, {"front": "Anti-résorptif", "back": "Dents, calcium/vitamine D, rein et stratégie de relais à prévoir."}],
+      "sources": ["ccafu_recurrence_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "followup_07_metabolic_cv",
+      "nodeId": "metabolic_and_cardiovascular_risk",
+      "number": 7,
+      "title": "Risque métabolique et cardiovasculaire : suivre des variables actionnables",
+      "durationMinutes": 17,
+      "objectives": ["Construire le bilan initial.", "Coordonner le risque cardiovasculaire.", "Réévaluer selon le traitement."],
+      "sections": [
+        {"title": "Une toxicité prévisible", "body": "ADT et certains ARPI favorisent changement de composition corporelle, insulinorésistance, diabète, dyslipidémie, hypertension et déconditionnement. Poids, pression, tabac, activité, glycémie/HbA1c, lipides et antécédents cardiovasculaires sont suivis."},
+        {"title": "Traiter le risque, pas seulement le mesurer", "body": "Exercice aérobie et résistance, alimentation, sevrage tabagique et traitements validés de l'hypertension, du diabète et des lipides sont coordonnés avec médecine générale ou cardio-oncologie. Dyspnée, douleur thoracique, syncope ou œdème nouveau imposent une évaluation rapide."}
+      ],
+      "causalChain": ["Risque initial", "Traitement exposant", "Mesures répétées", "Intervention et coordination"],
+      "commonTrap": "Noter les anomalies sans confier clairement leur traitement ni vérifier les interactions.",
+      "checkpoint": {"prompt": "Quel suivi minimal sous ADT prolongée ?", "options": ["PSA seul", "Symptômes, tension, poids, glycémie/HbA1c, lipides et facteurs cardiovasculaires", "ECG quotidien", "Aucun si asymptomatique"], "answerIndex": 1, "explanation": "Le risque cardiométabolique est mesurable et modifiable."},
+      "flashcards": [{"front": "ADT métabolique", "back": "Graisse ↑, muscle ↓, insulinorésistance, lipides et tension."}, {"front": "Coordination", "back": "Médecin traitant/cardiologie avec responsabilité et objectifs explicites."}, {"front": "Alerte CV", "back": "Douleur thoracique, dyspnée, syncope ou œdème nouveau : évaluer rapidement."}],
+      "sources": ["ccafu_recurrence_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "followup_08_psychosocial",
+      "nodeId": "psychosocial_survivorship",
+      "number": 8,
+      "title": "Après-cancer : projet de vie, anxiété et continuité des soins",
+      "durationMinutes": 18,
+      "objectives": ["Dépister détresse et dépression.", "Construire un plan partagé.", "Prévenir la rupture de suivi."],
+      "sections": [
+        {"title": "Le suivi est aussi psychologique", "body": "Peur de récidive, détresse liée au PSA, dépression, fatigue, isolement, difficultés conjugales, professionnelles ou financières sont recherchés avec des questions simples ou des outils validés. Idées suicidaires, perte d'autonomie ou violence nécessitent une réponse urgente adaptée."},
+        {"title": "Un PPAC partagé et révisable", "body": "À la fin des traitements actifs, le programme personnalisé de l'après-cancer formalise objectifs du suivi, calendrier, responsables, symptômes d'alerte, traitements et effets attendus, prévention, réhabilitation, accompagnement socioprofessionnel, soins de support et relais de proximité. Il est remis au patient, partagé avec le médecin traitant et révisé lorsque les besoins ou la trajectoire changent."},
+        {"title": "Décision partagée longitudinale", "body": "Les priorités changent avec l'âge, la récupération, la récidive ou le projet de vie. Chaque visite réévalue ce qui compte pour le patient, pas seulement ce qui est facile à mesurer."}
+      ],
+      "causalChain": ["Besoins et détresse", "Responsabilités partagées", "Plan après-cancer", "Réévaluation du projet"],
+      "commonTrap": "Conclure à un bon suivi parce que le PSA est rassurant alors que fonction, détresse ou coordination se dégradent.",
+      "checkpoint": {"prompt": "Que doit contenir un plan après-cancer ?", "options": ["Le PSA seul", "Calendrier, responsables, alertes, toxicités, prévention, réhabilitation et ressources", "Uniquement le compte rendu opératoire", "Aucune coordination"], "answerIndex": 1, "explanation": "Le suivi oncologique, fonctionnel et psychosocial doit être compréhensible et attribué."},
+      "flashcards": [{"front": "Peur de récidive", "back": "Fréquente ; expliquer le PSA et proposer soutien si envahissante."}, {"front": "Plan après-cancer", "back": "Calendrier, responsables, alertes, prévention, fonction et ressources."}, {"front": "Réussite", "back": "Contrôle oncologique + qualité de vie + continuité, pas PSA seul."}],
+      "sources": ["ccafu_localised_2024_2026", "ccafu_recurrence_2024_2026", "eau_prostate_2026", "inca_organisation_soins_ppac_2017"]
+    }
+  ],
+  "caseStudy": {
+    "id": "prostate_case_014_survivorship_visit",
+    "title": "Consultation d'après-cancer : un PSA rassurant ne suffit pas",
+    "status": "needs_review",
+    "dataClassification": "synthetic",
+    "vignette": "Un homme de 66 ans est vu deux ans après radio-hormonothérapie. Le PSA reste bas et stable ; la testostérone n'a pas été contrôlée depuis l'arrêt de l'ADT. Il décrit urgenturie, quelques saignements rectaux, baisse du désir, fatigue, prise de poids, une chute et une peur intense avant chaque dosage. Aucun médecin n'est clairement responsable de sa tension et de son diabète.",
+    "decisionPoints": ["Interpréter PSA selon RT et récupération hormonale.", "Doser la testostérone si utile.", "Caractériser toxicités urinaire et digestive et rechercher alertes.", "Aborder santé sexuelle.", "Évaluer chute, os, muscle et activité.", "Reprendre tension, poids, glycémie et lipides.", "Dépister détresse et peur de récidive.", "Produire un plan avec responsabilités et calendrier."],
+    "expectedReasoning": ["Le contrôle tumoral apparent n'efface pas les séquelles.", "La testostérone aide à comprendre fatigue, sexualité et PSA.", "Le saignement rectal persistant mérite une évaluation ciblée.", "La chute et l'ADT imposent un plan osseux et fonctionnel.", "La coordination cardiométabolique et psychologique fait partie du suivi."],
+    "criticalErrors": ["Rassurer uniquement sur le PSA.", "Attribuer automatiquement le sang à la RT.", "Omettre sexualité ou détresse.", "Prescrire calcium seul malgré chute sans évaluation.", "Laisser le risque cardiovasculaire sans responsable.", "Marquer validated sans reviewer."],
+    "checkpoint": {"prompt": "Quelle consultation est la plus complète ?", "options": ["PSA puis sortie", "Interprétation oncologique, toxicités, testostérone, os/muscle, cardiométabolique, sexualité, détresse et plan coordonné", "Imagerie systématique seule", "Arrêt de tout suivi"], "answerIndex": 1, "explanation": "Le survivorship associe surveillance, réhabilitation, prévention et projet de vie."},
+    "sources": ["ccafu_localised_2024_2026", "ccafu_recurrence_2024_2026", "eau_prostate_2026", "inca_organisation_soins_ppac_2017"]
+  }
+}

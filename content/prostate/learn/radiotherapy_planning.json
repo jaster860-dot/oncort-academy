@@ -1,0 +1,162 @@
+{
+  "id": "prostate_radiotherapy_planning",
+  "blockId": "radiotherapy_planning",
+  "title": "Prostate — simuler, contourer, planifier et guider",
+  "version": "0.1.0",
+  "status": "needs_review",
+  "lastUpdated": "2026-08-01",
+  "estimatedMinutes": 116,
+  "learningPromise": "À la fin de ce bloc, l'apprenant peut auditer la chaîne allant de la simulation à l'IGRT, relier chaque contrainte à la bonne définition d'organe et au bon fractionnement, puis identifier une géométrie ou un plan qui ne doit pas être traité en l'état.",
+  "evidenceScope": {
+    "provenanceNote": "Synthèse éducative France-first à partir du texte intégral privé RecoRad 2025, triangulée avec ESTRO-ACROP et EAU 2026. Les valeurs sont des repères d'audit liés à un protocole précis, jamais des prescriptions autonomes. Tout reste needs_review.",
+    "anchors": [
+      {"sourceId": "sfro_recorad_prostate_2025", "locator": "PDF privé vérifié, pages 5–10 : simulation, volumes, marges, OAR, objectifs dosimétriques et IGRT"},
+      {"sourceId": "estro_acrop_primary_contouring_2018", "locator": "Consensus ESTRO-ACROP CT/IRM pour le contourage primaire ; métadonnées et résumé PubMed vérifiés"},
+      {"sourceId": "estro_acrop_igrt_2019", "locator": "Consensus ESTRO-ACROP sur l'IGRT prostatique localisée ; DOI 10.1016/j.radonc.2019.08.027 et PMID 31668515 vérifiés"},
+      {"sourceId": "eau_prostate_2026", "locator": "Treatment 6.2.3.a.1 : IMRT/VMAT avec IGRT, planification inverse, contraintes préspécifiées et assurance qualité formelle"}
+    ]
+  },
+  "lessons": [
+    {
+      "id": "planning_01_simulation",
+      "number": 1,
+      "title": "Simulation : fabriquer une anatomie reproductible",
+      "durationMinutes": 18,
+      "objectives": ["Construire une préparation reproductible.", "Reconnaître une géométrie qui impose correction ou nouvelle acquisition.", "Relier scanner, IRM et repères de positionnement."],
+      "sections": [
+        {"title": "Une position simple mais répétable", "body": "RecoRad décrit une installation en décubitus dorsal, bras sur le thorax, avec immobilisation adaptée. La qualité ne vient pas d'un accessoire particulier mais de la capacité à reproduire la position, le confort, la vessie et le rectum pendant toute la série."},
+        {"title": "Vessie confortable et rectum maîtrisé", "body": "La simulation et les séances utilisent une vessie pleine ou non vide mais confortable et un rectum aussi peu distendu que possible. Une distension rectale importante, environ 5 cm antéropostérieurs dans RecoRad, doit conduire à corriger gaz ou selles et à envisager une nouvelle acquisition plutôt qu'à compter sur l'IGRT pour tout compenser."},
+        {"title": "Acquisitions concordantes", "body": "Le scanner doit couvrir tous les volumes prévus avec des coupes fines ; l'IRM améliore l'apex, la base, les vésicules et une éventuelle lésion dominante. Si des fiduciels servent au recalage, leur visibilité et la chronologie scanner–IRM doivent permettre une fusion rigide fiable. Toute discordance géométrique doit être expliquée avant le contourage."}
+      ],
+      "causalChain": ["Préparation", "Géométrie reproductible", "Imagerie concordante", "Contourage fiable"],
+      "commonTrap": "Accepter un rectum très distendu au scanner en supposant que le CBCT quotidien annulera toutes les déformations.",
+      "checkpoint": {"prompt": "Que faire devant une distension rectale majeure au scanner de simulation ?", "options": ["Poursuivre sans commentaire", "Corriger la préparation puis réévaluer et répéter l'acquisition si la géométrie reste non représentative", "Réduire arbitrairement toutes les marges", "Supprimer l'IGRT"], "answerIndex": 1, "explanation": "L'IGRT corrige surtout le positionnement ; elle ne garantit pas la correction d'une déformation anatomique majeure."},
+      "flashcards": [
+        {"front": "But de la préparation", "back": "Obtenir une anatomie confortable, répétable et compatible avec les contraintes du plan."},
+        {"front": "Rectum très distendu", "back": "Corriger gaz ou selles et réévaluer l'acquisition ; ne pas déléguer la déformation à l'IGRT."},
+        {"front": "Fusion IRM–scanner", "back": "Doit être géométriquement vérifiée, surtout à l'apex, à la base et autour des fiduciels."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "estro_acrop_primary_contouring_2018"]
+    },
+    {
+      "id": "planning_02_targets",
+      "nodeId": "target_volume_delineation",
+      "number": 2,
+      "title": "Volumes cibles : du risque à une anatomie explicite",
+      "durationMinutes": 20,
+      "objectives": ["Délimiter prostate, extensions et vésicules selon l'indication fournie.", "Séparer CTV et PTV.", "Justifier toute marge par la technique et les incertitudes."],
+      "sections": [
+        {"title": "CTV prostatique", "body": "Le CTV inclut la totalité de la prostate et les extensions périprostatiques identifiées au toucher rectal ou à l'IRM. L'apex est un point de vigilance : les plans frontal et sagittal, l'IRM et la topographie des biopsies apicales aident à éviter une sous-délinéation."},
+        {"title": "Vésicules et pelvis", "body": "Les vésicules sont incluses en partie ou en totalité selon le risque et l'extension ; T3b impose leur traitement complet. Si le pelvis a déjà été indiqué en RCP, son contourage suit un atlas identifié et comprend les axes iliaques et obturateurs ainsi que le présacré selon le référentiel retenu."},
+        {"title": "PTV : une marge n'est pas un nombre magique", "body": "RecoRad relie les marges à l'IGRT, au mouvement intrafraction et à l'incertitude de contourage : en traitement conventionnel guidé quotidiennement, les réductions ne doivent pas devenir automatiques ; en SBRT, des marges de 3 à 5 mm dépendent de la technique. Le pelvis et la prostate bougent différemment et ne partagent pas forcément la même marge."}
+      ],
+      "causalChain": ["Indication et extension", "CTV anatomique", "Incertitudes", "PTV justifié"],
+      "commonTrap": "Copier une marge issue d'un protocole SBRT ou IRM-guidé vers un traitement pelvien standard sans démontrer que le système d'IGRT maîtrise les mêmes incertitudes.",
+      "checkpoint": {"prompt": "Sur quoi doit reposer le choix d'une marge PTV ?", "options": ["Une habitude non documentée", "Les incertitudes de contourage, repositionnement et mouvement propres au volume, au fractionnement et au système d'IGRT", "Le PSA seul", "La marque de l'accélérateur uniquement"], "answerIndex": 1, "explanation": "La marge compense un budget d'incertitudes ; elle doit être cohérente avec le workflow réel."},
+      "flashcards": [
+        {"front": "CTV prostate", "back": "Toute la glande et les extensions périprostatiques cliniques ou IRM pertinentes."},
+        {"front": "T3b", "back": "Inclure les vésicules séminales dans leur totalité."},
+        {"front": "PTV", "back": "Expansion justifiée du CTV pour les incertitudes résiduelles ; elle dépend de la technique et du volume."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "estro_acrop_primary_contouring_2018"]
+    },
+    {
+      "id": "planning_03_oar",
+      "nodeId": "oar_and_plan_evaluation",
+      "number": 3,
+      "title": "OAR : définir avant de mesurer",
+      "durationMinutes": 18,
+      "objectives": ["Identifier les OAR adaptés aux volumes traités.", "Faire correspondre définition et contrainte.", "Repérer les structures urinaires utiles dans un contexte à risque."],
+      "sections": [
+        {"title": "Le socle d'organes", "body": "L'audit vérifie rectum et canal anal, vessie, têtes fémorales et bulbe pénien ; l'urètre devient particulièrement important en SBRT ou guidage IRM. Une irradiation pelvienne ajoute le bowel bag ou les anses et les structures nécessaires au protocole."},
+        {"title": "Paroi ou organe entier", "body": "RecoRad souligne que le Gétug peut définir la paroi rectale ou vésicale tandis que d'autres référentiels utilisent l'organe in toto. Une contrainte n'est interprétable que si la structure mesurée correspond exactement à sa définition source ; changer de contour sans changer de seuil invalide l'audit."},
+        {"title": "Contexte urinaire", "body": "Col vésical, trigone, urètre, sphincter strié et cavité après résection transurétrale peuvent être individualisés selon la technique et les antécédents. Ces contours n'autorisent pas à inventer une contrainte : ils servent à comprendre et, si un protocole le prévoit, limiter la dose dans une zone fonctionnelle à risque."}
+      ],
+      "causalChain": ["OAR requis", "Définition source", "DVH correspondant", "Interprétation valide"],
+      "commonTrap": "Appliquer une contrainte construite pour le rectum in toto à une paroi rectale de 5 mm sans signaler la différence.",
+      "checkpoint": {"prompt": "Pourquoi la définition exacte d'un OAR doit-elle précéder la lecture du DVH ?", "options": ["Parce que toutes les définitions donnent le même volume", "Parce qu'une contrainte n'est valide que pour la structure et le fractionnement dont elle provient", "Pour éviter de contourer la prostate", "Parce que le DVH remplace l'examen visuel"], "answerIndex": 1, "explanation": "Le même seuil appliqué à des volumes différents ne représente pas le même risque."},
+      "flashcards": [
+        {"front": "Rectum wall vs in toto", "back": "Deux définitions différentes ; les contraintes ne sont pas interchangeables."},
+        {"front": "Bowel bag", "back": "Structure à considérer lorsque le pelvis est irradié."},
+        {"front": "Urètre", "back": "OAR particulièrement pertinent en SBRT, guidage IRM et contexte urinaire à risque."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "eau_prostate_2026"]
+    },
+    {
+      "id": "planning_04_dvh",
+      "number": 4,
+      "title": "DVH et distribution : relier chaque seuil à son protocole",
+      "durationMinutes": 22,
+      "objectives": ["Auditer couverture, homogénéité et OAR.", "Utiliser des repères RecoRad sans mélanger les fractionnements.", "Compléter le DVH par une inspection spatiale."],
+      "sections": [
+        {"title": "Couverture et points chauds", "body": "En fractionnement standard, RecoRad attend notamment un V95 du PTV supérieur à 95 % et une dose minimale supérieure à 90 %, avec contrôle des excès de dose. Pour 60 Gy en 20 fractions, la page 8 décrit 99 % du PTV couvert par 57 Gy, 99 % du CTV par 60 Gy et une dose maximale dans 1 cm³ du PTV ne dépassant pas 63 Gy."},
+        {"title": "Repères OAR spécifiques", "body": "Pour 60 Gy en 20 fractions, le tableau 5 donne au rectum V46 < 30 % et V37 < 50 %, et à la vessie V60 < 5 %, V48 < 25 % et V41 ≤ 50 %. Pour 36,25 Gy en cinq fractions, le tableau 6 utilise d'autres structures et seuils, dont rectum D1 cm³ < 36 Gy, vessie V37 < 10 cm³ et urètre V42 < 50 %. Ces jeux ne doivent jamais être mélangés."},
+        {"title": "Voir le plan, pas seulement le tableau", "body": "Le DVH ne montre pas où se trouvent un sous-dosage ou un point chaud. L'audit inspecte les coupes axiale, sagittale et frontale, l'apex, les interfaces rectum–prostate et vessie–prostate, les jonctions de volumes et la localisation des maxima. Toute dérogation doit être nommée, justifiée et approuvée avant traitement."}
+      ],
+      "causalChain": ["Protocole", "Structures concordantes", "DVH", "Inspection spatiale et décision"],
+      "commonTrap": "Assembler les contraintes les plus commodes de plusieurs protocoles ou valider un plan parce que le DVH global paraît acceptable malgré un défaut spatial critique.",
+      "checkpoint": {"prompt": "Un plan à 60 Gy en 20 fractions présente PTV V57 = 98 %, CTV V60 = 99 % et D1 cm³ PTV = 64 Gy. Selon les repères RecoRad cités, que conclure ?", "options": ["Le plan passe entièrement", "La couverture PTV et le maximum dépassent les limites d'audit et doivent être repris ou explicitement arbitrés", "Seule la couleur de l'isodose compte", "Appliquer les contraintes SBRT à la place"], "answerIndex": 1, "explanation": "Les repères cités sont PTV V57 à 99 % et D1 cm³ au plus 63 Gy ; les écarts ne doivent pas être masqués."},
+      "flashcards": [
+        {"front": "60 Gy/20 — couverture", "back": "Repère RecoRad : PTV V57 à 99 %, CTV V60 à 99 %, D1 cm³ PTV ≤63 Gy."},
+        {"front": "60 Gy/20 — rectum", "back": "Repères RecoRad : V46 <30 % et V37 <50 %."},
+        {"front": "DVH", "back": "Résumé volumétrique indispensable mais aveugle à la localisation ; toujours inspecter les isodoses."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "eau_prostate_2026"]
+    },
+    {
+      "id": "planning_05_igrt",
+      "nodeId": "igrt_and_motion_management",
+      "number": 5,
+      "title": "IGRT : corriger la bonne cible au bon moment",
+      "durationMinutes": 20,
+      "objectives": ["Comparer fiduciels et CBCT.", "Distinguer mouvement prostatique et position ganglionnaire.", "Prévoir une règle d'action et le mouvement intrafraction."],
+      "sections": [
+        {"title": "Imagerie prostatique quotidienne", "body": "RecoRad recommande une imagerie prostatique quotidienne. Des fiduciels vus sur images kV offrent un recalage rapide et précis mais sont invasifs ; le CBCT visualise prostate, rectum, vessie, os et volumes pelviens, au prix d'une interprétation plus exigeante et d'une dose d'imagerie à intégrer."},
+        {"title": "Prostate et pelvis ne bougent pas ensemble", "body": "Avec des ganglions traités simultanément, un recalage osseux protège la géométrie pelvienne mais peut laisser la prostate décalée ; un recalage purement prostatique peut compromettre les ganglions. Le workflow doit donc définir l'ordre des recalages, les tolérances et la conduite à tenir si les corrections divergent."},
+        {"title": "Intrafraction et adaptation", "body": "Le mouvement continue après l'image, surtout pendant une séance longue ou stéréotaxique. Le protocole précise fréquence de surveillance, seuil de reprise d'image, interruption ou repositionnement. Le guidage IRM adaptatif peut réduire les marges dans un workflow validé, mais l'EAU 2026 considère encore l'adaptation IRM non routinière."}
+      ],
+      "causalChain": ["Image", "Recalage de la cible pertinente", "Contrôle intrafraction", "Action documentée"],
+      "commonTrap": "Utiliser un recalage fiduciel prostatique unique pour un plan pelvis–prostate sans vérifier la couverture ganglionnaire après une correction importante.",
+      "checkpoint": {"prompt": "Que doit prévoir l'IGRT d'un traitement simultané prostate–pelvis ?", "options": ["Un seul recalage non documenté", "Une stratégie séparant géométrie osseuse pelvienne et position prostatique, avec tolérances et conduite à tenir", "Aucune image quotidienne", "Une réduction automatique des marges à 2 mm"], "answerIndex": 1, "explanation": "Les deux cibles ont des mouvements différents ; le protocole doit gérer leur discordance."},
+      "flashcards": [
+        {"front": "Fiduciels", "back": "Recalage prostatique rapide et précis, mais geste invasif et information limitée sur l'anatomie globale."},
+        {"front": "CBCT", "back": "Visualise cibles et OAR pelviens ; nécessite une équipe entraînée et une règle de recalage."},
+        {"front": "Intrafraction", "back": "Mouvement après le recalage initial ; critique pour les séances longues et la SBRT."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "estro_acrop_igrt_2019", "eau_prostate_2026"]
+    },
+    {
+      "id": "planning_06_audit",
+      "number": 6,
+      "title": "Audit de prétraitement : rendre chaque décision traçable",
+      "durationMinutes": 18,
+      "objectives": ["Auditer la cohérence de bout en bout.", "Hiérarchiser les écarts bloquants.", "Tracer dérogations et responsabilités."],
+      "sections": [
+        {"title": "Cohérence clinique et technique", "body": "L'audit relit intention, risque, prescription, ADT, volumes, fractionnement, préparation, imagerie, contours, contraintes, technique et IGRT comme une seule chaîne. Un plan dosimétriquement élégant peut être faux si le volume ou le protocole source ne correspond pas à l'indication."},
+        {"title": "Gates avant la première fraction", "body": "Les contrôles vérifient identité et latéralité si pertinente, version de prescription, transfert des images, fusion, CTV/PTV, OAR, calcul de dose, couverture, points chauds, contraintes, contrôle physique, plan d'imagerie et tolérances. Les écarts bloquants sont corrigés avant approbation ; ils ne sont pas reportés oralement à la machine."},
+        {"title": "Déviation et changement anatomique", "body": "Une dérogation doit préciser valeur, cause, conséquence attendue, alternatives et approbateur. Pendant le traitement, une anatomie systématiquement non reproductible, une perte pondérale, une modification urinaire ou rectale ou des corrections répétées doivent déclencher une réévaluation et, si nécessaire, une nouvelle simulation ou adaptation selon le protocole local."}
+      ],
+      "causalChain": ["Prescription", "Plan et QA", "IGRT", "Autorisation ou reprise"],
+      "commonTrap": "Transformer une dérogation bloquante en simple commentaire non signé parce que la première séance est déjà programmée.",
+      "checkpoint": {"prompt": "Quel est le rôle principal de l'audit de prétraitement ?", "options": ["Vérifier seulement le nom du fichier", "Démontrer la cohérence et la traçabilité de la chaîne clinique, dosimétrique et IGRT avant autorisation", "Remplacer la revue médicale", "Valider automatiquement toute dérogation"], "answerIndex": 1, "explanation": "L'audit est un gate de sécurité multidisciplinaire, pas une formalité documentaire."},
+      "flashcards": [
+        {"front": "Gate prétraitement", "back": "Autoriser seulement quand prescription, volumes, plan, QA et IGRT sont cohérents et approuvés."},
+        {"front": "Dérogation", "back": "Valeur, cause, impact, alternatives et approbateur doivent être tracés."},
+        {"front": "Anatomie non reproductible", "back": "Déclenche réévaluation ; une nouvelle simulation ou adaptation peut être nécessaire."}
+      ],
+      "sources": ["sfro_recorad_prostate_2025", "estro_acrop_igrt_2019", "eau_prostate_2026"]
+    }
+  ],
+  "caseStudy": {
+    "id": "prostate_case_006_rt_plan_audit",
+    "title": "Audit avant première fraction : plusieurs petits écarts, un plan non autorisable",
+    "status": "needs_review",
+    "dataClassification": "synthetic",
+    "vignette": "La RCP a déjà retenu pour un haut risque cN0 une radio-hormonothérapie avec 60 Gy en 20 fractions sur prostate et base des vésicules, plus 44 Gy au pelvis selon le protocole local. Au scanner, le rectum mesure 6,2 cm en antéropostérieur. Le PTV prostate utilise 3 mm uniformes avec CBCT quotidien, sans justification locale ni surveillance intrafraction. Le rectum est contouré en paroi de 5 mm mais comparé à des contraintes in toto. Le plan rapporte PTV V57 = 98 %, CTV V60 = 99 %, D1 cm³ PTV = 64 Gy, rectum V46 = 28 %, vessie V60 = 7 %. L'IGRT prévoit uniquement un recalage sur les fiduciels prostatiques, même si le déplacement dépasse 10 mm, sans contrôle de la couverture pelvienne.",
+    "decisionPoints": ["Refuser l'autorisation en l'état.", "Corriger ou répéter la simulation si la géométrie rectale n'est pas reproductible.", "Faire correspondre définition du rectum et jeu de contraintes.", "Reprendre couverture, maximum et contrainte vésicale du plan 60 Gy/20.", "Justifier les marges et formaliser un workflow de double cible prostate–pelvis.", "Tracer les corrections et refaire les contrôles avant approbation."],
+    "expectedReasoning": ["Le rectum très distendu fragilise la représentativité du scanner et ne peut pas être compensé par une simple translation quotidienne.", "Une paroi rectale ne doit pas être auditée avec des seuils établis pour le rectum in toto.", "Les repères RecoRad cités ne sont pas atteints pour PTV V57 et D1 cm³ ; la vessie V60 dépasse 5 %.", "Une marge uniforme de 3 mm n'est pas justifiée par un CBCT quotidien seul dans ce workflow pelvis–prostate.", "Le recalage fiduciel prostatique peut dégrader la géométrie pelvienne ; une règle de double recalage et d'action est nécessaire.", "Après reprise, une nouvelle validation médicale et physique est requise avant la première fraction."],
+    "criticalErrors": ["Traiter parce que la plupart des indicateurs passent.", "Mélanger contraintes de paroi et d'organe entier.", "Ignorer la distension rectale majeure.", "Accepter la marge de 3 mm sans budget d'incertitude validé.", "Recaler uniquement la prostate sans évaluer le pelvis.", "Masquer les dépassements dans une note non approuvée."],
+    "checkpoint": {"prompt": "Quelle décision d'audit est la plus sûre ?", "options": ["Autoriser la première fraction et corriger plus tard", "Suspendre l'autorisation, corriger géométrie, définitions, DVH, marges et stratégie IGRT, puis refaire les validations", "Supprimer le pelvis sans RCP", "Remplacer toutes les contraintes par celles de la SBRT"], "answerIndex": 1, "explanation": "Plusieurs écarts cohérents entre eux rendent la chaîne non démontrée ; ils doivent être corrigés et revalidés avant traitement."},
+    "sources": ["sfro_recorad_prostate_2025", "estro_acrop_primary_contouring_2018", "estro_acrop_igrt_2019", "eau_prostate_2026"]
+  }
+}

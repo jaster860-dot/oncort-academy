@@ -1,0 +1,223 @@
+{
+  "introduction": {
+    "purpose": "Established background, significance, and unresolved gap.",
+    "reference_ids": [
+      "ref-001",
+      "ref-002",
+      "ref-003",
+      "ref-004",
+      "ref-005",
+      "ref-006",
+      "ref-007",
+      "ref-008",
+      "ref-009",
+      "ref-010",
+      "ref-011",
+      "ref-012",
+      "ref-013",
+      "ref-014",
+      "ref-015",
+      "ref-016",
+      "ref-017",
+      "ref-018",
+      "ref-019"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology - PubMed Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology Daniel E Spratt et al."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "Re: EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer - PubMed Affiliations 1 Department of Urology, Vivantes Klinikum am Urban, Berlin, Germany; Knowuro GmbH, Berlin, Germany."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "Prostate cancer is \"found\" through a multistep risk-based EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate ..."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer."
+      },
+      {
+        "reference_id": "ref-006",
+        "finding": "Prostate cancer treatment recommendation study based on machine learning and SHAP interpreter - Tang - 2024 - Cancer Science - Wiley Online Library Cornford P , van den Bergh RCN , Briers E , et al."
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "Prostate cancer in a nutshell - Kirby - 2024 Prostate cancer in a nutshell - Kirby - 2024 by M Kirby · 2024 · Cited by 2 — EAU-EANM-ESTRO-ESUR-ISUP-SIOG guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "PSMA PET/CT findings in high‐risk biochemical recurrence after local treatment of prostate cancer - PMC guidelines on prostate Cancer‐2024 update."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "Metastatic Castration-Resistant Prostate Cancer: Insights on Current Therapy and Promising Experimental Drugs - PMC doi: 10.1002/cncr.23195 [ DOI ] [ PubMed ] [ Google Scholar ] Schaeffer EM, Srinivas S, Adra N, et al."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "EAU guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "EAU guidelines on prostate cancer - PubMed Checking your browser before accessing pubmed.ncbi.nlm.nih.gov ..."
+      },
+      {
+        "reference_id": "ref-012",
+        "finding": "In addition, tumor cells eventually adapt to grow despite low androgen levels, rendering ARPIs ineffective [ 9 ]."
+      },
+      {
+        "reference_id": "ref-013",
+        "finding": "Intensification Approaches and Treatment Sequencing in Metastatic Castration-resistant Prostate Cancer: A Systematic Review - ScienceDirect Show 3 more articles Elsevier logo with wordmark Recently, research on treatment intensification has gathered momentum, and three novel therapy combinations were approved for metastatic castration-resistant prostate cancer (mCRPC)."
+      },
+      {
+        "reference_id": "ref-014",
+        "finding": "EAU Guidelines on Prostate Cancer - ScienceDirect.com It is not possible to state that one therapy is clearly superior over another, as randomized controlled trials are lacking in this field."
+      },
+      {
+        "reference_id": "ref-015",
+        "finding": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer ..."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "Real-world utilization patterns and survival in men with metastatic prostate cancer treated with Radium-223 in the United States | Prostate Cancer and Prostatic Diseases www.accessdata.fda.gov/drugsatfda_docs/label/2024/210951s016lbl.pdf . (Accessed April 2025).\") , [11](#ref-CR11 \"Erleada Summary of Product Characteristics."
+      },
+      {
+        "reference_id": "ref-017",
+        "finding": "External beam radiotherapy for prostatic cancers: 2025 update - ScienceDirect castration-sensitive prostate cancer (PEACE-1): a multicentre, open-label, randomised, phase 3 study with a 2 × 2 factorial design Lancet (2022) A."
+      },
+      {
+        "reference_id": "ref-018",
+        "finding": "Clinical decision making in prostate cancer care—evaluation of EAU-guidelines use and novel decision support software | Scientific Reports Skip to main content Thank you for visiting nature.com."
+      },
+      {
+        "reference_id": "ref-019",
+        "finding": "Hormonal Agents in Localized and Advanced Prostate Cancer: Current Use and Future Perspectives - ScienceDirect Engl J Med (2019) K Fizazi et al."
+      }
+    ]
+  },
+  "methods-rationale": {
+    "purpose": "Published precedent for measures, protocols, models, and analyses.",
+    "reference_ids": [
+      "ref-013",
+      "ref-016"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-013",
+        "finding": "Intensification Approaches and Treatment Sequencing in Metastatic Castration-resistant Prostate Cancer: A Systematic Review - ScienceDirect Show 3 more articles Elsevier logo with wordmark Recently, research on treatment intensification has gathered momentum, and three novel therapy combinations were approved for metastatic castration-resistant prostate cancer (mCRPC)."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "Real-world utilization patterns and survival in men with metastatic prostate cancer treated with Radium-223 in the United States | Prostate Cancer and Prostatic Diseases www.accessdata.fda.gov/drugsatfda_docs/label/2024/210951s016lbl.pdf . (Accessed April 2025).\") , [11](#ref-CR11 \"Erleada Summary of Product Characteristics."
+      }
+    ]
+  },
+  "discussion": {
+    "purpose": "Supporting and conflicting studies, mechanisms, limits, and implications.",
+    "reference_ids": [
+      "ref-001",
+      "ref-002",
+      "ref-003",
+      "ref-004",
+      "ref-005",
+      "ref-006",
+      "ref-007",
+      "ref-008",
+      "ref-009",
+      "ref-010",
+      "ref-011",
+      "ref-012",
+      "ref-013",
+      "ref-014",
+      "ref-015",
+      "ref-016",
+      "ref-017",
+      "ref-018",
+      "ref-019"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology - PubMed Prostate Cancer, Version 3.2026, NCCN Clinical Practice Guidelines In Oncology Daniel E Spratt et al."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "Re: EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer - PubMed Affiliations 1 Department of Urology, Vivantes Klinikum am Urban, Berlin, Germany; Knowuro GmbH, Berlin, Germany."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 - PubMed NCCN Guidelines® Insights: Prostate Cancer, Version 3.2024 Edward M Schaeffer et al."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "Prostate cancer is \"found\" through a multistep risk-based EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate ..."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer."
+      },
+      {
+        "reference_id": "ref-006",
+        "finding": "Prostate cancer treatment recommendation study based on machine learning and SHAP interpreter - Tang - 2024 - Cancer Science - Wiley Online Library Cornford P , van den Bergh RCN , Briers E , et al."
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "Prostate cancer in a nutshell - Kirby - 2024 Prostate cancer in a nutshell - Kirby - 2024 by M Kirby · 2024 · Cited by 2 — EAU-EANM-ESTRO-ESUR-ISUP-SIOG guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "PSMA PET/CT findings in high‐risk biochemical recurrence after local treatment of prostate cancer - PMC guidelines on prostate Cancer‐2024 update."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "Metastatic Castration-Resistant Prostate Cancer: Insights on Current Therapy and Promising Experimental Drugs - PMC doi: 10.1002/cncr.23195 [ DOI ] [ PubMed ] [ Google Scholar ] Schaeffer EM, Srinivas S, Adra N, et al."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "EAU guidelines on prostate cancer."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "EAU guidelines on prostate cancer - PubMed Checking your browser before accessing pubmed.ncbi.nlm.nih.gov ..."
+      },
+      {
+        "reference_id": "ref-012",
+        "finding": "In addition, tumor cells eventually adapt to grow despite low androgen levels, rendering ARPIs ineffective [ 9 ]."
+      },
+      {
+        "reference_id": "ref-013",
+        "finding": "Intensification Approaches and Treatment Sequencing in Metastatic Castration-resistant Prostate Cancer: A Systematic Review - ScienceDirect Show 3 more articles Elsevier logo with wordmark Recently, research on treatment intensification has gathered momentum, and three novel therapy combinations were approved for metastatic castration-resistant prostate cancer (mCRPC)."
+      },
+      {
+        "reference_id": "ref-014",
+        "finding": "EAU Guidelines on Prostate Cancer - ScienceDirect.com It is not possible to state that one therapy is clearly superior over another, as randomized controlled trials are lacking in this field."
+      },
+      {
+        "reference_id": "ref-015",
+        "finding": "EAU-EANM-ESTRO-ESUR-ISUP-SIOG Guidelines on Prostate Cancer ..."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "Real-world utilization patterns and survival in men with metastatic prostate cancer treated with Radium-223 in the United States | Prostate Cancer and Prostatic Diseases www.accessdata.fda.gov/drugsatfda_docs/label/2024/210951s016lbl.pdf . (Accessed April 2025).\") , [11](#ref-CR11 \"Erleada Summary of Product Characteristics."
+      },
+      {
+        "reference_id": "ref-017",
+        "finding": "External beam radiotherapy for prostatic cancers: 2025 update - ScienceDirect castration-sensitive prostate cancer (PEACE-1): a multicentre, open-label, randomised, phase 3 study with a 2 × 2 factorial design Lancet (2022) A."
+      },
+      {
+        "reference_id": "ref-018",
+        "finding": "Clinical decision making in prostate cancer care—evaluation of EAU-guidelines use and novel decision support software | Scientific Reports Skip to main content Thank you for visiting nature.com."
+      },
+      {
+        "reference_id": "ref-019",
+        "finding": "Hormonal Agents in Localized and Advanced Prostate Cancer: Current Use and Future Perspectives - ScienceDirect Engl J Med (2019) K Fizazi et al."
+      }
+    ]
+  }
+}

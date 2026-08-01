@@ -1,0 +1,79 @@
+{
+  "id": "prostate_prerequisite_graph",
+  "version": "0.1.0",
+  "status": "needs_review",
+  "nodes": [
+    {
+      "id": "gleason_isup_foundations",
+      "title": "Fondations Gleason et ISUP",
+      "dependsOn": [],
+      "unlocks": ["eau_risk_groups"]
+    },
+    {
+      "id": "psa_biology_and_kinetics",
+      "title": "Biologie et cinétique du PSA",
+      "dependsOn": [],
+      "unlocks": ["eau_risk_groups", "biochemical_recurrence_definitions"]
+    },
+    {
+      "id": "mri_pirads",
+      "title": "IRM prostatique et PI-RADS",
+      "dependsOn": ["prostate_zonal_anatomy"],
+      "unlocks": ["tnm_staging", "biopsy_strategy"]
+    },
+    {
+      "id": "eau_risk_groups",
+      "title": "Groupes de risque",
+      "dependsOn": ["gleason_isup_foundations", "psa_biology_and_kinetics", "tnm_staging"],
+      "unlocks": ["multimodal_curative_options", "adt_rt_integration", "high_risk_m0_rcp"]
+    },
+    {
+      "id": "psma_pet_indications",
+      "title": "Indications du PSMA-PET",
+      "dependsOn": ["eau_risk_groups"],
+      "unlocks": ["psma_pet_limits", "psma_pet_in_recurrence"]
+    },
+    {
+      "id": "psma_pet_limits",
+      "title": "Limites du PSMA-PET",
+      "dependsOn": ["psma_pet_indications"],
+      "unlocks": ["high_risk_m0_rcp", "oligometastatic_stage_migration"]
+    },
+    {
+      "id": "androgen_receptor_biology",
+      "title": "Biologie du récepteur aux androgènes",
+      "dependsOn": [],
+      "unlocks": ["adt_mechanisms_and_agents"]
+    },
+    {
+      "id": "adt_mechanisms_and_agents",
+      "title": "Mécanismes et agents de suppression androgénique",
+      "dependsOn": ["androgen_receptor_biology"],
+      "unlocks": ["adt_rt_integration", "androgen_receptor_pathway_inhibitors"]
+    },
+    {
+      "id": "adt_rt_integration",
+      "title": "Intégration ADT-radiothérapie",
+      "dependsOn": ["adt_mechanisms_and_agents", "eau_risk_groups"],
+      "unlocks": ["high_risk_m0_rcp"]
+    },
+    {
+      "id": "multimodal_curative_options",
+      "title": "Options curatives multimodales",
+      "dependsOn": ["eau_risk_groups", "risk_and_patient_context"],
+      "unlocks": ["high_risk_m0_rcp"]
+    },
+    {
+      "id": "risk_and_patient_context",
+      "title": "Risque tumoral et contexte du patient",
+      "dependsOn": ["eau_risk_groups", "life_expectancy_and_competing_risk"],
+      "unlocks": ["multimodal_curative_options", "high_risk_m0_rcp"]
+    },
+    {
+      "id": "high_risk_m0_rcp",
+      "title": "RCP d'une maladie M0 à haut risque",
+      "dependsOn": ["eau_risk_groups", "psma_pet_limits", "adt_rt_integration", "multimodal_curative_options", "risk_and_patient_context"],
+      "unlocks": ["cnode_positive_m0", "guideline_divergence_handling"]
+    }
+  ]
+}

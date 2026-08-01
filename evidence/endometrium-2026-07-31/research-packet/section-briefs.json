@@ -1,0 +1,180 @@
+{
+  "introduction": {
+    "purpose": "Established background, significance, and unresolved gap.",
+    "reference_ids": [
+      "ref-001",
+      "ref-002",
+      "ref-003",
+      "ref-004",
+      "ref-005",
+      "ref-006",
+      "ref-007",
+      "ref-008",
+      "ref-009",
+      "ref-010",
+      "ref-011",
+      "ref-012",
+      "ref-013",
+      "ref-014",
+      "ref-015",
+      "ref-016"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "Recurrence and Survival Rates of Patients Who Undergo Minimally Invasive Surgery for Endometrial Carcinoma with Different Prognostic Risk Groups - PubMed government Here's how you know The .gov means it’s official."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "ESGO-ESTRO-ESP guidelines for the management of patients with endometrial carcinoma: update 2025 - PubMed ESGO-ESTRO-ESP guidelines for the management of patients with endometrial carcinoma: update 2025 Affiliations Expand Affiliations ESGO-ESTRO-ESP guidelines for the management of patients with endometrial carcinoma: update 2025 Nicole Concin et al."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "Recurrent Endometrial Undifferentiated Carcinoma (Concept Id: C4745308) - MedGen - NCBI PMID: 37590985 ESGO/ESTRO/ESP Guidelines for the management of patients with endometrial carcinoma."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "Sentinel lymph node mapping in endometrial cancer: A comparison of main national and international guidelines - PMC 29. [ Google Scholar ] Concin N, Matias‐Guiu X, Vergote I, et al."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "ESGO/ESTRO/ESP guidelines for the management of patients with endometrial carcinoma - PubMed A European consensus conference on endometrial carcinoma was held in 2014 to produce multi-disciplinary evidence-based guidelines on selected questions."
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(25)00560-1/fulltext Correction to Lancet Oncol 2025; 26: e423–35 by N Concin · 2025 — ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025 - The Lancet Oncology Publish Log in Log in Get Institutional Access Register open links dialog Policy Review Volume 26 , Issue 8 e423-e435 August 2025 Download Full Issue Download started Ok ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025 Wakkerman, FC ∙ Wu, J ∙ Putter, H ∙ et al."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025 - ScienceDirect As part of its mission to improve the quality of care for people with gynaecological cancers, the European Society of Gynaecological Oncology (ESGO), European Society for Radiotherapy and Oncology (ESTRO), and the European Society of Pathology (ESP) updated the ESGO–ESTRO–ESP evidence-based guidelines published in 2021 by incorporating this revised FIGO staging and the large body of new evidence addressing the management of endometrial carcinoma."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "It takes two to tango: importance of oestrogen receptor and progesterone receptor in endometrial cancer – Authors' reply - The Lancet Oncology Policy Review ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025 Concin et al."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "Molecular profile-based adjuvant treatment for women with high-intermediate risk endometrial cancer (PORTEC-4a): results of a randomised, open-label, phase 3, multicentre, non-inferiority trial - The Lancet Oncology Concin, N ∙ Matias-Guiu, X ∙ Cibula, D ∙ et al."
+      },
+      {
+        "reference_id": "ref-012",
+        "finding": "Increasing incidence of endometrial cancer demands global action - The Lancet Obstetrics, Gynaecology, & Women’s Health Cancer Institute Cancer stat facts: uterine cancer https://seer.cancer.gov/statfacts/html/corp.html Date accessed: August 8, 2025 Google Scholar 2."
+      },
+      {
+        "reference_id": "ref-013",
+        "finding": "Is PORTEC-4a the tipping point in endometrial cancer management? - The Lancet Oncology password Email* If the address matches a valid account an email will be sent to email with instructions for resetting your password Cancel ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT Open GPT Console Open Oracle Keywords Refresh Values 2024; 34 :689-696 Google Scholar 4."
+      },
+      {
+        "reference_id": "ref-014",
+        "finding": "ESGO/ESTRO/ESP guidelines for the management of patients with endometrial carcinoma - ScienceDirect A European consensus conference on endometrial carcinoma was held in 2014 to produce multi-disciplinary evidence-based guidelines on selected questions."
+      },
+      {
+        "reference_id": "ref-015",
+        "finding": "ESGO/ESHRE/ESGE Guidelines for the fertility-sparing treatment of patients with endometrial carcinoma, - PMC European Society of Gynecological Oncology (ESGO), the European SocieTy for Radiotherapy and Oncology (ESTRO) and the European Society of Pathology (ESP) provide comprehensive guidelines on all relevant issues of diagnosis and treatment in endometrial carcinoma in a multidisciplinary setting ( Concin et al. , 2021a , b , c )."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "Adjuvant treatment algorithm based on recent ESGO/ESTRO ..."
+      }
+    ]
+  },
+  "methods-rationale": {
+    "purpose": "Published precedent for measures, protocols, models, and analyses.",
+    "reference_ids": [
+      "ref-008"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-008",
+        "finding": "ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025 - The Lancet Oncology Publish Log in Log in Get Institutional Access Register open links dialog Policy Review Volume 26 , Issue 8 e423-e435 August 2025 Download Full Issue Download started Ok ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025 Wakkerman, FC ∙ Wu, J ∙ Putter, H ∙ et al."
+      }
+    ]
+  },
+  "discussion": {
+    "purpose": "Supporting and conflicting studies, mechanisms, limits, and implications.",
+    "reference_ids": [
+      "ref-001",
+      "ref-002",
+      "ref-003",
+      "ref-004",
+      "ref-005",
+      "ref-006",
+      "ref-007",
+      "ref-008",
+      "ref-009",
+      "ref-010",
+      "ref-011",
+      "ref-012",
+      "ref-013",
+      "ref-014",
+      "ref-015",
+      "ref-016"
+    ],
+    "candidate_evidence": [
+      {
+        "reference_id": "ref-001",
+        "finding": "Recurrence and Survival Rates of Patients Who Undergo Minimally Invasive Surgery for Endometrial Carcinoma with Different Prognostic Risk Groups - PubMed government Here's how you know The .gov means it’s official."
+      },
+      {
+        "reference_id": "ref-002",
+        "finding": "ESGO-ESTRO-ESP guidelines for the management of patients with endometrial carcinoma: update 2025 - PubMed ESGO-ESTRO-ESP guidelines for the management of patients with endometrial carcinoma: update 2025 Affiliations Expand Affiliations ESGO-ESTRO-ESP guidelines for the management of patients with endometrial carcinoma: update 2025 Nicole Concin et al."
+      },
+      {
+        "reference_id": "ref-003",
+        "finding": "Recurrent Endometrial Undifferentiated Carcinoma (Concept Id: C4745308) - MedGen - NCBI PMID: 37590985 ESGO/ESTRO/ESP Guidelines for the management of patients with endometrial carcinoma."
+      },
+      {
+        "reference_id": "ref-004",
+        "finding": "Sentinel lymph node mapping in endometrial cancer: A comparison of main national and international guidelines - PMC 29. [ Google Scholar ] Concin N, Matias‐Guiu X, Vergote I, et al."
+      },
+      {
+        "reference_id": "ref-005",
+        "finding": "ESGO/ESTRO/ESP guidelines for the management of patients with endometrial carcinoma - PubMed A European consensus conference on endometrial carcinoma was held in 2014 to produce multi-disciplinary evidence-based guidelines on selected questions."
+      },
+      {
+        "reference_id": "ref-007",
+        "finding": "https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(25)00560-1/fulltext Correction to Lancet Oncol 2025; 26: e423–35 by N Concin · 2025 — ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025."
+      },
+      {
+        "reference_id": "ref-008",
+        "finding": "ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025 - The Lancet Oncology Publish Log in Log in Get Institutional Access Register open links dialog Policy Review Volume 26 , Issue 8 e423-e435 August 2025 Download Full Issue Download started Ok ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025 Wakkerman, FC ∙ Wu, J ∙ Putter, H ∙ et al."
+      },
+      {
+        "reference_id": "ref-009",
+        "finding": "ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025 - ScienceDirect As part of its mission to improve the quality of care for people with gynaecological cancers, the European Society of Gynaecological Oncology (ESGO), European Society for Radiotherapy and Oncology (ESTRO), and the European Society of Pathology (ESP) updated the ESGO–ESTRO–ESP evidence-based guidelines published in 2021 by incorporating this revised FIGO staging and the large body of new evidence addressing the management of endometrial carcinoma."
+      },
+      {
+        "reference_id": "ref-010",
+        "finding": "It takes two to tango: importance of oestrogen receptor and progesterone receptor in endometrial cancer – Authors' reply - The Lancet Oncology Policy Review ESGO–ESTRO–ESP guidelines for the management of patients with endometrial carcinoma: update 2025 Concin et al."
+      },
+      {
+        "reference_id": "ref-011",
+        "finding": "Molecular profile-based adjuvant treatment for women with high-intermediate risk endometrial cancer (PORTEC-4a): results of a randomised, open-label, phase 3, multicentre, non-inferiority trial - The Lancet Oncology Concin, N ∙ Matias-Guiu, X ∙ Cibula, D ∙ et al."
+      },
+      {
+        "reference_id": "ref-012",
+        "finding": "Increasing incidence of endometrial cancer demands global action - The Lancet Obstetrics, Gynaecology, & Women’s Health Cancer Institute Cancer stat facts: uterine cancer https://seer.cancer.gov/statfacts/html/corp.html Date accessed: August 8, 2025 Google Scholar 2."
+      },
+      {
+        "reference_id": "ref-013",
+        "finding": "Is PORTEC-4a the tipping point in endometrial cancer management? - The Lancet Oncology password Email* If the address matches a valid account an email will be sent to email with instructions for resetting your password Cancel ADVERTISEMENT SCROLL TO CONTINUE WITH CONTENT Open GPT Console Open Oracle Keywords Refresh Values 2024; 34 :689-696 Google Scholar 4."
+      },
+      {
+        "reference_id": "ref-014",
+        "finding": "ESGO/ESTRO/ESP guidelines for the management of patients with endometrial carcinoma - ScienceDirect A European consensus conference on endometrial carcinoma was held in 2014 to produce multi-disciplinary evidence-based guidelines on selected questions."
+      },
+      {
+        "reference_id": "ref-015",
+        "finding": "ESGO/ESHRE/ESGE Guidelines for the fertility-sparing treatment of patients with endometrial carcinoma, - PMC European Society of Gynecological Oncology (ESGO), the European SocieTy for Radiotherapy and Oncology (ESTRO) and the European Society of Pathology (ESP) provide comprehensive guidelines on all relevant issues of diagnosis and treatment in endometrial carcinoma in a multidisciplinary setting ( Concin et al. , 2021a , b , c )."
+      },
+      {
+        "reference_id": "ref-016",
+        "finding": "Adjuvant treatment algorithm based on recent ESGO/ESTRO ..."
+      }
+    ]
+  }
+}
