@@ -11,6 +11,7 @@ export function AuthPanel() {
   const [state, setState] = useState<"idle" | "loading" | "sent" | "unconfigured" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
   const [resendIn, setResendIn] = useState(0);
+  const [googleLoading, setGoogleLoading] = useState(false);
 
   useEffect(() => {
     const supabase = createBrowserSupabaseClient();
@@ -58,6 +59,23 @@ export function AuthPanel() {
     setResendIn(60);
   };
 
+  const signInWithGoogle = async () => {
+    const supabase = createBrowserSupabaseClient();
+    if (!supabase) { setState("unconfigured"); return; }
+    setGoogleLoading(true);
+    setErrorMessage("");
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: `${window.location.origin}${basePath}/auth/callback/` },
+    });
+    if (error) {
+      setErrorMessage("La connexion Google n’a pas pu démarrer. Réessaie dans quelques instants.");
+      setState("error");
+      setGoogleLoading(false);
+    }
+  };
+
   const signOut = async () => {
     const supabase = createBrowserSupabaseClient();
     if (!supabase) return;
@@ -85,5 +103,29 @@ export function AuthPanel() {
     );
   }
 
-  return <section className="authCard"><p className="eyebrow">Compte facultatif</p><h1>Retrouve ta progression partout.</h1><p>L’application fonctionne immédiatement sans compte. La connexion par lien sécurisé synchronise ensuite les leçons, checkpoints et cas entre tes appareils.</p><form onSubmit={submit}><label><span>Adresse e-mail</span><input type="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="sami@exemple.fr" /></label><button className="button buttonPrimary" disabled={state === "loading" || resendIn > 0}>{state === "loading" ? "Envoi…" : resendIn > 0 ? `Lien envoyé — ${resendIn} s` : state === "sent" ? "Renvoyer un nouveau lien" : "Recevoir le lien de connexion"}</button></form>{state === "sent" && <div className="authMessage success" role="status">Lien envoyé. Utilise uniquement le dernier e-mail reçu ; il reste valable une heure.</div>}{state === "unconfigured" && <div className="authMessage">Supabase n’est pas encore relié à cet environnement. Ta progression locale continue de fonctionner.</div>}{state === "error" && <div className="authMessage error" role="alert">{errorMessage}</div>}<small>Aucun mot de passe. Les données pédagogiques sont isolées par RLS dans Supabase.</small></section>;
+  return (
+    <section className="authCard">
+      <p className="eyebrow">Compte facultatif</p>
+      <h1>Retrouve ta progression partout.</h1>
+      <p>L’application fonctionne immédiatement sans compte. Connecte-toi pour synchroniser les leçons, checkpoints et cas entre tes appareils.</p>
+      <button className="authProviderButton" type="button" onClick={signInWithGoogle} disabled={googleLoading}>
+        <span className="googleMark" aria-hidden="true">G</span>
+        {googleLoading ? "Ouverture de Google…" : "Continuer avec Google"}
+      </button>
+      <div className="authDivider"><span>ou par e-mail</span></div>
+      <form onSubmit={submit}>
+        <label>
+          <span>Adresse e-mail</span>
+          <input type="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="sami@exemple.fr" />
+        </label>
+        <button className="button buttonPrimary" disabled={state === "loading" || resendIn > 0}>
+          {state === "loading" ? "Envoi…" : resendIn > 0 ? `Lien envoyé — ${resendIn} s` : state === "sent" ? "Renvoyer un nouveau lien" : "Recevoir le lien de connexion"}
+        </button>
+      </form>
+      {state === "sent" && <div className="authMessage success" role="status">Lien envoyé. Utilise uniquement le dernier e-mail reçu ; il reste valable une heure.</div>}
+      {state === "unconfigured" && <div className="authMessage">Supabase n’est pas encore relié à cet environnement. Ta progression locale continue de fonctionner.</div>}
+      {state === "error" && <div className="authMessage error" role="alert">{errorMessage}</div>}
+      <small>Google ne partage jamais ton mot de passe avec OncoRT. Les données pédagogiques sont isolées par RLS dans Supabase.</small>
+    </section>
+  );
 }
