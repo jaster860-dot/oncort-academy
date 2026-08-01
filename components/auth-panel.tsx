@@ -1,12 +1,34 @@
 "use client";
 
-import { useState } from "react";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 import { createBrowserSupabaseClient } from "../lib/supabase/browser";
 
 export function AuthPanel() {
   const [email, setEmail] = useState("");
+  const [connectedEmail, setConnectedEmail] = useState<string | null>(null);
+  const [checkingSession, setCheckingSession] = useState(true);
   const [state, setState] = useState<"idle" | "loading" | "sent" | "unconfigured" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
+
+  useEffect(() => {
+    const supabase = createBrowserSupabaseClient();
+    if (!supabase) {
+      setCheckingSession(false);
+      return;
+    }
+
+    void supabase.auth.getUser().then(({ data }) => {
+      setConnectedEmail(data.user?.email ?? null);
+      setCheckingSession(false);
+    });
+    const { data: authListener } = supabase.auth.onAuthStateChange((_event, session) => {
+      setConnectedEmail(session?.user.email ?? null);
+      setCheckingSession(false);
+    });
+    return () => authListener.subscription.unsubscribe();
+  }, []);
+
   const submit = async (event: React.FormEvent) => {
     event.preventDefault();
     const supabase = createBrowserSupabaseClient();
@@ -27,5 +49,33 @@ export function AuthPanel() {
     }
     setState("sent");
   };
-  return <section className="authCard"><p className="eyebrow">Compte facultatif</p><h1>Retrouve ta progression partout.</h1><p>L’application fonctionne immédiatement sans compte. La connexion par lien sécurisé synchronise ensuite les leçons, checkpoints et cas entre tes appareils.</p><form onSubmit={submit}><label><span>Adresse e-mail</span><input type="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="sami@exemple.fr" /></label><button className="button buttonPrimary" disabled={state === "loading"}>{state === "loading" ? "Envoi…" : state === "sent" ? "Renvoyer un nouveau lien" : "Recevoir le lien de connexion"}</button></form>{state === "sent" && <div className="authMessage success">Nouveau lien envoyé. Utilise uniquement le dernier e-mail reçu ; il reste valable une heure.</div>}{state === "unconfigured" && <div className="authMessage">Supabase n’est pas encore relié à cet environnement. Ta progression locale continue de fonctionner.</div>}{state === "error" && <div className="authMessage error">{errorMessage}</div>}<small>Aucun mot de passe. Les données pédagogiques sont isolées par RLS dans Supabase.</small></section>;
+
+  const signOut = async () => {
+    const supabase = createBrowserSupabaseClient();
+    if (!supabase) return;
+    await supabase.auth.signOut();
+    setConnectedEmail(null);
+    setState("idle");
+  };
+
+  if (checkingSession) {
+    return <section className="authCard"><p className="eyebrow">Connexion sécurisée</p><h1>Vérification du compte…</h1></section>;
+  }
+
+  if (connectedEmail) {
+    return (
+      <section className="authCard">
+        <p className="eyebrow">Compte connecté</p>
+        <h1>La connexion est active.</h1>
+        <p><strong>{connectedEmail}</strong><br />Ta progression peut être synchronisée entre tes appareils.</p>
+        <div className="authActions">
+          <Link className="button buttonPrimary" href="/">Ouvrir mon espace</Link>
+          <button className="button buttonGhost" type="button" onClick={signOut}>Se déconnecter</button>
+        </div>
+        <small>Les données pédagogiques sont isolées par RLS dans Supabase.</small>
+      </section>
+    );
+  }
+
+  return <section className="authCard"><p className="eyebrow">Compte facultatif</p><h1>Retrouve ta progression partout.</h1><p>L’application fonctionne immédiatement sans compte. La connexion par lien sécurisé synchronise ensuite les leçons, checkpoints et cas entre tes appareils.</p><form onSubmit={submit}><label><span>Adresse e-mail</span><input type="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="sami@exemple.fr" /></label><button className="button buttonPrimary" disabled={state === "loading"}>{state === "loading" ? "Envoi…" : state === "sent" ? "Renvoyer un nouveau lien" : "Recevoir le lien de connexion"}</button></form>{state === "sent" && <div className="authMessage success" role="status">Nouveau lien envoyé. Utilise uniquement le dernier e-mail reçu ; il reste valable une heure.</div>}{state === "unconfigured" && <div className="authMessage">Supabase n’est pas encore relié à cet environnement. Ta progression locale continue de fonctionner.</div>}{state === "error" && <div className="authMessage error" role="alert">{errorMessage}</div>}<small>Aucun mot de passe. Les données pédagogiques sont isolées par RLS dans Supabase.</small></section>;
 }
