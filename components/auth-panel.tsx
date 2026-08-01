@@ -20,7 +20,7 @@ export function AuthPanel() {
     });
     if (error) {
       setErrorMessage(error.status === 429
-        ? "Trop de demandes rapprochées. Attends une minute, puis réessaie."
+        ? "Le quota d’e-mails de connexion est temporairement épuisé. Réessaie dans une heure ; les demandes répétées ne débloqueront pas le service."
         : "L’envoi a échoué. Vérifie l’adresse et réessaie dans quelques instants.");
       setState("error");
       return;

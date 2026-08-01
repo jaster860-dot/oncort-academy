@@ -10,12 +10,24 @@ export default function AuthCallbackPage() {
 
   useEffect(() => {
     const supabase = createBrowserSupabaseClient();
-    const code = new URL(window.location.href).searchParams.get("code");
-    if (!supabase || !code) {
+    const params = new URL(window.location.href).searchParams;
+    const tokenHash = params.get("token_hash");
+    const code = params.get("code");
+    const hasImplicitSession = window.location.hash.includes("access_token=");
+    if (!supabase || (!tokenHash && !code && !hasImplicitSession)) {
       setState("error");
       return;
     }
-    void supabase.auth.exchangeCodeForSession(code).then(({ error }) => {
+
+    // Token-hash links work even when the email is opened in a different
+    // browser from the one that requested it. Keep PKCE code support for old
+    // links generated before the email-template migration.
+    const verification = tokenHash
+      ? supabase.auth.verifyOtp({ token_hash: tokenHash, type: "email" })
+      : code
+        ? supabase.auth.exchangeCodeForSession(code)
+        : supabase.auth.getSession();
+    void verification.then(({ error }) => {
       setState(error ? "error" : "success");
     });
   }, []);
