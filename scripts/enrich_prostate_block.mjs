@@ -2,6 +2,7 @@
 
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, join } from "node:path";
+import { buildVisualMetadata, renderLessonFigure } from "./render_prostate_visuals.mjs";
 
 const root = new URL("..", import.meta.url).pathname;
 const blockId = process.argv[2];
@@ -26,7 +27,6 @@ const figureDir = join(root, "public", "figures", "prostate", slug);
 mkdirSync(figureDir, { recursive: true });
 const alreadyLayered = document.lessons.every((lesson) => lesson.visual && lesson.keyTakeaways && lesson.deepDive);
 
-const visualKinds = ["pathway", "comparison", "decision", "matrix", "evidence", "balance", "ladder", "anatomy"];
 const palette = {
   ivory: "#FFF8E8",
   teal: "#007C83",
@@ -177,14 +177,11 @@ for (const [index, lesson] of document.lessons.entries()) {
     label,
     detail: firstSentence(lesson.sections[itemIndex % lesson.sections.length].body),
   }));
-  const visual = {
-    kind: visualKinds[index % visualKinds.length],
-    title: `Raisonnement clinique — ${lesson.title}`,
-    imageSrc: `/figures/prostate/${slug}/${filename}`,
-    altText: `Schéma en ${items.length} étapes pour ${lesson.title.toLowerCase()} : ${items.map((item) => item.label).join(", puis ")}.`,
-    caption: `Lecture de gauche à droite : ${items.map((item) => item.label).join(" → ")}. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.`,
+  const visual = buildVisualMetadata(
+    lesson,
     items,
-  };
+    `/figures/prostate/${slug}/${filename}`,
+  );
 
   lesson.keyTakeaways = lesson.sections.slice(0, 3).map((section) => firstSentence(section.body));
   lesson.visual = visual;
@@ -197,7 +194,7 @@ for (const [index, lesson] of document.lessons.entries()) {
     body: section.body,
   }));
 
-  writeFileSync(join(figureDir, filename), renderSvg(lesson, visual));
+  writeFileSync(join(figureDir, filename), renderLessonFigure(lesson, visual));
   const qualityReview = automaticQualityReview(lesson, visual);
   writeFileSync(join(figureDir, filename.replace(/\.svg$/, "_review_log.json")), `${JSON.stringify({
     artifact: visual.imageSrc,

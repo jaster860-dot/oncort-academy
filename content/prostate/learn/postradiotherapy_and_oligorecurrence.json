@@ -115,11 +115,13 @@
         "Prostatectomie de rattrapage, curiethérapie, SBRT de réirradiation, HIFU ou cryothérapie ont des profils fonctionnels différents."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — Après irradiation : prouver une récidive réellement locale",
+        "kind": "decision",
+        "diagramType": "gate",
+        "formatLabel": "Conditions du rattrapage local",
+        "title": "Après irradiation : prouver une récidive réellement locale",
         "imageSrc": "/figures/prostate/postradiotherapy-and-oligorecurrence/01-local-salvage.svg",
-        "altText": "Schéma en 4 étapes pour après irradiation : prouver une récidive réellement locale : PSA nadir + cinétique, puis TEP-PSMA et IRM PI-RR, puis Biopsie positive, puis Rattrapage expert sélectionné.",
-        "caption": "Lecture de gauche à droite : PSA nadir + cinétique → TEP-PSMA et IRM PI-RR → Biopsie positive → Rattrapage expert sélectionné. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Conditions du rattrapage local pour « Après irradiation : prouver une récidive réellement locale ». Repères représentés : PSA nadir + cinétique ; TEP-PSMA et IRM PI-RR ; Biopsie positive ; Rattrapage expert sélectionné.",
+        "caption": "Conditions du rattrapage local : PSA nadir + cinétique · TEP-PSMA et IRM PI-RR · Biopsie positive · Rattrapage expert sélectionné. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "PSA nadir + cinétique",
@@ -223,11 +225,13 @@
         "Dans PEACE V–STORM, 196 patients avec au plus cinq ganglions pelviens détectés au TEP ont reçu six mois d'ADT et soit une MDT, soit une irradiation ganglionnaire élective avec boost."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — Récidive ganglionnaire : la cible visible n'est pas tout le pelvis à risque",
+        "kind": "anatomy",
+        "diagramType": "target-map",
+        "formatLabel": "Cible visible et territoire ganglionnaire",
+        "title": "Récidive ganglionnaire : la cible visible n'est pas tout le pelvis à risque",
         "imageSrc": "/figures/prostate/postradiotherapy-and-oligorecurrence/02-nodal.svg",
-        "altText": "Schéma en 4 étapes pour récidive ganglionnaire : la cible visible n'est pas tout le pelvis à risque : Carte TEP et ancien plan, puis Territoire à risque, puis MDT ou électif + boost, puis ADT et suivi contextualisés.",
-        "caption": "Lecture de gauche à droite : Carte TEP et ancien plan → Territoire à risque → MDT ou électif + boost → ADT et suivi contextualisés. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Cible visible et territoire ganglionnaire pour « Récidive ganglionnaire : la cible visible n'est pas tout le pelvis à risque ». Repères représentés : Carte TEP et ancien plan ; Territoire à risque ; MDT ou électif + boost ; ADT et suivi contextualisés.",
+        "caption": "Cible visible et territoire ganglionnaire : Carte TEP et ancien plan · Territoire à risque · MDT ou électif + boost · ADT et suivi contextualisés. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Carte TEP et ancien plan",
@@ -332,11 +336,13 @@
         "Le TEP-PSMA révèle des lésions auparavant invisibles et déplace des patients d'une récidive biologique vers une oligorecurrence."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — MDT : retarder une progression n'est pas prouver une guérison",
+        "kind": "evidence",
+        "diagramType": "evidence-bridge",
+        "formatLabel": "Bénéfice intermédiaire et incertitude",
+        "title": "MDT : retarder une progression n'est pas prouver une guérison",
         "imageSrc": "/figures/prostate/postradiotherapy-and-oligorecurrence/03-uncertainty.svg",
-        "altText": "Schéma en 4 étapes pour mdt : retarder une progression n'est pas prouver une guérison : Imagerie sensible, puis Petit nombre de sites visibles, puis MDT ± ADT, puis Bénéfice intermédiaire et surveillance.",
-        "caption": "Lecture de gauche à droite : Imagerie sensible → Petit nombre de sites visibles → MDT ± ADT → Bénéfice intermédiaire et surveillance. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Bénéfice intermédiaire et incertitude pour « MDT : retarder une progression n'est pas prouver une guérison ». Repères représentés : Imagerie sensible ; Petit nombre de sites visibles ; MDT ± ADT ; Bénéfice intermédiaire et surveillance.",
+        "caption": "Bénéfice intermédiaire et incertitude : Imagerie sensible · Petit nombre de sites visibles · MDT ± ADT · Bénéfice intermédiaire et surveillance. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Imagerie sensible",
@@ -441,11 +447,13 @@
         "Le dossier fixe PSA, testostérone, toxicités, imagerie conditionnelle et définition de progression, ainsi que le rôle de l'ADT et du traitement systémique."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — Radiothérapie dirigée : sécuriser chaque site et le parcours entier",
+        "kind": "anatomy",
+        "diagramType": "body-map",
+        "formatLabel": "Carte multi-sites",
+        "title": "Radiothérapie dirigée : sécuriser chaque site et le parcours entier",
         "imageSrc": "/figures/prostate/postradiotherapy-and-oligorecurrence/04-mdt-rt.svg",
-        "altText": "Schéma en 4 étapes pour radiothérapie dirigée : sécuriser chaque site et le parcours entier : Stadification complète, puis Plan par site et dose cumulée, puis SBRT/ENRT ± traitement systémique, puis Suivi et stratégie suivante.",
-        "caption": "Lecture de gauche à droite : Stadification complète → Plan par site et dose cumulée → SBRT/ENRT ± traitement systémique → Suivi et stratégie suivante. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte multi-sites pour « Radiothérapie dirigée : sécuriser chaque site et le parcours entier ». Repères représentés : Stadification complète ; Plan par site et dose cumulée ; SBRT/ENRT ± traitement systémique ; Suivi et stratégie suivante.",
+        "caption": "Carte multi-sites : Stadification complète · Plan par site et dose cumulée · SBRT/ENRT ± traitement systémique · Suivi et stratégie suivante. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Stadification complète",

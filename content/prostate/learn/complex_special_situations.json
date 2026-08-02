@@ -103,11 +103,13 @@
         "La fragilité est un état multidimensionnel potentiellement modifiable."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — Fragilité : adapter après évaluation, pas après l'âge",
+        "kind": "balance",
+        "diagramType": "balance",
+        "formatLabel": "Balance clinique",
+        "title": "Fragilité : adapter après évaluation, pas après l'âge",
         "imageSrc": "/figures/prostate/complex-special-situations/01-frailty.svg",
-        "altText": "Schéma en 4 étapes pour fragilité : adapter après évaluation, pas après l'âge : Risque tumoral, puis Horizon et réserves, puis Vulnérabilités modifiables, puis Stratégie proportionnée.",
-        "caption": "Lecture de gauche à droite : Risque tumoral → Horizon et réserves → Vulnérabilités modifiables → Stratégie proportionnée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Balance clinique pour « Fragilité : adapter après évaluation, pas après l'âge ». Repères représentés : Risque tumoral ; Horizon et réserves ; Vulnérabilités modifiables ; Stratégie proportionnée.",
+        "caption": "Balance clinique : Risque tumoral · Horizon et réserves · Vulnérabilités modifiables · Stratégie proportionnée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque tumoral",
@@ -209,11 +211,13 @@
         "Le risque dépend de la maladie digestive réelle et de la technique, pas de l'étiquette seule."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — MICI : qualifier l'activité et réduire l'exposition digestive",
+        "kind": "anatomy",
+        "diagramType": "anatomy-map",
+        "formatLabel": "Carte anatomique digestive",
+        "title": "MICI : qualifier l'activité et réduire l'exposition digestive",
         "imageSrc": "/figures/prostate/complex-special-situations/02-ibd.svg",
-        "altText": "Schéma en 4 étapes pour mici : qualifier l'activité et réduire l'exposition digestive : MICI et activité, puis Risque digestif individuel, puis Option et technique, puis Surveillance gastro-oncologique.",
-        "caption": "Lecture de gauche à droite : MICI et activité → Risque digestif individuel → Option et technique → Surveillance gastro-oncologique. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte anatomique digestive pour « MICI : qualifier l'activité et réduire l'exposition digestive ». Repères représentés : MICI et activité ; Risque digestif individuel ; Option et technique ; Surveillance gastro-oncologique.",
+        "caption": "Carte anatomique digestive : MICI et activité · Risque digestif individuel · Option et technique · Surveillance gastro-oncologique. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "MICI et activité",
@@ -315,11 +319,13 @@
         "Le risque urinaire dépend du geste, de l'anatomie résiduelle et de la modalité."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — Après TURP : reconstruire l'anatomie et le risque urinaire",
+        "kind": "anatomy",
+        "diagramType": "anatomy-map",
+        "formatLabel": "Anatomie après TURP",
+        "title": "Après TURP : reconstruire l'anatomie et le risque urinaire",
         "imageSrc": "/figures/prostate/complex-special-situations/03-turp.svg",
-        "altText": "Schéma en 4 étapes pour après turp : reconstruire l'anatomie et le risque urinaire : TURP et délai, puis Fonction et anatomie, puis Modalité RT, puis Risque urinaire suivi.",
-        "caption": "Lecture de gauche à droite : TURP et délai → Fonction et anatomie → Modalité RT → Risque urinaire suivi. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Anatomie après TURP pour « Après TURP : reconstruire l'anatomie et le risque urinaire ». Repères représentés : TURP et délai ; Fonction et anatomie ; Modalité RT ; Risque urinaire suivi.",
+        "caption": "Anatomie après TURP : TURP et délai · Fonction et anatomie · Modalité RT · Risque urinaire suivi. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "TURP et délai",
@@ -421,11 +427,13 @@
         "La prothèse affecte acquisition, contourage, calcul et délivrance ; toute la chaîne est auditée."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — Prothèse de hanche : maîtriser artefact et calcul de dose",
+        "kind": "anatomy",
+        "diagramType": "motion-map",
+        "formatLabel": "Artefact et géométrie",
+        "title": "Prothèse de hanche : maîtriser artefact et calcul de dose",
         "imageSrc": "/figures/prostate/complex-special-situations/04-hip.svg",
-        "altText": "Schéma en 4 étapes pour prothèse de hanche : maîtriser artefact et calcul de dose : Type de prothèse, puis Artefact et densité, puis Plans comparés, puis QA et robustesse.",
-        "caption": "Lecture de gauche à droite : Type de prothèse → Artefact et densité → Plans comparés → QA et robustesse. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Artefact et géométrie pour « Prothèse de hanche : maîtriser artefact et calcul de dose ». Repères représentés : Type de prothèse ; Artefact et densité ; Plans comparés ; QA et robustesse.",
+        "caption": "Artefact et géométrie : Type de prothèse · Artefact et densité · Plans comparés · QA et robustesse. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Type de prothèse",
@@ -528,11 +536,13 @@
         "Les deux cartes répondent à des besoins différents et doivent rester visibles."
       ],
       "visual": {
-        "kind": "evidence",
-        "title": "Raisonnement clinique — Oligométastatique et migration de stade : deux cartes simultanées",
+        "kind": "comparison",
+        "diagramType": "parallel-paths",
+        "formatLabel": "Double carte de stadification",
+        "title": "Oligométastatique et migration de stade : deux cartes simultanées",
         "imageSrc": "/figures/prostate/complex-special-situations/05-stage-migration.svg",
-        "altText": "Schéma en 4 étapes pour oligométastatique et migration de stade : deux cartes simultanées : Risque prétest, puis Imagerie conventionnelle, puis Carte PSMA, puis Décision avec extrapolation nommée.",
-        "caption": "Lecture de gauche à droite : Risque prétest → Imagerie conventionnelle → Carte PSMA → Décision avec extrapolation nommée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Double carte de stadification pour « Oligométastatique et migration de stade : deux cartes simultanées ». Repères représentés : Risque prétest ; Imagerie conventionnelle ; Carte PSMA ; Décision avec extrapolation nommée.",
+        "caption": "Double carte de stadification : Risque prétest · Imagerie conventionnelle · Carte PSMA · Décision avec extrapolation nommée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque prétest",

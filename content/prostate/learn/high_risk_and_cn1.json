@@ -115,11 +115,13 @@
         "Le TEP-PSMA améliore la détection mais les recommandations EAU d'intensification cN1 et les critères STAMPEDE M0 reposent sur l'imagerie conventionnelle."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — Définir l'état de maladie avant d'intensifier",
+        "kind": "matrix",
+        "diagramType": "matrix",
+        "formatLabel": "Matrice d’état de maladie",
+        "title": "Définir l'état de maladie avant d'intensifier",
         "imageSrc": "/figures/prostate/high-risk-and-cn1/01-state-definition.svg",
-        "altText": "Schéma en 4 étapes pour définir l'état de maladie avant d'intensifier : Critères tumoraux, puis cT/cN/cM et modalité d'imagerie, puis Population de preuve, puis Stratégie applicable ou extrapolée.",
-        "caption": "Lecture de gauche à droite : Critères tumoraux → cT/cN/cM et modalité d'imagerie → Population de preuve → Stratégie applicable ou extrapolée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice d’état de maladie pour « Définir l'état de maladie avant d'intensifier ». Repères représentés : Critères tumoraux ; cT/cN/cM et modalité d'imagerie ; Population de preuve ; Stratégie applicable ou extrapolée.",
+        "caption": "Matrice d’état de maladie : Critères tumoraux · cT/cN/cM et modalité d'imagerie · Population de preuve · Stratégie applicable ou extrapolée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Critères tumoraux",
@@ -222,10 +224,12 @@
       ],
       "visual": {
         "kind": "comparison",
-        "title": "Raisonnement clinique — Traitement local : comparer des parcours multimodaux",
+        "diagramType": "parallel-paths",
+        "formatLabel": "Parcours multimodaux",
+        "title": "Traitement local : comparer des parcours multimodaux",
         "imageSrc": "/figures/prostate/high-risk-and-cn1/02-local-pathways.svg",
-        "altText": "Schéma en 4 étapes pour traitement local : comparer des parcours multimodaux : Aptitude et préférence, puis Parcours local complet, puis Traitements associés, puis Suivi et rattrapage anticipés.",
-        "caption": "Lecture de gauche à droite : Aptitude et préférence → Parcours local complet → Traitements associés → Suivi et rattrapage anticipés. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Parcours multimodaux pour « Traitement local : comparer des parcours multimodaux ». Repères représentés : Aptitude et préférence ; Parcours local complet ; Traitements associés ; Suivi et rattrapage anticipés.",
+        "caption": "Parcours multimodaux : Aptitude et préférence · Parcours local complet · Traitements associés · Suivi et rattrapage anticipés. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Aptitude et préférence",
@@ -328,11 +332,13 @@
         "Les essais non métastatiques de docétaxel ont produit des résultats discordants, souvent favorables sur la récidive mais sans bénéfice robuste et constant sur métastases ou survie globale, avec une toxicité importante."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — Intensification systémique : critères, durée et toxicités",
+        "kind": "ladder",
+        "diagramType": "staircase",
+        "formatLabel": "Escalade thérapeutique",
+        "title": "Intensification systémique : critères, durée et toxicités",
         "imageSrc": "/figures/prostate/high-risk-and-cn1/03-systemic-intensification.svg",
-        "altText": "Schéma en 4 étapes pour intensification systémique : critères, durée et toxicités : Socle ADT, puis Critères de très haut risque/cN1, puis Intensification fondée, puis Prévention, suivi et durée.",
-        "caption": "Lecture de gauche à droite : Socle ADT → Critères de très haut risque/cN1 → Intensification fondée → Prévention, suivi et durée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Escalade thérapeutique pour « Intensification systémique : critères, durée et toxicités ». Repères représentés : Socle ADT ; Critères de très haut risque/cN1 ; Intensification fondée ; Prévention, suivi et durée.",
+        "caption": "Escalade thérapeutique : Socle ADT · Critères de très haut risque/cN1 · Intensification fondée · Prévention, suivi et durée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Socle ADT",
@@ -436,11 +442,13 @@
         "Lorsqu'un ganglion pelvien de taille normale n'est détecté qu'au TEP-PSMA, la stratégie peut raisonnablement intégrer ce site et le pelvis, mais l'EAU souligne l'absence de données prospectives pour la meilleure option."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — cN1 M0 : traiter le pelvis, la prostate et le risque systémique",
+        "kind": "anatomy",
+        "diagramType": "target-map",
+        "formatLabel": "Carte prostate–pelvis–ganglion",
+        "title": "cN1 M0 : traiter le pelvis, la prostate et le risque systémique",
         "imageSrc": "/figures/prostate/high-risk-and-cn1/04-cn1-m0.svg",
-        "altText": "Schéma en 4 étapes pour cn1 m0 : traiter le pelvis, la prostate et le risque systémique : cN1 régional et M0, puis Prostate + pelvis + boost, puis ADT longue + intensification, puis Surveillance oncologique et toxicités.",
-        "caption": "Lecture de gauche à droite : cN1 régional et M0 → Prostate + pelvis + boost → ADT longue + intensification → Surveillance oncologique et toxicités. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte prostate–pelvis–ganglion pour « cN1 M0 : traiter le pelvis, la prostate et le risque systémique ». Repères représentés : cN1 régional et M0 ; Prostate + pelvis + boost ; ADT longue + intensification ; Surveillance oncologique et toxicités.",
+        "caption": "Carte prostate–pelvis–ganglion : cN1 régional et M0 · Prostate + pelvis + boost · ADT longue + intensification · Surveillance oncologique et toxicités. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "cN1 régional et M0",
@@ -545,10 +553,12 @@
       ],
       "visual": {
         "kind": "evidence",
-        "title": "Raisonnement clinique — Divergences : produire une décision traçable, pas une moyenne",
+        "diagramType": "evidence-bridge",
+        "formatLabel": "Arbitrage des recommandations",
+        "title": "Divergences : produire une décision traçable, pas une moyenne",
         "imageSrc": "/figures/prostate/high-risk-and-cn1/05-divergence.svg",
-        "altText": "Schéma en 4 étapes pour divergences : produire une décision traçable, pas une moyenne : Question précise, puis Sources comparables, puis Applicabilité France/patient, puis Décision datée et révisable.",
-        "caption": "Lecture de gauche à droite : Question précise → Sources comparables → Applicabilité France/patient → Décision datée et révisable. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Arbitrage des recommandations pour « Divergences : produire une décision traçable, pas une moyenne ». Repères représentés : Question précise ; Sources comparables ; Applicabilité France/patient ; Décision datée et révisable.",
+        "caption": "Arbitrage des recommandations : Question précise · Sources comparables · Applicabilité France/patient · Décision datée et révisable. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Question précise",

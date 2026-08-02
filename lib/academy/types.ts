@@ -24,6 +24,8 @@ export type LessonVisualKind =
 
 export type LessonVisual = {
   kind: LessonVisualKind;
+  diagramType?: string;
+  formatLabel?: string;
   title: string;
   imageSrc?: string;
   altText: string;

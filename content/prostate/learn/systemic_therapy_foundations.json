@@ -108,10 +108,12 @@
       ],
       "visual": {
         "kind": "pathway",
-        "title": "Raisonnement clinique — ADT : obtenir et vérifier la castration",
+        "diagramType": "feedback-loop",
+        "formatLabel": "Boucle de suppression androgénique",
+        "title": "ADT : obtenir et vérifier la castration",
         "imageSrc": "/figures/prostate/systemic-therapy-foundations/01-adt.svg",
-        "altText": "Schéma en 4 étapes pour adt : obtenir et vérifier la castration : État de maladie et urgence, puis Modalité d'ADT, puis Castration vérifiée, puis Réponse et toxicités suivies.",
-        "caption": "Lecture de gauche à droite : État de maladie et urgence → Modalité d'ADT → Castration vérifiée → Réponse et toxicités suivies. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Boucle de suppression androgénique pour « ADT : obtenir et vérifier la castration ». Repères représentés : État de maladie et urgence ; Modalité d'ADT ; Castration vérifiée ; Réponse et toxicités suivies.",
+        "caption": "Boucle de suppression androgénique : État de maladie et urgence · Modalité d'ADT · Castration vérifiée · Réponse et toxicités suivies. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "État de maladie et urgence",
@@ -214,11 +216,13 @@
         "Bouffées de chaleur, dysfonction sexuelle, fatigue, sarcopénie, perte osseuse et risque métabolique doivent être expliqués avant le début."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — ADT et radiothérapie : une combinaison dépendante du risque",
+        "kind": "pathway",
+        "diagramType": "timeline",
+        "formatLabel": "Séquence ADT–RT",
+        "title": "ADT et radiothérapie : une combinaison dépendante du risque",
         "imageSrc": "/figures/prostate/systemic-therapy-foundations/02-adt-rt.svg",
-        "altText": "Schéma en 4 étapes pour adt et radiothérapie : une combinaison dépendante du risque : Risque et intention, puis Calendrier ADT–RT, puis Durée contextualisée, puis Prévention et réévaluation.",
-        "caption": "Lecture de gauche à droite : Risque et intention → Calendrier ADT–RT → Durée contextualisée → Prévention et réévaluation. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Séquence ADT–RT pour « ADT et radiothérapie : une combinaison dépendante du risque ». Repères représentés : Risque et intention ; Calendrier ADT–RT ; Durée contextualisée ; Prévention et réévaluation.",
+        "caption": "Séquence ADT–RT : Risque et intention · Calendrier ADT–RT · Durée contextualisée · Prévention et réévaluation. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque et intention",
@@ -321,11 +325,13 @@
         "Après progression sous un ARPI, passer immédiatement à un autre ARPI expose à une activité souvent limitée par résistance croisée."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — ARPI : choisir selon exposition, comorbidités et interactions",
+        "kind": "matrix",
+        "diagramType": "matrix",
+        "formatLabel": "Matrice de sélection ARPI",
+        "title": "ARPI : choisir selon exposition, comorbidités et interactions",
         "imageSrc": "/figures/prostate/systemic-therapy-foundations/03-arpi.svg",
-        "altText": "Schéma en 4 étapes pour arpi : choisir selon exposition, comorbidités et interactions : État et expositions, puis Profil patient et interactions, puis ARPI adapté, puis Surveillance puis changement de mécanisme.",
-        "caption": "Lecture de gauche à droite : État et expositions → Profil patient et interactions → ARPI adapté → Surveillance puis changement de mécanisme. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice de sélection ARPI pour « ARPI : choisir selon exposition, comorbidités et interactions ». Repères représentés : État et expositions ; Profil patient et interactions ; ARPI adapté ; Surveillance puis changement de mécanisme.",
+        "caption": "Matrice de sélection ARPI : État et expositions · Profil patient et interactions · ARPI adapté · Surveillance puis changement de mécanisme. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "État et expositions",
@@ -429,11 +435,13 @@
         "Neutropénie fébrile, infection, neuropathie, diarrhée, fatigue, œdème et toxicité hépatique sont anticipés."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — Taxanes : indication, fitness et prévention des complications",
+        "kind": "pathway",
+        "diagramType": "treatment-calendar",
+        "formatLabel": "Cycles de taxane",
+        "title": "Taxanes : indication, fitness et prévention des complications",
         "imageSrc": "/figures/prostate/systemic-therapy-foundations/04-taxanes.svg",
-        "altText": "Schéma en 4 étapes pour taxanes : indication, fitness et prévention des complications : Séquence et bénéfice, puis Fitness et réserves, puis Taxane choisi, puis Prévention et réévaluation à chaque cycle.",
-        "caption": "Lecture de gauche à droite : Séquence et bénéfice → Fitness et réserves → Taxane choisi → Prévention et réévaluation à chaque cycle. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Cycles de taxane pour « Taxanes : indication, fitness et prévention des complications ». Repères représentés : Séquence et bénéfice ; Fitness et réserves ; Taxane choisi ; Prévention et réévaluation à chaque cycle.",
+        "caption": "Cycles de taxane : Séquence et bénéfice · Fitness et réserves · Taxane choisi · Prévention et réévaluation à chaque cycle. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Séquence et bénéfice",
@@ -536,11 +544,13 @@
         "Exercice combinant endurance et résistance, apport nutritionnel adapté, sevrage tabagique, réduction de l'alcool, prévention des chutes et traitement des facteurs de risque sont prescrits et réévalués."
       ],
       "visual": {
-        "kind": "evidence",
-        "title": "Raisonnement clinique — Santé osseuse, métabolique et cardiovasculaire : traiter avant la complication",
+        "kind": "matrix",
+        "diagramType": "dashboard",
+        "formatLabel": "Tableau de bord préventif",
+        "title": "Santé osseuse, métabolique et cardiovasculaire : traiter avant la complication",
         "imageSrc": "/figures/prostate/systemic-therapy-foundations/05-prevention.svg",
-        "altText": "Schéma en 4 étapes pour santé osseuse, métabolique et cardiovasculaire : traiter avant la complication : Risque initial, puis Bilan os–muscle–métabolisme–cœur, puis Prévention ciblée, puis Mesure longitudinale.",
-        "caption": "Lecture de gauche à droite : Risque initial → Bilan os–muscle–métabolisme–cœur → Prévention ciblée → Mesure longitudinale. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Tableau de bord préventif pour « Santé osseuse, métabolique et cardiovasculaire : traiter avant la complication ». Repères représentés : Risque initial ; Bilan os–muscle–métabolisme–cœur ; Prévention ciblée ; Mesure longitudinale.",
+        "caption": "Tableau de bord préventif : Risque initial · Bilan os–muscle–métabolisme–cœur · Prévention ciblée · Mesure longitudinale. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque initial",

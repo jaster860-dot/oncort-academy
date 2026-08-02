@@ -101,11 +101,13 @@
         "Les très faibles valeurs peuvent aider à décrire un nadir et une tendance, mais l'usage du PSA ultrasensible reste controversé en suivi courant."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — PSA postopératoire : nommer la situation avant de décider",
+        "kind": "evidence",
+        "diagramType": "curve",
+        "formatLabel": "Profils de PSA postopératoire",
+        "title": "PSA postopératoire : nommer la situation avant de décider",
         "imageSrc": "/figures/prostate/postprostatectomy-recurrence/01-definitions.svg",
-        "altText": "Schéma en 4 étapes pour psa postopératoire : nommer la situation avant de décider : PSA sériel, puis Persistance ou remontée après nadir, puis Contexte pathologique, puis Discussion de rattrapage.",
-        "caption": "Lecture de gauche à droite : PSA sériel → Persistance ou remontée après nadir → Contexte pathologique → Discussion de rattrapage. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Profils de PSA postopératoire pour « PSA postopératoire : nommer la situation avant de décider ». Repères représentés : PSA sériel ; Persistance ou remontée après nadir ; Contexte pathologique ; Discussion de rattrapage.",
+        "caption": "Profils de PSA postopératoire : PSA sériel · Persistance ou remontée après nadir · Contexte pathologique · Discussion de rattrapage. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "PSA sériel",
@@ -208,11 +210,13 @@
         "Le groupe ISUP, le stade pT/pN, les marges, le délai depuis la chirurgie, le niveau de PSA et l'état général complètent la vitesse."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — Temps de doublement : mesurer une vitesse, pas fabriquer une certitude",
+        "kind": "evidence",
+        "diagramType": "curve",
+        "formatLabel": "Pente et temps de doublement",
+        "title": "Temps de doublement : mesurer une vitesse, pas fabriquer une certitude",
         "imageSrc": "/figures/prostate/postprostatectomy-recurrence/02-psadt.svg",
-        "altText": "Schéma en 4 étapes pour temps de doublement : mesurer une vitesse, pas fabriquer une certitude : Dosages fiables, puis Pente logarithmique, puis Risque clinique intégré, puis Urgence et intensité de la discussion.",
-        "caption": "Lecture de gauche à droite : Dosages fiables → Pente logarithmique → Risque clinique intégré → Urgence et intensité de la discussion. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Pente et temps de doublement pour « Temps de doublement : mesurer une vitesse, pas fabriquer une certitude ». Repères représentés : Dosages fiables ; Pente logarithmique ; Risque clinique intégré ; Urgence et intensité de la discussion.",
+        "caption": "Pente et temps de doublement : Dosages fiables · Pente logarithmique · Risque clinique intégré · Urgence et intensité de la discussion. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Dosages fiables",
@@ -316,10 +320,12 @@
       ],
       "visual": {
         "kind": "decision",
-        "title": "Raisonnement clinique — TEP-PSMA : chercher ce qui change la stratégie",
+        "diagramType": "decision-tree",
+        "formatLabel": "Impact décisionnel du TEP-PSMA",
+        "title": "TEP-PSMA : chercher ce qui change la stratégie",
         "imageSrc": "/figures/prostate/postprostatectomy-recurrence/03-psma.svg",
-        "altText": "Schéma en 4 étapes pour tep-psma : chercher ce qui change la stratégie : Question clinique, puis TEP-PSMA au bon moment, puis Résultat contextualisé, puis Décision modifiée ou non.",
-        "caption": "Lecture de gauche à droite : Question clinique → TEP-PSMA au bon moment → Résultat contextualisé → Décision modifiée ou non. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Impact décisionnel du TEP-PSMA pour « TEP-PSMA : chercher ce qui change la stratégie ». Repères représentés : Question clinique ; TEP-PSMA au bon moment ; Résultat contextualisé ; Décision modifiée ou non.",
+        "caption": "Impact décisionnel du TEP-PSMA : Question clinique · TEP-PSMA au bon moment · Résultat contextualisé · Décision modifiée ou non. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Question clinique",
@@ -422,11 +428,13 @@
         "Une surveillance peut être discutée lorsque la récidive est favorable — intervalle long, groupe ISUP bas et temps de doublement long — et selon l'espérance de vie et les préférences."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — Rattrapage précoce : agir avant que l'opportunité ne se ferme",
+        "kind": "pathway",
+        "diagramType": "timeline",
+        "formatLabel": "Fenêtre de rattrapage",
+        "title": "Rattrapage précoce : agir avant que l'opportunité ne se ferme",
         "imageSrc": "/figures/prostate/postprostatectomy-recurrence/04-early-salvage.svg",
-        "altText": "Schéma en 4 étapes pour rattrapage précoce : agir avant que l'opportunité ne se ferme : PSA indétectable, puis Surveillance, puis Remontée confirmée à bas niveau, puis Rattrapage discuté sans délai évitable.",
-        "caption": "Lecture de gauche à droite : PSA indétectable → Surveillance → Remontée confirmée à bas niveau → Rattrapage discuté sans délai évitable. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Fenêtre de rattrapage pour « Rattrapage précoce : agir avant que l'opportunité ne se ferme ». Repères représentés : PSA indétectable ; Surveillance ; Remontée confirmée à bas niveau ; Rattrapage discuté sans délai évitable.",
+        "caption": "Fenêtre de rattrapage : PSA indétectable · Surveillance · Remontée confirmée à bas niveau · Rattrapage discuté sans délai évitable. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "PSA indétectable",
@@ -529,11 +537,13 @@
         "Avant l'ADT, l'équipe documente statut cardiovasculaire, métabolique, osseux, sexuel et préférences, puis prévention et suivi."
       ],
       "visual": {
-        "kind": "evidence",
-        "title": "Raisonnement clinique — Hormonothérapie avec le rattrapage : sélectionner et dater",
+        "kind": "pathway",
+        "diagramType": "treatment-calendar",
+        "formatLabel": "Calendrier RT–ADT",
+        "title": "Hormonothérapie avec le rattrapage : sélectionner et dater",
         "imageSrc": "/figures/prostate/postprostatectomy-recurrence/05-adt.svg",
-        "altText": "Schéma en 4 étapes pour hormonothérapie avec le rattrapage : sélectionner et dater : Risque de récidive, puis Bénéfice attendu de l'intensification, puis Durée contextualisée, puis Prévention et suivi.",
-        "caption": "Lecture de gauche à droite : Risque de récidive → Bénéfice attendu de l'intensification → Durée contextualisée → Prévention et suivi. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Calendrier RT–ADT pour « Hormonothérapie avec le rattrapage : sélectionner et dater ». Repères représentés : Risque de récidive ; Bénéfice attendu de l'intensification ; Durée contextualisée ; Prévention et suivi.",
+        "caption": "Calendrier RT–ADT : Risque de récidive · Bénéfice attendu de l'intensification · Durée contextualisée · Prévention et suivi. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque de récidive",
@@ -636,11 +646,13 @@
         "IMRT/VMAT et guidage quotidien sont recommandés pour maîtriser anastomose, vessie et rectum."
       ],
       "visual": {
-        "kind": "balance",
-        "title": "Raisonnement clinique — Radiothérapie postopératoire : reconstruire un lit sans glande",
+        "kind": "anatomy",
+        "diagramType": "anatomy-map",
+        "formatLabel": "Lit prostatique sans glande",
+        "title": "Radiothérapie postopératoire : reconstruire un lit sans glande",
         "imageSrc": "/figures/prostate/postprostatectomy-recurrence/06-technique.svg",
-        "altText": "Schéma en 4 étapes pour radiothérapie postopératoire : reconstruire un lit sans glande : Pathologie et imagerie, puis CTV du lit, puis Dose et OAR, puis IMRT/IGRT et validation.",
-        "caption": "Lecture de gauche à droite : Pathologie et imagerie → CTV du lit → Dose et OAR → IMRT/IGRT et validation. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Lit prostatique sans glande pour « Radiothérapie postopératoire : reconstruire un lit sans glande ». Repères représentés : Pathologie et imagerie ; CTV du lit ; Dose et OAR ; IMRT/IGRT et validation.",
+        "caption": "Lit prostatique sans glande : Pathologie et imagerie · CTV du lit · Dose et OAR · IMRT/IGRT et validation. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Pathologie et imagerie",

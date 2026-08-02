@@ -96,11 +96,13 @@
         "Une option standard appuyée par les recommandations ne doit pas être présentée au même niveau qu'une technique en évaluation."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — Ouvrir les bonnes options avant de comparer",
+        "kind": "decision",
+        "diagramType": "decision-tree",
+        "formatLabel": "Arbre des options curatives",
+        "title": "Ouvrir les bonnes options avant de comparer",
         "imageSrc": "/figures/prostate/localized-curative-options/01-context.svg",
-        "altText": "Schéma en 4 étapes pour ouvrir les bonnes options avant de comparer : Risque tumoral, puis Horizon de bénéfice, puis Faisabilité fonctionnelle et technique, puis Options admissibles à comparer.",
-        "caption": "Lecture de gauche à droite : Risque tumoral → Horizon de bénéfice → Faisabilité fonctionnelle et technique → Options admissibles à comparer. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Arbre des options curatives pour « Ouvrir les bonnes options avant de comparer ». Repères représentés : Risque tumoral ; Horizon de bénéfice ; Faisabilité fonctionnelle et technique ; Options admissibles à comparer.",
+        "caption": "Arbre des options curatives : Risque tumoral · Horizon de bénéfice · Faisabilité fonctionnelle et technique · Options admissibles à comparer. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque tumoral",
@@ -202,11 +204,13 @@
         "L'incontinence urinaire et la dysfonction érectile doivent être discutées avant l'intervention à partir des fonctions initiales et du risque individuel."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — Prostatectomie radicale : un traitement local et un début de parcours",
+        "kind": "pathway",
+        "diagramType": "timeline",
+        "formatLabel": "Trajectoire après chirurgie",
+        "title": "Prostatectomie radicale : un traitement local et un début de parcours",
         "imageSrc": "/figures/prostate/localized-curative-options/02-surgery.svg",
-        "altText": "Schéma en 4 étapes pour prostatectomie radicale : un traitement local et un début de parcours : Candidat curatif, puis Exérèse et pathologie, puis PSA postopératoire, puis Surveillance ou rattrapage.",
-        "caption": "Lecture de gauche à droite : Candidat curatif → Exérèse et pathologie → PSA postopératoire → Surveillance ou rattrapage. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Trajectoire après chirurgie pour « Prostatectomie radicale : un traitement local et un début de parcours ». Repères représentés : Candidat curatif ; Exérèse et pathologie ; PSA postopératoire ; Surveillance ou rattrapage.",
+        "caption": "Trajectoire après chirurgie : Candidat curatif · Exérèse et pathologie · PSA postopératoire · Surveillance ou rattrapage. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Candidat curatif",
@@ -310,11 +314,13 @@
         "Le patient doit être informé des toxicités urinaires irritatives ou obstructives, digestives, sexuelles et, si une hormonothérapie est associée, métaboliques, osseuses, cardiovasculaires et psychosexuelles."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — Radiothérapie externe : un traitement curatif construit par risque",
+        "kind": "anatomy",
+        "diagramType": "layered-map",
+        "formatLabel": "Construction du traitement par risque",
+        "title": "Radiothérapie externe : un traitement curatif construit par risque",
         "imageSrc": "/figures/prostate/localized-curative-options/03-ebrt.svg",
-        "altText": "Schéma en 4 étapes pour radiothérapie externe : un traitement curatif construit par risque : Groupe de risque, puis Volumes et fractionnement, puis Éventuelle hormonothérapie, puis Contrôle et toxicités tardives.",
-        "caption": "Lecture de gauche à droite : Groupe de risque → Volumes et fractionnement → Éventuelle hormonothérapie → Contrôle et toxicités tardives. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Construction du traitement par risque pour « Radiothérapie externe : un traitement curatif construit par risque ». Repères représentés : Groupe de risque ; Volumes et fractionnement ; Éventuelle hormonothérapie ; Contrôle et toxicités tardives.",
+        "caption": "Construction du traitement par risque : Groupe de risque · Volumes et fractionnement · Éventuelle hormonothérapie · Contrôle et toxicités tardives. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Groupe de risque",
@@ -417,11 +423,13 @@
         "Le boost curiethérapique peut améliorer le contrôle biochimique dans certaines situations, mais au prix d'une toxicité urinaire plus importante et sans bénéfice de survie globale démontré dans les essais de référence."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — Curiethérapie : sélectionner le risque et surtout la fonction urinaire",
+        "kind": "comparison",
+        "diagramType": "split-path",
+        "formatLabel": "Sélection pour curiethérapie",
+        "title": "Curiethérapie : sélectionner le risque et surtout la fonction urinaire",
         "imageSrc": "/figures/prostate/localized-curative-options/04-brachytherapy.svg",
-        "altText": "Schéma en 4 étapes pour curiethérapie : sélectionner le risque et surtout la fonction urinaire : Risque admissible, puis Fonction urinaire et anatomie, puis Monothérapie ou boost, puis Contrôle–toxicité–suivi.",
-        "caption": "Lecture de gauche à droite : Risque admissible → Fonction urinaire et anatomie → Monothérapie ou boost → Contrôle–toxicité–suivi. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Sélection pour curiethérapie pour « Curiethérapie : sélectionner le risque et surtout la fonction urinaire ». Repères représentés : Risque admissible ; Fonction urinaire et anatomie ; Monothérapie ou boost ; Contrôle–toxicité–suivi.",
+        "caption": "Sélection pour curiethérapie : Risque admissible · Fonction urinaire et anatomie · Monothérapie ou boost · Contrôle–toxicité–suivi. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque admissible",
@@ -524,11 +532,13 @@
         "La RCP doit nommer le risque, les options standards, les raisons d'exclusion, les traitements associés, les toxicités dominantes, les stratégies de rattrapage et les incertitudes."
       ],
       "visual": {
-        "kind": "evidence",
-        "title": "Raisonnement clinique — Comparer les trajectoires multimodales en RCP",
+        "kind": "comparison",
+        "diagramType": "parallel-paths",
+        "formatLabel": "Trajectoires multimodales",
+        "title": "Comparer les trajectoires multimodales en RCP",
         "imageSrc": "/figures/prostate/localized-curative-options/05-multimodal.svg",
-        "altText": "Schéma en 4 étapes pour comparer les trajectoires multimodales en rcp : Traitement initial, puis Pathologie ou réponse PSA, puis Traitements associés ou rattrapage, puis Trajectoire fonctionnelle et oncologique.",
-        "caption": "Lecture de gauche à droite : Traitement initial → Pathologie ou réponse PSA → Traitements associés ou rattrapage → Trajectoire fonctionnelle et oncologique. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Trajectoires multimodales pour « Comparer les trajectoires multimodales en RCP ». Repères représentés : Traitement initial ; Pathologie ou réponse PSA ; Traitements associés ou rattrapage ; Trajectoire fonctionnelle et oncologique.",
+        "caption": "Trajectoires multimodales : Traitement initial · Pathologie ou réponse PSA · Traitements associés ou rattrapage · Trajectoire fonctionnelle et oncologique. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Traitement initial",

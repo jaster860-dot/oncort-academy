@@ -1,47 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
-  <title id="title">Raisonnement clinique — PSMA-PET : gagner en détection sans perdre l&apos;esprit critique</title>
-  <desc id="desc">Schéma en 4 étapes pour psma-pet : gagner en détection sans perdre l&apos;esprit critique : Risque prétest, puis Signal PSMA et morphologie, puis Limites techniques, puis Décision proportionnée.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M 0 0 L 12 6 L 0 12 z" fill="#24313A"/></marker>
-  </defs>
+  <title id="title">PSMA-PET : gagner en détection sans perdre l&apos;esprit critique</title>
+  <desc id="desc">Détection et limites pour « PSMA-PET : gagner en détection sans perdre l&apos;esprit critique ». Repères représentés : Risque prétest ; Signal PSMA et morphologie ; Limites techniques ; Décision proportionnée.</desc>
+  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
   <rect width="1376" height="768" fill="#FFF8E8"/>
-  <rect x="0" y="0" width="18" height="768" fill="#007C83"/>
-  <text x="62" y="62" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="750" fill="#007C83" letter-spacing="2">ONCORT ACADEMY · PROSTATE</text>
-  <text x="62" y="116" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="62" dy="0">PSMA-PET : gagner en détection sans perdre l&apos;esprit critique</tspan></text>
-  <text x="62" y="204" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500" fill="#24313A">Chaîne de raisonnement — chaque étape garde sa question et ses limites</text>
-  <path d="M 340 403 H 374" stroke="#24313A" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/><g>
-      <rect x="62" y="238" width="270" height="330" rx="24" fill="#DDF3F1" stroke="#007C83" stroke-width="4"/>
-      <circle cx="104" cy="283" r="25" fill="#007C83"/>
-      <text x="104" y="291" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="104" dy="0">01</tspan></text>
-      <text x="90" y="350" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="90" dy="0">Risque prétest</tspan></text>
-      <line x1="90" y1="440" x2="304" y2="440" stroke="#007C83" stroke-width="2" stroke-dasharray="8 7"/>
-      <text x="90" y="468" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#24313A" text-anchor="start"><tspan x="90" dy="0">Le PSMA-PET localise mieux de</tspan><tspan x="90" dy="21">nombreuses atteintes</tspan><tspan x="90" dy="21">ganglionnaires et osseuses que</tspan><tspan x="90" dy="21">l&apos;imagerie conventionnelle,</tspan><tspan x="90" dy="21">surtout…</tspan></text>
-    </g>
-<path d="M 664 403 H 698" stroke="#24313A" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/><g>
-      <rect x="386" y="238" width="270" height="330" rx="24" fill="#E5EEF8" stroke="#2563A6" stroke-width="4"/>
-      <circle cx="428" cy="283" r="25" fill="#2563A6"/>
-      <text x="428" y="291" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="428" dy="0">02</tspan></text>
-      <text x="414" y="350" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="414" dy="0">Signal PSMA et</tspan><tspan x="414" dy="32">morphologie</tspan></text>
-      <line x1="414" y1="440" x2="628" y2="440" stroke="#2563A6" stroke-width="2" stroke-dasharray="8 7"/>
-      <text x="414" y="468" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#24313A" text-anchor="start"><tspan x="414" dy="0">La résolution spatiale limite</tspan><tspan x="414" dy="21">la détection des</tspan><tspan x="414" dy="21">micrométastases ganglionnaires</tspan><tspan x="414" dy="21">et certaines tumeurs expriment</tspan><tspan x="414" dy="21">peu…</tspan></text>
-    </g>
-<path d="M 988 403 H 1022" stroke="#24313A" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/><g>
-      <rect x="710" y="238" width="270" height="330" rx="24" fill="#FCE8C8" stroke="#D97706" stroke-width="4"/>
-      <circle cx="752" cy="283" r="25" fill="#D97706"/>
-      <text x="752" y="291" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="752" dy="0">03</tspan></text>
-      <text x="738" y="350" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="738" dy="0">Limites techniques</tspan></text>
-      <line x1="738" y1="440" x2="952" y2="440" stroke="#D97706" stroke-width="2" stroke-dasharray="8 7"/>
-      <text x="738" y="468" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#24313A" text-anchor="start"><tspan x="738" dy="0">Des ganglions sympathiques, des</tspan><tspan x="738" dy="21">lésions osseuses bénignes, des</tspan><tspan x="738" dy="21">processus inflammatoires ou</tspan><tspan x="738" dy="21">d&apos;autres tumeurs peuvent fixer</tspan><tspan x="738" dy="21">un…</tspan></text>
-    </g>
-<g>
-      <rect x="1034" y="238" width="270" height="330" rx="24" fill="#FFFFFF" stroke="#24313A" stroke-width="4"/>
-      <circle cx="1076" cy="283" r="25" fill="#24313A"/>
-      <text x="1076" y="291" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="1076" dy="0">04</tspan></text>
-      <text x="1062" y="350" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="1062" dy="0">Décision proportionnée</tspan></text>
-      <line x1="1062" y1="440" x2="1276" y2="440" stroke="#24313A" stroke-width="2" stroke-dasharray="8 7"/>
-      <text x="1062" y="468" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#24313A" text-anchor="start"><tspan x="1062" dy="0">Le PSMA-PET localise mieux de</tspan><tspan x="1062" dy="21">nombreuses atteintes</tspan><tspan x="1062" dy="21">ganglionnaires et osseuses que</tspan><tspan x="1062" dy="21">l&apos;imagerie conventionnelle,</tspan><tspan x="1062" dy="21">surtout…</tspan></text>
-    </g>
-  <rect x="62" y="624" width="1252" height="82" rx="18" fill="#24313A"/>
-  <text x="91" y="658" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="91" y="686" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="450" fill="#FFFFFF">Revue clinique nominative requise avant toute validation ou utilisation décisionnelle.</text>
-</svg>
+  <rect width="18" height="768" fill="#007C83"/>
+  <text x="60" y="46" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83" letter-spacing="2">ONCORT ACADEMY · PROSTATE</text>
+  <rect x="60" y="62" width="234" height="34" rx="17" fill="#DDF3F1"/>
+  <text x="77" y="85" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83">DÉTECTION ET LIMITES</text>
+  <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="60" dy="0">PSMA-PET : gagner en détection sans perdre l&apos;esprit critique</tspan></text>
+  <line x1="688" y1="300" x2="688" y2="565" stroke="#24313A" stroke-width="12" stroke-linecap="round"/>
+    <line x1="388" y1="335" x2="988" y2="335" stroke="#24313A" stroke-width="10" stroke-linecap="round"/>
+    <path d="M 388 335 L 275 515 H 501 Z" fill="#E5EEF8" stroke="#2563A6" stroke-width="4"/>
+    <path d="M 988 335 L 875 515 H 1101 Z" fill="#FCE8C8" stroke="#D97706" stroke-width="4"/>
+    <path d="M 575 590 Q 688 515 801 590 Z" fill="#DDF3F1" stroke="#007C83" stroke-width="4"/>
+    <text x="388" y="440" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="750" fill="#24313A" text-anchor="middle"><tspan x="388" dy="0">Risque prétest</tspan></text>
+    <text x="988" y="440" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="750" fill="#24313A" text-anchor="middle"><tspan x="988" dy="0">Signal PSMA et</tspan><tspan x="988" dy="23">morphologie</tspan></text>
+    <g><rect x="550" y="210" width="276" height="86" rx="20" fill="#FFFCF4" stroke="#007C83" stroke-width="3"/><text x="688" y="259.3" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="688" dy="0">Limites techniques</tspan></text></g>
+    <text x="688" y="625" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#007C83" text-anchor="middle"><tspan x="688" dy="0">Décision proportionnée</tspan></text>
+  <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
+  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Détection et limites · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
+  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
+  </svg>

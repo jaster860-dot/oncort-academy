@@ -95,11 +95,13 @@
         "Le scanner doit couvrir tous les volumes prévus avec des coupes fines ; l'IRM améliore l'apex, la base, les vésicules et une éventuelle lésion dominante."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — Simulation : fabriquer une anatomie reproductible",
+        "kind": "anatomy",
+        "diagramType": "anatomy-map",
+        "formatLabel": "Anatomie reproductible",
+        "title": "Simulation : fabriquer une anatomie reproductible",
         "imageSrc": "/figures/prostate/radiotherapy-planning/01-simulation.svg",
-        "altText": "Schéma en 4 étapes pour simulation : fabriquer une anatomie reproductible : Préparation, puis Géométrie reproductible, puis Imagerie concordante, puis Contourage fiable.",
-        "caption": "Lecture de gauche à droite : Préparation → Géométrie reproductible → Imagerie concordante → Contourage fiable. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Anatomie reproductible pour « Simulation : fabriquer une anatomie reproductible ». Repères représentés : Préparation ; Géométrie reproductible ; Imagerie concordante ; Contourage fiable.",
+        "caption": "Anatomie reproductible : Préparation · Géométrie reproductible · Imagerie concordante · Contourage fiable. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Préparation",
@@ -201,11 +203,13 @@
         "RecoRad relie les marges à l'IGRT, au mouvement intrafraction et à l'incertitude de contourage : en traitement conventionnel guidé quotidiennement, les réductions ne doivent pas devenir automatiques ; en SBRT, des marges de 3 à 5 mm dépendent de la technique."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — Volumes cibles : du risque à une anatomie explicite",
+        "kind": "anatomy",
+        "diagramType": "target-map",
+        "formatLabel": "Carte GTV–CTV–PTV",
+        "title": "Volumes cibles : du risque à une anatomie explicite",
         "imageSrc": "/figures/prostate/radiotherapy-planning/02-targets.svg",
-        "altText": "Schéma en 4 étapes pour volumes cibles : du risque à une anatomie explicite : Indication et extension, puis CTV anatomique, puis Incertitudes, puis PTV justifié.",
-        "caption": "Lecture de gauche à droite : Indication et extension → CTV anatomique → Incertitudes → PTV justifié. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte GTV–CTV–PTV pour « Volumes cibles : du risque à une anatomie explicite ». Repères représentés : Indication et extension ; CTV anatomique ; Incertitudes ; PTV justifié.",
+        "caption": "Carte GTV–CTV–PTV : Indication et extension · CTV anatomique · Incertitudes · PTV justifié. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Indication et extension",
@@ -307,11 +311,13 @@
         "Col vésical, trigone, urètre, sphincter strié et cavité après résection transurétrale peuvent être individualisés selon la technique et les antécédents."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — OAR : définir avant de mesurer",
+        "kind": "anatomy",
+        "diagramType": "anatomy-map",
+        "formatLabel": "Voisinage des organes à risque",
+        "title": "OAR : définir avant de mesurer",
         "imageSrc": "/figures/prostate/radiotherapy-planning/03-oar.svg",
-        "altText": "Schéma en 4 étapes pour oar : définir avant de mesurer : OAR requis, puis Définition source, puis DVH correspondant, puis Interprétation valide.",
-        "caption": "Lecture de gauche à droite : OAR requis → Définition source → DVH correspondant → Interprétation valide. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Voisinage des organes à risque pour « OAR : définir avant de mesurer ». Repères représentés : OAR requis ; Définition source ; DVH correspondant ; Interprétation valide.",
+        "caption": "Voisinage des organes à risque : OAR requis · Définition source · DVH correspondant · Interprétation valide. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "OAR requis",
@@ -412,11 +418,13 @@
         "Le DVH ne montre pas où se trouvent un sous-dosage ou un point chaud."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — DVH et distribution : relier chaque seuil à son protocole",
+        "kind": "evidence",
+        "diagramType": "curve",
+        "formatLabel": "Courbes dose–volume",
+        "title": "DVH et distribution : relier chaque seuil à son protocole",
         "imageSrc": "/figures/prostate/radiotherapy-planning/04-dvh.svg",
-        "altText": "Schéma en 4 étapes pour dvh et distribution : relier chaque seuil à son protocole : Protocole, puis Structures concordantes, puis DVH, puis Inspection spatiale et décision.",
-        "caption": "Lecture de gauche à droite : Protocole → Structures concordantes → DVH → Inspection spatiale et décision. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Courbes dose–volume pour « DVH et distribution : relier chaque seuil à son protocole ». Repères représentés : Protocole ; Structures concordantes ; DVH ; Inspection spatiale et décision.",
+        "caption": "Courbes dose–volume : Protocole · Structures concordantes · DVH · Inspection spatiale et décision. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Protocole",
@@ -519,11 +527,13 @@
         "Le mouvement continue après l'image, surtout pendant une séance longue ou stéréotaxique."
       ],
       "visual": {
-        "kind": "evidence",
-        "title": "Raisonnement clinique — IGRT : corriger la bonne cible au bon moment",
+        "kind": "anatomy",
+        "diagramType": "motion-map",
+        "formatLabel": "Correction guidée par l’image",
+        "title": "IGRT : corriger la bonne cible au bon moment",
         "imageSrc": "/figures/prostate/radiotherapy-planning/05-igrt.svg",
-        "altText": "Schéma en 4 étapes pour igrt : corriger la bonne cible au bon moment : Image, puis Recalage de la cible pertinente, puis Contrôle intrafraction, puis Action documentée.",
-        "caption": "Lecture de gauche à droite : Image → Recalage de la cible pertinente → Contrôle intrafraction → Action documentée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Correction guidée par l’image pour « IGRT : corriger la bonne cible au bon moment ». Repères représentés : Image ; Recalage de la cible pertinente ; Contrôle intrafraction ; Action documentée.",
+        "caption": "Correction guidée par l’image : Image · Recalage de la cible pertinente · Contrôle intrafraction · Action documentée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Image",
@@ -625,11 +635,13 @@
         "Une dérogation doit préciser valeur, cause, conséquence attendue, alternatives et approbateur."
       ],
       "visual": {
-        "kind": "balance",
-        "title": "Raisonnement clinique — Audit de prétraitement : rendre chaque décision traçable",
+        "kind": "decision",
+        "diagramType": "checklist",
+        "formatLabel": "Audit de prétraitement",
+        "title": "Audit de prétraitement : rendre chaque décision traçable",
         "imageSrc": "/figures/prostate/radiotherapy-planning/06-audit.svg",
-        "altText": "Schéma en 4 étapes pour audit de prétraitement : rendre chaque décision traçable : Prescription, puis Plan et QA, puis IGRT, puis Autorisation ou reprise.",
-        "caption": "Lecture de gauche à droite : Prescription → Plan et QA → IGRT → Autorisation ou reprise. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Audit de prétraitement pour « Audit de prétraitement : rendre chaque décision traçable ». Repères représentés : Prescription ; Plan et QA ; IGRT ; Autorisation ou reprise.",
+        "caption": "Audit de prétraitement : Prescription · Plan et QA · IGRT · Autorisation ou reprise. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Prescription",

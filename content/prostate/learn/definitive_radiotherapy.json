@@ -111,11 +111,13 @@
         "La référence est une radio-hormonothérapie avec irradiation prostatique à dose élevée et suppression androgénique longue."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — Partir du risque pour définir l'intention",
+        "kind": "decision",
+        "diagramType": "decision-tree",
+        "formatLabel": "Arbre d’intention",
+        "title": "Partir du risque pour définir l'intention",
         "imageSrc": "/figures/prostate/definitive-radiotherapy/01-definitive-rt-01-indications.svg",
-        "altText": "Schéma en 4 étapes pour partir du risque pour définir l'intention : Groupe de risque, puis Intention curative, puis Modalité locale et systémique, puis Prescription à documenter.",
-        "caption": "Lecture de gauche à droite : Groupe de risque → Intention curative → Modalité locale et systémique → Prescription à documenter. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Arbre d’intention pour « Partir du risque pour définir l'intention ». Repères représentés : Groupe de risque ; Intention curative ; Modalité locale et systémique ; Prescription à documenter.",
+        "caption": "Arbre d’intention : Groupe de risque · Intention curative · Modalité locale et systémique · Prescription à documenter. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Groupe de risque",
@@ -218,11 +220,13 @@
         "RecoRad 2025 propose 60 à 62 Gy en 20 fractions ou 68 Gy en 25 fractions parmi les schémas du haut risque."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — Hypofractionnement modéré : un standard qui exige son contexte",
+        "kind": "pathway",
+        "diagramType": "treatment-calendar",
+        "formatLabel": "Calendrier de fractionnement",
+        "title": "Hypofractionnement modéré : un standard qui exige son contexte",
         "imageSrc": "/figures/prostate/definitive-radiotherapy/02-definitive-rt-02-moderate-hypofractionation.svg",
-        "altText": "Schéma en 4 étapes pour hypofractionnement modéré : un standard qui exige son contexte : Schéma validé, puis Population et volumes concordants, puis IMRT–IGRT et contraintes, puis Transposition sûre.",
-        "caption": "Lecture de gauche à droite : Schéma validé → Population et volumes concordants → IMRT–IGRT et contraintes → Transposition sûre. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Calendrier de fractionnement pour « Hypofractionnement modéré : un standard qui exige son contexte ». Repères représentés : Schéma validé ; Population et volumes concordants ; IMRT–IGRT et contraintes ; Transposition sûre.",
+        "caption": "Calendrier de fractionnement : Schéma validé · Population et volumes concordants · IMRT–IGRT et contraintes · Transposition sûre. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Schéma validé",
@@ -325,11 +329,13 @@
         "La radiothérapie stéréotaxique du haut risque reste en évaluation dans les référentiels français cités."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — Ultra-hypofractionnement : sélectionner avant d'accélérer",
+        "kind": "pathway",
+        "diagramType": "treatment-calendar",
+        "formatLabel": "Calendrier stéréotaxique",
+        "title": "Ultra-hypofractionnement : sélectionner avant d'accélérer",
         "imageSrc": "/figures/prostate/definitive-radiotherapy/03-definitive-rt-03-sbrt.svg",
-        "altText": "Schéma en 4 étapes pour ultra-hypofractionnement : sélectionner avant d'accélérer : Risque favorable ou intermédiaire, puis Fonction urinaire compatible, puis Technique stéréotaxique et IGRT, puis Cinq ou sept fractions validées.",
-        "caption": "Lecture de gauche à droite : Risque favorable ou intermédiaire → Fonction urinaire compatible → Technique stéréotaxique et IGRT → Cinq ou sept fractions validées. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Calendrier stéréotaxique pour « Ultra-hypofractionnement : sélectionner avant d'accélérer ». Repères représentés : Risque favorable ou intermédiaire ; Fonction urinaire compatible ; Technique stéréotaxique et IGRT ; Cinq ou sept fractions validées.",
+        "caption": "Calendrier stéréotaxique : Risque favorable ou intermédiaire · Fonction urinaire compatible · Technique stéréotaxique et IGRT · Cinq ou sept fractions validées. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque favorable ou intermédiaire",
@@ -432,11 +438,13 @@
         "Les essais de référence soutiennent un meilleur contrôle biochimique avec un boost curiethérapique, sans bénéfice de survie globale démontré, au prix d'une toxicité génito-urinaire accrue."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — Curiethérapie exclusive ou boost : deux intentions distinctes",
+        "kind": "comparison",
+        "diagramType": "split-path",
+        "formatLabel": "Deux intentions de curiethérapie",
+        "title": "Curiethérapie exclusive ou boost : deux intentions distinctes",
         "imageSrc": "/figures/prostate/definitive-radiotherapy/04-definitive-rt-04-brachytherapy.svg",
-        "altText": "Schéma en 4 étapes pour curiethérapie exclusive ou boost : deux intentions distinctes : Risque tumoral, puis Fonction urinaire et anatomie, puis Monothérapie ou boost, puis Contrôle et toxicité.",
-        "caption": "Lecture de gauche à droite : Risque tumoral → Fonction urinaire et anatomie → Monothérapie ou boost → Contrôle et toxicité. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Deux intentions de curiethérapie pour « Curiethérapie exclusive ou boost : deux intentions distinctes ». Repères représentés : Risque tumoral ; Fonction urinaire et anatomie ; Monothérapie ou boost ; Contrôle et toxicité.",
+        "caption": "Deux intentions de curiethérapie : Risque tumoral · Fonction urinaire et anatomie · Monothérapie ou boost · Contrôle et toxicité. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque tumoral",
@@ -539,11 +547,13 @@
         "La RCP doit consigner le statut cN0 ou cN1, la méthode de stadification, le risque ganglionnaire estimé, le bénéfice attendu, les toxicités et la règle du centre."
       ],
       "visual": {
-        "kind": "evidence",
-        "title": "Raisonnement clinique — Volumes : prostate, vésicules et pelvis ne sont pas un paquet",
+        "kind": "anatomy",
+        "diagramType": "target-map",
+        "formatLabel": "Carte des volumes",
+        "title": "Volumes : prostate, vésicules et pelvis ne sont pas un paquet",
         "imageSrc": "/figures/prostate/definitive-radiotherapy/05-definitive-rt-05-pelvis.svg",
-        "altText": "Schéma en 4 étapes pour volumes : prostate, vésicules et pelvis ne sont pas un paquet : Extension locale, puis Risque ganglionnaire, puis Preuves et toxicités, puis Volumes tracés.",
-        "caption": "Lecture de gauche à droite : Extension locale → Risque ganglionnaire → Preuves et toxicités → Volumes tracés. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte des volumes pour « Volumes : prostate, vésicules et pelvis ne sont pas un paquet ». Repères représentés : Extension locale ; Risque ganglionnaire ; Preuves et toxicités ; Volumes tracés.",
+        "caption": "Carte des volumes : Extension locale · Risque ganglionnaire · Preuves et toxicités · Volumes tracés. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Extension locale",
@@ -646,11 +656,13 @@
         "Augmenter la dose à toute la prostate, réaliser un boost focal externe ou associer un boost curiethérapique n'ont ni la même preuve, ni la même distribution de dose, ni la même toxicité."
       ],
       "visual": {
-        "kind": "balance",
-        "title": "Raisonnement clinique — Escalade et boost focal : intensifier sans sacrifier les organes à risque",
+        "kind": "anatomy",
+        "diagramType": "target-map",
+        "formatLabel": "Carte de boost focal",
+        "title": "Escalade et boost focal : intensifier sans sacrifier les organes à risque",
         "imageSrc": "/figures/prostate/definitive-radiotherapy/06-definitive-rt-06-boost.svg",
-        "altText": "Schéma en 4 étapes pour escalade et boost focal : intensifier sans sacrifier les organes à risque : Risque de contrôle local, puis Lésion dominante vérifiée, puis Technique de boost, puis Contraintes et bénéfice attendu.",
-        "caption": "Lecture de gauche à droite : Risque de contrôle local → Lésion dominante vérifiée → Technique de boost → Contraintes et bénéfice attendu. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte de boost focal pour « Escalade et boost focal : intensifier sans sacrifier les organes à risque ». Repères représentés : Risque de contrôle local ; Lésion dominante vérifiée ; Technique de boost ; Contraintes et bénéfice attendu.",
+        "caption": "Carte de boost focal : Risque de contrôle local · Lésion dominante vérifiée · Technique de boost · Contraintes et bénéfice attendu. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque de contrôle local",
@@ -754,11 +766,13 @@
         "La stratégie doit préciser classe et calendrier, date de début, durée cible, prévention osseuse et métabolique, risque cardiovasculaire, santé sexuelle et modalités de surveillance."
       ],
       "visual": {
-        "kind": "ladder",
-        "title": "Raisonnement clinique — ADT avec radiothérapie : indication, durée et prévention forment un tout",
+        "kind": "pathway",
+        "diagramType": "timeline",
+        "formatLabel": "Frise ADT–radiothérapie",
+        "title": "ADT avec radiothérapie : indication, durée et prévention forment un tout",
         "imageSrc": "/figures/prostate/definitive-radiotherapy/07-definitive-rt-07-adt.svg",
-        "altText": "Schéma en 4 étapes pour adt avec radiothérapie : indication, durée et prévention forment un tout : Groupe de risque, puis Bénéfice attendu de l'ADT, puis Durée et calendrier, puis Prévention et surveillance.",
-        "caption": "Lecture de gauche à droite : Groupe de risque → Bénéfice attendu de l'ADT → Durée et calendrier → Prévention et surveillance. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Frise ADT–radiothérapie pour « ADT avec radiothérapie : indication, durée et prévention forment un tout ». Repères représentés : Groupe de risque ; Bénéfice attendu de l'ADT ; Durée et calendrier ; Prévention et surveillance.",
+        "caption": "Frise ADT–radiothérapie : Groupe de risque · Bénéfice attendu de l'ADT · Durée et calendrier · Prévention et surveillance. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Groupe de risque",

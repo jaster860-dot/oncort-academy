@@ -1,47 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
-  <title id="title">Raisonnement clinique — Santé osseuse après cancer : mesurer le risque et le mouvement</title>
-  <desc id="desc">Schéma en 4 étapes pour santé osseuse après cancer : mesurer le risque et le mouvement : ADT et facteurs de fracture, puis DXA/risque, puis Exercice et nutrition, puis Anti-résorptif si indiqué.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M 0 0 L 12 6 L 0 12 z" fill="#24313A"/></marker>
-  </defs>
+  <title id="title">Santé osseuse après cancer : mesurer le risque et le mouvement</title>
+  <desc id="desc">Carte os–muscle pour « Santé osseuse après cancer : mesurer le risque et le mouvement ». Repères représentés : ADT et facteurs de fracture ; DXA/risque ; Exercice et nutrition ; Anti-résorptif si indiqué.</desc>
+  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
   <rect width="1376" height="768" fill="#FFF8E8"/>
-  <rect x="0" y="0" width="18" height="768" fill="#007C83"/>
-  <text x="62" y="62" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="750" fill="#007C83" letter-spacing="2">ONCORT ACADEMY · PROSTATE</text>
-  <text x="62" y="116" font-family="Inter, Arial, sans-serif" font-size="38" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="62" dy="0">Santé osseuse après cancer : mesurer le risque et le mouvement</tspan></text>
-  <text x="62" y="204" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500" fill="#24313A">Chaîne de raisonnement — chaque étape garde sa question et ses limites</text>
-  <path d="M 340 403 H 374" stroke="#24313A" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/><g>
-      <rect x="62" y="238" width="270" height="330" rx="24" fill="#DDF3F1" stroke="#007C83" stroke-width="4"/>
-      <circle cx="104" cy="283" r="25" fill="#007C83"/>
-      <text x="104" y="291" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="104" dy="0">01</tspan></text>
-      <text x="90" y="350" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="90" dy="0">ADT et facteurs de</tspan><tspan x="90" dy="32">fracture</tspan></text>
-      <line x1="90" y1="440" x2="304" y2="440" stroke="#007C83" stroke-width="2" stroke-dasharray="8 7"/>
-      <text x="90" y="468" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#24313A" text-anchor="start"><tspan x="90" dy="0">Durée d&apos;ADT, âge, fracture</tspan><tspan x="90" dy="21">antérieure, chutes,</tspan><tspan x="90" dy="21">corticoïdes, poids, tabac,</tspan><tspan x="90" dy="21">alcool, vitamine D et densité</tspan><tspan x="90" dy="21">osseuse…</tspan></text>
-    </g>
-<path d="M 664 403 H 698" stroke="#24313A" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/><g>
-      <rect x="386" y="238" width="270" height="330" rx="24" fill="#E5EEF8" stroke="#2563A6" stroke-width="4"/>
-      <circle cx="428" cy="283" r="25" fill="#2563A6"/>
-      <text x="428" y="291" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="428" dy="0">02</tspan></text>
-      <text x="414" y="350" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="414" dy="0">DXA/risque</tspan></text>
-      <line x1="414" y1="440" x2="628" y2="440" stroke="#2563A6" stroke-width="2" stroke-dasharray="8 7"/>
-      <text x="414" y="468" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#24313A" text-anchor="start"><tspan x="414" dy="0">Exercice porteur et résistance,</tspan><tspan x="414" dy="21">prévention des chutes, apport</tspan><tspan x="414" dy="21">protéique et calcique adapté et</tspan><tspan x="414" dy="21">correction d&apos;une carence en</tspan><tspan x="414" dy="21">vitamine…</tspan></text>
-    </g>
-<path d="M 988 403 H 1022" stroke="#24313A" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/><g>
-      <rect x="710" y="238" width="270" height="330" rx="24" fill="#FCE8C8" stroke="#D97706" stroke-width="4"/>
-      <circle cx="752" cy="283" r="25" fill="#D97706"/>
-      <text x="752" y="291" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="752" dy="0">03</tspan></text>
-      <text x="738" y="350" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="738" dy="0">Exercice et nutrition</tspan></text>
-      <line x1="738" y1="440" x2="952" y2="440" stroke="#D97706" stroke-width="2" stroke-dasharray="8 7"/>
-      <text x="738" y="468" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#24313A" text-anchor="start"><tspan x="738" dy="0">La prévention combine mesure du</tspan><tspan x="738" dy="21">risque, mouvement, nutrition et</tspan><tspan x="738" dy="21">médicament selon indication.</tspan></text>
-    </g>
-<g>
-      <rect x="1034" y="238" width="270" height="330" rx="24" fill="#FFFFFF" stroke="#24313A" stroke-width="4"/>
-      <circle cx="1076" cy="283" r="25" fill="#24313A"/>
-      <text x="1076" y="291" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" fill="#FFFFFF" text-anchor="middle"><tspan x="1076" dy="0">04</tspan></text>
-      <text x="1062" y="350" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="1062" dy="0">Anti-résorptif si</tspan><tspan x="1062" dy="32">indiqué</tspan></text>
-      <line x1="1062" y1="440" x2="1276" y2="440" stroke="#24313A" stroke-width="2" stroke-dasharray="8 7"/>
-      <text x="1062" y="468" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500" fill="#24313A" text-anchor="start"><tspan x="1062" dy="0">Durée d&apos;ADT, âge, fracture</tspan><tspan x="1062" dy="21">antérieure, chutes,</tspan><tspan x="1062" dy="21">corticoïdes, poids, tabac,</tspan><tspan x="1062" dy="21">alcool, vitamine D et densité</tspan><tspan x="1062" dy="21">osseuse…</tspan></text>
-    </g>
-  <rect x="62" y="624" width="1252" height="82" rx="18" fill="#24313A"/>
-  <text x="91" y="658" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#FFFFFF">SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="91" y="686" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="450" fill="#FFFFFF">Revue clinique nominative requise avant toute validation ou utilisation décisionnelle.</text>
-</svg>
+  <rect width="18" height="768" fill="#007C83"/>
+  <text x="60" y="46" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83" letter-spacing="2">ONCORT ACADEMY · PROSTATE</text>
+  <rect x="60" y="62" width="190" height="34" rx="17" fill="#DDF3F1"/>
+  <text x="77" y="85" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83">CARTE OS–MUSCLE</text>
+  <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="60" dy="0">Santé osseuse après cancer : mesurer le risque et le</tspan><tspan x="60" dy="39">mouvement</tspan></text>
+  <g transform="translate(688 420)"><circle cx="0" cy="-145" r="43" fill="#DDF3F1" stroke="#007C83" stroke-width="5"/><path d="M 0 -98 L 0 88 M -95 -40 L 0 -5 L 95 -40 M 0 88 L -70 205 M 0 88 L 70 205" fill="none" stroke="#24313A" stroke-width="24" stroke-linecap="round"/><circle cx="0" cy="10" r="72" fill="none" stroke="#FCE8C8" stroke-width="26" opacity=".8"/></g>
+    <path d="M 330 275 C 440 275 500 300 600 330" fill="none" stroke="#2563A6" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/><path d="M 1045 275 C 930 275 870 300 775 330" fill="none" stroke="#007C83" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+    <path d="M 330 565 C 450 565 500 535 615 490" fill="none" stroke="#D97706" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/><path d="M 1045 565 C 930 565 865 535 760 490" fill="none" stroke="#C85C4A" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+    <g><rect x="70" y="235" width="300" height="85" rx="20" fill="#E5EEF8" stroke="#2563A6" stroke-width="3"/><text x="220" y="283.45" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="220" dy="0">ADT et facteurs de fracture</tspan></text></g><g><rect x="1006" y="235" width="300" height="85" rx="20" fill="#DDF3F1" stroke="#007C83" stroke-width="3"/><text x="1156" y="283.45" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="1156" dy="0">DXA/risque</tspan></text></g>
+    <g><rect x="70" y="540" width="300" height="85" rx="20" fill="#FCE8C8" stroke="#D97706" stroke-width="3"/><text x="220" y="588.45" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="220" dy="0">Exercice et nutrition</tspan></text></g><g><rect x="1006" y="540" width="300" height="85" rx="20" fill="#F8DDD7" stroke="#C85C4A" stroke-width="3"/><text x="1156" y="588.45" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="1156" dy="0">Anti-résorptif si indiqué</tspan></text></g>
+  <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
+  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Carte os–muscle · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
+  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
+  </svg>

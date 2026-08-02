@@ -96,11 +96,13 @@
         "L'IRM apporte des informations sur une extension extraprostatique, les vésicules séminales et les ganglions visibles."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — TNM : décrire l'extension sans mélanger les instruments",
+        "kind": "anatomy",
+        "diagramType": "layered-map",
+        "formatLabel": "Carte TNM",
+        "title": "TNM : décrire l'extension sans mélanger les instruments",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/01-tnm.svg",
-        "altText": "Schéma en 4 étapes pour tnm : décrire l'extension sans mélanger les instruments : Examen clinique, puis Imagerie nommée, puis cTNM explicite, puis Décision sans faux mélange.",
-        "caption": "Lecture de gauche à droite : Examen clinique → Imagerie nommée → cTNM explicite → Décision sans faux mélange. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte TNM pour « TNM : décrire l'extension sans mélanger les instruments ». Repères représentés : Examen clinique ; Imagerie nommée ; cTNM explicite ; Décision sans faux mélange.",
+        "caption": "Carte TNM : Examen clinique · Imagerie nommée · cTNM explicite · Décision sans faux mélange. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Examen clinique",
@@ -202,11 +204,13 @@
         "La classification française de D'Amico et la grille EAU ne découpent pas exactement les mêmes catégories."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — Groupes de risque : combiner PSA, cT et ISUP",
+        "kind": "matrix",
+        "diagramType": "matrix",
+        "formatLabel": "Matrice PSA–cT–ISUP",
+        "title": "Groupes de risque : combiner PSA, cT et ISUP",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/02-risk-groups.svg",
-        "altText": "Schéma en 4 étapes pour groupes de risque : combiner psa, ct et isup : PSA initial, puis cT et ISUP, puis Référentiel daté, puis Groupe de risque reproductible.",
-        "caption": "Lecture de gauche à droite : PSA initial → cT et ISUP → Référentiel daté → Groupe de risque reproductible. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice PSA–cT–ISUP pour « Groupes de risque : combiner PSA, cT et ISUP ». Repères représentés : PSA initial ; cT et ISUP ; Référentiel daté ; Groupe de risque reproductible.",
+        "caption": "Matrice PSA–cT–ISUP : PSA initial · cT et ISUP · Référentiel daté · Groupe de risque reproductible. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "PSA initial",
@@ -310,10 +314,12 @@
       ],
       "visual": {
         "kind": "decision",
-        "title": "Raisonnement clinique — Choisir le bilan d'extension qui peut changer la décision",
+        "diagramType": "decision-tree",
+        "formatLabel": "Algorithme d’imagerie",
+        "title": "Choisir le bilan d'extension qui peut changer la décision",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/03-imaging-indications.svg",
-        "altText": "Schéma en 4 étapes pour choisir le bilan d'extension qui peut changer la décision : Groupe de risque, puis Question de stadification, puis Modalité disponible, puis Impact décisionnel explicite.",
-        "caption": "Lecture de gauche à droite : Groupe de risque → Question de stadification → Modalité disponible → Impact décisionnel explicite. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Algorithme d’imagerie pour « Choisir le bilan d'extension qui peut changer la décision ». Repères représentés : Groupe de risque ; Question de stadification ; Modalité disponible ; Impact décisionnel explicite.",
+        "caption": "Algorithme d’imagerie : Groupe de risque · Question de stadification · Modalité disponible · Impact décisionnel explicite. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Groupe de risque",
@@ -416,11 +422,13 @@
         "Des ganglions sympathiques, des lésions osseuses bénignes, des processus inflammatoires ou d'autres tumeurs peuvent fixer un ligand du PSMA."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — PSMA-PET : gagner en détection sans perdre l'esprit critique",
+        "kind": "balance",
+        "diagramType": "balance",
+        "formatLabel": "Détection et limites",
+        "title": "PSMA-PET : gagner en détection sans perdre l'esprit critique",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/04-psma-limits.svg",
-        "altText": "Schéma en 4 étapes pour psma-pet : gagner en détection sans perdre l'esprit critique : Risque prétest, puis Signal PSMA et morphologie, puis Limites techniques, puis Décision proportionnée.",
-        "caption": "Lecture de gauche à droite : Risque prétest → Signal PSMA et morphologie → Limites techniques → Décision proportionnée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Détection et limites pour « PSMA-PET : gagner en détection sans perdre l'esprit critique ». Repères représentés : Risque prétest ; Signal PSMA et morphologie ; Limites techniques ; Décision proportionnée.",
+        "caption": "Détection et limites : Risque prétest · Signal PSMA et morphologie · Limites techniques · Décision proportionnée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque prétest",
@@ -522,10 +530,12 @@
       ],
       "visual": {
         "kind": "evidence",
-        "title": "Raisonnement clinique — Risque ganglionnaire : documenter une probabilité sans inventer un stade",
+        "diagramType": "gauge",
+        "formatLabel": "Jauge de probabilité ganglionnaire",
+        "title": "Risque ganglionnaire : documenter une probabilité sans inventer un stade",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/05-nodal-prediction.svg",
-        "altText": "Schéma en 4 étapes pour risque ganglionnaire : documenter une probabilité sans inventer un stade : Variables sources vérifiées, puis Nomogramme nommé et versionné, puis Probabilité avec limites, puis Décision contextualisée sans faux stade.",
-        "caption": "Lecture de gauche à droite : Variables sources vérifiées → Nomogramme nommé et versionné → Probabilité avec limites → Décision contextualisée sans faux stade. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Jauge de probabilité ganglionnaire pour « Risque ganglionnaire : documenter une probabilité sans inventer un stade ». Repères représentés : Variables sources vérifiées ; Nomogramme nommé et versionné ; Probabilité avec limites ; Décision contextualisée sans faux stade.",
+        "caption": "Jauge de probabilité ganglionnaire : Variables sources vérifiées · Nomogramme nommé et versionné · Probabilité avec limites · Décision contextualisée sans faux stade. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Variables sources vérifiées",
@@ -628,11 +638,13 @@
         "Dans la maladie métastatique, les tests somatiques et germinaux prennent une importance thérapeutique croissante, notamment pour les voies de réparation de l'ADN."
       ],
       "visual": {
-        "kind": "balance",
-        "title": "Raisonnement clinique — Germinal ou somatique : poser la bonne question au bon moment",
+        "kind": "comparison",
+        "diagramType": "split-path",
+        "formatLabel": "Voies germinale et somatique",
+        "title": "Germinal ou somatique : poser la bonne question au bon moment",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/06-germline-somatic.svg",
-        "altText": "Schéma en 4 étapes pour germinal ou somatique : poser la bonne question au bon moment : Question clinique, puis Germinal ou somatique, puis Conseil et consentement, puis Conséquence patient–famille–traitement.",
-        "caption": "Lecture de gauche à droite : Question clinique → Germinal ou somatique → Conseil et consentement → Conséquence patient–famille–traitement. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Voies germinale et somatique pour « Germinal ou somatique : poser la bonne question au bon moment ». Repères représentés : Question clinique ; Germinal ou somatique ; Conseil et consentement ; Conséquence patient–famille–traitement.",
+        "caption": "Voies germinale et somatique : Question clinique · Germinal ou somatique · Conseil et consentement · Conséquence patient–famille–traitement. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Question clinique",

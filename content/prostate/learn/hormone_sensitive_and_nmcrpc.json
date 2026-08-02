@@ -105,11 +105,13 @@
         "Une maladie synchrone est présente lors de la première présentation ; une maladie métachrone apparaît après un traitement local antérieur."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — Volume, risque et synchronie : garder les définitions de leurs essais",
+        "kind": "matrix",
+        "diagramType": "matrix",
+        "formatLabel": "Matrice volume–risque–synchronie",
+        "title": "Volume, risque et synchronie : garder les définitions de leurs essais",
         "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/01-burden-synchrony.svg",
-        "altText": "Schéma en 4 étapes pour volume, risque et synchronie : garder les définitions de leurs essais : Imagerie conventionnelle source, puis Définition nommée, puis Volume et risque séparés, puis Synchronie explicite avant traitement.",
-        "caption": "Lecture de gauche à droite : Imagerie conventionnelle source → Définition nommée → Volume et risque séparés → Synchronie explicite avant traitement. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice volume–risque–synchronie pour « Volume, risque et synchronie : garder les définitions de leurs essais ». Repères représentés : Imagerie conventionnelle source ; Définition nommée ; Volume et risque séparés ; Synchronie explicite avant traitement.",
+        "caption": "Matrice volume–risque–synchronie : Imagerie conventionnelle source · Définition nommée · Volume et risque séparés · Synchronie explicite avant traitement. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Imagerie conventionnelle source",
@@ -213,10 +215,12 @@
       ],
       "visual": {
         "kind": "comparison",
-        "title": "Raisonnement clinique — mHSPC : construire l'intensification initiale",
+        "diagramType": "parallel-paths",
+        "formatLabel": "Doublet ou triplet",
+        "title": "mHSPC : construire l'intensification initiale",
         "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/02-doublet-triplet.svg",
-        "altText": "Schéma en 4 étapes pour mhspc : construire l'intensification initiale : Volume–synchronie–fitness, puis Socle ADT, puis Doublet ou triplet, puis Prévention et réévaluation.",
-        "caption": "Lecture de gauche à droite : Volume–synchronie–fitness → Socle ADT → Doublet ou triplet → Prévention et réévaluation. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Doublet ou triplet pour « mHSPC : construire l'intensification initiale ». Repères représentés : Volume–synchronie–fitness ; Socle ADT ; Doublet ou triplet ; Prévention et réévaluation.",
+        "caption": "Doublet ou triplet : Volume–synchronie–fitness · Socle ADT · Doublet ou triplet · Prévention et réévaluation. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Volume–synchronie–fitness",
@@ -320,11 +324,13 @@
         "Un patient faible volume au scanner peut avoir davantage de foyers au TEP-PSMA."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — Irradier la prostate en M1 : préserver la population de preuve",
+        "kind": "evidence",
+        "diagramType": "evidence-bridge",
+        "formatLabel": "Transposition de la population de preuve",
+        "title": "Irradier la prostate en M1 : préserver la population de preuve",
         "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/03-primary-rt.svg",
-        "altText": "Schéma en 4 étapes pour irradier la prostate en m1 : préserver la population de preuve : M1 de novo, puis Volume conventionnel, puis Systémique intensifié, puis RT prostatique intégrée.",
-        "caption": "Lecture de gauche à droite : M1 de novo → Volume conventionnel → Systémique intensifié → RT prostatique intégrée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Transposition de la population de preuve pour « Irradier la prostate en M1 : préserver la population de preuve ». Repères représentés : M1 de novo ; Volume conventionnel ; Systémique intensifié ; RT prostatique intégrée.",
+        "caption": "Transposition de la population de preuve : M1 de novo · Volume conventionnel · Systémique intensifié · RT prostatique intégrée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "M1 de novo",
@@ -427,11 +433,13 @@
         "Un TEP-PSMA peut révéler des lésions occultes à l'imagerie conventionnelle."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — nmCRPC : trois conditions avant de traiter",
+        "kind": "decision",
+        "diagramType": "gate",
+        "formatLabel": "Trois conditions cumulatives",
+        "title": "nmCRPC : trois conditions avant de traiter",
         "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/04-nmcrpc.svg",
-        "altText": "Schéma en 4 étapes pour nmcrpc : trois conditions avant de traiter : Castration confirmée, puis Progression PSA, puis M0 conventionnel, puis PSADT et ARPI adapté.",
-        "caption": "Lecture de gauche à droite : Castration confirmée → Progression PSA → M0 conventionnel → PSADT et ARPI adapté. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Trois conditions cumulatives pour « nmCRPC : trois conditions avant de traiter ». Repères représentés : Castration confirmée ; Progression PSA ; M0 conventionnel ; PSADT et ARPI adapté.",
+        "caption": "Trois conditions cumulatives : Castration confirmée · Progression PSA · M0 conventionnel · PSADT et ARPI adapté. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Castration confirmée",
@@ -534,11 +542,13 @@
         "La présence de métastases osseuses hormonosensibles ne suffit pas à prescrire systématiquement un anti-résorptif à dose de prévention des événements squelettiques."
       ],
       "visual": {
-        "kind": "evidence",
-        "title": "Raisonnement clinique — Métastases osseuses : douleur, urgence et prévention selon l'état",
+        "kind": "anatomy",
+        "diagramType": "body-map",
+        "formatLabel": "Carte des métastases osseuses",
+        "title": "Métastases osseuses : douleur, urgence et prévention selon l'état",
         "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/05-bone.svg",
-        "altText": "Schéma en 4 étapes pour métastases osseuses : douleur, urgence et prévention selon l'état : Symptôme ou risque local, puis Urgence et stabilité, puis État mHSPC ou mCRPC, puis RT–chirurgie–anti-résorptif selon objectif.",
-        "caption": "Lecture de gauche à droite : Symptôme ou risque local → Urgence et stabilité → État mHSPC ou mCRPC → RT–chirurgie–anti-résorptif selon objectif. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte des métastases osseuses pour « Métastases osseuses : douleur, urgence et prévention selon l'état ». Repères représentés : Symptôme ou risque local ; Urgence et stabilité ; État mHSPC ou mCRPC ; RT–chirurgie–anti-résorptif selon objectif.",
+        "caption": "Carte des métastases osseuses : Symptôme ou risque local · Urgence et stabilité · État mHSPC ou mCRPC · RT–chirurgie–anti-résorptif selon objectif. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Symptôme ou risque local",

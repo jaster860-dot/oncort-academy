@@ -94,10 +94,12 @@
       ],
       "visual": {
         "kind": "pathway",
-        "title": "Raisonnement clinique — Surveillance active : différer sans abandonner l'intention curative",
+        "diagramType": "monitoring-loop",
+        "formatLabel": "Boucle de surveillance",
+        "title": "Surveillance active : différer sans abandonner l'intention curative",
         "imageSrc": "/figures/prostate/deferred-management/01-active-surveillance.svg",
-        "altText": "Schéma en 4 étapes pour surveillance active : différer sans abandonner l'intention curative : Risque tumoral favorable, puis Espérance de vie et préférences, puis Évaluation IRM–biopsies de qualité, puis Surveillance curative différée.",
-        "caption": "Lecture de gauche à droite : Risque tumoral favorable → Espérance de vie et préférences → Évaluation IRM–biopsies de qualité → Surveillance curative différée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Boucle de surveillance pour « Surveillance active : différer sans abandonner l'intention curative ». Repères représentés : Risque tumoral favorable ; Espérance de vie et préférences ; Évaluation IRM–biopsies de qualité ; Surveillance curative différée.",
+        "caption": "Boucle de surveillance : Risque tumoral favorable · Espérance de vie et préférences · Évaluation IRM–biopsies de qualité · Surveillance curative différée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque tumoral favorable",
@@ -198,11 +200,13 @@
         "La reclassification histologique, en particulier vers ISUP 3 ou la découverte d'une architecture cribriforme ou intracanalaire, pèse fortement en faveur d'un traitement différé."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — Suivre et reclasser : le PSA alerte, l'histologie arbitre",
+        "kind": "pathway",
+        "diagramType": "monitoring-loop",
+        "formatLabel": "Algorithme de reclassification",
+        "title": "Suivre et reclasser : le PSA alerte, l'histologie arbitre",
         "imageSrc": "/figures/prostate/deferred-management/02-monitoring-and-reclassification.svg",
-        "altText": "Schéma en 4 étapes pour suivre et reclasser : le psa alerte, l'histologie arbitre : PSA–clinique–IRM sériés, puis Signal de changement, puis Biopsies de confirmation, puis Traitement différé ou adaptation de l'intention.",
-        "caption": "Lecture de gauche à droite : PSA–clinique–IRM sériés → Signal de changement → Biopsies de confirmation → Traitement différé ou adaptation de l'intention. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Algorithme de reclassification pour « Suivre et reclasser : le PSA alerte, l'histologie arbitre ». Repères représentés : PSA–clinique–IRM sériés ; Signal de changement ; Biopsies de confirmation ; Traitement différé ou adaptation de l'intention.",
+        "caption": "Algorithme de reclassification : PSA–clinique–IRM sériés · Signal de changement · Biopsies de confirmation · Traitement différé ou adaptation de l'intention. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "PSA–clinique–IRM sériés",
@@ -304,11 +308,13 @@
         "Deux personnes du même âge peuvent avoir des espérances de vie et des priorités très différentes."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — Abstention-surveillance : privilégier la qualité de vie quand le curatif n'apporterait pas de bénéfice utile",
+        "kind": "balance",
+        "diagramType": "balance",
+        "formatLabel": "Balance d’horizons",
+        "title": "Abstention-surveillance : privilégier la qualité de vie quand le curatif n'apporterait pas de bénéfice utile",
         "imageSrc": "/figures/prostate/deferred-management/03-watchful-waiting.svg",
-        "altText": "Schéma en 4 étapes pour abstention-surveillance : privilégier la qualité de vie quand le curatif n'apporterait pas de bénéfice utile : État de santé global, puis Bénéfice curatif improbable à l'horizon utile, puis Suivi clinique individualisé, puis Traitement palliatif si symptômes ou menace.",
-        "caption": "Lecture de gauche à droite : État de santé global → Bénéfice curatif improbable à l'horizon utile → Suivi clinique individualisé → Traitement palliatif si symptômes ou menace. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Balance d’horizons pour « Abstention-surveillance : privilégier la qualité de vie quand le curatif n'apporterait pas de bénéfice utile ». Repères représentés : État de santé global ; Bénéfice curatif improbable à l'horizon utile ; Suivi clinique individualisé ; Traitement palliatif si symptômes ou menace.",
+        "caption": "Balance d’horizons : État de santé global · Bénéfice curatif improbable à l'horizon utile · Suivi clinique individualisé · Traitement palliatif si symptômes ou menace. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "État de santé global",
@@ -411,11 +417,13 @@
         "La discussion ne doit pas opposer une procédure séduisante à un traitement radical abstrait."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — Traitements focaux et décision partagée : ne pas confondre promesse fonctionnelle et preuve oncologique",
+        "kind": "evidence",
+        "diagramType": "evidence-bridge",
+        "formatLabel": "Pont preuve–préférence",
+        "title": "Traitements focaux et décision partagée : ne pas confondre promesse fonctionnelle et preuve oncologique",
         "imageSrc": "/figures/prostate/deferred-management/04-focal-and-shared-decision.svg",
-        "altText": "Schéma en 4 étapes pour traitements focaux et décision partagée : ne pas confondre promesse fonctionnelle et preuve oncologique : Priorités du patient, puis Cartographie tumorale, puis Niveau de preuve et cadre d'accès, puis Choix informé avec plan de suivi.",
-        "caption": "Lecture de gauche à droite : Priorités du patient → Cartographie tumorale → Niveau de preuve et cadre d'accès → Choix informé avec plan de suivi. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Pont preuve–préférence pour « Traitements focaux et décision partagée : ne pas confondre promesse fonctionnelle et preuve oncologique ». Repères représentés : Priorités du patient ; Cartographie tumorale ; Niveau de preuve et cadre d'accès ; Choix informé avec plan de suivi.",
+        "caption": "Pont preuve–préférence : Priorités du patient · Cartographie tumorale · Niveau de preuve et cadre d'accès · Choix informé avec plan de suivi. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Priorités du patient",
@@ -518,11 +526,13 @@
         "Le dossier doit consigner les options présentées, les incertitudes, les priorités du patient et le plan de réévaluation."
       ],
       "visual": {
-        "kind": "evidence",
-        "title": "Raisonnement clinique — Décision partagée : comparer des parcours et leurs conséquences",
+        "kind": "comparison",
+        "diagramType": "parallel-paths",
+        "formatLabel": "Comparaison de trajectoires",
+        "title": "Décision partagée : comparer des parcours et leurs conséquences",
         "imageSrc": "/figures/prostate/deferred-management/05-shared-decision.svg",
-        "altText": "Schéma en 4 étapes pour décision partagée : comparer des parcours et leurs conséquences : Options admissibles, puis Bénéfices–risques–incertitudes, puis Valeurs du patient, puis Choix documenté et révisable.",
-        "caption": "Lecture de gauche à droite : Options admissibles → Bénéfices–risques–incertitudes → Valeurs du patient → Choix documenté et révisable. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Comparaison de trajectoires pour « Décision partagée : comparer des parcours et leurs conséquences ». Repères représentés : Options admissibles ; Bénéfices–risques–incertitudes ; Valeurs du patient ; Choix documenté et révisable.",
+        "caption": "Comparaison de trajectoires : Options admissibles · Bénéfices–risques–incertitudes · Valeurs du patient · Choix documenté et révisable. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Options admissibles",

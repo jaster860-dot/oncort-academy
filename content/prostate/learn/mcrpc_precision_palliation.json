@@ -116,11 +116,13 @@
         "Le mCRPC est une décision longitudinale fondée sur l'état actuel et tout l'historique."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — Confirmer le mCRPC et cartographier la trajectoire",
+        "kind": "ladder",
+        "diagramType": "staircase",
+        "formatLabel": "Trajectoire vers le mCRPC",
+        "title": "Confirmer le mCRPC et cartographier la trajectoire",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/01-state.svg",
-        "altText": "Schéma en 4 étapes pour confirmer le mcrpc et cartographier la trajectoire : Castration + progression + M1, puis Expositions et réponses, puis Phénotype actuel, puis Options réellement disponibles.",
-        "caption": "Lecture de gauche à droite : Castration + progression + M1 → Expositions et réponses → Phénotype actuel → Options réellement disponibles. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Trajectoire vers le mCRPC pour « Confirmer le mCRPC et cartographier la trajectoire ». Repères représentés : Castration + progression + M1 ; Expositions et réponses ; Phénotype actuel ; Options réellement disponibles.",
+        "caption": "Trajectoire vers le mCRPC : Castration + progression + M1 · Expositions et réponses · Phénotype actuel · Options réellement disponibles. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Castration + progression + M1",
@@ -223,11 +225,13 @@
         "Le temps, la qualité de l'échantillon et les implications familiales font partie du parcours."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — Oncologie de précision : tester assez tôt et au bon niveau",
+        "kind": "pathway",
+        "diagramType": "molecular-pathway",
+        "formatLabel": "Parcours du test moléculaire",
+        "title": "Oncologie de précision : tester assez tôt et au bon niveau",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/02-testing.svg",
-        "altText": "Schéma en 4 étapes pour oncologie de précision : tester assez tôt et au bon niveau : Question germinale/somatique, puis Matrice et qualité, puis Interprétation multidisciplinaire, puis Traitement et implications familiales.",
-        "caption": "Lecture de gauche à droite : Question germinale/somatique → Matrice et qualité → Interprétation multidisciplinaire → Traitement et implications familiales. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Parcours du test moléculaire pour « Oncologie de précision : tester assez tôt et au bon niveau ». Repères représentés : Question germinale/somatique ; Matrice et qualité ; Interprétation multidisciplinaire ; Traitement et implications familiales.",
+        "caption": "Parcours du test moléculaire : Question germinale/somatique · Matrice et qualité · Interprétation multidisciplinaire · Traitement et implications familiales. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Question germinale/somatique",
@@ -332,11 +336,13 @@
         "Le bénéfice et l'accès dépendent du biomarqueur et de la séquence exacts."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — HRR/BRCA et PARP : lire le gène, la ligne et le partenaire",
+        "kind": "pathway",
+        "diagramType": "molecular-pathway",
+        "formatLabel": "Voie HRR–PARP",
+        "title": "HRR/BRCA et PARP : lire le gène, la ligne et le partenaire",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/03-parp.svg",
-        "altText": "Schéma en 4 étapes pour hrr/brca et parp : lire le gène, la ligne et le partenaire : Altération HRR qualifiée, puis Indication réglementaire, puis Expositions antérieures, puis PARP et surveillance.",
-        "caption": "Lecture de gauche à droite : Altération HRR qualifiée → Indication réglementaire → Expositions antérieures → PARP et surveillance. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Voie HRR–PARP pour « HRR/BRCA et PARP : lire le gène, la ligne et le partenaire ». Repères représentés : Altération HRR qualifiée ; Indication réglementaire ; Expositions antérieures ; PARP et surveillance.",
+        "caption": "Voie HRR–PARP : Altération HRR qualifiée · Indication réglementaire · Expositions antérieures · PARP et surveillance. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Altération HRR qualifiée",
@@ -439,11 +445,13 @@
         "La rareté n'annule pas l'intérêt, mais impose une traçabilité stricte."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — MSI/MMR et biomarqueurs rares : chercher sans surpromettre",
+        "kind": "decision",
+        "diagramType": "gate",
+        "formatLabel": "Filtre des biomarqueurs rares",
+        "title": "MSI/MMR et biomarqueurs rares : chercher sans surpromettre",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/04-rare-biomarkers.svg",
-        "altText": "Schéma en 4 étapes pour msi/mmr et biomarqueurs rares : chercher sans surpromettre : Biomarqueur validé, puis Niveau de preuve, puis Accès, puis Option ou essai clinique.",
-        "caption": "Lecture de gauche à droite : Biomarqueur validé → Niveau de preuve → Accès → Option ou essai clinique. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Filtre des biomarqueurs rares pour « MSI/MMR et biomarqueurs rares : chercher sans surpromettre ». Repères représentés : Biomarqueur validé ; Niveau de preuve ; Accès ; Option ou essai clinique.",
+        "caption": "Filtre des biomarqueurs rares : Biomarqueur validé · Niveau de preuve · Accès · Option ou essai clinique. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Biomarqueur validé",
@@ -547,11 +555,13 @@
         "Le phénotype osseux, l'absence de viscéral et la sécurité médullaire structurent la sélection."
       ],
       "visual": {
-        "kind": "evidence",
-        "title": "Raisonnement clinique — Radium-223 : sélectionner le phénotype osseux",
+        "kind": "anatomy",
+        "diagramType": "body-map",
+        "formatLabel": "Phénotype osseux",
+        "title": "Radium-223 : sélectionner le phénotype osseux",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/05-radium.svg",
-        "altText": "Schéma en 4 étapes pour radium-223 : sélectionner le phénotype osseux : mCRPC osseux, puis Pas de viscéral dominant, puis Moelle et fracture, puis Radium avec protection adaptée.",
-        "caption": "Lecture de gauche à droite : mCRPC osseux → Pas de viscéral dominant → Moelle et fracture → Radium avec protection adaptée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Phénotype osseux pour « Radium-223 : sélectionner le phénotype osseux ». Repères représentés : mCRPC osseux ; Pas de viscéral dominant ; Moelle et fracture ; Radium avec protection adaptée.",
+        "caption": "Phénotype osseux : mCRPC osseux · Pas de viscéral dominant · Moelle et fracture · Radium avec protection adaptée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "mCRPC osseux",
@@ -656,11 +666,13 @@
         "La sélection est theranostique, clinique, biologique et réglementaire."
       ],
       "visual": {
-        "kind": "balance",
-        "title": "Raisonnement clinique — Lutétium-PSMA : au-delà d'un TEP positif",
+        "kind": "pathway",
+        "diagramType": "molecular-pathway",
+        "formatLabel": "Sélection PSMA–radioligand",
+        "title": "Lutétium-PSMA : au-delà d'un TEP positif",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/06-lutetium.svg",
-        "altText": "Schéma en 4 étapes pour lutétium-psma : au-delà d'un tep positif : mCRPC et expositions, puis Imagerie PSMA qualifiée, puis Réserves et logistique, puis Radioligand avec suivi.",
-        "caption": "Lecture de gauche à droite : mCRPC et expositions → Imagerie PSMA qualifiée → Réserves et logistique → Radioligand avec suivi. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Sélection PSMA–radioligand pour « Lutétium-PSMA : au-delà d'un TEP positif ». Repères représentés : mCRPC et expositions ; Imagerie PSMA qualifiée ; Réserves et logistique ; Radioligand avec suivi.",
+        "caption": "Sélection PSMA–radioligand : mCRPC et expositions · Imagerie PSMA qualifiée · Réserves et logistique · Radioligand avec suivi. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "mCRPC et expositions",
@@ -764,11 +776,13 @@
         "Réponse et toxicité sont multiaxiales ; le PSA isolé peut tromper."
       ],
       "visual": {
-        "kind": "ladder",
-        "title": "Raisonnement clinique — Radioligand PSMA : organiser le parcours et l'évaluation",
+        "kind": "pathway",
+        "diagramType": "monitoring-loop",
+        "formatLabel": "Cycle du radioligand",
+        "title": "Radioligand PSMA : organiser le parcours et l'évaluation",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/07-rlt-workflow.svg",
-        "altText": "Schéma en 4 étapes pour radioligand psma : organiser le parcours et l'évaluation : Sélection RCP, puis Préparation radioprotection, puis Cycles et biologie, puis Évaluation multiaxiale.",
-        "caption": "Lecture de gauche à droite : Sélection RCP → Préparation radioprotection → Cycles et biologie → Évaluation multiaxiale. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Cycle du radioligand pour « Radioligand PSMA : organiser le parcours et l'évaluation ». Repères représentés : Sélection RCP ; Préparation radioprotection ; Cycles et biologie ; Évaluation multiaxiale.",
+        "caption": "Cycle du radioligand : Sélection RCP · Préparation radioprotection · Cycles et biologie · Évaluation multiaxiale. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Sélection RCP",
@@ -872,11 +886,13 @@
         "La résistance croisée rend le changement de mécanisme souvent préférable."
       ],
       "visual": {
-        "kind": "anatomy",
-        "title": "Raisonnement clinique — Séquencer : changer de mécanisme et préserver la suite",
+        "kind": "pathway",
+        "diagramType": "timeline",
+        "formatLabel": "Frise de séquençage",
+        "title": "Séquencer : changer de mécanisme et préserver la suite",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/08-sequence.svg",
-        "altText": "Schéma en 4 étapes pour séquencer : changer de mécanisme et préserver la suite : Résistance et rythme, puis Mécanisme nouveau, puis Réserves actuelles, puis Option suivante préservée.",
-        "caption": "Lecture de gauche à droite : Résistance et rythme → Mécanisme nouveau → Réserves actuelles → Option suivante préservée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Frise de séquençage pour « Séquencer : changer de mécanisme et préserver la suite ». Repères représentés : Résistance et rythme ; Mécanisme nouveau ; Réserves actuelles ; Option suivante préservée.",
+        "caption": "Frise de séquençage : Résistance et rythme · Mécanisme nouveau · Réserves actuelles · Option suivante préservée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Résistance et rythme",
@@ -979,11 +995,13 @@
         "Une discordance agressive peut signaler une transformation et mérite une preuve tissulaire."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — Transformation neuroendocrine : suspecter une biologie discordante",
+        "kind": "comparison",
+        "diagramType": "split-path",
+        "formatLabel": "Discordance clinique–biologique",
+        "title": "Transformation neuroendocrine : suspecter une biologie discordante",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/09-neuroendocrine.svg",
-        "altText": "Schéma en 4 étapes pour transformation neuroendocrine : suspecter une biologie discordante : Discordance clinique–PSA, puis Site accessible, puis Biopsie et pathologie, puis Séquence adaptée.",
-        "caption": "Lecture de gauche à droite : Discordance clinique–PSA → Site accessible → Biopsie et pathologie → Séquence adaptée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Discordance clinique–biologique pour « Transformation neuroendocrine : suspecter une biologie discordante ». Repères représentés : Discordance clinique–PSA ; Site accessible ; Biopsie et pathologie ; Séquence adaptée.",
+        "caption": "Discordance clinique–biologique : Discordance clinique–PSA · Site accessible · Biopsie et pathologie · Séquence adaptée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Discordance clinique–PSA",
@@ -1087,11 +1105,13 @@
         "La palliation locale suit les besoins du patient, pas un rang fixe dans la séquence."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — Radiothérapie palliative : traiter le problème local maintenant",
+        "kind": "anatomy",
+        "diagramType": "body-map",
+        "formatLabel": "Carte d’intervention palliative",
+        "title": "Radiothérapie palliative : traiter le problème local maintenant",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/10-palliative-rt.svg",
-        "altText": "Schéma en 4 étapes pour radiothérapie palliative : traiter le problème local maintenant : Symptôme local, puis Urgence et stabilité, puis Objectif palliatif, puis RT proportionnée et coordination.",
-        "caption": "Lecture de gauche à droite : Symptôme local → Urgence et stabilité → Objectif palliatif → RT proportionnée et coordination. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte d’intervention palliative pour « Radiothérapie palliative : traiter le problème local maintenant ». Repères représentés : Symptôme local ; Urgence et stabilité ; Objectif palliatif ; RT proportionnée et coordination.",
+        "caption": "Carte d’intervention palliative : Symptôme local · Urgence et stabilité · Objectif palliatif · RT proportionnée et coordination. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Symptôme local",
@@ -1195,11 +1215,13 @@
         "L'intégration précoce améliore le contrôle symptomatique et la qualité des décisions."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — Soins de support : une ligne parallèle, jamais la dernière ligne",
+        "kind": "comparison",
+        "diagramType": "parallel-paths",
+        "formatLabel": "Ligne oncologique et soins de support",
+        "title": "Soins de support : une ligne parallèle, jamais la dernière ligne",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/11-supportive.svg",
-        "altText": "Schéma en 4 étapes pour soins de support : une ligne parallèle, jamais la dernière ligne : Besoins multidimensionnels, puis Soutien précoce, puis Objectifs partagés, puis Réévaluation proportionnée.",
-        "caption": "Lecture de gauche à droite : Besoins multidimensionnels → Soutien précoce → Objectifs partagés → Réévaluation proportionnée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Ligne oncologique et soins de support pour « Soins de support : une ligne parallèle, jamais la dernière ligne ». Repères représentés : Besoins multidimensionnels ; Soutien précoce ; Objectifs partagés ; Réévaluation proportionnée.",
+        "caption": "Ligne oncologique et soins de support : Besoins multidimensionnels · Soutien précoce · Objectifs partagés · Réévaluation proportionnée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Besoins multidimensionnels",

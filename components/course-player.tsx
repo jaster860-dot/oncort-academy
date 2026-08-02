@@ -361,7 +361,7 @@ function LessonVisual({ visual }: { visual: LessonVisualData }) {
   return (
     <figure className={`lessonVisual lessonVisual-${visual.kind}`} aria-label={visual.altText}>
       <div className="visualHeading">
-        <span>Figure pédagogique générée</span>
+        <span>{visual.formatLabel ?? "Figure pédagogique"}</span>
         <h3>{visual.title}</h3>
       </div>
       {visual.imageSrc ? (

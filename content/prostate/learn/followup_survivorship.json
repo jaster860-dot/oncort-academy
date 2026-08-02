@@ -107,11 +107,13 @@
         "Chez un patient asymptomatique avec PSA stable, l'imagerie systématique n'est pas utile."
       ],
       "visual": {
-        "kind": "pathway",
-        "title": "Raisonnement clinique — PSA après traitement local : interpréter avant d'imager",
+        "kind": "evidence",
+        "diagramType": "curve",
+        "formatLabel": "Courbe de PSA",
+        "title": "PSA après traitement local : interpréter avant d'imager",
         "imageSrc": "/figures/prostate/followup-survivorship/01-psa.svg",
-        "altText": "Schéma en 4 étapes pour psa après traitement local : interpréter avant d'imager : Traitement initial, puis Trajectoire PSA, puis Risque et symptômes, puis Imagerie seulement décisionnelle.",
-        "caption": "Lecture de gauche à droite : Traitement initial → Trajectoire PSA → Risque et symptômes → Imagerie seulement décisionnelle. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Courbe de PSA pour « PSA après traitement local : interpréter avant d'imager ». Repères représentés : Traitement initial ; Trajectoire PSA ; Risque et symptômes ; Imagerie seulement décisionnelle.",
+        "caption": "Courbe de PSA : Traitement initial · Trajectoire PSA · Risque et symptômes · Imagerie seulement décisionnelle. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Traitement initial",
@@ -213,11 +215,13 @@
         "La récupération est individuelle et influence à la fois qualité de vie et lecture oncologique."
       ],
       "visual": {
-        "kind": "comparison",
-        "title": "Raisonnement clinique — Récupération de la testostérone : expliquer l'incertitude",
+        "kind": "evidence",
+        "diagramType": "curve",
+        "formatLabel": "Courbe de récupération",
+        "title": "Récupération de la testostérone : expliquer l'incertitude",
         "imageSrc": "/figures/prostate/followup-survivorship/02-testosterone.svg",
-        "altText": "Schéma en 4 étapes pour récupération de la testostérone : expliquer l'incertitude : Durée et agent ADT, puis Terrain, puis Testostérone + symptômes, puis Réhabilitation et suivi PSA.",
-        "caption": "Lecture de gauche à droite : Durée et agent ADT → Terrain → Testostérone + symptômes → Réhabilitation et suivi PSA. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Courbe de récupération pour « Récupération de la testostérone : expliquer l'incertitude ». Repères représentés : Durée et agent ADT ; Terrain ; Testostérone + symptômes ; Réhabilitation et suivi PSA.",
+        "caption": "Courbe de récupération : Durée et agent ADT · Terrain · Testostérone + symptômes · Réhabilitation et suivi PSA. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Durée et agent ADT",
@@ -319,11 +323,13 @@
         "Une toxicité possible n'exclut pas une autre cause traitable ou grave."
       ],
       "visual": {
-        "kind": "decision",
-        "title": "Raisonnement clinique — Toxicité urinaire : caractériser avant de traiter",
+        "kind": "anatomy",
+        "diagramType": "anatomy-map",
+        "formatLabel": "Carte urinaire",
+        "title": "Toxicité urinaire : caractériser avant de traiter",
         "imageSrc": "/figures/prostate/followup-survivorship/03-urinary.svg",
-        "altText": "Schéma en 4 étapes pour toxicité urinaire : caractériser avant de traiter : Symptôme et délai, puis Mécanisme probable, puis Examens ciblés, puis Rééducation, médicament ou geste.",
-        "caption": "Lecture de gauche à droite : Symptôme et délai → Mécanisme probable → Examens ciblés → Rééducation, médicament ou geste. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte urinaire pour « Toxicité urinaire : caractériser avant de traiter ». Repères représentés : Symptôme et délai ; Mécanisme probable ; Examens ciblés ; Rééducation, médicament ou geste.",
+        "caption": "Carte urinaire : Symptôme et délai · Mécanisme probable · Examens ciblés · Rééducation, médicament ou geste. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Symptôme et délai",
@@ -425,11 +431,13 @@
         "La gravité et les diagnostics concurrents imposent une évaluation structurée."
       ],
       "visual": {
-        "kind": "matrix",
-        "title": "Raisonnement clinique — Toxicité digestive : quantifier, explorer, coordonner",
+        "kind": "anatomy",
+        "diagramType": "anatomy-map",
+        "formatLabel": "Carte digestive",
+        "title": "Toxicité digestive : quantifier, explorer, coordonner",
         "imageSrc": "/figures/prostate/followup-survivorship/04-bowel.svg",
-        "altText": "Schéma en 4 étapes pour toxicité digestive : quantifier, explorer, coordonner : Symptôme digestif, puis Gravité et causes, puis Avis spécialisé, puis Traitement gradué.",
-        "caption": "Lecture de gauche à droite : Symptôme digestif → Gravité et causes → Avis spécialisé → Traitement gradué. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte digestive pour « Toxicité digestive : quantifier, explorer, coordonner ». Repères représentés : Symptôme digestif ; Gravité et causes ; Avis spécialisé ; Traitement gradué.",
+        "caption": "Carte digestive : Symptôme digestif · Gravité et causes · Avis spécialisé · Traitement gradué. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Symptôme digestif",
@@ -531,11 +539,13 @@
         "La santé sexuelle est multidimensionnelle et mérite un parcours individualisé."
       ],
       "visual": {
-        "kind": "evidence",
-        "title": "Raisonnement clinique — Santé sexuelle : ouvrir la conversation et proposer un parcours",
+        "kind": "anatomy",
+        "diagramType": "body-map",
+        "formatLabel": "Parcours de santé sexuelle",
+        "title": "Santé sexuelle : ouvrir la conversation et proposer un parcours",
         "imageSrc": "/figures/prostate/followup-survivorship/05-sexual.svg",
-        "altText": "Schéma en 4 étapes pour santé sexuelle : ouvrir la conversation et proposer un parcours : Fonction initiale, puis Mécanismes et objectifs, puis Option progressive, puis Réévaluation du couple/patient.",
-        "caption": "Lecture de gauche à droite : Fonction initiale → Mécanismes et objectifs → Option progressive → Réévaluation du couple/patient. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Parcours de santé sexuelle pour « Santé sexuelle : ouvrir la conversation et proposer un parcours ». Repères représentés : Fonction initiale ; Mécanismes et objectifs ; Option progressive ; Réévaluation du couple/patient.",
+        "caption": "Parcours de santé sexuelle : Fonction initiale · Mécanismes et objectifs · Option progressive · Réévaluation du couple/patient. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Fonction initiale",
@@ -637,11 +647,13 @@
         "La prévention combine mesure du risque, mouvement, nutrition et médicament selon indication."
       ],
       "visual": {
-        "kind": "balance",
-        "title": "Raisonnement clinique — Santé osseuse après cancer : mesurer le risque et le mouvement",
+        "kind": "anatomy",
+        "diagramType": "body-map",
+        "formatLabel": "Carte os–muscle",
+        "title": "Santé osseuse après cancer : mesurer le risque et le mouvement",
         "imageSrc": "/figures/prostate/followup-survivorship/06-bone.svg",
-        "altText": "Schéma en 4 étapes pour santé osseuse après cancer : mesurer le risque et le mouvement : ADT et facteurs de fracture, puis DXA/risque, puis Exercice et nutrition, puis Anti-résorptif si indiqué.",
-        "caption": "Lecture de gauche à droite : ADT et facteurs de fracture → DXA/risque → Exercice et nutrition → Anti-résorptif si indiqué. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte os–muscle pour « Santé osseuse après cancer : mesurer le risque et le mouvement ». Repères représentés : ADT et facteurs de fracture ; DXA/risque ; Exercice et nutrition ; Anti-résorptif si indiqué.",
+        "caption": "Carte os–muscle : ADT et facteurs de fracture · DXA/risque · Exercice et nutrition · Anti-résorptif si indiqué. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "ADT et facteurs de fracture",
@@ -743,11 +755,13 @@
         "Le risque cardiométabolique est mesurable et modifiable."
       ],
       "visual": {
-        "kind": "ladder",
-        "title": "Raisonnement clinique — Risque métabolique et cardiovasculaire : suivre des variables actionnables",
+        "kind": "matrix",
+        "diagramType": "dashboard",
+        "formatLabel": "Tableau de bord cardio-métabolique",
+        "title": "Risque métabolique et cardiovasculaire : suivre des variables actionnables",
         "imageSrc": "/figures/prostate/followup-survivorship/07-metabolic-cv.svg",
-        "altText": "Schéma en 4 étapes pour risque métabolique et cardiovasculaire : suivre des variables actionnables : Risque initial, puis Traitement exposant, puis Mesures répétées, puis Intervention et coordination.",
-        "caption": "Lecture de gauche à droite : Risque initial → Traitement exposant → Mesures répétées → Intervention et coordination. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Tableau de bord cardio-métabolique pour « Risque métabolique et cardiovasculaire : suivre des variables actionnables ». Repères représentés : Risque initial ; Traitement exposant ; Mesures répétées ; Intervention et coordination.",
+        "caption": "Tableau de bord cardio-métabolique : Risque initial · Traitement exposant · Mesures répétées · Intervention et coordination. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Risque initial",
@@ -852,10 +866,12 @@
       ],
       "visual": {
         "kind": "anatomy",
-        "title": "Raisonnement clinique — Après-cancer : projet de vie, anxiété et continuité des soins",
+        "diagramType": "body-map",
+        "formatLabel": "Carte des besoins après-cancer",
+        "title": "Après-cancer : projet de vie, anxiété et continuité des soins",
         "imageSrc": "/figures/prostate/followup-survivorship/08-psychosocial.svg",
-        "altText": "Schéma en 4 étapes pour après-cancer : projet de vie, anxiété et continuité des soins : Besoins et détresse, puis Responsabilités partagées, puis Plan après-cancer, puis Réévaluation du projet.",
-        "caption": "Lecture de gauche à droite : Besoins et détresse → Responsabilités partagées → Plan après-cancer → Réévaluation du projet. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte des besoins après-cancer pour « Après-cancer : projet de vie, anxiété et continuité des soins ». Repères représentés : Besoins et détresse ; Responsabilités partagées ; Plan après-cancer ; Réévaluation du projet.",
+        "caption": "Carte des besoins après-cancer : Besoins et détresse · Responsabilités partagées · Plan après-cancer · Réévaluation du projet. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
         "items": [
           {
             "label": "Besoins et détresse",
