@@ -2,13 +2,13 @@
   "id": "prostate_foundations_from_zero",
   "blockId": "foundations",
   "title": "Prostate — comprendre avant de décider",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "status": "needs_review",
   "lastUpdated": "2026-08-01",
-  "estimatedMinutes": 132,
-  "learningPromise": "À la fin de ce bloc, l'apprenant peut construire une représentation cohérente de la prostate normale et tumorale, relier axe androgénique et PSA à leur mécanisme, puis distinguer sans confusion architecture, grade, stade, volume et profil moléculaire.",
+  "estimatedMinutes": 172,
+  "learningPromise": "À la fin de ce bloc, l'apprenant peut construire une représentation cohérente de la prostate normale et tumorale, relier axe androgénique et PSA à leur mécanisme, distinguer sans confusion architecture, grade, stade, volume et profil moléculaire, lire une preuve sans extrapoler sa conclusion hors de sa population, puis intégrer horizon de vie et risques concurrents sans laisser l'âge décider seul.",
   "evidenceScope": {
-    "provenanceNote": "Bloc pilote enrichi selon une lecture à trois niveaux. Les sources sont affichées et les formulations restent needs_review jusqu'à vérification nominative des propositions et des schémas par un clinicien.",
+    "provenanceNote": "Bloc pilote France-Europe enrichi selon une lecture à trois niveaux. Les sources sont affichées ; les formulations cliniques restent needs_review jusqu'à vérification nominative par un clinicien. La leçon de lecture critique s'appuie sur les méthodes et chapitres publics EAU 2026 ainsi que sur la page officielle CCAFU 2024–2026, sans attribuer de détail à une source restreinte.",
     "anchors": [
       {
         "sourceId": "fine_reuter_prostate_anatomy_2012",
@@ -20,7 +20,11 @@
       },
       {
         "sourceId": "eau_prostate_2026",
-        "locator": "Diagnostic evaluation 5.2.2 pour le PSA ; Classification and staging systems pour Gleason et groupes ISUP ; Treatment pour la dépendance androgénique"
+        "locator": "Methods pour la construction et la force des recommandations ; Diagnostic evaluation 5.2.2 pour le PSA ; Classification and staging systems pour Gleason et groupes ISUP ; Treatment pour la dépendance androgénique"
+      },
+      {
+        "sourceId": "ccafu_localised_2024_2026",
+        "locator": "Page officielle française 2024–2026 : périmètre diagnostic et prise en charge de la maladie localisée ; utiliser la version, la population et le contexte national comme bornes d'applicabilité"
       },
       {
         "sourceId": "tcga_prostate_taxonomy_2015",
@@ -35,6 +39,7 @@
   "lessons": [
     {
       "id": "foundation_01_anatomy",
+      "nodeId": "prostate_zonal_anatomy",
       "number": 1,
       "title": "Où est la prostate et comment est-elle organisée ?",
       "durationMinutes": 20,
@@ -190,6 +195,7 @@
     },
     {
       "id": "foundation_03_androgen_axis",
+      "nodeId": "androgen_receptor_biology",
       "number": 3,
       "title": "L'axe androgénique, de la physiologie à la résistance",
       "durationMinutes": 23,
@@ -267,6 +273,7 @@
     },
     {
       "id": "foundation_04_psa",
+      "nodeId": "psa_biology_and_kinetics",
       "number": 4,
       "title": "Le PSA : mesurer un signal, pas prononcer un diagnostic",
       "durationMinutes": 23,
@@ -348,6 +355,7 @@
     },
     {
       "id": "foundation_05_carcinogenesis",
+      "nodeId": "patterns_of_spread",
       "number": 5,
       "title": "Une maladie, plusieurs dimensions biologiques",
       "durationMinutes": 22,
@@ -428,6 +436,7 @@
     },
     {
       "id": "foundation_06_gleason_isup",
+      "nodeId": "gleason_isup_foundations",
       "number": 6,
       "title": "Gleason et ISUP : lire une architecture, pas seulement un nombre",
       "durationMinutes": 25,
@@ -505,6 +514,177 @@
         {"front": "ISUP 5", "back": "Scores de Gleason 9–10."}
       ],
       "sources": ["isup_grading_consensus_2019", "eau_prostate_2026"]
+    },
+    {
+      "id": "foundation_07_trial_literacy",
+      "nodeId": "prostate_trial_literacy",
+      "number": 7,
+      "title": "Lire une preuve avant de transporter une conclusion",
+      "durationMinutes": 20,
+      "objectives": [
+        "Reconstruire population, intervention, comparateur, critère et horizon temporel avant de citer un résultat.",
+        "Distinguer effet relatif, effet absolu, incertitude et pertinence clinique.",
+        "Évaluer si définitions, imagerie, traitements antérieurs et contexte du patient permettent une transposition raisonnable."
+      ],
+      "keyTakeaways": [
+        "Une conclusion n'est valable que pour la question, la population et l'horizon réellement étudiés.",
+        "Un critère intermédiaire, un effet relatif ou une recommandation forte ne prouvent pas à eux seuls une guérison ni un bénéfice universel.",
+        "La transposition exige de rendre visibles les écarts entre l'essai, le référentiel et le dossier discuté."
+      ],
+      "visual": {
+        "kind": "evidence",
+        "title": "Du résultat publié à la décision de RCP",
+        "imageSrc": "/figures/prostate/foundations/07-lecture-preuve.png",
+        "altText": "Chaîne pédagogique reliant question PICO, validité de l'étude, taille et incertitude de l'effet, applicabilité au patient puis décision partagée.",
+        "caption": "Une étape manquante doit rester une incertitude explicite ; elle ne peut pas être remplacée par le prestige de la source.",
+        "items": [
+          {"label": "Question", "detail": "Population, intervention, comparateur, critère et temps."},
+          {"label": "Validité", "detail": "Plan, biais, données manquantes et cohérence des analyses."},
+          {"label": "Effet", "detail": "Mesure relative, différence absolue, intervalle d'incertitude et toxicités."},
+          {"label": "Applicabilité", "detail": "Stade, imagerie, fitness, expositions et préférences comparables ou différents."},
+          {"label": "Décision", "detail": "Bénéfices, risques, alternatives et incertitudes rendus traçables."}
+        ]
+      },
+      "sections": [
+        {
+          "title": "Commencer par la question et le temps",
+          "body": "Avant le résultat, l'apprenant relève qui a été inclus, quelle stratégie a été comparée à quoi, quel critère a été mesuré et pendant combien de temps. Les critères d'éligibilité et les traitements antérieurs définissent la population de preuve ; ils ne sont pas une note de bas de page. Une conclusion portant sur une récidive biologique, une progression radiologique ou la survie globale répond à des questions différentes."
+        },
+        {
+          "title": "Nommer l'effet sans l'agrandir",
+          "body": "Une mesure relative, telle qu'un rapport de risques, ne donne pas directement la différence absolue à un temps donné. Une lecture utile cherche aussi les événements ou probabilités dans chaque groupe, l'intervalle d'incertitude, les toxicités, les arrêts de traitement et la qualité de vie. Un résultat sur un critère intermédiaire ne doit pas être reformulé comme une guérison ou un bénéfice de survie non étudié."
+        },
+        {
+          "title": "Séparer validité interne et transportabilité",
+          "body": "La randomisation peut équilibrer des facteurs pronostiques au départ, mais elle n'efface ni données manquantes, ni changements de traitement, ni limites de mesure. Même un essai valide peut être difficile à transposer si le patient, le stade, la modalité d'imagerie, la fitness ou les expositions antérieures diffèrent. La bonne synthèse nomme ces écarts puis juge s'ils sont mineurs, majeurs ou non résolus."
+        },
+        {
+          "title": "L'imagerie et les définitions appartiennent à la population",
+          "body": "En cancer de la prostate, volume métastatique, maladie non métastatique, récidive ou oligométastases dépendent des définitions et de l'imagerie utilisées. Une stadification plus sensible peut déplacer un patient sans recréer rétroactivement la population de l'essai. Le dossier conserve donc côte à côte la définition historique pertinente et l'information apportée par l'examen actuel."
+        },
+        {
+          "title": "Une recommandation est une synthèse datée",
+          "body": "Les recommandations EAU et CCAFU synthétisent des preuves, des bénéfices, des risques et un contexte de soins à une date donnée. Leur force ne remplace ni la lecture de leur périmètre ni l'examen du dossier. En cas de divergence, la RCP cite la version, compare populations et critères, documente l'incertitude et évite de fabriquer une moyenne entre deux textes."
+        }
+      ],
+      "clinicalLens": {
+        "title": "Que manque-t-il dans « l'essai réduit le risque, donc ce traitement est obligatoire » ?",
+        "body": "Il manque au minimum la population, le comparateur, le critère, l'horizon, l'effet absolu, l'incertitude, les toxicités et les écarts avec le patient discuté. Le mot « obligatoire » exige en outre une justification normative qui ne découle pas d'un résultat isolé."
+      },
+      "deepDive": [
+        {
+          "title": "Pourquoi un résultat statistiquement compatible avec un bénéfice peut-il rester cliniquement incertain ?",
+          "body": "La taille de l'effet, sa précision, la gravité du critère, la durée de suivi, les risques concurrents et les toxicités déterminent sa pertinence. Une seule valeur seuil ne remplace pas cette lecture."
+        },
+        {
+          "title": "Pourquoi deux référentiels peuvent-ils diverger sans qu'un soit nécessairement erroné ?",
+          "body": "Ils peuvent avoir des dates de recherche, méthodes, systèmes de gradation, contextes de soins ou jugements de balance bénéfice–risque différents. La divergence doit être décomposée et tracée avant la décision."
+        }
+      ],
+      "causalChain": ["Question", "Population de preuve", "Effet et incertitude", "Applicabilité", "Décision traçable"],
+      "commonTrap": "Citer un effet relatif ou une recommandation sans population, comparateur, critère, horizon ni différence absolue, puis l'appliquer à un stade défini par une autre imagerie.",
+      "checkpoint": {
+        "prompt": "Un essai randomisé chez des patients aptes, stadifiés par imagerie conventionnelle, rapporte un bénéfice relatif sur la progression. Quelle synthèse est la plus rigoureuse ?",
+        "options": [
+          "Le traitement améliore nécessairement la survie de tous les patients, y compris ceux reclassés uniquement au TEP-PSMA.",
+          "Le résultat soutient une discussion chez une population comparable ; il faut conserver le critère étudié, chercher l'effet absolu, l'incertitude et les toxicités, puis expliciter tout écart d'imagerie ou de fitness.",
+          "La randomisation rend inutiles les critères d'éligibilité.",
+          "Un effet relatif favorable suffit pour rendre le traitement obligatoire."
+        ],
+        "answerIndex": 1,
+        "explanation": "La validité d'un essai ne supprime pas les limites du critère ni la question de transportabilité. Effets absolus, incertitude, toxicités et écarts de population restent nécessaires."
+      },
+      "flashcards": [
+        {"front": "Question PICO + temps", "back": "Population, intervention, comparateur, critère et horizon : les cinq bornes à relever avant le résultat."},
+        {"front": "Relatif versus absolu", "back": "Un effet relatif décrit un contraste ; la différence absolue dépend du risque de départ et du temps observé."},
+        {"front": "Applicabilité", "back": "Comparer stade, définitions, imagerie, fitness, traitements antérieurs et préférences entre l'essai et le dossier."}
+      ],
+      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026"]
+    },
+    {
+      "id": "foundation_08_competing_risk",
+      "nodeId": "life_expectancy_and_competing_risk",
+      "number": 8,
+      "title": "Horizon de vie et risques concurrents : l'âge ne décide pas seul",
+      "durationMinutes": 20,
+      "objectives": [
+        "Distinguer âge civil, état de santé, fragilité, horizon de vie et risque de décès lié au cancer.",
+        "Mettre en regard délai attendu du bénéfice, toxicités immédiates et risques concurrents.",
+        "Formuler une décision partagée sans présenter une estimation pronostique comme une certitude individuelle."
+      ],
+      "keyTakeaways": [
+        "Deux patients du même âge peuvent avoir des réserves fonctionnelles et des risques concurrents très différents.",
+        "Un traitement n'apporte un bénéfice utile que si son objectif, son délai d'effet et ses dommages sont compatibles avec l'horizon du patient.",
+        "Scores et tables soutiennent une estimation ; ils ne remplacent ni l'évaluation clinique ni les préférences."
+      ],
+      "visual": {
+        "kind": "balance",
+        "title": "Mettre trois horloges sur la même ligne",
+        "imageSrc": "/figures/prostate/foundations/08-horizon-risques-concurrents.png",
+        "altText": "Balance pédagogique entre vitesse et gravité du cancer, horizon de santé globale et délai avant bénéfice ou toxicité du traitement.",
+        "caption": "La décision compare des trajectoires plausibles ; elle ne réduit pas une personne à son âge ou à un score.",
+        "items": [
+          {"label": "Cancer", "detail": "Risque, stade, cinétique et conséquences sans traitement."},
+          {"label": "Santé globale", "detail": "Autonomie, comorbidités, cognition, nutrition, médicaments et soutien."},
+          {"label": "Traitement", "detail": "Délai du bénéfice, toxicités précoces et tardives, récupération et charge du parcours."},
+          {"label": "Préférences", "detail": "Objectifs de vie, tolérance au risque et fonctions que le patient souhaite préserver."}
+        ]
+      },
+      "sections": [
+        {
+          "title": "L'âge civil est une donnée, pas une conclusion",
+          "body": "L'âge situe une trajectoire moyenne mais ne décrit ni autonomie, ni cognition, ni comorbidités, ni réserves fonctionnelles. L'évaluation relève activités quotidiennes, mobilité et chutes, nutrition, polymédication, maladies cardiovasculaires ou autres risques concurrents, puis identifie ce qui est stable, réversible ou susceptible d'être aggravé par le traitement."
+        },
+        {
+          "title": "Le bénéfice et le dommage n'arrivent pas au même moment",
+          "body": "Une toxicité urinaire, sexuelle, digestive, hormonale ou postopératoire peut survenir tôt, tandis qu'un bénéfice oncologique peut demander un horizon plus long. La décision met donc en regard le risque du cancer sans intervention, le délai avant bénéfice attendu, la probabilité de vivre assez longtemps pour en bénéficier et les dommages du parcours. Cette comparaison dépend de l'intention : guérir, différer une progression, prévenir un symptôme ou préserver la qualité de vie."
+        },
+        {
+          "title": "Les risques concurrents modifient le bénéfice absolu",
+          "body": "Une maladie non prostatique grave peut réduire la probabilité qu'un bénéfice oncologique tardif soit observé, sans rendre le cancer inexistant. Inversement, une personne âgée mais robuste peut conserver un horizon long. Le raisonnement sépare mortalité spécifique, mortalité toutes causes et événements fonctionnels plutôt que de choisir entre « traiter le cancer » et « traiter les comorbidités »."
+        },
+        {
+          "title": "Une estimation reste révisable",
+          "body": "Tables de survie, indices de comorbidité et évaluations gériatriques apportent des repères populationnels. Ils ont des limites de calibration, de population et de date. La synthèse nomme l'outil, ses variables manquantes et l'incertitude, puis réévalue l'horizon si l'état de santé, le cancer ou les préférences changent."
+        },
+        {
+          "title": "La décision partagée compare des parcours complets",
+          "body": "Présenter seulement l'intervention initiale masque surveillance, examens, traitements de rattrapage, récupération et toxicités tardives. Une discussion loyale compare les trajectoires, indique ce qui est connu ou incertain et vérifie la compréhension. La préférence du patient n'est exploitable qu'après une information proportionnée et sans faire porter sur lui seul une décision insuffisamment préparée."
+        }
+      ],
+      "clinicalLens": {
+        "title": "Pourquoi « trop âgé » et « trop jeune pour surveiller » sont-ils deux raccourcis ?",
+        "body": "Ils remplacent risque tumoral, santé globale, horizon du bénéfice, fonctions menacées et préférences par une seule variable. La RCP doit rendre ces dimensions visibles avant de choisir un parcours."
+      },
+      "deepDive": [
+        {
+          "title": "Pourquoi l'espérance de vie moyenne ne prédit-elle pas une personne ?",
+          "body": "Une moyenne décrit une population et dépend de son époque, de son territoire et de ses caractéristiques. L'individu peut s'en écarter ; l'outil sert à structurer l'incertitude, pas à dater un décès."
+        },
+        {
+          "title": "Pourquoi une comorbidité ne conduit-elle pas automatiquement à l'abstention ?",
+          "body": "Il faut préciser sa gravité, sa stabilité, son interaction avec le traitement et le risque tumoral. Certaines vulnérabilités peuvent être optimisées ; d'autres changent réellement la balance."
+        }
+      ],
+      "causalChain": ["Risque tumoral", "Santé globale", "Horizon du bénéfice", "Toxicités et fonctions", "Préférence éclairée"],
+      "commonTrap": "Utiliser un âge seuil, un score isolé ou une estimation moyenne comme décision automatique, sans nommer le délai du bénéfice ni les risques concurrents.",
+      "checkpoint": {
+        "prompt": "Deux patients de 78 ans ont le même groupe de risque prostatique. Quelle information est la plus utile avant de conclure qu'ils doivent suivre le même parcours ?",
+        "options": [
+          "Aucune : l'âge et le groupe de risque suffisent.",
+          "Leur autonomie, comorbidités, fragilité, horizon de bénéfice, fonctions menacées et préférences, évalués séparément.",
+          "Le seul volume prostatique.",
+          "La préférence du médecin sans discussion des trajectoires."
+        ],
+        "answerIndex": 1,
+        "explanation": "L'âge identique ne garantit ni santé globale ni bénéfice absolu identiques. La décision compare risque tumoral, risques concurrents, délai d'effet, toxicités et préférences."
+      },
+      "flashcards": [
+        {"front": "Âge versus horizon de vie", "back": "L'âge est une variable ; l'horizon intègre santé, autonomie, comorbidités et incertitude populationnelle."},
+        {"front": "Risque concurrent", "back": "Événement ou maladie pouvant survenir avant le bénéfice oncologique attendu et modifier son effet absolu utile."},
+        {"front": "Délai du bénéfice", "back": "Temps nécessaire avant qu'une stratégie puisse produire l'avantage recherché, à comparer aux toxicités et à l'horizon de santé."}
+      ],
+      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026"]
     }
   ],
   "caseStudy": {
@@ -512,27 +692,33 @@
     "title": "Ne pas demander à une donnée de répondre à la place d'une autre",
     "status": "needs_review",
     "dataClassification": "synthetic",
-    "vignette": "Homme de 67 ans, symptômes urinaires modérés, prostate estimée à 68 mL, PSA à 8,4 ng/mL sous finastéride depuis neuf mois. L'IRM décrit une lésion périphérique postéro-latérale apicale. Les biopsies montrent un adénocarcinome Gleason 3+4=7, groupe ISUP 2, avec 15 % de pattern 4. Aucun bilan d'extension n'est encore présenté.",
+    "vignette": "Homme de 67 ans, symptômes urinaires modérés, prostate estimée à 68 mL, PSA à 8,4 ng/mL sous finastéride depuis neuf mois. L'IRM décrit une lésion périphérique postéro-latérale apicale. Les biopsies montrent un adénocarcinome Gleason 3+4=7, groupe ISUP 2, avec 15 % de pattern 4. Aucun bilan d'extension, inventaire des comorbidités ni évaluation fonctionnelle n'est encore présenté. En RCP, une note invoque un bénéfice relatif d'un essai sans préciser population, comparateur, critère, horizon, effet absolu ni modalité d'imagerie.",
     "decisionPoints": [
       "Séparer ce que le volume prostatique et les symptômes suggèrent d'une preuve de cancer.",
       "Interpréter le PSA en tenant compte du traitement, de l'historique et du contexte de prélèvement.",
       "Traduire la localisation IRM en voisinages anatomiques sans inventer une extension.",
       "Conserver score, groupe ISUP et pourcentage de pattern 4.",
-      "Identifier les informations encore manquantes avant tout stade ou groupe de risque complet."
+      "Identifier les informations encore manquantes avant tout stade ou groupe de risque complet.",
+      "Reconstituer la question de l'essai et vérifier sa transportabilité avant de l'utiliser pour une option thérapeutique.",
+      "Évaluer santé globale, risques concurrents, horizon du bénéfice et préférences plutôt que d'inférer l'aptitude à partir de 67 ans."
     ],
     "expectedReasoning": [
       "Le volume et les symptômes peuvent être compatibles avec une hyperplasie bénigne, mais les biopsies prouvent séparément un adénocarcinome.",
       "Le PSA doit être contextualisé par la finastéride, les valeurs antérieures et les conditions du dosage ; il n'est pas interprétable comme un chiffre isolé.",
       "La lésion périphérique apicale fournit une localisation et des voisinages, mais ni une extension extracapsulaire ni un stade T certain.",
       "Gleason 3+4=7 correspond à ISUP 2 ; la proportion de pattern 4 reste une information à conserver.",
-      "Le stade anatomique, le groupe de risque et la stratégie thérapeutique demandent des données supplémentaires qui seront structurées dans les blocs suivants."
+      "Le stade anatomique, le groupe de risque et la stratégie thérapeutique demandent des données supplémentaires qui seront structurées dans les blocs suivants.",
+      "La note d'essai est insuffisante : le dossier doit retrouver population, comparateur, critère, horizon, effet absolu, incertitude, toxicités et écarts de stadification avant toute extrapolation.",
+      "L'âge seul ne renseigne pas l'horizon de bénéfice ; autonomie, comorbidités, fragilité, fonctions et préférences manquent encore."
     ],
     "criticalErrors": [
       "Conclure que l'hyperplasie bénigne explique tout le PSA et annule le cancer prouvé.",
       "Doubler mécaniquement le PSA sans analyser durée du traitement et contexte.",
       "Transformer une localisation apicale en extension sphinctérienne certaine.",
       "Écrire Gleason 7 sans distinguer 3+4 de 4+3 ni conserver le pourcentage de pattern 4.",
-      "Attribuer un stade ou un traitement définitif à partir de ce seul dossier incomplet."
+      "Attribuer un stade ou un traitement définitif à partir de ce seul dossier incomplet.",
+      "Transformer un bénéfice relatif sur un critère non nommé en gain absolu de survie ou en obligation thérapeutique.",
+      "Présumer un horizon de vie ou une aptitude thérapeutique à partir du seul âge civil."
     ],
     "checkpoint": {
       "prompt": "Quelle synthèse respecte le mieux les dimensions déjà disponibles ?",
@@ -545,6 +731,6 @@
       "answerIndex": 2,
       "explanation": "La réponse conserve séparément preuve histologique, grade, contexte du PSA et localisation, tout en nommant l'absence de stadification complète."
     },
-    "sources": ["fine_reuter_prostate_anatomy_2012", "eau_prostate_2026", "isup_grading_consensus_2019"]
+    "sources": ["fine_reuter_prostate_anatomy_2012", "isup_grading_consensus_2019", "ccafu_localised_2024_2026", "eau_prostate_2026"]
   }
 }

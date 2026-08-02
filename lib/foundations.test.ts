@@ -35,12 +35,14 @@ function expectValidLessonSet(lessons: Array<{
 }
 
 describe("prostate foundation learning path", () => {
-  it("contains a complete six-lesson progression from anatomy to grading", () => {
-    expect(foundationsDocument.lessons).toHaveLength(6);
+  it("contains a complete eight-lesson progression from anatomy to competing risk", () => {
+    expect(foundationsDocument.lessons).toHaveLength(8);
     expect(foundationsDocument.lessons.map((lesson) => lesson.number)).toEqual([
-      1, 2, 3, 4, 5, 6,
+      1, 2, 3, 4, 5, 6, 7, 8,
     ]);
-    expect(new Set(foundationsDocument.lessons.map((lesson) => lesson.id)).size).toBe(6);
+    expect(new Set(foundationsDocument.lessons.map((lesson) => lesson.id)).size).toBe(8);
+    expect(foundationsDocument.lessons.at(-2)?.nodeId).toBe("prostate_trial_literacy");
+    expect(foundationsDocument.lessons.at(-1)?.nodeId).toBe("life_expectancy_and_competing_risk");
   });
 
   it("keeps every checkpoint answer and evidence link structurally valid", () => {
@@ -80,11 +82,11 @@ describe("prostate detection and diagnosis learning path", () => {
 });
 
 describe("prostate staging, risk and biomarkers learning path", () => {
-  it("contains five lessons from TNM to germline and somatic testing", () => {
-    expect(stagingDocument.lessons).toHaveLength(5);
-    expect(stagingDocument.lessons.map((lesson) => lesson.number)).toEqual([1, 2, 3, 4, 5]);
-    expect(new Set(stagingDocument.lessons.map((lesson) => lesson.id)).size).toBe(5);
-    expect(stagingDocument.lessons.map((lesson) => lesson.nodeId)).toEqual([
+  it("contains six lessons from TNM to germline and somatic testing", () => {
+    expect(stagingDocument.lessons).toHaveLength(6);
+    expect(stagingDocument.lessons.map((lesson) => lesson.number)).toEqual([1, 2, 3, 4, 5, 6]);
+    expect(new Set(stagingDocument.lessons.map((lesson) => lesson.id)).size).toBe(6);
+    expect(stagingDocument.lessons.flatMap((lesson) => lesson.nodeId ?? [])).toEqual([
       "tnm_staging",
       "eau_risk_groups",
       "psma_pet_indications",
@@ -446,7 +448,7 @@ for (const block of finalDetailedBlocks) {
       expect(new Set(block.document.lessons.map((lesson) => lesson.id)).size).toBe(
         block.document.lessons.length,
       );
-      expect(block.document.lessons.map((lesson) => lesson.nodeId)).toEqual(block.nodeIds);
+      expect(block.document.lessons.flatMap((lesson) => lesson.nodeId ?? [])).toEqual(block.nodeIds);
     });
 
     it("keeps lessons, evidence and the synthetic case structurally valid", () => {

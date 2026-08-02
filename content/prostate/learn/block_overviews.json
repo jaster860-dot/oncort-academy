@@ -7,16 +7,16 @@
     {
       "blockId": "foundations",
       "title": "Fondations : comprendre l'organe et la maladie",
-      "summary": "Avant tout examen ou traitement, ce bloc construit une carte mentale de l'organe, du tissu normal, de la dépendance androgénique, du PSA et de l'architecture tumorale. Chaque donnée garde sa question propre avant d'être intégrée au raisonnement clinique.",
-      "outcomes": ["Lire une localisation anatomique et ses voisinages", "Relier axe androgénique, PSA et traitements", "Distinguer preuve, volume, grade, stade et profil moléculaire"],
+      "summary": "Avant tout examen ou traitement, ce bloc construit une carte mentale de l'organe, du tissu normal, de la dépendance androgénique, du PSA et de l'architecture tumorale, puis apprend à borner une conclusion par sa population de preuve. Chaque donnée garde sa question propre avant d'être intégrée au raisonnement clinique.",
+      "outcomes": ["Lire une localisation anatomique et ses voisinages", "Relier axe androgénique, PSA et traitements", "Distinguer preuve, volume, grade, stade et profil moléculaire, auditer l'applicabilité d'un essai et intégrer les risques concurrents"],
       "pillars": [
         {"title": "Cartographier", "body": "Base, apex, zones et organes voisins forment un langage commun pour l'IRM, les biopsies, l'anatomopathologie, la chirurgie et la radiothérapie."},
         {"title": "Expliquer", "body": "L'axe androgénique relie physiologie, sécrétion du PSA, dépendance tumorale et mécanismes de résistance sans réduire la maladie à la testostérone."},
-        {"title": "Séparer puis intégrer", "body": "PSA, volume, architecture, grade, stade et profil moléculaire répondent à des questions différentes ; une synthèse robuste les assemble sans les confondre."}
+        {"title": "Séparer puis intégrer", "body": "PSA, volume, architecture, grade, stade, profil moléculaire et population de preuve répondent à des questions différentes ; une synthèse robuste les assemble sans les confondre."}
       ],
       "commonTrap": "Demander à une valeur de PSA, une image ou un groupe ISUP de répondre à la place de toutes les autres dimensions.",
       "checkpoint": {"prompt": "Quel principe doit précéder la stratification ?", "options": ["Un PSA suffit", "Il faut intégrer anatomie, biologie, grade et contexte", "L'IRM donne toujours le diagnostic", "Le stade remplace l'ISUP"], "answerIndex": 1, "explanation": "La décision repose sur des dimensions complémentaires ; aucune donnée isolée ne suffit."},
-      "sourceIds": ["fine_reuter_prostate_anatomy_2012", "isup_grading_consensus_2019", "eau_prostate_2026"]
+      "sourceIds": ["fine_reuter_prostate_anatomy_2012", "isup_grading_consensus_2019", "ccafu_localised_2024_2026", "eau_prostate_2026"]
     },
     {
       "blockId": "detection_diagnosis",
@@ -36,7 +36,7 @@
       "blockId": "staging_risk_biomarkers",
       "title": "Stade, risque, imagerie moléculaire et biomarqueurs",
       "summary": "Après la preuve, il faut séparer extension anatomique, agressivité histologique, risque pronostique et information moléculaire afin d'ordonner les examens utiles.",
-      "outcomes": ["Construire TNM et groupe de risque", "Indiquer et critiquer le PSMA-PET", "Choisir le bon moment pour les analyses germinales ou somatiques"],
+      "outcomes": ["Construire TNM et groupe de risque", "Indiquer et critiquer le PSMA-PET et une estimation ganglionnaire", "Choisir le bon moment pour les analyses germinales ou somatiques"],
       "pillars": [
         {"title": "Risque prétest", "body": "PSA, cT, ISUP, volume tumoral et contexte du patient construisent la probabilité d'extension avant toute imagerie avancée."},
         {"title": "Migration de stade", "body": "Le PSMA-PET détecte mieux certaines localisations que l'imagerie conventionnelle, mais une négativité n'exclut pas la maladie microscopique."},
@@ -44,7 +44,7 @@
       ],
       "commonTrap": "Laisser un examen plus sensible effacer le risque clinique initial.",
       "checkpoint": {"prompt": "Un PSMA-PET négatif chez un patient à haut risque signifie :", "options": ["Absence de maladie microscopique", "Absence de cible détectable au seuil de l'examen, sans annuler le risque", "Cancer de faible grade", "Inutilité de tout traitement systémique"], "answerIndex": 1, "explanation": "L'imagerie décrit ce qu'elle détecte ; elle ne reclassifie pas automatiquement la biologie ni le risque de micrométastases."},
-      "sourceIds": ["eau_prostate_2026", "eanm_snmmi_psma_pet_2023", "asco_genomic_testing_2025"]
+      "sourceIds": ["ccafu_localised_2024_2026", "eau_prostate_2026", "eanm_snmmi_psma_pet_2023", "asco_genomic_testing_2025"]
     },
     {
       "blockId": "deferred_management",
@@ -162,9 +162,9 @@
       "blockId": "hormone_sensitive_and_nmcrpc",
       "title": "Maladie hormonosensible métastatique et nmCRPC",
       "summary": "L'état de maladie se définit par sensibilité à la castration, visibilité métastatique, volume, synchronie et vitesse d'évolution. Ces variables organisent l'intensification.",
-      "outcomes": ["Définir mHSPC et nmCRPC", "Choisir doublet ou triplet selon preuves et fitness", "Discuter l'irradiation du primitif dans les situations appropriées"],
+      "outcomes": ["Distinguer volume CHAARTED, risque LATITUDE et synchronie", "Définir mHSPC et nmCRPC puis choisir une intensification selon preuves et fitness", "Discuter l'irradiation du primitif dans les situations appropriées"],
       "pillars": [
-        {"title": "mHSPC", "body": "Chez la plupart des patients aptes, l'ADT seule n'est plus la stratégie de référence ; l'intensification est choisie selon présentation, charge, symptômes, comorbidités et accès."},
+        {"title": "État de maladie", "body": "Volume CHAARTED, risque LATITUDE, synchronie, modalité d'imagerie et sensibilité hormonale sont rapportés séparément avant de choisir l'intensification."},
         {"title": "Primitif en M1", "body": "La radiothérapie prostatique a une place dans des sous-groupes définis, notamment selon la charge métastatique et le contexte de maladie de novo."},
         {"title": "nmCRPC", "body": "La résistance biologique sans métastase conventionnelle visible impose de confirmer la castration et d'intégrer la cinétique du PSA avant l'intensification."}
       ],

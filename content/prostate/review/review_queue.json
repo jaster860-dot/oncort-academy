@@ -13,11 +13,15 @@
         "sources/index.json#wilson_androgen_receptor_prostate_2020",
         "sources/index.json#isup_grading_consensus_2019",
         "sources/index.json#tcga_prostate_taxonomy_2015",
+        "sources/index.json#ccafu_localised_2024_2026",
         "sources/index.json#eau_prostate_2026"
       ],
-      "decisionNeeded": "Validation médicale et pédagogique des six leçons d'entrée, de leurs pièges, checkpoints et explications.",
+      "decisionNeeded": "Validation médicale et pédagogique des huit leçons d'entrée, du cas enrichi, de leurs pièges, checkpoints et explications ; vérifier en particulier la lecture critique France–Europe et l'intégration de l'horizon de vie et des risques concurrents.",
       "exitCriteria": [
         "Les formulations anatomiques, histologiques, biologiques et pathologiques sont exactes et adaptées à un départ de zéro.",
+        "La lecture d'un essai conserve population, comparateur, critère, horizon, effet absolu, incertitude, toxicités et modalité d'imagerie sans transformer un critère intermédiaire en survie ou guérison.",
+        "Les divergences CCAFU–EAU sont rapportées avec version, périmètre et contexte plutôt que moyennées.",
+        "L'âge civil ne remplace jamais autonomie, comorbidités, fragilité, risques concurrents, délai du bénéfice et préférences.",
         "Chaque checkpoint teste une compréhension utile sans ambiguïté.",
         "Chaque objet approuvé reçoit le statut validated avec date et reviewer."
       ],
@@ -50,11 +54,12 @@
         "sources/index.json#eanm_snmmi_psma_pet_2023",
         "sources/index.json#asco_genomic_testing_2025"
       ],
-      "decisionNeeded": "Valider les cinq leçons et le cas synthétique, en particulier la convention cT fondée sur le toucher rectal dans la grille EAU, les catégories de risque 2026, les indications et limites du PSMA-PET et l'orientation germinale versus somatique.",
+      "decisionNeeded": "Valider les six leçons et le cas synthétique, en particulier la convention cT fondée sur le toucher rectal dans la grille EAU, les catégories de risque 2026, les indications et limites du PSMA-PET, l'estimation ganglionnaire par nomogramme et l'orientation germinale versus somatique.",
       "exitCriteria": [
         "La distinction cT, stade IRM, cN/cM et pTNM est exacte et compatible avec le vocabulaire de RCP retenu.",
         "Les seuils EAU 2026 et la différence avec D'Amico sont vérifiés dans les passages sources indiqués.",
         "La négativité du PSMA-PET ne conduit jamais à exclure la maladie microscopique ou à désintensifier automatiquement.",
+        "Le nomogramme ganglionnaire reste une probabilité prétest traçable ; son seuil n'est ni un stade N ni une règle automatiquement transposable à l'irradiation pelvienne.",
         "Les critères français d'oncogénétique et la séparation germinal/somatique sont acceptés ou corrigés.",
         "Chaque objet approuvé reçoit le statut validated avec date, reviewer et version de source."
       ],
@@ -228,8 +233,8 @@
       "priority": "critical",
       "scope": "hormone_sensitive_and_nmcrpc_learning_path",
       "artifacts": ["learn/hormone_sensitive_and_nmcrpc.json", "sources/index.json#ccafu_advanced_2024_2026", "sources/index.json#eau_prostate_2026", "sources/index.json#esmo_advanced_prostate_2026", "sources/index.json#eanm_snmmi_psma_pet_2023"],
-      "decisionNeeded": "Valider doublets/triplets, irradiation prostatique du M1 faible volume, critères nmCRPC et gestion des métastases osseuses.",
-      "exitCriteria": ["Volume, synchronie, fitness et imagerie conventionnelle sont toujours explicités.", "Le triplet n'est pas présenté comme supérieur à chaque doublet moderne.", "La RT prostatique complète le systémique dans sa population de preuve.", "Le nmCRPC exige castration, progression et M0 conventionnel.", "Les urgences osseuses et objectifs anti-résorptifs sont séparés."],
+      "decisionNeeded": "Valider les cinq leçons et le cas : définitions CHAARTED/LATITUDE, synchronie, doublets/triplets, irradiation prostatique du M1 faible volume, critères nmCRPC et gestion des métastases osseuses ; obtenir le texte intégral CCAFU avant toute validation française détaillée.",
+      "exitCriteria": ["Volume CHAARTED, risque LATITUDE, synchronie et modalité d'imagerie sont rapportés séparément.", "Le critère osseux CHAARTED conserve la condition d'au moins une lésion hors rachis ou pelvis et les ganglions ne sont pas assimilés à des métastases viscérales.", "Aucun détail opératoire n'est attribué au CCAFU ou à l'ESMO tant que leur texte intégral n'a pas été vérifié.", "Le triplet n'est pas présenté comme supérieur à chaque doublet moderne.", "La RT prostatique complète le systémique dans sa population de preuve.", "Le nmCRPC exige castration, progression et M0 conventionnel.", "Les urgences osseuses et objectifs anti-résorptifs sont séparés.", "Chaque objet approuvé reçoit validated avec reviewer, date et version de source."],
       "status": "awaiting_clinician_review"
     },
     {

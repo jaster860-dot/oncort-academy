@@ -31,12 +31,13 @@ La première boucle jouable part d'un cancer localisé à haut risque :
   `needs_review`.
 - Première couche jouable : 15 vues d'ensemble avec objectifs, trois piliers,
   piège clinique, checkpoint corrigé et sources.
-- Bloc 1 approfondi : six leçons de fondations, six checkpoints et 18 cartes de
-  rappel.
+- Bloc 1 approfondi : huit leçons de fondations, huit checkpoints et 24 cartes
+  de rappel, incluant une lecture critique France–Europe des essais et
+  recommandations ainsi que l'horizon de vie et les risques concurrents.
 - Bloc 2 approfondi : cinq leçons de détection/diagnostic, cinq checkpoints et
   15 cartes de rappel, avec navigation jouable depuis la carte du cursus.
-- Bloc 3 approfondi : cinq leçons de stadification/risque/PSMA/génétique,
-  cinq checkpoints, 15 cartes de rappel et un cas synthétique de migration de
+- Bloc 3 approfondi : six leçons de stadification/risque/PSMA/estimation
+  ganglionnaire/génétique, six checkpoints, 18 cartes de rappel et un cas synthétique de migration de
   stade ; navigation et cas intégrateur jouables depuis la carte du cursus.
 - Bloc 4 approfondi : cinq leçons de surveillance active,
   abstention-surveillance, traitements focaux et décision partagée, cinq
@@ -70,9 +71,11 @@ La première boucle jouable part d'un cancer localisé à haut risque :
 - Bloc 11 approfondi : cinq leçons sur mécanismes de l'ADT, intégration à la
   radiothérapie, ARPI, taxanes et prévention osseuse/cardiométabolique, cinq
   checkpoints, 15 cartes et un cas synthétique de choix de classe.
-- Bloc 12 approfondi : quatre leçons sur doublets/triplets du mHSPC,
-  irradiation prostatique du M1 faible volume, nmCRPC et métastases osseuses,
-  quatre checkpoints, 12 cartes et un cas de migration de stade PSMA.
+- Bloc 12 approfondi : cinq leçons sur définitions du volume, du risque et de
+  la synchronie, doublets/triplets du mHSPC, irradiation prostatique du M1
+  faible volume, nmCRPC et métastases osseuses, cinq checkpoints, 15 cartes et
+  un cas de migration de stade PSMA. Les détails CCAFU/ESMO restent suspendus à
+  la vérification de leur texte intégral.
 - Bloc 13 approfondi : onze leçons couvrant l'ensemble du mCRPC, génomique,
   PARP, biomarqueurs rares, radium-223, lutétium-PSMA, séquençage, transformation
   neuroendocrine, radiothérapie palliative et soins de support ; 33 cartes et
@@ -88,8 +91,8 @@ La première boucle jouable part d'un cancer localisé à haut risque :
 - Toutes les propositions thérapeutiques restent éducatives jusqu'à validation
   médicale explicite par Sami.
 
-Les quinze blocs sont maintenant approfondis : 87 leçons, 87 checkpoints,
-261 cartes de rappel et 14 cas synthétiques. Tous restent `needs_review` malgré
+Les quinze blocs sont maintenant approfondis : 91 leçons, 91 checkpoints,
+273 cartes de rappel et 15 cas synthétiques. Tous restent `needs_review` malgré
 leurs contrôles techniques réussis ; aucune formulation clinique n'est libérée
 avant revue médicale nominative.
 

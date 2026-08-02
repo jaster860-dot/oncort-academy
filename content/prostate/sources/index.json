@@ -16,7 +16,7 @@
       "pmid": "39581668",
       "accessLevel": "official_web_and_metadata",
       "verification": "metadata_and_official_web_content_verified_2026-08-01_needs_review",
-      "affectedConcepts": ["eau_risk_groups", "multimodal_curative_options", "adt_rt_integration", "risk_and_patient_context", "high_risk_m0_rcp", "cnode_positive_m0", "guideline_divergence_handling"],
+      "affectedConcepts": ["eau_risk_groups", "nodal_risk_prediction", "prostate_trial_literacy", "multimodal_curative_options", "adt_rt_integration", "risk_and_patient_context", "high_risk_m0_rcp", "cnode_positive_m0", "guideline_divergence_handling"],
       "notes": "Ancre française pour le diagnostic et la maladie localisée."
     },
     {
@@ -44,8 +44,8 @@
       "pmid": "39581665",
       "accessLevel": "abstract_and_metadata",
       "verification": "metadata_verified_content_review_pending",
-      "affectedConcepts": ["mhspc_doublet_triplet", "mcrpc_sequences", "precision_oncology_hrr_brca"],
-      "notes": "Ancre française pour la maladie métastatique et résistante à la castration."
+      "affectedConcepts": ["metastatic_burden_and_synchrony", "mhspc_doublet_triplet", "mcrpc_sequences", "precision_oncology_hrr_brca"],
+      "notes": "Ancre française pour la maladie métastatique et résistante à la castration. Métadonnées et résumé seulement : ne pas lui attribuer de détail opératoire avant vérification du texte intégral."
     },
     {
       "id": "eau_prostate_2026",
@@ -57,7 +57,7 @@
       "url": "https://uroweb.org/guidelines/prostate-cancer",
       "accessLevel": "official_web_full_text",
       "verification": "official_version_verified",
-      "affectedConcepts": ["diagnosis_staging", "eau_risk_groups", "multimodal_curative_options", "adt_rt_integration", "recurrence", "advanced_disease", "survivorship"],
+      "affectedConcepts": ["diagnosis_staging", "eau_risk_groups", "nodal_risk_prediction", "prostate_trial_literacy", "metastatic_burden_and_synchrony", "multimodal_curative_options", "adt_rt_integration", "recurrence", "advanced_disease", "survivorship"],
       "notes": "Ancre européenne transdisciplinaire ; mise à jour limitée 2026 de l'édition 2025."
     },
     {
