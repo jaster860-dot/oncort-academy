@@ -1,0 +1,17 @@
+{
+  "artifact": "/figures/prostate/detection-diagnosis/03-irm-pirads.svg",
+  "status": "needs_review",
+  "reviewMode": "local_technical_and_accessibility_preflight",
+  "automaticQualityReview": {
+    "scope": "Précontrôle technique local ; ne constitue pas une validation clinique.",
+    "threshold": 7.5,
+    "score": 8.5,
+    "passed": true,
+    "cap": 8.5,
+    "capReason": "Score plafonné tant qu'aucun clinicien nommé n'a réalisé la revue clinique finale."
+  },
+  "clinicalValidation": false,
+  "automaticReviewIsClinicalValidation": false,
+  "namedClinicalReviewer": null,
+  "releaseGate": "Conserver needs_review jusqu'à revue clinique nominative."
+}

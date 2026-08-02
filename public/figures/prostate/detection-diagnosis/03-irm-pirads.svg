@@ -84,4 +84,5 @@
 
   <rect x="178" y="628" width="1020" height="76" rx="18" fill="#dceef2" stroke="#147d88" stroke-width="2"/>
   <text x="688" y="675" text-anchor="middle" class="footer">PI-RADS n’est ni un groupe ISUP ni un stade métastatique</text>
+  <text x="688" y="742" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="16" font-weight="700" fill="#52606d">SCHÉMA ÉDUCATIF · NEEDS_REVIEW · VALIDATION CLINIQUE NOMINATIVE REQUISE</text>
 </svg>

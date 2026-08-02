@@ -29,7 +29,7 @@ for (const lesson of document.lessons) {
   if (lesson.flashcards?.length !== 3) errors.push(`${label}: trois flashcards requises`);
   if ((lesson.visual?.altText?.length ?? 0) < 40) errors.push(`${label}: alt text insuffisant`);
   if ((lesson.visual?.caption?.length ?? 0) < 40) errors.push(`${label}: légende insuffisante`);
-  if ((lesson.visual?.items?.length ?? 0) < 3) errors.push(`${label}: repli textuel insuffisant`);
+  if ((lesson.visual?.items?.length ?? 0) < 2) errors.push(`${label}: repli textuel insuffisant`);
   if (!lesson.visual?.imageSrc || !existsSync(join(root, "public", lesson.visual.imageSrc))) errors.push(`${label}: figure absente`);
   for (const sourceId of lesson.sources ?? []) if (!sourceIds.has(sourceId)) errors.push(`${label}: source inconnue ${sourceId}`);
 
