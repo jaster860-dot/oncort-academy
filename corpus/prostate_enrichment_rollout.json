@@ -3,7 +3,7 @@
   "status": "in_progress",
   "startedAt": "2026-08-01",
   "updatedAt": "2026-08-02",
-  "currentBlock": "high_risk_and_cn1",
+  "currentBlock": "systemic_therapy_foundations",
   "releaseGate": "Every block and every clinical figure remains needs_review until named clinician validation.",
   "standard": {
     "keyTakeawaysPerLesson": 3,
@@ -42,11 +42,11 @@
   "summary": {
     "blocks": 15,
     "lessons": 91,
-    "completedBlocks": 9,
-    "completedLessons": 52,
-    "completedFigures": 52,
-    "remainingBlocks": 6,
-    "remainingLessons": 39
+    "completedBlocks": 10,
+    "completedLessons": 57,
+    "completedFigures": 57,
+    "remainingBlocks": 5,
+    "remainingLessons": 34
   },
   "blocks": [
     {"number": 1, "id": "foundations", "lessons": 8, "status": "completed", "figures": 8},
@@ -58,8 +58,8 @@
     {"number": 7, "id": "radiotherapy_planning", "lessons": 6, "status": "completed", "figures": 6},
     {"number": 8, "id": "postprostatectomy_recurrence", "lessons": 6, "status": "completed", "figures": 6},
     {"number": 9, "id": "postradiotherapy_and_oligorecurrence", "lessons": 4, "status": "completed", "figures": 4},
-    {"number": 10, "id": "high_risk_and_cn1", "lessons": 5, "status": "in_progress", "figures": 0},
-    {"number": 11, "id": "systemic_therapy_foundations", "lessons": 5, "status": "pending", "figures": 0},
+    {"number": 10, "id": "high_risk_and_cn1", "lessons": 5, "status": "completed", "figures": 5},
+    {"number": 11, "id": "systemic_therapy_foundations", "lessons": 5, "status": "in_progress", "figures": 0},
     {"number": 12, "id": "hormone_sensitive_and_nmcrpc", "lessons": 5, "status": "pending", "figures": 0},
     {"number": 13, "id": "mcrpc_precision_palliation", "lessons": 11, "status": "pending", "figures": 0},
     {"number": 14, "id": "complex_special_situations", "lessons": 5, "status": "pending", "figures": 0},
