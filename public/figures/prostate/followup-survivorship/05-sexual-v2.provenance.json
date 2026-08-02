@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/followup-survivorship/05-sexual-v2.png",
+  "method": "OpenAI GPT Image",
+  "generatedAt": "2026-08-02",
+  "releaseGate": "needs_review",
+  "source": {
+    "license": "Original AI-generated illustration; no third-party figure reused"
+  },
+  "purpose": "Low-text illustration of a multidimensional, preference-sensitive sexual-health consultation.",
+  "scientificGuardrails": [
+    "No patient data",
+    "No drug, device, efficacy, or contraindication claim",
+    "Partner involvement is presented as optional in the caption",
+    "Clinical options remain in the sourced lesson text"
+  ],
+  "limitations": [
+    "Editorial illustration rather than quantitative evidence",
+    "Does not represent every relationship, identity, or care pathway"
+  ]
+}

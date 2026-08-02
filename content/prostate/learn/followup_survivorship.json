@@ -327,9 +327,9 @@
         "diagramType": "anatomy-map",
         "formatLabel": "Carte urinaire",
         "title": "Toxicité urinaire : caractériser avant de traiter",
-        "imageSrc": "/figures/prostate/followup-survivorship/03-urinary.svg",
-        "altText": "Carte urinaire pour « Toxicité urinaire : caractériser avant de traiter ». Le schéma relie Symptôme et délai ; Mécanisme probable ; Examens ciblés ; Rééducation, médicament ou geste sans représenter de données patient ni remplacer le protocole source.",
-        "caption": "Carte urinaire : Symptôme et délai · Mécanisme probable · Examens ciblés · Rééducation, médicament ou geste. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
+        "imageSrc": "/figures/prostate/followup-survivorship/03-urinary-v2.png",
+        "altText": "Coupe sagittale masculine illustrée montrant la vessie au-dessus de la prostate, l’urètre traversant la prostate puis le plancher pelvien, et le rectum en arrière. La figure localise les structures à confronter au symptôme sans attribuer automatiquement celui-ci à la radiothérapie.",
+        "caption": "Repérage anatomique simplifié : vessie, prostate, urètre, plancher pelvien et rectum. Mécanisme possible : l’image localise les structures mais ne distingue pas à elle seule irritation, infection, obstruction, sténose ou dysfonction sphinctérienne ; l’ECBU et les autres examens restent guidés par le phénotype. Illustration originale générée avec GPT Image, sans donnée patient ni valeur anatomique de référence.",
         "items": [
           {
             "label": "Symptôme et délai",
@@ -543,9 +543,9 @@
         "diagramType": "body-map",
         "formatLabel": "Parcours de santé sexuelle",
         "title": "Santé sexuelle : ouvrir la conversation et proposer un parcours",
-        "imageSrc": "/figures/prostate/followup-survivorship/05-sexual.svg",
-        "altText": "Parcours de santé sexuelle pour « Santé sexuelle : ouvrir la conversation et proposer un parcours ». Le schéma relie Fonction initiale ; Mécanismes et objectifs ; Option progressive ; Réévaluation du couple/patient sans représenter de données patient ni remplacer le protocole source.",
-        "caption": "Parcours de santé sexuelle : Fonction initiale · Mécanismes et objectifs · Option progressive · Réévaluation du couple/patient. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
+        "imageSrc": "/figures/prostate/followup-survivorship/05-sexual-v2.png",
+        "altText": "Consultation de santé sexuelle réunissant un patient, sa partenaire et une clinicienne. Quatre pictogrammes non textuels évoquent la conversation, la fonction corporelle, l’adaptation et le choix partagé.",
+        "caption": "Santé sexuelle : une conversation explicite et une évaluation multidimensionnelle précèdent des Options progressives guidées par les objectifs du patient ; la présence du partenaire est facultative. Illustration originale générée avec GPT Image, sans donnée patient ; les indications et contre-indications restent dans le texte.",
         "items": [
           {
             "label": "Fonction initiale",
@@ -651,9 +651,9 @@
         "diagramType": "body-map",
         "formatLabel": "Carte os–muscle",
         "title": "Santé osseuse après cancer : mesurer le risque et le mouvement",
-        "imageSrc": "/figures/prostate/followup-survivorship/06-bone.svg",
-        "altText": "Carte os–muscle pour « Santé osseuse après cancer : mesurer le risque et le mouvement ». Le schéma relie ADT et facteurs de fracture ; DXA/risque ; Exercice et nutrition ; Anti-résorptif si indiqué sans représenter de données patient ni remplacer le protocole source.",
-        "caption": "Carte os–muscle : ADT et facteurs de fracture · DXA/risque · Exercice et nutrition · Anti-résorptif si indiqué. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
+        "imageSrc": "/figures/prostate/followup-survivorship/06-bone-v2.png",
+        "altText": "Homme debout réalisant un exercice de résistance avec squelette superposé. Des agrandissements montrent le rachis, le fémur proximal et l’avant-bras ; trois vignettes évoquent renforcement, équilibre et marche.",
+        "caption": "Fragilité osseuse : la prévention associe estimation du risque fracturaire, santé musculaire, exercice porteur et de résistance, équilibre et prise en charge pharmacologique lorsqu’elle est indiquée. Une DXA initiale peut relever du parcours selon le contexte ; les sites illustrés ne prescrivent pas l’examen. Illustration originale générée avec GPT Image, sans donnée patient.",
         "items": [
           {
             "label": "ADT et facteurs de fracture",
@@ -869,9 +869,9 @@
         "diagramType": "body-map",
         "formatLabel": "Carte des besoins après-cancer",
         "title": "Après-cancer : projet de vie, anxiété et continuité des soins",
-        "imageSrc": "/figures/prostate/followup-survivorship/08-psychosocial.svg",
-        "altText": "Carte des besoins après-cancer pour « Après-cancer : projet de vie, anxiété et continuité des soins ». Le schéma relie Besoins et détresse ; Responsabilités partagées ; Plan après-cancer ; Réévaluation du projet sans représenter de données patient ni remplacer le protocole source.",
-        "caption": "Carte des besoins après-cancer : Besoins et détresse · Responsabilités partagées · Plan après-cancer · Réévaluation du projet. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
+        "imageSrc": "/figures/prostate/followup-survivorship/08-psychosocial-v2.png",
+        "altText": "Patient au centre d’un réseau de soins illustrant le suivi oncologique, le soutien psychologique, le couple, la réhabilitation physique et la reprise de la vie sociale et professionnelle.",
+        "caption": "L’après-cancer ne se réduit pas au PSA : suivi médical, santé mentale, proches, réhabilitation et vie sociale ou professionnelle doivent être reliés par un PPAC compréhensible et révisable. Idées suicidaires : elles imposent une réponse immédiate adaptée. Illustration originale générée avec GPT Image, sans donnée patient ; elle ne remplace pas le dépistage structuré de la détresse.",
         "items": [
           {
             "label": "Besoins et détresse",

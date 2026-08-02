@@ -215,7 +215,7 @@ export function CoursePlayer({
                 </section>
               )}
 
-              {lesson.visual && <LessonVisual visual={lesson.visual} />}
+              {lesson.visual && <LessonVisual visual={lesson.visual} lessonTitle={lesson.title} />}
 
               <div className="lessonBody">
                 {lesson.sections.map((section, index) => (
@@ -342,7 +342,7 @@ export function CoursePlayer({
   );
 }
 
-function LessonVisual({ visual }: { visual: LessonVisualData }) {
+function LessonVisual({ visual, lessonTitle }: { visual: LessonVisualData; lessonTitle: string }) {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
   const visualNodes = (
     <div className="visualCanvas">
@@ -361,7 +361,7 @@ function LessonVisual({ visual }: { visual: LessonVisualData }) {
     <figure className={`lessonVisual lessonVisual-${visual.kind}`} aria-label={visual.altText}>
       <div className="visualHeading">
         <span>{visual.formatLabel ?? "Figure pédagogique"}</span>
-        <h3>{visual.title}</h3>
+        {visual.title !== lessonTitle && <h3>{visual.title}</h3>}
       </div>
       {visual.imageSrc ? (
         <>

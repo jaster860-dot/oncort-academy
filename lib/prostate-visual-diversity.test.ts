@@ -189,8 +189,8 @@ describe("lesson-specific visual direction for the advanced prostate curriculum"
     expect(manifest.figures.filter((figure: { method: string }) => figure.method === "clinical-imaging-overlay")).toHaveLength(5);
     expect(manifest.figures.filter((figure: { method: string }) => figure.method === "quantitative-scientific-plot")).toHaveLength(6);
     expect(manifest.figures.filter((figure: { method: string }) => figure.method === "structured-comparison")).toHaveLength(23);
-    expect(manifest.figures.filter((figure: { method: string }) => figure.method === "deterministic-scientific-schematic")).toHaveLength(42);
-    expect(manifest.figures.filter((figure: { method: string }) => figure.method === "annotated-medical-illustration")).toHaveLength(14);
+    expect(manifest.figures.filter((figure: { method: string }) => figure.method === "deterministic-scientific-schematic")).toHaveLength(41);
+    expect(manifest.figures.filter((figure: { method: string }) => figure.method === "annotated-medical-illustration")).toHaveLength(15);
     for (const figure of manifest.figures) {
       expect(figure.profile.forbidden.length).toBeGreaterThan(0);
       expect(["needs_review", "reviewed_by_named_clinician"]).toContain(figure.releaseGate);

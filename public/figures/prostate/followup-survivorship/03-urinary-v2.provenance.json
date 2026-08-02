@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/followup-survivorship/03-urinary-v2.png",
+  "method": "OpenAI GPT Image",
+  "generatedAt": "2026-08-02",
+  "releaseGate": "needs_review",
+  "source": {
+    "license": "Original AI-generated illustration; no third-party figure reused"
+  },
+  "purpose": "Low-text conceptual localization of urinary structures relevant to post-treatment symptom assessment.",
+  "scientificGuardrails": [
+    "No patient data or dose distribution",
+    "No target-volume or contouring claim",
+    "Anatomy is illustrative and not a measurement reference",
+    "Etiology and management remain in the sourced lesson text"
+  ],
+  "limitations": [
+    "Generative medical illustration, not a validated atlas",
+    "Does not distinguish toxicity from infection, obstruction, stricture, bleeding source, or sphincter dysfunction"
+  ]
+}

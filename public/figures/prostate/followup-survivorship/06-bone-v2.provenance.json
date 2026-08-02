@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/followup-survivorship/06-bone-v2.png",
+  "method": "OpenAI GPT Image",
+  "generatedAt": "2026-08-02",
+  "releaseGate": "needs_review",
+  "source": {
+    "license": "Original AI-generated illustration; no third-party figure reused"
+  },
+  "purpose": "Low-text illustration linking skeletal health, muscle, balance, and weight-bearing activity during survivorship.",
+  "scientificGuardrails": [
+    "No patient data or fracture-risk estimate",
+    "No drug or DXA threshold",
+    "No exercise dose prescription",
+    "Risk assessment and treatment indications remain in the sourced lesson text"
+  ],
+  "limitations": [
+    "Generative anatomy is illustrative and not an imaging or DXA reference",
+    "Highlighted skeletal sites do not define a complete evaluation"
+  ]
+}

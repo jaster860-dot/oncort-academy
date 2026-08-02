@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/followup-survivorship/08-psychosocial-v2.png",
+  "method": "OpenAI GPT Image",
+  "generatedAt": "2026-08-02",
+  "releaseGate": "needs_review",
+  "source": {
+    "license": "Original AI-generated illustration; no third-party figure reused"
+  },
+  "purpose": "Low-text illustration of coordinated medical, psychological, relational, rehabilitation, and social follow-up.",
+  "scientificGuardrails": [
+    "No patient data",
+    "No screening tool, threshold, or emergency pathway claim",
+    "The network is conceptual rather than organizationally prescriptive",
+    "Operational responsibilities remain in the sourced lesson text"
+  ],
+  "limitations": [
+    "Editorial illustration rather than a care standard",
+    "Does not depict all survivorship needs or professionals"
+  ]
+}

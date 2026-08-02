@@ -2445,7 +2445,7 @@
         "ccafu_localised_2024_2026",
         "eau_prostate_2026"
       ],
-      "currentAsset": "/figures/prostate/followup-survivorship/03-urinary.svg",
+      "currentAsset": "/figures/prostate/followup-survivorship/03-urinary-v2.png",
       "profile": {
         "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
         "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
@@ -2501,7 +2501,7 @@
         "ccafu_localised_2024_2026",
         "eau_prostate_2026"
       ],
-      "currentAsset": "/figures/prostate/followup-survivorship/05-sexual.svg",
+      "currentAsset": "/figures/prostate/followup-survivorship/05-sexual-v2.png",
       "profile": {
         "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
         "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
@@ -2529,7 +2529,7 @@
         "ccafu_recurrence_2024_2026",
         "eau_prostate_2026"
       ],
-      "currentAsset": "/figures/prostate/followup-survivorship/06-bone.svg",
+      "currentAsset": "/figures/prostate/followup-survivorship/06-bone-v2.png",
       "profile": {
         "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
         "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
@@ -2578,7 +2578,7 @@
       "blockId": "followup_survivorship",
       "lessonId": "followup_08_psychosocial",
       "title": "Après-cancer : projet de vie, anxiété et continuité des soins",
-      "method": "deterministic-scientific-schematic",
+      "method": "annotated-medical-illustration",
       "priority": "P2",
       "sourceIds": [
         "ccafu_localised_2024_2026",
@@ -2586,17 +2586,17 @@
         "eau_prostate_2026",
         "inca_organisation_soins_ppac_2017"
       ],
-      "currentAsset": "/figures/prostate/followup-survivorship/08-psychosocial.svg",
+      "currentAsset": "/figures/prostate/followup-survivorship/08-psychosocial-v2.png",
       "profile": {
-        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
-        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
-        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a care standard.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
         "review": [
           "content-domain clinician"
         ],
         "forbidden": [
-          "generic four-box templates",
-          "arrows without defined semantics",
+          "using a generated care network as an organizational standard",
+          "AI-rendered embedded text",
           "invented chronology or causality"
         ]
       },
