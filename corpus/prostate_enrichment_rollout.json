@@ -3,7 +3,7 @@
   "status": "in_progress",
   "startedAt": "2026-08-01",
   "updatedAt": "2026-08-02",
-  "currentBlock": "radiotherapy_planning",
+  "currentBlock": "postprostatectomy_recurrence",
   "releaseGate": "Every block and every clinical figure remains needs_review until named clinician validation.",
   "standard": {
     "keyTakeawaysPerLesson": 3,
@@ -42,11 +42,11 @@
   "summary": {
     "blocks": 15,
     "lessons": 91,
-    "completedBlocks": 6,
-    "completedLessons": 36,
-    "completedFigures": 36,
-    "remainingBlocks": 9,
-    "remainingLessons": 55
+    "completedBlocks": 7,
+    "completedLessons": 42,
+    "completedFigures": 42,
+    "remainingBlocks": 8,
+    "remainingLessons": 49
   },
   "blocks": [
     {"number": 1, "id": "foundations", "lessons": 8, "status": "completed", "figures": 8},
@@ -55,8 +55,8 @@
     {"number": 4, "id": "deferred_management", "lessons": 5, "status": "completed", "figures": 5},
     {"number": 5, "id": "localized_curative_options", "lessons": 5, "status": "completed", "figures": 5},
     {"number": 6, "id": "definitive_radiotherapy", "lessons": 7, "status": "completed", "figures": 7},
-    {"number": 7, "id": "radiotherapy_planning", "lessons": 6, "status": "in_progress", "figures": 0},
-    {"number": 8, "id": "postprostatectomy_recurrence", "lessons": 6, "status": "pending", "figures": 0},
+    {"number": 7, "id": "radiotherapy_planning", "lessons": 6, "status": "completed", "figures": 6},
+    {"number": 8, "id": "postprostatectomy_recurrence", "lessons": 6, "status": "in_progress", "figures": 0},
     {"number": 9, "id": "postradiotherapy_and_oligorecurrence", "lessons": 4, "status": "pending", "figures": 0},
     {"number": 10, "id": "high_risk_and_cn1", "lessons": 5, "status": "pending", "figures": 0},
     {"number": 11, "id": "systemic_therapy_foundations", "lessons": 5, "status": "pending", "figures": 0},
