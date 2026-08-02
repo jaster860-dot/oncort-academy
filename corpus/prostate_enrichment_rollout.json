@@ -3,7 +3,7 @@
   "status": "in_progress",
   "startedAt": "2026-08-01",
   "updatedAt": "2026-08-02",
-  "currentBlock": "complex_special_situations",
+  "currentBlock": "followup_survivorship",
   "releaseGate": "Every block and every clinical figure remains needs_review until named clinician validation.",
   "standard": {
     "keyTakeawaysPerLesson": 3,
@@ -42,11 +42,11 @@
   "summary": {
     "blocks": 15,
     "lessons": 91,
-    "completedBlocks": 13,
-    "completedLessons": 78,
-    "completedFigures": 78,
-    "remainingBlocks": 2,
-    "remainingLessons": 13
+    "completedBlocks": 14,
+    "completedLessons": 83,
+    "completedFigures": 83,
+    "remainingBlocks": 1,
+    "remainingLessons": 8
   },
   "blocks": [
     {"number": 1, "id": "foundations", "lessons": 8, "status": "completed", "figures": 8},
@@ -62,7 +62,7 @@
     {"number": 11, "id": "systemic_therapy_foundations", "lessons": 5, "status": "completed", "figures": 5},
     {"number": 12, "id": "hormone_sensitive_and_nmcrpc", "lessons": 5, "status": "completed", "figures": 5},
     {"number": 13, "id": "mcrpc_precision_palliation", "lessons": 11, "status": "completed", "figures": 11},
-    {"number": 14, "id": "complex_special_situations", "lessons": 5, "status": "in_progress", "figures": 0},
-    {"number": 15, "id": "followup_survivorship", "lessons": 8, "status": "pending", "figures": 0}
+    {"number": 14, "id": "complex_special_situations", "lessons": 5, "status": "completed", "figures": 5},
+    {"number": 15, "id": "followup_survivorship", "lessons": 8, "status": "in_progress", "figures": 0}
   ]
 }
