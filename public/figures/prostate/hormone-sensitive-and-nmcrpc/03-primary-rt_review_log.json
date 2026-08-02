@@ -1,0 +1,70 @@
+{
+  "artifact": "/figures/prostate/hormone-sensitive-and-nmcrpc/03-primary-rt.svg",
+  "status": "needs_review",
+  "reviewMode": "local_deterministic_svg_preflight",
+  "automaticQualityReview": {
+    "scope": "Précontrôle technique automatisé local ; ne constitue pas une validation clinique ni une revue visuelle nominative.",
+    "threshold": 7.5,
+    "rawTechnicalScore": 10,
+    "score": 8.5,
+    "passed": true,
+    "cap": 8.5,
+    "capReason": "Score plafonné tant qu'aucun clinicien nommé n'a réalisé la revue clinique et visuelle finale.",
+    "checks": [
+      {
+        "id": "dimensions_16_9",
+        "label": "Canevas 1376 × 768 au ratio 16:9",
+        "points": 1.5,
+        "passed": true
+      },
+      {
+        "id": "accessible_metadata",
+        "label": "Titre SVG, description et rôle image intégrés",
+        "points": 1,
+        "passed": true
+      },
+      {
+        "id": "palette_and_redundancy",
+        "label": "Palette accessible et information non portée par la couleur seule",
+        "points": 1.5,
+        "passed": true
+      },
+      {
+        "id": "bounded_text",
+        "label": "Libellés bornés à quatre cartes avec retour à la ligne déterministe",
+        "points": 1.5,
+        "passed": true
+      },
+      {
+        "id": "textual_fallback",
+        "label": "Légende, texte alternatif et repli textuel structurés",
+        "points": 1.5,
+        "passed": true
+      },
+      {
+        "id": "source_traceability",
+        "label": "Leçon reliée à des sources contrôlées",
+        "points": 1.5,
+        "passed": true
+      },
+      {
+        "id": "release_gate",
+        "label": "Marquage needs_review et validation clinique explicitement absente",
+        "points": 1.5,
+        "passed": true
+      }
+    ]
+  },
+  "technicalChecks": {
+    "dimensions": "1376x768 viewBox",
+    "aspectRatio": "16:9",
+    "palette": "colorblind-safe teal, blue, orange, charcoal on warm ivory",
+    "embeddedTitleAndDescription": true,
+    "textualFallbackInLesson": true
+  },
+  "automaticReviewIsClinicalValidation": false,
+  "namedClinicalReviewer": null,
+  "clinicalValidation": false,
+  "releaseGate": "Revue clinique nominative obligatoire ; conserver needs_review jusque-là.",
+  "generatedAt": "2026-08-02"
+}

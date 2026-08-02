@@ -2,111 +2,576 @@
   "id": "prostate_hormone_sensitive_and_nmcrpc",
   "blockId": "hormone_sensitive_and_nmcrpc",
   "title": "Prostate — maladie hormonosensible métastatique et nmCRPC",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "status": "needs_review",
-  "lastUpdated": "2026-08-01",
-  "estimatedMinutes": 92,
-  "learningPromise": "À la fin de ce bloc, l'apprenant peut construire une première ligne de mHSPC selon volume, synchronie, fitness et expositions, identifier la place de l'irradiation prostatique et reconnaître un nmCRPC à haut risque sans confondre les objectifs osseux.",
+  "lastUpdated": "2026-08-02",
+  "estimatedMinutes": 110,
+  "learningPromise": "À la fin de ce bloc, l'apprenant peut distinguer volume, risque et synchronie métastatiques, construire une première ligne de mHSPC selon fitness et expositions, identifier la place de l'irradiation prostatique et reconnaître un nmCRPC à haut risque sans confondre les objectifs osseux.",
   "evidenceScope": {
-    "provenanceNote": "Synthèse éducative CCAFU-first, triangulée avec EAU et ESMO 2026. Les catégories de volume et de synchronie proviennent d'essais utilisant principalement l'imagerie conventionnelle ; leur transposition à une stadification PSMA doit être explicitée. Tout reste needs_review.",
+    "provenanceNote": "Synthèse éducative France-Europe. Le CCAFU français et l'ESMO 2026 sont conservés comme ancres documentaires, mais seuls leurs métadonnées et résumés ont été vérifiés : aucun détail ne leur est attribué sans accès au texte intégral. Les formulations opératoires de ce bloc sont bornées au texte intégral officiel EAU 2026 et, pour les limites du PSMA-PET, au texte intégral EANM/SNMMI. Les catégories historiques reposent sur l'imagerie conventionnelle et tout reste needs_review.",
     "anchors": [
-      {"sourceId": "ccafu_advanced_2024_2026", "locator": "Maladie hormonosensible métastatique, doublets/triplets, irradiation prostatique, nmCRPC et complications osseuses"},
-      {"sourceId": "eau_prostate_2026", "locator": "Treatment 6.6 et 6.7 : première ligne M1, RT de la prostate, nmCRPC et santé osseuse"},
-      {"sourceId": "esmo_advanced_prostate_2026", "locator": "Guideline 2026 : algorithmes mHSPC, nmCRPC, imagerie et sélection"}
+      {
+        "sourceId": "ccafu_advanced_2024_2026",
+        "locator": "Métadonnées PubMed et résumé uniquement ; texte intégral non vérifié, à obtenir pour la revue française détaillée"
+      },
+      {
+        "sourceId": "eau_prostate_2026",
+        "locator": "Texte intégral officiel, Treatment 6.6.3 et tableau 6.6.1 : volume CHAARTED, risque LATITUDE et synchronie ; sections 6.6–6.7 : première ligne M1, RT de la prostate, nmCRPC et santé osseuse"
+      },
+      {
+        "sourceId": "esmo_advanced_prostate_2026",
+        "locator": "Métadonnées PubMed et résumé uniquement ; texte intégral non vérifié, ne pas utiliser pour un détail opératoire"
+      },
+      {
+        "sourceId": "eanm_snmmi_psma_pet_2023",
+        "locator": "Texte intégral, limites de détection et interprétation du PSMA-PET selon contexte et probabilité prétest"
+      }
     ],
     "divergences": [
-      {"topic": "Doublet versus triplet", "summary": "Le triplet a été comparé à ADT–docétaxel, pas directement à chaque doublet ADT–ARPI moderne ; son avantage relatif est donc moins certain chez les maladies métachrones ou de faible volume."},
-      {"topic": "Volume conventionnel versus PSMA", "summary": "Les définitions historiques de volume et la preuve de l'irradiation prostatique reposent sur scanner et scintigraphie ; une migration de stade par PSMA n'autorise pas à réétiqueter les populations d'essai sans réserve."}
+      {
+        "topic": "Doublet versus triplet",
+        "summary": "Le triplet a été comparé à ADT–docétaxel, pas directement à chaque doublet ADT–ARPI moderne ; son avantage relatif est donc moins certain chez les maladies métachrones ou de faible volume."
+      },
+      {
+        "topic": "Volume conventionnel versus PSMA",
+        "summary": "Les définitions historiques de volume et la preuve de l'irradiation prostatique reposent sur scanner et scintigraphie ; une migration de stade par PSMA n'autorise pas à réétiqueter les populations d'essai sans réserve."
+      }
     ]
   },
   "lessons": [
     {
+      "id": "hspc_01_burden_synchrony",
+      "number": 1,
+      "title": "Volume, risque et synchronie : garder les définitions de leurs essais",
+      "durationMinutes": 18,
+      "objectives": [
+        "Distinguer volume CHAARTED et risque LATITUDE.",
+        "Décrire une maladie synchrone ou métachrone.",
+        "Relier chaque catégorie à l'imagerie qui l'a construite."
+      ],
+      "sections": [
+        {
+          "title": "Le volume CHAARTED est une définition, pas une impression",
+          "body": "Dans le tableau EAU 2026, le haut volume CHAARTED correspond à des métastases viscérales et/ou à au moins quatre métastases osseuses dont au moins une hors du rachis ou du pelvis ; les ganglions ne sont pas des métastases viscérales. Le faible volume signifie que ces critères ne sont pas remplis. Il ne signifie ni faible agressivité biologique, ni faible besoin de traitement systémique."
+        },
+        {
+          "title": "Le risque LATITUDE répond à une autre construction",
+          "body": "Le risque LATITUDE combine des caractéristiques tumorales différentes du volume CHAARTED. Les deux étiquettes peuvent être rapportées côte à côte, mais ne doivent pas être utilisées comme synonymes. Avant de citer une catégorie, le dossier nomme la définition, les variables disponibles et l'essai ou le référentiel concerné."
+        },
+        {
+          "title": "Synchronie et modalité d'imagerie restent visibles",
+          "body": "Une maladie synchrone est présente lors de la première présentation ; une maladie métachrone apparaît après un traitement local antérieur. L'EAU souligne leur pronostic différent. Les catégories historiques de volume ont été construites avec scanner et scintigraphie osseuse : le TEP-PSMA ajoute une couche de stadification, mais ne réécrit pas rétroactivement la population d'un essai."
+        }
+      ],
+      "causalChain": [
+        "Imagerie conventionnelle source",
+        "Définition nommée",
+        "Volume et risque séparés",
+        "Synchronie explicite avant traitement"
+      ],
+      "commonTrap": "Qualifier de haut volume toute maladie comportant au moins quatre lésions osseuses sans vérifier leur localisation, ou employer haut risque et haut volume comme des synonymes.",
+      "checkpoint": {
+        "prompt": "Un patient présente cinq métastases osseuses limitées au rachis et au pelvis, sans métastase viscérale sur l'imagerie conventionnelle initiale. Quelle formulation respecte CHAARTED ?",
+        "options": [
+          "Haut volume certain parce qu'il existe au moins quatre lésions",
+          "Faible volume CHAARTED car aucune lésion osseuse n'est hors rachis ou pelvis et il n'existe pas de métastase viscérale",
+          "Faible risque LATITUDE automatiquement",
+          "La catégorie doit être remplacée par le seul nombre de foyers au TEP-PSMA"
+        ],
+        "answerIndex": 1,
+        "explanation": "CHAARTED exige, pour le critère osseux, au moins quatre lésions dont au moins une hors rachis ou pelvis ; volume, risque LATITUDE et stade PSMA restent des informations distinctes."
+      },
+      "flashcards": [
+        {
+          "front": "Haut volume CHAARTED",
+          "back": "Métastase viscérale et/ou ≥4 métastases osseuses dont ≥1 hors rachis ou pelvis ; les ganglions ne comptent pas comme viscéral."
+        },
+        {
+          "front": "Volume ≠ risque",
+          "back": "CHAARTED et LATITUDE utilisent des constructions différentes ; toujours nommer la définition."
+        },
+        {
+          "front": "Synchrone versus métachrone",
+          "back": "Présente d'emblée versus apparue après traitement local ; pronostic et population de preuve diffèrent."
+        }
+      ],
+      "sources": [
+        "eau_prostate_2026",
+        "eanm_snmmi_psma_pet_2023"
+      ],
+      "keyTakeaways": [
+        "Dans le tableau EAU 2026, le haut volume CHAARTED correspond à des métastases viscérales et/ou à au moins quatre métastases osseuses dont au moins une hors du rachis ou du pelvis ; les ganglions ne sont pas des métastases viscérales.",
+        "Le risque LATITUDE combine des caractéristiques tumorales différentes du volume CHAARTED.",
+        "Une maladie synchrone est présente lors de la première présentation ; une maladie métachrone apparaît après un traitement local antérieur."
+      ],
+      "visual": {
+        "kind": "pathway",
+        "title": "Raisonnement clinique — Volume, risque et synchronie : garder les définitions de leurs essais",
+        "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/01-burden-synchrony.svg",
+        "altText": "Schéma en 4 étapes pour volume, risque et synchronie : garder les définitions de leurs essais : Imagerie conventionnelle source, puis Définition nommée, puis Volume et risque séparés, puis Synchronie explicite avant traitement.",
+        "caption": "Lecture de gauche à droite : Imagerie conventionnelle source → Définition nommée → Volume et risque séparés → Synchronie explicite avant traitement. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Imagerie conventionnelle source",
+            "detail": "Dans le tableau EAU 2026, le haut volume CHAARTED correspond à des métastases viscérales et/ou à au moins quatre métastases osseuses dont au moins une hors du rachis ou du pelvis ; les ganglions ne sont pas des métastases viscérales."
+          },
+          {
+            "label": "Définition nommée",
+            "detail": "Le risque LATITUDE combine des caractéristiques tumorales différentes du volume CHAARTED."
+          },
+          {
+            "label": "Volume et risque séparés",
+            "detail": "Une maladie synchrone est présente lors de la première présentation ; une maladie métachrone apparaît après un traitement local antérieur."
+          },
+          {
+            "label": "Synchronie explicite avant traitement",
+            "detail": "Dans le tableau EAU 2026, le haut volume CHAARTED correspond à des métastases viscérales et/ou à au moins quatre métastases osseuses dont au moins une hors du rachis ou du pelvis ; les ganglions ne sont pas des métastases viscérales."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Un patient présente cinq métastases osseuses limitées au rachis et au pelvis, sans métastase viscérale sur l'imagerie conventionnelle initiale. Quelle formulation respecte CHAARTED ?",
+        "body": "CHAARTED exige, pour le critère osseux, au moins quatre lésions dont au moins une hors rachis ou pelvis ; volume, risque LATITUDE et stade PSMA restent des informations distinctes. Piège à éviter : Qualifier de haut volume toute maladie comportant au moins quatre lésions osseuses sans vérifier leur localisation, ou employer haut risque et haut volume comme des synonymes."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Le risque LATITUDE répond à une autre construction",
+          "body": "Le risque LATITUDE combine des caractéristiques tumorales différentes du volume CHAARTED. Les deux étiquettes peuvent être rapportées côte à côte, mais ne doivent pas être utilisées comme synonymes. Avant de citer une catégorie, le dossier nomme la définition, les variables disponibles et l'essai ou le référentiel concerné."
+        },
+        {
+          "title": "Approfondissement — Synchronie et modalité d'imagerie restent visibles",
+          "body": "Une maladie synchrone est présente lors de la première présentation ; une maladie métachrone apparaît après un traitement local antérieur. L'EAU souligne leur pronostic différent. Les catégories historiques de volume ont été construites avec scanner et scintigraphie osseuse : le TEP-PSMA ajoute une couche de stadification, mais ne réécrit pas rétroactivement la population d'un essai."
+        }
+      ]
+    },
+    {
       "id": "hspc_01_doublet_triplet",
       "nodeId": "mhspc_doublet_triplet",
-      "number": 1,
+      "number": 2,
       "title": "mHSPC : construire l'intensification initiale",
       "durationMinutes": 24,
-      "objectives": ["Définir hormonosensibilité et contexte M1.", "Choisir entre doublet et triplet.", "Éviter l'ADT seule par défaut."],
+      "objectives": [
+        "Définir hormonosensibilité et contexte M1.",
+        "Choisir entre doublet et triplet.",
+        "Éviter l'ADT seule par défaut."
+      ],
       "sections": [
-        {"title": "Quatre axes avant le médicament", "body": "La première ligne décrit volume selon la définition de l'essai, maladie de novo ou métachrone, symptômes et rythme, fitness et comorbidités, puis expositions antérieures. Une maladie M1 hormonosensible apte reçoit généralement une intensification sur le socle d'ADT ; l'ADT seule est réservée aux situations où le rapport bénéfice–risque ou la préférence l'impose."},
-        {"title": "Doublet moderne", "body": "ADT plus ARPI est une référence dans de larges populations. Le choix de l'ARPI dépend des comorbidités, interactions, accès, préférence et traitements précédents ; les essais ne permettent pas un classement direct simple entre agents."},
-        {"title": "Triplet sélectionné", "body": "ADT, docétaxel et ARPI est surtout soutenu chez des patients aptes à la chimiothérapie, souvent de novo et à charge élevée. Les essais montrent un gain par rapport à ADT–docétaxel, mais ne prouvent pas que le triplet surpasse chaque doublet ADT–ARPI dans tous les sous-groupes."}
+        {
+          "title": "Quatre axes avant le médicament",
+          "body": "La première ligne décrit volume selon la définition de l'essai, maladie de novo ou métachrone, symptômes et rythme, fitness et comorbidités, puis expositions antérieures. Une maladie M1 hormonosensible apte reçoit généralement une intensification sur le socle d'ADT ; l'ADT seule est réservée aux situations où le rapport bénéfice–risque ou la préférence l'impose."
+        },
+        {
+          "title": "Doublet moderne",
+          "body": "ADT plus ARPI est une référence dans de larges populations. Le choix de l'ARPI dépend des comorbidités, interactions, accès, préférence et traitements précédents ; les essais ne permettent pas un classement direct simple entre agents."
+        },
+        {
+          "title": "Triplet sélectionné",
+          "body": "ADT, docétaxel et ARPI est surtout soutenu chez des patients aptes à la chimiothérapie, souvent de novo et à charge élevée. Les essais montrent un gain par rapport à ADT–docétaxel, mais ne prouvent pas que le triplet surpasse chaque doublet ADT–ARPI dans tous les sous-groupes."
+        }
       ],
-      "causalChain": ["Volume–synchronie–fitness", "Socle ADT", "Doublet ou triplet", "Prévention et réévaluation"],
+      "causalChain": [
+        "Volume–synchronie–fitness",
+        "Socle ADT",
+        "Doublet ou triplet",
+        "Prévention et réévaluation"
+      ],
       "commonTrap": "Présenter le triplet comme universellement supérieur sans reconnaître le comparateur ADT–docétaxel et la sélection des patients.",
-      "checkpoint": {"prompt": "Quel patient correspond le mieux à une discussion de triplet ?", "options": ["Patient fragile avec maladie métachrone minime", "Patient apte au docétaxel avec maladie de novo à charge élevée", "Tout patient ayant un PSA détectable", "Patient sans métastase"], "answerIndex": 1, "explanation": "La preuve et la tolérance rendent le triplet surtout pertinent chez un patient fit, souvent de novo et à forte charge."},
+      "checkpoint": {
+        "prompt": "Quel patient correspond le mieux à une discussion de triplet ?",
+        "options": [
+          "Patient fragile avec maladie métachrone minime",
+          "Patient apte au docétaxel avec maladie de novo à charge élevée",
+          "Tout patient ayant un PSA détectable",
+          "Patient sans métastase"
+        ],
+        "answerIndex": 1,
+        "explanation": "La preuve et la tolérance rendent le triplet surtout pertinent chez un patient fit, souvent de novo et à forte charge."
+      },
       "flashcards": [
-        {"front": "mHSPC apte", "back": "Intensification sur ADT plutôt qu'ADT seule par défaut."},
-        {"front": "Doublet", "back": "ADT + ARPI ; choix selon terrain, interactions, accès et préférence."},
-        {"front": "Triplet", "back": "ADT + docétaxel + ARPI chez patient sélectionné ; comparaison directe aux doublets modernes limitée."}
+        {
+          "front": "mHSPC apte",
+          "back": "Intensification sur ADT plutôt qu'ADT seule par défaut."
+        },
+        {
+          "front": "Doublet",
+          "back": "ADT + ARPI ; choix selon terrain, interactions, accès et préférence."
+        },
+        {
+          "front": "Triplet",
+          "back": "ADT + docétaxel + ARPI chez patient sélectionné ; comparaison directe aux doublets modernes limitée."
+        }
       ],
-      "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026"]
+      "sources": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026"
+      ],
+      "keyTakeaways": [
+        "La première ligne décrit volume selon la définition de l'essai, maladie de novo ou métachrone, symptômes et rythme, fitness et comorbidités, puis expositions antérieures.",
+        "ADT plus ARPI est une référence dans de larges populations.",
+        "ADT, docétaxel et ARPI est surtout soutenu chez des patients aptes à la chimiothérapie, souvent de novo et à charge élevée."
+      ],
+      "visual": {
+        "kind": "comparison",
+        "title": "Raisonnement clinique — mHSPC : construire l'intensification initiale",
+        "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/02-doublet-triplet.svg",
+        "altText": "Schéma en 4 étapes pour mhspc : construire l'intensification initiale : Volume–synchronie–fitness, puis Socle ADT, puis Doublet ou triplet, puis Prévention et réévaluation.",
+        "caption": "Lecture de gauche à droite : Volume–synchronie–fitness → Socle ADT → Doublet ou triplet → Prévention et réévaluation. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Volume–synchronie–fitness",
+            "detail": "La première ligne décrit volume selon la définition de l'essai, maladie de novo ou métachrone, symptômes et rythme, fitness et comorbidités, puis expositions antérieures."
+          },
+          {
+            "label": "Socle ADT",
+            "detail": "ADT plus ARPI est une référence dans de larges populations."
+          },
+          {
+            "label": "Doublet ou triplet",
+            "detail": "ADT, docétaxel et ARPI est surtout soutenu chez des patients aptes à la chimiothérapie, souvent de novo et à charge élevée."
+          },
+          {
+            "label": "Prévention et réévaluation",
+            "detail": "La première ligne décrit volume selon la définition de l'essai, maladie de novo ou métachrone, symptômes et rythme, fitness et comorbidités, puis expositions antérieures."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Quel patient correspond le mieux à une discussion de triplet ?",
+        "body": "La preuve et la tolérance rendent le triplet surtout pertinent chez un patient fit, souvent de novo et à forte charge. Piège à éviter : Présenter le triplet comme universellement supérieur sans reconnaître le comparateur ADT–docétaxel et la sélection des patients."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Doublet moderne",
+          "body": "ADT plus ARPI est une référence dans de larges populations. Le choix de l'ARPI dépend des comorbidités, interactions, accès, préférence et traitements précédents ; les essais ne permettent pas un classement direct simple entre agents."
+        },
+        {
+          "title": "Approfondissement — Triplet sélectionné",
+          "body": "ADT, docétaxel et ARPI est surtout soutenu chez des patients aptes à la chimiothérapie, souvent de novo et à charge élevée. Les essais montrent un gain par rapport à ADT–docétaxel, mais ne prouvent pas que le triplet surpasse chaque doublet ADT–ARPI dans tous les sous-groupes."
+        }
+      ]
     },
     {
       "id": "hspc_02_primary_rt",
       "nodeId": "primary_prostate_rt_in_m1",
-      "number": 2,
+      "number": 3,
       "title": "Irradier la prostate en M1 : préserver la population de preuve",
       "durationMinutes": 22,
-      "objectives": ["Identifier le sous-groupe soutenant la RT prostatique.", "Distinguer traitement du primitif et MDT.", "Intégrer la RT au systémique."],
+      "objectives": [
+        "Identifier le sous-groupe soutenant la RT prostatique.",
+        "Distinguer traitement du primitif et MDT.",
+        "Intégrer la RT au systémique."
+      ],
       "sections": [
-        {"title": "Faible volume de novo", "body": "Chez une maladie métastatique d'emblée à faible volume en imagerie conventionnelle, l'irradiation de la prostate s'ajoute au traitement systémique et vise un bénéfice oncologique. Elle ne remplace ni l'ADT ni son intensification."},
-        {"title": "Pas d'extrapolation automatique", "body": "Le bénéfice n'est pas démontré de la même façon dans la maladie à volume élevé. Une maladie métachrone après traitement local répond à une autre question ; de même, traiter la prostate n'est pas équivalent à irradier toutes les métastases."},
-        {"title": "Le PSMA complique la catégorie", "body": "Un patient faible volume au scanner peut avoir davantage de foyers au TEP-PSMA. La RCP conserve la classification conventionnelle utilisée par l'essai, décrit le stade moléculaire et explique l'incertitude plutôt que de retirer automatiquement une option potentiellement bénéfique."}
+        {
+          "title": "Faible volume de novo",
+          "body": "Chez une maladie métastatique d'emblée à faible volume en imagerie conventionnelle, l'irradiation de la prostate s'ajoute au traitement systémique et vise un bénéfice oncologique. Elle ne remplace ni l'ADT ni son intensification."
+        },
+        {
+          "title": "Pas d'extrapolation automatique",
+          "body": "Le bénéfice n'est pas démontré de la même façon dans la maladie à volume élevé. Une maladie métachrone après traitement local répond à une autre question ; de même, traiter la prostate n'est pas équivalent à irradier toutes les métastases."
+        },
+        {
+          "title": "Le PSMA complique la catégorie",
+          "body": "Un patient faible volume au scanner peut avoir davantage de foyers au TEP-PSMA. La RCP conserve la classification conventionnelle utilisée par l'essai, décrit le stade moléculaire et explique l'incertitude plutôt que de retirer automatiquement une option potentiellement bénéfique."
+        }
       ],
-      "causalChain": ["M1 de novo", "Volume conventionnel", "Systémique intensifié", "RT prostatique intégrée"],
+      "causalChain": [
+        "M1 de novo",
+        "Volume conventionnel",
+        "Systémique intensifié",
+        "RT prostatique intégrée"
+      ],
       "commonTrap": "Utiliser la RT prostatique comme substitut au traitement systémique ou l'étendre à tout M1 sans distinguer volume et synchronie.",
-      "checkpoint": {"prompt": "Quelle formulation est correcte ?", "options": ["La RT prostatique remplace l'ADT en faible volume", "Elle s'ajoute au systémique dans le M1 de novo à faible volume conventionnel", "Elle est prouvée identiquement dans tout haut volume", "Elle équivaut à une MDT de toutes les lésions"], "answerIndex": 1, "explanation": "La preuve concerne le traitement du primitif ajouté au standard systémique dans une population définie."},
+      "checkpoint": {
+        "prompt": "Quelle formulation est correcte ?",
+        "options": [
+          "La RT prostatique remplace l'ADT en faible volume",
+          "Elle s'ajoute au systémique dans le M1 de novo à faible volume conventionnel",
+          "Elle est prouvée identiquement dans tout haut volume",
+          "Elle équivaut à une MDT de toutes les lésions"
+        ],
+        "answerIndex": 1,
+        "explanation": "La preuve concerne le traitement du primitif ajouté au standard systémique dans une population définie."
+      },
       "flashcards": [
-        {"front": "RT prostate M1", "back": "À discuter dans le de novo faible volume conventionnel, en plus du systémique."},
-        {"front": "RT primitif ≠ MDT", "back": "Traiter la prostate et traiter chaque métastase répondent à des questions différentes."},
-        {"front": "PSMA et volume", "back": "Conserver la catégorie conventionnelle de l'essai et tracer la migration moléculaire."}
+        {
+          "front": "RT prostate M1",
+          "back": "À discuter dans le de novo faible volume conventionnel, en plus du systémique."
+        },
+        {
+          "front": "RT primitif ≠ MDT",
+          "back": "Traiter la prostate et traiter chaque métastase répondent à des questions différentes."
+        },
+        {
+          "front": "PSMA et volume",
+          "back": "Conserver la catégorie conventionnelle de l'essai et tracer la migration moléculaire."
+        }
       ],
-      "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026", "eanm_snmmi_psma_pet_2023"]
+      "sources": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "eanm_snmmi_psma_pet_2023"
+      ],
+      "keyTakeaways": [
+        "Chez une maladie métastatique d'emblée à faible volume en imagerie conventionnelle, l'irradiation de la prostate s'ajoute au traitement systémique et vise un bénéfice oncologique.",
+        "Le bénéfice n'est pas démontré de la même façon dans la maladie à volume élevé.",
+        "Un patient faible volume au scanner peut avoir davantage de foyers au TEP-PSMA."
+      ],
+      "visual": {
+        "kind": "decision",
+        "title": "Raisonnement clinique — Irradier la prostate en M1 : préserver la population de preuve",
+        "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/03-primary-rt.svg",
+        "altText": "Schéma en 4 étapes pour irradier la prostate en m1 : préserver la population de preuve : M1 de novo, puis Volume conventionnel, puis Systémique intensifié, puis RT prostatique intégrée.",
+        "caption": "Lecture de gauche à droite : M1 de novo → Volume conventionnel → Systémique intensifié → RT prostatique intégrée. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "M1 de novo",
+            "detail": "Chez une maladie métastatique d'emblée à faible volume en imagerie conventionnelle, l'irradiation de la prostate s'ajoute au traitement systémique et vise un bénéfice oncologique."
+          },
+          {
+            "label": "Volume conventionnel",
+            "detail": "Le bénéfice n'est pas démontré de la même façon dans la maladie à volume élevé."
+          },
+          {
+            "label": "Systémique intensifié",
+            "detail": "Un patient faible volume au scanner peut avoir davantage de foyers au TEP-PSMA."
+          },
+          {
+            "label": "RT prostatique intégrée",
+            "detail": "Chez une maladie métastatique d'emblée à faible volume en imagerie conventionnelle, l'irradiation de la prostate s'ajoute au traitement systémique et vise un bénéfice oncologique."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Quelle formulation est correcte ?",
+        "body": "La preuve concerne le traitement du primitif ajouté au standard systémique dans une population définie. Piège à éviter : Utiliser la RT prostatique comme substitut au traitement systémique ou l'étendre à tout M1 sans distinguer volume et synchronie."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Pas d'extrapolation automatique",
+          "body": "Le bénéfice n'est pas démontré de la même façon dans la maladie à volume élevé. Une maladie métachrone après traitement local répond à une autre question ; de même, traiter la prostate n'est pas équivalent à irradier toutes les métastases."
+        },
+        {
+          "title": "Approfondissement — Le PSMA complique la catégorie",
+          "body": "Un patient faible volume au scanner peut avoir davantage de foyers au TEP-PSMA. La RCP conserve la classification conventionnelle utilisée par l'essai, décrit le stade moléculaire et explique l'incertitude plutôt que de retirer automatiquement une option potentiellement bénéfique."
+        }
+      ]
     },
     {
       "id": "hspc_03_nmcrpc",
       "nodeId": "nmcrpc",
-      "number": 3,
+      "number": 4,
       "title": "nmCRPC : trois conditions avant de traiter",
       "durationMinutes": 23,
-      "objectives": ["Confirmer castration et progression.", "Vérifier l'absence de métastase conventionnelle.", "Utiliser le temps de doublement pour le risque."],
+      "objectives": [
+        "Confirmer castration et progression.",
+        "Vérifier l'absence de métastase conventionnelle.",
+        "Utiliser le temps de doublement pour le risque."
+      ],
       "sections": [
-        {"title": "Un état construit", "body": "Le nmCRPC associe progression biologique sous testostérone au niveau de castration et absence de métastase sur l'imagerie conventionnelle pertinente. Il faut vérifier injection, observance, cinétique du PSA et méthode d'imagerie avant de poser l'étiquette."},
-        {"title": "Le risque dépend de la cinétique", "body": "Un temps de doublement du PSA court, classiquement inférieur ou égal à dix mois dans les essais pivots, identifie une population à haut risque de métastases. Apalutamide, darolutamide ou enzalutamide ajoutés à l'ADT sont des options selon recommandations, tolérance, interactions et accès."},
-        {"title": "PSMA positif : nommer la migration", "body": "Un TEP-PSMA peut révéler des lésions occultes à l'imagerie conventionnelle. Les essais nmCRPC ont utilisé une stadification conventionnelle ; la RCP documente donc simultanément l'état historique et le stade moléculaire sans prétendre que les données prospectives sont identiques."}
+        {
+          "title": "Un état construit",
+          "body": "Le nmCRPC associe progression biologique sous testostérone au niveau de castration et absence de métastase sur l'imagerie conventionnelle pertinente. Il faut vérifier injection, observance, cinétique du PSA et méthode d'imagerie avant de poser l'étiquette."
+        },
+        {
+          "title": "Le risque dépend de la cinétique",
+          "body": "Un temps de doublement du PSA court, classiquement inférieur ou égal à dix mois dans les essais pivots, identifie une population à haut risque de métastases. Apalutamide, darolutamide ou enzalutamide ajoutés à l'ADT sont des options selon recommandations, tolérance, interactions et accès."
+        },
+        {
+          "title": "PSMA positif : nommer la migration",
+          "body": "Un TEP-PSMA peut révéler des lésions occultes à l'imagerie conventionnelle. Les essais nmCRPC ont utilisé une stadification conventionnelle ; la RCP documente donc simultanément l'état historique et le stade moléculaire sans prétendre que les données prospectives sont identiques."
+        }
       ],
-      "causalChain": ["Castration confirmée", "Progression PSA", "M0 conventionnel", "PSADT et ARPI adapté"],
+      "causalChain": [
+        "Castration confirmée",
+        "Progression PSA",
+        "M0 conventionnel",
+        "PSADT et ARPI adapté"
+      ],
       "commonTrap": "Appeler nmCRPC une hausse de PSA sans testostérone ou après une imagerie insuffisante.",
-      "checkpoint": {"prompt": "Quel ensemble définit le mieux un nmCRPC à haut risque issu des essais ?", "options": ["PSA élevé sans ADT", "Progression PSA sous castration, M0 conventionnel et PSADT court", "Toute fixation PSMA", "Douleur osseuse sans bilan"], "answerIndex": 1, "explanation": "Les trois dimensions — castration, progression et M0 conventionnel — précèdent l'utilisation du PSADT."},
+      "checkpoint": {
+        "prompt": "Quel ensemble définit le mieux un nmCRPC à haut risque issu des essais ?",
+        "options": [
+          "PSA élevé sans ADT",
+          "Progression PSA sous castration, M0 conventionnel et PSADT court",
+          "Toute fixation PSMA",
+          "Douleur osseuse sans bilan"
+        ],
+        "answerIndex": 1,
+        "explanation": "Les trois dimensions — castration, progression et M0 conventionnel — précèdent l'utilisation du PSADT."
+      },
       "flashcards": [
-        {"front": "nmCRPC", "back": "Progression sous castration sans métastase conventionnelle."},
-        {"front": "Haut risque nmCRPC", "back": "PSADT court, seuil des essais généralement ≤10 mois."},
-        {"front": "Traitement", "back": "Poursuivre ADT et ajouter ARPI sélectionné ; surveiller interactions et toxicités."}
+        {
+          "front": "nmCRPC",
+          "back": "Progression sous castration sans métastase conventionnelle."
+        },
+        {
+          "front": "Haut risque nmCRPC",
+          "back": "PSADT court, seuil des essais généralement ≤10 mois."
+        },
+        {
+          "front": "Traitement",
+          "back": "Poursuivre ADT et ajouter ARPI sélectionné ; surveiller interactions et toxicités."
+        }
       ],
-      "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026"]
+      "sources": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026"
+      ],
+      "keyTakeaways": [
+        "Le nmCRPC associe progression biologique sous testostérone au niveau de castration et absence de métastase sur l'imagerie conventionnelle pertinente.",
+        "Un temps de doublement du PSA court, classiquement inférieur ou égal à dix mois dans les essais pivots, identifie une population à haut risque de métastases.",
+        "Un TEP-PSMA peut révéler des lésions occultes à l'imagerie conventionnelle."
+      ],
+      "visual": {
+        "kind": "matrix",
+        "title": "Raisonnement clinique — nmCRPC : trois conditions avant de traiter",
+        "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/04-nmcrpc.svg",
+        "altText": "Schéma en 4 étapes pour nmcrpc : trois conditions avant de traiter : Castration confirmée, puis Progression PSA, puis M0 conventionnel, puis PSADT et ARPI adapté.",
+        "caption": "Lecture de gauche à droite : Castration confirmée → Progression PSA → M0 conventionnel → PSADT et ARPI adapté. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Castration confirmée",
+            "detail": "Le nmCRPC associe progression biologique sous testostérone au niveau de castration et absence de métastase sur l'imagerie conventionnelle pertinente."
+          },
+          {
+            "label": "Progression PSA",
+            "detail": "Un temps de doublement du PSA court, classiquement inférieur ou égal à dix mois dans les essais pivots, identifie une population à haut risque de métastases."
+          },
+          {
+            "label": "M0 conventionnel",
+            "detail": "Un TEP-PSMA peut révéler des lésions occultes à l'imagerie conventionnelle."
+          },
+          {
+            "label": "PSADT et ARPI adapté",
+            "detail": "Le nmCRPC associe progression biologique sous testostérone au niveau de castration et absence de métastase sur l'imagerie conventionnelle pertinente."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Quel ensemble définit le mieux un nmCRPC à haut risque issu des essais ?",
+        "body": "Les trois dimensions — castration, progression et M0 conventionnel — précèdent l'utilisation du PSADT. Piège à éviter : Appeler nmCRPC une hausse de PSA sans testostérone ou après une imagerie insuffisante."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Le risque dépend de la cinétique",
+          "body": "Un temps de doublement du PSA court, classiquement inférieur ou égal à dix mois dans les essais pivots, identifie une population à haut risque de métastases. Apalutamide, darolutamide ou enzalutamide ajoutés à l'ADT sont des options selon recommandations, tolérance, interactions et accès."
+        },
+        {
+          "title": "Approfondissement — PSMA positif : nommer la migration",
+          "body": "Un TEP-PSMA peut révéler des lésions occultes à l'imagerie conventionnelle. Les essais nmCRPC ont utilisé une stadification conventionnelle ; la RCP documente donc simultanément l'état historique et le stade moléculaire sans prétendre que les données prospectives sont identiques."
+        }
+      ]
     },
     {
       "id": "hspc_04_bone",
       "nodeId": "bone_metastases_and_sre_prevention",
-      "number": 4,
+      "number": 5,
       "title": "Métastases osseuses : douleur, urgence et prévention selon l'état",
       "durationMinutes": 23,
-      "objectives": ["Reconnaître une urgence osseuse.", "Distinguer palliation et prévention des événements squelettiques.", "Éviter l'extrapolation du mCRPC au mHSPC."],
+      "objectives": [
+        "Reconnaître une urgence osseuse.",
+        "Distinguer palliation et prévention des événements squelettiques.",
+        "Éviter l'extrapolation du mCRPC au mHSPC."
+      ],
       "sections": [
-        {"title": "Trier l'urgence", "body": "Douleur rachidienne nouvelle, déficit neurologique, trouble sphinctérien, fracture imminente ou hypercalcémie imposent une évaluation urgente et coordonnée. L'analgésie et l'imagerie ne doivent pas être retardées par l'attente d'une RCP programmée."},
-        {"title": "Trois objectifs", "body": "La radiothérapie palliative traite une douleur ou un risque local ; chirurgie ou stabilisation répond à l'instabilité ; un anti-résorptif à dose oncologique prévient des événements squelettiques dans certains mCRPC osseux. Ces interventions ne sont ni interchangeables ni nécessairement associées."},
-        {"title": "Ne pas transposer au mHSPC", "body": "La présence de métastases osseuses hormonosensibles ne suffit pas à prescrire systématiquement un anti-résorptif à dose de prévention des événements squelettiques. En revanche, le risque de fragilité lié à l'ADT est évalué chez tous, indépendamment du stade."}
+        {
+          "title": "Trier l'urgence",
+          "body": "Douleur rachidienne nouvelle, déficit neurologique, trouble sphinctérien, fracture imminente ou hypercalcémie imposent une évaluation urgente et coordonnée. L'analgésie et l'imagerie ne doivent pas être retardées par l'attente d'une RCP programmée."
+        },
+        {
+          "title": "Trois objectifs",
+          "body": "La radiothérapie palliative traite une douleur ou un risque local ; chirurgie ou stabilisation répond à l'instabilité ; un anti-résorptif à dose oncologique prévient des événements squelettiques dans certains mCRPC osseux. Ces interventions ne sont ni interchangeables ni nécessairement associées."
+        },
+        {
+          "title": "Ne pas transposer au mHSPC",
+          "body": "La présence de métastases osseuses hormonosensibles ne suffit pas à prescrire systématiquement un anti-résorptif à dose de prévention des événements squelettiques. En revanche, le risque de fragilité lié à l'ADT est évalué chez tous, indépendamment du stade."
+        }
       ],
-      "causalChain": ["Symptôme ou risque local", "Urgence et stabilité", "État mHSPC ou mCRPC", "RT–chirurgie–anti-résorptif selon objectif"],
+      "causalChain": [
+        "Symptôme ou risque local",
+        "Urgence et stabilité",
+        "État mHSPC ou mCRPC",
+        "RT–chirurgie–anti-résorptif selon objectif"
+      ],
       "commonTrap": "Prescrire le même schéma osseux à toute métastase, quel que soit l'état hormonosensible ou résistant.",
-      "checkpoint": {"prompt": "Quelle conduite est correcte devant une douleur rachidienne avec faiblesse des jambes ?", "options": ["Attendre le prochain PSA", "Évaluation urgente de compression, imagerie et prise en charge coordonnée", "Commencer seulement du calcium", "Conclure à une toxicité de l'ADT"], "answerIndex": 1, "explanation": "Une compression médullaire potentielle est une urgence clinique et radiologique."},
+      "checkpoint": {
+        "prompt": "Quelle conduite est correcte devant une douleur rachidienne avec faiblesse des jambes ?",
+        "options": [
+          "Attendre le prochain PSA",
+          "Évaluation urgente de compression, imagerie et prise en charge coordonnée",
+          "Commencer seulement du calcium",
+          "Conclure à une toxicité de l'ADT"
+        ],
+        "answerIndex": 1,
+        "explanation": "Une compression médullaire potentielle est une urgence clinique et radiologique."
+      },
       "flashcards": [
-        {"front": "Urgence osseuse", "back": "Déficit neurologique, sphincters, instabilité ou fracture imminente : évaluation immédiate."},
-        {"front": "RT palliative", "back": "Contrôle local d'une douleur ou complication ; indépendante du choix systémique."},
-        {"front": "Anti-résorptif oncologique", "back": "Prévention d'événements squelettiques selon état et indication ; pas automatique en mHSPC."}
+        {
+          "front": "Urgence osseuse",
+          "back": "Déficit neurologique, sphincters, instabilité ou fracture imminente : évaluation immédiate."
+        },
+        {
+          "front": "RT palliative",
+          "back": "Contrôle local d'une douleur ou complication ; indépendante du choix systémique."
+        },
+        {
+          "front": "Anti-résorptif oncologique",
+          "back": "Prévention d'événements squelettiques selon état et indication ; pas automatique en mHSPC."
+        }
       ],
-      "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026"]
+      "sources": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026"
+      ],
+      "keyTakeaways": [
+        "Douleur rachidienne nouvelle, déficit neurologique, trouble sphinctérien, fracture imminente ou hypercalcémie imposent une évaluation urgente et coordonnée.",
+        "La radiothérapie palliative traite une douleur ou un risque local ; chirurgie ou stabilisation répond à l'instabilité ; un anti-résorptif à dose oncologique prévient des événements squelettiques dans certains mCRPC osseux.",
+        "La présence de métastases osseuses hormonosensibles ne suffit pas à prescrire systématiquement un anti-résorptif à dose de prévention des événements squelettiques."
+      ],
+      "visual": {
+        "kind": "evidence",
+        "title": "Raisonnement clinique — Métastases osseuses : douleur, urgence et prévention selon l'état",
+        "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/05-bone.svg",
+        "altText": "Schéma en 4 étapes pour métastases osseuses : douleur, urgence et prévention selon l'état : Symptôme ou risque local, puis Urgence et stabilité, puis État mHSPC ou mCRPC, puis RT–chirurgie–anti-résorptif selon objectif.",
+        "caption": "Lecture de gauche à droite : Symptôme ou risque local → Urgence et stabilité → État mHSPC ou mCRPC → RT–chirurgie–anti-résorptif selon objectif. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Symptôme ou risque local",
+            "detail": "Douleur rachidienne nouvelle, déficit neurologique, trouble sphinctérien, fracture imminente ou hypercalcémie imposent une évaluation urgente et coordonnée."
+          },
+          {
+            "label": "Urgence et stabilité",
+            "detail": "La radiothérapie palliative traite une douleur ou un risque local ; chirurgie ou stabilisation répond à l'instabilité ; un anti-résorptif à dose oncologique prévient des événements squelettiques dans certains mCRPC osseux."
+          },
+          {
+            "label": "État mHSPC ou mCRPC",
+            "detail": "La présence de métastases osseuses hormonosensibles ne suffit pas à prescrire systématiquement un anti-résorptif à dose de prévention des événements squelettiques."
+          },
+          {
+            "label": "RT–chirurgie–anti-résorptif selon objectif",
+            "detail": "Douleur rachidienne nouvelle, déficit neurologique, trouble sphinctérien, fracture imminente ou hypercalcémie imposent une évaluation urgente et coordonnée."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Quelle conduite est correcte devant une douleur rachidienne avec faiblesse des jambes ?",
+        "body": "Une compression médullaire potentielle est une urgence clinique et radiologique. Piège à éviter : Prescrire le même schéma osseux à toute métastase, quel que soit l'état hormonosensible ou résistant."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Trois objectifs",
+          "body": "La radiothérapie palliative traite une douleur ou un risque local ; chirurgie ou stabilisation répond à l'instabilité ; un anti-résorptif à dose oncologique prévient des événements squelettiques dans certains mCRPC osseux. Ces interventions ne sont ni interchangeables ni nécessairement associées."
+        },
+        {
+          "title": "Approfondissement — Ne pas transposer au mHSPC",
+          "body": "La présence de métastases osseuses hormonosensibles ne suffit pas à prescrire systématiquement un anti-résorptif à dose de prévention des événements squelettiques. En revanche, le risque de fragilité lié à l'ADT est évalué chez tous, indépendamment du stade."
+        }
+      ]
     }
   ],
   "caseStudy": {
@@ -115,10 +580,49 @@
     "status": "needs_review",
     "dataClassification": "synthetic",
     "vignette": "Un homme de 69 ans, ECOG 1, présente un cancer prostatique de novo avec deux métastases osseuses sur scintigraphie et aucun viscéral au scanner. Le TEP-PSMA montre quatre foyers osseux supplémentaires. Il est apte à un traitement systémique, hypertendu contrôlé et préfère éviter une toxicité neuropathique. Il demande s'il faut un triplet, irradier la prostate et traiter chaque foyer.",
-    "decisionPoints": ["Conserver le volume conventionnel utilisé par les essais et décrire le stade PSMA.", "Documenter synchronie, symptômes, fitness, comorbidités et préférence.", "Proposer une intensification au-delà de l'ADT seule.", "Comparer doublet ARPI et triplet sans surclasser leurs preuves.", "Discuter RT prostatique car faible volume de novo conventionnel.", "Séparer RT du primitif et MDT des métastases.", "Évaluer fragilité osseuse et signes d'urgence."],
-    "expectedReasoning": ["Le PSMA ne réécrit pas la classification conventionnelle de l'essai.", "Un doublet ADT–ARPI est solide et peut être préférable selon neuropathie et préférence.", "Le triplet se discute mais n'est pas prouvé supérieur à chaque doublet dans ce profil.", "La RT prostatique complète le systémique.", "La MDT de tous les foyers relève d'une question distincte et plus incertaine."],
-    "criticalErrors": ["Donner ADT seule sans justification.", "Refuser la RT prostatique uniquement à cause des foyers PSMA supplémentaires.", "Présenter le triplet comme obligatoire.", "Confondre RT prostatique et MDT.", "Prescrire un anti-résorptif oncologique sur le seul statut mHSPC osseux.", "Marquer validated sans reviewer."],
-    "checkpoint": {"prompt": "Quelle synthèse est la plus rigoureuse ?", "options": ["Le TEP-PSMA interdit toute RT prostatique", "Intensifier l'ADT, discuter la RT prostatique selon le faible volume conventionnel, et traiter séparément l'incertitude du triplet et de la MDT", "Donner une ADT seule", "Irradier tous les foyers sans systémique"], "answerIndex": 1, "explanation": "Chaque intervention garde sa population de preuve et son objectif."},
-    "sources": ["ccafu_advanced_2024_2026", "eau_prostate_2026", "esmo_advanced_prostate_2026", "eanm_snmmi_psma_pet_2023"]
+    "decisionPoints": [
+      "Appliquer explicitement la définition CHAARTED à l'imagerie conventionnelle initiale.",
+      "Conserver le volume conventionnel utilisé par les essais et décrire séparément le stade PSMA.",
+      "Documenter synchronie, symptômes, fitness, comorbidités et préférence.",
+      "Proposer une intensification au-delà de l'ADT seule.",
+      "Comparer doublet ARPI et triplet sans surclasser leurs preuves.",
+      "Discuter RT prostatique car faible volume de novo conventionnel.",
+      "Séparer RT du primitif et MDT des métastases.",
+      "Évaluer fragilité osseuse et signes d'urgence."
+    ],
+    "expectedReasoning": [
+      "Deux métastases osseuses sans atteinte viscérale sur l'imagerie conventionnelle correspondent à un faible volume CHAARTED ; ce libellé ne signifie pas faible risque biologique.",
+      "Le PSMA ne réécrit pas la classification conventionnelle de l'essai.",
+      "Un doublet ADT–ARPI est solide et peut être préférable selon neuropathie et préférence.",
+      "Le triplet se discute mais n'est pas prouvé supérieur à chaque doublet dans ce profil.",
+      "La RT prostatique complète le systémique.",
+      "La MDT de tous les foyers relève d'une question distincte et plus incertaine."
+    ],
+    "criticalErrors": [
+      "Confondre nombre de foyers PSMA et volume CHAARTED.",
+      "Donner ADT seule sans justification.",
+      "Refuser la RT prostatique uniquement à cause des foyers PSMA supplémentaires.",
+      "Présenter le triplet comme obligatoire.",
+      "Confondre RT prostatique et MDT.",
+      "Prescrire un anti-résorptif oncologique sur le seul statut mHSPC osseux.",
+      "Marquer validated sans reviewer."
+    ],
+    "checkpoint": {
+      "prompt": "Quelle synthèse est la plus rigoureuse ?",
+      "options": [
+        "Le TEP-PSMA interdit toute RT prostatique",
+        "Intensifier l'ADT, discuter la RT prostatique selon le faible volume conventionnel, et traiter séparément l'incertitude du triplet et de la MDT",
+        "Donner une ADT seule",
+        "Irradier tous les foyers sans systémique"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chaque intervention garde sa population de preuve et son objectif."
+    },
+    "sources": [
+      "ccafu_advanced_2024_2026",
+      "eau_prostate_2026",
+      "esmo_advanced_prostate_2026",
+      "eanm_snmmi_psma_pet_2023"
+    ]
   }
 }
