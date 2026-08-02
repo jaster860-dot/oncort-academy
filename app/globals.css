@@ -164,3 +164,11 @@ button:disabled { cursor: not-allowed; opacity: 0.44; }
 @media (max-width:1050px){.reasoningLayout{grid-template-columns:1fr}.reasoningGuide{position:static}}
 @media (max-width:760px){.dossierPanel dl div{grid-template-columns:1fr;gap:3px}}
 @media (prefers-reduced-motion: reduce){.structureChips button{transition:none}}
+.loopSteps{margin:16px 0 0;padding:0;display:grid;gap:12px;list-style:none;counter-reset:loop}
+.loopSteps li{position:relative;padding-left:28px;display:grid;gap:2px;counter-increment:loop}
+.loopSteps li::before{content:counter(loop);position:absolute;left:0;top:1px;width:19px;height:19px;display:grid;place-items:center;color:var(--night);background:var(--mint);border-radius:50%;font-size:9px;font-weight:900}
+.loopSteps b{font-size:11px}
+.loopSteps span{color:var(--ink-soft);font-size:10px;line-height:1.5}
+.railFigure{margin:14px 0 4px;color:var(--ink);font-size:11px}
+.railFigure b{font-family:var(--display);font-size:24px;font-weight:500}
+.streakCard[hidden]{display:none}

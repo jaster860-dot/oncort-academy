@@ -67,6 +67,11 @@ export function LearnerDashboard({
   const completedLessons = blocks.reduce((sum, block) => sum + block.completedLessons, 0);
   const overallPercent = Math.round((completedLessons / totalLessons) * 100);
   const completedBlocks = blocks.filter((block) => block.percent === 100).length;
+  /**
+   * A new learner should be invited, not scored. Counting what someone has not
+   * done yet turns the first screen into an empty scoreboard.
+   */
+  const isFirstRun = completedLessons === 0;
 
   /**
    * Days of the current week that carry real activity.
@@ -133,10 +138,12 @@ export function LearnerDashboard({
           <div>
             <p className="eyebrow">{todayLabel}</p>
             <h1>Bonjour {firstName}.</h1>
-            <p>Prêt pour ta prochaine session ?</p>
+            <p>{isFirstRun ? "On part des mécanismes, pas des recommandations. Une session suffit pour commencer." : "Prêt pour ta prochaine session ?"}</p>
           </div>
           <div className="headingActions">
-            <Link href="/cas/prostate" className="quickAction"><AppIcon name="case" /><span><strong>Cas rapide</strong><small>10 minutes</small></span></Link>
+            {/* A cold case is the wrong first move: PRODUCT_SPEC puts the guided
+                course before the expert case. Surface it once there is footing. */}
+            {!isFirstRun && <Link href="/cas/prostate" className="quickAction"><AppIcon name="case" /><span><strong>Cas rapide</strong><small>10 minutes</small></span></Link>}
             <Link href="/connexion" className="notificationButton" aria-label="Profil et synchronisation"><span className="avatar small">{identity?.name?.[0]?.toUpperCase() ?? "D"}</span></Link>
           </div>
         </div>
@@ -151,10 +158,10 @@ export function LearnerDashboard({
             <span className="visualLabel">CARTE DE MAÎTRISE · PARCOURS 01</span>
           </div>
           <div className="continueContent">
-            <div className="continueMeta"><span>Continuer</span><b>{resumeBlock.percent}% terminé</b></div>
+            <div className="continueMeta"><span>{isFirstRun ? "Commencer ici" : "Continuer"}</span>{!isFirstRun && <b>{resumeBlock.percent}% terminé</b>}</div>
             <p>{primarySite.shortTitle} · Bloc {resumeBlock.number}</p>
             <h2>{resumeBlock.title}</h2>
-            <div className="continueProgress"><i style={{ width: `${resumeBlock.percent}%` }} /></div>
+            {!isFirstRun && <div className="continueProgress"><i style={{ width: `${resumeBlock.percent}%` }} /></div>}
             <div className="continueFooter">
               <span>{resumeBlock.completedLessons}/{resumeBlock.lessonCount} leçons · {resumeBlock.estimatedMinutes} min</span>
               <Link href={`/parcours/${primarySite.id}/${resumeBlock.id}`} className="resumeButton">
@@ -174,7 +181,7 @@ export function LearnerDashboard({
             <Link className="courseTile prostateTile" href="/parcours/prostate">
               <div className="tileTop"><span className="tileIcon">P</span><span className="availableTag">Disponible</span></div>
               <div className="tileBody"><span>Oncologie génito-urinaire</span><h3>Cancer de la prostate</h3><p>15 chapitres · 87 leçons</p></div>
-              <div className="tileProgress"><i style={{ width: `${overallPercent}%` }} /><span>{overallPercent}%</span></div>
+              {!isFirstRun && <div className="tileProgress"><i style={{ width: `${overallPercent}%` }} /><span>{overallPercent}%</span></div>}
             </Link>
             {upcomingSites.slice(0, 3).map((site, index) => (
               <article className={`courseTile upcomingTile upcoming${index + 1}`} key={site.id}>
@@ -196,30 +203,50 @@ export function LearnerDashboard({
             ].map(([label, scopedBlocks, tone]) => {
               const group = scopedBlocks as typeof blocks;
               const value = group.length ? Math.round(group.reduce((sum, block) => sum + block.percent, 0) / group.length) : 0;
-              return <article className="skillCard" key={label as string}><div><span className={`skillIcon ${tone}`}>{(label as string).charAt(0)}</span><b>{value}%</b></div><h3>{label as string}</h3><div className="skillBar"><i className={tone as string} style={{ width: `${value}%` }} /></div><p>{group.filter((block) => block.percent === 100).length}/{group.length} blocs maîtrisés</p></article>;
+              // A 0% meter measures nothing; name the ground still to cover instead.
+              return <article className="skillCard" key={label as string}><div><span className={`skillIcon ${tone}`}>{(label as string).charAt(0)}</span><b>{isFirstRun ? "—" : `${value}%`}</b></div><h3>{label as string}</h3><div className="skillBar"><i className={tone as string} style={{ width: `${value}%` }} /></div><p>{isFirstRun ? `${group.length} ${group.length > 1 ? "blocs à parcourir" : "bloc à parcourir"}` : `${group.filter((block) => block.percent === 100).length}/${group.length} blocs maîtrisés`}</p></article>;
             })}
           </div>
         </section>
       </section>
 
       <aside className="dailyRail">
+        {/* The old ring counted minutes the app never measured. Nothing tracks
+            time, so it claimed "5 / 15 min" for any learner past lesson one. */}
         <section className="dailyGoalCard">
-          <div className="goalHeader"><span><AppIcon name="target" /></span><div><strong>Objectif du jour</strong><small>15 minutes</small></div></div>
-          <div className="goalRing"><span><strong>{completedLessons ? "5" : "0"}</strong><small>/ 15 min</small></span></div>
-          <p>{completedLessons ? "Continue, tu es bien lancé." : "Une courte session suffit pour avancer."}</p>
-          <Link href={`/parcours/${primarySite.id}/${resumeBlock.id}`}>Commencer ma session</Link>
+          {isFirstRun ? (
+            <>
+              <div className="goalHeader"><span><AppIcon name="target" /></span><div><strong>Comment ça marche</strong><small>La boucle d’apprentissage</small></div></div>
+              <ol className="loopSteps">
+                <li><b>Une leçon</b><span>Le mécanisme avant la recommandation.</span></li>
+                <li><b>Un cas</b><span>Tu raisonnes, le tuteur cherche la lacune.</span></li>
+                <li><b>Une capsule</b><span>Elle répare la lacune, puis on te reteste ailleurs.</span></li>
+              </ol>
+              <p>Commence par le bloc de gauche : tout part de là.</p>
+            </>
+          ) : (
+            <>
+              <div className="goalHeader"><span><AppIcon name="target" /></span><div><strong>Ta session</strong><small>Reprendre où tu en es</small></div></div>
+              <p className="railFigure"><b>{completedLessons}</b> {completedLessons > 1 ? "leçons terminées" : "leçon terminée"}{completedBlocks ? ` · ${completedBlocks} ${completedBlocks > 1 ? "blocs" : "bloc"}` : ""}</p>
+              <p>Bloc {resumeBlock.number} · {resumeBlock.title}</p>
+              <Link href={`/parcours/${primarySite.id}/${resumeBlock.id}`}>Reprendre ma session</Link>
+            </>
+          )}
         </section>
 
-        <section className="streakCard">
+        <section className="streakCard" hidden={isFirstRun}>
           <div><span className="flame">◆</span><strong>{activeDaysThisWeek}</strong><small>{activeDaysThisWeek > 1 ? "jours actifs cette semaine" : "jour actif cette semaine"}</small></div>
           <div className="weekRow">{weekActivity.map((day, index) => <span className={day.isToday ? "today" : ""} key={`${day.label}-${index}`}><b>{day.label}</b><i>{day.wasActive ? "✓" : ""}</i></span>)}</div>
         </section>
 
-        <section className="masterySummary">
-          <div><span>Progression globale</span><strong>{overallPercent}%</strong></div>
-          <div className="masteryBar"><i style={{ width: `${overallPercent}%` }} /></div>
-          <p><b>{completedBlocks}</b> blocs terminés · <b>{completedLessons}</b> leçons maîtrisées</p>
-        </section>
+        {/* Hidden on first run: three zero readouts on one screen read as failure. */}
+        {!isFirstRun && (
+          <section className="masterySummary">
+            <div><span>Progression globale</span><strong>{overallPercent}%</strong></div>
+            <div className="masteryBar"><i style={{ width: `${overallPercent}%` }} /></div>
+            <p><b>{completedBlocks}</b> blocs terminés · <b>{completedLessons}</b> leçons maîtrisées</p>
+          </section>
+        )}
 
         <section className="reviewQueueCard">
           <span className="reviewMiniIcon">↻</span>
