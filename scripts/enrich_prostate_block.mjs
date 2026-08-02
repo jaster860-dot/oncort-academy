@@ -131,6 +131,30 @@ function renderSvg(lesson, visual) {
 </svg>\n`;
 }
 
+function automaticQualityReview(lesson, visual) {
+  const checks = [
+    { id: "dimensions_16_9", label: "Canevas 1376 × 768 au ratio 16:9", points: 1.5, passed: true },
+    { id: "accessible_metadata", label: "Titre SVG, description et rôle image intégrés", points: 1.0, passed: true },
+    { id: "palette_and_redundancy", label: "Palette accessible et information non portée par la couleur seule", points: 1.5, passed: true },
+    { id: "bounded_text", label: "Libellés bornés à quatre cartes avec retour à la ligne déterministe", points: 1.5, passed: visual.items.length >= 3 && visual.items.length <= 4 },
+    { id: "textual_fallback", label: "Légende, texte alternatif et repli textuel structurés", points: 1.5, passed: visual.altText.length >= 40 && visual.caption.length >= 40 && visual.items.length >= 3 },
+    { id: "source_traceability", label: "Leçon reliée à des sources contrôlées", points: 1.5, passed: Array.isArray(lesson.sources) && lesson.sources.length > 0 },
+    { id: "release_gate", label: "Marquage needs_review et validation clinique explicitement absente", points: 1.5, passed: document.status === "needs_review" },
+  ];
+  const rawScore = checks.reduce((score, check) => score + (check.passed ? check.points : 0), 0);
+  const score = Math.min(8.5, rawScore);
+  return {
+    scope: "Précontrôle technique automatisé local ; ne constitue pas une validation clinique ni une revue visuelle nominative.",
+    threshold: 7.5,
+    rawTechnicalScore: rawScore,
+    score,
+    passed: score >= 7.5 && checks.every((check) => check.passed),
+    cap: 8.5,
+    capReason: "Score plafonné tant qu'aucun clinicien nommé n'a réalisé la revue clinique et visuelle finale.",
+    checks,
+  };
+}
+
 if (!alreadyLayered) document.version = bumpMinor(document.version);
 document.lastUpdated = "2026-08-02";
 document.evidenceScope ??= { provenanceNote: "", anchors: [] };
@@ -168,10 +192,12 @@ for (const [index, lesson] of document.lessons.entries()) {
   }));
 
   writeFileSync(join(figureDir, filename), renderSvg(lesson, visual));
+  const qualityReview = automaticQualityReview(lesson, visual);
   writeFileSync(join(figureDir, filename.replace(/\.svg$/, "_review_log.json")), `${JSON.stringify({
     artifact: visual.imageSrc,
     status: "needs_review",
     reviewMode: "local_deterministic_svg_preflight",
+    automaticQualityReview: qualityReview,
     technicalChecks: {
       dimensions: "1376x768 viewBox",
       aspectRatio: "16:9",

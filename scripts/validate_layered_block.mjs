@@ -34,10 +34,24 @@ for (const lesson of document.lessons) {
   for (const sourceId of lesson.sources ?? []) if (!sourceIds.has(sourceId)) errors.push(`${label}: source inconnue ${sourceId}`);
 
   if (lesson.visual?.imageSrc?.endsWith(".svg")) {
-    const svg = readFileSync(join(root, "public", lesson.visual.imageSrc), "utf8");
+    const svgPath = join(root, "public", lesson.visual.imageSrc);
+    const svg = readFileSync(svgPath, "utf8");
     if (!svg.includes('width="1376" height="768" viewBox="0 0 1376 768"')) errors.push(`${label}: dimensions SVG invalides`);
     if (!svg.includes("<title") || !svg.includes("<desc")) errors.push(`${label}: accessibilité SVG incomplète`);
     if (!svg.includes("NEEDS_REVIEW")) errors.push(`${label}: garde needs_review absente de la figure`);
+    const reviewLogPath = svgPath.replace(/\.svg$/, "_review_log.json");
+    if (!existsSync(reviewLogPath)) {
+      errors.push(`${label}: journal de précontrôle absent`);
+    } else {
+      const reviewLog = JSON.parse(readFileSync(reviewLogPath, "utf8"));
+      if (reviewLog.status !== "needs_review") errors.push(`${label}: journal hors needs_review`);
+      if (reviewLog.clinicalValidation !== false) errors.push(`${label}: validation clinique automatisée interdite`);
+      if (reviewLog.automaticReviewIsClinicalValidation !== false) errors.push(`${label}: portée du précontrôle ambiguë`);
+      if (reviewLog.automaticQualityReview?.score < 7.5 || reviewLog.automaticQualityReview?.passed !== true) {
+        errors.push(`${label}: score technique automatisé inférieur à 7,5/10`);
+      }
+      if (reviewLog.automaticQualityReview?.capReason == null) errors.push(`${label}: plafond du score non justifié`);
+    }
   }
 }
 
