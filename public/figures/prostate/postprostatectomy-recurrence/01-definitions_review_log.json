@@ -1,0 +1,17 @@
+{
+  "artifact": "/figures/prostate/postprostatectomy-recurrence/01-definitions.svg",
+  "status": "needs_review",
+  "reviewMode": "local_deterministic_svg_preflight",
+  "technicalChecks": {
+    "dimensions": "1376x768 viewBox",
+    "aspectRatio": "16:9",
+    "palette": "colorblind-safe teal, blue, orange, charcoal on warm ivory",
+    "embeddedTitleAndDescription": true,
+    "textualFallbackInLesson": true
+  },
+  "automaticReviewIsClinicalValidation": false,
+  "namedClinicalReviewer": null,
+  "clinicalValidation": false,
+  "releaseGate": "Revue clinique nominative obligatoire ; conserver needs_review jusque-là.",
+  "generatedAt": "2026-08-02"
+}

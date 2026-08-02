@@ -2,19 +2,34 @@
   "id": "prostate_postprostatectomy_recurrence",
   "blockId": "postprostatectomy_recurrence",
   "title": "Prostate — après prostatectomie, du PSA au rattrapage",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "status": "needs_review",
-  "lastUpdated": "2026-08-01",
+  "lastUpdated": "2026-08-02",
   "estimatedMinutes": 112,
   "learningPromise": "À la fin de ce bloc, l'apprenant peut distinguer PSA persistant et récidive après nadir, interpréter la cinétique et le TEP-PSMA, puis préparer une discussion de rattrapage précoce dont volumes, dose et éventuelle hormonothérapie restent validés en RCP.",
   "evidenceScope": {
     "provenanceNote": "Synthèse éducative France-first à partir du CCAFU 2024–2026 et du texte intégral privé RecoRad 2025, triangulée avec EAU 2026, ESTRO-ACROP et EANM/SNMMI. Les seuils et schémas sont des repères contextualisés, jamais une prescription autonome. Tout reste needs_review.",
     "anchors": [
-      {"sourceId": "ccafu_recurrence_2024_2026", "locator": "Page officielle Urofrance : définitions, facteurs pronostiques de la récidive, temps de doublement et performances du TEP-PSMA"},
-      {"sourceId": "eau_prostate_2026", "locator": "Follow-up et Treatment, sections PSA après prostatectomie, PSA persistant et récidive biochimique après traitement curatif"},
-      {"sourceId": "sfro_recorad_prostate_2025", "locator": "PDF privé vérifié, pages 10–12 : rattrapage précoce, hormonothérapie, dose, volumes postopératoires et IGRT"},
-      {"sourceId": "estro_acrop_prostate_bed_2023", "locator": "Consensus ESTRO-ACROP en texte intégral : délinéation du lit prostatique postopératoire sur scanner avec apport des IRM pré- et postopératoires"},
-      {"sourceId": "eanm_snmmi_psma_pet_2023", "locator": "Standard EANM/SNMMI en texte intégral : indications, acquisition, interprétation et limites du TEP-PSMA en récidive"}
+      {
+        "sourceId": "ccafu_recurrence_2024_2026",
+        "locator": "Page officielle Urofrance : définitions, facteurs pronostiques de la récidive, temps de doublement et performances du TEP-PSMA"
+      },
+      {
+        "sourceId": "eau_prostate_2026",
+        "locator": "Follow-up et Treatment, sections PSA après prostatectomie, PSA persistant et récidive biochimique après traitement curatif"
+      },
+      {
+        "sourceId": "sfro_recorad_prostate_2025",
+        "locator": "PDF privé vérifié, pages 10–12 : rattrapage précoce, hormonothérapie, dose, volumes postopératoires et IGRT"
+      },
+      {
+        "sourceId": "estro_acrop_prostate_bed_2023",
+        "locator": "Consensus ESTRO-ACROP en texte intégral : délinéation du lit prostatique postopératoire sur scanner avec apport des IRM pré- et postopératoires"
+      },
+      {
+        "sourceId": "eanm_snmmi_psma_pet_2023",
+        "locator": "Standard EANM/SNMMI en texte intégral : indications, acquisition, interprétation et limites du TEP-PSMA en récidive"
+      }
     ]
   },
   "lessons": [
@@ -24,21 +39,106 @@
       "number": 1,
       "title": "PSA postopératoire : nommer la situation avant de décider",
       "durationMinutes": 17,
-      "objectives": ["Distinguer PSA attendu, persistance et récidive après nadir.", "Lire une série de valeurs plutôt qu'un résultat isolé.", "Utiliser un seuil comme repère sans retarder une discussion utile."],
+      "objectives": [
+        "Distinguer PSA attendu, persistance et récidive après nadir.",
+        "Lire une série de valeurs plutôt qu'un résultat isolé.",
+        "Utiliser un seuil comme repère sans retarder une discussion utile."
+      ],
       "sections": [
-        {"title": "Une décroissance attendue", "body": "Après prostatectomie totale, l'EAU indique que le PSA est attendu indétectable, habituellement vers deux mois. Un PSA qui ne devient jamais indétectable décrit une persistance ; un PSA qui remonte après un nadir indétectable décrit une récidive biochimique. Ces trajectoires n'ont pas exactement le même pronostic ni la même question d'imagerie."},
-        {"title": "Définition et action ne sont pas synonymes", "body": "RecoRad retient comme définition opérationnelle deux élévations consécutives au-dessus de 0,2 ng/mL, tandis que l'EAU rappelle qu'aucun seuil unique ne prédit à lui seul toutes les rechutes. La définition standardise le dossier ; elle ne justifie pas d'attendre mécaniquement un PSA plus élevé si la tendance est confirmée et qu'un rattrapage est déjà discuté."},
-        {"title": "Ultrasensible, donc à interpréter avec prudence", "body": "Les très faibles valeurs peuvent aider à décrire un nadir et une tendance, mais l'usage du PSA ultrasensible reste controversé en suivi courant. Avant d'étiqueter une récidive, l'audit vérifie dates, laboratoire, unités, répétition du dosage, traitement intercurrent et cohérence avec la pathologie postopératoire."}
+        {
+          "title": "Une décroissance attendue",
+          "body": "Après prostatectomie totale, l'EAU indique que le PSA est attendu indétectable, habituellement vers deux mois. Un PSA qui ne devient jamais indétectable décrit une persistance ; un PSA qui remonte après un nadir indétectable décrit une récidive biochimique. Ces trajectoires n'ont pas exactement le même pronostic ni la même question d'imagerie."
+        },
+        {
+          "title": "Définition et action ne sont pas synonymes",
+          "body": "RecoRad retient comme définition opérationnelle deux élévations consécutives au-dessus de 0,2 ng/mL, tandis que l'EAU rappelle qu'aucun seuil unique ne prédit à lui seul toutes les rechutes. La définition standardise le dossier ; elle ne justifie pas d'attendre mécaniquement un PSA plus élevé si la tendance est confirmée et qu'un rattrapage est déjà discuté."
+        },
+        {
+          "title": "Ultrasensible, donc à interpréter avec prudence",
+          "body": "Les très faibles valeurs peuvent aider à décrire un nadir et une tendance, mais l'usage du PSA ultrasensible reste controversé en suivi courant. Avant d'étiqueter une récidive, l'audit vérifie dates, laboratoire, unités, répétition du dosage, traitement intercurrent et cohérence avec la pathologie postopératoire."
+        }
       ],
-      "causalChain": ["PSA sériel", "Persistance ou remontée après nadir", "Contexte pathologique", "Discussion de rattrapage"],
+      "causalChain": [
+        "PSA sériel",
+        "Persistance ou remontée après nadir",
+        "Contexte pathologique",
+        "Discussion de rattrapage"
+      ],
       "commonTrap": "Attendre que le PSA atteigne une valeur arbitrairement élevée parce que le seuil définitionnel est confondu avec le meilleur moment d'intervention.",
-      "checkpoint": {"prompt": "Quel dossier décrit le mieux une récidive après nadir plutôt qu'un PSA persistant ?", "options": ["PSA jamais indétectable depuis la chirurgie", "PSA indétectable à deux mois puis ascendant sur plusieurs dosages", "Un seul PSA ultrasensible détectable sans contrôle", "Un PSA préopératoire élevé sans valeur postopératoire"], "answerIndex": 1, "explanation": "La récidive après nadir suppose une indétectabilité postopératoire puis une remontée confirmée ; la persistance ne passe jamais par ce nadir."},
+      "checkpoint": {
+        "prompt": "Quel dossier décrit le mieux une récidive après nadir plutôt qu'un PSA persistant ?",
+        "options": [
+          "PSA jamais indétectable depuis la chirurgie",
+          "PSA indétectable à deux mois puis ascendant sur plusieurs dosages",
+          "Un seul PSA ultrasensible détectable sans contrôle",
+          "Un PSA préopératoire élevé sans valeur postopératoire"
+        ],
+        "answerIndex": 1,
+        "explanation": "La récidive après nadir suppose une indétectabilité postopératoire puis une remontée confirmée ; la persistance ne passe jamais par ce nadir."
+      },
       "flashcards": [
-        {"front": "PSA persistant", "back": "PSA qui ne devient pas indétectable après prostatectomie ; trajectoire distincte d'une remontée après nadir."},
-        {"front": "Récidive biochimique postopératoire", "back": "Remontée confirmée du PSA après nadir indétectable ; la définition standardise mais ne remplace pas le jugement temporel."},
-        {"front": "PSA ultrasensible", "back": "Peut décrire une tendance à très bas niveau, mais ne doit pas déclencher seul une décision irréversible."}
+        {
+          "front": "PSA persistant",
+          "back": "PSA qui ne devient pas indétectable après prostatectomie ; trajectoire distincte d'une remontée après nadir."
+        },
+        {
+          "front": "Récidive biochimique postopératoire",
+          "back": "Remontée confirmée du PSA après nadir indétectable ; la définition standardise mais ne remplace pas le jugement temporel."
+        },
+        {
+          "front": "PSA ultrasensible",
+          "back": "Peut décrire une tendance à très bas niveau, mais ne doit pas déclencher seul une décision irréversible."
+        }
       ],
-      "sources": ["ccafu_recurrence_2024_2026", "eau_prostate_2026", "sfro_recorad_prostate_2025"]
+      "sources": [
+        "ccafu_recurrence_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "keyTakeaways": [
+        "Après prostatectomie totale, l'EAU indique que le PSA est attendu indétectable, habituellement vers deux mois.",
+        "RecoRad retient comme définition opérationnelle deux élévations consécutives au-dessus de 0,2 ng/mL, tandis que l'EAU rappelle qu'aucun seuil unique ne prédit à lui seul toutes les rechutes.",
+        "Les très faibles valeurs peuvent aider à décrire un nadir et une tendance, mais l'usage du PSA ultrasensible reste controversé en suivi courant."
+      ],
+      "visual": {
+        "kind": "pathway",
+        "title": "Raisonnement clinique — PSA postopératoire : nommer la situation avant de décider",
+        "imageSrc": "/figures/prostate/postprostatectomy-recurrence/01-definitions.svg",
+        "altText": "Schéma en 4 étapes pour psa postopératoire : nommer la situation avant de décider : PSA sériel, puis Persistance ou remontée après nadir, puis Contexte pathologique, puis Discussion de rattrapage.",
+        "caption": "Lecture de gauche à droite : PSA sériel → Persistance ou remontée après nadir → Contexte pathologique → Discussion de rattrapage. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "PSA sériel",
+            "detail": "Après prostatectomie totale, l'EAU indique que le PSA est attendu indétectable, habituellement vers deux mois."
+          },
+          {
+            "label": "Persistance ou remontée après nadir",
+            "detail": "RecoRad retient comme définition opérationnelle deux élévations consécutives au-dessus de 0,2 ng/mL, tandis que l'EAU rappelle qu'aucun seuil unique ne prédit à lui seul toutes les rechutes."
+          },
+          {
+            "label": "Contexte pathologique",
+            "detail": "Les très faibles valeurs peuvent aider à décrire un nadir et une tendance, mais l'usage du PSA ultrasensible reste controversé en suivi courant."
+          },
+          {
+            "label": "Discussion de rattrapage",
+            "detail": "Après prostatectomie totale, l'EAU indique que le PSA est attendu indétectable, habituellement vers deux mois."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Quel dossier décrit le mieux une récidive après nadir plutôt qu'un PSA persistant ?",
+        "body": "La récidive après nadir suppose une indétectabilité postopératoire puis une remontée confirmée ; la persistance ne passe jamais par ce nadir. Piège à éviter : Attendre que le PSA atteigne une valeur arbitrairement élevée parce que le seuil définitionnel est confondu avec le meilleur moment d'intervention."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Définition et action ne sont pas synonymes",
+          "body": "RecoRad retient comme définition opérationnelle deux élévations consécutives au-dessus de 0,2 ng/mL, tandis que l'EAU rappelle qu'aucun seuil unique ne prédit à lui seul toutes les rechutes. La définition standardise le dossier ; elle ne justifie pas d'attendre mécaniquement un PSA plus élevé si la tendance est confirmée et qu'un rattrapage est déjà discuté."
+        },
+        {
+          "title": "Approfondissement — Ultrasensible, donc à interpréter avec prudence",
+          "body": "Les très faibles valeurs peuvent aider à décrire un nadir et une tendance, mais l'usage du PSA ultrasensible reste controversé en suivi courant. Avant d'étiqueter une récidive, l'audit vérifie dates, laboratoire, unités, répétition du dosage, traitement intercurrent et cohérence avec la pathologie postopératoire."
+        }
+      ]
     },
     {
       "id": "postrp_02_psadt",
@@ -46,21 +146,106 @@
       "number": 2,
       "title": "Temps de doublement : mesurer une vitesse, pas fabriquer une certitude",
       "durationMinutes": 18,
-      "objectives": ["Interpréter un temps de doublement calculé sur plusieurs dosages.", "Associer la cinétique aux facteurs anatomopathologiques.", "Reconnaître une récidive à risque élevé."],
+      "objectives": [
+        "Interpréter un temps de doublement calculé sur plusieurs dosages.",
+        "Associer la cinétique aux facteurs anatomopathologiques.",
+        "Reconnaître une récidive à risque élevé."
+      ],
       "sections": [
-        {"title": "Une pente exige plusieurs points", "body": "Le temps de doublement du PSA se calcule sur des valeurs positives, datées et comparables, idéalement dans le même laboratoire. Deux valeurs très proches de la limite de quantification produisent une estimation fragile ; il faut documenter la fenêtre utilisée et ne pas arrondir une cinétique en catégorie absolue."},
-        {"title": "Rapide signifie plus préoccupant", "body": "Le CCAFU associe un temps de doublement inférieur à dix mois à un risque accru de progression métastatique et de décès ; RecoRad utilise aussi des catégories autour de douze mois pour structurer le risque. Le seuil dépend donc du référentiel, mais la direction est constante : une cinétique courte appelle une évaluation et une discussion plus urgentes."},
-        {"title": "La cinétique s'intègre", "body": "Le groupe ISUP, le stade pT/pN, les marges, le délai depuis la chirurgie, le niveau de PSA et l'état général complètent la vitesse. Un doublement rapide ne prouve pas une maladie métastatique et n'interdit pas automatiquement un traitement local ; il renforce la justification d'une imagerie utile et d'une éventuelle intensification discutée."}
+        {
+          "title": "Une pente exige plusieurs points",
+          "body": "Le temps de doublement du PSA se calcule sur des valeurs positives, datées et comparables, idéalement dans le même laboratoire. Deux valeurs très proches de la limite de quantification produisent une estimation fragile ; il faut documenter la fenêtre utilisée et ne pas arrondir une cinétique en catégorie absolue."
+        },
+        {
+          "title": "Rapide signifie plus préoccupant",
+          "body": "Le CCAFU associe un temps de doublement inférieur à dix mois à un risque accru de progression métastatique et de décès ; RecoRad utilise aussi des catégories autour de douze mois pour structurer le risque. Le seuil dépend donc du référentiel, mais la direction est constante : une cinétique courte appelle une évaluation et une discussion plus urgentes."
+        },
+        {
+          "title": "La cinétique s'intègre",
+          "body": "Le groupe ISUP, le stade pT/pN, les marges, le délai depuis la chirurgie, le niveau de PSA et l'état général complètent la vitesse. Un doublement rapide ne prouve pas une maladie métastatique et n'interdit pas automatiquement un traitement local ; il renforce la justification d'une imagerie utile et d'une éventuelle intensification discutée."
+        }
       ],
-      "causalChain": ["Dosages fiables", "Pente logarithmique", "Risque clinique intégré", "Urgence et intensité de la discussion"],
+      "causalChain": [
+        "Dosages fiables",
+        "Pente logarithmique",
+        "Risque clinique intégré",
+        "Urgence et intensité de la discussion"
+      ],
       "commonTrap": "Calculer un temps de doublement sur deux valeurs ultrasensibles instables puis l'utiliser seul pour abandonner toute intention curative.",
-      "checkpoint": {"prompt": "Comment utiliser un temps de doublement du PSA de quatre mois après prostatectomie ?", "options": ["Comme preuve certaine de métastases", "Comme facteur de haut risque à intégrer au PSA, au délai, au pTNM et au groupe ISUP", "Comme raison d'attendre sans imagerie", "Comme indication automatique d'ADT seule"], "answerIndex": 1, "explanation": "Une cinétique courte est défavorable, mais elle reste un facteur intégré et non une localisation ou une prescription."},
+      "checkpoint": {
+        "prompt": "Comment utiliser un temps de doublement du PSA de quatre mois après prostatectomie ?",
+        "options": [
+          "Comme preuve certaine de métastases",
+          "Comme facteur de haut risque à intégrer au PSA, au délai, au pTNM et au groupe ISUP",
+          "Comme raison d'attendre sans imagerie",
+          "Comme indication automatique d'ADT seule"
+        ],
+        "answerIndex": 1,
+        "explanation": "Une cinétique courte est défavorable, mais elle reste un facteur intégré et non une localisation ou une prescription."
+      },
       "flashcards": [
-        {"front": "PSADT court", "back": "Signal pronostique défavorable qui accélère l'évaluation ; il ne localise pas la maladie."},
-        {"front": "Calcul robuste", "back": "Plusieurs PSA positifs, datés, comparables et une fenêtre de calcul documentée."},
-        {"front": "Risque intégré", "back": "PSADT + délai de récidive + PSA + ISUP + pT/pN + marges + contexte du patient."}
+        {
+          "front": "PSADT court",
+          "back": "Signal pronostique défavorable qui accélère l'évaluation ; il ne localise pas la maladie."
+        },
+        {
+          "front": "Calcul robuste",
+          "back": "Plusieurs PSA positifs, datés, comparables et une fenêtre de calcul documentée."
+        },
+        {
+          "front": "Risque intégré",
+          "back": "PSADT + délai de récidive + PSA + ISUP + pT/pN + marges + contexte du patient."
+        }
       ],
-      "sources": ["ccafu_recurrence_2024_2026", "sfro_recorad_prostate_2025", "eau_prostate_2026"]
+      "sources": [
+        "ccafu_recurrence_2024_2026",
+        "sfro_recorad_prostate_2025",
+        "eau_prostate_2026"
+      ],
+      "keyTakeaways": [
+        "Le temps de doublement du PSA se calcule sur des valeurs positives, datées et comparables, idéalement dans le même laboratoire.",
+        "Le CCAFU associe un temps de doublement inférieur à dix mois à un risque accru de progression métastatique et de décès ; RecoRad utilise aussi des catégories autour de douze mois pour structurer le risque.",
+        "Le groupe ISUP, le stade pT/pN, les marges, le délai depuis la chirurgie, le niveau de PSA et l'état général complètent la vitesse."
+      ],
+      "visual": {
+        "kind": "comparison",
+        "title": "Raisonnement clinique — Temps de doublement : mesurer une vitesse, pas fabriquer une certitude",
+        "imageSrc": "/figures/prostate/postprostatectomy-recurrence/02-psadt.svg",
+        "altText": "Schéma en 4 étapes pour temps de doublement : mesurer une vitesse, pas fabriquer une certitude : Dosages fiables, puis Pente logarithmique, puis Risque clinique intégré, puis Urgence et intensité de la discussion.",
+        "caption": "Lecture de gauche à droite : Dosages fiables → Pente logarithmique → Risque clinique intégré → Urgence et intensité de la discussion. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Dosages fiables",
+            "detail": "Le temps de doublement du PSA se calcule sur des valeurs positives, datées et comparables, idéalement dans le même laboratoire."
+          },
+          {
+            "label": "Pente logarithmique",
+            "detail": "Le CCAFU associe un temps de doublement inférieur à dix mois à un risque accru de progression métastatique et de décès ; RecoRad utilise aussi des catégories autour de douze mois pour structurer le risque."
+          },
+          {
+            "label": "Risque clinique intégré",
+            "detail": "Le groupe ISUP, le stade pT/pN, les marges, le délai depuis la chirurgie, le niveau de PSA et l'état général complètent la vitesse."
+          },
+          {
+            "label": "Urgence et intensité de la discussion",
+            "detail": "Le temps de doublement du PSA se calcule sur des valeurs positives, datées et comparables, idéalement dans le même laboratoire."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Comment utiliser un temps de doublement du PSA de quatre mois après prostatectomie ?",
+        "body": "Une cinétique courte est défavorable, mais elle reste un facteur intégré et non une localisation ou une prescription. Piège à éviter : Calculer un temps de doublement sur deux valeurs ultrasensibles instables puis l'utiliser seul pour abandonner toute intention curative."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Rapide signifie plus préoccupant",
+          "body": "Le CCAFU associe un temps de doublement inférieur à dix mois à un risque accru de progression métastatique et de décès ; RecoRad utilise aussi des catégories autour de douze mois pour structurer le risque. Le seuil dépend donc du référentiel, mais la direction est constante : une cinétique courte appelle une évaluation et une discussion plus urgentes."
+        },
+        {
+          "title": "Approfondissement — La cinétique s'intègre",
+          "body": "Le groupe ISUP, le stade pT/pN, les marges, le délai depuis la chirurgie, le niveau de PSA et l'état général complètent la vitesse. Un doublement rapide ne prouve pas une maladie métastatique et n'interdit pas automatiquement un traitement local ; il renforce la justification d'une imagerie utile et d'une éventuelle intensification discutée."
+        }
+      ]
     },
     {
       "id": "postrp_03_psma",
@@ -68,21 +253,106 @@
       "number": 3,
       "title": "TEP-PSMA : chercher ce qui change la stratégie",
       "durationMinutes": 18,
-      "objectives": ["Poser une question clinique avant l'examen.", "Relier sensibilité et niveau de PSA.", "Éviter la fausse réassurance d'un examen négatif."],
+      "objectives": [
+        "Poser une question clinique avant l'examen.",
+        "Relier sensibilité et niveau de PSA.",
+        "Éviter la fausse réassurance d'un examen négatif."
+      ],
       "sections": [
-        {"title": "Une imagerie conditionnelle", "body": "Après prostatectomie, l'EAU recommande de considérer un TEP-PSMA lorsque le PSA dépasse 0,2 ng/mL si le résultat doit modifier la conduite ; en cas de PSA persistant ascendant, la même exigence d'utilité s'applique. La question doit être explicite : lit prostatique, ganglions, maladie à distance ou adaptation des volumes."},
-        {"title": "La détection dépend du PSA", "body": "Le CCAFU rapporte une détection d'environ 38 % entre 0,2 et 0,5 ng/mL. Un examen précoce peut donc être informatif sans être exhaustif. La lecture doit préciser traceur, qualité technique, sites suspects et degré de certitude selon le standard EANM/SNMMI."},
-        {"title": "Négatif ne signifie pas stérile", "body": "Un TEP-PSMA négatif à faible PSA n'exclut pas une maladie microscopique du lit prostatique ou des ganglions. Si un rattrapage du lit est indiqué sur la cinétique et le dossier pathologique, l'examen négatif ne doit pas le retarder. Un examen positif peut réorienter volumes ou stratégie, mais la migration de stade ne démontre pas à elle seule un bénéfice de survie."}
+        {
+          "title": "Une imagerie conditionnelle",
+          "body": "Après prostatectomie, l'EAU recommande de considérer un TEP-PSMA lorsque le PSA dépasse 0,2 ng/mL si le résultat doit modifier la conduite ; en cas de PSA persistant ascendant, la même exigence d'utilité s'applique. La question doit être explicite : lit prostatique, ganglions, maladie à distance ou adaptation des volumes."
+        },
+        {
+          "title": "La détection dépend du PSA",
+          "body": "Le CCAFU rapporte une détection d'environ 38 % entre 0,2 et 0,5 ng/mL. Un examen précoce peut donc être informatif sans être exhaustif. La lecture doit préciser traceur, qualité technique, sites suspects et degré de certitude selon le standard EANM/SNMMI."
+        },
+        {
+          "title": "Négatif ne signifie pas stérile",
+          "body": "Un TEP-PSMA négatif à faible PSA n'exclut pas une maladie microscopique du lit prostatique ou des ganglions. Si un rattrapage du lit est indiqué sur la cinétique et le dossier pathologique, l'examen négatif ne doit pas le retarder. Un examen positif peut réorienter volumes ou stratégie, mais la migration de stade ne démontre pas à elle seule un bénéfice de survie."
+        }
       ],
-      "causalChain": ["Question clinique", "TEP-PSMA au bon moment", "Résultat contextualisé", "Décision modifiée ou non"],
+      "causalChain": [
+        "Question clinique",
+        "TEP-PSMA au bon moment",
+        "Résultat contextualisé",
+        "Décision modifiée ou non"
+      ],
       "commonTrap": "Conclure qu'il n'existe aucune maladie parce qu'un TEP-PSMA réalisé à faible PSA est négatif.",
-      "checkpoint": {"prompt": "Le TEP-PSMA est négatif à 0,32 ng/mL chez un patient dont le PSA double rapidement. Quelle interprétation est correcte ?", "options": ["Le rattrapage est désormais inutile", "Une maladie microscopique reste possible et la discussion de rattrapage ne doit pas être retardée si elle est indiquée", "Le PSA est nécessairement faux", "Il faut attendre une métastase visible"], "answerIndex": 1, "explanation": "À faible PSA, la sensibilité n'est pas complète ; la négativité ne neutralise ni la cinétique ni les facteurs pathologiques."},
+      "checkpoint": {
+        "prompt": "Le TEP-PSMA est négatif à 0,32 ng/mL chez un patient dont le PSA double rapidement. Quelle interprétation est correcte ?",
+        "options": [
+          "Le rattrapage est désormais inutile",
+          "Une maladie microscopique reste possible et la discussion de rattrapage ne doit pas être retardée si elle est indiquée",
+          "Le PSA est nécessairement faux",
+          "Il faut attendre une métastase visible"
+        ],
+        "answerIndex": 1,
+        "explanation": "À faible PSA, la sensibilité n'est pas complète ; la négativité ne neutralise ni la cinétique ni les facteurs pathologiques."
+      },
       "flashcards": [
-        {"front": "EAU et TEP-PSMA après RP", "back": "À considérer au-dessus de 0,2 ng/mL si le résultat doit influencer la décision."},
-        {"front": "Détection à PSA 0,2–0,5", "back": "Environ 38 % dans la synthèse CCAFU ; un résultat négatif est donc fréquent et non exclusif."},
-        {"front": "TEP-PSMA négatif", "back": "N'exclut pas une maladie microscopique et ne doit pas retarder un rattrapage déjà indiqué."}
+        {
+          "front": "EAU et TEP-PSMA après RP",
+          "back": "À considérer au-dessus de 0,2 ng/mL si le résultat doit influencer la décision."
+        },
+        {
+          "front": "Détection à PSA 0,2–0,5",
+          "back": "Environ 38 % dans la synthèse CCAFU ; un résultat négatif est donc fréquent et non exclusif."
+        },
+        {
+          "front": "TEP-PSMA négatif",
+          "back": "N'exclut pas une maladie microscopique et ne doit pas retarder un rattrapage déjà indiqué."
+        }
       ],
-      "sources": ["ccafu_recurrence_2024_2026", "eau_prostate_2026", "eanm_snmmi_psma_pet_2023"]
+      "sources": [
+        "ccafu_recurrence_2024_2026",
+        "eau_prostate_2026",
+        "eanm_snmmi_psma_pet_2023"
+      ],
+      "keyTakeaways": [
+        "Après prostatectomie, l'EAU recommande de considérer un TEP-PSMA lorsque le PSA dépasse 0,2 ng/mL si le résultat doit modifier la conduite ; en cas de PSA persistant ascendant, la même exigence d'utilité s'applique.",
+        "Le CCAFU rapporte une détection d'environ 38 % entre 0,2 et 0,5 ng/mL.",
+        "Un TEP-PSMA négatif à faible PSA n'exclut pas une maladie microscopique du lit prostatique ou des ganglions."
+      ],
+      "visual": {
+        "kind": "decision",
+        "title": "Raisonnement clinique — TEP-PSMA : chercher ce qui change la stratégie",
+        "imageSrc": "/figures/prostate/postprostatectomy-recurrence/03-psma.svg",
+        "altText": "Schéma en 4 étapes pour tep-psma : chercher ce qui change la stratégie : Question clinique, puis TEP-PSMA au bon moment, puis Résultat contextualisé, puis Décision modifiée ou non.",
+        "caption": "Lecture de gauche à droite : Question clinique → TEP-PSMA au bon moment → Résultat contextualisé → Décision modifiée ou non. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Question clinique",
+            "detail": "Après prostatectomie, l'EAU recommande de considérer un TEP-PSMA lorsque le PSA dépasse 0,2 ng/mL si le résultat doit modifier la conduite ; en cas de PSA persistant ascendant, la même exigence d'utilité s'applique."
+          },
+          {
+            "label": "TEP-PSMA au bon moment",
+            "detail": "Le CCAFU rapporte une détection d'environ 38 % entre 0,2 et 0,5 ng/mL."
+          },
+          {
+            "label": "Résultat contextualisé",
+            "detail": "Un TEP-PSMA négatif à faible PSA n'exclut pas une maladie microscopique du lit prostatique ou des ganglions."
+          },
+          {
+            "label": "Décision modifiée ou non",
+            "detail": "Après prostatectomie, l'EAU recommande de considérer un TEP-PSMA lorsque le PSA dépasse 0,2 ng/mL si le résultat doit modifier la conduite ; en cas de PSA persistant ascendant, la même exigence d'utilité s'applique."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Le TEP-PSMA est négatif à 0,32 ng/mL chez un patient dont le PSA double rapidement. Quelle interprétation est correcte ?",
+        "body": "À faible PSA, la sensibilité n'est pas complète ; la négativité ne neutralise ni la cinétique ni les facteurs pathologiques. Piège à éviter : Conclure qu'il n'existe aucune maladie parce qu'un TEP-PSMA réalisé à faible PSA est négatif."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — La détection dépend du PSA",
+          "body": "Le CCAFU rapporte une détection d'environ 38 % entre 0,2 et 0,5 ng/mL. Un examen précoce peut donc être informatif sans être exhaustif. La lecture doit préciser traceur, qualité technique, sites suspects et degré de certitude selon le standard EANM/SNMMI."
+        },
+        {
+          "title": "Approfondissement — Négatif ne signifie pas stérile",
+          "body": "Un TEP-PSMA négatif à faible PSA n'exclut pas une maladie microscopique du lit prostatique ou des ganglions. Si un rattrapage du lit est indiqué sur la cinétique et le dossier pathologique, l'examen négatif ne doit pas le retarder. Un examen positif peut réorienter volumes ou stratégie, mais la migration de stade ne démontre pas à elle seule un bénéfice de survie."
+        }
+      ]
     },
     {
       "id": "postrp_04_early_salvage",
@@ -90,21 +360,106 @@
       "number": 4,
       "title": "Rattrapage précoce : agir avant que l'opportunité ne se ferme",
       "durationMinutes": 19,
-      "objectives": ["Séparer adjuvant systématique et rattrapage précoce.", "Reconnaître une trajectoire qui ne doit pas attendre.", "Encadrer une surveillance sélectionnée."],
+      "objectives": [
+        "Séparer adjuvant systématique et rattrapage précoce.",
+        "Reconnaître une trajectoire qui ne doit pas attendre.",
+        "Encadrer une surveillance sélectionnée."
+      ],
       "sections": [
-        {"title": "Surveillance puis rattrapage pour la majorité", "body": "Chez la plupart des patients pN0 dont le PSA postopératoire est indétectable, la radiothérapie adjuvante systématique n'est plus le réflexe. Une surveillance structurée permet de proposer un rattrapage précoce à la remontée confirmée, tout en épargnant un traitement à ceux qui ne récidivent pas."},
-        {"title": "Précoce signifie à bas PSA", "body": "Les essais contemporains ont utilisé des déclencheurs autour de 0,1 à 0,2 ng/mL et l'EAU décrit la radiothérapie de rattrapage précoce comme potentiellement curative. L'objectif pédagogique n'est pas de transformer ces valeurs en ordre automatique, mais d'éviter l'attente d'un PSA élevé lorsque la tendance, le patient et la pathologie rendent le rattrapage pertinent."},
-        {"title": "Observer reste une décision explicite", "body": "Une surveillance peut être discutée lorsque la récidive est favorable — intervalle long, groupe ISUP bas et temps de doublement long — et selon l'espérance de vie et les préférences. Elle doit comporter calendrier, seuils de réévaluation et projet en cas d'accélération ; elle n'est pas une absence de décision."}
+        {
+          "title": "Surveillance puis rattrapage pour la majorité",
+          "body": "Chez la plupart des patients pN0 dont le PSA postopératoire est indétectable, la radiothérapie adjuvante systématique n'est plus le réflexe. Une surveillance structurée permet de proposer un rattrapage précoce à la remontée confirmée, tout en épargnant un traitement à ceux qui ne récidivent pas."
+        },
+        {
+          "title": "Précoce signifie à bas PSA",
+          "body": "Les essais contemporains ont utilisé des déclencheurs autour de 0,1 à 0,2 ng/mL et l'EAU décrit la radiothérapie de rattrapage précoce comme potentiellement curative. L'objectif pédagogique n'est pas de transformer ces valeurs en ordre automatique, mais d'éviter l'attente d'un PSA élevé lorsque la tendance, le patient et la pathologie rendent le rattrapage pertinent."
+        },
+        {
+          "title": "Observer reste une décision explicite",
+          "body": "Une surveillance peut être discutée lorsque la récidive est favorable — intervalle long, groupe ISUP bas et temps de doublement long — et selon l'espérance de vie et les préférences. Elle doit comporter calendrier, seuils de réévaluation et projet en cas d'accélération ; elle n'est pas une absence de décision."
+        }
       ],
-      "causalChain": ["PSA indétectable", "Surveillance", "Remontée confirmée à bas niveau", "Rattrapage discuté sans délai évitable"],
+      "causalChain": [
+        "PSA indétectable",
+        "Surveillance",
+        "Remontée confirmée à bas niveau",
+        "Rattrapage discuté sans délai évitable"
+      ],
       "commonTrap": "Confondre l'abandon de l'adjuvant systématique avec l'autorisation d'attendre une récidive volumineuse avant tout rattrapage.",
-      "checkpoint": {"prompt": "Quelle stratégie représente le mieux l'évolution actuelle après prostatectomie pN0 avec PSA indétectable ?", "options": ["Radiothérapie adjuvante pour tous", "Surveillance structurée et rattrapage précoce si le PSA remonte selon le risque", "Aucun PSA ultérieur", "Attente obligatoire d'un PSA supérieur à 1 ng/mL"], "answerIndex": 1, "explanation": "La surveillance évite un surtraitement, mais doit permettre un rattrapage précoce et non différé jusqu'à une charge plus élevée."},
+      "checkpoint": {
+        "prompt": "Quelle stratégie représente le mieux l'évolution actuelle après prostatectomie pN0 avec PSA indétectable ?",
+        "options": [
+          "Radiothérapie adjuvante pour tous",
+          "Surveillance structurée et rattrapage précoce si le PSA remonte selon le risque",
+          "Aucun PSA ultérieur",
+          "Attente obligatoire d'un PSA supérieur à 1 ng/mL"
+        ],
+        "answerIndex": 1,
+        "explanation": "La surveillance évite un surtraitement, mais doit permettre un rattrapage précoce et non différé jusqu'à une charge plus élevée."
+      },
       "flashcards": [
-        {"front": "Adjuvant systématique", "back": "N'est plus recommandé pour la majorité des pN0 à PSA indétectable ; préférer surveillance et rattrapage précoce."},
-        {"front": "Rattrapage précoce", "back": "Discussion à faible PSA sur tendance confirmée, avant une hausse évitable qui réduit la probabilité de contrôle."},
-        {"front": "Surveillance d'une récidive favorable", "back": "Choix explicite avec cinétique lente, contexte favorable, calendrier et seuils de réévaluation."}
+        {
+          "front": "Adjuvant systématique",
+          "back": "N'est plus recommandé pour la majorité des pN0 à PSA indétectable ; préférer surveillance et rattrapage précoce."
+        },
+        {
+          "front": "Rattrapage précoce",
+          "back": "Discussion à faible PSA sur tendance confirmée, avant une hausse évitable qui réduit la probabilité de contrôle."
+        },
+        {
+          "front": "Surveillance d'une récidive favorable",
+          "back": "Choix explicite avec cinétique lente, contexte favorable, calendrier et seuils de réévaluation."
+        }
       ],
-      "sources": ["sfro_recorad_prostate_2025", "eau_prostate_2026", "ccafu_recurrence_2024_2026"]
+      "sources": [
+        "sfro_recorad_prostate_2025",
+        "eau_prostate_2026",
+        "ccafu_recurrence_2024_2026"
+      ],
+      "keyTakeaways": [
+        "Chez la plupart des patients pN0 dont le PSA postopératoire est indétectable, la radiothérapie adjuvante systématique n'est plus le réflexe.",
+        "Les essais contemporains ont utilisé des déclencheurs autour de 0,1 à 0,2 ng/mL et l'EAU décrit la radiothérapie de rattrapage précoce comme potentiellement curative.",
+        "Une surveillance peut être discutée lorsque la récidive est favorable — intervalle long, groupe ISUP bas et temps de doublement long — et selon l'espérance de vie et les préférences."
+      ],
+      "visual": {
+        "kind": "matrix",
+        "title": "Raisonnement clinique — Rattrapage précoce : agir avant que l'opportunité ne se ferme",
+        "imageSrc": "/figures/prostate/postprostatectomy-recurrence/04-early-salvage.svg",
+        "altText": "Schéma en 4 étapes pour rattrapage précoce : agir avant que l'opportunité ne se ferme : PSA indétectable, puis Surveillance, puis Remontée confirmée à bas niveau, puis Rattrapage discuté sans délai évitable.",
+        "caption": "Lecture de gauche à droite : PSA indétectable → Surveillance → Remontée confirmée à bas niveau → Rattrapage discuté sans délai évitable. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "PSA indétectable",
+            "detail": "Chez la plupart des patients pN0 dont le PSA postopératoire est indétectable, la radiothérapie adjuvante systématique n'est plus le réflexe."
+          },
+          {
+            "label": "Surveillance",
+            "detail": "Les essais contemporains ont utilisé des déclencheurs autour de 0,1 à 0,2 ng/mL et l'EAU décrit la radiothérapie de rattrapage précoce comme potentiellement curative."
+          },
+          {
+            "label": "Remontée confirmée à bas niveau",
+            "detail": "Une surveillance peut être discutée lorsque la récidive est favorable — intervalle long, groupe ISUP bas et temps de doublement long — et selon l'espérance de vie et les préférences."
+          },
+          {
+            "label": "Rattrapage discuté sans délai évitable",
+            "detail": "Chez la plupart des patients pN0 dont le PSA postopératoire est indétectable, la radiothérapie adjuvante systématique n'est plus le réflexe."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Quelle stratégie représente le mieux l'évolution actuelle après prostatectomie pN0 avec PSA indétectable ?",
+        "body": "La surveillance évite un surtraitement, mais doit permettre un rattrapage précoce et non différé jusqu'à une charge plus élevée. Piège à éviter : Confondre l'abandon de l'adjuvant systématique avec l'autorisation d'attendre une récidive volumineuse avant tout rattrapage."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Précoce signifie à bas PSA",
+          "body": "Les essais contemporains ont utilisé des déclencheurs autour de 0,1 à 0,2 ng/mL et l'EAU décrit la radiothérapie de rattrapage précoce comme potentiellement curative. L'objectif pédagogique n'est pas de transformer ces valeurs en ordre automatique, mais d'éviter l'attente d'un PSA élevé lorsque la tendance, le patient et la pathologie rendent le rattrapage pertinent."
+        },
+        {
+          "title": "Approfondissement — Observer reste une décision explicite",
+          "body": "Une surveillance peut être discutée lorsque la récidive est favorable — intervalle long, groupe ISUP bas et temps de doublement long — et selon l'espérance de vie et les préférences. Elle doit comporter calendrier, seuils de réévaluation et projet en cas d'accélération ; elle n'est pas une absence de décision."
+        }
+      ]
     },
     {
       "id": "postrp_05_adt",
@@ -112,21 +467,106 @@
       "number": 5,
       "title": "Hormonothérapie avec le rattrapage : sélectionner et dater",
       "durationMinutes": 19,
-      "objectives": ["Éviter l'ADT automatique dans toute récidive.", "Identifier les facteurs qui soutiennent une intensification.", "Documenter durée, toxicités et réévaluation."],
+      "objectives": [
+        "Éviter l'ADT automatique dans toute récidive.",
+        "Identifier les facteurs qui soutiennent une intensification.",
+        "Documenter durée, toxicités et réévaluation."
+      ],
       "sections": [
-        {"title": "Pas pour chaque PSA détectable", "body": "L'ajout d'une suppression androgénique vise surtout les situations dont le risque justifie une intensification. Il faut confronter PSA avant radiothérapie, temps de doublement, groupe ISUP, pT/pN, marges, persistance et imagerie ; une récidive lente à très bas PSA n'a pas le même rapport bénéfice–toxicité qu'un PSA persistant ou rapidement ascendant."},
-        {"title": "Repères de durée à faire valider", "body": "RecoRad décrit une hormonothérapie courte de six mois dans des profils défavorables, notamment PSA supérieur à 0,5 ng/mL ou temps de doublement inférieur à six mois, et permet de discuter vingt-quatre mois dans des situations sélectionnées comme pN1 ou PSA supérieur à 1 ng/mL. Ces repères ne sont pas interchangeables et nécessitent validation médicale et mise à jour des preuves."},
-        {"title": "Une stratégie avec un coût", "body": "Avant l'ADT, l'équipe documente statut cardiovasculaire, métabolique, osseux, sexuel et préférences, puis prévention et suivi. En cas de PSA persistant sans maladie distante, l'EAU propose radiothérapie de rattrapage et hormonothérapie avec une force faible : cette incertitude doit être expliquée plutôt que masquée."}
+        {
+          "title": "Pas pour chaque PSA détectable",
+          "body": "L'ajout d'une suppression androgénique vise surtout les situations dont le risque justifie une intensification. Il faut confronter PSA avant radiothérapie, temps de doublement, groupe ISUP, pT/pN, marges, persistance et imagerie ; une récidive lente à très bas PSA n'a pas le même rapport bénéfice–toxicité qu'un PSA persistant ou rapidement ascendant."
+        },
+        {
+          "title": "Repères de durée à faire valider",
+          "body": "RecoRad décrit une hormonothérapie courte de six mois dans des profils défavorables, notamment PSA supérieur à 0,5 ng/mL ou temps de doublement inférieur à six mois, et permet de discuter vingt-quatre mois dans des situations sélectionnées comme pN1 ou PSA supérieur à 1 ng/mL. Ces repères ne sont pas interchangeables et nécessitent validation médicale et mise à jour des preuves."
+        },
+        {
+          "title": "Une stratégie avec un coût",
+          "body": "Avant l'ADT, l'équipe documente statut cardiovasculaire, métabolique, osseux, sexuel et préférences, puis prévention et suivi. En cas de PSA persistant sans maladie distante, l'EAU propose radiothérapie de rattrapage et hormonothérapie avec une force faible : cette incertitude doit être expliquée plutôt que masquée."
+        }
       ],
-      "causalChain": ["Risque de récidive", "Bénéfice attendu de l'intensification", "Durée contextualisée", "Prévention et suivi"],
+      "causalChain": [
+        "Risque de récidive",
+        "Bénéfice attendu de l'intensification",
+        "Durée contextualisée",
+        "Prévention et suivi"
+      ],
       "commonTrap": "Prescrire la même durée d'ADT à toute récidive, sans distinguer PSA persistant, faible PSA lent, pN1 ou cinétique très rapide.",
-      "checkpoint": {"prompt": "Quel raisonnement convient pour ajouter une ADT au rattrapage ?", "options": ["L'ajouter à tous les patients", "Intégrer PSA, PSADT, ISUP, pT/pN, imagerie, comorbidités et durée fondée sur le profil", "La réserver à un TEP-PSMA négatif", "La substituer systématiquement à la radiothérapie"], "answerIndex": 1, "explanation": "Le bénéfice et les toxicités dépendent du risque ; l'ADT est une intensification sélectionnée, pas un automatisme."},
+      "checkpoint": {
+        "prompt": "Quel raisonnement convient pour ajouter une ADT au rattrapage ?",
+        "options": [
+          "L'ajouter à tous les patients",
+          "Intégrer PSA, PSADT, ISUP, pT/pN, imagerie, comorbidités et durée fondée sur le profil",
+          "La réserver à un TEP-PSMA négatif",
+          "La substituer systématiquement à la radiothérapie"
+        ],
+        "answerIndex": 1,
+        "explanation": "Le bénéfice et les toxicités dépendent du risque ; l'ADT est une intensification sélectionnée, pas un automatisme."
+      },
       "flashcards": [
-        {"front": "ADT courte en rattrapage", "back": "RecoRad : six mois à discuter dans des profils défavorables, notamment PSA >0,5 ou PSADT <6 mois."},
-        {"front": "ADT longue", "back": "Vingt-quatre mois peuvent être discutés dans des situations sélectionnées comme pN1 ou PSA >1 ; validation clinique indispensable."},
-        {"front": "Avant ADT", "back": "Évaluer risques cardiovasculaire, métabolique, osseux et sexuel, préférences, prévention et surveillance."}
+        {
+          "front": "ADT courte en rattrapage",
+          "back": "RecoRad : six mois à discuter dans des profils défavorables, notamment PSA >0,5 ou PSADT <6 mois."
+        },
+        {
+          "front": "ADT longue",
+          "back": "Vingt-quatre mois peuvent être discutés dans des situations sélectionnées comme pN1 ou PSA >1 ; validation clinique indispensable."
+        },
+        {
+          "front": "Avant ADT",
+          "back": "Évaluer risques cardiovasculaire, métabolique, osseux et sexuel, préférences, prévention et surveillance."
+        }
       ],
-      "sources": ["sfro_recorad_prostate_2025", "eau_prostate_2026", "ccafu_recurrence_2024_2026"]
+      "sources": [
+        "sfro_recorad_prostate_2025",
+        "eau_prostate_2026",
+        "ccafu_recurrence_2024_2026"
+      ],
+      "keyTakeaways": [
+        "L'ajout d'une suppression androgénique vise surtout les situations dont le risque justifie une intensification.",
+        "RecoRad décrit une hormonothérapie courte de six mois dans des profils défavorables, notamment PSA supérieur à 0,5 ng/mL ou temps de doublement inférieur à six mois, et permet de discuter vingt-quatre mois dans des situations sélectionnées comme pN1 ou PSA supérieur à 1 ng/mL.",
+        "Avant l'ADT, l'équipe documente statut cardiovasculaire, métabolique, osseux, sexuel et préférences, puis prévention et suivi."
+      ],
+      "visual": {
+        "kind": "evidence",
+        "title": "Raisonnement clinique — Hormonothérapie avec le rattrapage : sélectionner et dater",
+        "imageSrc": "/figures/prostate/postprostatectomy-recurrence/05-adt.svg",
+        "altText": "Schéma en 4 étapes pour hormonothérapie avec le rattrapage : sélectionner et dater : Risque de récidive, puis Bénéfice attendu de l'intensification, puis Durée contextualisée, puis Prévention et suivi.",
+        "caption": "Lecture de gauche à droite : Risque de récidive → Bénéfice attendu de l'intensification → Durée contextualisée → Prévention et suivi. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Risque de récidive",
+            "detail": "L'ajout d'une suppression androgénique vise surtout les situations dont le risque justifie une intensification."
+          },
+          {
+            "label": "Bénéfice attendu de l'intensification",
+            "detail": "RecoRad décrit une hormonothérapie courte de six mois dans des profils défavorables, notamment PSA supérieur à 0,5 ng/mL ou temps de doublement inférieur à six mois, et permet de discuter vingt-quatre mois dans des situations sélectionnées comme pN1 ou PSA supérieur à 1 ng/mL."
+          },
+          {
+            "label": "Durée contextualisée",
+            "detail": "Avant l'ADT, l'équipe documente statut cardiovasculaire, métabolique, osseux, sexuel et préférences, puis prévention et suivi."
+          },
+          {
+            "label": "Prévention et suivi",
+            "detail": "L'ajout d'une suppression androgénique vise surtout les situations dont le risque justifie une intensification."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Quel raisonnement convient pour ajouter une ADT au rattrapage ?",
+        "body": "Le bénéfice et les toxicités dépendent du risque ; l'ADT est une intensification sélectionnée, pas un automatisme. Piège à éviter : Prescrire la même durée d'ADT à toute récidive, sans distinguer PSA persistant, faible PSA lent, pN1 ou cinétique très rapide."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Repères de durée à faire valider",
+          "body": "RecoRad décrit une hormonothérapie courte de six mois dans des profils défavorables, notamment PSA supérieur à 0,5 ng/mL ou temps de doublement inférieur à six mois, et permet de discuter vingt-quatre mois dans des situations sélectionnées comme pN1 ou PSA supérieur à 1 ng/mL. Ces repères ne sont pas interchangeables et nécessitent validation médicale et mise à jour des preuves."
+        },
+        {
+          "title": "Approfondissement — Une stratégie avec un coût",
+          "body": "Avant l'ADT, l'équipe documente statut cardiovasculaire, métabolique, osseux, sexuel et préférences, puis prévention et suivi. En cas de PSA persistant sans maladie distante, l'EAU propose radiothérapie de rattrapage et hormonothérapie avec une force faible : cette incertitude doit être expliquée plutôt que masquée."
+        }
+      ]
     },
     {
       "id": "postrp_06_technique",
@@ -134,21 +574,106 @@
       "number": 6,
       "title": "Radiothérapie postopératoire : reconstruire un lit sans glande",
       "durationMinutes": 21,
-      "objectives": ["Contourer le lit selon un atlas identifié.", "Relier dose et fractionnement au protocole postopératoire.", "Auditer technique, imagerie et adaptation."],
+      "objectives": [
+        "Contourer le lit selon un atlas identifié.",
+        "Relier dose et fractionnement au protocole postopératoire.",
+        "Auditer technique, imagerie et adaptation."
+      ],
       "sections": [
-        {"title": "Le lit prostatique est un volume anatomique", "body": "Le scanner est l'imagerie de base ; les IRM préopératoire et postopératoire peuvent préciser apex, anastomose, col vésical et loges des vésicules. Le consensus ESTRO-ACROP et RecoRad guident un CTV du lit complet adapté à la pathologie ; une lésion visible ne doit pas réduire le traitement à la seule anomalie."},
-        {"title": "Dose et volumes restent liés au contexte", "body": "RecoRad situe le lit prostatique autour de 64 à 66 Gy en fractions de 2 Gy et permet une escalade sélectionnée sur maladie macroscopique, sous contrainte des organes à risque. L'éventuelle irradiation pelvienne dépend du statut ganglionnaire, du risque, de l'imagerie et du protocole de RCP ; elle ne découle pas du seul PSA."},
-        {"title": "Technique moderne, prudence sur l'hypofractionnement", "body": "IMRT/VMAT et guidage quotidien sont recommandés pour maîtriser anastomose, vessie et rectum. RecoRad cite 62,5 Gy en 25 fractions et 52,5 Gy en 20 fractions comme schémas étudiés, mais ne présente pas l'hypofractionnement postopératoire comme standard universel ; protocole, recul, toxicité et validation locale doivent rester visibles."}
+        {
+          "title": "Le lit prostatique est un volume anatomique",
+          "body": "Le scanner est l'imagerie de base ; les IRM préopératoire et postopératoire peuvent préciser apex, anastomose, col vésical et loges des vésicules. Le consensus ESTRO-ACROP et RecoRad guident un CTV du lit complet adapté à la pathologie ; une lésion visible ne doit pas réduire le traitement à la seule anomalie."
+        },
+        {
+          "title": "Dose et volumes restent liés au contexte",
+          "body": "RecoRad situe le lit prostatique autour de 64 à 66 Gy en fractions de 2 Gy et permet une escalade sélectionnée sur maladie macroscopique, sous contrainte des organes à risque. L'éventuelle irradiation pelvienne dépend du statut ganglionnaire, du risque, de l'imagerie et du protocole de RCP ; elle ne découle pas du seul PSA."
+        },
+        {
+          "title": "Technique moderne, prudence sur l'hypofractionnement",
+          "body": "IMRT/VMAT et guidage quotidien sont recommandés pour maîtriser anastomose, vessie et rectum. RecoRad cite 62,5 Gy en 25 fractions et 52,5 Gy en 20 fractions comme schémas étudiés, mais ne présente pas l'hypofractionnement postopératoire comme standard universel ; protocole, recul, toxicité et validation locale doivent rester visibles."
+        }
       ],
-      "causalChain": ["Pathologie et imagerie", "CTV du lit", "Dose et OAR", "IMRT/IGRT et validation"],
+      "causalChain": [
+        "Pathologie et imagerie",
+        "CTV du lit",
+        "Dose et OAR",
+        "IMRT/IGRT et validation"
+      ],
       "commonTrap": "Contourer uniquement une fixation ou un nodule visible et oublier le lit prostatique à risque microscopique.",
-      "checkpoint": {"prompt": "Quel audit est adapté à une radiothérapie de rattrapage postopératoire ?", "options": ["Traiter uniquement l'anomalie visible", "Vérifier lit prostatique selon atlas, imagerie concordante, dose/fractionnement, OAR et IGRT", "Copier les volumes de prostate intacte", "Choisir l'hypofractionnement sans protocole"], "answerIndex": 1, "explanation": "La glande absente impose une reconstruction anatomique standardisée et un workflow postopératoire spécifique."},
+      "checkpoint": {
+        "prompt": "Quel audit est adapté à une radiothérapie de rattrapage postopératoire ?",
+        "options": [
+          "Traiter uniquement l'anomalie visible",
+          "Vérifier lit prostatique selon atlas, imagerie concordante, dose/fractionnement, OAR et IGRT",
+          "Copier les volumes de prostate intacte",
+          "Choisir l'hypofractionnement sans protocole"
+        ],
+        "answerIndex": 1,
+        "explanation": "La glande absente impose une reconstruction anatomique standardisée et un workflow postopératoire spécifique."
+      },
       "flashcards": [
-        {"front": "CTV postopératoire", "back": "Lit prostatique complet adapté à la pathologie et à l'imagerie, selon un atlas identifié."},
-        {"front": "Dose conventionnelle du lit", "back": "Repère RecoRad : environ 64–66 Gy en fractions de 2 Gy ; toute escalade dépend du contexte et des OAR."},
-        {"front": "Hypofractionnement postopératoire", "back": "Schémas étudiés mais pas standard universel ; protocole et validation locale requis."}
+        {
+          "front": "CTV postopératoire",
+          "back": "Lit prostatique complet adapté à la pathologie et à l'imagerie, selon un atlas identifié."
+        },
+        {
+          "front": "Dose conventionnelle du lit",
+          "back": "Repère RecoRad : environ 64–66 Gy en fractions de 2 Gy ; toute escalade dépend du contexte et des OAR."
+        },
+        {
+          "front": "Hypofractionnement postopératoire",
+          "back": "Schémas étudiés mais pas standard universel ; protocole et validation locale requis."
+        }
       ],
-      "sources": ["sfro_recorad_prostate_2025", "estro_acrop_prostate_bed_2023", "eau_prostate_2026"]
+      "sources": [
+        "sfro_recorad_prostate_2025",
+        "estro_acrop_prostate_bed_2023",
+        "eau_prostate_2026"
+      ],
+      "keyTakeaways": [
+        "Le scanner est l'imagerie de base ; les IRM préopératoire et postopératoire peuvent préciser apex, anastomose, col vésical et loges des vésicules.",
+        "RecoRad situe le lit prostatique autour de 64 à 66 Gy en fractions de 2 Gy et permet une escalade sélectionnée sur maladie macroscopique, sous contrainte des organes à risque.",
+        "IMRT/VMAT et guidage quotidien sont recommandés pour maîtriser anastomose, vessie et rectum."
+      ],
+      "visual": {
+        "kind": "balance",
+        "title": "Raisonnement clinique — Radiothérapie postopératoire : reconstruire un lit sans glande",
+        "imageSrc": "/figures/prostate/postprostatectomy-recurrence/06-technique.svg",
+        "altText": "Schéma en 4 étapes pour radiothérapie postopératoire : reconstruire un lit sans glande : Pathologie et imagerie, puis CTV du lit, puis Dose et OAR, puis IMRT/IGRT et validation.",
+        "caption": "Lecture de gauche à droite : Pathologie et imagerie → CTV du lit → Dose et OAR → IMRT/IGRT et validation. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Pathologie et imagerie",
+            "detail": "Le scanner est l'imagerie de base ; les IRM préopératoire et postopératoire peuvent préciser apex, anastomose, col vésical et loges des vésicules."
+          },
+          {
+            "label": "CTV du lit",
+            "detail": "RecoRad situe le lit prostatique autour de 64 à 66 Gy en fractions de 2 Gy et permet une escalade sélectionnée sur maladie macroscopique, sous contrainte des organes à risque."
+          },
+          {
+            "label": "Dose et OAR",
+            "detail": "IMRT/VMAT et guidage quotidien sont recommandés pour maîtriser anastomose, vessie et rectum."
+          },
+          {
+            "label": "IMRT/IGRT et validation",
+            "detail": "Le scanner est l'imagerie de base ; les IRM préopératoire et postopératoire peuvent préciser apex, anastomose, col vésical et loges des vésicules."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Quel audit est adapté à une radiothérapie de rattrapage postopératoire ?",
+        "body": "La glande absente impose une reconstruction anatomique standardisée et un workflow postopératoire spécifique. Piège à éviter : Contourer uniquement une fixation ou un nodule visible et oublier le lit prostatique à risque microscopique."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Dose et volumes restent liés au contexte",
+          "body": "RecoRad situe le lit prostatique autour de 64 à 66 Gy en fractions de 2 Gy et permet une escalade sélectionnée sur maladie macroscopique, sous contrainte des organes à risque. L'éventuelle irradiation pelvienne dépend du statut ganglionnaire, du risque, de l'imagerie et du protocole de RCP ; elle ne découle pas du seul PSA."
+        },
+        {
+          "title": "Approfondissement — Technique moderne, prudence sur l'hypofractionnement",
+          "body": "IMRT/VMAT et guidage quotidien sont recommandés pour maîtriser anastomose, vessie et rectum. RecoRad cite 62,5 Gy en 25 fractions et 52,5 Gy en 20 fractions comme schémas étudiés, mais ne présente pas l'hypofractionnement postopératoire comme standard universel ; protocole, recul, toxicité et validation locale doivent rester visibles."
+        }
+      ]
     }
   ],
   "caseStudy": {
@@ -157,10 +682,50 @@
     "status": "needs_review",
     "dataClassification": "synthetic",
     "vignette": "Un homme de 64 ans, autonome et sans comorbidité majeure, a eu une prostatectomie pour adénocarcinome pT3a R1, groupe ISUP 3, pN0. Le PSA était indétectable à deux mois. Il est ensuite mesuré à 0,09 ng/mL à 14 mois, 0,17 à 17 mois, 0,32 à 20 mois puis 0,48 à 22 mois. Le temps de doublement estimé est proche de quatre mois. Le TEP-PSMA réalisé à 0,32 ng/mL est négatif. Le patient demande s'il vaut mieux attendre qu'une cible soit visible.",
-    "decisionPoints": ["Confirmer les dates, unités et la cinétique du PSA.", "Classer la situation comme récidive après nadir et à cinétique défavorable.", "Expliquer la sensibilité incomplète du TEP-PSMA à faible PSA.", "Discuter sans délai une radiothérapie de rattrapage du lit prostatique.", "Discuter une ADT courte compte tenu du temps de doublement, après bilan des toxicités.", "Définir lit, dose, OAR, IGRT et éventuel pelvis dans un protocole validé.", "Tracer incertitudes, préférences et validation RCP."],
-    "expectedReasoning": ["La trajectoire est une récidive après nadir, non une persistance postopératoire.", "Un temps de doublement proche de quatre mois est défavorable et rend l'attente préoccupante.", "À 0,32 ng/mL, un TEP-PSMA négatif n'exclut pas une maladie microscopique.", "Le rattrapage est plus susceptible d'être utile à faible PSA et ne doit pas attendre une cible macroscopique.", "Le lit prostatique reste le volume de base même sans anomalie visible.", "L'ajout et la durée d'ADT nécessitent une balance bénéfice–toxicité individualisée.", "Toutes les valeurs techniques restent needs_review jusqu'à validation clinique."],
-    "criticalErrors": ["Rassurer sur l'absence de maladie à partir du seul TEP-PSMA négatif.", "Attendre obligatoirement un PSA supérieur à 1 ng/mL.", "Proposer une ADT seule sans discuter le rattrapage local.", "Irradier uniquement une anomalie visible alors que l'examen est négatif.", "Déduire le pelvis du PSA seul.", "Présenter six ou vingt-quatre mois d'ADT comme une règle automatique.", "Marquer le contenu validated sans reviewer nommé."],
-    "checkpoint": {"prompt": "Quelle proposition de RCP est la plus cohérente ?", "options": ["Attendre une lésion visible au TEP-PSMA", "Discuter maintenant un rattrapage du lit, sans laisser le TEP négatif retarder l'indication, et évaluer une ADT courte selon le risque", "Prescrire une ADT à vie sans traitement local", "Déclarer une guérison parce que l'imagerie est négative"], "answerIndex": 1, "explanation": "La cinétique rapide et le faible PSA soutiennent une discussion précoce ; l'imagerie négative ne détecte pas toute maladie microscopique."},
-    "sources": ["ccafu_recurrence_2024_2026", "eau_prostate_2026", "sfro_recorad_prostate_2025", "estro_acrop_prostate_bed_2023", "eanm_snmmi_psma_pet_2023"]
+    "decisionPoints": [
+      "Confirmer les dates, unités et la cinétique du PSA.",
+      "Classer la situation comme récidive après nadir et à cinétique défavorable.",
+      "Expliquer la sensibilité incomplète du TEP-PSMA à faible PSA.",
+      "Discuter sans délai une radiothérapie de rattrapage du lit prostatique.",
+      "Discuter une ADT courte compte tenu du temps de doublement, après bilan des toxicités.",
+      "Définir lit, dose, OAR, IGRT et éventuel pelvis dans un protocole validé.",
+      "Tracer incertitudes, préférences et validation RCP."
+    ],
+    "expectedReasoning": [
+      "La trajectoire est une récidive après nadir, non une persistance postopératoire.",
+      "Un temps de doublement proche de quatre mois est défavorable et rend l'attente préoccupante.",
+      "À 0,32 ng/mL, un TEP-PSMA négatif n'exclut pas une maladie microscopique.",
+      "Le rattrapage est plus susceptible d'être utile à faible PSA et ne doit pas attendre une cible macroscopique.",
+      "Le lit prostatique reste le volume de base même sans anomalie visible.",
+      "L'ajout et la durée d'ADT nécessitent une balance bénéfice–toxicité individualisée.",
+      "Toutes les valeurs techniques restent needs_review jusqu'à validation clinique."
+    ],
+    "criticalErrors": [
+      "Rassurer sur l'absence de maladie à partir du seul TEP-PSMA négatif.",
+      "Attendre obligatoirement un PSA supérieur à 1 ng/mL.",
+      "Proposer une ADT seule sans discuter le rattrapage local.",
+      "Irradier uniquement une anomalie visible alors que l'examen est négatif.",
+      "Déduire le pelvis du PSA seul.",
+      "Présenter six ou vingt-quatre mois d'ADT comme une règle automatique.",
+      "Marquer le contenu validated sans reviewer nommé."
+    ],
+    "checkpoint": {
+      "prompt": "Quelle proposition de RCP est la plus cohérente ?",
+      "options": [
+        "Attendre une lésion visible au TEP-PSMA",
+        "Discuter maintenant un rattrapage du lit, sans laisser le TEP négatif retarder l'indication, et évaluer une ADT courte selon le risque",
+        "Prescrire une ADT à vie sans traitement local",
+        "Déclarer une guérison parce que l'imagerie est négative"
+      ],
+      "answerIndex": 1,
+      "explanation": "La cinétique rapide et le faible PSA soutiennent une discussion précoce ; l'imagerie négative ne détecte pas toute maladie microscopique."
+    },
+    "sources": [
+      "ccafu_recurrence_2024_2026",
+      "eau_prostate_2026",
+      "sfro_recorad_prostate_2025",
+      "estro_acrop_prostate_bed_2023",
+      "eanm_snmmi_psma_pet_2023"
+    ]
   }
 }
