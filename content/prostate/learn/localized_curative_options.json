@@ -2,9 +2,9 @@
   "id": "prostate_localized_curative_options",
   "blockId": "localized_curative_options",
   "title": "Prostate — comparer les parcours curatifs localisés",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "status": "needs_review",
-  "lastUpdated": "2026-07-31",
+  "lastUpdated": "2026-08-02",
   "estimatedMinutes": 86,
   "learningPromise": "À la fin de ce bloc, l'apprenant peut comparer prostatectomie, radiothérapie externe et curiethérapie comme des parcours complets, sélectionner les options admissibles selon risque et contexte fonctionnel, puis conduire une décision partagée sans promettre une équivalence individuelle non démontrée.",
   "evidenceScope": {
@@ -54,7 +54,12 @@
           "body": "Une option standard appuyée par les recommandations ne doit pas être présentée au même niveau qu'une technique en évaluation. Inversement, une modalité standard peut être techniquement défavorable chez un patient précis. La RCP doit donc distinguer admissibilité oncologique, faisabilité technique et préférence éclairée."
         }
       ],
-      "causalChain": ["Risque tumoral", "Horizon de bénéfice", "Faisabilité fonctionnelle et technique", "Options admissibles à comparer"],
+      "causalChain": [
+        "Risque tumoral",
+        "Horizon de bénéfice",
+        "Faisabilité fonctionnelle et technique",
+        "Options admissibles à comparer"
+      ],
       "commonTrap": "Choisir la modalité sur le seul groupe de risque sans documenter symptômes urinaires, fonction sexuelle, comorbidités et priorités.",
       "checkpoint": {
         "prompt": "Après avoir défini le groupe de risque, quelle étape précède une comparaison honnête des traitements curatifs ?",
@@ -68,11 +73,67 @@
         "explanation": "Le risque ouvre les options, mais la pertinence individuelle dépend de l'horizon de bénéfice, des fonctions de départ, de la faisabilité et des objectifs du patient."
       },
       "flashcards": [
-        {"front": "Admissibilité oncologique", "back": "Compatibilité d'une option avec le stade, le risque et les preuves disponibles."},
-        {"front": "Faisabilité technique", "back": "Compatibilité avec anatomie, fonctions, antécédents, expertise et ressources du centre."},
-        {"front": "Choix individuel", "back": "Intersection entre options admissibles, balance bénéfices–risques et priorités éclairées du patient."}
+        {
+          "front": "Admissibilité oncologique",
+          "back": "Compatibilité d'une option avec le stade, le risque et les preuves disponibles."
+        },
+        {
+          "front": "Faisabilité technique",
+          "back": "Compatibilité avec anatomie, fonctions, antécédents, expertise et ressources du centre."
+        },
+        {
+          "front": "Choix individuel",
+          "back": "Intersection entre options admissibles, balance bénéfices–risques et priorités éclairées du patient."
+        }
       ],
-      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026"]
+      "sources": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "keyTakeaways": [
+        "PSA, cT, groupe ISUP, charge biopsique, IRM et bilan d'extension déterminent le niveau de risque.",
+        "L'espérance de vie, les comorbidités, la fragilité, les symptômes urinaires, la fonction sexuelle, les antécédents digestifs ou chirurgicaux, le volume prostatique et l'accès à un centre expert modifient bénéfices et toxicités.",
+        "Une option standard appuyée par les recommandations ne doit pas être présentée au même niveau qu'une technique en évaluation."
+      ],
+      "visual": {
+        "kind": "pathway",
+        "title": "Raisonnement clinique — Ouvrir les bonnes options avant de comparer",
+        "imageSrc": "/figures/prostate/localized-curative-options/01-context.svg",
+        "altText": "Schéma en 4 étapes pour ouvrir les bonnes options avant de comparer : Risque tumoral, puis Horizon de bénéfice, puis Faisabilité fonctionnelle et technique, puis Options admissibles à comparer.",
+        "caption": "Lecture de gauche à droite : Risque tumoral → Horizon de bénéfice → Faisabilité fonctionnelle et technique → Options admissibles à comparer. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Risque tumoral",
+            "detail": "PSA, cT, groupe ISUP, charge biopsique, IRM et bilan d'extension déterminent le niveau de risque."
+          },
+          {
+            "label": "Horizon de bénéfice",
+            "detail": "L'espérance de vie, les comorbidités, la fragilité, les symptômes urinaires, la fonction sexuelle, les antécédents digestifs ou chirurgicaux, le volume prostatique et l'accès à un centre expert modifient bénéfices et toxicités."
+          },
+          {
+            "label": "Faisabilité fonctionnelle et technique",
+            "detail": "Une option standard appuyée par les recommandations ne doit pas être présentée au même niveau qu'une technique en évaluation."
+          },
+          {
+            "label": "Options admissibles à comparer",
+            "detail": "PSA, cT, groupe ISUP, charge biopsique, IRM et bilan d'extension déterminent le niveau de risque."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Après avoir défini le groupe de risque, quelle étape précède une comparaison honnête des traitements curatifs ?",
+        "body": "Le risque ouvre les options, mais la pertinence individuelle dépend de l'horizon de bénéfice, des fonctions de départ, de la faisabilité et des objectifs du patient. Piège à éviter : Choisir la modalité sur le seul groupe de risque sans documenter symptômes urinaires, fonction sexuelle, comorbidités et priorités."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Le patient modifie la balance",
+          "body": "L'espérance de vie, les comorbidités, la fragilité, les symptômes urinaires, la fonction sexuelle, les antécédents digestifs ou chirurgicaux, le volume prostatique et l'accès à un centre expert modifient bénéfices et toxicités. L'âge civil isolé ne suffit pas à décider d'un traitement radical."
+        },
+        {
+          "title": "Approfondissement — Nommer le niveau de recommandation",
+          "body": "Une option standard appuyée par les recommandations ne doit pas être présentée au même niveau qu'une technique en évaluation. Inversement, une modalité standard peut être techniquement défavorable chez un patient précis. La RCP doit donc distinguer admissibilité oncologique, faisabilité technique et préférence éclairée."
+        }
+      ]
     },
     {
       "id": "localized_02_surgery",
@@ -99,7 +160,12 @@
           "body": "L'incontinence urinaire et la dysfonction érectile doivent être discutées avant l'intervention à partir des fonctions initiales et du risque individuel. Une préservation neurovasculaire peut être envisagée si le risque d'extension extracapsulaire du côté concerné est faible ; elle ne doit pas compromettre l'objectif oncologique. La voie robotique ne supprime pas ces enjeux."
         }
       ],
-      "causalChain": ["Candidat curatif", "Exérèse et pathologie", "PSA postopératoire", "Surveillance ou rattrapage"],
+      "causalChain": [
+        "Candidat curatif",
+        "Exérèse et pathologie",
+        "PSA postopératoire",
+        "Surveillance ou rattrapage"
+      ],
       "commonTrap": "Présenter la prostatectomie comme une garantie de traitement unique sans évoquer le risque de radiothérapie ou d'hormonothérapie postopératoire.",
       "checkpoint": {
         "prompt": "Quelle information décrit correctement le parcours après prostatectomie ?",
@@ -113,11 +179,67 @@
         "explanation": "La chirurgie produit une information pathologique utile, mais le parcours dépend ensuite du PSA et des facteurs de risque postopératoires."
       },
       "flashcards": [
-        {"front": "Pièce de prostatectomie", "back": "Précise pT, grade, marges et parfois statut ganglionnaire ; elle affine le pronostic postopératoire."},
-        {"front": "PSA postopératoire", "back": "Sa persistance ou sa remontée peut conduire à discuter une radiothérapie de rattrapage."},
-        {"front": "Préservation neurovasculaire", "back": "Option conditionnée par le risque d'extension extracapsulaire et les fonctions initiales, sans compromis oncologique."}
+        {
+          "front": "Pièce de prostatectomie",
+          "back": "Précise pT, grade, marges et parfois statut ganglionnaire ; elle affine le pronostic postopératoire."
+        },
+        {
+          "front": "PSA postopératoire",
+          "back": "Sa persistance ou sa remontée peut conduire à discuter une radiothérapie de rattrapage."
+        },
+        {
+          "front": "Préservation neurovasculaire",
+          "back": "Option conditionnée par le risque d'extension extracapsulaire et les fonctions initiales, sans compromis oncologique."
+        }
       ],
-      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026"]
+      "sources": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "keyTakeaways": [
+        "La prostatectomie radicale est une option de référence lorsque l'espérance de vie permet d'attendre un bénéfice oncologique, généralement au-delà de dix ans.",
+        "La pièce opératoire fournit pT, marges, grade et, si un curage est indiqué, statut ganglionnaire.",
+        "L'incontinence urinaire et la dysfonction érectile doivent être discutées avant l'intervention à partir des fonctions initiales et du risque individuel."
+      ],
+      "visual": {
+        "kind": "comparison",
+        "title": "Raisonnement clinique — Prostatectomie radicale : un traitement local et un début de parcours",
+        "imageSrc": "/figures/prostate/localized-curative-options/02-surgery.svg",
+        "altText": "Schéma en 4 étapes pour prostatectomie radicale : un traitement local et un début de parcours : Candidat curatif, puis Exérèse et pathologie, puis PSA postopératoire, puis Surveillance ou rattrapage.",
+        "caption": "Lecture de gauche à droite : Candidat curatif → Exérèse et pathologie → PSA postopératoire → Surveillance ou rattrapage. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Candidat curatif",
+            "detail": "La prostatectomie radicale est une option de référence lorsque l'espérance de vie permet d'attendre un bénéfice oncologique, généralement au-delà de dix ans."
+          },
+          {
+            "label": "Exérèse et pathologie",
+            "detail": "La pièce opératoire fournit pT, marges, grade et, si un curage est indiqué, statut ganglionnaire."
+          },
+          {
+            "label": "PSA postopératoire",
+            "detail": "L'incontinence urinaire et la dysfonction érectile doivent être discutées avant l'intervention à partir des fonctions initiales et du risque individuel."
+          },
+          {
+            "label": "Surveillance ou rattrapage",
+            "detail": "La prostatectomie radicale est une option de référence lorsque l'espérance de vie permet d'attendre un bénéfice oncologique, généralement au-delà de dix ans."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Quelle information décrit correctement le parcours après prostatectomie ?",
+        "body": "La chirurgie produit une information pathologique utile, mais le parcours dépend ensuite du PSA et des facteurs de risque postopératoires. Piège à éviter : Présenter la prostatectomie comme une garantie de traitement unique sans évoquer le risque de radiothérapie ou d'hormonothérapie postopératoire."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — La pathologie affine le risque",
+          "body": "La pièce opératoire fournit pT, marges, grade et, si un curage est indiqué, statut ganglionnaire. Cette information améliore la stratification postopératoire mais ne signifie pas que la chirurgie a nécessairement achevé le traitement : un PSA persistant ou ascendant et certains facteurs pathologiques peuvent conduire à une radiothérapie de rattrapage, parfois associée à une hormonothérapie."
+        },
+        {
+          "title": "Approfondissement — Fonctions et technique",
+          "body": "L'incontinence urinaire et la dysfonction érectile doivent être discutées avant l'intervention à partir des fonctions initiales et du risque individuel. Une préservation neurovasculaire peut être envisagée si le risque d'extension extracapsulaire du côté concerné est faible ; elle ne doit pas compromettre l'objectif oncologique. La voie robotique ne supprime pas ces enjeux."
+        }
+      ]
     },
     {
       "id": "localized_03_ebrt",
@@ -144,7 +266,12 @@
           "body": "Le patient doit être informé des toxicités urinaires irritatives ou obstructives, digestives, sexuelles et, si une hormonothérapie est associée, métaboliques, osseuses, cardiovasculaires et psychosexuelles. Le suivi du PSA après irradiation obéit à une cinétique différente du postopératoire et une récidive locale éventuelle requiert une sélection experte pour le rattrapage."
         }
       ],
-      "causalChain": ["Groupe de risque", "Volumes et fractionnement", "Éventuelle hormonothérapie", "Contrôle et toxicités tardives"],
+      "causalChain": [
+        "Groupe de risque",
+        "Volumes et fractionnement",
+        "Éventuelle hormonothérapie",
+        "Contrôle et toxicités tardives"
+      ],
       "commonTrap": "Comparer chirurgie et radiothérapie en opposant un geste à des séances, sans inclure volumes, hormonothérapie, toxicités tardives et options de rattrapage.",
       "checkpoint": {
         "prompt": "Dans une comparaison de parcours, la radiothérapie définitive doit être présentée comme :",
@@ -158,11 +285,69 @@
         "explanation": "La radiothérapie définitive est une stratégie oncologique complète, adaptée au risque et au patient, et non une simple série de séances."
       },
       "flashcards": [
-        {"front": "Technique française actuelle", "back": "Modulation d'intensité avec guidage par l'image ; les détails sont reliés au RecoRad prostate 2025."},
-        {"front": "Risque et radiothérapie", "back": "Le risque module cibles, fractionnement, éventuelle irradiation ganglionnaire et association hormonale."},
-        {"front": "Suivi après irradiation", "back": "Interprétation du PSA différente de la prostatectomie ; la prostate reste en place et le nadir est progressif."}
+        {
+          "front": "Technique française actuelle",
+          "back": "Modulation d'intensité avec guidage par l'image ; les détails sont reliés au RecoRad prostate 2025."
+        },
+        {
+          "front": "Risque et radiothérapie",
+          "back": "Le risque module cibles, fractionnement, éventuelle irradiation ganglionnaire et association hormonale."
+        },
+        {
+          "front": "Suivi après irradiation",
+          "back": "Interprétation du PSA différente de la prostatectomie ; la prostate reste en place et le nadir est progressif."
+        }
       ],
-      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026", "sfro_recorad_prostate_2025", "aua_astro_localized_rt_summary_2024"]
+      "sources": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025",
+        "aua_astro_localized_rt_summary_2024"
+      ],
+      "keyTakeaways": [
+        "La radiothérapie externe peut traiter les cancers localisés de faible, intermédiaire ou haut risque, mais la cible, le fractionnement et l'association systémique varient.",
+        "La recommandation française actuelle repose sur une irradiation conformationnelle avec modulation d'intensité et guidage par l'image.",
+        "Le patient doit être informé des toxicités urinaires irritatives ou obstructives, digestives, sexuelles et, si une hormonothérapie est associée, métaboliques, osseuses, cardiovasculaires et psychosexuelles."
+      ],
+      "visual": {
+        "kind": "decision",
+        "title": "Raisonnement clinique — Radiothérapie externe : un traitement curatif construit par risque",
+        "imageSrc": "/figures/prostate/localized-curative-options/03-ebrt.svg",
+        "altText": "Schéma en 4 étapes pour radiothérapie externe : un traitement curatif construit par risque : Groupe de risque, puis Volumes et fractionnement, puis Éventuelle hormonothérapie, puis Contrôle et toxicités tardives.",
+        "caption": "Lecture de gauche à droite : Groupe de risque → Volumes et fractionnement → Éventuelle hormonothérapie → Contrôle et toxicités tardives. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Groupe de risque",
+            "detail": "La radiothérapie externe peut traiter les cancers localisés de faible, intermédiaire ou haut risque, mais la cible, le fractionnement et l'association systémique varient."
+          },
+          {
+            "label": "Volumes et fractionnement",
+            "detail": "La recommandation française actuelle repose sur une irradiation conformationnelle avec modulation d'intensité et guidage par l'image."
+          },
+          {
+            "label": "Éventuelle hormonothérapie",
+            "detail": "Le patient doit être informé des toxicités urinaires irritatives ou obstructives, digestives, sexuelles et, si une hormonothérapie est associée, métaboliques, osseuses, cardiovasculaires et psychosexuelles."
+          },
+          {
+            "label": "Contrôle et toxicités tardives",
+            "detail": "La radiothérapie externe peut traiter les cancers localisés de faible, intermédiaire ou haut risque, mais la cible, le fractionnement et l'association systémique varient."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Dans une comparaison de parcours, la radiothérapie définitive doit être présentée comme :",
+        "body": "La radiothérapie définitive est une stratégie oncologique complète, adaptée au risque et au patient, et non une simple série de séances. Piège à éviter : Comparer chirurgie et radiothérapie en opposant un geste à des séances, sans inclure volumes, hormonothérapie, toxicités tardives et options de rattrapage."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Technique, volumes et traitement systémique sont indissociables",
+          "body": "La recommandation française actuelle repose sur une irradiation conformationnelle avec modulation d'intensité et guidage par l'image. Le risque détermine si la prostate seule, les vésicules séminales ou les aires ganglionnaires sont considérées, ainsi que la place et la durée d'une suppression androgénique. Les prescriptions détaillées relèvent du bloc radiothérapie suivant."
+        },
+        {
+          "title": "Approfondissement — Un profil fonctionnel distinct",
+          "body": "Le patient doit être informé des toxicités urinaires irritatives ou obstructives, digestives, sexuelles et, si une hormonothérapie est associée, métaboliques, osseuses, cardiovasculaires et psychosexuelles. Le suivi du PSA après irradiation obéit à une cinétique différente du postopératoire et une récidive locale éventuelle requiert une sélection experte pour le rattrapage."
+        }
+      ]
     },
     {
       "id": "localized_04_brachytherapy",
@@ -189,7 +374,12 @@
           "body": "Le boost curiethérapique peut améliorer le contrôle biochimique dans certaines situations, mais au prix d'une toxicité urinaire plus importante et sans bénéfice de survie globale démontré dans les essais de référence. L'information doit donc porter sur le bénéfice attendu, la toxicité et l'expérience du centre."
         }
       ],
-      "causalChain": ["Risque admissible", "Fonction urinaire et anatomie", "Monothérapie ou boost", "Contrôle–toxicité–suivi"],
+      "causalChain": [
+        "Risque admissible",
+        "Fonction urinaire et anatomie",
+        "Monothérapie ou boost",
+        "Contrôle–toxicité–suivi"
+      ],
       "commonTrap": "Proposer une curiethérapie sur le seul groupe de risque sans évaluer fonction urinaire, anatomie et expertise du centre.",
       "checkpoint": {
         "prompt": "Quel élément est particulièrement déterminant avant une curiethérapie prostatique ?",
@@ -203,11 +393,68 @@
         "explanation": "La curiethérapie exige une sélection oncologique mais aussi urinaire, anatomique et technique rigoureuse."
       },
       "flashcards": [
-        {"front": "LDR", "back": "Implants permanents, le plus souvent iode 125 en France ; option exclusive chez certains profils favorables ou boost selon le risque."},
-        {"front": "HDR", "back": "Source temporaire d'iridium 192 via cathéters ; monothérapie fractionnée ou boost dans des centres expérimentés."},
-        {"front": "Sélection curiethérapie", "back": "Risque tumoral, symptômes et débit urinaires, volume et anatomie, antécédents de résection et expertise du centre."}
+        {
+          "front": "LDR",
+          "back": "Implants permanents, le plus souvent iode 125 en France ; option exclusive chez certains profils favorables ou boost selon le risque."
+        },
+        {
+          "front": "HDR",
+          "back": "Source temporaire d'iridium 192 via cathéters ; monothérapie fractionnée ou boost dans des centres expérimentés."
+        },
+        {
+          "front": "Sélection curiethérapie",
+          "back": "Risque tumoral, symptômes et débit urinaires, volume et anatomie, antécédents de résection et expertise du centre."
+        }
       ],
-      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026", "sfro_recorad_prostate_2025"]
+      "sources": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "keyTakeaways": [
+        "La curiethérapie LDR implante durablement des grains radioactifs, tandis que la HDR délivre temporairement la dose par des cathéters.",
+        "Symptômes urinaires, débit, volume prostatique, lobe médian, antécédent de résection endoscopique et anatomie technique doivent être évalués avant toute proposition.",
+        "Le boost curiethérapique peut améliorer le contrôle biochimique dans certaines situations, mais au prix d'une toxicité urinaire plus importante et sans bénéfice de survie globale démontré dans les essais de référence."
+      ],
+      "visual": {
+        "kind": "matrix",
+        "title": "Raisonnement clinique — Curiethérapie : sélectionner le risque et surtout la fonction urinaire",
+        "imageSrc": "/figures/prostate/localized-curative-options/04-brachytherapy.svg",
+        "altText": "Schéma en 4 étapes pour curiethérapie : sélectionner le risque et surtout la fonction urinaire : Risque admissible, puis Fonction urinaire et anatomie, puis Monothérapie ou boost, puis Contrôle–toxicité–suivi.",
+        "caption": "Lecture de gauche à droite : Risque admissible → Fonction urinaire et anatomie → Monothérapie ou boost → Contrôle–toxicité–suivi. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Risque admissible",
+            "detail": "La curiethérapie LDR implante durablement des grains radioactifs, tandis que la HDR délivre temporairement la dose par des cathéters."
+          },
+          {
+            "label": "Fonction urinaire et anatomie",
+            "detail": "Symptômes urinaires, débit, volume prostatique, lobe médian, antécédent de résection endoscopique et anatomie technique doivent être évalués avant toute proposition."
+          },
+          {
+            "label": "Monothérapie ou boost",
+            "detail": "Le boost curiethérapique peut améliorer le contrôle biochimique dans certaines situations, mais au prix d'une toxicité urinaire plus importante et sans bénéfice de survie globale démontré dans les essais de référence."
+          },
+          {
+            "label": "Contrôle–toxicité–suivi",
+            "detail": "La curiethérapie LDR implante durablement des grains radioactifs, tandis que la HDR délivre temporairement la dose par des cathéters."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Quel élément est particulièrement déterminant avant une curiethérapie prostatique ?",
+        "body": "La curiethérapie exige une sélection oncologique mais aussi urinaire, anatomique et technique rigoureuse. Piège à éviter : Proposer une curiethérapie sur le seul groupe de risque sans évaluer fonction urinaire, anatomie et expertise du centre."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — La sélection urinaire est centrale",
+          "body": "Symptômes urinaires, débit, volume prostatique, lobe médian, antécédent de résection endoscopique et anatomie technique doivent être évalués avant toute proposition. Ces éléments sont souvent relatifs plutôt qu'absolus et dépendent de la technique ainsi que de l'expérience de l'équipe ; ils ne doivent pas être réduits à un seul seuil universel."
+        },
+        {
+          "title": "Approfondissement — Plus de dose n'est pas gratuitement meilleur",
+          "body": "Le boost curiethérapique peut améliorer le contrôle biochimique dans certaines situations, mais au prix d'une toxicité urinaire plus importante et sans bénéfice de survie globale démontré dans les essais de référence. L'information doit donc porter sur le bénéfice attendu, la toxicité et l'expérience du centre."
+        }
+      ]
     },
     {
       "id": "localized_05_multimodal",
@@ -234,7 +481,12 @@
           "body": "La RCP doit nommer le risque, les options standards, les raisons d'exclusion, les traitements associés, les toxicités dominantes, les stratégies de rattrapage et les incertitudes. Le patient peut alors arbitrer entre des parcours concrets plutôt qu'entre les mots chirurgie et rayons."
         }
       ],
-      "causalChain": ["Traitement initial", "Pathologie ou réponse PSA", "Traitements associés ou rattrapage", "Trajectoire fonctionnelle et oncologique"],
+      "causalChain": [
+        "Traitement initial",
+        "Pathologie ou réponse PSA",
+        "Traitements associés ou rattrapage",
+        "Trajectoire fonctionnelle et oncologique"
+      ],
       "commonTrap": "Promettre qu'un choix initial sera forcément monomodal ou que les possibilités de rattrapage sont identiques après chirurgie et après irradiation.",
       "checkpoint": {
         "prompt": "Quelle comparaison est la plus utile à une décision partagée ?",
@@ -248,11 +500,68 @@
         "explanation": "Les modalités initiales ouvrent des trajectoires différentes ; les comparer sans la suite expose le patient à une information incomplète."
       },
       "flashcards": [
-        {"front": "Parcours chirurgical", "back": "Prostatectomie, pathologie, PSA puis surveillance ou rattrapage postopératoire selon le risque."},
-        {"front": "Parcours radiothérapeutique", "back": "Volumes et fractionnement selon le risque, éventuelle ADT ou curiethérapie, puis suivi du PSA et des toxicités."},
-        {"front": "Rattrapages asymétriques", "back": "Radiothérapie après chirurgie bien établie ; rattrapage local après irradiation possible chez des patients très sélectionnés en centre expert."}
+        {
+          "front": "Parcours chirurgical",
+          "back": "Prostatectomie, pathologie, PSA puis surveillance ou rattrapage postopératoire selon le risque."
+        },
+        {
+          "front": "Parcours radiothérapeutique",
+          "back": "Volumes et fractionnement selon le risque, éventuelle ADT ou curiethérapie, puis suivi du PSA et des toxicités."
+        },
+        {
+          "front": "Rattrapages asymétriques",
+          "back": "Radiothérapie après chirurgie bien établie ; rattrapage local après irradiation possible chez des patients très sélectionnés en centre expert."
+        }
       ],
-      "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026", "sfro_recorad_prostate_2025"]
+      "sources": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "keyTakeaways": [
+        "Une prostatectomie peut être suivie d'une radiothérapie de rattrapage et d'une hormonothérapie selon le PSA et les facteurs pathologiques.",
+        "Après chirurgie, la radiothérapie du lit prostatique est un rattrapage établi.",
+        "La RCP doit nommer le risque, les options standards, les raisons d'exclusion, les traitements associés, les toxicités dominantes, les stratégies de rattrapage et les incertitudes."
+      ],
+      "visual": {
+        "kind": "evidence",
+        "title": "Raisonnement clinique — Comparer les trajectoires multimodales en RCP",
+        "imageSrc": "/figures/prostate/localized-curative-options/05-multimodal.svg",
+        "altText": "Schéma en 4 étapes pour comparer les trajectoires multimodales en rcp : Traitement initial, puis Pathologie ou réponse PSA, puis Traitements associés ou rattrapage, puis Trajectoire fonctionnelle et oncologique.",
+        "caption": "Lecture de gauche à droite : Traitement initial → Pathologie ou réponse PSA → Traitements associés ou rattrapage → Trajectoire fonctionnelle et oncologique. Schéma éducatif needs_review ; la figure ne remplace ni les sources ni la revue clinique.",
+        "items": [
+          {
+            "label": "Traitement initial",
+            "detail": "Une prostatectomie peut être suivie d'une radiothérapie de rattrapage et d'une hormonothérapie selon le PSA et les facteurs pathologiques."
+          },
+          {
+            "label": "Pathologie ou réponse PSA",
+            "detail": "Après chirurgie, la radiothérapie du lit prostatique est un rattrapage établi."
+          },
+          {
+            "label": "Traitements associés ou rattrapage",
+            "detail": "La RCP doit nommer le risque, les options standards, les raisons d'exclusion, les traitements associés, les toxicités dominantes, les stratégies de rattrapage et les incertitudes."
+          },
+          {
+            "label": "Trajectoire fonctionnelle et oncologique",
+            "detail": "Une prostatectomie peut être suivie d'une radiothérapie de rattrapage et d'une hormonothérapie selon le PSA et les facteurs pathologiques."
+          }
+        ]
+      },
+      "clinicalLens": {
+        "title": "Application — Quelle comparaison est la plus utile à une décision partagée ?",
+        "body": "Les modalités initiales ouvrent des trajectoires différentes ; les comparer sans la suite expose le patient à une information incomplète. Piège à éviter : Promettre qu'un choix initial sera forcément monomodal ou que les possibilités de rattrapage sont identiques après chirurgie et après irradiation."
+      },
+      "deepDive": [
+        {
+          "title": "Approfondissement — Les rattrapages ne sont pas symétriques",
+          "body": "Après chirurgie, la radiothérapie du lit prostatique est un rattrapage établi. Après irradiation, une récidive locale prouvée peut parfois relever d'une chirurgie, curiethérapie, stéréotaxie ou autre ablation, mais au prix d'une sélection stricte, d'une expertise spécialisée et d'une morbidité potentiellement accrue. Dire que chaque option peut toujours rattraper l'autre serait trompeur."
+        },
+        {
+          "title": "Approfondissement — Une synthèse compréhensible",
+          "body": "La RCP doit nommer le risque, les options standards, les raisons d'exclusion, les traitements associés, les toxicités dominantes, les stratégies de rattrapage et les incertitudes. Le patient peut alors arbitrer entre des parcours concrets plutôt qu'entre les mots chirurgie et rayons."
+        }
+      ]
     }
   ],
   "caseStudy": {
@@ -289,6 +598,11 @@
       "answerIndex": 1,
       "explanation": "La bonne décision ne hiérarchise pas arbitrairement des options standards ; elle vérifie leur admissibilité et compare leurs trajectoires complètes selon les priorités du patient."
     },
-    "sources": ["ccafu_localised_2024_2026", "eau_prostate_2026", "sfro_recorad_prostate_2025", "aua_astro_localized_rt_summary_2024"]
+    "sources": [
+      "ccafu_localised_2024_2026",
+      "eau_prostate_2026",
+      "sfro_recorad_prostate_2025",
+      "aua_astro_localized_rt_summary_2024"
+    ]
   }
 }
