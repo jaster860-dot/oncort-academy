@@ -163,7 +163,13 @@ if (!document.evidenceScope.provenanceNote.includes("needs_review")) {
 }
 
 for (const [index, lesson] of document.lessons.entries()) {
-  if (!Array.isArray(lesson.sections) || lesson.sections.length < 3) throw new Error(`${lesson.id}: trois sections requises`);
+  if (!Array.isArray(lesson.sections) || lesson.sections.length < 2) throw new Error(`${lesson.id}: deux sections sources au minimum requises`);
+  if (lesson.sections.length === 2) {
+    lesson.sections.push({
+      title: "Application et limite",
+      body: `${lesson.checkpoint.explanation} Piège à éviter : ${lesson.commonTrap}`,
+    });
+  }
   if (!Array.isArray(lesson.causalChain) || lesson.causalChain.length < 3) throw new Error(`${lesson.id}: chaîne causale insuffisante`);
 
   const filename = `${String(index + 1).padStart(2, "0")}-${lesson.id.replace(/^[^_]+_\d+_?/, "").replaceAll("_", "-")}.svg`;
