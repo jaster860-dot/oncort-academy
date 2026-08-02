@@ -24,6 +24,15 @@ const dossierLabels: Record<string, string> = {
   multidisciplinary: "Pluridisciplinaire",
 };
 
+/** Gap identifiers are English by schema; they are read aloud and shown to a French learner. */
+const gapLabels: Record<TutorResult["primaryGap"], string> = {
+  risk_gap: "stratification du risque",
+  rcp_gap: "raisonnement pluridisciplinaire",
+  imaging_gap: "interprétation de l’imagerie",
+  medical_oncology_gap: "oncologie médicale",
+  patient_gap: "contexte du patient",
+};
+
 /** The four moves of a tumour-board argument, offered as headings only. */
 const structureSteps = ["Risque", "Données manquantes", "Options", "Décision"] as const;
 
@@ -80,7 +89,7 @@ export function RcpWorkspace({ caseItem, retestPrompt }: { caseItem: CaseItem; r
   const currentIndex = steps.indexOf(step);
 
   const submit = async () => {
-    if (answer.trim().length < 30 || grading) return;
+    if (answer.trim().length < MIN_ANSWER || grading) return;
     setGrading(true);
     try {
       // Never throws: the hosted tutor falls back to the local engine, so the
@@ -115,6 +124,15 @@ export function RcpWorkspace({ caseItem, retestPrompt }: { caseItem: CaseItem; r
           <Link className="backLink" href="/parcours/prostate">← Retour au cursus</Link>
         </aside>
         <section className="rcpWorkspace">
+          {/* Lives outside the step blocks so it survives the transition and can
+              announce the outcome, not only that grading started. */}
+          <p className="srStatus" role="status" aria-live="polite">
+            {grading
+              ? "Analyse de ton raisonnement en cours."
+              : step === "analysis" && result
+                ? `Analyse terminée. Score ${result.score} sur 10. Lacune prioritaire : ${gapLabels[result.primaryGap]}.`
+                : ""}
+          </p>
           {step === "case" && <>
             <div className="caseHero"><div><p className="eyebrow">Cas 01 · Niveau fondamental</p><h2>{caseItem.title}</h2></div><span>RCP</span></div>
             <article className="vignetteCard"><span>Situation clinique</span><p>{caseItem.vignette}</p></article>
@@ -137,18 +155,25 @@ export function RcpWorkspace({ caseItem, retestPrompt }: { caseItem: CaseItem; r
                 <ul>{caseItem.tasks.map((task) => <li key={task}>{task}</li>)}</ul>
               </aside>
             </div>
-            <div className="lessonActions"><span>Connecté, ta réponse est analysée par le tuteur et conservée pour relecture pédagogique. En mode invité, elle ne quitte pas cet appareil.</span><button className="button buttonPrimary" disabled={answer.trim().length < 30 || grading} onClick={submit}>{grading ? "Analyse en cours…" : <>Analyser mon raisonnement <span>→</span></>}</button></div>
+            <div className="lessonActions" aria-busy={grading}>
+              <span>Connecté, ta réponse est analysée par le tuteur et conservée pour relecture pédagogique. En mode invité, elle ne quitte pas cet appareil.</span>
+              {/* Grading is now a network round trip to the tutor, not a local
+                  regex: a changed button label alone was too thin for the wait. */}
+              <button className="button buttonPrimary" disabled={answer.trim().length < MIN_ANSWER || grading} onClick={submit}>
+                {grading ? <><i className="btnSpinner" aria-hidden="true" />Analyse en cours…</> : <>Analyser mon raisonnement <span>→</span></>}
+              </button>
+            </div>
           </>}
 
-          {step === "analysis" && result && <>
+          {step === "analysis" && result && <div className="stepEnter">
             {result.outOfScope && result.outOfScopeNote && <p className="tutorNotice"><strong>Hors du programme couvert.</strong> {result.outOfScopeNote}</p>}
             {result.source === "deterministic_fallback" && <p className="tutorNotice">Analyse produite par le moteur local : le tuteur ancré n’était pas joignable. Les critères restent les mêmes, les justifications sont plus sommaires.</p>}
             <div className="analysisHeader"><div><p className="eyebrow">Analyse structurée</p><h2>{result.verdict === "correct" ? "Raisonnement solide" : result.verdict === "unsafe" ? "Automatisme à corriger" : "Fondation à consolider"}</h2></div><div className={`scoreOrb ${result.verdict}`}><strong>{result.score}</strong><span>/10</span></div></div>
             {result.criticalError && <div className="criticalAlert"><strong>Erreur critique détectée</strong><p>Un PSMA-PET négatif ne suffit jamais, isolément, à exclure le risque microscopique ou une composante thérapeutique.</p></div>}
             <div className="axisGridModern">{result.axes.map((axis) => <article key={axis.id}><div><span>{axis.label}</span><strong>{axis.score}/2</strong></div><p>{axis.rationale}</p><i><b style={{ width: `${axis.score * 50}%` }} /></i></article>)}</div>
-            <section className="tutorVerdict"><span>N</span><div><p className="eyebrow">Verdict du tuteur</p><h3>Lacune prioritaire : {result.primaryGap.replaceAll("_", " ")}</h3><p>Une seule capsule est proposée. Elle sera immédiatement testée dans une formulation différente.</p></div></section>
+            <section className="tutorVerdict"><span>N</span><div><p className="eyebrow">Verdict du tuteur</p><h3>Lacune prioritaire : {gapLabels[result.primaryGap]}</h3><p>Une seule capsule est proposée. Elle sera immédiatement testée dans une formulation différente.</p></div></section>
             <div className="lessonActions"><button className="button buttonGhost" onClick={() => setStep("case")}>Revoir ma réponse</button><button className="button buttonPrimary" onClick={() => setStep("capsule")}>Ouvrir la capsule ciblée <span>→</span></button></div>
-          </>}
+          </div>}
 
           {step === "capsule" && capsule && <>
             <div className="caseHero"><div><p className="eyebrow">Remédiation · 3 minutes</p><h2>{capsule.title}</h2></div><span>01</span></div>

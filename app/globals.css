@@ -79,7 +79,7 @@ button:disabled { cursor: not-allowed; opacity: 0.44; }
 .orbitNode3,.orbitNode4,.orbitNode6 { background: var(--lime); }.orbitNode7,.orbitNode8 { color: white; background: #3b6d60; }
 .atlasLegend { padding: 9px 13px; display: flex; gap: 12px; position: absolute; bottom: -9px; color: rgba(255,255,255,.55); background: rgba(5,22,18,.7); border: 1px solid rgba(255,255,255,.08); border-radius: 999px; font-size: 8px; backdrop-filter: blur(12px); }
 .atlasLegend span { display: flex; align-items: center; gap: 5px; }.dot { width: 6px; height: 6px; border-radius: 50%; }.foundationDot{background:var(--mint)}.clinicalDot{background:var(--lime)}.expertDot{background:#3b6d60}
-.reveal { animation: riseIn .7s ease-out both; }.delayOne { animation-delay: .13s; }
+.delayOne { animation-delay: .13s; }
 .metrics { width: min(1240px, calc(100% - 64px)); margin: -28px auto 0; display: grid; grid-template-columns: repeat(4,1fr); background: var(--card); border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); position: relative; z-index: 3; }
 .metrics article { padding: 26px 30px; display: flex; align-items: baseline; gap: 12px; border-right: 1px solid var(--line); }.metrics article:last-child{border:0}.metrics strong{font-family:var(--display);font-size:38px;font-weight:500}.metrics span{color:var(--ink-soft);font-size:11px}
 .sectionFrame { width: min(1240px, calc(100% - 64px)); margin: 130px auto; }
@@ -101,7 +101,7 @@ button:disabled { cursor: not-allowed; opacity: 0.44; }
 .libraryHero{width:min(1200px,calc(100% - 64px));margin:70px auto 45px}.libraryHero h1{font-size:64px}.libraryHero>p:last-child{max-width:650px;color:var(--ink-soft);line-height:1.7}.sourceLibrary{width:min(1200px,calc(100% - 64px));margin:0 auto 100px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.sourceLibrary>a{min-height:260px;padding:24px;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:14px;transition:.2s}.sourceLibrary>a:hover{transform:translateY(-4px);box-shadow:var(--shadow)}.sourceLibrary>a>div{display:flex;justify-content:space-between;color:#278066;font-size:8px;text-transform:uppercase}.sourceLibrary h2{margin:48px 0 12px;font-size:20px;line-height:1.2}.sourceLibrary p{color:var(--ink-soft);font-size:8px;line-height:1.5}.sourceLibrary small{margin-top:auto;color:#24745b;font-size:9px;font-weight:850}.authPage{min-height:100vh;padding:35px;display:flex;flex-direction:column;align-items:center;background:radial-gradient(circle at 80% 10%,#1f5a49,transparent 30%),var(--night)}.authPage>.academyBrand{align-self:flex-start;color:white}.authPage>.academyBrand small{color:rgba(255,255,255,.5)}.authCard{width:min(540px,100%);margin:auto;padding:42px;background:var(--card);border-radius:20px;box-shadow:0 40px 100px rgba(0,0,0,.25)}.authCard h1{font-size:44px;line-height:1.05}.authCard>p:not(.eyebrow){color:var(--ink-soft);font-size:12px;line-height:1.65}.authCard form{margin:28px 0;display:grid;gap:12px}.authCard label{display:grid;gap:7px}.authCard label span{font-size:9px;font-weight:900;text-transform:uppercase}.authCard input{height:50px;padding:0 15px;border:1px solid var(--line);border-radius:10px;background:white}.authMessage{margin-bottom:15px;padding:13px;background:#fff3dc;border-radius:8px;font-size:10px}.authMessage.success{background:var(--mint-soft)}.authMessage.error{background:#fff0ed}.authActions{margin:28px 0;display:grid;gap:10px}.authCard>small{color:#74837e;font-size:8px;line-height:1.5}
 .authProviderButton{width:100%;min-height:52px;margin-top:26px;padding:0 18px;display:grid;grid-template-columns:30px 1fr 30px;align-items:center;color:var(--ink);background:white;border:1px solid rgba(16,33,29,.2);border-radius:10px;font-size:12px;font-weight:850;box-shadow:0 8px 20px rgba(16,33,29,.06);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease}.authProviderButton::after{content:"↗";color:#83918d;font-size:12px}.authProviderButton:hover:not(:disabled){transform:translateY(-2px);border-color:rgba(16,33,29,.34);box-shadow:0 13px 26px rgba(16,33,29,.1)}.googleMark{width:26px;height:26px;display:grid;place-items:center;color:#4285f4;background:white;border:1px solid #d9dfdc;border-radius:50%;font-family:Arial,sans-serif;font-size:14px;font-weight:800}.authDivider{margin:24px 0 0;display:flex;align-items:center;gap:12px;color:#899590;font-size:8px;font-weight:850;letter-spacing:.12em;text-transform:uppercase}.authDivider::before,.authDivider::after{content:"";height:1px;flex:1;background:var(--line)}.authCard .authDivider+form{margin-top:20px}
 
-@keyframes riseIn{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}@keyframes slowSpin{to{transform:rotate(360deg)}}
+@keyframes slowSpin{to{transform:rotate(360deg)}}
 @media (prefers-reduced-motion: reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}}
 
 @media (max-width:1050px){.academyHeader{grid-template-columns:1fr auto}.academyHeader nav{display:none}.hero{grid-template-columns:1fr;padding-top:70px}.heroAtlas{max-width:420px}.loopGrid{grid-template-columns:repeat(2,1fr)}.siteGrid{grid-template-columns:1fr 1fr}.siteCard.available{grid-row:auto;min-height:380px;grid-column:1/-1}.siteCard.available h3{font-size:48px}.pathwayHero{grid-template-columns:1fr}.resumePanel{max-width:500px}.pathwayContent{grid-template-columns:1fr}.levelRail{display:none}.playerLayout,.rcpLayout{grid-template-columns:240px 1fr}.playerHeader{grid-template-columns:220px 1fr auto}.playerWorkspace,.rcpWorkspace{width:calc(100% - 50px)}.sourceLibrary{grid-template-columns:1fr 1fr}}
@@ -172,3 +172,32 @@ button:disabled { cursor: not-allowed; opacity: 0.44; }
 .railFigure{margin:14px 0 4px;color:var(--ink);font-size:11px}
 .railFigure b{font-family:var(--display);font-size:24px;font-weight:500}
 .streakCard[hidden]{display:none}
+/* Press feedback. Hover lifts, so the press settles the element back down:
+   the same physical metaphor, completed. Kept fast so the click feels registered
+   rather than animated. */
+.button:active:not(:disabled),.buttonPrimary:active:not(:disabled),.resumeButton:active,.authProviderButton:active:not(:disabled),.answerOptions button:active:not(:disabled){transform:translateY(0);transition-duration:.08s}
+.resumeButton:active{box-shadow:0 4px 10px rgba(101,214,176,.14)}
+.structureChips button:active:not(:disabled){transform:translateY(1px);transition-duration:.08s}
+.courseTile:active,.flashcard:active,.loopCard:active{transform:translateY(-1px);box-shadow:0 6px 14px rgba(11,41,33,.08);transition-duration:.08s}
+.blockCard:active{transform:translateX(2px);transition-duration:.08s}
+.appSidebar nav a:active,.academyHeader nav a:active,.quickAction:active,.sourceLibrary>a:active{transform:translateY(1px);transition-duration:.08s}
+
+/* Loading: a skeleton of the layout about to appear, not a full-screen takeover
+   that flashes dark before swapping to a light dashboard. */
+.dashboardSkeleton{width:min(1180px,calc(100% - 48px));margin:0 auto;padding:58px 0;display:grid;gap:18px}
+.dashboardSkeleton .skelLine{height:14px;border-radius:99px}
+.dashboardSkeleton .skelHero{height:250px;border-radius:16px}
+.dashboardSkeleton .skelRow{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+.dashboardSkeleton .skelTile{height:150px;border-radius:13px}
+.skelLine,.skelHero,.skelTile{background:linear-gradient(90deg,#e8ede9 0%,#f2f6f3 50%,#e8ede9 100%);background-size:200% 100%;animation:skelShimmer 1.4s ease-in-out infinite}
+@keyframes skelShimmer{from{background-position:200% 0}to{background-position:-200% 0}}
+@media (prefers-reduced-motion: reduce){.skelLine,.skelHero,.skelTile{animation:none;background:#eef2ef}}
+/* Wait indicator for the tutor round trip. */
+.btnSpinner{width:13px;height:13px;margin-right:8px;display:inline-block;vertical-align:-2px;border:2px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%;animation:btnSpin .7s linear infinite}
+@keyframes btnSpin{to{transform:rotate(360deg)}}
+.srStatus{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+/* Entrance only: no fill mode, so the content is visible even if the animation
+   never runs (hidden tab, headless render, print). */
+.stepEnter{animation:stepEnter .22s cubic-bezier(.22,1,.36,1)}
+@keyframes stepEnter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){.btnSpinner{animation-duration:1.4s}.stepEnter{animation:none}}

@@ -106,7 +106,20 @@ export function LearnerDashboard({
   const firstName = identity?.name ? identity.name.charAt(0).toUpperCase() + identity.name.slice(1) : "Docteur";
   const todayLabel = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" }).format(new Date());
 
-  if (!hydrated) return <div className="learnerLoading">OncoRT Academy</div>;
+  // A skeleton of the layout that is about to appear. The previous full-screen
+  // dark panel flashed, then swapped to a light dashboard, which read as slow.
+  if (!hydrated) {
+    return (
+      <div className="dashboardSkeleton" aria-busy="true" aria-label="Chargement du tableau de bord">
+        <div className="skelLine" style={{ width: "180px" }} />
+        <div className="skelLine" style={{ width: "320px", height: "30px" }} />
+        <div className="skelHero" />
+        <div className="skelRow">
+          <div className="skelTile" /><div className="skelTile" /><div className="skelTile" /><div className="skelTile" />
+        </div>
+      </div>
+    );
+  }
 
   return (
     <main className="learnerApp">
