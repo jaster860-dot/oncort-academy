@@ -1,35 +1,20 @@
-export type AxisId =
-  | "finalAnswerAccuracy"
-  | "missingDataDetection"
-  | "mechanismUnderstanding"
-  | "treatmentToolMatching"
-  | "confidenceCalibration";
+// GENERATED from lib/tutor/deterministic.ts — do not edit. Run: npm run build:tutor-fn
+import type { AxisResult, TutorResult } from "./schema.ts";
+import { AXIS_LABELS, deriveResult } from "./schema.ts";
 
-export type AxisResult = {
-  id: AxisId;
-  label: string;
-  score: 0 | 1 | 2;
-  rationale: string;
-};
-
-export type TutorResult = {
-  verdict: "correct" | "partial" | "unsafe";
-  score: number;
-  maxScore: 10;
-  criticalError: boolean;
-  primaryGap:
-    | "risk_gap"
-    | "rcp_gap"
-    | "imaging_gap"
-    | "medical_oncology_gap"
-    | "patient_gap";
-  remediationConcept:
-    | "psma_pet_limits"
-    | "adt_rt_integration"
-    | "multimodal_curative_options"
-    | "risk_and_patient_context";
-  axes: AxisResult[];
-};
+/**
+ * Deterministic tutor.
+ *
+ * Two jobs, both safety-critical:
+ *  1. **Critical-error net** — runs on every answer, including when the LLM
+ *     path succeeds. Its `unsafe` verdict overrides the model (see merge.ts).
+ *  2. **Fallback** — produces a complete grade whenever the LLM path is
+ *     unavailable or its output fails validation, so a learner is never left
+ *     without feedback.
+ *
+ * Deliberately dependency-free: the Supabase Edge Function imports this module
+ * directly, so there is a single source of truth rather than a Deno copy.
+ */
 
 const normalize = (value: string) =>
   value
@@ -46,9 +31,13 @@ const countGroups = (text: string, groups: string[][]) =>
 const scoreFromCount = (count: number, full: number, partial: number): 0 | 1 | 2 =>
   count >= full ? 2 : count >= partial ? 1 : 0;
 
-export function evaluateCaseAnswer(answer: string): TutorResult {
+/**
+ * Detects the critical errors listed in `content/<site>/tutor/TUTOR_RUBRIC.md`.
+ * Exported so the merge step can consult it without recomputing a full grade.
+ */
+export function detectCriticalError(answer: string): boolean {
   const text = normalize(answer);
-  const psmaCriticalError =
+  return (
     containsAny(text, [
       "pet negatif exclut",
       "psma negatif exclut",
@@ -60,7 +49,13 @@ export function evaluateCaseAnswer(answer: string): TutorResult {
       "psma negatif rend l'adt inutile",
     ]) ||
     (containsAny(text, ["radiotherapie seule", "rt seule"]) &&
-      containsAny(text, ["pet negatif", "psma negatif"]));
+      containsAny(text, ["pet negatif", "psma negatif"]))
+  );
+}
+
+export function evaluateCaseAnswer(answer: string): TutorResult {
+  const text = normalize(answer);
+  const psmaCriticalError = detectCriticalError(answer);
 
   const calibrated = containsAny(text, [
     "discussion multidisciplinaire",
@@ -102,7 +97,7 @@ export function evaluateCaseAnswer(answer: string): TutorResult {
   const axes: AxisResult[] = [
     {
       id: "finalAnswerAccuracy",
-      label: "Conclusion",
+      label: AXIS_LABELS.finalAnswerAccuracy,
       score: psmaCriticalError ? 0 : calibrated ? 2 : 1,
       rationale: psmaCriticalError
         ? "La réponse utilise à tort le PSMA-PET négatif pour exclure le risque microscopique ou l'ADT."
@@ -112,82 +107,51 @@ export function evaluateCaseAnswer(answer: string): TutorResult {
     },
     {
       id: "missingDataDetection",
-      label: "Données manquantes",
+      label: AXIS_LABELS.missingDataDetection,
       score: scoreFromCount(missingDataCount, 4, 2),
-      rationale: missingDataCount >= 4
-        ? "Le terrain, les fonctions et les préférences sont intégrés à la décision."
-        : missingDataCount >= 2
-          ? "Le contexte du patient est partiellement exploré."
-          : "La réponse traite la tumeur sans assez caractériser le patient.",
+      rationale:
+        missingDataCount >= 4
+          ? "Le terrain, les fonctions et les préférences sont intégrés à la décision."
+          : missingDataCount >= 2
+            ? "Le contexte du patient est partiellement exploré."
+            : "La réponse traite la tumeur sans assez caractériser le patient.",
     },
     {
       id: "mechanismUnderstanding",
-      label: "Stratification",
+      label: AXIS_LABELS.mechanismUnderstanding,
       score: scoreFromCount(riskCount, 3, 1),
-      rationale: riskCount >= 3
-        ? "Le haut risque est reconstruit à partir du PSA, du stade T et du groupe ISUP."
-        : riskCount >= 1
-          ? "Le risque est reconnu mais insuffisamment justifié."
-          : "La réponse ne reconstruit pas le groupe de risque.",
+      rationale:
+        riskCount >= 3
+          ? "Le haut risque est reconstruit à partir du PSA, du stade T et du groupe ISUP."
+          : riskCount >= 1
+            ? "Le risque est reconnu mais insuffisamment justifié."
+            : "La réponse ne reconstruit pas le groupe de risque.",
     },
     {
       id: "treatmentToolMatching",
-      label: "Oncologie médicale",
+      label: AXIS_LABELS.treatmentToolMatching,
       score: scoreFromCount(systemicCount, 3, 1),
-      rationale: systemicCount >= 3
-        ? "L'ADT est intégrée comme traitement oncologique avec sa balance bénéfice-toxicité."
-        : systemicCount >= 1
-          ? "L'ADT est citée sans mécanisme, durée ou toxicités suffisamment discutés."
-          : "La composante d'oncologie médicale est absente.",
+      rationale:
+        systemicCount >= 3
+          ? "L'ADT est intégrée comme traitement oncologique avec sa balance bénéfice-toxicité."
+          : systemicCount >= 1
+            ? "L'ADT est citée sans mécanisme, durée ou toxicités suffisamment discutés."
+            : "La composante d'oncologie médicale est absente.",
     },
     {
       id: "confidenceCalibration",
-      label: "Stratégie locale et RCP",
+      label: AXIS_LABELS.confidenceCalibration,
       score: scoreFromCount(localCount, 3, 1),
-      rationale: localCount >= 3
-        ? "Les parcours chirurgie et radiothérapie sont comparés comme stratégies potentiellement multimodales."
-        : localCount >= 1
-          ? "Une option locale est citée mais la comparaison multidisciplinaire reste partielle."
-          : "La réponse ne construit pas les options curatives locales.",
+      rationale:
+        localCount >= 3
+          ? "Les parcours chirurgie et radiothérapie sont comparés comme stratégies potentiellement multimodales."
+          : localCount >= 1
+            ? "Une option locale est citée mais la comparaison multidisciplinaire reste partielle."
+            : "La réponse ne construit pas les options curatives locales.",
     },
   ];
 
-  const score = axes.reduce((total, axis) => total + axis.score, 0);
-  const lowest = [...axes].sort((a, b) => a.score - b.score)[0];
-  const routing: Record<
-    AxisId,
-    Pick<TutorResult, "primaryGap" | "remediationConcept">
-  > = {
-    finalAnswerAccuracy: {
-      primaryGap: "imaging_gap",
-      remediationConcept: "psma_pet_limits",
-    },
-    missingDataDetection: {
-      primaryGap: "patient_gap",
-      remediationConcept: "risk_and_patient_context",
-    },
-    mechanismUnderstanding: {
-      primaryGap: "risk_gap",
-      remediationConcept: "risk_and_patient_context",
-    },
-    treatmentToolMatching: {
-      primaryGap: "medical_oncology_gap",
-      remediationConcept: "adt_rt_integration",
-    },
-    confidenceCalibration: {
-      primaryGap: "rcp_gap",
-      remediationConcept: "multimodal_curative_options",
-    },
-  };
-
-  return {
-    verdict: psmaCriticalError ? "unsafe" : score >= 9 ? "correct" : "partial",
-    score,
-    maxScore: 10,
-    criticalError: psmaCriticalError,
-    ...routing[lowest.id],
-    axes,
-  };
+  return deriveResult(axes, psmaCriticalError);
 }
 
 export function evaluateRetest(answer: string) {
@@ -196,7 +160,14 @@ export function evaluateRetest(answer: string) {
     containsAny(text, ["haut risque", "t3a", "isup 4", "psa 32"]),
     containsAny(text, ["microscop", "n'exclut pas", "n exclut pas", "limite de detection"]),
     containsAny(text, ["adt", "hormonotherapie", "suppression androgenique"]),
-    containsAny(text, ["prostatectomie", "chirurgie", "multimodal", "decision partagee", "comorbid", "preference"]),
+    containsAny(text, [
+      "prostatectomie",
+      "chirurgie",
+      "multimodal",
+      "decision partagee",
+      "comorbid",
+      "preference",
+    ]),
   ];
   const criticalError = containsAny(text, [
     "pet negatif exclut",

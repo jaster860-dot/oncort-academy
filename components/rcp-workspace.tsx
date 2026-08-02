@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { TutorResult } from "../lib/tutor";
-import { evaluateCaseAnswer, evaluateRetest } from "../lib/tutor";
+import { evaluateRetest, gradeCaseAnswer } from "../lib/tutor";
 
 type CaseItem = {
   title: string;
@@ -37,14 +37,22 @@ export function RcpWorkspace({ caseItem, retestPrompt }: { caseItem: CaseItem; r
   const [result, setResult] = useState<TutorResult | null>(null);
   const [retestAnswer, setRetestAnswer] = useState("");
   const [retestResult, setRetestResult] = useState<ReturnType<typeof evaluateRetest> | null>(null);
+  const [grading, setGrading] = useState(false);
   const capsule = useMemo(() => result ? capsuleCopy[result.remediationConcept] : null, [result]);
   const steps = ["case", "analysis", "capsule", "retest", "complete"] as const;
   const currentIndex = steps.indexOf(step);
 
-  const submit = () => {
-    if (answer.trim().length < 30) return;
-    setResult(evaluateCaseAnswer(answer));
-    setStep("analysis");
+  const submit = async () => {
+    if (answer.trim().length < 30 || grading) return;
+    setGrading(true);
+    try {
+      // Never throws: the hosted tutor falls back to the local engine, so the
+      // learner always reaches the analysis step.
+      setResult(await gradeCaseAnswer({ siteId: "prostate", caseId: caseItem.title, answer }));
+      setStep("analysis");
+    } finally {
+      setGrading(false);
+    }
   };
   const submitRetest = () => {
     const next = evaluateRetest(retestAnswer);
@@ -75,10 +83,12 @@ export function RcpWorkspace({ caseItem, retestPrompt }: { caseItem: CaseItem; r
             <article className="vignetteCard"><span>Situation clinique</span><p>{caseItem.vignette}</p></article>
             <div className="rcpTaskGrid"><section><p className="eyebrow">Ta mission</p><ul>{caseItem.tasks.map((task) => <li key={task}>{task}</li>)}</ul></section><section><p className="eyebrow">Dossier disponible</p><dl>{Object.entries(caseItem.availableData).map(([key, value]) => <div key={key}><dt>{key}</dt><dd>{value}</dd></div>)}</dl></section></div>
             <label className="reasoningBox"><span>Construis ton raisonnement</span><textarea rows={9} value={answer} onChange={(event) => setAnswer(event.target.value)} placeholder="Commence par le risque, précise les données manquantes, puis compare les parcours thérapeutiques et leurs incertitudes…"/><small>{answer.length} caractères · minimum 30</small></label>
-            <div className="lessonActions"><span>Ta réponse reste sur cet appareil dans cette version.</span><button className="button buttonPrimary" disabled={answer.trim().length < 30} onClick={submit}>Analyser mon raisonnement <span>→</span></button></div>
+            <div className="lessonActions"><span>Ta réponse reste sur cet appareil dans cette version.</span><button className="button buttonPrimary" disabled={answer.trim().length < 30 || grading} onClick={submit}>{grading ? "Analyse en cours…" : <>Analyser mon raisonnement <span>→</span></>}</button></div>
           </>}
 
           {step === "analysis" && result && <>
+            {result.outOfScope && result.outOfScopeNote && <p className="tutorNotice"><strong>Hors du programme couvert.</strong> {result.outOfScopeNote}</p>}
+            {result.source === "deterministic_fallback" && <p className="tutorNotice">Analyse produite par le moteur local : le tuteur ancré n’était pas joignable. Les critères restent les mêmes, les justifications sont plus sommaires.</p>}
             <div className="analysisHeader"><div><p className="eyebrow">Analyse structurée</p><h2>{result.verdict === "correct" ? "Raisonnement solide" : result.verdict === "unsafe" ? "Automatisme à corriger" : "Fondation à consolider"}</h2></div><div className={`scoreOrb ${result.verdict}`}><strong>{result.score}</strong><span>/10</span></div></div>
             {result.criticalError && <div className="criticalAlert"><strong>Erreur critique détectée</strong><p>Un PSMA-PET négatif ne suffit jamais, isolément, à exclure le risque microscopique ou une composante thérapeutique.</p></div>}
             <div className="axisGridModern">{result.axes.map((axis) => <article key={axis.id}><div><span>{axis.label}</span><strong>{axis.score}/2</strong></div><p>{axis.rationale}</p><i><b style={{ width: `${axis.score * 50}%` }} /></i></article>)}</div>

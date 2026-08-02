@@ -12,7 +12,8 @@
     "start": "next start",
     "test": "vitest run",
     "validate:content": "python3 scripts/validate_content.py prostate",
-    "validate:content:endometrium": "python3 scripts/validate_content.py endometrium"
+    "validate:content:endometrium": "python3 scripts/validate_content.py endometrium",
+    "build:tutor-fn": "node scripts/build_tutor_function.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.4",

@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { evaluateCaseAnswer, evaluateRetest } from "./tutor";
+import { evaluateCaseAnswer, evaluateRetest } from "./deterministic";
 
 describe("evaluateCaseAnswer", () => {
   it("rewards a complete and calibrated answer", () => {
