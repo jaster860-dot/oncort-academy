@@ -139,7 +139,9 @@
             "label": "Stratégie applicable ou extrapolée",
             "detail": "Décision au checkpoint — La migration de stade doit être nommée ; elle informe la décision sans réécrire rétroactivement les populations d'essai."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Que doit préciser une RCP devant un ganglion obturateur de 7 mm uniquement positif au TEP-PSMA ?",
@@ -247,7 +249,9 @@
             "label": "Suivi et rattrapage anticipés",
             "detail": "Décision au checkpoint — La comparaison loyale porte sur les trajectoires complètes et leurs incertitudes, pas sur deux gestes isolés."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Comment présenter la chirurgie à un patient cN0 à haut risque ?",
@@ -356,7 +360,9 @@
             "label": "Prévention, suivi et durée",
             "detail": "Décision au checkpoint — Le cT3b et l'ISUP 4 constituent deux facteurs ; un seul facteur défavorable ne reproduit pas la population cN0 de l'essai."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel patient cN0 correspond aux critères d'intensification STAMPEDE M0 décrits ?",
@@ -466,7 +472,9 @@
             "label": "Surveillance oncologique et toxicités",
             "detail": "Décision au checkpoint — Le traitement articule contrôle locorégional et intensification systémique ; les modalités exactes restent à valider pour le patient."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel ensemble reflète la recommandation EAU 2026 pour un cN1 M0 conventionnel apte ?",
@@ -576,7 +584,9 @@
             "label": "Décision datée et révisable",
             "detail": "Décision au checkpoint — Une divergence se résout par applicabilité et traçabilité, non par vote ou moyenne entre formulations."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle méthode convient devant une divergence CCAFU–RecoRad sur le pelvis cN0 ?",

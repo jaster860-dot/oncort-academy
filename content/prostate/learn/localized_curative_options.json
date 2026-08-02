@@ -120,7 +120,9 @@
             "label": "Options admissibles à comparer",
             "detail": "Décision au checkpoint — Le risque ouvre les options, mais la pertinence individuelle dépend de l'horizon de bénéfice, des fonctions de départ, de la faisabilité et des objectifs du patient."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Après avoir défini le groupe de risque, quelle étape précède une comparaison honnête des traitements curatifs ?",
@@ -228,7 +230,9 @@
             "label": "Surveillance ou rattrapage",
             "detail": "Décision au checkpoint — La chirurgie produit une information pathologique utile, mais le parcours dépend ensuite du PSA et des facteurs de risque postopératoires."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle information décrit correctement le parcours après prostatectomie ?",
@@ -338,7 +342,9 @@
             "label": "Contrôle et toxicités tardives",
             "detail": "Décision au checkpoint — La radiothérapie définitive est une stratégie oncologique complète, adaptée au risque et au patient, et non une simple série de séances."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Dans une comparaison de parcours, la radiothérapie définitive doit être présentée comme :",
@@ -447,7 +453,9 @@
             "label": "Contrôle–toxicité–suivi",
             "detail": "Décision au checkpoint — La curiethérapie exige une sélection oncologique mais aussi urinaire, anatomique et technique rigoureuse."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel élément est particulièrement déterminant avant une curiethérapie prostatique ?",
@@ -556,7 +564,9 @@
             "label": "Trajectoire fonctionnelle et oncologique",
             "detail": "Décision au checkpoint — Les modalités initiales ouvrent des trajectoires différentes ; les comparer sans la suite expose le patient à une information incomplète."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle comparaison est la plus utile à une décision partagée ?",

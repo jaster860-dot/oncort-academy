@@ -1,0 +1,818 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-02",
+  "principle": "Just-in-time visualisation: montrer la figure quand les prérequis nécessaires à son décodage sont disponibles.",
+  "defaultForFutureLessons": "after_section 1, sauf justification explicite",
+  "placements": [
+    {
+      "blockId": "complex_special_situations",
+      "lessonId": "special_01_frailty",
+      "lessonTitle": "Fragilité : adapter après évaluation, pas après l'âge",
+      "diagramType": "balance",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Deux risques concurrents » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "complex_special_situations",
+      "lessonId": "special_02_ibd",
+      "lessonTitle": "MICI : qualifier l'activité et réduire l'exposition digestive",
+      "diagramType": "matrix",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Une histoire clinique détaillée » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "complex_special_situations",
+      "lessonId": "special_03_turp",
+      "lessonTitle": "Après TURP : reconstruire l'anatomie et le risque urinaire",
+      "diagramType": "anatomy-map",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Le geste antérieur compte » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "complex_special_situations",
+      "lessonId": "special_04_hip",
+      "lessonTitle": "Prothèse de hanche : maîtriser artefact et calcul de dose",
+      "diagramType": "anatomy-map",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « L'image peut mentir » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "complex_special_situations",
+      "lessonId": "special_05_stage_migration",
+      "lessonTitle": "Oligométastatique et migration de stade : deux cartes simultanées",
+      "diagramType": "parallel-paths",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Deux classifications utiles » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "deferred_management",
+      "lessonId": "deferred_01_active_surveillance",
+      "lessonTitle": "Surveillance active : différer sans abandonner l'intention curative",
+      "diagramType": "monitoring-loop",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Une stratégie thérapeutique organisée » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "deferred_management",
+      "lessonId": "deferred_02_monitoring_and_reclassification",
+      "lessonTitle": "Suivre et reclasser : le PSA alerte, l'histologie arbitre",
+      "diagramType": "monitoring-loop",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Une alerte n'est pas encore une indication de traitement » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "deferred_management",
+      "lessonId": "deferred_03_watchful_waiting",
+      "lessonTitle": "Abstention-surveillance : privilégier la qualité de vie quand le curatif n'apporterait pas de bénéfice utile",
+      "diagramType": "balance",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Observer les conséquences cliniques » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "deferred_management",
+      "lessonId": "deferred_04_focal_and_shared_decision",
+      "lessonTitle": "Traitements focaux et décision partagée : ne pas confondre promesse fonctionnelle et preuve oncologique",
+      "diagramType": "evidence-bridge",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Une preuve encore incomplète » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "deferred_management",
+      "lessonId": "deferred_05_shared_decision",
+      "lessonTitle": "Décision partagée : comparer des parcours et leurs conséquences",
+      "diagramType": "parallel-paths",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Comparer les trajectoires complètes » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_01_indications",
+      "lessonTitle": "Partir du risque pour définir l'intention",
+      "diagramType": "decision-tree",
+      "placement": "after_sections",
+      "rationale": "La figure synthétise plusieurs dimensions qui doivent d’abord être exposées séparément."
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_02_moderate_hypofractionation",
+      "lessonTitle": "Hypofractionnement modéré : un standard qui exige son contexte",
+      "diagramType": "treatment-calendar",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « La technique fait partie du schéma » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_03_sbrt",
+      "lessonTitle": "Ultra-hypofractionnement : sélectionner avant d'accélérer",
+      "diagramType": "treatment-calendar",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Sélection fonctionnelle et toxicité » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_04_brachytherapy",
+      "lessonTitle": "Curiethérapie exclusive ou boost : deux intentions distinctes",
+      "diagramType": "split-path",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Boost dans les risques plus élevés » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_05_pelvis",
+      "lessonTitle": "Volumes : prostate, vésicules et pelvis ne sont pas un paquet",
+      "diagramType": "matrix",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Pelvis cN0 : une décision distincte » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_06_boost",
+      "lessonTitle": "Escalade et boost focal : intensifier sans sacrifier les organes à risque",
+      "diagramType": "matrix",
+      "placement": "after_sections",
+      "rationale": "La figure synthétise plusieurs dimensions qui doivent d’abord être exposées séparément."
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_07_adt",
+      "lessonTitle": "ADT avec radiothérapie : indication, durée et prévention forment un tout",
+      "diagramType": "timeline",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Durée courte ou longue » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "detection_diagnosis",
+      "lessonId": "diagnosis_01_risk_and_psa",
+      "lessonTitle": "Avant le PSA : quelle question cherche-t-on à résoudre ?",
+      "diagramType": "decision",
+      "placement": "after_section",
+      "afterSection": 3,
+      "rationale": "La figure devient interprétable après « Décider avec le patient » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "detection_diagnosis",
+      "lessonId": "diagnosis_02_psa_interpretation",
+      "lessonTitle": "PSA anormal : raisonner avant de conclure",
+      "diagramType": "matrix",
+      "placement": "after_section",
+      "afterSection": 3,
+      "rationale": "La figure devient interprétable après « Densité et cinétique » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "detection_diagnosis",
+      "lessonId": "diagnosis_03_mri_pirads",
+      "lessonTitle": "IRM et PI-RADS : localiser une suspicion, pas prononcer un verdict",
+      "diagramType": "comparison",
+      "placement": "after_section",
+      "afterSection": 3,
+      "rationale": "La figure devient interprétable après « Les deux erreurs symétriques » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "detection_diagnosis",
+      "lessonId": "diagnosis_04_biopsy_strategy",
+      "lessonTitle": "Biopsier intelligemment : voie, ciblage et cartographie",
+      "diagramType": "pathway",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « La voie compte » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "detection_diagnosis",
+      "lessonId": "diagnosis_05_pathology_report",
+      "lessonTitle": "Lire le compte rendu anatomopathologique comme une carte décisionnelle",
+      "diagramType": "matrix",
+      "placement": "after_section",
+      "afterSection": 3,
+      "rationale": "La figure devient interprétable après « Signaux défavorables » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_01_psa",
+      "lessonTitle": "PSA après traitement local : interpréter avant d'imager",
+      "diagramType": "curve",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Deux cinétiques attendues » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_02_testosterone",
+      "lessonTitle": "Récupération de la testostérone : expliquer l'incertitude",
+      "diagramType": "curve",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Une récupération variable » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_03_urinary",
+      "lessonTitle": "Toxicité urinaire : caractériser avant de traiter",
+      "diagramType": "anatomy-map",
+      "placement": "after_takeaways",
+      "rationale": "La figure fournit le repère spatial ou mental nécessaire avant le raisonnement détaillé."
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_04_bowel",
+      "lessonTitle": "Toxicité digestive : quantifier, explorer, coordonner",
+      "diagramType": "anatomy-map",
+      "placement": "after_takeaways",
+      "rationale": "La figure fournit le repère spatial ou mental nécessaire avant le raisonnement détaillé."
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_05_sexual",
+      "lessonTitle": "Santé sexuelle : ouvrir la conversation et proposer un parcours",
+      "diagramType": "body-map",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Plus que l'érection » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_06_bone",
+      "lessonTitle": "Santé osseuse après cancer : mesurer le risque et le mouvement",
+      "diagramType": "body-map",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Prévenir réellement » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_07_metabolic_cv",
+      "lessonTitle": "Risque métabolique et cardiovasculaire : suivre des variables actionnables",
+      "diagramType": "dashboard",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Traiter le risque, pas seulement le mesurer » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_08_psychosocial",
+      "lessonTitle": "Après-cancer : projet de vie, anxiété et continuité des soins",
+      "diagramType": "body-map",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Un PPAC partagé et révisable » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_01_anatomy",
+      "lessonTitle": "Où est la prostate et comment est-elle organisée ?",
+      "diagramType": "anatomy",
+      "placement": "after_takeaways",
+      "rationale": "La figure fournit le repère spatial ou mental nécessaire avant le raisonnement détaillé."
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_02_histology",
+      "lessonTitle": "À quoi ressemble une prostate normale au microscope ?",
+      "diagramType": "comparison",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Le diagnostic commence par l'architecture » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_03_androgen_axis",
+      "lessonTitle": "L'axe androgénique, de la physiologie à la résistance",
+      "diagramType": "pathway",
+      "placement": "after_section",
+      "afterSection": 3,
+      "rationale": "La figure devient interprétable après « Le récepteur est un facteur de transcription » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_04_psa",
+      "lessonTitle": "Le PSA : mesurer un signal, pas prononcer un diagnostic",
+      "diagramType": "decision",
+      "placement": "after_section",
+      "afterSection": 3,
+      "rationale": "La figure devient interprétable après « La variabilité doit être traitée comme une donnée » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_05_carcinogenesis",
+      "lessonTitle": "Une maladie, plusieurs dimensions biologiques",
+      "diagramType": "matrix",
+      "placement": "after_section",
+      "afterSection": 3,
+      "rationale": "La figure devient interprétable après « Quatre dimensions, quatre questions » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_06_gleason_isup",
+      "lessonTitle": "Gleason et ISUP : lire une architecture, pas seulement un nombre",
+      "diagramType": "ladder",
+      "placement": "after_section",
+      "afterSection": 3,
+      "rationale": "La figure devient interprétable après « Pattern 5 : perte de différenciation glandulaire » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_07_trial_literacy",
+      "lessonTitle": "Lire une preuve avant de transporter une conclusion",
+      "diagramType": "evidence",
+      "placement": "after_section",
+      "afterSection": 3,
+      "rationale": "La figure devient interprétable après « Séparer validité interne et transportabilité » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_08_competing_risk",
+      "lessonTitle": "Horizon de vie et risques concurrents : l'âge ne décide pas seul",
+      "diagramType": "balance",
+      "placement": "after_section",
+      "afterSection": 3,
+      "rationale": "La figure devient interprétable après « Les risques concurrents modifient le bénéfice absolu » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "high_risk_and_cn1",
+      "lessonId": "highrisk_01_state_definition",
+      "lessonTitle": "Définir l'état de maladie avant d'intensifier",
+      "diagramType": "matrix",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « cN1 n'est pas M1a » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "high_risk_and_cn1",
+      "lessonId": "highrisk_02_local_pathways",
+      "lessonTitle": "Traitement local : comparer des parcours multimodaux",
+      "diagramType": "parallel-paths",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Chirurgie sélectionnée » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "high_risk_and_cn1",
+      "lessonId": "highrisk_03_systemic_intensification",
+      "lessonTitle": "Intensification systémique : critères, durée et toxicités",
+      "diagramType": "staircase",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Abiratérone : reproduire les critères » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "high_risk_and_cn1",
+      "lessonId": "highrisk_04_cn1_m0",
+      "lessonTitle": "cN1 M0 : traiter le pelvis, la prostate et le risque systémique",
+      "diagramType": "parallel-paths",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Le parcours EAU 2026 » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "high_risk_and_cn1",
+      "lessonId": "highrisk_05_divergence",
+      "lessonTitle": "Divergences : produire une décision traçable, pas une moyenne",
+      "diagramType": "evidence-bridge",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Ne pas voter entre les guides » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "hormone_sensitive_and_nmcrpc",
+      "lessonId": "hspc_01_burden_synchrony",
+      "lessonTitle": "Volume, risque et synchronie : garder les définitions de leurs essais",
+      "diagramType": "matrix",
+      "placement": "after_sections",
+      "rationale": "La figure synthétise plusieurs dimensions qui doivent d’abord être exposées séparément."
+    },
+    {
+      "blockId": "hormone_sensitive_and_nmcrpc",
+      "lessonId": "hspc_01_doublet_triplet",
+      "lessonTitle": "mHSPC : construire l'intensification initiale",
+      "diagramType": "parallel-paths",
+      "placement": "after_sections",
+      "rationale": "La figure synthétise plusieurs dimensions qui doivent d’abord être exposées séparément."
+    },
+    {
+      "blockId": "hormone_sensitive_and_nmcrpc",
+      "lessonId": "hspc_02_primary_rt",
+      "lessonTitle": "Irradier la prostate en M1 : préserver la population de preuve",
+      "diagramType": "matrix",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Pas d'extrapolation automatique » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "hormone_sensitive_and_nmcrpc",
+      "lessonId": "hspc_03_nmcrpc",
+      "lessonTitle": "nmCRPC : trois conditions avant de traiter",
+      "diagramType": "gate",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Le risque dépend de la cinétique » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "hormone_sensitive_and_nmcrpc",
+      "lessonId": "hspc_04_bone",
+      "lessonTitle": "Métastases osseuses : douleur, urgence et prévention selon l'état",
+      "diagramType": "body-map",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Trois objectifs » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "localized_curative_options",
+      "lessonId": "localized_01_context",
+      "lessonTitle": "Ouvrir les bonnes options avant de comparer",
+      "diagramType": "decision-tree",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Le patient modifie la balance » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "localized_curative_options",
+      "lessonId": "localized_02_surgery",
+      "lessonTitle": "Prostatectomie radicale : un traitement local et un début de parcours",
+      "diagramType": "timeline",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « La pathologie affine le risque » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "localized_curative_options",
+      "lessonId": "localized_03_ebrt",
+      "lessonTitle": "Radiothérapie externe : un traitement curatif construit par risque",
+      "diagramType": "layered-map",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Technique, volumes et traitement systémique sont indissociables » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "localized_curative_options",
+      "lessonId": "localized_04_brachytherapy",
+      "lessonTitle": "Curiethérapie : sélectionner le risque et surtout la fonction urinaire",
+      "diagramType": "split-path",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « La sélection urinaire est centrale » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "localized_curative_options",
+      "lessonId": "localized_05_multimodal",
+      "lessonTitle": "Comparer les trajectoires multimodales en RCP",
+      "diagramType": "parallel-paths",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Les rattrapages ne sont pas symétriques » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_01_state",
+      "lessonTitle": "Confirmer le mCRPC et cartographier la trajectoire",
+      "diagramType": "staircase",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « La trajectoire décide » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_02_testing",
+      "lessonTitle": "Oncologie de précision : tester assez tôt et au bon niveau",
+      "diagramType": "molecular-pathway",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Un résultat négatif a des limites » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_03_parp",
+      "lessonTitle": "HRR/BRCA et PARP : lire le gène, la ligne et le partenaire",
+      "diagramType": "molecular-pathway",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Une indication précise » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_04_rare_biomarkers",
+      "lessonTitle": "MSI/MMR et biomarqueurs rares : chercher sans surpromettre",
+      "diagramType": "gate",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Rareté n'est pas certitude » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_05_radium",
+      "lessonTitle": "Radium-223 : sélectionner le phénotype osseux",
+      "diagramType": "body-map",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Os et moelle avant tout » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_06_lutetium",
+      "lessonTitle": "Lutétium-PSMA : au-delà d'un TEP positif",
+      "diagramType": "molecular-pathway",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Éligibilité complète » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_07_rlt_workflow",
+      "lessonTitle": "Radioligand PSMA : organiser le parcours et l'évaluation",
+      "diagramType": "monitoring-loop",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Ne pas suivre le PSA seul » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_08_sequence",
+      "lessonTitle": "Séquencer : changer de mécanisme et préserver la suite",
+      "diagramType": "timeline",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « La meilleure ligne n'épuise pas la suivante » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_09_neuroendocrine",
+      "lessonTitle": "Transformation neuroendocrine : suspecter une biologie discordante",
+      "diagramType": "split-path",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Reprouver la maladie » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_10_palliative_rt",
+      "lessonTitle": "Radiothérapie palliative : traiter le problème local maintenant",
+      "diagramType": "body-map",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « L'urgence ne suit pas la ligne » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_11_supportive",
+      "lessonTitle": "Soins de support : une ligne parallèle, jamais la dernière ligne",
+      "diagramType": "parallel-paths",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Décisions anticipées » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_01_definitions",
+      "lessonTitle": "PSA postopératoire : nommer la situation avant de décider",
+      "diagramType": "curve",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Définition et action ne sont pas synonymes » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_02_psadt",
+      "lessonTitle": "Temps de doublement : mesurer une vitesse, pas fabriquer une certitude",
+      "diagramType": "curve",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Une pente exige plusieurs points » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_03_psma",
+      "lessonTitle": "TEP-PSMA : chercher ce qui change la stratégie",
+      "diagramType": "decision-tree",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « La détection dépend du PSA » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_04_early_salvage",
+      "lessonTitle": "Rattrapage précoce : agir avant que l'opportunité ne se ferme",
+      "diagramType": "timeline",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Précoce signifie à bas PSA » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_05_adt",
+      "lessonTitle": "Hormonothérapie avec le rattrapage : sélectionner et dater",
+      "diagramType": "treatment-calendar",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Repères de durée à faire valider » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_06_technique",
+      "lessonTitle": "Radiothérapie postopératoire : reconstruire un lit sans glande",
+      "diagramType": "anatomy-map",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Le lit prostatique est un volume anatomique » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "postradiotherapy_and_oligorecurrence",
+      "lessonId": "postrt_01_local_salvage",
+      "lessonTitle": "Après irradiation : prouver une récidive réellement locale",
+      "diagramType": "gate",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Localiser puis confirmer » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "postradiotherapy_and_oligorecurrence",
+      "lessonId": "oligorec_02_nodal",
+      "lessonTitle": "Récidive ganglionnaire : la cible visible n'est pas tout le pelvis à risque",
+      "diagramType": "matrix",
+      "placement": "after_sections",
+      "rationale": "La figure synthétise plusieurs dimensions qui doivent d’abord être exposées séparément."
+    },
+    {
+      "blockId": "postradiotherapy_and_oligorecurrence",
+      "lessonId": "oligorec_03_uncertainty",
+      "lessonTitle": "MDT : retarder une progression n'est pas prouver une guérison",
+      "diagramType": "evidence-bridge",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « RADIOSA : l'ADT modifie l'effet observé » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "postradiotherapy_and_oligorecurrence",
+      "lessonId": "oligorec_04_mdt_rt",
+      "lessonTitle": "Radiothérapie dirigée : sécuriser chaque site et le parcours entier",
+      "diagramType": "body-map",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « La dose antérieure ne disparaît pas » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_01_simulation",
+      "lessonTitle": "Simulation : fabriquer une anatomie reproductible",
+      "diagramType": "anatomy-map",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Vessie confortable et rectum maîtrisé » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_02_targets",
+      "lessonTitle": "Volumes cibles : du risque à une anatomie explicite",
+      "diagramType": "target-map",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « CTV prostatique » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_03_oar",
+      "lessonTitle": "OAR : définir avant de mesurer",
+      "diagramType": "anatomy-map",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Le socle d'organes » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_04_dvh",
+      "lessonTitle": "DVH et distribution : relier chaque seuil à son protocole",
+      "diagramType": "curve",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Repères OAR spécifiques » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_05_igrt",
+      "lessonTitle": "IGRT : corriger la bonne cible au bon moment",
+      "diagramType": "motion-map",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Prostate et pelvis ne bougent pas ensemble » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_06_audit",
+      "lessonTitle": "Audit de prétraitement : rendre chaque décision traçable",
+      "diagramType": "checklist",
+      "placement": "before_checkpoint",
+      "rationale": "La figure sert de contrôle opératoire final juste avant l’auto-évaluation."
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_01_tnm",
+      "lessonTitle": "TNM : décrire l'extension sans mélanger les instruments",
+      "diagramType": "layered-map",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Trois questions anatomiques » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_02_risk_groups",
+      "lessonTitle": "Groupes de risque : combiner PSA, cT et ISUP",
+      "diagramType": "matrix",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « La grille EAU actuelle » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_03_imaging_indications",
+      "lessonTitle": "Choisir le bilan d'extension qui peut changer la décision",
+      "diagramType": "decision-tree",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Une intensité graduée » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_04_psma_limits",
+      "lessonTitle": "PSMA-PET : gagner en détection sans perdre l'esprit critique",
+      "diagramType": "balance",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Une négativité n'est pas une stérilisation du risque » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_05_nodal_prediction",
+      "lessonTitle": "Risque ganglionnaire : documenter une probabilité sans inventer un stade",
+      "diagramType": "gauge",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Une probabilité n'est ni cN ni pN » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_06_germline_somatic",
+      "lessonTitle": "Germinal ou somatique : poser la bonne question au bon moment",
+      "diagramType": "split-path",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Deux analyses, deux responsabilités » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "systemic_therapy_foundations",
+      "lessonId": "systemic_01_adt",
+      "lessonTitle": "ADT : obtenir et vérifier la castration",
+      "diagramType": "feedback-loop",
+      "placement": "after_section",
+      "afterSection": 1,
+      "rationale": "La figure devient interprétable après « Même objectif, cinétiques différentes » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "systemic_therapy_foundations",
+      "lessonId": "systemic_02_adt_rt",
+      "lessonTitle": "ADT et radiothérapie : une combinaison dépendante du risque",
+      "diagramType": "timeline",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Une prescription complète » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "systemic_therapy_foundations",
+      "lessonId": "systemic_03_arpi",
+      "lessonTitle": "ARPI : choisir selon exposition, comorbidités et interactions",
+      "diagramType": "matrix",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Le meilleur agent dépend du patient » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "systemic_therapy_foundations",
+      "lessonId": "systemic_04_taxanes",
+      "lessonTitle": "Taxanes : indication, fitness et prévention des complications",
+      "diagramType": "treatment-calendar",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Fitness, pas âge civil » et prépare la suite sans apparaître trop tôt."
+    },
+    {
+      "blockId": "systemic_therapy_foundations",
+      "lessonId": "systemic_05_prevention",
+      "lessonTitle": "Santé osseuse, métabolique et cardiovasculaire : traiter avant la complication",
+      "diagramType": "dashboard",
+      "placement": "after_section",
+      "afterSection": 2,
+      "rationale": "La figure devient interprétable après « Un bilan dès le départ » et prépare la suite sans apparaître trop tôt."
+    }
+  ]
+}

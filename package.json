@@ -7,6 +7,7 @@
     "build": "next build",
     "audit:ui": "node scripts/audit_prostate_ui.mjs",
     "audit:mobile-text": "node scripts/audit_prostate_mobile_text.mjs",
+    "audit:figure-placement": "node scripts/audit_prostate_figure_placement_ui.mjs",
     "test:e2e": "playwright test",
     "start": "next start",
     "test": "vitest run",

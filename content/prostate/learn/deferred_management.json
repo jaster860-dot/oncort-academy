@@ -117,7 +117,9 @@
             "label": "Surveillance curative différée",
             "detail": "Décision au checkpoint — La surveillance active conserve une intention curative et organise la détection d'une reclassification encore traitable."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Quelle définition décrit le mieux la surveillance active ?",
@@ -224,7 +226,9 @@
             "label": "Traitement différé ou adaptation de l'intention",
             "detail": "Décision au checkpoint — La cinétique du PSA est un signal d'investigation, pas à elle seule une preuve histologique de progression justifiant automatiquement un traitement."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Chez un patient en surveillance active, une accélération isolée du PSA doit d'abord conduire à :",
@@ -332,7 +336,9 @@
             "label": "Traitement palliatif si symptômes ou menace",
             "detail": "Décision au checkpoint — La différence structurante est l'intention : l'abstention-surveillance vise une intervention palliative si nécessaire, tandis que la surveillance active conserve une fenêtre curative."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel élément distingue le plus directement l'abstention-surveillance de la surveillance active ?",
@@ -441,7 +447,9 @@
             "label": "Choix informé avec plan de suivi",
             "detail": "Décision au checkpoint — Le bénéfice fonctionnel potentiel ne compense pas l'absence de preuve oncologique comparative mature."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle présentation d'un traitement focal est la plus conforme aux référentiels France–Europe actuels ?",
@@ -550,7 +558,9 @@
             "label": "Choix documenté et révisable",
             "detail": "Décision au checkpoint — Une préférence n'est éclairée que si les options admissibles sont comparées comme des trajectoires complètes et reliées aux objectifs du patient."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle information est indispensable à une décision réellement partagée ?",

@@ -699,7 +699,11 @@ function regenerate() {
       seen.add(lesson.id);
       const existing = lesson.visual;
       if (!existing?.imageSrc?.endsWith(".svg")) throw new Error(`${lesson.id}: image SVG attendue`);
-      const visual = buildVisualMetadata(lesson, buildScientificItems(lesson), existing.imageSrc);
+      const visual = {
+        ...buildVisualMetadata(lesson, buildScientificItems(lesson), existing.imageSrc),
+        placement: existing.placement,
+        ...(existing.afterSection ? { afterSection: existing.afterSection } : {}),
+      };
       const svgPath = join(root, "public", visual.imageSrc);
       if (!existsSync(dirname(svgPath))) throw new Error(`${lesson.id}: dossier de figure absent`);
       writeFileSync(svgPath, renderLessonFigure(lesson, visual));

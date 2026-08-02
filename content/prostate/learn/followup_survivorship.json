@@ -131,7 +131,9 @@
             "label": "Imagerie seulement décisionnelle",
             "detail": "Décision au checkpoint — L'organe restant après RT explique des trajectoires et définitions différentes."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Quelle différence est fondamentale ?",
@@ -239,7 +241,9 @@
             "label": "Réhabilitation et suivi PSA",
             "detail": "Décision au checkpoint — La récupération est individuelle et influence à la fois qualité de vie et lecture oncologique."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Que dire après arrêt d'une ADT longue ?",
@@ -347,7 +351,8 @@
             "label": "Rééducation, médicament ou geste",
             "detail": "Décision au checkpoint — Une toxicité possible n'exclut pas une autre cause traitable ou grave."
           }
-        ]
+        ],
+        "placement": "after_takeaways"
       },
       "clinicalLens": {
         "title": "Application — Que faire devant une hématurie tardive persistante après RT ?",
@@ -455,7 +460,8 @@
             "label": "Traitement gradué",
             "detail": "Décision au checkpoint — La gravité et les diagnostics concurrents imposent une évaluation structurée."
           }
-        ]
+        ],
+        "placement": "after_takeaways"
       },
       "clinicalLens": {
         "title": "Application — Que nécessite un saignement rectal persistant avec anémie ?",
@@ -563,7 +569,9 @@
             "label": "Réévaluation du couple/patient",
             "detail": "Décision au checkpoint — La santé sexuelle est multidimensionnelle et mérite un parcours individualisé."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Quelle approche est correcte ?",
@@ -671,7 +679,9 @@
             "label": "Anti-résorptif si indiqué",
             "detail": "Décision au checkpoint — La prévention combine mesure du risque, mouvement, nutrition et médicament selon indication."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Que comprend un vrai plan osseux sous ADT longue ?",
@@ -779,7 +789,9 @@
             "label": "Intervention et coordination",
             "detail": "Décision au checkpoint — Le risque cardiométabolique est mesurable et modifiable."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel suivi minimal sous ADT prolongée ?",
@@ -889,7 +901,9 @@
             "label": "Réévaluation du projet",
             "detail": "Décision au checkpoint — Le suivi oncologique, fonctionnel et psychosocial doit être compréhensible et attribué."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Que doit contenir un plan après-cancer ?",

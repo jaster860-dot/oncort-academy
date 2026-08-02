@@ -124,7 +124,9 @@
             "label": "Contourage fiable",
             "detail": "Décision au checkpoint — L'IGRT corrige surtout le positionnement ; elle ne garantit pas la correction d'une déformation anatomique majeure."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Que faire devant une distension rectale majeure au scanner de simulation ?",
@@ -232,7 +234,9 @@
             "label": "PTV justifié",
             "detail": "Décision au checkpoint — La marge compense un budget d'incertitudes ; elle doit être cohérente avec le workflow réel."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Sur quoi doit reposer le choix d'une marge PTV ?",
@@ -341,7 +345,9 @@
             "label": "Interprétation valide",
             "detail": "Décision au checkpoint — Le même seuil appliqué à des volumes différents ne représente pas le même risque."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Pourquoi la définition exacte d'un OAR doit-elle précéder la lecture du DVH ?",
@@ -448,7 +454,9 @@
             "label": "Inspection spatiale et décision",
             "detail": "Décision au checkpoint — Les repères cités sont PTV V57 à 99 % et D1 cm³ au plus 63 Gy ; les écarts ne doivent pas être masqués."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Un plan à 60 Gy en 20 fractions présente PTV V57 = 98 %, CTV V60 = 99 % et D1 cm³ PTV = 64 Gy. Selon les repères RecoRad cités, que conclure ?",
@@ -558,7 +566,9 @@
             "label": "Action documentée",
             "detail": "Décision au checkpoint — Les deux cibles ont des mouvements différents ; le protocole doit gérer leur discordance."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Que doit prévoir l'IGRT d'un traitement simultané prostate–pelvis ?",
@@ -666,7 +676,8 @@
             "label": "Autorisation ou reprise",
             "detail": "Décision au checkpoint — L'audit est un gate de sécurité multidisciplinaire, pas une formalité documentaire."
           }
-        ]
+        ],
+        "placement": "before_checkpoint"
       },
       "clinicalLens": {
         "title": "Application — Quel est le rôle principal de l'audit de prétraitement ?",

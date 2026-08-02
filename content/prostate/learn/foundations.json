@@ -66,7 +66,8 @@
           {"label": "Rectum", "detail": "En arrière ; voisin critique en imagerie et radiothérapie."},
           {"label": "Vésicules séminales", "detail": "Postéro-supérieures, au voisinage de la base."},
           {"label": "Plancher pelvien", "detail": "Sous l'apex, proche du sphincter strié."}
-        ]
+        ],
+        "placement": "after_takeaways"
       },
       "sections": [
         {
@@ -144,7 +145,9 @@
         "items": [
           {"label": "Glande bénigne", "detail": "Architecture régulière, cellules luminales vers la lumière, couche basale conservée, stroma non infiltré."},
           {"label": "Adénocarcinome", "detail": "Glandes ou cellules tumorales infiltrantes, désorganisation architecturale et absence de couche basale identifiable dans les glandes invasives."}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "sections": [
         {
@@ -222,7 +225,9 @@
           {"label": "DHT prostatique", "detail": "Conversion locale par la 5-alpha-réductase."},
           {"label": "Récepteur AR", "detail": "Liaison, stabilisation et translocation nucléaire."},
           {"label": "Transcription", "detail": "Programme de différenciation, sécrétion, survie ou prolifération selon le contexte."}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 3
       },
       "sections": [
         {
@@ -299,7 +304,9 @@
           {"label": "Répéter si indiqué", "detail": "Même laboratoire et conditions standardisées selon le scénario."},
           {"label": "Estimer le risque", "detail": "Âge, toucher rectal, volume, densité, antécédents et cinétique."},
           {"label": "Réduire l'incertitude", "detail": "IRM, biomarqueur ou biopsie seulement si cela répond à la question clinique."}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 3
       },
       "sections": [
         {
@@ -380,7 +387,9 @@
           {"label": "Grade", "detail": "Comment l'architecture tumorale est-elle organisée ?"},
           {"label": "Stade", "detail": "Jusqu'où la maladie s'étend-elle anatomiquement ?"},
           {"label": "Moléculaire", "detail": "Quelles voies et altérations caractérisent les clones étudiés ?"}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 3
       },
       "sections": [
         {
@@ -462,7 +471,9 @@
           {"label": "ISUP 3", "detail": "Gleason 4+3 : pattern 4 prédominant."},
           {"label": "ISUP 4", "detail": "Score 8 : notamment 4+4, 3+5 ou 5+3."},
           {"label": "ISUP 5", "detail": "Scores 9–10 : combinaisons dominées par les patterns 4 et 5."}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 3
       },
       "sections": [
         {
@@ -543,7 +554,9 @@
           {"label": "Effet", "detail": "Mesure relative, différence absolue, intervalle d'incertitude et toxicités."},
           {"label": "Applicabilité", "detail": "Stade, imagerie, fitness, expositions et préférences comparables ou différents."},
           {"label": "Décision", "detail": "Bénéfices, risques, alternatives et incertitudes rendus traçables."}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 3
       },
       "sections": [
         {
@@ -628,7 +641,9 @@
           {"label": "Santé globale", "detail": "Autonomie, comorbidités, cognition, nutrition, médicaments et soutien."},
           {"label": "Traitement", "detail": "Délai du bénéfice, toxicités précoces et tardives, récupération et charge du parcours."},
           {"label": "Préférences", "detail": "Objectifs de vie, tolérance au risque et fonctions que le patient souhaite préserver."}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 3
       },
       "sections": [
         {

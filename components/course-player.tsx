@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 import {
   calculateBlockPercent,
   emptyProgress,
@@ -215,16 +215,28 @@ export function CoursePlayer({
                 </section>
               )}
 
-              {lesson.visual && <LessonVisual visual={lesson.visual} lessonTitle={lesson.title} />}
+              {lesson.visual && (lesson.visual.placement ?? "after_takeaways") === "after_takeaways" && (
+                <LessonVisual visual={lesson.visual} lessonTitle={lesson.title} />
+              )}
 
               <div className="lessonBody">
                 {lesson.sections.map((section, index) => (
-                  <section className="lessonSection" key={section.title}>
-                    <span>{String(index + 1).padStart(2, "0")}</span>
-                    <div><h3>{section.title}</h3><p>{section.body}</p></div>
-                  </section>
+                  <Fragment key={section.title}>
+                    <section className="lessonSection">
+                      <span>{String(index + 1).padStart(2, "0")}</span>
+                      <div><h3>{section.title}</h3><p>{section.body}</p></div>
+                    </section>
+                    {lesson.visual
+                      && lesson.visual.placement === "after_section"
+                      && lesson.visual.afterSection === index + 1
+                      && <LessonVisual visual={lesson.visual} lessonTitle={lesson.title} />}
+                  </Fragment>
                 ))}
               </div>
+
+              {lesson.visual && lesson.visual.placement === "after_sections" && (
+                <LessonVisual visual={lesson.visual} lessonTitle={lesson.title} />
+              )}
 
               {lesson.clinicalLens && (
                 <aside className="clinicalLens">
@@ -254,6 +266,10 @@ export function CoursePlayer({
               </section>
 
               <aside className="trapCard"><span>Piège fréquent</span><p>{lesson.commonTrap}</p></aside>
+
+              {lesson.visual && lesson.visual.placement === "before_checkpoint" && (
+                <LessonVisual visual={lesson.visual} lessonTitle={lesson.title} />
+              )}
 
               <section className="checkpointCard">
                 <div className="checkpointHeader"><span>Checkpoint</span><small>Une réponse est nécessaire pour continuer</small></div>

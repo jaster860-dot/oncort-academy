@@ -127,7 +127,9 @@
             "label": "Stratégie proportionnée",
             "detail": "Décision au checkpoint — La fragilité est un état multidimensionnel potentiellement modifiable."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Que doit déclencher une fragilité suspectée ?",
@@ -236,7 +238,9 @@
             "label": "Surveillance gastro-oncologique",
             "detail": "Décision au checkpoint — Le risque dépend de la maladie digestive réelle et de la technique, pas de l'étiquette seule."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Quelle information est déterminante avant une RT pelvienne chez un patient avec MICI ?",
@@ -345,7 +349,9 @@
             "label": "Risque urinaire suivi",
             "detail": "Décision au checkpoint — Le risque urinaire dépend du geste, de l'anatomie résiduelle et de la modalité."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Que faut-il avant de choisir une modalité après TURP ?",
@@ -455,7 +461,9 @@
             "label": "QA et robustesse",
             "detail": "Décision au checkpoint — La prothèse affecte acquisition, contourage, calcul et délivrance ; toute la chaîne est auditée."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Quel contrôle est prioritaire avec une prothèse de hanche ?",
@@ -564,7 +572,9 @@
             "label": "Décision avec extrapolation nommée",
             "detail": "Décision au checkpoint — Les deux cartes répondent à des besoins différents et doivent rester visibles."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Comment rapporter un patient M0 conventionnel avec deux foyers PSMA-only ?",

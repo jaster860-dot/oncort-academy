@@ -135,7 +135,8 @@
             "label": "Prescription à documenter",
             "detail": "Décision au checkpoint — Une prescription robuste décompose la stratégie en plusieurs décisions reliées au risque et au patient, plutôt que d'appliquer un forfait unique."
           }
-        ]
+        ],
+        "placement": "after_sections"
       },
       "clinicalLens": {
         "title": "Application — Quelle proposition résume correctement le passage du risque à la radiothérapie définitive ?",
@@ -244,7 +245,9 @@
             "label": "Transposition sûre",
             "detail": "Décision au checkpoint — Le fractionnement n'est qu'un composant de la prescription ; sa sécurité dépend du contexte technique et clinique complet."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Avant d'adopter un schéma de 60 Gy en 20 fractions, que faut-il vérifier ?",
@@ -353,7 +356,9 @@
             "label": "Cinq ou sept fractions validées",
             "detail": "Décision au checkpoint — Les données les plus établies concernent une prostate seule chez des risques favorables ou intermédiaires correctement sélectionnés."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel patient correspond le mieux au périmètre le plus établi d'une SBRT prostatique définitive ?",
@@ -462,7 +467,9 @@
             "label": "Contrôle et toxicité",
             "detail": "Décision au checkpoint — Monothérapie et boost concernent des populations, des parcours et des toxicités différents."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle distinction est indispensable avant de proposer une curiethérapie prostatique ?",
@@ -571,7 +578,9 @@
             "label": "Volumes tracés",
             "detail": "Décision au checkpoint — La donnée française et européenne n'est pas parfaitement concordante ; une décision robuste rend cette incertitude explicite."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Chez un patient cN0 à haut risque, comment aborder l'irradiation pelvienne ?",
@@ -680,7 +689,8 @@
             "label": "Contraintes et bénéfice attendu",
             "detail": "Décision au checkpoint — Le boost focal est une intensification sélectionnée ; ses preuves et ses contraintes doivent être décrites sans extrapolation."
           }
-        ]
+        ],
+        "placement": "after_sections"
       },
       "clinicalLens": {
         "title": "Application — Quelle formulation est correcte à propos d'un boost focal prostatique ?",
@@ -790,7 +800,9 @@
             "label": "Prévention et surveillance",
             "detail": "Décision au checkpoint — L'ADT est un traitement oncologique à part entière ; sa durée et sa gestion des toxicités doivent être aussi explicites que la dose de radiothérapie."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle prescription hormonale est suffisamment structurée avec une radiothérapie définitive ?",

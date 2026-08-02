@@ -125,7 +125,9 @@
             "label": "Discussion de rattrapage",
             "detail": "Décision au checkpoint — La récidive après nadir suppose une indétectabilité postopératoire puis une remontée confirmée ; la persistance ne passe jamais par ce nadir."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel dossier décrit le mieux une récidive après nadir plutôt qu'un PSA persistant ?",
@@ -234,7 +236,9 @@
             "label": "Urgence et intensité de la discussion",
             "detail": "Décision au checkpoint — Une cinétique courte est défavorable, mais elle reste un facteur intégré et non une localisation ou une prescription."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Comment utiliser un temps de doublement du PSA de quatre mois après prostatectomie ?",
@@ -343,7 +347,9 @@
             "label": "Décision modifiée ou non",
             "detail": "Décision au checkpoint — À faible PSA, la sensibilité n'est pas complète ; la négativité ne neutralise ni la cinétique ni les facteurs pathologiques."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Le TEP-PSMA est négatif à 0,32 ng/mL chez un patient dont le PSA double rapidement. Quelle interprétation est correcte ?",
@@ -452,7 +458,9 @@
             "label": "Rattrapage discuté sans délai évitable",
             "detail": "Décision au checkpoint — La surveillance évite un surtraitement, mais doit permettre un rattrapage précoce et non différé jusqu'à une charge plus élevée."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle stratégie représente le mieux l'évolution actuelle après prostatectomie pN0 avec PSA indétectable ?",
@@ -561,7 +569,9 @@
             "label": "Prévention et suivi",
             "detail": "Décision au checkpoint — Le bénéfice et les toxicités dépendent du risque ; l'ADT est une intensification sélectionnée, pas un automatisme."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel raisonnement convient pour ajouter une ADT au rattrapage ?",
@@ -670,7 +680,9 @@
             "label": "IMRT/IGRT et validation",
             "detail": "Décision au checkpoint — La glande absente impose une reconstruction anatomique standardisée et un workflow postopératoire spécifique."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Quel audit est adapté à une radiothérapie de rattrapage postopératoire ?",

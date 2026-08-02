@@ -139,7 +139,9 @@
             "label": "Rattrapage expert sélectionné",
             "detail": "Décision au checkpoint — La morbidité du rattrapage impose preuve histologique, stadification et sélection fonctionnelle ; PI-RR est le cadre IRM adapté après traitement."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel dossier est suffisamment étayé pour discuter un rattrapage local après radiothérapie ?",
@@ -249,7 +251,8 @@
             "label": "ADT et suivi contextualisés",
             "detail": "Décision au checkpoint — L'essai de phase II modifie la balance en faveur de l'électif dans sa population, sans démontrer une survie globale ni couvrir toutes les oligorecurrences."
           }
-        ]
+        ],
+        "placement": "after_sections"
       },
       "clinicalLens": {
         "title": "Application — Que montre surtout PEACE V–STORM pour une oligorecurrence ganglionnaire pelvienne ?",
@@ -360,7 +363,9 @@
             "label": "Bénéfice intermédiaire et surveillance",
             "detail": "Décision au checkpoint — STOMP, RADIOSA et PEACE V–STORM sont informatifs mais ne démontrent pas une guérison universelle ou un bénéfice de survie globale."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle formulation restitue correctement le niveau de preuve de la MDT ?",
@@ -471,7 +476,9 @@
             "label": "Suivi et stratégie suivante",
             "detail": "Décision au checkpoint — La sécurité dépend de la dose cumulée et de ses incertitudes ; le temps écoulé n'efface pas l'exposition antérieure."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel élément est indispensable avant une SBRT d'un ganglion dans un pelvis déjà irradié ?",

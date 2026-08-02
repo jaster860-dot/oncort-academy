@@ -131,7 +131,9 @@
             "label": "Réponse et toxicités suivies",
             "detail": "Décision au checkpoint — La castration et la progression doivent être documentées avant de changer d'état de maladie ou de séquence."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Que vérifier en premier devant une hausse du PSA sous analogue de la GnRH ?",
@@ -240,7 +242,9 @@
             "label": "Prévention et réévaluation",
             "detail": "Décision au checkpoint — La combinaison est un parcours complet et contextualisé, non une injection isolée."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Que doit contenir une prescription d'ADT associée à la radiothérapie ?",
@@ -349,7 +353,9 @@
             "label": "Surveillance puis changement de mécanisme",
             "detail": "Décision au checkpoint — Le bénéfice de classe ne dispense pas d'un choix individualisé et d'une surveillance spécifique à la molécule."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel bilan est indispensable avant un ARPI ?",
@@ -459,7 +465,9 @@
             "label": "Prévention et réévaluation à chaque cycle",
             "detail": "Décision au checkpoint — La chimiothérapie est une décision de séquence et de fitness, pas un automatisme d'âge ou de PSA."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel raisonnement précède un taxane ?",
@@ -568,7 +576,9 @@
             "label": "Mesure longitudinale",
             "detail": "Décision au checkpoint — Les deux indications osseuses ne doivent ni être confondues ni extrapolées d'un état de maladie à l'autre."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle distinction est correcte ?",

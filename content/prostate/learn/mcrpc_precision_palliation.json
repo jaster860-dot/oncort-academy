@@ -140,7 +140,9 @@
             "label": "Options réellement disponibles",
             "detail": "Décision au checkpoint — Le mCRPC est une décision longitudinale fondée sur l'état actuel et tout l'historique."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel dossier minimal précède une séquence mCRPC ?",
@@ -249,7 +251,9 @@
             "label": "Traitement et implications familiales",
             "detail": "Décision au checkpoint — Le temps, la qualité de l'échantillon et les implications familiales font partie du parcours."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Pourquoi anticiper les tests moléculaires ?",
@@ -360,7 +364,9 @@
             "label": "PARP et surveillance",
             "detail": "Décision au checkpoint — Le bénéfice et l'accès dépendent du biomarqueur et de la séquence exacts."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Que doit préciser une proposition de PARP ?",
@@ -469,7 +475,9 @@
             "label": "Option ou essai clinique",
             "detail": "Décision au checkpoint — La rareté n'annule pas l'intérêt, mais impose une traçabilité stricte."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Comment présenter MSI-H/dMMR ?",
@@ -579,7 +587,9 @@
             "label": "Radium avec protection adaptée",
             "detail": "Décision au checkpoint — Le phénotype osseux, l'absence de viscéral et la sécurité médullaire structurent la sélection."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel profil est le plus cohérent avec le radium-223 ?",
@@ -690,7 +700,9 @@
             "label": "Radioligand avec suivi",
             "detail": "Décision au checkpoint — La sélection est theranostique, clinique, biologique et réglementaire."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Que faut-il au-delà d'un TEP-PSMA positif ?",
@@ -800,7 +812,9 @@
             "label": "Évaluation multiaxiale",
             "detail": "Décision au checkpoint — Réponse et toxicité sont multiaxiales ; le PSA isolé peut tromper."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Comment suivre un radioligand PSMA ?",
@@ -910,7 +924,9 @@
             "label": "Option suivante préservée",
             "detail": "Décision au checkpoint — La résistance croisée rend le changement de mécanisme souvent préférable."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Que privilégier après progression rapide sous un ARPI ?",
@@ -1019,7 +1035,9 @@
             "label": "Séquence adaptée",
             "detail": "Décision au checkpoint — Une discordance agressive peut signaler une transformation et mérite une preuve tissulaire."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel signal justifie une rebiopsie si elle change la conduite ?",
@@ -1129,7 +1147,9 @@
             "label": "RT proportionnée et coordination",
             "detail": "Décision au checkpoint — La palliation locale suit les besoins du patient, pas un rang fixe dans la séquence."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quand intégrer une RT palliative ?",
@@ -1239,7 +1259,9 @@
             "label": "Réévaluation proportionnée",
             "detail": "Décision au checkpoint — L'intégration précoce améliore le contrôle symptomatique et la qualité des décisions."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quand proposer des soins de support structurés ?",

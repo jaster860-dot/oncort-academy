@@ -129,7 +129,8 @@
             "label": "Synchronie explicite avant traitement",
             "detail": "Décision au checkpoint — CHAARTED exige, pour le critère osseux, au moins quatre lésions dont au moins une hors rachis ou pelvis ; volume, risque LATITUDE et stade PSMA restent des informations distinctes."
           }
-        ]
+        ],
+        "placement": "after_sections"
       },
       "clinicalLens": {
         "title": "Application — Un patient présente cinq métastases osseuses limitées au rachis et au pelvis, sans métastase viscérale sur l'imagerie conventionnelle initiale. Quelle formulation respecte CHAARTED ?",
@@ -238,7 +239,8 @@
             "label": "Prévention et réévaluation",
             "detail": "Décision au checkpoint — La preuve et la tolérance rendent le triplet surtout pertinent chez un patient fit, souvent de novo et à forte charge."
           }
-        ]
+        ],
+        "placement": "after_sections"
       },
       "clinicalLens": {
         "title": "Application — Quel patient correspond le mieux à une discussion de triplet ?",
@@ -349,7 +351,9 @@
             "label": "RT prostatique intégrée",
             "detail": "Décision au checkpoint — La preuve concerne le traitement du primitif ajouté au standard systémique dans une population définie."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle formulation est correcte ?",
@@ -458,7 +462,9 @@
             "label": "PSADT et ARPI adapté",
             "detail": "Décision au checkpoint — Les trois dimensions — castration, progression et M0 conventionnel — précèdent l'utilisation du PSADT."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quel ensemble définit le mieux un nmCRPC à haut risque issu des essais ?",
@@ -567,7 +573,9 @@
             "label": "RT–chirurgie–anti-résorptif selon objectif",
             "detail": "Décision au checkpoint — Une compression médullaire potentielle est une urgence clinique et radiologique."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle conduite est correcte devant une douleur rachidienne avec faiblesse des jambes ?",

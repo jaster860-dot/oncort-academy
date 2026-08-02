@@ -120,7 +120,9 @@
             "label": "Décision sans faux mélange",
             "detail": "Décision au checkpoint — Le cT du groupe de risque EAU repose sur le toucher rectal ; l'information IRM reste décisionnelle mais doit être nommée séparément."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Dans un dossier aligné sur la classification EAU, comment rapporter une extension extraprostatique suspectée à l'IRM chez un patient cT1c au toucher rectal ?",
@@ -228,7 +230,9 @@
             "label": "Groupe de risque reproductible",
             "detail": "Décision au checkpoint — ISUP 2 avec PSA inférieur à 10 ng/mL et cT1–2 correspond au risque intermédiaire favorable dans la grille EAU actuelle."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Selon la grille EAU 2026, un cancer cT1c, ISUP 2, PSA 8 ng/mL appartient à quel groupe ?",
@@ -337,7 +341,9 @@
             "label": "Impact décisionnel explicite",
             "detail": "Décision au checkpoint — Le haut risque justifie un dépistage métastatique ; le PSMA-PET est privilégié s'il est disponible, avec une alternative conventionnelle minimale."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Quelle stratégie est la plus conforme à l'EAU 2026 pour un haut risque localisé nouvellement diagnostiqué ?",
@@ -446,7 +452,9 @@
             "label": "Décision proportionnée",
             "detail": "Décision au checkpoint — Les études histologiques montrent une sensibilité ganglionnaire limitée pour les petits dépôts ; la spécificité élevée d'une lésion positive ne transforme pas la négativité en preuve d'abse…"
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Un PSMA-PET négatif avant traitement d'un cancer à haut risque permet-il d'exclure une atteinte ganglionnaire microscopique ?",
@@ -553,7 +561,9 @@
             "label": "Décision contextualisée sans faux stade",
             "detail": "Décision au checkpoint — Le calcul et l'imagerie apportent deux informations différentes."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "clinicalLens": {
         "title": "Application — Un nomogramme versionné estime un risque ganglionnaire à 18 %, tandis que le PSMA-PET ne montre aucune cible. Quelle formulation est la plus rigoureuse ?",
@@ -662,7 +672,9 @@
             "label": "Conséquence patient–famille–traitement",
             "detail": "Décision au checkpoint — Les finalités, les prélèvements et les implications diffèrent."
           }
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 1
       },
       "clinicalLens": {
         "title": "Application — Quelle affirmation distingue correctement les deux analyses ?",

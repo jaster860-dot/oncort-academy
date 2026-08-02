@@ -51,7 +51,9 @@
           {"label": "Diagnostic", "detail": "Symptôme, anomalie clinique ou biologique à expliquer."},
           {"label": "Surveillance", "detail": "Maladie déjà connue, question de suivi distincte."},
           {"label": "Parcours anticipé", "detail": "Risque, horizon de santé, préférences et conséquences du résultat."}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 3
       },
       "sections": [
         {
@@ -126,7 +128,9 @@
           {"label": "Traitements", "detail": "Les inhibiteurs de la 5-alpha-réductase modifient la valeur attendue."},
           {"label": "Variabilité et laboratoire", "detail": "Comparer dans des conditions et avec une méthode cohérentes."},
           {"label": "Histoire du patient", "detail": "Valeurs antérieures, examen clinique et risque prétest."}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 3
       },
       "sections": [
         {
@@ -200,7 +204,9 @@
           {"label": "Catégorie PI-RADS", "detail": "Niveau standardisé de suspicion radiologique."},
           {"label": "Risque intégré", "detail": "PSA, densité, examen, antécédents et qualité de lecture."},
           {"label": "Stratégie de prélèvement", "detail": "Décision contextualisée, non dictée par l'image seule."}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 3
       },
       "sections": [
         {
@@ -274,7 +280,9 @@
           {"label": "Péri-lésionnel ou systématisé", "detail": "Explorer le risque voisin et hors cible."},
           {"label": "Voie d'abord", "detail": "Accès, infection, anesthésie et régions atteignables."},
           {"label": "Concordance", "detail": "Le résultat explique-t-il réellement l'image et le risque ?"}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 2
       },
       "sections": [
         {
@@ -348,7 +356,9 @@
           {"label": "Pattern 4", "detail": "Proportion à conserver lorsque pertinente."},
           {"label": "Quantité et répartition", "detail": "Carottes, longueur ou pourcentage et sites atteints."},
           {"label": "Signaux associés", "detail": "Cribriforme, intracanalaire, extension ou invasion décrite."}
-        ]
+        ],
+        "placement": "after_section",
+        "afterSection": 3
       },
       "sections": [
         {

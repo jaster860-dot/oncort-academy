@@ -22,8 +22,16 @@ export type LessonVisualKind =
   | "evidence"
   | "balance";
 
+export type LessonVisualPlacement =
+  | "after_takeaways"
+  | "after_section"
+  | "after_sections"
+  | "before_checkpoint";
+
 export type LessonVisual = {
   kind: LessonVisualKind;
+  placement?: LessonVisualPlacement;
+  afterSection?: number;
   diagramType?: string;
   formatLabel?: string;
   title: string;
