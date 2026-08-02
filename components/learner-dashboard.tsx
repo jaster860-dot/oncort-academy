@@ -67,6 +67,37 @@ export function LearnerDashboard({
   const completedLessons = blocks.reduce((sum, block) => sum + block.completedLessons, 0);
   const overallPercent = Math.round((completedLessons / totalLessons) * 100);
   const completedBlocks = blocks.filter((block) => block.percent === 100).length;
+
+  /**
+   * Days of the current week that carry real activity.
+   *
+   * Progress records a single `updatedAt` per block, so a true consecutive-day
+   * streak is not derivable and is not claimed. Untouched blocks carry the
+   * epoch timestamp and are excluded.
+   */
+  const weekActivity = useMemo(() => {
+    const active = new Set(
+      Object.values(progress)
+        .map((record) => record.updatedAt)
+        .filter((stamp) => stamp && !stamp.startsWith("1970"))
+        .map((stamp) => new Date(stamp).toDateString()),
+    );
+    const today = new Date();
+    // Monday-first week, matching the L M M J V S D row.
+    const monday = new Date(today);
+    monday.setDate(today.getDate() - ((today.getDay() + 6) % 7));
+
+    return Array.from({ length: 7 }, (_, offset) => {
+      const day = new Date(monday);
+      day.setDate(monday.getDate() + offset);
+      return {
+        label: ["L", "M", "M", "J", "V", "S", "D"][offset],
+        isToday: day.toDateString() === today.toDateString(),
+        wasActive: active.has(day.toDateString()),
+      };
+    });
+  }, [progress]);
+  const activeDaysThisWeek = weekActivity.filter((day) => day.wasActive).length;
   const firstName = identity?.name ? identity.name.charAt(0).toUpperCase() + identity.name.slice(1) : "Docteur";
   const todayLabel = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" }).format(new Date());
 
@@ -180,8 +211,8 @@ export function LearnerDashboard({
         </section>
 
         <section className="streakCard">
-          <div><span className="flame">◆</span><strong>1</strong><small>jour consécutif</small></div>
-          <div className="weekRow">{["L", "M", "M", "J", "V", "S", "D"].map((day, index) => <span className={index === 5 ? "today" : ""} key={`${day}-${index}`}><b>{day}</b><i>{index === 5 ? "✓" : ""}</i></span>)}</div>
+          <div><span className="flame">◆</span><strong>{activeDaysThisWeek}</strong><small>{activeDaysThisWeek > 1 ? "jours actifs cette semaine" : "jour actif cette semaine"}</small></div>
+          <div className="weekRow">{weekActivity.map((day, index) => <span className={day.isToday ? "today" : ""} key={`${day.label}-${index}`}><b>{day.label}</b><i>{day.wasActive ? "✓" : ""}</i></span>)}</div>
         </section>
 
         <section className="masterySummary">
@@ -192,8 +223,9 @@ export function LearnerDashboard({
 
         <section className="reviewQueueCard">
           <span className="reviewMiniIcon">↻</span>
-          <div><strong>Révision intelligente</strong><p>{completedLessons ? `${Math.min(completedLessons * 3, 18)} cartes prêtes à réviser` : "Tes premières cartes apparaîtront ici"}</p></div>
-          <button disabled={!completedLessons}>Réviser</button>
+          {/* No scheduling backend yet: state that plainly rather than showing a count we cannot honour. */}
+          <div><strong>Révision espacée</strong><p>Bientôt disponible. Les cartes des leçons terminées te seront reproposées au bon moment.</p></div>
+          <button disabled>Réviser</button>
         </section>
 
         <p className="clinicalNotice">Formation pédagogique. Les contenus cliniques restent soumis à validation et ne constituent pas une aide à la décision.</p>

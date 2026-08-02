@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { TutorResult } from "../lib/tutor";
 import { evaluateRetest, gradeCaseAnswer } from "../lib/tutor";
 
@@ -11,6 +11,23 @@ type CaseItem = {
   tasks: string[];
   availableData: Record<string, string>;
 };
+
+/**
+ * Content keys are English by schema; the interface is French. Mapping happens
+ * here rather than in content so `CONTENT_SCHEMA.md` stays untouched.
+ */
+const dossierLabels: Record<string, string> = {
+  clinical: "Clinique",
+  biology: "Biologie",
+  imaging: "Imagerie",
+  pathology: "Anatomopathologie",
+  multidisciplinary: "Pluridisciplinaire",
+};
+
+/** The four moves of a tumour-board argument, offered as headings only. */
+const structureSteps = ["Risque", "Données manquantes", "Options", "Décision"] as const;
+
+const MIN_ANSWER = 30;
 
 const capsuleCopy: Record<TutorResult["remediationConcept"], { title: string; body: string }> = {
   psma_pet_limits: {
@@ -38,6 +55,26 @@ export function RcpWorkspace({ caseItem, retestPrompt }: { caseItem: CaseItem; r
   const [retestAnswer, setRetestAnswer] = useState("");
   const [retestResult, setRetestResult] = useState<ReturnType<typeof evaluateRetest> | null>(null);
   const [grading, setGrading] = useState(false);
+  const answerRef = useRef<HTMLTextAreaElement>(null);
+  const focusPending = useRef(false);
+
+  /** Appends a section heading; focus returns in the effect below. */
+  const insertSection = (step: string) => {
+    setAnswer((current) => `${current.trimEnd()}${current.trim() ? "\n\n" : ""}${step} : `);
+    focusPending.current = true;
+  };
+
+  // Runs after commit rather than on an animation frame: requestAnimationFrame
+  // never fires while the tab is not compositing, which silently left the caret
+  // outside the field.
+  useEffect(() => {
+    if (!focusPending.current) return;
+    focusPending.current = false;
+    const field = answerRef.current;
+    if (!field) return;
+    field.focus();
+    field.setSelectionRange(field.value.length, field.value.length);
+  }, [answer]);
   const capsule = useMemo(() => result ? capsuleCopy[result.remediationConcept] : null, [result]);
   const steps = ["case", "analysis", "capsule", "retest", "complete"] as const;
   const currentIndex = steps.indexOf(step);
@@ -81,9 +118,26 @@ export function RcpWorkspace({ caseItem, retestPrompt }: { caseItem: CaseItem; r
           {step === "case" && <>
             <div className="caseHero"><div><p className="eyebrow">Cas 01 · Niveau fondamental</p><h2>{caseItem.title}</h2></div><span>RCP</span></div>
             <article className="vignetteCard"><span>Situation clinique</span><p>{caseItem.vignette}</p></article>
-            <div className="rcpTaskGrid"><section><p className="eyebrow">Ta mission</p><ul>{caseItem.tasks.map((task) => <li key={task}>{task}</li>)}</ul></section><section><p className="eyebrow">Dossier disponible</p><dl>{Object.entries(caseItem.availableData).map(([key, value]) => <div key={key}><dt>{key}</dt><dd>{value}</dd></div>)}</dl></section></div>
-            <label className="reasoningBox"><span>Construis ton raisonnement</span><textarea rows={9} value={answer} onChange={(event) => setAnswer(event.target.value)} placeholder="Commence par le risque, précise les données manquantes, puis compare les parcours thérapeutiques et leurs incertitudes…"/><small>{answer.length} caractères · minimum 30</small></label>
-            <div className="lessonActions"><span>Ta réponse reste sur cet appareil dans cette version.</span><button className="button buttonPrimary" disabled={answer.trim().length < 30 || grading} onClick={submit}>{grading ? "Analyse en cours…" : <>Analyser mon raisonnement <span>→</span></>}</button></div>
+            <section className="dossierPanel"><p className="eyebrow">Dossier disponible</p><dl>{Object.entries(caseItem.availableData).map(([key, value]) => <div key={key}><dt>{dossierLabels[key] ?? key}</dt><dd>{value}</dd></div>)}</dl></section>
+            <div className="reasoningLayout">
+              <div className="reasoningBox">
+                <label htmlFor="rcpAnswer">Construis ton raisonnement</label>
+                {/* Structure only, never content: hinting substance would turn the exercise into keyword matching. */}
+                <div className="structureChips">
+                  <span>Amorcer une section</span>
+                  {structureSteps.map((step) => (
+                    <button type="button" key={step} onClick={() => insertSection(step)} disabled={answer.includes(`${step} :`)}>{step}</button>
+                  ))}
+                </div>
+                <textarea id="rcpAnswer" ref={answerRef} rows={14} value={answer} onChange={(event) => setAnswer(event.target.value)} placeholder="Pars du risque, dis ce qui manque au dossier, puis compare les parcours et ce qui reste incertain…"/>
+                <small>{answer.trim().length < MIN_ANSWER ? "Développe ton raisonnement : le tuteur évalue la structure, pas la longueur." : `${answer.length} caractères`}</small>
+              </div>
+              <aside className="reasoningGuide">
+                <p className="eyebrow">Ce que le tuteur attend</p>
+                <ul>{caseItem.tasks.map((task) => <li key={task}>{task}</li>)}</ul>
+              </aside>
+            </div>
+            <div className="lessonActions"><span>Connecté, ta réponse est analysée par le tuteur et conservée pour relecture pédagogique. En mode invité, elle ne quitte pas cet appareil.</span><button className="button buttonPrimary" disabled={answer.trim().length < 30 || grading} onClick={submit}>{grading ? "Analyse en cours…" : <>Analyser mon raisonnement <span>→</span></>}</button></div>
           </>}
 
           {step === "analysis" && result && <>
