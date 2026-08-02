@@ -249,7 +249,7 @@ describe("prostate radiotherapy planning learning path", () => {
     const sourceIds = new Set(sourcesDocument.sources.map((source) => source.id));
 
     expectValidLessonSet(radiotherapyPlanningDocument.lessons);
-    expect(radiotherapyPlanningDocument.evidenceScope.anchors).toHaveLength(4);
+    expect(radiotherapyPlanningDocument.evidenceScope.anchors).toHaveLength(5);
     for (const anchor of radiotherapyPlanningDocument.evidenceScope.anchors) {
       expect(sourceIds.has(anchor.sourceId)).toBe(true);
       expect(anchor.locator.length).toBeGreaterThan(10);

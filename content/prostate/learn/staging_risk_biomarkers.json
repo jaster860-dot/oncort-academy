@@ -101,24 +101,24 @@
         "formatLabel": "Carte TNM",
         "title": "TNM : décrire l'extension sans mélanger les instruments",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/01-tnm.svg",
-        "altText": "Carte TNM pour « TNM : décrire l'extension sans mélanger les instruments ». Repères représentés : Examen clinique ; Imagerie nommée ; cTNM explicite ; Décision sans faux mélange.",
-        "caption": "Carte TNM : Examen clinique · Imagerie nommée · cTNM explicite · Décision sans faux mélange. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte TNM pour « TNM : décrire l'extension sans mélanger les instruments ». Le schéma relie Examen clinique ; Imagerie nommée ; cTNM explicite ; Décision sans faux mélange sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Carte TNM : Examen clinique · Imagerie nommée · cTNM explicite · Décision sans faux mélange. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Examen clinique",
-            "detail": "T décrit l'extension de la tumeur primitive, N l'atteinte des ganglions régionaux et M les métastases à distance."
+            "detail": "Trois questions anatomiques — T décrit l'extension de la tumeur primitive, N l'atteinte des ganglions régionaux et M les métastases à distance."
           },
           {
             "label": "Imagerie nommée",
-            "detail": "Le préfixe c désigne une estimation clinique avant traitement, tandis que p repose sur l'analyse anatomopathologique d'une pièce opératoire et des prélèvements disponibles."
+            "detail": "Nommer la méthode — Le préfixe c désigne une estimation clinique avant traitement, tandis que p repose sur l'analyse anatomopathologique d'une pièce opératoire et des prélèvements disponibles."
           },
           {
             "label": "cTNM explicite",
-            "detail": "L'IRM apporte des informations sur une extension extraprostatique, les vésicules séminales et les ganglions visibles."
+            "detail": "L'IRM complète, elle ne fusionne pas tout — L'IRM apporte des informations sur une extension extraprostatique, les vésicules séminales et les ganglions visibles."
           },
           {
             "label": "Décision sans faux mélange",
-            "detail": "T décrit l'extension de la tumeur primitive, N l'atteinte des ganglions régionaux et M les métastases à distance."
+            "detail": "Décision au checkpoint — Le cT du groupe de risque EAU repose sur le toucher rectal ; l'information IRM reste décisionnelle mais doit être nommée séparément."
           }
         ]
       },
@@ -209,24 +209,24 @@
         "formatLabel": "Matrice PSA–cT–ISUP",
         "title": "Groupes de risque : combiner PSA, cT et ISUP",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/02-risk-groups.svg",
-        "altText": "Matrice PSA–cT–ISUP pour « Groupes de risque : combiner PSA, cT et ISUP ». Repères représentés : PSA initial ; cT et ISUP ; Référentiel daté ; Groupe de risque reproductible.",
-        "caption": "Matrice PSA–cT–ISUP : PSA initial · cT et ISUP · Référentiel daté · Groupe de risque reproductible. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Tableau de la grille EAU 2026 combinant ISUP, PSA et cT ou cN pour distinguer faible risque, intermédiaire favorable et défavorable, haut risque localisé et localement avancé. Un avertissement demande de conserver les variables sources et le référentiel.",
+        "caption": "La grille EAU combine PSA, cT et ISUP sans remplacer le TNM, l’IRM, le volume ou les facteurs patient. Faible risque, intermédiaire favorable et défavorable, haut risque localisé et localement avancé répondent à des combinaisons explicites. Comme EAU et D’Amico ne découpent pas exactement les mêmes catégories, tout dossier doit nommer référentiel, version et variables sources.",
         "items": [
           {
             "label": "PSA initial",
-            "detail": "Les groupes de risque assemblent le PSA initial, le cT et le groupe ISUP biopsique afin de regrouper des probabilités de récidive après traitement local."
+            "detail": "Un modèle pronostique, pas une nouvelle anatomie — Les groupes de risque assemblent le PSA initial, le cT et le groupe ISUP biopsique afin de regrouper des probabilités de récidive après traitement local."
           },
           {
             "label": "cT et ISUP",
-            "detail": "Le faible risque exige simultanément ISUP 1, PSA inférieur à 10 ng/mL et cT1–2."
+            "detail": "La grille EAU actuelle — Le faible risque exige simultanément ISUP 1, PSA inférieur à 10 ng/mL et cT1–2."
           },
           {
             "label": "Référentiel daté",
-            "detail": "La classification française de D'Amico et la grille EAU ne découpent pas exactement les mêmes catégories."
+            "detail": "Toujours nommer le référentiel — La classification française de D'Amico et la grille EAU ne découpent pas exactement les mêmes catégories."
           },
           {
             "label": "Groupe de risque reproductible",
-            "detail": "Les groupes de risque assemblent le PSA initial, le cT et le groupe ISUP biopsique afin de regrouper des probabilités de récidive après traitement local."
+            "detail": "Décision au checkpoint — ISUP 2 avec PSA inférieur à 10 ng/mL et cT1–2 correspond au risque intermédiaire favorable dans la grille EAU actuelle."
           }
         ]
       },
@@ -318,24 +318,24 @@
         "formatLabel": "Algorithme d’imagerie",
         "title": "Choisir le bilan d'extension qui peut changer la décision",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/03-imaging-indications.svg",
-        "altText": "Algorithme d’imagerie pour « Choisir le bilan d'extension qui peut changer la décision ». Repères représentés : Groupe de risque ; Question de stadification ; Modalité disponible ; Impact décisionnel explicite.",
-        "caption": "Algorithme d’imagerie : Groupe de risque · Question de stadification · Modalité disponible · Impact décisionnel explicite. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice EAU des indications d’imagerie de stadification. Aucun examen additionnel en routine au faible risque ou intermédiaire favorable ; PSMA-PET si disponible ou imagerie conventionnelle dans l’intermédiaire défavorable ; dépistage métastatique recommandé au haut risque ou localement avancé.",
+        "caption": "Le bilan d’extension part de la probabilité prétest et d’une question capable de modifier la stratégie. L’EAU n’ajoute pas d’imagerie de routine dans les formes favorables, l’intensifie dès l’intermédiaire défavorable et la recommande au haut risque ou localement avancé. La modalité utilisée doit être tracée, car les essais historiques ont souvent défini stades et volumes en imagerie conventionnelle.",
         "items": [
           {
             "label": "Groupe de risque",
-            "detail": "Le rendement d'une recherche ganglionnaire ou métastatique augmente avec le risque construit par PSA, cT, ISUP et charge biopsique."
+            "detail": "Commencer par la probabilité prétest — Le rendement d'une recherche ganglionnaire ou métastatique augmente avec le risque construit par PSA, cT, ISUP et charge biopsique."
           },
           {
             "label": "Question de stadification",
-            "detail": "L'EAU 2026 ne recommande pas d'imagerie additionnelle de stadification pour les maladies de faible risque ou intermédiaire favorable."
+            "detail": "Une intensité graduée — L'EAU 2026 ne recommande pas d'imagerie additionnelle de stadification pour les maladies de faible risque ou intermédiaire favorable."
           },
           {
             "label": "Modalité disponible",
-            "detail": "Le CCAFU décrit une meilleure performance du PSMA-PET que le couple scanner–scintigraphie dans le haut risque, avec une disponibilité encore hétérogène."
+            "detail": "France : disponibilité et héritage des essais — Le CCAFU décrit une meilleure performance du PSMA-PET que le couple scanner–scintigraphie dans le haut risque, avec une disponibilité encore hétérogène."
           },
           {
             "label": "Impact décisionnel explicite",
-            "detail": "Le rendement d'une recherche ganglionnaire ou métastatique augmente avec le risque construit par PSA, cT, ISUP et charge biopsique."
+            "detail": "Décision au checkpoint — Le haut risque justifie un dépistage métastatique ; le PSMA-PET est privilégié s'il est disponible, avec une alternative conventionnelle minimale."
           }
         ]
       },
@@ -427,24 +427,24 @@
         "formatLabel": "Détection et limites",
         "title": "PSMA-PET : gagner en détection sans perdre l'esprit critique",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/04-psma-limits.svg",
-        "altText": "Détection et limites pour « PSMA-PET : gagner en détection sans perdre l'esprit critique ». Repères représentés : Risque prétest ; Signal PSMA et morphologie ; Limites techniques ; Décision proportionnée.",
-        "caption": "Détection et limites : Risque prétest · Signal PSMA et morphologie · Limites techniques · Décision proportionnée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Trois panneaux résument les limites du PSMA-PET : migration de stade sans changement biologique soudain, examen négatif malgré micrométastases ou faible expression, et fixation non spécifique dans ganglions sympathiques, lésions bénignes, inflammation ou autres tumeurs.",
+        "caption": "Une meilleure détection crée aussi de nouvelles incertitudes. Un PSMA-PET négatif n’annule ni les micrométastases ni le risque prétest ; une fixation isolée n’est pas automatiquement un cancer prostatique ; une migration de stade moléculaire ne reproduit pas forcément les populations d’essais historiques. L’interprétation combine localisation, intensité, morphologie et conséquence de la décision.",
         "items": [
           {
             "label": "Risque prétest",
-            "detail": "Le PSMA-PET localise mieux de nombreuses atteintes ganglionnaires et osseuses que l'imagerie conventionnelle, surtout dans les groupes à risque élevé."
+            "detail": "Voir des lésions auparavant invisibles — Le PSMA-PET localise mieux de nombreuses atteintes ganglionnaires et osseuses que l'imagerie conventionnelle, surtout dans les groupes à risque élevé."
           },
           {
             "label": "Signal PSMA et morphologie",
-            "detail": "La résolution spatiale limite la détection des micrométastases ganglionnaires et certaines tumeurs expriment peu le PSMA."
+            "detail": "Une négativité n'est pas une stérilisation du risque — La résolution spatiale limite la détection des micrométastases ganglionnaires et certaines tumeurs expriment peu le PSMA."
           },
           {
             "label": "Limites techniques",
-            "detail": "Des ganglions sympathiques, des lésions osseuses bénignes, des processus inflammatoires ou d'autres tumeurs peuvent fixer un ligand du PSMA."
+            "detail": "Une fixation n'est pas toujours un cancer prostatique — Des ganglions sympathiques, des lésions osseuses bénignes, des processus inflammatoires ou d'autres tumeurs peuvent fixer un ligand du PSMA."
           },
           {
             "label": "Décision proportionnée",
-            "detail": "Le PSMA-PET localise mieux de nombreuses atteintes ganglionnaires et osseuses que l'imagerie conventionnelle, surtout dans les groupes à risque élevé."
+            "detail": "Décision au checkpoint — Les études histologiques montrent une sensibilité ganglionnaire limitée pour les petits dépôts ; la spécificité élevée d'une lésion positive ne transforme pas la négativité en preuve d'abse…"
           }
         ]
       },
@@ -534,24 +534,24 @@
         "formatLabel": "Jauge de probabilité ganglionnaire",
         "title": "Risque ganglionnaire : documenter une probabilité sans inventer un stade",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/05-nodal-prediction.svg",
-        "altText": "Jauge de probabilité ganglionnaire pour « Risque ganglionnaire : documenter une probabilité sans inventer un stade ». Repères représentés : Variables sources vérifiées ; Nomogramme nommé et versionné ; Probabilité avec limites ; Décision contextualisée sans faux stade.",
-        "caption": "Jauge de probabilité ganglionnaire : Variables sources vérifiées · Nomogramme nommé et versionné · Probabilité avec limites · Décision contextualisée sans faux stade. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Jauge de probabilité ganglionnaire pour « Risque ganglionnaire : documenter une probabilité sans inventer un stade ». Le schéma relie Variables sources vérifiées ; Nomogramme nommé et versionné ; Probabilité avec limites ; Décision contextualisée sans faux stade sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Jauge de probabilité ganglionnaire : Variables sources vérifiées · Nomogramme nommé et versionné · Probabilité avec limites · Décision contextualisée sans faux stade. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Variables sources vérifiées",
-            "detail": "Les calculateurs cités par le CCAFU combinent des variables telles que PSA, cT, groupe ISUP et charge biopsique, parfois enrichies par l'IRM."
+            "detail": "Un calcul reproductible avant la décision — Les calculateurs cités par le CCAFU combinent des variables telles que PSA, cT, groupe ISUP et charge biopsique, parfois enrichies par l'IRM."
           },
           {
             "label": "Nomogramme nommé et versionné",
-            "detail": "Le nomogramme estime un risque prétest d'envahissement ; il ne visualise pas un ganglion et ne fournit pas un stade pathologique."
+            "detail": "Une probabilité n'est ni cN ni pN — Le nomogramme estime un risque prétest d'envahissement ; il ne visualise pas un ganglion et ne fournit pas un stade pathologique."
           },
           {
             "label": "Probabilité avec limites",
-            "detail": "Le CCAFU précise que le seuil significatif varie selon le nomogramme utilisé."
+            "detail": "Le seuil appartient à une question précise — Le CCAFU précise que le seuil significatif varie selon le nomogramme utilisé."
           },
           {
             "label": "Décision contextualisée sans faux stade",
-            "detail": "Les calculateurs cités par le CCAFU combinent des variables telles que PSA, cT, groupe ISUP et charge biopsique, parfois enrichies par l'IRM."
+            "detail": "Décision au checkpoint — Le calcul et l'imagerie apportent deux informations différentes."
           }
         ]
       },
@@ -643,24 +643,24 @@
         "formatLabel": "Voies germinale et somatique",
         "title": "Germinal ou somatique : poser la bonne question au bon moment",
         "imageSrc": "/figures/prostate/staging-risk-biomarkers/06-germline-somatic.svg",
-        "altText": "Voies germinale et somatique pour « Germinal ou somatique : poser la bonne question au bon moment ». Repères représentés : Question clinique ; Germinal ou somatique ; Conseil et consentement ; Conséquence patient–famille–traitement.",
-        "caption": "Voies germinale et somatique : Question clinique · Germinal ou somatique · Conseil et consentement · Conséquence patient–famille–traitement. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Comparaison entre test germinal sur sang ou salive pour une variation constitutionnelle et test somatique sur tumeur ou ADN tumoral circulant pour une altération acquise. Les conséquences familiales, thérapeutiques et la confirmation germinale d’un signal tumoral sont séparées.",
+        "caption": "Germinal et somatique répondent à deux responsabilités distinctes. Le premier recherche une variation constitutionnelle avec implications pour le patient et sa famille ; le second cherche dans la tumeur une altération potentiellement prédictive. Un signal BRCA1/2 somatique peut conduire à une confirmation germinale. Test, échantillon, temporalité, consentement et conséquence anticipée doivent être définis avant le prélèvement.",
         "items": [
           {
             "label": "Question clinique",
-            "detail": "Le test germinal recherche dans le sang ou la salive une variation constitutionnelle susceptible de concerner le patient et sa famille."
+            "detail": "Deux analyses, deux responsabilités — Le test germinal recherche dans le sang ou la salive une variation constitutionnelle susceptible de concerner le patient et sa famille."
           },
           {
             "label": "Germinal ou somatique",
-            "detail": "Le CCAFU recommande de rechercher systématiquement les signaux d'une forme héréditaire : âge inhabituellement jeune avec maladie agressive ou métastatique, agrégation familiale de cancers prostatiques précoces, histoire évocatrice de syndrome sein–ovaire ou de Lynch, ou anomalie BRCA1/2 somatique."
+            "detail": "Repérer avant de prescrire — Le CCAFU recommande de rechercher systématiquement les signaux d'une forme héréditaire : âge inhabituellement jeune avec maladie agressive ou métastatique, agrégation familiale de cancers p…"
           },
           {
             "label": "Conseil et consentement",
-            "detail": "Dans la maladie métastatique, les tests somatiques et germinaux prennent une importance thérapeutique croissante, notamment pour les voies de réparation de l'ADN."
+            "detail": "L'état de maladie change l'utilité — Dans la maladie métastatique, les tests somatiques et germinaux prennent une importance thérapeutique croissante, notamment pour les voies de réparation de l'ADN."
           },
           {
             "label": "Conséquence patient–famille–traitement",
-            "detail": "Le test germinal recherche dans le sang ou la salive une variation constitutionnelle susceptible de concerner le patient et sa famille."
+            "detail": "Décision au checkpoint — Les finalités, les prélèvements et les implications diffèrent."
           }
         ]
       },

@@ -34,9 +34,9 @@
   },
   "assignments": {
     "special_01_frailty": { "type": "balance", "label": "Balance clinique" },
-    "special_02_ibd": { "type": "anatomy-map", "label": "Carte anatomique digestive" },
-    "special_03_turp": { "type": "anatomy-map", "label": "Anatomie après TURP" },
-    "special_04_hip": { "type": "motion-map", "label": "Artefact et géométrie" },
+    "special_02_ibd": { "type": "matrix", "label": "Preuve–risque réel–réduction d’exposition" },
+    "special_03_turp": { "type": "anatomy-map", "label": "Anatomie conceptuelle + audit post-TURP" },
+    "special_04_hip": { "type": "anatomy-map", "label": "Scanner métallique + gates de planification" },
     "special_05_stage_migration": { "type": "parallel-paths", "label": "Double carte de stadification" },
 
     "deferred_01_active_surveillance": { "type": "monitoring-loop", "label": "Boucle de surveillance" },
@@ -49,8 +49,8 @@
     "definitive_rt_02_moderate_hypofractionation": { "type": "treatment-calendar", "label": "Calendrier de fractionnement" },
     "definitive_rt_03_sbrt": { "type": "treatment-calendar", "label": "Calendrier stéréotaxique" },
     "definitive_rt_04_brachytherapy": { "type": "split-path", "label": "Deux intentions de curiethérapie" },
-    "definitive_rt_05_pelvis": { "type": "target-map", "label": "Carte des volumes" },
-    "definitive_rt_06_boost": { "type": "target-map", "label": "Carte de boost focal" },
+    "definitive_rt_05_pelvis": { "type": "matrix", "label": "Matrice cible locale–gate pelvien–preuves" },
+    "definitive_rt_06_boost": { "type": "matrix", "label": "Comparaison des intensifications locales" },
     "definitive_rt_07_adt": { "type": "timeline", "label": "Frise ADT–radiothérapie" },
 
     "followup_01_psa": { "type": "curve", "label": "Courbe de PSA" },
@@ -65,12 +65,12 @@
     "highrisk_01_state_definition": { "type": "matrix", "label": "Matrice d’état de maladie" },
     "highrisk_02_local_pathways": { "type": "parallel-paths", "label": "Parcours multimodaux" },
     "highrisk_03_systemic_intensification": { "type": "staircase", "label": "Escalade thérapeutique" },
-    "highrisk_04_cn1_m0": { "type": "target-map", "label": "Carte prostate–pelvis–ganglion" },
+    "highrisk_04_cn1_m0": { "type": "parallel-paths", "label": "Parcours locorégional + systémique" },
     "highrisk_05_divergence": { "type": "evidence-bridge", "label": "Arbitrage des recommandations" },
 
     "hspc_01_burden_synchrony": { "type": "matrix", "label": "Matrice volume–risque–synchronie" },
     "hspc_01_doublet_triplet": { "type": "parallel-paths", "label": "Doublet ou triplet" },
-    "hspc_02_primary_rt": { "type": "evidence-bridge", "label": "Transposition de la population de preuve" },
+    "hspc_02_primary_rt": { "type": "matrix", "label": "Population–résultat–applicabilité" },
     "hspc_03_nmcrpc": { "type": "gate", "label": "Trois conditions cumulatives" },
     "hspc_04_bone": { "type": "body-map", "label": "Carte des métastases osseuses" },
 
@@ -97,18 +97,18 @@
     "postrp_03_psma": { "type": "decision-tree", "label": "Impact décisionnel du TEP-PSMA" },
     "postrp_04_early_salvage": { "type": "timeline", "label": "Fenêtre de rattrapage" },
     "postrp_05_adt": { "type": "treatment-calendar", "label": "Calendrier RT–ADT" },
-    "postrp_06_technique": { "type": "anatomy-map", "label": "Lit prostatique sans glande" },
+    "postrp_06_technique": { "type": "anatomy-map", "label": "Repères anatomiques conceptuels + audit" },
 
     "postrt_01_local_salvage": { "type": "gate", "label": "Conditions du rattrapage local" },
-    "oligorec_02_nodal": { "type": "target-map", "label": "Cible visible et territoire ganglionnaire" },
+    "oligorec_02_nodal": { "type": "matrix", "label": "Comparaison PEACE V–STORM" },
     "oligorec_03_uncertainty": { "type": "evidence-bridge", "label": "Bénéfice intermédiaire et incertitude" },
     "oligorec_04_mdt_rt": { "type": "body-map", "label": "Carte multi-sites" },
 
-    "planning_01_simulation": { "type": "anatomy-map", "label": "Anatomie reproductible" },
-    "planning_02_targets": { "type": "target-map", "label": "Carte GTV–CTV–PTV" },
+    "planning_01_simulation": { "type": "anatomy-map", "label": "Scanner annoté + gates de simulation" },
+    "planning_02_targets": { "type": "target-map", "label": "Scanner annoté + principe GTV–CTV–PTV" },
     "planning_03_oar": { "type": "anatomy-map", "label": "Voisinage des organes à risque" },
     "planning_04_dvh": { "type": "curve", "label": "Courbes dose–volume" },
-    "planning_05_igrt": { "type": "motion-map", "label": "Correction guidée par l’image" },
+    "planning_05_igrt": { "type": "motion-map", "label": "Double repère IGRT" },
     "planning_06_audit": { "type": "checklist", "label": "Audit de prétraitement" },
 
     "staging_01_tnm": { "type": "layered-map", "label": "Carte TNM" },

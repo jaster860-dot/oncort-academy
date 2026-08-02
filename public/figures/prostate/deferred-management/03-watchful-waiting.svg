@@ -1,23 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
-  <title id="title">Abstention-surveillance : privilégier la qualité de vie quand le curatif n&apos;apporterait pas de bénéfice utile</title>
-  <desc id="desc">Balance d’horizons pour « Abstention-surveillance : privilégier la qualité de vie quand le curatif n&apos;apporterait pas de bénéfice utile ». Repères représentés : État de santé global ; Bénéfice curatif improbable à l&apos;horizon utile ; Suivi clinique individualisé ; Traitement palliatif si symptômes ou menace.</desc>
-  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
-  <rect width="1376" height="768" fill="#FFF8E8"/>
-  <rect width="18" height="768" fill="#007C83"/>
-  <text x="60" y="46" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83" letter-spacing="2">ONCORT ACADEMY · PROSTATE</text>
-  <rect x="60" y="62" width="214" height="34" rx="17" fill="#DDF3F1"/>
-  <text x="77" y="85" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83">BALANCE D’HORIZONS</text>
-  <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="60" dy="0">Abstention-surveillance : privilégier la qualité de vie quand</tspan><tspan x="60" dy="39">le curatif n&apos;apporterait pas de bénéfice utile</tspan></text>
-  <line x1="688" y1="300" x2="688" y2="565" stroke="#24313A" stroke-width="12" stroke-linecap="round"/>
-    <line x1="388" y1="335" x2="988" y2="335" stroke="#24313A" stroke-width="10" stroke-linecap="round"/>
-    <path d="M 388 335 L 275 515 H 501 Z" fill="#E5EEF8" stroke="#2563A6" stroke-width="4"/>
-    <path d="M 988 335 L 875 515 H 1101 Z" fill="#FCE8C8" stroke="#D97706" stroke-width="4"/>
-    <path d="M 575 590 Q 688 515 801 590 Z" fill="#DDF3F1" stroke="#007C83" stroke-width="4"/>
-    <text x="388" y="440" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="750" fill="#24313A" text-anchor="middle"><tspan x="388" dy="0">État de santé global</tspan></text>
-    <text x="988" y="440" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="750" fill="#24313A" text-anchor="middle"><tspan x="988" dy="0">Bénéfice curatif</tspan><tspan x="988" dy="23">improbable à</tspan><tspan x="988" dy="23">l&apos;horizon utile</tspan></text>
-    <g><rect x="550" y="210" width="276" height="86" rx="20" fill="#FFFCF4" stroke="#007C83" stroke-width="3"/><text x="688" y="248.86" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="688" dy="0">Suivi clinique</tspan><tspan x="688" dy="21">individualisé</tspan></text></g>
-    <text x="688" y="625" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#007C83" text-anchor="middle"><tspan x="688" dy="0">Traitement palliatif si</tspan><tspan x="688" dy="22">symptômes ou menace</tspan></text>
-  <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
-  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Balance d’horizons · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
-  </svg>
+<title id="title">Abstention-surveillance : une intention palliative différée</title>
+<desc id="desc">Comparaison entre surveillance active et abstention-surveillance, centrée sur intention, population, suivi et déclencheur d’intervention.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#24313A"/></marker></defs>
+<rect width="1376" height="768" fill="#FFF8E8"/>
+<rect width="18" height="768" fill="#007C83"/>
+<text x="58" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="1.8">ONCORT ACADEMY · PROSTATE</text>
+<rect x="58" y="51" width="340" height="32" rx="16" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="76" y="73" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="0.7">COMPARAISON D’INTENTIONS</text>
+<text x="58" y="122" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#24313A" text-anchor="start" letter-spacing="0">Abstention-surveillance : une intention palliative différée</text>
+<rect x="58" y="152" width="602" height="394" rx="18" fill="#FFFFFF" stroke="#2563A6" stroke-width="3"/>
+<text x="84" y="188" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="850" fill="#2563A6" text-anchor="start" letter-spacing="0">SURVEILLANCE ACTIVE</text>
+<rect x="84" y="216" width="550" height="52" rx="13" fill="#E5EEF8" stroke="#2563A6" stroke-width="2"/>
+<text x="359" y="249" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="850" fill="#2563A6" text-anchor="middle" letter-spacing="0">INTENTION CURATIVE CONSERVÉE</text>
+<text x="84" y="310" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="84" dy="0">Bénéfice curatif encore attendu</tspan><tspan x="84" dy="48">PSA + clinique + IRM + biopsies</tspan><tspan x="84" dy="48">Reclassification tumorale</tspan><tspan x="84" dy="48">→ traitement radical différé</tspan></text>
+<rect x="692" y="152" width="602" height="394" rx="18" fill="#FFFFFF" stroke="#D97706" stroke-width="3"/>
+<text x="718" y="188" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="850" fill="#D97706" text-anchor="start" letter-spacing="0">ABSTENTION–SURVEILLANCE</text>
+<rect x="718" y="216" width="550" height="52" rx="13" fill="#FCE8C8" stroke="#D97706" stroke-width="2"/>
+<text x="993" y="249" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="850" fill="#D97706" text-anchor="middle" letter-spacing="0">QUALITÉ DE VIE / PALLIATIF SI BESOIN</text>
+<text x="718" y="310" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="718" dy="0">Bénéfice curatif non utile attendu</tspan><tspan x="718" dy="48">souvent espérance de vie &lt; 10 ans</tspan><tspan x="718" dy="48">Suivi clinique individualisé</tspan><tspan x="718" dy="48">→ traiter symptômes ou menace</tspan></text>
+<rect x="58" y="576" width="1236" height="100" rx="15" fill="#F8DDD7" stroke="#C85C4A" stroke-width="2"/>
+<text x="82" y="608" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="850" fill="#C85C4A" text-anchor="start" letter-spacing="0">L’ÂGE SEUL NE DÉCIDE PAS</text>
+<text x="82" y="638" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="82" dy="0">Comorbidités · fragilité · autonomie · risque tumoral · délai avant bénéfice · préférences</tspan><tspan x="82" dy="25">L’abstention-surveillance peut concerner tout groupe de risque si les risques concurrents dominent.</tspan></text>
+<rect x="58" y="700" width="1260" height="42" rx="12" fill="#24313A" stroke="#24313A" stroke-width="0"/>
+<text x="78" y="727" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="start" letter-spacing="0">SOURCES · CCAFU 2024–2026 · EAU 2026</text>
+<text x="1298" y="727" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#BBD8D2" text-anchor="end" letter-spacing="0">SYNTHÈSE ÉDUCATIVE · DONNÉES AGRÉGÉES</text>
+</svg>

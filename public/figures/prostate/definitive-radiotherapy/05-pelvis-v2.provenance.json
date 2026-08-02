@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/definitive-radiotherapy/05-pelvis-v2.png",
+  "purpose": "Separate local target definition from the disputed cN0 pelvic irradiation decision.",
+  "source": {
+    "license": "Original deterministic synthesis; no third-party figure reused",
+    "guidelines": [
+      {
+        "id": "sfro_recorad_prostate_2025",
+        "locator": "Target-volume and pelvic-irradiation sections"
+      },
+      {
+        "id": "ccafu_localised_2024_2026",
+        "locator": "Localised high-risk disease summary only; full-text boundary retained"
+      },
+      {
+        "id": "eau_prostate_2026",
+        "locator": "Definitive radiotherapy / pelvic nodal irradiation"
+      }
+    ]
+  },
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null,
+  "limitations": [
+    "This is a decision-support synthesis, not a contouring atlas.",
+    "The figure does not replace the full recommendations or local protocol.",
+    "No universal pelvic indication is inferred from PSMA imaging alone."
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/complex-special-situations/02-ibd-v2.png",
+  "purpose": "Convert limited heterogeneous evidence into an explicit patient-qualification and mitigation workflow.",
+  "source": {
+    "license": "Original deterministic synthesis; no third-party figure reused",
+    "reviews": [
+      {
+        "id": "trotta_ibd_prostate_rt_2023",
+        "doi": "10.1016/j.prro.2023.04.006",
+        "pmid": "37100389"
+      }
+    ],
+    "guidelines": [
+      {
+        "id": "sfro_recorad_prostate_2025"
+      },
+      {
+        "id": "eau_prostate_2026"
+      }
+    ]
+  },
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null,
+  "limitations": [
+    "The evidence base is retrospective and heterogeneous.",
+    "Active IBD, pelvic nodal RT and prior IBD surgery were underrepresented.",
+    "No individual toxicity probability is displayed or implied."
+  ]
+}

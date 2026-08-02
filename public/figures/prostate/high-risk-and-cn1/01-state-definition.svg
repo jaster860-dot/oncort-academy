@@ -1,23 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
-  <title id="title">Définir l&apos;état de maladie avant d&apos;intensifier</title>
-  <desc id="desc">Matrice d’état de maladie pour « Définir l&apos;état de maladie avant d&apos;intensifier ». Repères représentés : Critères tumoraux ; cT/cN/cM et modalité d&apos;imagerie ; Population de preuve ; Stratégie applicable ou extrapolée.</desc>
-  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
-  <rect width="1376" height="768" fill="#FFF8E8"/>
-  <rect width="18" height="768" fill="#007C83"/>
-  <text x="60" y="46" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83" letter-spacing="2">ONCORT ACADEMY · PROSTATE</text>
-  <rect x="60" y="62" width="284" height="34" rx="17" fill="#DDF3F1"/>
-  <text x="77" y="85" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83">MATRICE D’ÉTAT DE MALADIE</text>
-  <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="60" dy="0">Définir l&apos;état de maladie avant d&apos;intensifier</tspan></text>
-  <g><rect x="145" y="238" width="510" height="170" rx="22" fill="#DDF3F1" stroke="#007C83" stroke-width="3"/>
-    <text x="187" y="296" font-family="Arial" font-size="34" font-weight="850" fill="#007C83">01</text>
-    <text x="187" y="337" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="187" dy="0">Critères tumoraux</tspan></text></g><g><rect x="720" y="238" width="510" height="170" rx="22" fill="#E5EEF8" stroke="#2563A6" stroke-width="3"/>
-    <text x="762" y="296" font-family="Arial" font-size="34" font-weight="850" fill="#2563A6">02</text>
-    <text x="762" y="337" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="762" dy="0">cT/cN/cM et modalité d&apos;imagerie</tspan></text></g><g><rect x="145" y="452" width="510" height="170" rx="22" fill="#FCE8C8" stroke="#D97706" stroke-width="3"/>
-    <text x="187" y="510" font-family="Arial" font-size="34" font-weight="850" fill="#D97706">03</text>
-    <text x="187" y="551" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="187" dy="0">Population de preuve</tspan></text></g><g><rect x="720" y="452" width="510" height="170" rx="22" fill="#FFFCF4" stroke="#24313A" stroke-width="3"/>
-    <text x="762" y="510" font-family="Arial" font-size="34" font-weight="850" fill="#24313A">04</text>
-    <text x="762" y="551" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="762" dy="0">Stratégie applicable ou</tspan><tspan x="762" dy="26">extrapolée</tspan></text></g><line x1="688" y1="225" x2="688" y2="638" stroke="#D8D5C9" stroke-width="2"/><line x1="130" y1="430" x2="1245" y2="430" stroke="#D8D5C9" stroke-width="2"/>
-  <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
-  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Matrice d’état de maladie · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
-  </svg>
+<title id="title">Haut risque : trois dimensions à documenter séparément</title>
+<desc id="desc">Trois colonnes séparent les facteurs de risque local, la topographie ganglionnaire et la méthode d’imagerie afin d’éviter de confondre haut risque, cN1 et M1a.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#24313A"/></marker></defs>
+<rect width="1376" height="768" fill="#FFF8E8"/>
+<rect width="18" height="768" fill="#007C83"/>
+<text x="58" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="1.8">ONCORT ACADEMY · PROSTATE</text>
+<rect x="58" y="51" width="340" height="32" rx="16" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="76" y="73" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="0.7">CARTE DE DÉFINITION DE L’ÉTAT</text>
+<text x="58" y="122" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#24313A" text-anchor="start" letter-spacing="0">Haut risque : trois dimensions à documenter séparément</text>
+<rect x="58" y="153" width="392" height="424" rx="18" fill="#FFFFFF" stroke="#007C83" stroke-width="3"/>
+<text x="84" y="188" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="850" fill="#007C83" text-anchor="start" letter-spacing="0.7">1 · RISQUE LOCAL</text>
+<rect x="84" y="218" width="340" height="48" rx="12" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="102" y="249" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">PSA</text>
+<rect x="84" y="278" width="340" height="48" rx="12" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="102" y="309" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">ISUP 4–5</text>
+<rect x="84" y="338" width="340" height="48" rx="12" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="102" y="369" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">cT3–4</text>
+<rect x="84" y="398" width="340" height="48" rx="12" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="102" y="429" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">atteinte vésiculaire</text>
+<rect x="84" y="474" width="340" height="76" rx="13" fill="#F8DDD7" stroke="#C85C4A" stroke-width="2"/>
+<text x="101" y="503" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#C85C4A" text-anchor="start"><tspan x="101" dy="0">L’étiquette ne fixe ni volume ni traitement.</tspan></text>
+<rect x="480" y="153" width="392" height="424" rx="18" fill="#FFFFFF" stroke="#2563A6" stroke-width="3"/>
+<text x="506" y="188" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="850" fill="#2563A6" text-anchor="start" letter-spacing="0.7">2 · TOPOGRAPHIE N</text>
+<rect x="506" y="218" width="340" height="48" rx="12" fill="#E5EEF8" stroke="#E5EEF8" stroke-width="0"/>
+<text x="524" y="249" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Pelvien régional → cN1</text>
+<rect x="506" y="278" width="340" height="48" rx="12" fill="#E5EEF8" stroke="#E5EEF8" stroke-width="0"/>
+<text x="524" y="309" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Non régional → M1a</text>
+<rect x="506" y="338" width="340" height="48" rx="12" fill="#E5EEF8" stroke="#E5EEF8" stroke-width="0"/>
+<text x="524" y="369" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Nommer la chaîne</text>
+<rect x="506" y="398" width="340" height="48" rx="12" fill="#E5EEF8" stroke="#E5EEF8" stroke-width="0"/>
+<text x="524" y="429" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Nommer taille / nombre</text>
+<rect x="506" y="474" width="340" height="76" rx="13" fill="#F8DDD7" stroke="#C85C4A" stroke-width="2"/>
+<text x="523" y="503" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#C85C4A" text-anchor="start"><tspan x="523" dy="0">cN1 n’est pas synonyme de M1a.</tspan></text>
+<rect x="902" y="153" width="392" height="424" rx="18" fill="#FFFFFF" stroke="#D97706" stroke-width="3"/>
+<text x="928" y="188" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="850" fill="#D97706" text-anchor="start" letter-spacing="0.7">3 · ÈRE D’IMAGERIE</text>
+<rect x="928" y="218" width="340" height="48" rx="12" fill="#FCE8C8" stroke="#FCE8C8" stroke-width="0"/>
+<text x="946" y="249" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">CT / scintigraphie</text>
+<rect x="928" y="278" width="340" height="48" rx="12" fill="#FCE8C8" stroke="#FCE8C8" stroke-width="0"/>
+<text x="946" y="309" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">TEP-PSMA</text>
+<rect x="928" y="338" width="340" height="48" rx="12" fill="#FCE8C8" stroke="#FCE8C8" stroke-width="0"/>
+<text x="946" y="369" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Concordant ou PSMA-only</text>
+<rect x="928" y="398" width="340" height="48" rx="12" fill="#FCE8C8" stroke="#FCE8C8" stroke-width="0"/>
+<text x="946" y="429" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Migration de stade tracée</text>
+<rect x="928" y="474" width="340" height="76" rx="13" fill="#F8DDD7" stroke="#C85C4A" stroke-width="2"/>
+<text x="945" y="503" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#C85C4A" text-anchor="start"><tspan x="945" dy="0">Détection moderne ≠ population historique.</tspan></text>
+<rect x="58" y="604" width="1236" height="72" rx="15" fill="#24313A" stroke="#24313A" stroke-width="0"/>
+<text x="82" y="632" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#BBD8D2" text-anchor="start" letter-spacing="0.8">SORTIE RCP</text>
+<text x="82" y="658" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="750" fill="#FFFFFF" text-anchor="start" letter-spacing="0">Critères bruts + cTNM + chaînes ganglionnaires + modalité d’imagerie + incertitude de migration</text>
+<rect x="58" y="700" width="1260" height="42" rx="12" fill="#24313A" stroke="#24313A" stroke-width="0"/>
+<text x="78" y="727" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="start" letter-spacing="0">SOURCES · CCAFU 2024–2026 · EAU 2026 · STAMPEDE M0</text>
+<text x="1298" y="727" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#BBD8D2" text-anchor="end" letter-spacing="0">SYNTHÈSE ÉDUCATIVE · DONNÉES AGRÉGÉES</text>
+</svg>

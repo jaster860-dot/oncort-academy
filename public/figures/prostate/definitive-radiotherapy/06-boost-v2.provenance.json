@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/definitive-radiotherapy/06-boost-v2.png",
+  "purpose": "Compare whole-gland escalation, MRI-defined external focal boost, and brachytherapy boost without implying equivalence.",
+  "source": {
+    "license": "Original deterministic synthesis; no third-party figure reused",
+    "guidelines": [
+      {
+        "id": "sfro_recorad_prostate_2025",
+        "locator": "Dose escalation, focal boost and brachytherapy sections"
+      },
+      {
+        "id": "ccafu_localised_2024_2026",
+        "locator": "Metadata/summary boundary retained"
+      },
+      {
+        "id": "eau_prostate_2026",
+        "locator": "Definitive radiotherapy"
+      }
+    ]
+  },
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null,
+  "limitations": [
+    "No dose distribution or patient lesion is displayed.",
+    "The figure does not claim overall-survival benefit.",
+    "Technique selection remains patient- and centre-dependent."
+  ]
+}

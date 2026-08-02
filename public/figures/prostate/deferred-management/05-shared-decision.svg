@@ -1,22 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
-  <title id="title">Décision partagée : comparer des parcours et leurs conséquences</title>
-  <desc id="desc">Comparaison de trajectoires pour « Décision partagée : comparer des parcours et leurs conséquences ». Repères représentés : Options admissibles ; Bénéfices–risques–incertitudes ; Valeurs du patient ; Choix documenté et révisable.</desc>
-  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
-  <rect width="1376" height="768" fill="#FFF8E8"/>
-  <rect width="18" height="768" fill="#007C83"/>
-  <text x="60" y="46" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83" letter-spacing="2">ONCORT ACADEMY · PROSTATE</text>
-  <rect x="60" y="62" width="304" height="34" rx="17" fill="#DDF3F1"/>
-  <text x="77" y="85" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83">COMPARAISON DE TRAJECTOIRES</text>
-  <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="60" dy="0">Décision partagée : comparer des parcours et leurs</tspan><tspan x="60" dy="39">conséquences</tspan></text>
-  <path d="M 345 390 L 535 300" fill="none" stroke="#2563A6" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/><path d="M 345 390 L 535 510" fill="none" stroke="#D97706" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
-    <path d="M 830 300 L 1025 390" fill="none" stroke="#2563A6" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/><path d="M 830 510 L 1025 390" fill="none" stroke="#D97706" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
-    <g><rect x="95" y="338" width="240" height="105" rx="20" fill="#DDF3F1" stroke="#007C83" stroke-width="3"/><text x="215" y="397.15" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="215" dy="0">Options admissibles</tspan></text></g>
-    <g><rect x="535" y="240" width="295" height="120" rx="20" fill="#E5EEF8" stroke="#2563A6" stroke-width="3"/><text x="682.5" y="307.35" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="682.5" dy="0">Bénéfices–risques–incertitudes</tspan></text></g>
-    <g><rect x="535" y="450" width="295" height="120" rx="20" fill="#FCE8C8" stroke="#D97706" stroke-width="3"/><text x="682.5" y="517.35" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="682.5" dy="0">Valeurs du patient</tspan></text></g>
-    <g><rect x="1025" y="338" width="260" height="105" rx="20" fill="#FFFCF4" stroke="#24313A" stroke-width="3"/><text x="1155" y="386.13" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="1155" dy="0">Choix documenté et</tspan><tspan x="1155" dy="22">révisable</tspan></text></g>
-    <text x="682" y="218" font-family="Arial" font-size="15" font-weight="800" fill="#2563A6" text-anchor="middle">PARCOURS A</text>
-    <text x="682" y="430" font-family="Arial" font-size="15" font-weight="800" fill="#D97706" text-anchor="middle">PARCOURS B</text>
-  <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
-  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Comparaison de trajectoires · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
-  </svg>
+<title id="title">Décision partagée : comparer des trajectoires complètes et révisables</title>
+<desc id="desc">Matrice de décision partagée comparant bénéfice, délai, toxicité, charge de suivi et rattrapage, puis documentant préférences et plan de réévaluation.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#24313A"/></marker></defs>
+<rect width="1376" height="768" fill="#FFF8E8"/>
+<rect width="18" height="768" fill="#007C83"/>
+<text x="58" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="1.8">ONCORT ACADEMY · PROSTATE</text>
+<rect x="58" y="51" width="340" height="32" rx="16" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="76" y="73" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="0.7">MATRICE DE DÉLIBÉRATION</text>
+<text x="58" y="122" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#24313A" text-anchor="start" letter-spacing="0">Décision partagée : comparer des trajectoires complètes et révisables</text>
+<rect x="58" y="152" width="1236" height="306" rx="18" fill="#FFFFFF" stroke="#007C83" stroke-width="3"/>
+<rect x="58" y="152" width="1236" height="56" rx="18" fill="#24313A"/>
+<text x="80" y="187" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#FFFFFF" text-anchor="start" letter-spacing="0">TRAJECTOIRE</text>
+<text x="340" y="187" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#FFFFFF" text-anchor="start" letter-spacing="0">BÉNÉFICE / DÉLAI</text>
+<text x="640" y="187" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#FFFFFF" text-anchor="start" letter-spacing="0">TOXICITÉS / CHARGE</text>
+<text x="1010" y="187" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#FFFFFF" text-anchor="start" letter-spacing="0">SUITE POSSIBLE</text>
+<rect x="59" y="208" width="1234" height="82" fill="#DDF3F1" opacity="0.75"/>
+<text x="80" y="257" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="850" fill="#24313A" text-anchor="start" letter-spacing="0">Surveillance active</text>
+<text x="340" y="257" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Curatif conservé</text>
+<text x="640" y="257" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">IRM / biopsies / incertitude</text>
+<text x="1010" y="257" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Traitement différé si reclassement</text>
+<rect x="59" y="290" width="1234" height="82" fill="#FCE8C8" opacity="0.75"/>
+<text x="80" y="339" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="850" fill="#24313A" text-anchor="start" letter-spacing="0">Abstention-surveillance</text>
+<text x="340" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Pas de bénéfice curatif utile</text>
+<text x="640" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Suivi clinique allégé</text>
+<text x="1010" y="339" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Palliatif si symptômes / menace</text>
+<rect x="59" y="372" width="1234" height="82" fill="#E5EEF8" opacity="0.75"/>
+<text x="80" y="421" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="850" fill="#24313A" text-anchor="start" letter-spacing="0">Traitement radical</text>
+<text x="340" y="421" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Contrôle local attendu</text>
+<text x="640" y="421" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Urinaire / sexuel / digestif</text>
+<text x="1010" y="421" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">Suivi + rattrapage selon option</text>
+<rect x="58" y="490" width="602" height="186" rx="17" fill="#E5EEF8" stroke="#2563A6" stroke-width="2"/>
+<text x="82" y="524" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="850" fill="#2563A6" text-anchor="start" letter-spacing="0">DOCUMENTER</text>
+<text x="82" y="558" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="82" dy="0">Options présentées</tspan><tspan x="82" dy="29">Incertitudes</tspan><tspan x="82" dy="29">Priorités du patient</tspan><tspan x="82" dy="29">Choix et raisons</tspan></text>
+<rect x="692" y="490" width="602" height="186" rx="17" fill="#FCE8C8" stroke="#D97706" stroke-width="2"/>
+<text x="716" y="524" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="850" fill="#D97706" text-anchor="start" letter-spacing="0">RÉVISER</text>
+<text x="716" y="558" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="716" dy="0">Calendrier</tspan><tspan x="716" dy="29">Seuils de réévaluation</tspan><tspan x="716" dy="29">Évolution de santé / préférences</tspan><tspan x="716" dy="29">Changer de trajectoire ≠ erreur initiale</tspan></text>
+<rect x="58" y="700" width="1260" height="42" rx="12" fill="#24313A" stroke="#24313A" stroke-width="0"/>
+<text x="78" y="727" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="start" letter-spacing="0">SOURCES · CCAFU 2024–2026 · EAU 2026 · RecoRad 2025</text>
+<text x="1298" y="727" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#BBD8D2" text-anchor="end" letter-spacing="0">SYNTHÈSE ÉDUCATIVE · DONNÉES AGRÉGÉES</text>
+</svg>

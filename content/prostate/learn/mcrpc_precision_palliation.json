@@ -121,24 +121,24 @@
         "formatLabel": "Trajectoire vers le mCRPC",
         "title": "Confirmer le mCRPC et cartographier la trajectoire",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/01-state.svg",
-        "altText": "Trajectoire vers le mCRPC pour « Confirmer le mCRPC et cartographier la trajectoire ». Repères représentés : Castration + progression + M1 ; Expositions et réponses ; Phénotype actuel ; Options réellement disponibles.",
-        "caption": "Trajectoire vers le mCRPC : Castration + progression + M1 · Expositions et réponses · Phénotype actuel · Options réellement disponibles. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Gate diagnostique du mCRPC exigeant testostérone au niveau de castration, progression documentée et maladie métastatique. Quatre colonnes reconstruisent ensuite l’historique thérapeutique, le phénotype actuel, les réserves du patient et l’actionnabilité réelle des options.",
+        "caption": "Le mCRPC est un état longitudinal, pas un PSA. La castration biologique, la progression et le statut métastatique doivent être confirmés, puis chaque option est confrontée aux expositions, réponses, toxicités, sites de progression, réserves médullaires et viscérales, biomarqueurs, accès et préférence. Une progression clinique ou viscérale peut être discordante du PSA.",
         "items": [
           {
             "label": "Castration + progression + M1",
-            "detail": "Le mCRPC requiert testostérone au niveau de castration, progression documentée et maladie métastatique."
+            "detail": "Un état, pas un PSA — Le mCRPC requiert testostérone au niveau de castration, progression documentée et maladie métastatique."
           },
           {
             "label": "Expositions et réponses",
-            "detail": "La RCP recense ARPI, docétaxel, PARP, radiopharmaceutiques, réponses, durées, toxicités, biomarqueurs et accès."
+            "detail": "La trajectoire décide — La RCP recense ARPI, docétaxel, PARP, radiopharmaceutiques, réponses, durées, toxicités, biomarqueurs et accès."
           },
           {
             "label": "Phénotype actuel",
-            "detail": "Le mCRPC est une décision longitudinale fondée sur l'état actuel et tout l'historique."
+            "detail": "Application et limite — Le mCRPC est une décision longitudinale fondée sur l'état actuel et tout l'historique."
           },
           {
             "label": "Options réellement disponibles",
-            "detail": "Le mCRPC requiert testostérone au niveau de castration, progression documentée et maladie métastatique."
+            "detail": "Décision au checkpoint — Le mCRPC est une décision longitudinale fondée sur l'état actuel et tout l'historique."
           }
         ]
       },
@@ -230,24 +230,24 @@
         "formatLabel": "Parcours du test moléculaire",
         "title": "Oncologie de précision : tester assez tôt et au bon niveau",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/02-testing.svg",
-        "altText": "Parcours du test moléculaire pour « Oncologie de précision : tester assez tôt et au bon niveau ». Repères représentés : Question germinale/somatique ; Matrice et qualité ; Interprétation multidisciplinaire ; Traitement et implications familiales.",
-        "caption": "Parcours du test moléculaire : Question germinale/somatique · Matrice et qualité · Interprétation multidisciplinaire · Traitement et implications familiales. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Parcours du test moléculaire pour « Oncologie de précision : tester assez tôt et au bon niveau ». Le schéma relie Question germinale/somatique ; Matrice et qualité ; Interprétation multidisciplinaire ; Traitement et implications familiales sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Parcours du test moléculaire : Question germinale/somatique · Matrice et qualité · Interprétation multidisciplinaire · Traitement et implications familiales. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Question germinale/somatique",
-            "detail": "Le germinal recherche une prédisposition transmissible ; le somatique recherche des altérations tumorales actionnables."
+            "detail": "Deux questions complémentaires — Le germinal recherche une prédisposition transmissible ; le somatique recherche des altérations tumorales actionnables."
           },
           {
             "label": "Matrice et qualité",
-            "detail": "Qualité et ancienneté du tissu, fraction tumorale du plasma, traitements intermédiaires et panel utilisé influencent le résultat."
+            "detail": "Un résultat négatif a des limites — Qualité et ancienneté du tissu, fraction tumorale du plasma, traitements intermédiaires et panel utilisé influencent le résultat."
           },
           {
             "label": "Interprétation multidisciplinaire",
-            "detail": "Le temps, la qualité de l'échantillon et les implications familiales font partie du parcours."
+            "detail": "Application et limite — Le temps, la qualité de l'échantillon et les implications familiales font partie du parcours."
           },
           {
             "label": "Traitement et implications familiales",
-            "detail": "Le germinal recherche une prédisposition transmissible ; le somatique recherche des altérations tumorales actionnables."
+            "detail": "Décision au checkpoint — Le temps, la qualité de l'échantillon et les implications familiales font partie du parcours."
           }
         ]
       },
@@ -341,24 +341,24 @@
         "formatLabel": "Voie HRR–PARP",
         "title": "HRR/BRCA et PARP : lire le gène, la ligne et le partenaire",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/03-parp.svg",
-        "altText": "Voie HRR–PARP pour « HRR/BRCA et PARP : lire le gène, la ligne et le partenaire ». Repères représentés : Altération HRR qualifiée ; Indication réglementaire ; Expositions antérieures ; PARP et surveillance.",
-        "caption": "Voie HRR–PARP : Altération HRR qualifiée · Indication réglementaire · Expositions antérieures · PARP et surveillance. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Voie HRR–PARP pour « HRR/BRCA et PARP : lire le gène, la ligne et le partenaire ». Le schéma relie Altération HRR qualifiée ; Indication réglementaire ; Expositions antérieures ; PARP et surveillance sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Voie HRR–PARP : Altération HRR qualifiée · Indication réglementaire · Expositions antérieures · PARP et surveillance. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Altération HRR qualifiée",
-            "detail": "Le signal thérapeutique est généralement le plus robuste pour BRCA1/2, particulièrement BRCA2 ; l'ampleur est plus incertaine pour plusieurs autres gènes HRR."
+            "detail": "Tous les HRR ne se valent pas — Le signal thérapeutique est généralement le plus robuste pour BRCA1/2, particulièrement BRCA2 ; l'ampleur est plus incertaine pour plusieurs autres gènes HRR."
           },
           {
             "label": "Indication réglementaire",
-            "detail": "Monothérapie ou combinaison avec ARPI dépend de la molécule, du biomarqueur, de la ligne et de l'exposition antérieure."
+            "detail": "Une indication précise — Monothérapie ou combinaison avec ARPI dépend de la molécule, du biomarqueur, de la ligne et de l'exposition antérieure."
           },
           {
             "label": "Expositions antérieures",
-            "detail": "Le bénéfice et l'accès dépendent du biomarqueur et de la séquence exacts."
+            "detail": "Application et limite — Le bénéfice et l'accès dépendent du biomarqueur et de la séquence exacts."
           },
           {
             "label": "PARP et surveillance",
-            "detail": "Le signal thérapeutique est généralement le plus robuste pour BRCA1/2, particulièrement BRCA2 ; l'ampleur est plus incertaine pour plusieurs autres gènes HRR."
+            "detail": "Décision au checkpoint — Le bénéfice et l'accès dépendent du biomarqueur et de la séquence exacts."
           }
         ]
       },
@@ -450,24 +450,24 @@
         "formatLabel": "Filtre des biomarqueurs rares",
         "title": "MSI/MMR et biomarqueurs rares : chercher sans surpromettre",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/04-rare-biomarkers.svg",
-        "altText": "Filtre des biomarqueurs rares pour « MSI/MMR et biomarqueurs rares : chercher sans surpromettre ». Repères représentés : Biomarqueur validé ; Niveau de preuve ; Accès ; Option ou essai clinique.",
-        "caption": "Filtre des biomarqueurs rares : Biomarqueur validé · Niveau de preuve · Accès · Option ou essai clinique. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice d’actionnabilité comparant MSI-H ou dMMR, TMB élevé, CDK12 et autres marqueurs selon validation du test, portée clinique et accès. Elle distingue une option potentielle d’immunothérapie d’hypothèses contextuelles ou exploratoires.",
+        "caption": "Pour un biomarqueur rare, validation analytique, interprétation, niveau de preuve, indication et accès sont des questions distinctes. MSI-H ou dMMR peut ouvrir une immunothérapie selon ligne et juridiction ; TMB, CDK12 et d’autres signaux ne deviennent pas automatiquement des standards. La plausibilité biologique ne vaut ni actionnabilité ni remboursement.",
         "items": [
           {
             "label": "Biomarqueur validé",
-            "detail": "MSI-H ou déficit MMR est rare dans le cancer de la prostate mais peut ouvrir une option d'immunothérapie selon juridiction et ligne."
+            "detail": "Un petit sous-groupe potentiellement actionnable — MSI-H ou déficit MMR est rare dans le cancer de la prostate mais peut ouvrir une option d'immunothérapie selon juridiction et ligne."
           },
           {
             "label": "Niveau de preuve",
-            "detail": "TMB élevé, altérations CDK12 ou autres marqueurs peuvent avoir une valeur exploratoire ou contextuelle."
+            "detail": "Rareté n'est pas certitude — TMB élevé, altérations CDK12 ou autres marqueurs peuvent avoir une valeur exploratoire ou contextuelle."
           },
           {
             "label": "Accès",
-            "detail": "La rareté n'annule pas l'intérêt, mais impose une traçabilité stricte."
+            "detail": "Application et limite — La rareté n'annule pas l'intérêt, mais impose une traçabilité stricte."
           },
           {
             "label": "Option ou essai clinique",
-            "detail": "MSI-H ou déficit MMR est rare dans le cancer de la prostate mais peut ouvrir une option d'immunothérapie selon juridiction et ligne."
+            "detail": "Décision au checkpoint — La rareté n'annule pas l'intérêt, mais impose une traçabilité stricte."
           }
         ]
       },
@@ -560,24 +560,24 @@
         "formatLabel": "Phénotype osseux",
         "title": "Radium-223 : sélectionner le phénotype osseux",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/05-radium.svg",
-        "altText": "Phénotype osseux pour « Radium-223 : sélectionner le phénotype osseux ». Repères représentés : mCRPC osseux ; Pas de viscéral dominant ; Moelle et fracture ; Radium avec protection adaptée.",
-        "caption": "Phénotype osseux : mCRPC osseux · Pas de viscéral dominant · Moelle et fracture · Radium avec protection adaptée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Phénotype osseux pour « Radium-223 : sélectionner le phénotype osseux ». Le schéma relie mCRPC osseux ; Pas de viscéral dominant ; Moelle et fracture ; Radium avec protection adaptée sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Phénotype osseux : mCRPC osseux · Pas de viscéral dominant · Moelle et fracture · Radium avec protection adaptée. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "mCRPC osseux",
-            "detail": "Le radium-223 concerne un mCRPC à métastases osseuses, sans métastase viscérale, dans un contexte symptomatique ou sélectionné selon la recommandation applicable."
+            "detail": "Un alpha-émetteur ciblant l'os — Le radium-223 concerne un mCRPC à métastases osseuses, sans métastase viscérale, dans un contexte symptomatique ou sélectionné selon la recommandation applicable."
           },
           {
             "label": "Pas de viscéral dominant",
-            "detail": "NFS, réserve médullaire, risque fracturaire, traitement anti-résorptif approprié et santé dentaire sont évalués."
+            "detail": "Os et moelle avant tout — NFS, réserve médullaire, risque fracturaire, traitement anti-résorptif approprié et santé dentaire sont évalués."
           },
           {
             "label": "Moelle et fracture",
-            "detail": "Le phénotype osseux, l'absence de viscéral et la sécurité médullaire structurent la sélection."
+            "detail": "Application et limite — Le phénotype osseux, l'absence de viscéral et la sécurité médullaire structurent la sélection."
           },
           {
             "label": "Radium avec protection adaptée",
-            "detail": "Le radium-223 concerne un mCRPC à métastases osseuses, sans métastase viscérale, dans un contexte symptomatique ou sélectionné selon la recommandation applicable."
+            "detail": "Décision au checkpoint — Le phénotype osseux, l'absence de viscéral et la sécurité médullaire structurent la sélection."
           }
         ]
       },
@@ -671,24 +671,24 @@
         "formatLabel": "Sélection PSMA–radioligand",
         "title": "Lutétium-PSMA : au-delà d'un TEP positif",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/06-lutetium.svg",
-        "altText": "Sélection PSMA–radioligand pour « Lutétium-PSMA : au-delà d'un TEP positif ». Repères représentés : mCRPC et expositions ; Imagerie PSMA qualifiée ; Réserves et logistique ; Radioligand avec suivi.",
-        "caption": "Sélection PSMA–radioligand : mCRPC et expositions · Imagerie PSMA qualifiée · Réserves et logistique · Radioligand avec suivi. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Sélection PSMA–radioligand pour « Lutétium-PSMA : au-delà d'un TEP positif ». Le schéma relie mCRPC et expositions ; Imagerie PSMA qualifiée ; Réserves et logistique ; Radioligand avec suivi sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Sélection PSMA–radioligand : mCRPC et expositions · Imagerie PSMA qualifiée · Réserves et logistique · Radioligand avec suivi. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "mCRPC et expositions",
-            "detail": "Le radioligand PSMA requiert une expression suffisante sur l'imagerie selon les critères de la stratégie retenue et l'absence de maladie dominante incompatible."
+            "detail": "Une sélection theranostique — Le radioligand PSMA requiert une expression suffisante sur l'imagerie selon les critères de la stratégie retenue et l'absence de maladie dominante incompatible."
           },
           {
             "label": "Imagerie PSMA qualifiée",
-            "detail": "Ligne, ARPI et taxane antérieurs, performance, espérance, fonction médullaire et rénale, xérostomie attendue, accès au centre et radioprotection sont vérifiés."
+            "detail": "Éligibilité complète — Ligne, ARPI et taxane antérieurs, performance, espérance, fonction médullaire et rénale, xérostomie attendue, accès au centre et radioprotection sont vérifiés."
           },
           {
             "label": "Réserves et logistique",
-            "detail": "La sélection est theranostique, clinique, biologique et réglementaire."
+            "detail": "Application et limite — La sélection est theranostique, clinique, biologique et réglementaire."
           },
           {
             "label": "Radioligand avec suivi",
-            "detail": "Le radioligand PSMA requiert une expression suffisante sur l'imagerie selon les critères de la stratégie retenue et l'absence de maladie dominante incompatible."
+            "detail": "Décision au checkpoint — La sélection est theranostique, clinique, biologique et réglementaire."
           }
         ]
       },
@@ -781,24 +781,24 @@
         "formatLabel": "Cycle du radioligand",
         "title": "Radioligand PSMA : organiser le parcours et l'évaluation",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/07-rlt-workflow.svg",
-        "altText": "Cycle du radioligand pour « Radioligand PSMA : organiser le parcours et l'évaluation ». Repères représentés : Sélection RCP ; Préparation radioprotection ; Cycles et biologie ; Évaluation multiaxiale.",
-        "caption": "Cycle du radioligand : Sélection RCP · Préparation radioprotection · Cycles et biologie · Évaluation multiaxiale. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Cycle du radioligand pour « Radioligand PSMA : organiser le parcours et l'évaluation ». Le schéma relie Sélection RCP ; Préparation radioprotection ; Cycles et biologie ; Évaluation multiaxiale sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Cycle du radioligand : Sélection RCP · Préparation radioprotection · Cycles et biologie · Évaluation multiaxiale. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Sélection RCP",
-            "detail": "Sélection d'imagerie, validation de l'indication, information de radioprotection, calendrier, biologie pré-cycle et conduite en cas de cytopénie ou insuffisance rénale sont définis avant la première administration."
+            "detail": "Un traitement multidisciplinaire — Sélection d'imagerie, validation de l'indication, information de radioprotection, calendrier, biologie pré-cycle et conduite en cas de cytopénie ou insuffisance rénale sont définis avant la…"
           },
           {
             "label": "Préparation radioprotection",
-            "detail": "Symptômes, performance, hémogramme, rein, imagerie et PSA sont réévalués."
+            "detail": "Ne pas suivre le PSA seul — Symptômes, performance, hémogramme, rein, imagerie et PSA sont réévalués."
           },
           {
             "label": "Cycles et biologie",
-            "detail": "Réponse et toxicité sont multiaxiales ; le PSA isolé peut tromper."
+            "detail": "Application et limite — Réponse et toxicité sont multiaxiales ; le PSA isolé peut tromper."
           },
           {
             "label": "Évaluation multiaxiale",
-            "detail": "Sélection d'imagerie, validation de l'indication, information de radioprotection, calendrier, biologie pré-cycle et conduite en cas de cytopénie ou insuffisance rénale sont définis avant la première administration."
+            "detail": "Décision au checkpoint — Réponse et toxicité sont multiaxiales ; le PSA isolé peut tromper."
           }
         ]
       },
@@ -891,24 +891,24 @@
         "formatLabel": "Frise de séquençage",
         "title": "Séquencer : changer de mécanisme et préserver la suite",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/08-sequence.svg",
-        "altText": "Frise de séquençage pour « Séquencer : changer de mécanisme et préserver la suite ». Repères représentés : Résistance et rythme ; Mécanisme nouveau ; Réserves actuelles ; Option suivante préservée.",
-        "caption": "Frise de séquençage : Résistance et rythme · Mécanisme nouveau · Réserves actuelles · Option suivante préservée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice de séquençage mCRPC reliant progression rapide, maladie viscérale, symptômes et biomarqueurs à un changement de mécanisme par taxane, traitement biomarqué ou radiopharmaceutique. Une troisième colonne protège les réserves et l’option suivante.",
+        "caption": "La séquence doit maximiser le bénéfice actuel sans fermer inutilement la ligne suivante. Après progression rapide sous ARPI, un second ARPI a souvent une activité limitée par résistance croisée ; taxane, traitement biomarqué ou radiopharmaceutique peuvent offrir un changement de mécanisme. Le choix reste contraint par moelle, organes, neuropathie, accès, logistique et perte de fitness attendue.",
         "items": [
           {
             "label": "Résistance et rythme",
-            "detail": "Après progression rapide sous ARPI, un second ARPI a souvent une activité limitée."
+            "detail": "Le mécanisme compte — Après progression rapide sous ARPI, un second ARPI a souvent une activité limitée."
           },
           {
             "label": "Mécanisme nouveau",
-            "detail": "Une maladie viscérale rapide privilégie une option active rapidement ; une moelle fragile limite taxane et radiopharmaceutique ; un biomarqueur actionnable doit être utilisé avant perte de fitness."
+            "detail": "La meilleure ligne n'épuise pas la suivante — Une maladie viscérale rapide privilégie une option active rapidement ; une moelle fragile limite taxane et radiopharmaceutique ; un biomarqueur actionnable doit être utilisé avant perte de…"
           },
           {
             "label": "Réserves actuelles",
-            "detail": "La résistance croisée rend le changement de mécanisme souvent préférable."
+            "detail": "Application et limite — La résistance croisée rend le changement de mécanisme souvent préférable."
           },
           {
             "label": "Option suivante préservée",
-            "detail": "Après progression rapide sous ARPI, un second ARPI a souvent une activité limitée."
+            "detail": "Décision au checkpoint — La résistance croisée rend le changement de mécanisme souvent préférable."
           }
         ]
       },
@@ -1000,24 +1000,24 @@
         "formatLabel": "Discordance clinique–biologique",
         "title": "Transformation neuroendocrine : suspecter une biologie discordante",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/09-neuroendocrine.svg",
-        "altText": "Discordance clinique–biologique pour « Transformation neuroendocrine : suspecter une biologie discordante ». Repères représentés : Discordance clinique–PSA ; Site accessible ; Biopsie et pathologie ; Séquence adaptée.",
-        "caption": "Discordance clinique–biologique : Discordance clinique–PSA · Site accessible · Biopsie et pathologie · Séquence adaptée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Discordance clinique–biologique pour « Transformation neuroendocrine : suspecter une biologie discordante ». Le schéma relie Discordance clinique–PSA ; Site accessible ; Biopsie et pathologie ; Séquence adaptée sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Discordance clinique–biologique : Discordance clinique–PSA · Site accessible · Biopsie et pathologie · Séquence adaptée. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Discordance clinique–PSA",
-            "detail": "Progression viscérale ou lytique rapide, masse croissante avec PSA peu contributif, courte réponse aux thérapies de l'axe androgénique ou discordance majeure doivent faire discuter une transformation agressive ou neuroendocrine."
+            "detail": "Quand y penser — Progression viscérale ou lytique rapide, masse croissante avec PSA peu contributif, courte réponse aux thérapies de l'axe androgénique ou discordance majeure doivent faire discuter une tran…"
           },
           {
             "label": "Site accessible",
-            "detail": "Une biopsie d'un site progressif, si faisable et susceptible de changer la stratégie, permet histologie et profil moléculaire."
+            "detail": "Reprouver la maladie — Une biopsie d'un site progressif, si faisable et susceptible de changer la stratégie, permet histologie et profil moléculaire."
           },
           {
             "label": "Biopsie et pathologie",
-            "detail": "Une discordance agressive peut signaler une transformation et mérite une preuve tissulaire."
+            "detail": "Application et limite — Une discordance agressive peut signaler une transformation et mérite une preuve tissulaire."
           },
           {
             "label": "Séquence adaptée",
-            "detail": "Progression viscérale ou lytique rapide, masse croissante avec PSA peu contributif, courte réponse aux thérapies de l'axe androgénique ou discordance majeure doivent faire discuter une transformation agressive ou neuroendocrine."
+            "detail": "Décision au checkpoint — Une discordance agressive peut signaler une transformation et mérite une preuve tissulaire."
           }
         ]
       },
@@ -1110,24 +1110,24 @@
         "formatLabel": "Carte d’intervention palliative",
         "title": "Radiothérapie palliative : traiter le problème local maintenant",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/10-palliative-rt.svg",
-        "altText": "Carte d’intervention palliative pour « Radiothérapie palliative : traiter le problème local maintenant ». Repères représentés : Symptôme local ; Urgence et stabilité ; Objectif palliatif ; RT proportionnée et coordination.",
-        "caption": "Carte d’intervention palliative : Symptôme local · Urgence et stabilité · Objectif palliatif · RT proportionnée et coordination. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte d’intervention palliative pour « Radiothérapie palliative : traiter le problème local maintenant ». Le schéma relie Symptôme local ; Urgence et stabilité ; Objectif palliatif ; RT proportionnée et coordination sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Carte d’intervention palliative : Symptôme local · Urgence et stabilité · Objectif palliatif · RT proportionnée et coordination. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Symptôme local",
-            "detail": "Douleur osseuse, saignement, obstruction, masse compressive ou risque neurologique peuvent justifier une irradiation palliative."
+            "detail": "Objectif explicite — Douleur osseuse, saignement, obstruction, masse compressive ou risque neurologique peuvent justifier une irradiation palliative."
           },
           {
             "label": "Urgence et stabilité",
-            "detail": "Une compression médullaire ou obstruction urgente est prise en charge sans attendre la prochaine ligne systémique."
+            "detail": "L'urgence ne suit pas la ligne — Une compression médullaire ou obstruction urgente est prise en charge sans attendre la prochaine ligne systémique."
           },
           {
             "label": "Objectif palliatif",
-            "detail": "La palliation locale suit les besoins du patient, pas un rang fixe dans la séquence."
+            "detail": "Application et limite — La palliation locale suit les besoins du patient, pas un rang fixe dans la séquence."
           },
           {
             "label": "RT proportionnée et coordination",
-            "detail": "Douleur osseuse, saignement, obstruction, masse compressive ou risque neurologique peuvent justifier une irradiation palliative."
+            "detail": "Décision au checkpoint — La palliation locale suit les besoins du patient, pas un rang fixe dans la séquence."
           }
         ]
       },
@@ -1220,24 +1220,24 @@
         "formatLabel": "Ligne oncologique et soins de support",
         "title": "Soins de support : une ligne parallèle, jamais la dernière ligne",
         "imageSrc": "/figures/prostate/mcrpc-precision-palliation/11-supportive.svg",
-        "altText": "Ligne oncologique et soins de support pour « Soins de support : une ligne parallèle, jamais la dernière ligne ». Repères représentés : Besoins multidimensionnels ; Soutien précoce ; Objectifs partagés ; Réévaluation proportionnée.",
-        "caption": "Ligne oncologique et soins de support : Besoins multidimensionnels · Soutien précoce · Objectifs partagés · Réévaluation proportionnée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Ligne oncologique et soins de support pour « Soins de support : une ligne parallèle, jamais la dernière ligne ». Le schéma relie Besoins multidimensionnels ; Soutien précoce ; Objectifs partagés ; Réévaluation proportionnée sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Ligne oncologique et soins de support : Besoins multidimensionnels · Soutien précoce · Objectifs partagés · Réévaluation proportionnée. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Besoins multidimensionnels",
-            "detail": "Douleur, fatigue, nutrition, sommeil, anxiété, fonction, sexualité, symptômes urinaires et digestifs sont évalués en parallèle des traitements actifs."
+            "detail": "Intégration précoce — Douleur, fatigue, nutrition, sommeil, anxiété, fonction, sexualité, symptômes urinaires et digestifs sont évalués en parallèle des traitements actifs."
           },
           {
             "label": "Soutien précoce",
-            "detail": "La RCP clarifie objectif de chaque ligne, probabilité de bénéfice, toxicité, conditions d'arrêt, préférences, personne de confiance et projet de vie."
+            "detail": "Décisions anticipées — La RCP clarifie objectif de chaque ligne, probabilité de bénéfice, toxicité, conditions d'arrêt, préférences, personne de confiance et projet de vie."
           },
           {
             "label": "Objectifs partagés",
-            "detail": "L'intégration précoce améliore le contrôle symptomatique et la qualité des décisions."
+            "detail": "Application et limite — L'intégration précoce améliore le contrôle symptomatique et la qualité des décisions."
           },
           {
             "label": "Réévaluation proportionnée",
-            "detail": "Douleur, fatigue, nutrition, sommeil, anxiété, fonction, sexualité, symptômes urinaires et digestifs sont évalués en parallèle des traitements actifs."
+            "detail": "Décision au checkpoint — L'intégration précoce améliore le contrôle symptomatique et la qualité des décisions."
           }
         ]
       },

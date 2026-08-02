@@ -134,7 +134,6 @@ export function CoursePlayer({
           <b>Bloc {block.number}</b>
         </div>
         <div className="playerHeaderMeta">
-          <span className="reviewStatus dark">À valider</span>
           <Link href="/connexion">{syncState === "synced" ? "Synchronisé" : "Progression locale"}</Link>
         </div>
       </header>

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
   <title id="title">OAR : définir avant de mesurer</title>
-  <desc id="desc">Voisinage des organes à risque pour « OAR : définir avant de mesurer ». Repères représentés : OAR requis ; Définition source ; DVH correspondant ; Interprétation valide.</desc>
+  <desc id="desc">Voisinage des organes à risque pour « OAR : définir avant de mesurer ». Le schéma relie OAR requis ; Définition source ; DVH correspondant ; Interprétation valide sans représenter de données patient ni remplacer le protocole source.</desc>
   <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
   <rect width="1376" height="768" fill="#FFF8E8"/>
   <rect width="18" height="768" fill="#007C83"/>
@@ -8,22 +8,26 @@
   <rect x="60" y="62" width="334" height="34" rx="17" fill="#DDF3F1"/>
   <text x="77" y="85" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83">VOISINAGE DES ORGANES À RISQUE</text>
   <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="60" dy="0">OAR : définir avant de mesurer</tspan></text>
-  <g transform="translate(670 420) scale(1)">
-    <path d="M -185 -150 Q -250 -20 -180 170 Q -105 245 0 220 Q 105 245 180 170 Q 250 -20 185 -150" fill="#F2E1D5" stroke="#24313A" stroke-width="5"/>
-    <ellipse cx="0" cy="-78" rx="94" ry="70" fill="#E5EEF8" stroke="#2563A6" stroke-width="5"/>
-    <path d="M -54 5 Q 0 -28 54 5 L 47 68 Q 0 94 -47 68 Z" fill="#DDF3F1" stroke="#007C83" stroke-width="5"/>
-    <path d="M 0 58 L 0 195" fill="none" stroke="#D97706" stroke-width="9" stroke-linecap="round"/>
-    <path d="M 105 -40 Q 142 40 116 170" fill="none" stroke="#C85C4A" stroke-width="26" stroke-linecap="round" opacity=".75"/>
+  <g>
+    <rect x="70" y="225" width="720" height="420" rx="24" fill="#FFFCF4" stroke="#24313A" stroke-width="3"/>
+    <text x="430" y="255" font-family="Arial" font-size="16" font-weight="850" fill="#64727A" text-anchor="middle">VOISINAGE ANATOMIQUE · SCHÉMA NON À L’ÉCHELLE</text>
+    <ellipse cx="430" cy="342" rx="112" ry="68" fill="#E5EEF8" stroke="#2563A6" stroke-width="5"/><text x="430" y="349" font-family="Arial" font-size="18" font-weight="800" fill="#24313A" text-anchor="middle">Vessie</text>
+    <path d="M 360 430 Q 430 388 500 430 L 486 518 Q 430 555 374 518 Z" fill="#DDF3F1" stroke="#007C83" stroke-width="5"/><text x="430" y="475" font-family="Arial" font-size="18" font-weight="800" fill="#24313A" text-anchor="middle">Prostate</text>
+    <line x1="430" y1="433" x2="430" y2="548" stroke="#D97706" stroke-width="8"/><text x="445" y="543" font-family="Arial" font-size="15" font-weight="750" fill="#D97706">Urètre</text>
+    <ellipse cx="430" cy="568" rx="105" ry="34" fill="#F8DDD7" stroke="#C85C4A" stroke-width="5"/><text x="430" y="575" font-family="Arial" font-size="16" font-weight="800" fill="#C85C4A" text-anchor="middle">Rectum (postérieur)</text>
+    <circle cx="212" cy="476" r="62" fill="#FCE8C8" stroke="#D97706" stroke-width="4"/><circle cx="648" cy="476" r="62" fill="#FCE8C8" stroke="#D97706" stroke-width="4"/><text x="212" y="561" font-family="Arial" font-size="15" font-weight="750" fill="#D97706" text-anchor="middle">Têtes fémorales</text>
+    <text x="430" y="625" font-family="Arial" font-size="13" font-weight="750" fill="#64727A" text-anchor="middle">Canal anal et bulbe pénien : autres niveaux de coupe</text>
+    <g><rect x="830" y="225" width="476" height="112" rx="16" fill="#DDF3F1" stroke="#007C83" stroke-width="3"/>
+    <text x="848" y="256" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="850" fill="#007C83" text-anchor="start"><tspan x="848" dy="0">Structure + définition source</tspan></text>
+    <text x="848" y="287" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#24313A" text-anchor="start"><tspan x="848" dy="0">Rectum entier ou paroi, vessie entière ou</tspan><tspan x="848" dy="18">paroi : la contrainte doit correspondre</tspan><tspan x="848" dy="18">exactement au contour utilisé.</tspan></text></g>
+    <g><rect x="830" y="357" width="476" height="112" rx="16" fill="#E5EEF8" stroke="#2563A6" stroke-width="3"/>
+    <text x="848" y="388" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="850" fill="#2563A6" text-anchor="start"><tspan x="848" dy="0">Selon technique et antécédents</tspan></text>
+    <text x="848" y="419" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#24313A" text-anchor="start"><tspan x="848" dy="0">Urètre, col/trigone, sphincter, cavité de</tspan><tspan x="848" dy="18">TURP et bowel bag peuvent devenir</tspan><tspan x="848" dy="18">nécessaires.</tspan></text></g>
+    <g><rect x="830" y="489" width="476" height="112" rx="16" fill="#F8DDD7" stroke="#C85C4A" stroke-width="3"/>
+    <text x="848" y="520" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="850" fill="#C85C4A" text-anchor="start"><tspan x="848" dy="0">Interdiction méthodologique</tspan></text>
+    <text x="848" y="551" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="600" fill="#24313A" text-anchor="start"><tspan x="848" dy="0">Ne jamais transférer un seuil entre</tspan><tspan x="848" dy="18">structures ou fractionnements différents sans</tspan><tspan x="848" dy="18">source concordante.</tspan></text></g>
   </g>
-    <path d="M 220 275 C 330 275 390 320 500 338" fill="none" stroke="#2563A6" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
-    <path d="M 1150 275 C 1030 275 980 330 846 355" fill="none" stroke="#C85C4A" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
-    <path d="M 220 555 C 340 555 430 520 560 482" fill="none" stroke="#D97706" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
-    <path d="M 1150 555 C 1020 555 920 520 785 480" fill="none" stroke="#007C83" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
-    <g><rect x="70" y="225" width="300" height="98" rx="20" fill="#E5EEF8" stroke="#2563A6" stroke-width="3"/><text x="220" y="280.3" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="220" dy="0">OAR requis</tspan></text></g>
-    <g><rect x="1006" y="225" width="300" height="98" rx="20" fill="#F8DDD7" stroke="#C85C4A" stroke-width="3"/><text x="1156" y="280.3" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="1156" dy="0">Définition source</tspan></text></g>
-    <g><rect x="70" y="530" width="300" height="98" rx="20" fill="#FCE8C8" stroke="#D97706" stroke-width="3"/><text x="220" y="585.3" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="220" dy="0">DVH correspondant</tspan></text></g>
-    <g><rect x="1006" y="530" width="300" height="98" rx="20" fill="#DDF3F1" stroke="#007C83" stroke-width="3"/><text x="1156" y="585.3" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="1156" dy="0">Interprétation valide</tspan></text></g>
   <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
-  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Voisinage des organes à risque · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
+  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#FFFFFF">Voisinage des organes à risque · PÉDAGOGIQUE · NON À L’ÉCHELLE · SANS DONNÉE PATIENT</text>
+  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Sources et limites dans la leçon</text>
   </svg>

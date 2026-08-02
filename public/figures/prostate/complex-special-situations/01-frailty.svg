@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
   <title id="title">Fragilité : adapter après évaluation, pas après l&apos;âge</title>
-  <desc id="desc">Balance clinique pour « Fragilité : adapter après évaluation, pas après l&apos;âge ». Repères représentés : Risque tumoral ; Horizon et réserves ; Vulnérabilités modifiables ; Stratégie proportionnée.</desc>
+  <desc id="desc">Balance clinique pour « Fragilité : adapter après évaluation, pas après l&apos;âge ». Le schéma relie Risque tumoral ; Horizon et réserves ; Vulnérabilités modifiables ; Stratégie proportionnée sans représenter de données patient ni remplacer le protocole source.</desc>
   <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
   <rect width="1376" height="768" fill="#FFF8E8"/>
   <rect width="18" height="768" fill="#007C83"/>
@@ -18,6 +18,6 @@
     <g><rect x="550" y="210" width="276" height="86" rx="20" fill="#FFFCF4" stroke="#007C83" stroke-width="3"/><text x="688" y="259.3" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="688" dy="0">Vulnérabilités modifiables</tspan></text></g>
     <text x="688" y="625" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#007C83" text-anchor="middle"><tspan x="688" dy="0">Stratégie proportionnée</tspan></text>
   <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
-  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Balance clinique · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
+  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#FFFFFF">Balance clinique · PÉDAGOGIQUE · NON À L’ÉCHELLE · SANS DONNÉE PATIENT</text>
+  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Sources et limites dans la leçon</text>
   </svg>

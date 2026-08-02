@@ -112,24 +112,24 @@
         "formatLabel": "Boucle de suppression androgénique",
         "title": "ADT : obtenir et vérifier la castration",
         "imageSrc": "/figures/prostate/systemic-therapy-foundations/01-adt.svg",
-        "altText": "Boucle de suppression androgénique pour « ADT : obtenir et vérifier la castration ». Repères représentés : État de maladie et urgence ; Modalité d'ADT ; Castration vérifiée ; Réponse et toxicités suivies.",
-        "caption": "Boucle de suppression androgénique : État de maladie et urgence · Modalité d'ADT · Castration vérifiée · Réponse et toxicités suivies. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Courbes qualitatives comparant orchidectomie, antagoniste et agoniste de la GnRH. L’agoniste présente un flare initial, l’antagoniste une baisse rapide sans flare et l’orchidectomie une suppression immédiate définitive. Un encadré liste les vérifications avant de conclure à une résistance à la castration.",
+        "caption": "Les courbes représentent des cinétiques qualitatives et non des données de patient. Devant une progression, vérifier administration, observance, symptômes, imagerie et testostérone : la résistance à la castration suppose une progression malgré un niveau de castration. En situation à risque de flare, la prévention endocrinienne ne remplace pas le traitement urgent spécifique.",
         "items": [
           {
             "label": "État de maladie et urgence",
-            "detail": "L'orchidectomie est immédiate et définitive."
+            "detail": "Même objectif, cinétiques différentes — L'orchidectomie est immédiate et définitive."
           },
           {
             "label": "Modalité d'ADT",
-            "detail": "Une progression sous ADT impose de vérifier administration, observance, PSA, symptômes, imagerie pertinente et testostérone."
+            "detail": "Mesurer avant de conclure — Une progression sous ADT impose de vérifier administration, observance, PSA, symptômes, imagerie pertinente et testostérone."
           },
           {
             "label": "Castration vérifiée",
-            "detail": "Chez un patient exposé à une complication immédiate — compression médullaire, obstruction ou douleur osseuse sévère — un antagoniste ou une protection antiandrogénique adaptée est discuté."
+            "detail": "Prévenir le flare — Chez un patient exposé à une complication immédiate — compression médullaire, obstruction ou douleur osseuse sévère — un antagoniste ou une protection antiandrogénique adaptée est discuté."
           },
           {
             "label": "Réponse et toxicités suivies",
-            "detail": "L'orchidectomie est immédiate et définitive."
+            "detail": "Décision au checkpoint — La castration et la progression doivent être documentées avant de changer d'état de maladie ou de séquence."
           }
         ]
       },
@@ -221,24 +221,24 @@
         "formatLabel": "Séquence ADT–RT",
         "title": "ADT et radiothérapie : une combinaison dépendante du risque",
         "imageSrc": "/figures/prostate/systemic-therapy-foundations/02-adt-rt.svg",
-        "altText": "Séquence ADT–RT pour « ADT et radiothérapie : une combinaison dépendante du risque ». Repères représentés : Risque et intention ; Calendrier ADT–RT ; Durée contextualisée ; Prévention et réévaluation.",
-        "caption": "Séquence ADT–RT : Risque et intention · Calendrier ADT–RT · Durée contextualisée · Prévention et réévaluation. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice distinguant risque intermédiaire, haut risque, cN1 et rattrapage postopératoire. Pour chaque contexte, elle indique la question clinique et les éléments à tracer dans une prescription complète d’ADT associée à la radiothérapie.",
+        "caption": "L’indication, le calendrier et la durée de l’ADT ne se transposent pas automatiquement d’un contexte à l’autre. Une prescription complète précise le groupe de risque, le motif d’association, le début relatif à la RT, la durée cible, la prévention et les critères de réévaluation. Une adaptation pour vulnérabilité doit rester explicitement tracée.",
         "items": [
           {
             "label": "Risque et intention",
-            "detail": "Avec la radiothérapie, l'ADT participe au contrôle oncologique selon le risque."
+            "detail": "L'ADT n'est pas un simple réducteur de volume — Avec la radiothérapie, l'ADT participe au contrôle oncologique selon le risque."
           },
           {
             "label": "Calendrier ADT–RT",
-            "detail": "La décision précise indication, molécule, date de début, objectif de durée, moment par rapport à l'irradiation, stratégie de prévention et critères de réévaluation."
+            "detail": "Une prescription complète — La décision précise indication, molécule, date de début, objectif de durée, moment par rapport à l'irradiation, stratégie de prévention et critères de réévaluation."
           },
           {
             "label": "Durée contextualisée",
-            "detail": "Bouffées de chaleur, dysfonction sexuelle, fatigue, sarcopénie, perte osseuse et risque métabolique doivent être expliqués avant le début."
+            "detail": "Le coût toxique compte — Bouffées de chaleur, dysfonction sexuelle, fatigue, sarcopénie, perte osseuse et risque métabolique doivent être expliqués avant le début."
           },
           {
             "label": "Prévention et réévaluation",
-            "detail": "Avec la radiothérapie, l'ADT participe au contrôle oncologique selon le risque."
+            "detail": "Décision au checkpoint — La combinaison est un parcours complet et contextualisé, non une injection isolée."
           }
         ]
       },
@@ -330,24 +330,24 @@
         "formatLabel": "Matrice de sélection ARPI",
         "title": "ARPI : choisir selon exposition, comorbidités et interactions",
         "imageSrc": "/figures/prostate/systemic-therapy-foundations/03-arpi.svg",
-        "altText": "Matrice de sélection ARPI pour « ARPI : choisir selon exposition, comorbidités et interactions ». Repères représentés : État et expositions ; Profil patient et interactions ; ARPI adapté ; Surveillance puis changement de mécanisme.",
-        "caption": "Matrice de sélection ARPI : État et expositions · Profil patient et interactions · ARPI adapté · Surveillance puis changement de mécanisme. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice comparant abiratérone avec corticoïde, enzalutamide, apalutamide et darolutamide selon mécanisme, vulnérabilités cliniques, surveillance et potentiel d’interactions. Un encadré rappelle d’éviter la succession mécanique de deux ARPI après progression.",
+        "caption": "Le choix d’un ARPI commence par l’indication et les expositions, puis confronte mécanisme, terrain cardiovasculaire et hépatique, risque de chute ou neurologique, polymédication et surveillance propre à l’agent. La matrice ne suppose ni interchangeabilité entre stades ni supériorité d’une molécule ; l’AMM, le RCP et les interactions individuelles restent déterminants.",
         "items": [
           {
             "label": "État et expositions",
-            "detail": "L'abiratérone inhibe la synthèse des androgènes et nécessite un corticoïde ; la pression artérielle, le potassium, la fonction hépatique et la rétention hydrosodée sont surveillés."
+            "detail": "Deux voies principales — L'abiratérone inhibe la synthèse des androgènes et nécessite un corticoïde ; la pression artérielle, le potassium, la fonction hépatique et la rétention hydrosodée sont surveillés."
           },
           {
             "label": "Profil patient et interactions",
-            "detail": "Antécédent cardiovasculaire, risque de chute ou de convulsion, cognition, fonction hépatique, polymédication, observance et traitements antérieurs orientent le choix."
+            "detail": "Le meilleur agent dépend du patient — Antécédent cardiovasculaire, risque de chute ou de convulsion, cognition, fonction hépatique, polymédication, observance et traitements antérieurs orientent le choix."
           },
           {
             "label": "ARPI adapté",
-            "detail": "Après progression sous un ARPI, passer immédiatement à un autre ARPI expose à une activité souvent limitée par résistance croisée."
+            "detail": "Éviter la série mécanique — Après progression sous un ARPI, passer immédiatement à un autre ARPI expose à une activité souvent limitée par résistance croisée."
           },
           {
             "label": "Surveillance puis changement de mécanisme",
-            "detail": "L'abiratérone inhibe la synthèse des androgènes et nécessite un corticoïde ; la pression artérielle, le potassium, la fonction hépatique et la rétention hydrosodée sont surveillés."
+            "detail": "Décision au checkpoint — Le bénéfice de classe ne dispense pas d'un choix individualisé et d'une surveillance spécifique à la molécule."
           }
         ]
       },
@@ -440,24 +440,24 @@
         "formatLabel": "Cycles de taxane",
         "title": "Taxanes : indication, fitness et prévention des complications",
         "imageSrc": "/figures/prostate/systemic-therapy-foundations/04-taxanes.svg",
-        "altText": "Cycles de taxane pour « Taxanes : indication, fitness et prévention des complications ». Repères représentés : Séquence et bénéfice ; Fitness et réserves ; Taxane choisi ; Prévention et réévaluation à chaque cycle.",
-        "caption": "Cycles de taxane : Séquence et bénéfice · Fitness et réserves · Taxane choisi · Prévention et réévaluation à chaque cycle. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Algorithme de sécurité en trois panneaux : place du docétaxel ou du cabazitaxel dans la séquence, évaluation multidimensionnelle de la fitness, puis prévention des toxicités et conduite urgente devant une fièvre ou une altération rapide.",
+        "caption": "Le choix d’un taxane articule contexte oncologique, expositions, alternatives biomarquées et aptitude réelle plutôt que l’âge civil. Moelle, foie, rein, neuropathie, nutrition, cognition, infections et soutien sont évalués avant le cycle. La prévention et le plan d’urgence, notamment devant une fièvre, font partie de la décision thérapeutique.",
         "items": [
           {
             "label": "Séquence et bénéfice",
-            "detail": "Le docétaxel intervient dans certaines intensifications hormonosensibles et dans le mCRPC."
+            "detail": "Une place liée à la séquence — Le docétaxel intervient dans certaines intensifications hormonosensibles et dans le mCRPC."
           },
           {
             "label": "Fitness et réserves",
-            "detail": "Performance, fragilité, cognition, nutrition, neuropathie, moelle, foie, fonction rénale, infections, soutien social et préférence comptent davantage que l'âge seul."
+            "detail": "Fitness, pas âge civil — Performance, fragilité, cognition, nutrition, neuropathie, moelle, foie, fonction rénale, infections, soutien social et préférence comptent davantage que l'âge seul."
           },
           {
             "label": "Taxane choisi",
-            "detail": "Neutropénie fébrile, infection, neuropathie, diarrhée, fatigue, œdème et toxicité hépatique sont anticipés."
+            "detail": "Prévention active — Neutropénie fébrile, infection, neuropathie, diarrhée, fatigue, œdème et toxicité hépatique sont anticipés."
           },
           {
             "label": "Prévention et réévaluation à chaque cycle",
-            "detail": "Le docétaxel intervient dans certaines intensifications hormonosensibles et dans le mCRPC."
+            "detail": "Décision au checkpoint — La chimiothérapie est une décision de séquence et de fitness, pas un automatisme d'âge ou de PSA."
           }
         ]
       },
@@ -549,24 +549,24 @@
         "formatLabel": "Tableau de bord préventif",
         "title": "Santé osseuse, métabolique et cardiovasculaire : traiter avant la complication",
         "imageSrc": "/figures/prostate/systemic-therapy-foundations/05-prevention.svg",
-        "altText": "Tableau de bord préventif pour « Santé osseuse, métabolique et cardiovasculaire : traiter avant la complication ». Repères représentés : Risque initial ; Bilan os–muscle–métabolisme–cœur ; Prévention ciblée ; Mesure longitudinale.",
-        "caption": "Tableau de bord préventif : Risque initial · Bilan os–muscle–métabolisme–cœur · Prévention ciblée · Mesure longitudinale. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Comparaison entre prévention de la fracture de fragilité sous ADT et prévention des événements squelettiques dans le mCRPC osseux. Un encadré liste le bilan cardiovasculaire, métabolique et fonctionnel initial, puis signale les symptômes rachidiens neurologiques comme urgence.",
+        "caption": "La perte osseuse induite par l’ADT et le risque d’événement squelettique métastatique sont deux problèmes différents : indications, doses et surveillances des anti-résorptifs ne sont pas interchangeables. La prévention commence dès le départ avec risque de chute, DMO selon contexte, facteurs cardiovasculaires et métaboliques, activité, nutrition et coordination des soins.",
         "items": [
           {
             "label": "Risque initial",
-            "detail": "La perte osseuse liée à l'ADT relève du risque de fracture de fragilité ; les agents à dose oncologique dans le mCRPC osseux visent les événements squelettiques métastatiques."
+            "detail": "Deux problèmes osseux différents — La perte osseuse liée à l'ADT relève du risque de fracture de fragilité ; les agents à dose oncologique dans le mCRPC osseux visent les événements squelettiques métastatiques."
           },
           {
             "label": "Bilan os–muscle–métabolisme–cœur",
-            "detail": "Poids, pression artérielle, tabac, activité, antécédents cardiovasculaires, glycémie ou HbA1c, lipides, risque de chute et densité minérale osseuse selon le contexte sont documentés."
+            "detail": "Un bilan dès le départ — Poids, pression artérielle, tabac, activité, antécédents cardiovasculaires, glycémie ou HbA1c, lipides, risque de chute et densité minérale osseuse selon le contexte sont documentés."
           },
           {
             "label": "Prévention ciblée",
-            "detail": "Exercice combinant endurance et résistance, apport nutritionnel adapté, sevrage tabagique, réduction de l'alcool, prévention des chutes et traitement des facteurs de risque sont prescrits et réévalués."
+            "detail": "Interventions concrètes — Exercice combinant endurance et résistance, apport nutritionnel adapté, sevrage tabagique, réduction de l'alcool, prévention des chutes et traitement des facteurs de risque sont prescrits e…"
           },
           {
             "label": "Mesure longitudinale",
-            "detail": "La perte osseuse liée à l'ADT relève du risque de fracture de fragilité ; les agents à dose oncologique dans le mCRPC osseux visent les événements squelettiques métastatiques."
+            "detail": "Décision au checkpoint — Les deux indications osseuses ne doivent ni être confondues ni extrapolées d'un état de maladie à l'autre."
           }
         ]
       },

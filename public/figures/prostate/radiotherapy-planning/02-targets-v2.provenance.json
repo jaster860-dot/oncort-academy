@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/radiotherapy-planning/02-targets-v2.png",
+  "purpose": "Distinguish anatomical structure, CTV biological definition and PTV uncertainty without fabricating a patient target volume.",
+  "source": {
+    "repository": "NCI Imaging Data Commons / The Cancer Imaging Archive",
+    "collection": "Prostate-Anatomical-Edge-Cases",
+    "subject": "Prostate-AEC-126",
+    "license": "CC BY 4.0",
+    "doi": "10.7937/QSTF-ST65",
+    "ctSeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.199101970343796956468775835838444083094",
+    "guidelines": [
+      {
+        "id": "sfro_recorad_prostate_2025",
+        "locator": "Target volume and margin sections"
+      },
+      {
+        "id": "estro_acrop_primary_contouring_2018",
+        "doi": "10.1016/j.radonc.2018.01.014"
+      }
+    ]
+  },
+  "transformations": {
+    "ctWindowHU": [
+      -160.0,
+      240.0
+    ],
+    "axialSliceIndex": 148,
+    "prostateContour": "Clinically used manual RTSTRUCT contour from the source collection.",
+    "blueBand": "Illustrative binary dilation used only to explain the uncertainty function of a PTV; no margin value is displayed or recommended."
+  },
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null,
+  "limitations": [
+    "The source RTSTRUCT contains an anatomic prostate contour, not a verified CTV/PTV for this lesson.",
+    "No patient CTV, PTV, seminal vesicle target, pelvic nodal target or DIL is claimed or displayed.",
+    "The uncertainty band is deliberately non-prescriptive."
+  ]
+}

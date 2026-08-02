@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
   <title id="title">Volume, risque et synchronie : garder les définitions de leurs essais</title>
-  <desc id="desc">Matrice volume–risque–synchronie pour « Volume, risque et synchronie : garder les définitions de leurs essais ». Repères représentés : Imagerie conventionnelle source ; Définition nommée ; Volume et risque séparés ; Synchronie explicite avant traitement.</desc>
+  <desc id="desc">Matrice volume–risque–synchronie pour « Volume, risque et synchronie : garder les définitions de leurs essais ». Le schéma relie Imagerie conventionnelle source ; Définition nommée ; Volume et risque séparés ; Synchronie explicite avant traitement sans représenter de données patient ni remplacer le protocole source.</desc>
   <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
   <rect width="1376" height="768" fill="#FFF8E8"/>
   <rect width="18" height="768" fill="#007C83"/>
@@ -18,6 +18,6 @@
     <text x="762" y="510" font-family="Arial" font-size="34" font-weight="850" fill="#24313A">04</text>
     <text x="762" y="551" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="762" dy="0">Synchronie explicite avant</tspan><tspan x="762" dy="26">traitement</tspan></text></g><line x1="688" y1="225" x2="688" y2="638" stroke="#D8D5C9" stroke-width="2"/><line x1="130" y1="430" x2="1245" y2="430" stroke="#D8D5C9" stroke-width="2"/>
   <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
-  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Matrice volume–risque–synchronie · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
+  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#FFFFFF">Matrice volume–risque–synchronie · PÉDAGOGIQUE · NON À L’ÉCHELLE · SANS DONNÉE PATIENT</text>
+  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Sources et limites dans la leçon</text>
   </svg>

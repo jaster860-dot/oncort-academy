@@ -2,7 +2,7 @@
 
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, join } from "node:path";
-import { buildVisualMetadata, renderLessonFigure } from "./render_prostate_visuals.mjs";
+import { buildScientificItems, buildVisualMetadata, renderLessonFigure } from "./render_prostate_visuals.mjs";
 
 const root = new URL("..", import.meta.url).pathname;
 const blockId = process.argv[2];
@@ -126,31 +126,25 @@ function renderSvg(lesson, visual) {
   <text x="62" y="204" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500" fill="${palette.charcoal}">Chaîne de raisonnement — chaque étape garde sa question et ses limites</text>
   ${cards}
   <rect x="62" y="624" width="1252" height="82" rx="18" fill="${palette.charcoal}"/>
-  <text x="91" y="658" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="${palette.white}">SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="91" y="686" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="450" fill="${palette.white}">Revue clinique nominative requise avant toute validation ou utilisation décisionnelle.</text>
+  <text x="91" y="658" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="${palette.white}">SCHÉMA ÉDUCATIF · TRAÇABILITÉ INTERNE</text>
+  <text x="91" y="686" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="450" fill="${palette.white}">Synthèse pédagogique : sources et limites explicitées dans la leçon.</text>
 </svg>\n`;
 }
 
 function automaticQualityReview(lesson, visual) {
   const checks = [
-    { id: "dimensions_16_9", label: "Canevas 1376 × 768 au ratio 16:9", points: 1.5, passed: true },
-    { id: "accessible_metadata", label: "Titre SVG, description et rôle image intégrés", points: 1.0, passed: true },
-    { id: "palette_and_redundancy", label: "Palette accessible et information non portée par la couleur seule", points: 1.5, passed: true },
-    { id: "bounded_text", label: "Libellés bornés à quatre cartes avec retour à la ligne déterministe", points: 1.5, passed: visual.items.length >= 3 && visual.items.length <= 4 },
-    { id: "textual_fallback", label: "Légende, texte alternatif et repli textuel structurés", points: 1.5, passed: visual.altText.length >= 40 && visual.caption.length >= 40 && visual.items.length >= 3 },
-    { id: "source_traceability", label: "Leçon reliée à des sources contrôlées", points: 1.5, passed: Array.isArray(lesson.sources) && lesson.sources.length > 0 },
-    { id: "release_gate", label: "Marquage needs_review et validation clinique explicitement absente", points: 1.5, passed: document.status === "needs_review" },
+    { id: "dimensions_16_9", label: "Canevas 1376 × 768 au ratio 16:9", passed: true },
+    { id: "accessible_metadata", label: "Titre SVG, description et rôle image intégrés", passed: visual.altText.length >= 80 },
+    { id: "bounded_text", label: "Quatre repères textuels bornés", passed: visual.items.length === 4 },
+    { id: "unique_fallback", label: "Détails du repli textuel non dupliqués", passed: new Set(visual.items.map((item) => item.detail)).size === visual.items.length },
+    { id: "source_traceability", label: "Leçon reliée à des sources contrôlées", passed: Array.isArray(lesson.sources) && lesson.sources.length > 0 },
+    { id: "release_gate", label: "Marquage needs_review et validation clinique explicitement absente", passed: document.status === "needs_review" },
   ];
-  const rawScore = checks.reduce((score, check) => score + (check.passed ? check.points : 0), 0);
-  const score = Math.min(8.5, rawScore);
   return {
-    scope: "Précontrôle technique automatisé local ; ne constitue pas une validation clinique ni une revue visuelle nominative.",
-    threshold: 7.5,
-    rawTechnicalScore: rawScore,
-    score,
-    passed: score >= 7.5 && checks.every((check) => check.passed),
-    cap: 8.5,
-    capReason: "Score plafonné tant qu'aucun clinicien nommé n'a réalisé la revue clinique et visuelle finale.",
+    scope: "Précontrôle déterministe de structure et traçabilité ; ne constitue pas une validation clinique.",
+    passed: checks.every((check) => check.passed),
+    numericQualityScore: null,
+    clinicalMeaningReviewedByAutomation: false,
     checks,
   };
 }
@@ -173,10 +167,7 @@ for (const [index, lesson] of document.lessons.entries()) {
   if (!Array.isArray(lesson.causalChain) || lesson.causalChain.length < 3) throw new Error(`${lesson.id}: chaîne causale insuffisante`);
 
   const filename = `${String(index + 1).padStart(2, "0")}-${lesson.id.replace(/^[^_]+_\d+_?/, "").replaceAll("_", "-")}.svg`;
-  const items = lesson.causalChain.slice(0, 4).map((label, itemIndex) => ({
-    label,
-    detail: firstSentence(lesson.sections[itemIndex % lesson.sections.length].body),
-  }));
+  const items = buildScientificItems(lesson);
   const visual = buildVisualMetadata(
     lesson,
     items,

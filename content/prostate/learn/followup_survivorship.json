@@ -112,24 +112,24 @@
         "formatLabel": "Courbe de PSA",
         "title": "PSA après traitement local : interpréter avant d'imager",
         "imageSrc": "/figures/prostate/followup-survivorship/01-psa.svg",
-        "altText": "Courbe de PSA pour « PSA après traitement local : interpréter avant d'imager ». Repères représentés : Traitement initial ; Trajectoire PSA ; Risque et symptômes ; Imagerie seulement décisionnelle.",
-        "caption": "Courbe de PSA : Traitement initial · Trajectoire PSA · Risque et symptômes · Imagerie seulement décisionnelle. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Courbe de PSA pour « PSA après traitement local : interpréter avant d'imager ». Le schéma relie Traitement initial ; Trajectoire PSA ; Risque et symptômes ; Imagerie seulement décisionnelle sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Courbe de PSA : Traitement initial · Trajectoire PSA · Risque et symptômes · Imagerie seulement décisionnelle. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Traitement initial",
-            "detail": "Après prostatectomie, le PSA doit devenir indétectable ; après radiothérapie, la prostate restant en place, le nadir est plus lent et des fluctuations sont possibles."
+            "detail": "Deux cinétiques attendues — Après prostatectomie, le PSA doit devenir indétectable ; après radiothérapie, la prostate restant en place, le nadir est plus lent et des fluctuations sont possibles."
           },
           {
             "label": "Trajectoire PSA",
-            "detail": "L'EAU décrit en pratique un PSA et une histoire spécifique tous les six mois pendant trois ans puis annuellement, tout en reconnaissant la faiblesse de la preuve sur l'intervalle."
+            "detail": "Un cadre adaptable — L'EAU décrit en pratique un PSA et une histoire spécifique tous les six mois pendant trois ans puis annuellement, tout en reconnaissant la faiblesse de la preuve sur l'intervalle."
           },
           {
             "label": "Risque et symptômes",
-            "detail": "Chez un patient asymptomatique avec PSA stable, l'imagerie systématique n'est pas utile."
+            "detail": "Imager pour agir — Chez un patient asymptomatique avec PSA stable, l'imagerie systématique n'est pas utile."
           },
           {
             "label": "Imagerie seulement décisionnelle",
-            "detail": "Après prostatectomie, le PSA doit devenir indétectable ; après radiothérapie, la prostate restant en place, le nadir est plus lent et des fluctuations sont possibles."
+            "detail": "Décision au checkpoint — L'organe restant après RT explique des trajectoires et définitions différentes."
           }
         ]
       },
@@ -220,24 +220,24 @@
         "formatLabel": "Courbe de récupération",
         "title": "Récupération de la testostérone : expliquer l'incertitude",
         "imageSrc": "/figures/prostate/followup-survivorship/02-testosterone.svg",
-        "altText": "Courbe de récupération pour « Récupération de la testostérone : expliquer l'incertitude ». Repères représentés : Durée et agent ADT ; Terrain ; Testostérone + symptômes ; Réhabilitation et suivi PSA.",
-        "caption": "Courbe de récupération : Durée et agent ADT · Terrain · Testostérone + symptômes · Réhabilitation et suivi PSA. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Courbe de récupération pour « Récupération de la testostérone : expliquer l'incertitude ». Le schéma relie Durée et agent ADT ; Terrain ; Testostérone + symptômes ; Réhabilitation et suivi PSA sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Courbe de récupération : Durée et agent ADT · Terrain · Testostérone + symptômes · Réhabilitation et suivi PSA. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Durée et agent ADT",
-            "detail": "Après arrêt d'une ADT temporaire, la récupération dépend de l'âge, de la testostérone initiale, de la durée et de la molécule, des comorbidités et de la fonction testiculaire."
+            "detail": "Une récupération variable — Après arrêt d'une ADT temporaire, la récupération dépend de l'âge, de la testostérone initiale, de la durée et de la molécule, des comorbidités et de la fonction testiculaire."
           },
           {
             "label": "Terrain",
-            "detail": "Testostérone, PSA et symptômes sont lus ensemble."
+            "detail": "Mesurer si cela change l'interprétation — Testostérone, PSA et symptômes sont lus ensemble."
           },
           {
             "label": "Testostérone + symptômes",
-            "detail": "La récupération est individuelle et influence à la fois qualité de vie et lecture oncologique."
+            "detail": "Application et limite — La récupération est individuelle et influence à la fois qualité de vie et lecture oncologique."
           },
           {
             "label": "Réhabilitation et suivi PSA",
-            "detail": "Après arrêt d'une ADT temporaire, la récupération dépend de l'âge, de la testostérone initiale, de la durée et de la molécule, des comorbidités et de la fonction testiculaire."
+            "detail": "Décision au checkpoint — La récupération est individuelle et influence à la fois qualité de vie et lecture oncologique."
           }
         ]
       },
@@ -328,24 +328,24 @@
         "formatLabel": "Carte urinaire",
         "title": "Toxicité urinaire : caractériser avant de traiter",
         "imageSrc": "/figures/prostate/followup-survivorship/03-urinary.svg",
-        "altText": "Carte urinaire pour « Toxicité urinaire : caractériser avant de traiter ». Repères représentés : Symptôme et délai ; Mécanisme probable ; Examens ciblés ; Rééducation, médicament ou geste.",
-        "caption": "Carte urinaire : Symptôme et délai · Mécanisme probable · Examens ciblés · Rééducation, médicament ou geste. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte urinaire pour « Toxicité urinaire : caractériser avant de traiter ». Le schéma relie Symptôme et délai ; Mécanisme probable ; Examens ciblés ; Rééducation, médicament ou geste sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Carte urinaire : Symptôme et délai · Mécanisme probable · Examens ciblés · Rééducation, médicament ou geste. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Symptôme et délai",
-            "detail": "Urgence, fréquence, dysurie, rétention, incontinence et hématurie sont décrites avec chronologie, débit, résidu, bandelette ou culture, médicaments et traitement initial."
+            "detail": "Un symptôme, plusieurs mécanismes — Urgence, fréquence, dysurie, rétention, incontinence et hématurie sont décrites avec chronologie, débit, résidu, bandelette ou culture, médicaments et traitement initial."
           },
           {
             "label": "Mécanisme probable",
-            "detail": "Hématurie persistante, caillots, anémie, douleur, infection, insuffisance rénale ou rétention nécessitent une évaluation urologique."
+            "detail": "Ne pas banaliser l'hématurie — Hématurie persistante, caillots, anémie, douleur, infection, insuffisance rénale ou rétention nécessitent une évaluation urologique."
           },
           {
             "label": "Examens ciblés",
-            "detail": "Une toxicité possible n'exclut pas une autre cause traitable ou grave."
+            "detail": "Application et limite — Une toxicité possible n'exclut pas une autre cause traitable ou grave."
           },
           {
             "label": "Rééducation, médicament ou geste",
-            "detail": "Urgence, fréquence, dysurie, rétention, incontinence et hématurie sont décrites avec chronologie, débit, résidu, bandelette ou culture, médicaments et traitement initial."
+            "detail": "Décision au checkpoint — Une toxicité possible n'exclut pas une autre cause traitable ou grave."
           }
         ]
       },
@@ -436,24 +436,24 @@
         "formatLabel": "Carte digestive",
         "title": "Toxicité digestive : quantifier, explorer, coordonner",
         "imageSrc": "/figures/prostate/followup-survivorship/04-bowel.svg",
-        "altText": "Carte digestive pour « Toxicité digestive : quantifier, explorer, coordonner ». Repères représentés : Symptôme digestif ; Gravité et causes ; Avis spécialisé ; Traitement gradué.",
-        "caption": "Carte digestive : Symptôme digestif · Gravité et causes · Avis spécialisé · Traitement gradué. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte digestive pour « Toxicité digestive : quantifier, explorer, coordonner ». Le schéma relie Symptôme digestif ; Gravité et causes ; Avis spécialisé ; Traitement gradué sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Carte digestive : Symptôme digestif · Gravité et causes · Avis spécialisé · Traitement gradué. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Symptôme digestif",
-            "detail": "Fréquence, urgence, diarrhée, ténesme, douleur, mucus, saignement, incontinence et impact social sont quantifiés."
+            "detail": "Au-delà du terme rectite — Fréquence, urgence, diarrhée, ténesme, douleur, mucus, saignement, incontinence et impact social sont quantifiés."
           },
           {
             "label": "Gravité et causes",
-            "detail": "Saignement persistant, anémie, douleur importante ou altération de l'état général justifient un avis spécialisé."
+            "detail": "Le geste doit être prudent — Saignement persistant, anémie, douleur importante ou altération de l'état général justifient un avis spécialisé."
           },
           {
             "label": "Avis spécialisé",
-            "detail": "La gravité et les diagnostics concurrents imposent une évaluation structurée."
+            "detail": "Application et limite — La gravité et les diagnostics concurrents imposent une évaluation structurée."
           },
           {
             "label": "Traitement gradué",
-            "detail": "Fréquence, urgence, diarrhée, ténesme, douleur, mucus, saignement, incontinence et impact social sont quantifiés."
+            "detail": "Décision au checkpoint — La gravité et les diagnostics concurrents imposent une évaluation structurée."
           }
         ]
       },
@@ -544,24 +544,24 @@
         "formatLabel": "Parcours de santé sexuelle",
         "title": "Santé sexuelle : ouvrir la conversation et proposer un parcours",
         "imageSrc": "/figures/prostate/followup-survivorship/05-sexual.svg",
-        "altText": "Parcours de santé sexuelle pour « Santé sexuelle : ouvrir la conversation et proposer un parcours ». Repères représentés : Fonction initiale ; Mécanismes et objectifs ; Option progressive ; Réévaluation du couple/patient.",
-        "caption": "Parcours de santé sexuelle : Fonction initiale · Mécanismes et objectifs · Option progressive · Réévaluation du couple/patient. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Parcours de santé sexuelle pour « Santé sexuelle : ouvrir la conversation et proposer un parcours ». Le schéma relie Fonction initiale ; Mécanismes et objectifs ; Option progressive ; Réévaluation du couple/patient sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Parcours de santé sexuelle : Fonction initiale · Mécanismes et objectifs · Option progressive · Réévaluation du couple/patient. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Fonction initiale",
-            "detail": "Désir, érection, orgasme, éjaculation, longueur perçue, douleur, continence pendant les rapports, image corporelle et relation sont abordés avec consentement."
+            "detail": "Plus que l'érection — Désir, érection, orgasme, éjaculation, longueur perçue, douleur, continence pendant les rapports, image corporelle et relation sont abordés avec consentement."
           },
           {
             "label": "Mécanismes et objectifs",
-            "detail": "Information réaliste, activité sexuelle choisie, inhibiteur de PDE5 si approprié, dispositif vacuum, injections, sexologie ou solution prothétique sont discutés selon sécurité, préférence et objectif."
+            "detail": "Une stratégie progressive — Information réaliste, activité sexuelle choisie, inhibiteur de PDE5 si approprié, dispositif vacuum, injections, sexologie ou solution prothétique sont discutés selon sécurité, préférence e…"
           },
           {
             "label": "Option progressive",
-            "detail": "La santé sexuelle est multidimensionnelle et mérite un parcours individualisé."
+            "detail": "Application et limite — La santé sexuelle est multidimensionnelle et mérite un parcours individualisé."
           },
           {
             "label": "Réévaluation du couple/patient",
-            "detail": "Désir, érection, orgasme, éjaculation, longueur perçue, douleur, continence pendant les rapports, image corporelle et relation sont abordés avec consentement."
+            "detail": "Décision au checkpoint — La santé sexuelle est multidimensionnelle et mérite un parcours individualisé."
           }
         ]
       },
@@ -652,24 +652,24 @@
         "formatLabel": "Carte os–muscle",
         "title": "Santé osseuse après cancer : mesurer le risque et le mouvement",
         "imageSrc": "/figures/prostate/followup-survivorship/06-bone.svg",
-        "altText": "Carte os–muscle pour « Santé osseuse après cancer : mesurer le risque et le mouvement ». Repères représentés : ADT et facteurs de fracture ; DXA/risque ; Exercice et nutrition ; Anti-résorptif si indiqué.",
-        "caption": "Carte os–muscle : ADT et facteurs de fracture · DXA/risque · Exercice et nutrition · Anti-résorptif si indiqué. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte os–muscle pour « Santé osseuse après cancer : mesurer le risque et le mouvement ». Le schéma relie ADT et facteurs de fracture ; DXA/risque ; Exercice et nutrition ; Anti-résorptif si indiqué sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Carte os–muscle : ADT et facteurs de fracture · DXA/risque · Exercice et nutrition · Anti-résorptif si indiqué. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "ADT et facteurs de fracture",
-            "detail": "Durée d'ADT, âge, fracture antérieure, chutes, corticoïdes, poids, tabac, alcool, vitamine D et densité osseuse construisent le risque."
+            "detail": "Risque cumulatif — Durée d'ADT, âge, fracture antérieure, chutes, corticoïdes, poids, tabac, alcool, vitamine D et densité osseuse construisent le risque."
           },
           {
             "label": "DXA/risque",
-            "detail": "Exercice porteur et résistance, prévention des chutes, apport protéique et calcique adapté et correction d'une carence en vitamine D sont associés au traitement pharmacologique lorsqu'il est indiqué."
+            "detail": "Prévenir réellement — Exercice porteur et résistance, prévention des chutes, apport protéique et calcique adapté et correction d'une carence en vitamine D sont associés au traitement pharmacologique lorsqu'il es…"
           },
           {
             "label": "Exercice et nutrition",
-            "detail": "La prévention combine mesure du risque, mouvement, nutrition et médicament selon indication."
+            "detail": "Application et limite — La prévention combine mesure du risque, mouvement, nutrition et médicament selon indication."
           },
           {
             "label": "Anti-résorptif si indiqué",
-            "detail": "Durée d'ADT, âge, fracture antérieure, chutes, corticoïdes, poids, tabac, alcool, vitamine D et densité osseuse construisent le risque."
+            "detail": "Décision au checkpoint — La prévention combine mesure du risque, mouvement, nutrition et médicament selon indication."
           }
         ]
       },
@@ -760,24 +760,24 @@
         "formatLabel": "Tableau de bord cardio-métabolique",
         "title": "Risque métabolique et cardiovasculaire : suivre des variables actionnables",
         "imageSrc": "/figures/prostate/followup-survivorship/07-metabolic-cv.svg",
-        "altText": "Tableau de bord cardio-métabolique pour « Risque métabolique et cardiovasculaire : suivre des variables actionnables ». Repères représentés : Risque initial ; Traitement exposant ; Mesures répétées ; Intervention et coordination.",
-        "caption": "Tableau de bord cardio-métabolique : Risque initial · Traitement exposant · Mesures répétées · Intervention et coordination. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Tableau de bord cardio-métabolique pour « Risque métabolique et cardiovasculaire : suivre des variables actionnables ». Le schéma relie Risque initial ; Traitement exposant ; Mesures répétées ; Intervention et coordination sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Tableau de bord cardio-métabolique : Risque initial · Traitement exposant · Mesures répétées · Intervention et coordination. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Risque initial",
-            "detail": "ADT et certains ARPI favorisent changement de composition corporelle, insulinorésistance, diabète, dyslipidémie, hypertension et déconditionnement."
+            "detail": "Une toxicité prévisible — ADT et certains ARPI favorisent changement de composition corporelle, insulinorésistance, diabète, dyslipidémie, hypertension et déconditionnement."
           },
           {
             "label": "Traitement exposant",
-            "detail": "Exercice aérobie et résistance, alimentation, sevrage tabagique et traitements validés de l'hypertension, du diabète et des lipides sont coordonnés avec médecine générale ou cardio-oncologie."
+            "detail": "Traiter le risque, pas seulement le mesurer — Exercice aérobie et résistance, alimentation, sevrage tabagique et traitements validés de l'hypertension, du diabète et des lipides sont coordonnés avec médecine générale ou cardio-oncologi…"
           },
           {
             "label": "Mesures répétées",
-            "detail": "Le risque cardiométabolique est mesurable et modifiable."
+            "detail": "Application et limite — Le risque cardiométabolique est mesurable et modifiable."
           },
           {
             "label": "Intervention et coordination",
-            "detail": "ADT et certains ARPI favorisent changement de composition corporelle, insulinorésistance, diabète, dyslipidémie, hypertension et déconditionnement."
+            "detail": "Décision au checkpoint — Le risque cardiométabolique est mesurable et modifiable."
           }
         ]
       },
@@ -870,24 +870,24 @@
         "formatLabel": "Carte des besoins après-cancer",
         "title": "Après-cancer : projet de vie, anxiété et continuité des soins",
         "imageSrc": "/figures/prostate/followup-survivorship/08-psychosocial.svg",
-        "altText": "Carte des besoins après-cancer pour « Après-cancer : projet de vie, anxiété et continuité des soins ». Repères représentés : Besoins et détresse ; Responsabilités partagées ; Plan après-cancer ; Réévaluation du projet.",
-        "caption": "Carte des besoins après-cancer : Besoins et détresse · Responsabilités partagées · Plan après-cancer · Réévaluation du projet. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte des besoins après-cancer pour « Après-cancer : projet de vie, anxiété et continuité des soins ». Le schéma relie Besoins et détresse ; Responsabilités partagées ; Plan après-cancer ; Réévaluation du projet sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Carte des besoins après-cancer : Besoins et détresse · Responsabilités partagées · Plan après-cancer · Réévaluation du projet. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Besoins et détresse",
-            "detail": "Peur de récidive, détresse liée au PSA, dépression, fatigue, isolement, difficultés conjugales, professionnelles ou financières sont recherchés avec des questions simples ou des outils validés."
+            "detail": "Le suivi est aussi psychologique — Peur de récidive, détresse liée au PSA, dépression, fatigue, isolement, difficultés conjugales, professionnelles ou financières sont recherchés avec des questions simples ou des outils vali…"
           },
           {
             "label": "Responsabilités partagées",
-            "detail": "À la fin des traitements actifs, le programme personnalisé de l'après-cancer formalise objectifs du suivi, calendrier, responsables, symptômes d'alerte, traitements et effets attendus, prévention, réhabilitation, accompagnement socioprofessionnel, soins de support et relais de proximité."
+            "detail": "Un PPAC partagé et révisable — À la fin des traitements actifs, le programme personnalisé de l'après-cancer formalise objectifs du suivi, calendrier, responsables, symptômes d'alerte, traitements et effets attendus, prév…"
           },
           {
             "label": "Plan après-cancer",
-            "detail": "Les priorités changent avec l'âge, la récupération, la récidive ou le projet de vie."
+            "detail": "Décision partagée longitudinale — Les priorités changent avec l'âge, la récupération, la récidive ou le projet de vie."
           },
           {
             "label": "Réévaluation du projet",
-            "detail": "Peur de récidive, détresse liée au PSA, dépression, fatigue, isolement, difficultés conjugales, professionnelles ou financières sont recherchés avec des questions simples ou des outils validés."
+            "detail": "Décision au checkpoint — Le suivi oncologique, fonctionnel et psychosocial doit être compréhensible et attribué."
           }
         ]
       },

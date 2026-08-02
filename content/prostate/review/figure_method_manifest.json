@@ -1,0 +1,2607 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-02T14:24:05.664Z",
+  "status": "routing_complete_assets_need_review",
+  "universalRendererAllowed": false,
+  "decisionPrinciple": "Choose the representation from the scientific object and evidence, then apply the application visual system.",
+  "counts": {
+    "annotated-medical-illustration": 14,
+    "clinical-imaging-overlay": 5,
+    "deterministic-scientific-schematic": 42,
+    "quantitative-scientific-plot": 6,
+    "safety-checklist": 1,
+    "structured-comparison": 23
+  },
+  "figures": [
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_01_anatomy",
+      "title": "Où est la prostate et comment est-elle organisée ?",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "fine_reuter_prostate_anatomy_2012",
+        "wilson_androgen_receptor_prostate_2020",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/foundations/01-anatomie-prostatique.png",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_02_histology",
+      "title": "À quoi ressemble une prostate normale au microscope ?",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "fine_reuter_prostate_anatomy_2012",
+        "wilson_androgen_receptor_prostate_2020",
+        "isup_grading_consensus_2019"
+      ],
+      "currentAsset": "/figures/prostate/foundations/02-histologie-comparaison.png",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_03_androgen_axis",
+      "title": "L'axe androgénique, de la physiologie à la résistance",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "wilson_androgen_receptor_prostate_2020",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/foundations/03-axe-androgenique.png",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_04_psa",
+      "title": "Le PSA : mesurer un signal, pas prononcer un diagnostic",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "wilson_androgen_receptor_prostate_2020"
+      ],
+      "currentAsset": "/figures/prostate/foundations/04-algorithme-psa.png",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_05_carcinogenesis",
+      "title": "Une maladie, plusieurs dimensions biologiques",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "tcga_prostate_taxonomy_2015",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/foundations/05-dimensions-tumorales.png",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_06_gleason_isup",
+      "title": "Gleason et ISUP : lire une architecture, pas seulement un nombre",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "isup_grading_consensus_2019",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/foundations/06-gleason-isup.png",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_07_trial_literacy",
+      "title": "Lire une preuve avant de transporter une conclusion",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/foundations/07-lecture-preuve.png",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "foundations",
+      "lessonId": "foundation_08_competing_risk",
+      "title": "Horizon de vie et risques concurrents : l'âge ne décide pas seul",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/foundations/08-horizon-risques-concurrents.png",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "detection_diagnosis",
+      "lessonId": "diagnosis_01_risk_and_psa",
+      "title": "Avant le PSA : quelle question cherche-t-on à résoudre ?",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "ccafu_localised_2024_2026"
+      ],
+      "currentAsset": "/figures/prostate/detection-diagnosis/01-intention-avant-psa.png",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "detection_diagnosis",
+      "lessonId": "diagnosis_02_psa_interpretation",
+      "title": "PSA anormal : raisonner avant de conclure",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "ccafu_localised_2024_2026"
+      ],
+      "currentAsset": "/figures/prostate/detection-diagnosis/02-psa-contextualise.png",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "detection_diagnosis",
+      "lessonId": "diagnosis_03_mri_pirads",
+      "title": "IRM et PI-RADS : localiser une suspicion, pas prononcer un verdict",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "ccafu_localised_2024_2026",
+        "acr_pirads_v21_2019"
+      ],
+      "currentAsset": "/figures/prostate/detection-diagnosis/03-irm-pirads-v2.png",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "detection_diagnosis",
+      "lessonId": "diagnosis_04_biopsy_strategy",
+      "title": "Biopsier intelligemment : voie, ciblage et cartographie",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "ccafu_localised_2024_2026"
+      ],
+      "currentAsset": "/figures/prostate/detection-diagnosis/04-strategie-biopsie.png",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "detection_diagnosis",
+      "lessonId": "diagnosis_05_pathology_report",
+      "title": "Lire le compte rendu anatomopathologique comme une carte décisionnelle",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "isup_grading_consensus_2019",
+        "eau_prostate_2026",
+        "ccafu_localised_2024_2026"
+      ],
+      "currentAsset": "/figures/prostate/detection-diagnosis/05-carte-anatomopathologique.png",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_01_tnm",
+      "title": "TNM : décrire l'extension sans mélanger les instruments",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "ccafu_localised_2024_2026"
+      ],
+      "currentAsset": "/figures/prostate/staging-risk-biomarkers/01-tnm.svg",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_02_risk_groups",
+      "title": "Groupes de risque : combiner PSA, cT et ISUP",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "ccafu_localised_2024_2026"
+      ],
+      "currentAsset": "/figures/prostate/staging-risk-biomarkers/02-risk-groups.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_03_imaging_indications",
+      "title": "Choisir le bilan d'extension qui peut changer la décision",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "ccafu_localised_2024_2026",
+        "eanm_snmmi_psma_pet_2023"
+      ],
+      "currentAsset": "/figures/prostate/staging-risk-biomarkers/03-imaging-indications.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_04_psma_limits",
+      "title": "PSMA-PET : gagner en détection sans perdre l'esprit critique",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "eanm_snmmi_psma_pet_2023"
+      ],
+      "currentAsset": "/figures/prostate/staging-risk-biomarkers/04-psma-limits.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_05_nodal_prediction",
+      "title": "Risque ganglionnaire : documenter une probabilité sans inventer un stade",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/staging-risk-biomarkers/05-nodal-prediction.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "staging_risk_biomarkers",
+      "lessonId": "staging_06_germline_somatic",
+      "title": "Germinal ou somatique : poser la bonne question au bon moment",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "asco_genomic_testing_2025"
+      ],
+      "currentAsset": "/figures/prostate/staging-risk-biomarkers/06-germline-somatic.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "deferred_management",
+      "lessonId": "deferred_01_active_surveillance",
+      "title": "Surveillance active : différer sans abandonner l'intention curative",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "currentAsset": "/figures/prostate/deferred-management/01-active-surveillance.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "deferred_management",
+      "lessonId": "deferred_02_monitoring_and_reclassification",
+      "title": "Suivre et reclasser : le PSA alerte, l'histologie arbitre",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/deferred-management/02-monitoring-and-reclassification.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "deferred_management",
+      "lessonId": "deferred_03_watchful_waiting",
+      "title": "Abstention-surveillance : privilégier la qualité de vie quand le curatif n'apporterait pas de bénéfice utile",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/deferred-management/03-watchful-waiting.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "deferred_management",
+      "lessonId": "deferred_04_focal_and_shared_decision",
+      "title": "Traitements focaux et décision partagée : ne pas confondre promesse fonctionnelle et preuve oncologique",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "aua_astro_localized_rt_summary_2024"
+      ],
+      "currentAsset": "/figures/prostate/deferred-management/04-focal-and-shared-decision.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "deferred_management",
+      "lessonId": "deferred_05_shared_decision",
+      "title": "Décision partagée : comparer des parcours et leurs conséquences",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "currentAsset": "/figures/prostate/deferred-management/05-shared-decision.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "localized_curative_options",
+      "lessonId": "localized_01_context",
+      "title": "Ouvrir les bonnes options avant de comparer",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/localized-curative-options/01-context.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "localized_curative_options",
+      "lessonId": "localized_02_surgery",
+      "title": "Prostatectomie radicale : un traitement local et un début de parcours",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/localized-curative-options/02-surgery.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "localized_curative_options",
+      "lessonId": "localized_03_ebrt",
+      "title": "Radiothérapie externe : un traitement curatif construit par risque",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025",
+        "aua_astro_localized_rt_summary_2024"
+      ],
+      "currentAsset": "/figures/prostate/localized-curative-options/03-ebrt.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "localized_curative_options",
+      "lessonId": "localized_04_brachytherapy",
+      "title": "Curiethérapie : sélectionner le risque et surtout la fonction urinaire",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "currentAsset": "/figures/prostate/localized-curative-options/04-brachytherapy.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "localized_curative_options",
+      "lessonId": "localized_05_multimodal",
+      "title": "Comparer les trajectoires multimodales en RCP",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "currentAsset": "/figures/prostate/localized-curative-options/05-multimodal.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_01_indications",
+      "title": "Partir du risque pour définir l'intention",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/definitive-radiotherapy/01-definitive-rt-01-indications.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_02_moderate_hypofractionation",
+      "title": "Hypofractionnement modéré : un standard qui exige son contexte",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/definitive-radiotherapy/02-definitive-rt-02-moderate-hypofractionation.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_03_sbrt",
+      "title": "Ultra-hypofractionnement : sélectionner avant d'accélérer",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/definitive-radiotherapy/03-definitive-rt-03-sbrt.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_04_brachytherapy",
+      "title": "Curiethérapie exclusive ou boost : deux intentions distinctes",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/definitive-radiotherapy/04-definitive-rt-04-brachytherapy.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_05_pelvis",
+      "title": "Volumes : prostate, vésicules et pelvis ne sont pas un paquet",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/definitive-radiotherapy/05-pelvis-v2.png",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_06_boost",
+      "title": "Escalade et boost focal : intensifier sans sacrifier les organes à risque",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/definitive-radiotherapy/06-boost-v2.png",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "definitive_radiotherapy",
+      "lessonId": "definitive_rt_07_adt",
+      "title": "ADT avec radiothérapie : indication, durée et prévention forment un tout",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "estro_acrop_adt_ebrt_2023"
+      ],
+      "currentAsset": "/figures/prostate/definitive-radiotherapy/07-definitive-rt-07-adt.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_01_simulation",
+      "title": "Simulation : fabriquer une anatomie reproductible",
+      "method": "clinical-imaging-overlay",
+      "priority": "P0",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "estro_acrop_primary_contouring_2018",
+        "nci_idc_prostate_aec_2023"
+      ],
+      "currentAsset": "/figures/prostate/radiotherapy-planning/01-simulation-v2.png",
+      "profile": {
+        "production": "Public de-identified CT/MR plus verified RTSTRUCT/SEG when available; deterministic vector overlays and labels.",
+        "allowedAI": "AI may clean layout or create a clearly separated orientation inset; it may not invent anatomy or contours.",
+        "provenance": "Record collection, subject/series UIDs, license, contour provenance, view/window, slice position, transformations and guideline localizers.",
+        "review": [
+          "radiation oncologist",
+          "radiologist when MR/PET is involved",
+          "medical physicist for dose/IGRT content"
+        ],
+        "forbidden": [
+          "image-generation-only anatomy",
+          "unreferenced freehand contours",
+          "copying a published atlas plate without compatible reuse rights"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_02_targets",
+      "title": "Volumes cibles : du risque à une anatomie explicite",
+      "method": "clinical-imaging-overlay",
+      "priority": "P0",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "estro_acrop_primary_contouring_2018"
+      ],
+      "currentAsset": "/figures/prostate/radiotherapy-planning/02-targets-v2.png",
+      "profile": {
+        "production": "Public de-identified CT/MR plus verified RTSTRUCT/SEG when available; deterministic vector overlays and labels.",
+        "allowedAI": "AI may clean layout or create a clearly separated orientation inset; it may not invent anatomy or contours.",
+        "provenance": "Record collection, subject/series UIDs, license, contour provenance, view/window, slice position, transformations and guideline localizers.",
+        "review": [
+          "radiation oncologist",
+          "radiologist when MR/PET is involved",
+          "medical physicist for dose/IGRT content"
+        ],
+        "forbidden": [
+          "image-generation-only anatomy",
+          "unreferenced freehand contours",
+          "copying a published atlas plate without compatible reuse rights"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_03_oar",
+      "title": "OAR : définir avant de mesurer",
+      "method": "clinical-imaging-overlay",
+      "priority": "P0",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "eau_prostate_2026",
+        "nci_idc_prostate_aec_2023"
+      ],
+      "currentAsset": "/figures/prostate/radiotherapy-planning/03-oar-v2.png",
+      "profile": {
+        "production": "Public de-identified CT/MR plus verified RTSTRUCT/SEG when available; deterministic vector overlays and labels.",
+        "allowedAI": "AI may clean layout or create a clearly separated orientation inset; it may not invent anatomy or contours.",
+        "provenance": "Record collection, subject/series UIDs, license, contour provenance, view/window, slice position, transformations and guideline localizers.",
+        "review": [
+          "radiation oncologist",
+          "radiologist when MR/PET is involved",
+          "medical physicist for dose/IGRT content"
+        ],
+        "forbidden": [
+          "image-generation-only anatomy",
+          "unreferenced freehand contours",
+          "copying a published atlas plate without compatible reuse rights"
+        ]
+      },
+      "releaseGate": "reviewed_by_named_clinician",
+      "clinicalReview": {
+        "reviewer": "Sami Frikha",
+        "reviewedAt": "2026-08-02"
+      }
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_04_dvh",
+      "title": "DVH et distribution : relier chaque seuil à son protocole",
+      "method": "quantitative-scientific-plot",
+      "priority": "P0",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/radiotherapy-planning/04-dvh-v2.png",
+      "profile": {
+        "production": "Deterministic Python/Matplotlib figure from verified protocol values, source data, or an explicitly declared synthetic dataset.",
+        "allowedAI": "AI may propose layout or caption wording; it may not invent points, curves, thresholds, effect sizes or uncertainty.",
+        "provenance": "Preserve source values, transformation code, axis definitions, units, missing-data policy and export manifest.",
+        "review": [
+          "content-domain clinician",
+          "medical physicist for DVH/dose",
+          "methodologist for trial/statistical plots"
+        ],
+        "forbidden": [
+          "hand-drawn plausible curves",
+          "unlabelled synthetic data",
+          "thresholds detached from structure definition and protocol"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_05_igrt",
+      "title": "IGRT : corriger la bonne cible au bon moment",
+      "method": "clinical-imaging-overlay",
+      "priority": "P0",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "estro_acrop_igrt_2019",
+        "eau_prostate_2026",
+        "nci_idc_prostate_aec_2023"
+      ],
+      "currentAsset": "/figures/prostate/radiotherapy-planning/05-igrt-v2.png",
+      "profile": {
+        "production": "Public de-identified CT/MR plus verified RTSTRUCT/SEG when available; deterministic vector overlays and labels.",
+        "allowedAI": "AI may clean layout or create a clearly separated orientation inset; it may not invent anatomy or contours.",
+        "provenance": "Record collection, subject/series UIDs, license, contour provenance, view/window, slice position, transformations and guideline localizers.",
+        "review": [
+          "radiation oncologist",
+          "radiologist when MR/PET is involved",
+          "medical physicist for dose/IGRT content"
+        ],
+        "forbidden": [
+          "image-generation-only anatomy",
+          "unreferenced freehand contours",
+          "copying a published atlas plate without compatible reuse rights"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "radiotherapy_planning",
+      "lessonId": "planning_06_audit",
+      "title": "Audit de prétraitement : rendre chaque décision traçable",
+      "method": "safety-checklist",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "estro_acrop_igrt_2019",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/radiotherapy-planning/06-audit.svg",
+      "profile": {
+        "production": "Native interactive checklist with unselected controls, explicit gates, owners and outcomes.",
+        "allowedAI": "AI may not pre-check items or imply completion.",
+        "provenance": "Map every gate to the local protocol or guideline and record version/date.",
+        "review": [
+          "radiation oncologist",
+          "medical physicist",
+          "radiation therapist"
+        ],
+        "forbidden": [
+          "pre-checked controls",
+          "automatic clinical approval",
+          "ambiguous pass/fail state"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_01_definitions",
+      "title": "PSA postopératoire : nommer la situation avant de décider",
+      "method": "quantitative-scientific-plot",
+      "priority": "P1",
+      "sourceIds": [
+        "ccafu_recurrence_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "currentAsset": "/figures/prostate/postprostatectomy-recurrence/01-definitions.svg",
+      "profile": {
+        "production": "Deterministic Python/Matplotlib figure from verified protocol values, source data, or an explicitly declared synthetic dataset.",
+        "allowedAI": "AI may propose layout or caption wording; it may not invent points, curves, thresholds, effect sizes or uncertainty.",
+        "provenance": "Preserve source values, transformation code, axis definitions, units, missing-data policy and export manifest.",
+        "review": [
+          "content-domain clinician",
+          "medical physicist for DVH/dose",
+          "methodologist for trial/statistical plots"
+        ],
+        "forbidden": [
+          "hand-drawn plausible curves",
+          "unlabelled synthetic data",
+          "thresholds detached from structure definition and protocol"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_02_psadt",
+      "title": "Temps de doublement : mesurer une vitesse, pas fabriquer une certitude",
+      "method": "quantitative-scientific-plot",
+      "priority": "P1",
+      "sourceIds": [
+        "ccafu_recurrence_2024_2026",
+        "sfro_recorad_prostate_2025",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/postprostatectomy-recurrence/02-psadt.svg",
+      "profile": {
+        "production": "Deterministic Python/Matplotlib figure from verified protocol values, source data, or an explicitly declared synthetic dataset.",
+        "allowedAI": "AI may propose layout or caption wording; it may not invent points, curves, thresholds, effect sizes or uncertainty.",
+        "provenance": "Preserve source values, transformation code, axis definitions, units, missing-data policy and export manifest.",
+        "review": [
+          "content-domain clinician",
+          "medical physicist for DVH/dose",
+          "methodologist for trial/statistical plots"
+        ],
+        "forbidden": [
+          "hand-drawn plausible curves",
+          "unlabelled synthetic data",
+          "thresholds detached from structure definition and protocol"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_03_psma",
+      "title": "TEP-PSMA : chercher ce qui change la stratégie",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_recurrence_2024_2026",
+        "eau_prostate_2026",
+        "eanm_snmmi_psma_pet_2023"
+      ],
+      "currentAsset": "/figures/prostate/postprostatectomy-recurrence/03-psma.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_04_early_salvage",
+      "title": "Rattrapage précoce : agir avant que l'opportunité ne se ferme",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "eau_prostate_2026",
+        "ccafu_recurrence_2024_2026"
+      ],
+      "currentAsset": "/figures/prostate/postprostatectomy-recurrence/04-early-salvage.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_05_adt",
+      "title": "Hormonothérapie avec le rattrapage : sélectionner et dater",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "eau_prostate_2026",
+        "ccafu_recurrence_2024_2026"
+      ],
+      "currentAsset": "/figures/prostate/postprostatectomy-recurrence/05-adt.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "postprostatectomy_recurrence",
+      "lessonId": "postrp_06_technique",
+      "title": "Radiothérapie postopératoire : reconstruire un lit sans glande",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "estro_acrop_prostate_bed_2023",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/postprostatectomy-recurrence/06-technique-v2.png",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "postradiotherapy_and_oligorecurrence",
+      "lessonId": "postrt_01_local_salvage",
+      "title": "Après irradiation : prouver une récidive réellement locale",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_recurrence_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "currentAsset": "/figures/prostate/postradiotherapy-and-oligorecurrence/01-local-salvage.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "postradiotherapy_and_oligorecurrence",
+      "lessonId": "oligorec_02_nodal",
+      "title": "Récidive ganglionnaire : la cible visible n'est pas tout le pelvis à risque",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_recurrence_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025",
+        "peace_v_storm_2025"
+      ],
+      "currentAsset": "/figures/prostate/postradiotherapy-and-oligorecurrence/02-nodal-v2.png",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "postradiotherapy_and_oligorecurrence",
+      "lessonId": "oligorec_03_uncertainty",
+      "title": "MDT : retarder une progression n'est pas prouver une guérison",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "eanm_snmmi_psma_pet_2023",
+        "stomp_2018",
+        "radiosa_2025",
+        "peace_v_storm_2025"
+      ],
+      "currentAsset": "/figures/prostate/postradiotherapy-and-oligorecurrence/03-uncertainty.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "postradiotherapy_and_oligorecurrence",
+      "lessonId": "oligorec_04_mdt_rt",
+      "title": "Radiothérapie dirigée : sécuriser chaque site et le parcours entier",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "eau_prostate_2026",
+        "eanm_snmmi_psma_pet_2023",
+        "peace_v_storm_2025",
+        "radiosa_2025"
+      ],
+      "currentAsset": "/figures/prostate/postradiotherapy-and-oligorecurrence/04-mdt-rt.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "high_risk_and_cn1",
+      "lessonId": "highrisk_01_state_definition",
+      "title": "Définir l'état de maladie avant d'intensifier",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "stampede_abiraterone_m0_2022"
+      ],
+      "currentAsset": "/figures/prostate/high-risk-and-cn1/01-state-definition.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "high_risk_and_cn1",
+      "lessonId": "highrisk_02_local_pathways",
+      "title": "Traitement local : comparer des parcours multimodaux",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "currentAsset": "/figures/prostate/high-risk-and-cn1/02-local-pathways.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "high_risk_and_cn1",
+      "lessonId": "highrisk_03_systemic_intensification",
+      "title": "Intensification systémique : critères, durée et toxicités",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "stampede_abiraterone_m0_2022",
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "estro_acrop_adt_ebrt_2023"
+      ],
+      "currentAsset": "/figures/prostate/high-risk-and-cn1/03-systemic-intensification.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "high_risk_and_cn1",
+      "lessonId": "highrisk_04_cn1_m0",
+      "title": "cN1 M0 : traiter le pelvis, la prostate et le risque systémique",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "ccafu_localised_2024_2026",
+        "sfro_recorad_prostate_2025",
+        "stampede_abiraterone_m0_2022"
+      ],
+      "currentAsset": "/figures/prostate/high-risk-and-cn1/04-cn1-m0-v2.png",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "high_risk_and_cn1",
+      "lessonId": "highrisk_05_divergence",
+      "title": "Divergences : produire une décision traçable, pas une moyenne",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025",
+        "stampede_abiraterone_m0_2022"
+      ],
+      "currentAsset": "/figures/prostate/high-risk-and-cn1/05-divergence.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "systemic_therapy_foundations",
+      "lessonId": "systemic_01_adt",
+      "title": "ADT : obtenir et vérifier la castration",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/systemic-therapy-foundations/01-adt.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "systemic_therapy_foundations",
+      "lessonId": "systemic_02_adt_rt",
+      "title": "ADT et radiothérapie : une combinaison dépendante du risque",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "estro_acrop_adt_ebrt_2023",
+        "eau_prostate_2026",
+        "ccafu_advanced_2024_2026"
+      ],
+      "currentAsset": "/figures/prostate/systemic-therapy-foundations/02-adt-rt.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "systemic_therapy_foundations",
+      "lessonId": "systemic_03_arpi",
+      "title": "ARPI : choisir selon exposition, comorbidités et interactions",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/systemic-therapy-foundations/03-arpi.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "systemic_therapy_foundations",
+      "lessonId": "systemic_04_taxanes",
+      "title": "Taxanes : indication, fitness et prévention des complications",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "asco_mcrpc_2025"
+      ],
+      "currentAsset": "/figures/prostate/systemic-therapy-foundations/04-taxanes.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "systemic_therapy_foundations",
+      "lessonId": "systemic_05_prevention",
+      "title": "Santé osseuse, métabolique et cardiovasculaire : traiter avant la complication",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/systemic-therapy-foundations/05-prevention.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "hormone_sensitive_and_nmcrpc",
+      "lessonId": "hspc_01_burden_synchrony",
+      "title": "Volume, risque et synchronie : garder les définitions de leurs essais",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "eanm_snmmi_psma_pet_2023"
+      ],
+      "currentAsset": "/figures/prostate/hormone-sensitive-and-nmcrpc/01-burden-synchrony.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "hormone_sensitive_and_nmcrpc",
+      "lessonId": "hspc_01_doublet_triplet",
+      "title": "mHSPC : construire l'intensification initiale",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/hormone-sensitive-and-nmcrpc/02-doublet-triplet.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "hormone_sensitive_and_nmcrpc",
+      "lessonId": "hspc_02_primary_rt",
+      "title": "Irradier la prostate en M1 : préserver la population de preuve",
+      "method": "quantitative-scientific-plot",
+      "priority": "P1",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "eanm_snmmi_psma_pet_2023",
+        "stampede_primary_rt_m1_2018"
+      ],
+      "currentAsset": "/figures/prostate/hormone-sensitive-and-nmcrpc/03-primary-rt-v2.png",
+      "profile": {
+        "production": "Deterministic Python/Matplotlib figure from verified protocol values, source data, or an explicitly declared synthetic dataset.",
+        "allowedAI": "AI may propose layout or caption wording; it may not invent points, curves, thresholds, effect sizes or uncertainty.",
+        "provenance": "Preserve source values, transformation code, axis definitions, units, missing-data policy and export manifest.",
+        "review": [
+          "content-domain clinician",
+          "medical physicist for DVH/dose",
+          "methodologist for trial/statistical plots"
+        ],
+        "forbidden": [
+          "hand-drawn plausible curves",
+          "unlabelled synthetic data",
+          "thresholds detached from structure definition and protocol"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "hormone_sensitive_and_nmcrpc",
+      "lessonId": "hspc_03_nmcrpc",
+      "title": "nmCRPC : trois conditions avant de traiter",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/hormone-sensitive-and-nmcrpc/04-nmcrpc.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "hormone_sensitive_and_nmcrpc",
+      "lessonId": "hspc_04_bone",
+      "title": "Métastases osseuses : douleur, urgence et prévention selon l'état",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/hormone-sensitive-and-nmcrpc/05-bone.svg",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_01_state",
+      "title": "Confirmer le mCRPC et cartographier la trajectoire",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "asco_mcrpc_2025"
+      ],
+      "currentAsset": "/figures/prostate/mcrpc-precision-palliation/01-state.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_02_testing",
+      "title": "Oncologie de précision : tester assez tôt et au bon niveau",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "asco_genomic_testing_2025"
+      ],
+      "currentAsset": "/figures/prostate/mcrpc-precision-palliation/02-testing.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_03_parp",
+      "title": "HRR/BRCA et PARP : lire le gène, la ligne et le partenaire",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "asco_mcrpc_2025",
+        "asco_genomic_testing_2025"
+      ],
+      "currentAsset": "/figures/prostate/mcrpc-precision-palliation/03-parp.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_04_rare_biomarkers",
+      "title": "MSI/MMR et biomarqueurs rares : chercher sans surpromettre",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "asco_genomic_testing_2025"
+      ],
+      "currentAsset": "/figures/prostate/mcrpc-precision-palliation/04-rare-biomarkers.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_05_radium",
+      "title": "Radium-223 : sélectionner le phénotype osseux",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "asco_mcrpc_2025"
+      ],
+      "currentAsset": "/figures/prostate/mcrpc-precision-palliation/05-radium.svg",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_06_lutetium",
+      "title": "Lutétium-PSMA : au-delà d'un TEP positif",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "asco_mcrpc_2025",
+        "eanm_snmmi_psma_pet_2023"
+      ],
+      "currentAsset": "/figures/prostate/mcrpc-precision-palliation/06-lutetium.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_07_rlt_workflow",
+      "title": "Radioligand PSMA : organiser le parcours et l'évaluation",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "asco_mcrpc_2025",
+        "eanm_snmmi_psma_pet_2023"
+      ],
+      "currentAsset": "/figures/prostate/mcrpc-precision-palliation/07-rlt-workflow.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_08_sequence",
+      "title": "Séquencer : changer de mécanisme et préserver la suite",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "asco_mcrpc_2025"
+      ],
+      "currentAsset": "/figures/prostate/mcrpc-precision-palliation/08-sequence.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_09_neuroendocrine",
+      "title": "Transformation neuroendocrine : suspecter une biologie discordante",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "asco_mcrpc_2025"
+      ],
+      "currentAsset": "/figures/prostate/mcrpc-precision-palliation/09-neuroendocrine.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_10_palliative_rt",
+      "title": "Radiothérapie palliative : traiter le problème local maintenant",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "currentAsset": "/figures/prostate/mcrpc-precision-palliation/10-palliative-rt.svg",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "mcrpc_precision_palliation",
+      "lessonId": "mcrpc_11_supportive",
+      "title": "Soins de support : une ligne parallèle, jamais la dernière ligne",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_advanced_2024_2026",
+        "eau_prostate_2026",
+        "esmo_advanced_prostate_2026",
+        "asco_mcrpc_2025"
+      ],
+      "currentAsset": "/figures/prostate/mcrpc-precision-palliation/11-supportive.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "complex_special_situations",
+      "lessonId": "special_01_frailty",
+      "title": "Fragilité : adapter après évaluation, pas après l'âge",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "ccafu_localised_2024_2026",
+        "ccafu_advanced_2024_2026"
+      ],
+      "currentAsset": "/figures/prostate/complex-special-situations/01-frailty.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "complex_special_situations",
+      "lessonId": "special_02_ibd",
+      "title": "MICI : qualifier l'activité et réduire l'exposition digestive",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025",
+        "trotta_ibd_prostate_rt_2023"
+      ],
+      "currentAsset": "/figures/prostate/complex-special-situations/02-ibd-v2.png",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "complex_special_situations",
+      "lessonId": "special_03_turp",
+      "title": "Après TURP : reconstruire l'anatomie et le risque urinaire",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "eau_prostate_2026",
+        "neerhut_turp_hypofractionation_2024"
+      ],
+      "currentAsset": "/figures/prostate/complex-special-situations/03-turp-v2.png",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "complex_special_situations",
+      "lessonId": "special_04_hip",
+      "title": "Prothèse de hanche : maîtriser artefact et calcul de dose",
+      "method": "clinical-imaging-overlay",
+      "priority": "P0",
+      "sourceIds": [
+        "sfro_recorad_prostate_2025",
+        "eau_prostate_2026",
+        "nci_idc_prostate_aec_2023",
+        "aapm_tg63_hip_prostheses_2003"
+      ],
+      "currentAsset": "/figures/prostate/complex-special-situations/04-hip-v2.png",
+      "profile": {
+        "production": "Public de-identified CT/MR plus verified RTSTRUCT/SEG when available; deterministic vector overlays and labels.",
+        "allowedAI": "AI may clean layout or create a clearly separated orientation inset; it may not invent anatomy or contours.",
+        "provenance": "Record collection, subject/series UIDs, license, contour provenance, view/window, slice position, transformations and guideline localizers.",
+        "review": [
+          "radiation oncologist",
+          "radiologist when MR/PET is involved",
+          "medical physicist for dose/IGRT content"
+        ],
+        "forbidden": [
+          "image-generation-only anatomy",
+          "unreferenced freehand contours",
+          "copying a published atlas plate without compatible reuse rights"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "complex_special_situations",
+      "lessonId": "special_05_stage_migration",
+      "title": "Oligométastatique et migration de stade : deux cartes simultanées",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "eanm_snmmi_psma_pet_2023",
+        "eau_prostate_2026",
+        "sfro_recorad_prostate_2025"
+      ],
+      "currentAsset": "/figures/prostate/complex-special-situations/05-stage-migration.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_01_psa",
+      "title": "PSA après traitement local : interpréter avant d'imager",
+      "method": "quantitative-scientific-plot",
+      "priority": "P1",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "ccafu_recurrence_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/followup-survivorship/01-psa.svg",
+      "profile": {
+        "production": "Deterministic Python/Matplotlib figure from verified protocol values, source data, or an explicitly declared synthetic dataset.",
+        "allowedAI": "AI may propose layout or caption wording; it may not invent points, curves, thresholds, effect sizes or uncertainty.",
+        "provenance": "Preserve source values, transformation code, axis definitions, units, missing-data policy and export manifest.",
+        "review": [
+          "content-domain clinician",
+          "medical physicist for DVH/dose",
+          "methodologist for trial/statistical plots"
+        ],
+        "forbidden": [
+          "hand-drawn plausible curves",
+          "unlabelled synthetic data",
+          "thresholds detached from structure definition and protocol"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_02_testosterone",
+      "title": "Récupération de la testostérone : expliquer l'incertitude",
+      "method": "quantitative-scientific-plot",
+      "priority": "P1",
+      "sourceIds": [
+        "ccafu_recurrence_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/followup-survivorship/02-testosterone.svg",
+      "profile": {
+        "production": "Deterministic Python/Matplotlib figure from verified protocol values, source data, or an explicitly declared synthetic dataset.",
+        "allowedAI": "AI may propose layout or caption wording; it may not invent points, curves, thresholds, effect sizes or uncertainty.",
+        "provenance": "Preserve source values, transformation code, axis definitions, units, missing-data policy and export manifest.",
+        "review": [
+          "content-domain clinician",
+          "medical physicist for DVH/dose",
+          "methodologist for trial/statistical plots"
+        ],
+        "forbidden": [
+          "hand-drawn plausible curves",
+          "unlabelled synthetic data",
+          "thresholds detached from structure definition and protocol"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_03_urinary",
+      "title": "Toxicité urinaire : caractériser avant de traiter",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/followup-survivorship/03-urinary.svg",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_04_bowel",
+      "title": "Toxicité digestive : quantifier, explorer, coordonner",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/followup-survivorship/04-bowel.svg",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_05_sexual",
+      "title": "Santé sexuelle : ouvrir la conversation et proposer un parcours",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/followup-survivorship/05-sexual.svg",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_06_bone",
+      "title": "Santé osseuse après cancer : mesurer le risque et le mouvement",
+      "method": "annotated-medical-illustration",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_recurrence_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/followup-survivorship/06-bone.svg",
+      "profile": {
+        "production": "High-fidelity educational illustration or licensed anatomical source, followed by deterministic labels and callouts.",
+        "allowedAI": "Image generation is allowed for the unlabeled base only when the concept is illustrative rather than a contouring reference.",
+        "provenance": "Keep prompt/reference roles, source/license or generation record, and a label-to-source fact map.",
+        "review": [
+          "relevant clinician",
+          "radiologist/pathologist when applicable"
+        ],
+        "forbidden": [
+          "using generated anatomy as a contouring atlas",
+          "AI-rendered embedded text",
+          "photorealistic patient implication"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_07_metabolic_cv",
+      "title": "Risque métabolique et cardiovasculaire : suivre des variables actionnables",
+      "method": "structured-comparison",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_recurrence_2024_2026",
+        "eau_prostate_2026"
+      ],
+      "currentAsset": "/figures/prostate/followup-survivorship/07-metabolic-cv.svg",
+      "profile": {
+        "production": "Native SVG/HTML table or matrix with deterministic typography and explicitly sourced cells.",
+        "allowedAI": "AI may help organize information but every cell must map to a verified statement.",
+        "provenance": "Attach a claim-to-source map and preserve qualifiers, population boundaries and uncertainty.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "false equivalence",
+          "implicit ranking without evidence",
+          "decorative axes or gauges"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    },
+    {
+      "blockId": "followup_survivorship",
+      "lessonId": "followup_08_psychosocial",
+      "title": "Après-cancer : projet de vie, anxiété et continuité des soins",
+      "method": "deterministic-scientific-schematic",
+      "priority": "P2",
+      "sourceIds": [
+        "ccafu_localised_2024_2026",
+        "ccafu_recurrence_2024_2026",
+        "eau_prostate_2026",
+        "inca_organisation_soins_ppac_2017"
+      ],
+      "currentAsset": "/figures/prostate/followup-survivorship/08-psychosocial.svg",
+      "profile": {
+        "production": "Purpose-built native SVG or scientific-schematic draft, then manual vector cleanup and rule-by-rule validation.",
+        "allowedAI": "AI may draft composition; final labels, arrows, branches and causal/temporal meaning are deterministic and source-checked.",
+        "provenance": "Store the brief, exact labels, relationship semantics, source IDs and review log.",
+        "review": [
+          "content-domain clinician"
+        ],
+        "forbidden": [
+          "generic four-box templates",
+          "arrows without defined semantics",
+          "invented chronology or causality"
+        ]
+      },
+      "releaseGate": "needs_review",
+      "clinicalReview": null
+    }
+  ]
+}

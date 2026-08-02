@@ -1,0 +1,28 @@
+{
+  "purpose": "Compare the exact PEACE V-STORM treatment strategies and evidence signal without fabricating nodal anatomy.",
+  "source": {
+    "license": "Original deterministic synthesis; no third-party figure reused",
+    "trial": {
+      "id": "peace_v_storm_2025",
+      "pmid": "40339593",
+      "doi": "10.1016/S1470-2045(25)00197-4"
+    },
+    "guidelines": [
+      {
+        "id": "sfro_recorad_prostate_2025"
+      },
+      {
+        "id": "eau_prostate_2026"
+      }
+    ]
+  },
+  "limitations": [
+    "The trial was phase II and the displayed result must not be presented as definitive superiority.",
+    "The figure does not apply to extrapelvic or osseous recurrence.",
+    "No individual treatment recommendation is encoded."
+  ],
+  "schemaVersion": 1,
+  "asset": "/root/.openclaw/workspace/onco-rt-academy/public/figures/prostate/postradiotherapy-and-oligorecurrence/02-nodal-v2.png",
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null
+}

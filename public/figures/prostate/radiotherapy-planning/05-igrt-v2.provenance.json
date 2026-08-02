@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/radiotherapy-planning/05-igrt-v2.png",
+  "purpose": "Explain the different reference frames for prostate and pelvic-node IGRT without presenting synthetic displacement as measured motion.",
+  "source": {
+    "repository": "NCI Imaging Data Commons / The Cancer Imaging Archive",
+    "collection": "Prostate-Anatomical-Edge-Cases",
+    "subject": "Prostate-AEC-126",
+    "license": "CC BY 4.0",
+    "doi": "10.7937/QSTF-ST65",
+    "guidelines": [
+      {
+        "id": "sfro_recorad_prostate_2025",
+        "locator": "IGRT section"
+      },
+      {
+        "id": "estro_acrop_igrt_2019",
+        "doi": "10.1016/j.radonc.2019.08.027"
+      }
+    ]
+  },
+  "transformations": {
+    "ctWindowHU": [
+      -160.0,
+      240.0
+    ],
+    "axialSliceIndex": 137,
+    "referenceContour": "Clinically used manual prostate RTSTRUCT contour.",
+    "displacedContour": "Synthetic translation of -8 rows and +10 columns solely for conceptual teaching; not patient motion and not a tolerance.",
+    "bonyEnvelope": "CT values above 200 HU smoothed with a five-pixel Gaussian kernel and thresholded at 0.25 for a readable major-bone outline.",
+    "targetMatchIllustration": "Inverse synthetic translation is applied to the derived bony outline to show the reference-frame trade-off; it is not a delivered couch correction."
+  },
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null,
+  "limitations": [
+    "No CBCT or measured setup error is displayed.",
+    "The displacement magnitude is illustrative and must not be interpreted as an action threshold.",
+    "A local protocol must define match order, tolerances and actions."
+  ]
+}

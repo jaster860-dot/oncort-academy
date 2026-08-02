@@ -1,14 +1,17 @@
 {
   "artifact": "/figures/prostate/detection-diagnosis/03-irm-pirads.svg",
   "status": "needs_review",
-  "reviewMode": "local_technical_and_accessibility_preflight",
+  "reviewMode": "local_deterministic_scientific_preflight",
   "automaticQualityReview": {
-    "scope": "Précontrôle technique local ; ne constitue pas une validation clinique.",
-    "threshold": 7.5,
-    "score": 8.5,
+    "scope": "Précontrôle déterministe de structure, lisibilité et garde-fous ; ne constitue pas une validation clinique.",
     "passed": true,
-    "cap": 8.5,
-    "capReason": "Score plafonné tant qu'aucun clinicien nommé n'a réalisé la revue clinique finale."
+    "numericQualityScore": null,
+    "clinicalMeaningReviewedByAutomation": false,
+    "checks": [
+      { "id": "anatomic_localization", "label": "Localisation schématique avec zones périphérique et transitionnelle", "passed": true },
+      { "id": "category_separation", "label": "PI-RADS séparé de l’ISUP et du stade", "passed": true },
+      { "id": "release_gate", "label": "Validation clinique nominative explicitement requise", "passed": true }
+    ]
   },
   "clinicalValidation": false,
   "automaticReviewIsClinicalValidation": false,

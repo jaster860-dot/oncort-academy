@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
   <title id="title">Prothèse de hanche : maîtriser artefact et calcul de dose</title>
-  <desc id="desc">Artefact et géométrie pour « Prothèse de hanche : maîtriser artefact et calcul de dose ». Repères représentés : Type de prothèse ; Artefact et densité ; Plans comparés ; QA et robustesse.</desc>
+  <desc id="desc">Artefact et géométrie pour « Prothèse de hanche : maîtriser artefact et calcul de dose ». Le schéma relie Type de prothèse ; Artefact et densité ; Plans comparés ; QA et robustesse sans représenter de données patient ni remplacer le protocole source.</desc>
   <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
   <rect width="1376" height="768" fill="#FFF8E8"/>
   <rect width="18" height="768" fill="#007C83"/>
@@ -8,28 +8,8 @@
   <rect x="60" y="62" width="244" height="34" rx="17" fill="#DDF3F1"/>
   <text x="77" y="85" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83">ARTEFACT ET GÉOMÉTRIE</text>
   <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="60" dy="0">Prothèse de hanche : maîtriser artefact et calcul de dose</tspan></text>
-  <rect x="90" y="245" width="470" height="345" rx="28" fill="#FFFCF4" stroke="#2563A6" stroke-width="3"/>
-    <rect x="816" y="245" width="470" height="345" rx="28" fill="#FFFCF4" stroke="#007C83" stroke-width="3"/>
-    <g transform="translate(325 410) scale(0.58)">
-    <path d="M -185 -150 Q -250 -20 -180 170 Q -105 245 0 220 Q 105 245 180 170 Q 250 -20 185 -150" fill="#F2E1D5" stroke="#24313A" stroke-width="5"/>
-    <ellipse cx="0" cy="-78" rx="94" ry="70" fill="#E5EEF8" stroke="#2563A6" stroke-width="5"/>
-    <path d="M -54 5 Q 0 -28 54 5 L 47 68 Q 0 94 -47 68 Z" fill="#DDF3F1" stroke="#007C83" stroke-width="5"/>
-    <path d="M 0 58 L 0 195" fill="none" stroke="#D97706" stroke-width="9" stroke-linecap="round"/>
-    <path d="M 105 -40 Q 142 40 116 170" fill="none" stroke="#C85C4A" stroke-width="26" stroke-linecap="round" opacity=".75"/>
-  </g><g transform="translate(1051 410) scale(0.58)">
-    <path d="M -185 -150 Q -250 -20 -180 170 Q -105 245 0 220 Q 105 245 180 170 Q 250 -20 185 -150" fill="#F2E1D5" stroke="#24313A" stroke-width="5"/>
-    <ellipse cx="0" cy="-78" rx="94" ry="70" fill="#E5EEF8" stroke="#2563A6" stroke-width="5"/>
-    <path d="M -54 5 Q 0 -28 54 5 L 47 68 Q 0 94 -47 68 Z" fill="#DDF3F1" stroke="#007C83" stroke-width="5"/>
-    <path d="M 0 58 L 0 195" fill="none" stroke="#D97706" stroke-width="9" stroke-linecap="round"/>
-    <path d="M 105 -40 Q 142 40 116 170" fill="none" stroke="#C85C4A" stroke-width="26" stroke-linecap="round" opacity=".75"/>
-  </g>
-    <path d="M 585 415 L 790 415" fill="none" stroke="#D97706" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
-    <path d="M 679 375 L 697 415 L 679 455" fill="none" stroke="#D97706" stroke-width="7"/>
-    <text x="325" y="625" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="750" fill="#24313A" text-anchor="middle"><tspan x="325" dy="0">Type de prothèse</tspan></text>
-    <text x="1051" y="625" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="750" fill="#24313A" text-anchor="middle"><tspan x="1051" dy="0">Artefact et densité</tspan></text>
-    <g><rect x="550" y="240" width="276" height="90" rx="20" fill="#FCE8C8" stroke="#D97706" stroke-width="3"/><text x="688" y="290.95" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="688" dy="0">Plans comparés</tspan></text></g>
-    <text x="688" y="665" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="#007C83" text-anchor="middle"><tspan x="688" dy="0">QA et robustesse</tspan></text>
+  <g><rect x="70" y="230" width="350" height="370" rx="22" fill="#FFFCF4" stroke="#2563A6" stroke-width="3"/><text x="245" y="270" font-family="Arial" font-size="18" font-weight="850" fill="#2563A6" text-anchor="middle">1 · IMAGERIE</text><circle cx="245" cy="400" r="72" fill="#E5EEF8" stroke="#2563A6" stroke-width="5"/><circle cx="292" cy="418" r="28" fill="#24313A"/><path d="M 292 418 L 120 300 M 292 418 L 390 320 M 292 418 L 405 535 M 292 418 L 135 560" stroke="#D97706" stroke-width="10" opacity=".6"/><text x="245" y="565" font-family="Arial" font-size="15" font-weight="750" fill="#D97706" text-anchor="middle">Artefacts → contours/densités incertains</text><path d="M 440 415 L 505 415" fill="none" stroke="#007C83" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/><rect x="525" y="230" width="350" height="370" rx="22" fill="#FFFCF4" stroke="#007C83" stroke-width="3"/><text x="700" y="270" font-family="Arial" font-size="18" font-weight="850" fill="#007C83" text-anchor="middle">2 · CALCUL</text><g><rect x="585" y="315" width="230" height="75" rx="20" fill="#DDF3F1" stroke="#007C83" stroke-width="3"/><text x="700" y="358.45" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="700" dy="0">Correction d’artefact</tspan></text></g><path d="M 700 400 L 700 445" fill="none" stroke="#007C83" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/><g><rect x="585" y="465" width="230" height="80" rx="20" fill="#E5EEF8" stroke="#2563A6" stroke-width="3"/><text x="700" y="501.09" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="700" dy="0">Densité / algorithme</tspan><tspan x="700" dy="20">validés</tspan></text></g><text x="700" y="575" font-family="Arial" font-size="15" font-weight="750" fill="#24313A" text-anchor="middle">Incertitude explicitée</text><path d="M 895 415 L 960 415" fill="none" stroke="#D97706" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/><rect x="980" y="230" width="326" height="370" rx="22" fill="#FFFCF4" stroke="#D97706" stroke-width="3"/><text x="1143" y="270" font-family="Arial" font-size="18" font-weight="850" fill="#D97706" text-anchor="middle">3 · FAISCEAUX / QA</text><circle cx="1143" cy="420" r="72" fill="#DDF3F1" stroke="#007C83" stroke-width="5"/><circle cx="1190" cy="438" r="28" fill="#24313A"/><path d="M 1035 340 L 1100 382 M 1040 520 L 1100 458 M 1255 330 L 1215 386" stroke="#2563A6" stroke-width="9" marker-end="url(#arrow)"/><path d="M 1270 510 L 1205 465" stroke="#C85C4A" stroke-width="9" stroke-dasharray="8 7"/><text x="1143" y="565" font-family="Arial" font-size="15" font-weight="750" fill="#24313A" text-anchor="middle">Éviter le métal si robuste ; vérifier dose et délivrance</text></g>
   <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
-  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Artefact et géométrie · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
+  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#FFFFFF">Artefact et géométrie · PÉDAGOGIQUE · NON À L’ÉCHELLE · SANS DONNÉE PATIENT</text>
+  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Sources et limites dans la leçon</text>
   </svg>

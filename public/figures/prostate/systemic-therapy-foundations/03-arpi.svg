@@ -1,23 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
-  <title id="title">ARPI : choisir selon exposition, comorbidités et interactions</title>
-  <desc id="desc">Matrice de sélection ARPI pour « ARPI : choisir selon exposition, comorbidités et interactions ». Repères représentés : État et expositions ; Profil patient et interactions ; ARPI adapté ; Surveillance puis changement de mécanisme.</desc>
-  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
-  <rect width="1376" height="768" fill="#FFF8E8"/>
-  <rect width="18" height="768" fill="#007C83"/>
-  <text x="60" y="46" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83" letter-spacing="2">ONCORT ACADEMY · PROSTATE</text>
-  <rect x="60" y="62" width="284" height="34" rx="17" fill="#DDF3F1"/>
-  <text x="77" y="85" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83">MATRICE DE SÉLECTION ARPI</text>
-  <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="60" dy="0">ARPI : choisir selon exposition, comorbidités et interactions</tspan></text>
-  <g><rect x="145" y="238" width="510" height="170" rx="22" fill="#DDF3F1" stroke="#007C83" stroke-width="3"/>
-    <text x="187" y="296" font-family="Arial" font-size="34" font-weight="850" fill="#007C83">01</text>
-    <text x="187" y="337" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="187" dy="0">État et expositions</tspan></text></g><g><rect x="720" y="238" width="510" height="170" rx="22" fill="#E5EEF8" stroke="#2563A6" stroke-width="3"/>
-    <text x="762" y="296" font-family="Arial" font-size="34" font-weight="850" fill="#2563A6">02</text>
-    <text x="762" y="337" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="762" dy="0">Profil patient et interactions</tspan></text></g><g><rect x="145" y="452" width="510" height="170" rx="22" fill="#FCE8C8" stroke="#D97706" stroke-width="3"/>
-    <text x="187" y="510" font-family="Arial" font-size="34" font-weight="850" fill="#D97706">03</text>
-    <text x="187" y="551" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="187" dy="0">ARPI adapté</tspan></text></g><g><rect x="720" y="452" width="510" height="170" rx="22" fill="#FFFCF4" stroke="#24313A" stroke-width="3"/>
-    <text x="762" y="510" font-family="Arial" font-size="34" font-weight="850" fill="#24313A">04</text>
-    <text x="762" y="551" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="762" dy="0">Surveillance puis changement de</tspan><tspan x="762" dy="26">mécanisme</tspan></text></g><line x1="688" y1="225" x2="688" y2="638" stroke="#D8D5C9" stroke-width="2"/><line x1="130" y1="430" x2="1245" y2="430" stroke="#D8D5C9" stroke-width="2"/>
-  <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
-  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Matrice de sélection ARPI · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
-  </svg>
+<title id="title">ARPI : mécanisme, vulnérabilités et interactions guident le choix</title>
+<desc id="desc">Comparaison pédagogique des profils d’abiratérone, enzalutamide, apalutamide et darolutamide, avec surveillance et limites de séquençage.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#24313A"/></marker></defs>
+<rect width="1376" height="768" fill="#FFF8E8"/>
+<rect width="18" height="768" fill="#007C83"/>
+<text x="58" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="1.8">ONCORT ACADEMY · PROSTATE</text>
+<rect x="58" y="51" width="340" height="32" rx="16" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="76" y="73" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="0.7">MATRICE PHARMACOCLINIQUE</text>
+<text x="58" y="122" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#24313A" text-anchor="start" letter-spacing="0">ARPI : mécanisme, vulnérabilités et interactions guident le choix</text>
+<rect x="58" y="150" width="1260" height="436" rx="18" fill="#FFFFFF" stroke="#007C83" stroke-width="3"/>
+<rect x="58" y="150" width="1260" height="56" rx="18" fill="#24313A"/>
+<text x="78" y="184" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="start" letter-spacing="0.8">AGENT</text>
+<text x="318" y="184" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="start" letter-spacing="0.8">ACTION</text>
+<text x="580" y="184" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="start" letter-spacing="0.6">VULNÉRABILITÉS À RECHERCHER</text>
+<text x="916" y="184" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="start" letter-spacing="0.5">SURVEILLANCE / INTERACTIONS</text>
+<rect x="59" y="206" width="1258" height="95" fill="#FCE8C8" opacity="0.55"/>
+<line x1="58" y1="206" x2="1318" y2="206" stroke="#D8D5C9" stroke-width="1.5"/>
+<text x="78" y="244" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="850" fill="#D97706" text-anchor="start" letter-spacing="0">Abiratérone + corticoïde</text>
+<text x="318" y="236" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="318" dy="0">Synthèse des</tspan><tspan x="318" dy="21">androgènes</tspan></text>
+<text x="580" y="236" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="580" dy="0">HTA · hypokaliémie</tspan><tspan x="580" dy="21">œdèmes · hépatopathie</tspan></text>
+<text x="916" y="236" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="916" dy="0">TA · K+ · bilan hépatique</tspan><tspan x="916" dy="21">réconciliation CYP</tspan></text>
+<rect x="59" y="301" width="1258" height="95" fill="#E5EEF8" opacity="0.55"/>
+<line x1="58" y1="301" x2="1318" y2="301" stroke="#D8D5C9" stroke-width="1.5"/>
+<text x="78" y="339" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="850" fill="#2563A6" text-anchor="start" letter-spacing="0">Enzalutamide</text>
+<text x="318" y="331" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="318" dy="0">Blocage direct</tspan><tspan x="318" dy="21">du récepteur</tspan></text>
+<text x="580" y="331" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="580" dy="0">Fatigue · chutes</tspan><tspan x="580" dy="21">risque neurologique</tspan></text>
+<text x="916" y="331" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="916" dy="0">Inducteur enzymatique fort</tspan><tspan x="916" dy="21">polymédication critique</tspan></text>
+<rect x="59" y="396" width="1258" height="95" fill="#DDF3F1" opacity="0.55"/>
+<line x1="58" y1="396" x2="1318" y2="396" stroke="#D8D5C9" stroke-width="1.5"/>
+<text x="78" y="434" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="850" fill="#007C83" text-anchor="start" letter-spacing="0">Apalutamide</text>
+<text x="318" y="426" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="318" dy="0">Blocage direct</tspan><tspan x="318" dy="21">du récepteur</tspan></text>
+<text x="580" y="426" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="580" dy="0">Rash · chutes</tspan><tspan x="580" dy="21">hypothyroïdie</tspan></text>
+<text x="916" y="426" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="916" dy="0">Inducteur enzymatique fort</tspan><tspan x="916" dy="21">TSH selon protocole</tspan></text>
+<rect x="59" y="491" width="1258" height="95" fill="#F2ECFA" opacity="0.55"/>
+<line x1="58" y1="491" x2="1318" y2="491" stroke="#D8D5C9" stroke-width="1.5"/>
+<text x="78" y="529" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="850" fill="#7656A6" text-anchor="start" letter-spacing="0">Darolutamide</text>
+<text x="318" y="521" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="318" dy="0">Blocage direct</tspan><tspan x="318" dy="21">du récepteur</tspan></text>
+<text x="580" y="521" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="580" dy="0">Fatigue · comorbidités</tspan><tspan x="580" dy="21">indication / exposition</tspan></text>
+<text x="916" y="521" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" fill="#24313A" text-anchor="start"><tspan x="916" dy="0">Moins d’effets SNC attendus</tspan><tspan x="916" dy="21">interactions toujours à vérifier</tspan></text>
+<line x1="298" y1="150" x2="298" y2="586" stroke="#D8D5C9" stroke-width="1.5"/>
+<line x1="560" y1="150" x2="560" y2="586" stroke="#D8D5C9" stroke-width="1.5"/>
+<line x1="896" y1="150" x2="896" y2="586" stroke="#D8D5C9" stroke-width="1.5"/>
+<rect x="58" y="608" width="610" height="68" rx="14" fill="#F8DDD7" stroke="#C85C4A" stroke-width="2"/>
+<text x="80" y="636" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#C85C4A" text-anchor="start"><tspan x="80" dy="0">APRÈS PROGRESSION SOUS ARPI</tspan><tspan x="80" dy="22">Éviter la succession mécanique : changer de mécanisme si possible.</tspan></text>
+<rect x="688" y="608" width="630" height="68" rx="14" fill="#DDF3F1" stroke="#007C83" stroke-width="2"/>
+<text x="710" y="636" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83" text-anchor="start"><tspan x="710" dy="0">AVANT TOUT CHOIX</tspan><tspan x="710" dy="22">Vérifier indication, expositions, CV, chutes/cognition et traitements.</tspan></text>
+<rect x="58" y="700" width="1260" height="42" rx="12" fill="#24313A" stroke="#24313A" stroke-width="0"/>
+<text x="78" y="727" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="start" letter-spacing="0">SOURCES · CCAFU 2024–2026 · EAU 2026 · profils à vérifier dans le RCP/AMM</text>
+<text x="1298" y="727" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#BBD8D2" text-anchor="end" letter-spacing="0">SYNTHÈSE ÉDUCATIVE · DONNÉES AGRÉGÉES</text>
+</svg>

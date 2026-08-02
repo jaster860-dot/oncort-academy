@@ -98,24 +98,24 @@
         "formatLabel": "Boucle de surveillance",
         "title": "Surveillance active : différer sans abandonner l'intention curative",
         "imageSrc": "/figures/prostate/deferred-management/01-active-surveillance.svg",
-        "altText": "Boucle de surveillance pour « Surveillance active : différer sans abandonner l'intention curative ». Repères représentés : Risque tumoral favorable ; Espérance de vie et préférences ; Évaluation IRM–biopsies de qualité ; Surveillance curative différée.",
-        "caption": "Boucle de surveillance : Risque tumoral favorable · Espérance de vie et préférences · Évaluation IRM–biopsies de qualité · Surveillance curative différée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice d’éligibilité à la surveillance active. Elle distingue le faible risque standard, l’intermédiaire favorable très sélectionné, l’espérance de vie et l’adhésion au suivi, puis signale les architectures cribriforme et intracanalaire comme exclusions fortes.",
+        "caption": "La surveillance active conserve l’intention curative et repose sur une sélection multidimensionnelle. Elle est standard au faible risque et peut être discutée dans certains intermédiaires favorables après intégration de l’ISUP, du PSA et de sa densité, du cT, de l’IRM, des biopsies et de la charge tumorale. Cribriforme ou intracanalaire sont des signaux d’exclusion selon le consensus cité.",
         "items": [
           {
             "label": "Risque tumoral favorable",
-            "detail": "La surveillance active vise à éviter ou retarder les séquelles d'un traitement radical tout en conservant une fenêtre de curabilité."
+            "detail": "Une stratégie thérapeutique organisée — La surveillance active vise à éviter ou retarder les séquelles d'un traitement radical tout en conservant une fenêtre de curabilité."
           },
           {
             "label": "Espérance de vie et préférences",
-            "detail": "Elle constitue le standard des maladies à faible risque chez les patients ayant une espérance de vie compatible avec un bénéfice curatif, généralement supérieure à dix ans."
+            "detail": "Sélectionner le risque, puis le patient — Elle constitue le standard des maladies à faible risque chez les patients ayant une espérance de vie compatible avec un bénéfice curatif, généralement supérieure à dix ans."
           },
           {
             "label": "Évaluation IRM–biopsies de qualité",
-            "detail": "Une architecture intracanalaire ou cribriforme est un signal d'exclusion selon le consensus CCAFU–EAU."
+            "detail": "Les signaux qui changent la confiance — Une architecture intracanalaire ou cribriforme est un signal d'exclusion selon le consensus CCAFU–EAU."
           },
           {
             "label": "Surveillance curative différée",
-            "detail": "La surveillance active vise à éviter ou retarder les séquelles d'un traitement radical tout en conservant une fenêtre de curabilité."
+            "detail": "Décision au checkpoint — La surveillance active conserve une intention curative et organise la détection d'une reclassification encore traitable."
           }
         ]
       },
@@ -205,24 +205,24 @@
         "formatLabel": "Algorithme de reclassification",
         "title": "Suivre et reclasser : le PSA alerte, l'histologie arbitre",
         "imageSrc": "/figures/prostate/deferred-management/02-monitoring-and-reclassification.svg",
-        "altText": "Algorithme de reclassification pour « Suivre et reclasser : le PSA alerte, l'histologie arbitre ». Repères représentés : PSA–clinique–IRM sériés ; Signal de changement ; Biopsies de confirmation ; Traitement différé ou adaptation de l'intention.",
-        "caption": "Algorithme de reclassification : PSA–clinique–IRM sériés · Signal de changement · Biopsies de confirmation · Traitement différé ou adaptation de l'intention. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Programme structuré de surveillance active associant PSA répété, clinique, IRM sériée et biopsies de contrôle. Une alerte PSA ou IRM conduit à réexaminer le dossier ; la reclassification histologique arbitre le traitement différé ou l’adaptation d’intention.",
+        "caption": "Le PSA et l’IRM signalent une possible évolution mais ne déclenchent pas seuls un traitement radical. La qualité de l’évaluation initiale conditionne le besoin de biopsie confirmatoire précoce ; la reclassification histologique, notamment ISUP 3 ou architecture cribriforme/intracanalaire, pèse fortement. Une IRM stable ne supprime pas automatiquement les biopsies prévues par le protocole.",
         "items": [
           {
             "label": "PSA–clinique–IRM sériés",
-            "detail": "Les cadres CCAFU et EAU associent au minimum un PSA répété, habituellement tous les six mois, une réévaluation clinique, une IRM sériée et des biopsies de contrôle."
+            "detail": "Un calendrier multidimensionnel — Les cadres CCAFU et EAU associent au minimum un PSA répété, habituellement tous les six mois, une réévaluation clinique, une IRM sériée et des biopsies de contrôle."
           },
           {
             "label": "Signal de changement",
-            "detail": "Une cinétique défavorable du PSA ou une progression IRM doit conduire à réexaminer le dossier et, en règle, à obtenir une confirmation biopsique avant de basculer vers un traitement radical."
+            "detail": "Une alerte n'est pas encore une indication de traitement — Une cinétique défavorable du PSA ou une progression IRM doit conduire à réexaminer le dossier et, en règle, à obtenir une confirmation biopsique avant de basculer vers un traitement radical."
           },
           {
             "label": "Biopsies de confirmation",
-            "detail": "La reclassification histologique, en particulier vers ISUP 3 ou la découverte d'une architecture cribriforme ou intracanalaire, pèse fortement en faveur d'un traitement différé."
+            "detail": "Reclasser le cancer et le patient — La reclassification histologique, en particulier vers ISUP 3 ou la découverte d'une architecture cribriforme ou intracanalaire, pèse fortement en faveur d'un traitement différé."
           },
           {
             "label": "Traitement différé ou adaptation de l'intention",
-            "detail": "Les cadres CCAFU et EAU associent au minimum un PSA répété, habituellement tous les six mois, une réévaluation clinique, une IRM sériée et des biopsies de contrôle."
+            "detail": "Décision au checkpoint — La cinétique du PSA est un signal d'investigation, pas à elle seule une preuve histologique de progression justifiant automatiquement un traitement."
           }
         ]
       },
@@ -313,24 +313,24 @@
         "formatLabel": "Balance d’horizons",
         "title": "Abstention-surveillance : privilégier la qualité de vie quand le curatif n'apporterait pas de bénéfice utile",
         "imageSrc": "/figures/prostate/deferred-management/03-watchful-waiting.svg",
-        "altText": "Balance d’horizons pour « Abstention-surveillance : privilégier la qualité de vie quand le curatif n'apporterait pas de bénéfice utile ». Repères représentés : État de santé global ; Bénéfice curatif improbable à l'horizon utile ; Suivi clinique individualisé ; Traitement palliatif si symptômes ou menace.",
-        "caption": "Balance d’horizons : État de santé global · Bénéfice curatif improbable à l'horizon utile · Suivi clinique individualisé · Traitement palliatif si symptômes ou menace. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Comparaison d’intentions entre surveillance active, qui conserve un objectif curatif avec PSA, IRM et biopsies, et abstention-surveillance, qui privilégie la qualité de vie avec intervention palliative en cas de symptômes ou de menace.",
+        "caption": "L’abstention-surveillance n’est pas une surveillance active allégée : l’intention diffère. Elle s’adresse aux situations où un traitement curatif n’apporterait pas de bénéfice utile à l’horizon du patient, souvent lorsque l’espérance de vie liée aux comorbidités est inférieure à dix ans. Le suivi est clinique et proportionné ; âge civil seul, sans fragilité ni risques concurrents, ne suffit pas.",
         "items": [
           {
             "label": "État de santé global",
-            "detail": "L'abstention-surveillance, ou watchful waiting, s'adresse aux patients pour lesquels un traitement curatif n'est pas indiqué ou ne le deviendrait pas en cas de progression, souvent parce que l'espérance de vie liée aux comorbidités est inférieure à dix ans."
+            "detail": "Une intention différente — L'abstention-surveillance, ou watchful waiting, s'adresse aux patients pour lesquels un traitement curatif n'est pas indiqué ou ne le deviendrait pas en cas de progression, souvent parce qu…"
           },
           {
             "label": "Bénéfice curatif improbable à l'horizon utile",
-            "detail": "Le suivi est individualisé et orienté vers l'apparition de symptômes ou d'une progression menaçante."
+            "detail": "Observer les conséquences cliniques — Le suivi est individualisé et orienté vers l'apparition de symptômes ou d'une progression menaçante."
           },
           {
             "label": "Suivi clinique individualisé",
-            "detail": "Deux personnes du même âge peuvent avoir des espérances de vie et des priorités très différentes."
+            "detail": "L'âge ne suffit pas — Deux personnes du même âge peuvent avoir des espérances de vie et des priorités très différentes."
           },
           {
             "label": "Traitement palliatif si symptômes ou menace",
-            "detail": "L'abstention-surveillance, ou watchful waiting, s'adresse aux patients pour lesquels un traitement curatif n'est pas indiqué ou ne le deviendrait pas en cas de progression, souvent parce que l'espérance de vie liée aux comorbidités est inférieure à dix ans."
+            "detail": "Décision au checkpoint — La différence structurante est l'intention : l'abstention-surveillance vise une intervention palliative si nécessaire, tandis que la surveillance active conserve une fenêtre curative."
           }
         ]
       },
@@ -422,24 +422,24 @@
         "formatLabel": "Pont preuve–préférence",
         "title": "Traitements focaux et décision partagée : ne pas confondre promesse fonctionnelle et preuve oncologique",
         "imageSrc": "/figures/prostate/deferred-management/04-focal-and-shared-decision.svg",
-        "altText": "Pont preuve–préférence pour « Traitements focaux et décision partagée : ne pas confondre promesse fonctionnelle et preuve oncologique ». Repères représentés : Priorités du patient ; Cartographie tumorale ; Niveau de preuve et cadre d'accès ; Choix informé avec plan de suivi.",
-        "caption": "Pont preuve–préférence : Priorités du patient · Cartographie tumorale · Niveau de preuve et cadre d'accès · Choix informé avec plan de suivi. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Chaîne du traitement focal depuis la cartographie IRM et biopsique jusqu’à HIFU, cryothérapie ou électroporation, puis surveillance par PSA, IRM et biopsies. Le dernier panneau explicite séries hétérogènes, suivi long incomplet et cadre d’essai ou registre prospectif.",
+        "caption": "Le traitement focal vise une zone et une préservation fonctionnelle potentielle, mais doit assumer la multifocalité et le risque de cancer résiduel dans ou hors champ. Les résultats oncologiques comparatifs à long terme et les protocoles de suivi restent insuffisamment stabilisés. CCAFU et EAU le maintiennent dans un cadre prospectif structuré ; la préférence du patient ne transforme pas cette preuve en standard.",
         "items": [
           {
             "label": "Priorités du patient",
-            "detail": "Les approches focales visent la lésion index ou une partie de la glande afin de réduire les séquelles urinaires et sexuelles d'un traitement total."
+            "detail": "Traiter moins de prostate — Les approches focales visent la lésion index ou une partie de la glande afin de réduire les séquelles urinaires et sexuelles d'un traitement total."
           },
           {
             "label": "Cartographie tumorale",
-            "detail": "Les séries suggèrent des résultats fonctionnels favorables à court terme, mais restent hétérogènes par sélection, technique, définition d'échec et suivi."
+            "detail": "Une preuve encore incomplète — Les séries suggèrent des résultats fonctionnels favorables à court terme, mais restent hétérogènes par sélection, technique, définition d'échec et suivi."
           },
           {
             "label": "Niveau de preuve et cadre d'accès",
-            "detail": "La discussion ne doit pas opposer une procédure séduisante à un traitement radical abstrait."
+            "detail": "Informer sur tout le parcours — La discussion ne doit pas opposer une procédure séduisante à un traitement radical abstrait."
           },
           {
             "label": "Choix informé avec plan de suivi",
-            "detail": "Les approches focales visent la lésion index ou une partie de la glande afin de réduire les séquelles urinaires et sexuelles d'un traitement total."
+            "detail": "Décision au checkpoint — Le bénéfice fonctionnel potentiel ne compense pas l'absence de preuve oncologique comparative mature."
           }
         ]
       },
@@ -531,24 +531,24 @@
         "formatLabel": "Comparaison de trajectoires",
         "title": "Décision partagée : comparer des parcours et leurs conséquences",
         "imageSrc": "/figures/prostate/deferred-management/05-shared-decision.svg",
-        "altText": "Comparaison de trajectoires pour « Décision partagée : comparer des parcours et leurs conséquences ». Repères représentés : Options admissibles ; Bénéfices–risques–incertitudes ; Valeurs du patient ; Choix documenté et révisable.",
-        "caption": "Comparaison de trajectoires : Options admissibles · Bénéfices–risques–incertitudes · Valeurs du patient · Choix documenté et révisable. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice comparant surveillance active, abstention-surveillance et traitement radical selon bénéfice et délai, toxicités et charge de suivi, puis suite possible. Deux encadrés imposent de documenter le choix et de prévoir sa révision.",
+        "caption": "La décision partagée compare des trajectoires complètes : bénéfice attendu et délai, toxicités, charge de suivi, traitement ultérieur et possibilités de rattrapage. Le dossier consigne options, incertitudes, priorités, choix et calendrier de réévaluation. Une évolution de santé ou de préférence peut légitimement transformer une surveillance active en traitement différé ou en abstention-surveillance.",
         "items": [
           {
             "label": "Options admissibles",
-            "detail": "Le même cancer peut conduire à une surveillance active, une abstention-surveillance ou une proposition de traitement selon l'espérance de vie, la fragilité, les fonctions urinaire et sexuelle, les priorités et la tolérance à l'incertitude."
+            "detail": "Partir du problème de décision — Le même cancer peut conduire à une surveillance active, une abstention-surveillance ou une proposition de traitement selon l'espérance de vie, la fragilité, les fonctions urinaire et sexuel…"
           },
           {
             "label": "Bénéfices–risques–incertitudes",
-            "detail": "L'information porte sur le bénéfice oncologique attendu, le délai avant ce bénéfice, les toxicités, la charge de suivi, la probabilité d'un traitement ultérieur et les possibilités de rattrapage."
+            "detail": "Comparer les trajectoires complètes — L'information porte sur le bénéfice oncologique attendu, le délai avant ce bénéfice, les toxicités, la charge de suivi, la probabilité d'un traitement ultérieur et les possibilités de rattr…"
           },
           {
             "label": "Valeurs du patient",
-            "detail": "Le dossier doit consigner les options présentées, les incertitudes, les priorités du patient et le plan de réévaluation."
+            "detail": "Une décision traçable et révisable — Le dossier doit consigner les options présentées, les incertitudes, les priorités du patient et le plan de réévaluation."
           },
           {
             "label": "Choix documenté et révisable",
-            "detail": "Le même cancer peut conduire à une surveillance active, une abstention-surveillance ou une proposition de traitement selon l'espérance de vie, la fragilité, les fonctions urinaire et sexuelle, les priorités et la tolérance à l'incertitude."
+            "detail": "Décision au checkpoint — Une préférence n'est éclairée que si les options admissibles sont comparées comme des trajectoires complètes et reliées aux objectifs du patient."
           }
         ]
       },

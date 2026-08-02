@@ -108,24 +108,24 @@
         "formatLabel": "Balance clinique",
         "title": "Fragilité : adapter après évaluation, pas après l'âge",
         "imageSrc": "/figures/prostate/complex-special-situations/01-frailty.svg",
-        "altText": "Balance clinique pour « Fragilité : adapter après évaluation, pas après l'âge ». Repères représentés : Risque tumoral ; Horizon et réserves ; Vulnérabilités modifiables ; Stratégie proportionnée.",
-        "caption": "Balance clinique : Risque tumoral · Horizon et réserves · Vulnérabilités modifiables · Stratégie proportionnée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Balance clinique pour « Fragilité : adapter après évaluation, pas après l'âge ». Le schéma relie Risque tumoral ; Horizon et réserves ; Vulnérabilités modifiables ; Stratégie proportionnée sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Balance clinique : Risque tumoral · Horizon et réserves · Vulnérabilités modifiables · Stratégie proportionnée. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Risque tumoral",
-            "detail": "Le bénéfice oncologique dépend du risque tumoral et de l'horizon de vie ; le dommage dépend des réserves fonctionnelles."
+            "detail": "Deux risques concurrents — Le bénéfice oncologique dépend du risque tumoral et de l'horizon de vie ; le dommage dépend des réserves fonctionnelles."
           },
           {
             "label": "Horizon et réserves",
-            "detail": "Une évaluation gériatrique peut conduire à optimisation, simplification, réhabilitation, traitement standard accompagné, adaptation proportionnée ou stratégie symptomatique."
+            "detail": "Adapter sans sous-traiter — Une évaluation gériatrique peut conduire à optimisation, simplification, réhabilitation, traitement standard accompagné, adaptation proportionnée ou stratégie symptomatique."
           },
           {
             "label": "Vulnérabilités modifiables",
-            "detail": "La fragilité est un état multidimensionnel potentiellement modifiable."
+            "detail": "Application et limite — La fragilité est un état multidimensionnel potentiellement modifiable."
           },
           {
             "label": "Stratégie proportionnée",
-            "detail": "Le bénéfice oncologique dépend du risque tumoral et de l'horizon de vie ; le dommage dépend des réserves fonctionnelles."
+            "detail": "Décision au checkpoint — La fragilité est un état multidimensionnel potentiellement modifiable."
           }
         ]
       },
@@ -203,7 +203,8 @@
       ],
       "sources": [
         "eau_prostate_2026",
-        "sfro_recorad_prostate_2025"
+        "sfro_recorad_prostate_2025",
+        "trotta_ibd_prostate_rt_2023"
       ],
       "keyTakeaways": [
         "Type de MICI, activité, poussées, localisation rectale, chirurgie, traitement immunosuppresseur et toxicités antérieures sont documentés avec le gastro-entérologue.",
@@ -211,29 +212,29 @@
         "Le risque dépend de la maladie digestive réelle et de la technique, pas de l'étiquette seule."
       ],
       "visual": {
-        "kind": "anatomy",
-        "diagramType": "anatomy-map",
-        "formatLabel": "Carte anatomique digestive",
+        "kind": "comparison",
+        "diagramType": "matrix",
+        "formatLabel": "Preuve–risque réel–réduction d’exposition",
         "title": "MICI : qualifier l'activité et réduire l'exposition digestive",
-        "imageSrc": "/figures/prostate/complex-special-situations/02-ibd.svg",
-        "altText": "Carte anatomique digestive pour « MICI : qualifier l'activité et réduire l'exposition digestive ». Repères représentés : MICI et activité ; Risque digestif individuel ; Option et technique ; Surveillance gastro-oncologique.",
-        "caption": "Carte anatomique digestive : MICI et activité · Risque digestif individuel · Option et technique · Surveillance gastro-oncologique. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "imageSrc": "/figures/prostate/complex-special-situations/02-ibd-v2.png",
+        "altText": "Trois panneaux : limites de la revue systématique 2023, qualification du risque par ACTIVITÉ et TOPOGRAPHIE DIGESTIVE, puis réduction d’exposition et surveillance. La figure souligne que MICI active, irradiation pelvienne et chirurgie antérieure sont peu représentées dans les séries.",
+        "caption": "La revue systématique de 12 études rétrospectives et 194 patients suggère une toxicité digestive sévère tardive rare dans les séries, mais l’hétérogénéité empêche une méta-analyse et les situations les plus à risque sont sous-représentées. La décision doit qualifier activité, topographie, chirurgie et traitements, puis réduire l’exposition digestive si oncologiquement défendable et organiser l’alerte. Figure originale sans donnée patient ; sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "MICI et activité",
-            "detail": "Type de MICI, activité, poussées, localisation rectale, chirurgie, traitement immunosuppresseur et toxicités antérieures sont documentés avec le gastro-entérologue."
+            "detail": "Une histoire clinique détaillée — Type de MICI, activité, poussées, localisation rectale, chirurgie, traitement immunosuppresseur et toxicités antérieures sont documentés avec le gastro-entérologue."
           },
           {
             "label": "Risque digestif individuel",
-            "detail": "La MICI est un facteur de prudence, non une interdiction universelle."
+            "detail": "Choix partagé et technique rigoureuse — La MICI est un facteur de prudence, non une interdiction universelle."
           },
           {
             "label": "Option et technique",
-            "detail": "Le risque dépend de la maladie digestive réelle et de la technique, pas de l'étiquette seule."
+            "detail": "Application et limite — Le risque dépend de la maladie digestive réelle et de la technique, pas de l'étiquette seule."
           },
           {
             "label": "Surveillance gastro-oncologique",
-            "detail": "Type de MICI, activité, poussées, localisation rectale, chirurgie, traitement immunosuppresseur et toxicités antérieures sont documentés avec le gastro-entérologue."
+            "detail": "Décision au checkpoint — Le risque dépend de la maladie digestive réelle et de la technique, pas de l'étiquette seule."
           }
         ]
       },
@@ -311,7 +312,8 @@
       ],
       "sources": [
         "sfro_recorad_prostate_2025",
-        "eau_prostate_2026"
+        "eau_prostate_2026",
+        "neerhut_turp_hypofractionation_2024"
       ],
       "keyTakeaways": [
         "Date, indication, compte rendu opératoire, nombre de résections, complications, calibre urétral, continence, infections, rétention, débit et symptômes actuels sont recueillis.",
@@ -321,27 +323,27 @@
       "visual": {
         "kind": "anatomy",
         "diagramType": "anatomy-map",
-        "formatLabel": "Anatomie après TURP",
+        "formatLabel": "Anatomie conceptuelle + audit post-TURP",
         "title": "Après TURP : reconstruire l'anatomie et le risque urinaire",
-        "imageSrc": "/figures/prostate/complex-special-situations/03-turp.svg",
-        "altText": "Anatomie après TURP pour « Après TURP : reconstruire l'anatomie et le risque urinaire ». Repères représentés : TURP et délai ; Fonction et anatomie ; Modalité RT ; Risque urinaire suivi.",
-        "caption": "Anatomie après TURP : TURP et délai · Fonction et anatomie · Modalité RT · Risque urinaire suivi. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "imageSrc": "/figures/prostate/complex-special-situations/03-turp-v2.png",
+        "altText": "Schéma conceptuel non à l’échelle de vessie, prostate, Cavité TURP, Urètre et Sphincter, accompagné des facteurs associés à la toxicité urinaire tardive et d’un audit en quatre étapes avant choix de la modalité RT.",
+        "caption": "La cavité TURP, l’urètre et le sphincter sont montrés comme repères conceptuels à reconstruire sur l’imagerie réelle, jamais comme contours patient. La revue de 2024 relie notamment les résultats urinaires à la fonction initiale, au geste, au délai, au volume de la cavité et à sa dose moyenne, sans fournir de seuil universel exportable. Figure originale sans donnée patient ; sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "TURP et délai",
-            "detail": "Date, indication, compte rendu opératoire, nombre de résections, complications, calibre urétral, continence, infections, rétention, débit et symptômes actuels sont recueillis."
+            "detail": "Le geste antérieur compte — Date, indication, compte rendu opératoire, nombre de résections, complications, calibre urétral, continence, infections, rétention, débit et symptômes actuels sont recueillis."
           },
           {
             "label": "Fonction et anatomie",
-            "detail": "Un antécédent de TURP peut augmenter sténose, hématurie ou incontinence selon anatomie, délai, fractionnement et technique, particulièrement pour certaines curiethérapies."
+            "detail": "Risque variable selon technique — Un antécédent de TURP peut augmenter sténose, hématurie ou incontinence selon anatomie, délai, fractionnement et technique, particulièrement pour certaines curiethérapies."
           },
           {
             "label": "Modalité RT",
-            "detail": "Le risque urinaire dépend du geste, de l'anatomie résiduelle et de la modalité."
+            "detail": "Application et limite — Le risque urinaire dépend du geste, de l'anatomie résiduelle et de la modalité."
           },
           {
             "label": "Risque urinaire suivi",
-            "detail": "Date, indication, compte rendu opératoire, nombre de résections, complications, calibre urétral, continence, infections, rétention, débit et symptômes actuels sont recueillis."
+            "detail": "Décision au checkpoint — Le risque urinaire dépend du geste, de l'anatomie résiduelle et de la modalité."
           }
         ]
       },
@@ -419,7 +421,9 @@
       ],
       "sources": [
         "sfro_recorad_prostate_2025",
-        "eau_prostate_2026"
+        "eau_prostate_2026",
+        "nci_idc_prostate_aec_2023",
+        "aapm_tg63_hip_prostheses_2003"
       ],
       "keyTakeaways": [
         "Une ou deux prothèses peuvent dégrader le scanner, masquer anatomie et fausser les unités utilisées par le calcul.",
@@ -428,28 +432,28 @@
       ],
       "visual": {
         "kind": "anatomy",
-        "diagramType": "motion-map",
-        "formatLabel": "Artefact et géométrie",
+        "diagramType": "anatomy-map",
+        "formatLabel": "Scanner métallique + gates de planification",
         "title": "Prothèse de hanche : maîtriser artefact et calcul de dose",
-        "imageSrc": "/figures/prostate/complex-special-situations/04-hip.svg",
-        "altText": "Artefact et géométrie pour « Prothèse de hanche : maîtriser artefact et calcul de dose ». Repères représentés : Type de prothèse ; Artefact et densité ; Plans comparés ; QA et robustesse.",
-        "caption": "Artefact et géométrie : Type de prothèse · Artefact et densité · Plans comparés · QA et robustesse. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "imageSrc": "/figures/prostate/complex-special-situations/04-hip-v2.png",
+        "altText": "Vrai scanner pelvien dé-identifié avec prothèse de hanche unilatérale. La FENÊTRE TISSUS MOUS montre les stries métalliques autour des contours prostate, vessie et rectum ; une fenêtre large isole le composant haute densité. À droite : ACQUISITION, DENSITÉ / ALGORITHME, FAISCEAUX / PLANS et QA / ROBUSTESSE.",
+        "caption": "Le même scanner est présenté en fenêtre tissus mous puis en fenêtre large : cette dernière aide à voir l’implant mais ne corrige ni l’artefact ni le calcul de dose. La chaîne d’audit sépare acquisition, densités/algorithme validés localement, faisceaux et comparaison de plans, puis QA. Cas public dé-identifié NCI IDC Prostate-AEC-012, CC BY 4.0 ; principes RecoRad 2025 et AAPM TG-63. Revue nominative du visuel conservée dans la traçabilité interne.",
         "items": [
           {
             "label": "Type de prothèse",
-            "detail": "Une ou deux prothèses peuvent dégrader le scanner, masquer anatomie et fausser les unités utilisées par le calcul."
+            "detail": "L'image peut mentir — Une ou deux prothèses peuvent dégrader le scanner, masquer anatomie et fausser les unités utilisées par le calcul."
           },
           {
             "label": "Artefact et densité",
-            "detail": "Les faisceaux traversant le métal sont limités lorsque possible, mais l'évitement ne doit pas sacrifier couverture ou augmenter démesurément les faibles doses."
+            "detail": "Éviter sans créer un autre défaut — Les faisceaux traversant le métal sont limités lorsque possible, mais l'évitement ne doit pas sacrifier couverture ou augmenter démesurément les faibles doses."
           },
           {
             "label": "Plans comparés",
-            "detail": "La prothèse affecte acquisition, contourage, calcul et délivrance ; toute la chaîne est auditée."
+            "detail": "Application et limite — La prothèse affecte acquisition, contourage, calcul et délivrance ; toute la chaîne est auditée."
           },
           {
             "label": "QA et robustesse",
-            "detail": "Une ou deux prothèses peuvent dégrader le scanner, masquer anatomie et fausser les unités utilisées par le calcul."
+            "detail": "Décision au checkpoint — La prothèse affecte acquisition, contourage, calcul et délivrance ; toute la chaîne est auditée."
           }
         ]
       },
@@ -541,24 +545,24 @@
         "formatLabel": "Double carte de stadification",
         "title": "Oligométastatique et migration de stade : deux cartes simultanées",
         "imageSrc": "/figures/prostate/complex-special-situations/05-stage-migration.svg",
-        "altText": "Double carte de stadification pour « Oligométastatique et migration de stade : deux cartes simultanées ». Repères représentés : Risque prétest ; Imagerie conventionnelle ; Carte PSMA ; Décision avec extrapolation nommée.",
-        "caption": "Double carte de stadification : Risque prétest · Imagerie conventionnelle · Carte PSMA · Décision avec extrapolation nommée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Double carte de stadification pour « Oligométastatique et migration de stade : deux cartes simultanées ». Le schéma relie Risque prétest ; Imagerie conventionnelle ; Carte PSMA ; Décision avec extrapolation nommée sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Double carte de stadification : Risque prétest · Imagerie conventionnelle · Carte PSMA · Décision avec extrapolation nommée. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Risque prétest",
-            "detail": "Une maladie dite M0 ou oligométastatique au scanner et à la scintigraphie peut comporter davantage de lésions au TEP-PSMA."
+            "detail": "Le nombre dépend de l'outil — Une maladie dite M0 ou oligométastatique au scanner et à la scintigraphie peut comporter davantage de lésions au TEP-PSMA."
           },
           {
             "label": "Imagerie conventionnelle",
-            "detail": "La RCP conserve le stade conventionnel qui définit souvent la preuve et ajoute le stade moléculaire qui informe le plan."
+            "detail": "Deux classifications utiles — La RCP conserve le stade conventionnel qui définit souvent la preuve et ajoute le stade moléculaire qui informe le plan."
           },
           {
             "label": "Carte PSMA",
-            "detail": "Les deux cartes répondent à des besoins différents et doivent rester visibles."
+            "detail": "Application et limite — Les deux cartes répondent à des besoins différents et doivent rester visibles."
           },
           {
             "label": "Décision avec extrapolation nommée",
-            "detail": "Une maladie dite M0 ou oligométastatique au scanner et à la scintigraphie peut comporter davantage de lésions au TEP-PSMA."
+            "detail": "Décision au checkpoint — Les deux cartes répondent à des besoins différents et doivent rester visibles."
           }
         ]
       },

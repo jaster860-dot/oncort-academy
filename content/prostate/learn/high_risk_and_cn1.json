@@ -120,24 +120,24 @@
         "formatLabel": "Matrice d’état de maladie",
         "title": "Définir l'état de maladie avant d'intensifier",
         "imageSrc": "/figures/prostate/high-risk-and-cn1/01-state-definition.svg",
-        "altText": "Matrice d’état de maladie pour « Définir l'état de maladie avant d'intensifier ». Repères représentés : Critères tumoraux ; cT/cN/cM et modalité d'imagerie ; Population de preuve ; Stratégie applicable ou extrapolée.",
-        "caption": "Matrice d’état de maladie : Critères tumoraux · cT/cN/cM et modalité d'imagerie · Population de preuve · Stratégie applicable ou extrapolée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Trois colonnes séparent les facteurs de risque local, la topographie ganglionnaire et la méthode d’imagerie. Les ganglions pelviens régionaux sont distingués du M1a non régional, et la migration de stade par TEP-PSMA est explicitement tracée.",
+        "caption": "Le terme haut risque ne remplace pas les données brutes. La RCP consigne PSA, ISUP, cT, atteinte vésiculaire, topographie ganglionnaire et méthode d’imagerie. cN1 régional et M1a non régional sont des états distincts ; une lésion PSMA-only ne doit pas être assimilée sans nuance à la population d’un essai construit sur imagerie conventionnelle.",
         "items": [
           {
             "label": "Critères tumoraux",
-            "detail": "Le haut risque associe des trajectoires différentes : PSA élevé, groupe ISUP 4–5, extension cT3–4 ou combinaison de facteurs."
+            "detail": "Un groupe hétérogène — Le haut risque associe des trajectoires différentes : PSA élevé, groupe ISUP 4–5, extension cT3–4 ou combinaison de facteurs."
           },
           {
             "label": "cT/cN/cM et modalité d'imagerie",
-            "detail": "Le cN1 correspond à une atteinte ganglionnaire régionale pelvienne ; les ganglions non régionaux relèvent de M1a."
+            "detail": "cN1 n'est pas M1a — Le cN1 correspond à une atteinte ganglionnaire régionale pelvienne ; les ganglions non régionaux relèvent de M1a."
           },
           {
             "label": "Population de preuve",
-            "detail": "Le TEP-PSMA améliore la détection mais les recommandations EAU d'intensification cN1 et les critères STAMPEDE M0 reposent sur l'imagerie conventionnelle."
+            "detail": "Le TEP change le stade, pas les essais passés — Le TEP-PSMA améliore la détection mais les recommandations EAU d'intensification cN1 et les critères STAMPEDE M0 reposent sur l'imagerie conventionnelle."
           },
           {
             "label": "Stratégie applicable ou extrapolée",
-            "detail": "Le haut risque associe des trajectoires différentes : PSA élevé, groupe ISUP 4–5, extension cT3–4 ou combinaison de facteurs."
+            "detail": "Décision au checkpoint — La migration de stade doit être nommée ; elle informe la décision sans réécrire rétroactivement les populations d'essai."
           }
         ]
       },
@@ -228,24 +228,24 @@
         "formatLabel": "Parcours multimodaux",
         "title": "Traitement local : comparer des parcours multimodaux",
         "imageSrc": "/figures/prostate/high-risk-and-cn1/02-local-pathways.svg",
-        "altText": "Parcours multimodaux pour « Traitement local : comparer des parcours multimodaux ». Repères représentés : Aptitude et préférence ; Parcours local complet ; Traitements associés ; Suivi et rattrapage anticipés.",
-        "caption": "Parcours multimodaux : Aptitude et préférence · Parcours local complet · Traitements associés · Suivi et rattrapage anticipés. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Comparaison en trois colonnes des parcours du haut risque cN0 : radio-hormonothérapie, chirurgie sélectionnée avec traitements postopératoires possibles, et ADT seule comme exception lorsque le traitement local n’est pas réalisable.",
+        "caption": "Radio-hormonothérapie et chirurgie sélectionnée sont des parcours multimodaux dont les conséquences doivent être annoncées dès le départ. L’absence de supériorité globale randomisée de l’un sur l’autre impose une comparaison des séquelles, des traitements additionnels probables et des préférences. Chez un patient apte, l’ADT seule n’est pas un raccourci équivalent au traitement local combiné.",
         "items": [
           {
             "label": "Aptitude et préférence",
-            "detail": "Pour un haut risque cN0 apte au traitement, EAU et CCAFU soutiennent une radiothérapie moderne de la prostate et des extensions pertinentes avec ADT longue."
+            "detail": "Radio-hormonothérapie — Pour un haut risque cN0 apte au traitement, EAU et CCAFU soutiennent une radiothérapie moderne de la prostate et des extensions pertinentes avec ADT longue."
           },
           {
             "label": "Parcours local complet",
-            "detail": "Une prostatectomie avec curage étendu peut être proposée à certains cN0 dans un parcours multimodal."
+            "detail": "Chirurgie sélectionnée — Une prostatectomie avec curage étendu peut être proposée à certains cN0 dans un parcours multimodal."
           },
           {
             "label": "Traitements associés",
-            "detail": "Chez un patient sans polypathologie sévère et apte à un traitement local, le CCAFU considère l'ADT seule inférieure à la radio-hormonothérapie pour plusieurs critères oncologiques."
+            "detail": "ADT seule : exception, pas raccourci — Chez un patient sans polypathologie sévère et apte à un traitement local, le CCAFU considère l'ADT seule inférieure à la radio-hormonothérapie pour plusieurs critères oncologiques."
           },
           {
             "label": "Suivi et rattrapage anticipés",
-            "detail": "Pour un haut risque cN0 apte au traitement, EAU et CCAFU soutiennent une radiothérapie moderne de la prostate et des extensions pertinentes avec ADT longue."
+            "detail": "Décision au checkpoint — La comparaison loyale porte sur les trajectoires complètes et leurs incertitudes, pas sur deux gestes isolés."
           }
         ]
       },
@@ -337,24 +337,24 @@
         "formatLabel": "Escalade thérapeutique",
         "title": "Intensification systémique : critères, durée et toxicités",
         "imageSrc": "/figures/prostate/high-risk-and-cn1/03-systemic-intensification.svg",
-        "altText": "Escalade thérapeutique pour « Intensification systémique : critères, durée et toxicités ». Repères représentés : Socle ADT ; Critères de très haut risque/cN1 ; Intensification fondée ; Prévention, suivi et durée.",
-        "caption": "Escalade thérapeutique : Socle ADT · Critères de très haut risque/cN1 · Intensification fondée · Prévention, suivi et durée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Algorithme STAMPEDE M0. Il distingue une maladie M0 en imagerie conventionnelle avec cN1, ou cN0 avec au moins deux facteurs parmi cT3–4, ISUP 4–5 et PSA supérieur ou égal à 40 ng/mL. Une frise montre l’ADT prévue trois ans et l’abiratérone avec prednisone deux ans, avec radiothérapie chez 85 % des participants.",
+        "caption": "STAMPEDE M0 ne correspond pas à tout haut risque : la population était cN1 conventionnelle ou cN0 avec au moins deux facteurs parmi cT3–4, ISUP 4–5 et PSA ≥ 40 ng/mL. L’abiratérone–prednisone pendant deux ans était ajoutée à une ADT prévue trois ans, avec traitement local majoritairement radiothérapique. Les seuils et durées décrivent l’essai et ne constituent pas une prescription autonome.",
         "items": [
           {
             "label": "Socle ADT",
-            "detail": "L'EAU recommande au moins deux ans d'ADT avec la radiothérapie du cN0 localement avancé ; le CCAFU rappelle que 18 mois n'était pas inférieur à 36 mois dans un essai, ce qui permet d'intégrer comorbidités et tolérance."
+            "detail": "Le socle d'ADT longue — L'EAU recommande au moins deux ans d'ADT avec la radiothérapie du cN0 localement avancé ; le CCAFU rappelle que 18 mois n'était pas inférieur à 36 mois dans un essai, ce qui permet d'intégr…"
           },
           {
             "label": "Critères de très haut risque/cN1",
-            "detail": "STAMPEDE M0 a ajouté deux ans d'abiratérone avec prednisone à un socle d'ADT prévu pour trois ans."
+            "detail": "Abiratérone : reproduire les critères — STAMPEDE M0 a ajouté deux ans d'abiratérone avec prednisone à un socle d'ADT prévu pour trois ans."
           },
           {
             "label": "Intensification fondée",
-            "detail": "Les essais non métastatiques de docétaxel ont produit des résultats discordants, souvent favorables sur la récidive mais sans bénéfice robuste et constant sur métastases ou survie globale, avec une toxicité importante."
+            "detail": "Le docétaxel ne devient pas routine — Les essais non métastatiques de docétaxel ont produit des résultats discordants, souvent favorables sur la récidive mais sans bénéfice robuste et constant sur métastases ou survie globale…"
           },
           {
             "label": "Prévention, suivi et durée",
-            "detail": "L'EAU recommande au moins deux ans d'ADT avec la radiothérapie du cN0 localement avancé ; le CCAFU rappelle que 18 mois n'était pas inférieur à 36 mois dans un essai, ce qui permet d'intégrer comorbidités et tolérance."
+            "detail": "Décision au checkpoint — Le cT3b et l'ISUP 4 constituent deux facteurs ; un seul facteur défavorable ne reproduit pas la population cN0 de l'essai."
           }
         ]
       },
@@ -442,29 +442,29 @@
         "Lorsqu'un ganglion pelvien de taille normale n'est détecté qu'au TEP-PSMA, la stratégie peut raisonnablement intégrer ce site et le pelvis, mais l'EAU souligne l'absence de données prospectives pour la meilleure option."
       ],
       "visual": {
-        "kind": "anatomy",
-        "diagramType": "target-map",
-        "formatLabel": "Carte prostate–pelvis–ganglion",
+        "kind": "comparison",
+        "diagramType": "parallel-paths",
+        "formatLabel": "Parcours locorégional + systémique",
         "title": "cN1 M0 : traiter le pelvis, la prostate et le risque systémique",
-        "imageSrc": "/figures/prostate/high-risk-and-cn1/04-cn1-m0.svg",
-        "altText": "Carte prostate–pelvis–ganglion pour « cN1 M0 : traiter le pelvis, la prostate et le risque systémique ». Repères représentés : cN1 régional et M0 ; Prostate + pelvis + boost ; ADT longue + intensification ; Surveillance oncologique et toxicités.",
-        "caption": "Carte prostate–pelvis–ganglion : cN1 régional et M0 · Prostate + pelvis + boost · ADT longue + intensification · Surveillance oncologique et toxicités. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "imageSrc": "/figures/prostate/high-risk-and-cn1/04-cn1-m0-v2.png",
+        "altText": "Trois panneaux distinguent l’état cN1 M0 conventionnel d’un ganglion PSMA-only, le contrôle locorégional par prostate, pelvis électif et Boost ganglionnaire, puis le traitement systémique par ADT longue et abiratérone deux ans avec prévention et suivi. Le visuel sépare explicitement recommandation conventionnelle et extrapolation moléculaire.",
+        "caption": "Chez le patient apte avec cN1 M0 conventionnel, le parcours EAU 2026 articule RT de la prostate et du pelvis avec boost des ganglions macroscopiques, ADT longue et abiratérone pendant deux ans. Un ganglion PSMA-only représente une migration de stade dont l’extrapolation doit rester explicite. Synthèse originale sans donnée patient ; sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "cN1 régional et M0",
-            "detail": "Le cN1 M0 associe atteinte ganglionnaire régionale et absence de métastase distante."
+            "detail": "Une maladie locorégionale à haut risque systémique — Le cN1 M0 associe atteinte ganglionnaire régionale et absence de métastase distante."
           },
           {
             "label": "Prostate + pelvis + boost",
-            "detail": "L'EAU recommande IMRT/VMAT avec IGRT de la prostate et du pelvis, ADT longue et deux ans d'abiratérone pour le cN1 M0 conventionnel."
+            "detail": "Le parcours EAU 2026 — L'EAU recommande IMRT/VMAT avec IGRT de la prostate et du pelvis, ADT longue et deux ans d'abiratérone pour le cN1 M0 conventionnel."
           },
           {
             "label": "ADT longue + intensification",
-            "detail": "Lorsqu'un ganglion pelvien de taille normale n'est détecté qu'au TEP-PSMA, la stratégie peut raisonnablement intégrer ce site et le pelvis, mais l'EAU souligne l'absence de données prospectives pour la meilleure option."
+            "detail": "Un ganglion moléculaire reste une zone grise — Lorsqu'un ganglion pelvien de taille normale n'est détecté qu'au TEP-PSMA, la stratégie peut raisonnablement intégrer ce site et le pelvis, mais l'EAU souligne l'absence de données prospect…"
           },
           {
             "label": "Surveillance oncologique et toxicités",
-            "detail": "Le cN1 M0 associe atteinte ganglionnaire régionale et absence de métastase distante."
+            "detail": "Décision au checkpoint — Le traitement articule contrôle locorégional et intensification systémique ; les modalités exactes restent à valider pour le patient."
           }
         ]
       },
@@ -557,24 +557,24 @@
         "formatLabel": "Arbitrage des recommandations",
         "title": "Divergences : produire une décision traçable, pas une moyenne",
         "imageSrc": "/figures/prostate/high-risk-and-cn1/05-divergence.svg",
-        "altText": "Arbitrage des recommandations pour « Divergences : produire une décision traçable, pas une moyenne ». Repères représentés : Question précise ; Sources comparables ; Applicabilité France/patient ; Décision datée et révisable.",
-        "caption": "Arbitrage des recommandations : Question précise · Sources comparables · Applicabilité France/patient · Décision datée et révisable. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Workflow en quatre étapes pour résoudre une divergence : reformuler la question PICO, caractériser chaque source, expliquer les différences de population ou de preuve, puis produire une décision datée et révisable.",
+        "caption": "Une divergence de recommandations ne se résout pas par moyenne. Il faut comparer population, imagerie, intervention, critère de jugement, année, juridiction et force de chaque source, puis distinguer preuve, recommandation et disponibilité. La décision finale documente le référentiel retenu, la déviation éventuelle et la date de réévaluation.",
         "items": [
           {
             "label": "Question précise",
-            "detail": "Une divergence apparente peut porter sur des populations différentes : cN0 ou cN1, imagerie conventionnelle ou TEP-PSMA, prostate seule ou pelvis, haut risque à un facteur ou population STAMPEDE."
+            "detail": "Commencer par la question — Une divergence apparente peut porter sur des populations différentes : cN0 ou cN1, imagerie conventionnelle ou TEP-PSMA, prostate seule ou pelvis, haut risque à un facteur ou population STA…"
           },
           {
             "label": "Sources comparables",
-            "detail": "Pour le pelvis cN0, le CCAFU reste réservé alors que RecoRad est plus affirmatif au-delà d'un risque ganglionnaire de 20 %."
+            "detail": "Ne pas voter entre les guides — Pour le pelvis cN0, le CCAFU reste réservé alors que RecoRad est plus affirmatif au-delà d'un risque ganglionnaire de 20 %."
           },
           {
             "label": "Applicabilité France/patient",
-            "detail": "La conclusion mentionne stade et méthode d'imagerie, facteurs de risque, intention, volumes, fractionnement, ADT, intensification, toxicités, alternatives, préférence du patient, version des sources et date de réévaluation."
+            "detail": "Tracer pour pouvoir réviser — La conclusion mentionne stade et méthode d'imagerie, facteurs de risque, intention, volumes, fractionnement, ADT, intensification, toxicités, alternatives, préférence du patient, version de…"
           },
           {
             "label": "Décision datée et révisable",
-            "detail": "Une divergence apparente peut porter sur des populations différentes : cN0 ou cN1, imagerie conventionnelle ou TEP-PSMA, prostate seule ou pelvis, haut risque à un facteur ou population STAMPEDE."
+            "detail": "Décision au checkpoint — Une divergence se résout par applicabilité et traçabilité, non par vote ou moyenne entre formulations."
           }
         ]
       },

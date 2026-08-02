@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/complex-special-situations/03-turp-v2.png",
+  "purpose": "Separate a conceptual post-TURP anatomy map from evidence-based urinary-risk factors and the pre-RT audit.",
+  "source": {
+    "license": "Original deterministic synthesis; no third-party figure reused",
+    "reviews": [
+      {
+        "id": "neerhut_turp_hypofractionation_2024",
+        "doi": "10.1016/j.urolonc.2024.02.011",
+        "pmid": "38503591"
+      }
+    ],
+    "guidelines": [
+      {
+        "id": "sfro_recorad_prostate_2025"
+      },
+      {
+        "id": "eau_prostate_2026"
+      }
+    ]
+  },
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null,
+  "limitations": [
+    "The anatomy panel is conceptual and not a contouring reference.",
+    "The review is a scoping review and does not provide a universal safe interval, cavity dose or modality rule.",
+    "No patient urinary-risk probability is shown."
+  ]
+}

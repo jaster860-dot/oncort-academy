@@ -1,0 +1,28 @@
+{
+  "purpose": "Separate conventional cN1 M0 multimodal recommendations from PSMA-only extrapolation and show local plus systemic treatment components.",
+  "source": {
+    "license": "Original deterministic synthesis; no third-party figure reused",
+    "guidelines": [
+      {
+        "id": "eau_prostate_2026"
+      },
+      {
+        "id": "sfro_recorad_prostate_2025"
+      }
+    ],
+    "trial": {
+      "id": "stampede_abiraterone_m0_2022",
+      "pmid": "34953525",
+      "doi": "10.1016/S0140-6736(21)02437-5"
+    }
+  },
+  "limitations": [
+    "The figure does not prescribe patient-specific dose or ADT duration.",
+    "Evidence for PSMA-only nodal disease is not treated as equivalent to conventional cN1.",
+    "Fitness, contraindications, regulation, and local protocol still govern treatment."
+  ],
+  "schemaVersion": 1,
+  "asset": "/root/.openclaw/workspace/onco-rt-academy/public/figures/prostate/high-risk-and-cn1/04-cn1-m0-v2.png",
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null
+}

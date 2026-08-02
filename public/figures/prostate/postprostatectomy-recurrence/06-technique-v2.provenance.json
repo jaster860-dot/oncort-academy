@@ -1,0 +1,25 @@
+{
+  "purpose": "Teach the reconstruction of a postoperative prostate bed without presenting a schematic as a contouring atlas.",
+  "source": {
+    "license": "Original deterministic schematic; no third-party figure reused",
+    "guidelines": [
+      {
+        "id": "estro_acrop_prostate_bed_2023",
+        "pmid": "37251620",
+        "pmcid": "PMC10209331"
+      },
+      {
+        "id": "sfro_recorad_prostate_2025"
+      }
+    ]
+  },
+  "limitations": [
+    "The anatomy panel is conceptual and cannot be used for contouring.",
+    "No universal CTV boundary, dose, or fractionation is encoded.",
+    "A named atlas and local protocol remain required."
+  ],
+  "schemaVersion": 1,
+  "asset": "/root/.openclaw/workspace/onco-rt-academy/public/figures/prostate/postprostatectomy-recurrence/06-technique-v2.png",
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null
+}

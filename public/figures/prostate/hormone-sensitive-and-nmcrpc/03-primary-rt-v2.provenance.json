@@ -1,0 +1,26 @@
+{
+  "purpose": "Display the prespecified low-burden STAMPEDE Arm H overall-survival result and its applicability limits.",
+  "source": {
+    "license": "Original deterministic plot from published aggregate trial values; source article CC BY 4.0",
+    "trial": {
+      "id": "stampede_primary_rt_m1_2018",
+      "pmid": "30355464",
+      "pmcid": "PMC6269599",
+      "doi": "10.1016/S0140-6736(18)32486-3"
+    },
+    "guidelines": [
+      {
+        "id": "eau_prostate_2026"
+      }
+    ]
+  },
+  "limitations": [
+    "The 3-year percentages are aggregate trial results, not individual prognosis.",
+    "The survival benefit shown is the prespecified low-metastatic-burden subgroup, not the unselected M1 population.",
+    "Metastatic burden was defined by conventional imaging; PSMA stage migration requires explicit handling."
+  ],
+  "schemaVersion": 1,
+  "asset": "/root/.openclaw/workspace/onco-rt-academy/public/figures/prostate/hormone-sensitive-and-nmcrpc/03-primary-rt-v2.png",
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null
+}

@@ -120,24 +120,24 @@
         "formatLabel": "Conditions du rattrapage local",
         "title": "Après irradiation : prouver une récidive réellement locale",
         "imageSrc": "/figures/prostate/postradiotherapy-and-oligorecurrence/01-local-salvage.svg",
-        "altText": "Conditions du rattrapage local pour « Après irradiation : prouver une récidive réellement locale ». Repères représentés : PSA nadir + cinétique ; TEP-PSMA et IRM PI-RR ; Biopsie positive ; Rattrapage expert sélectionné.",
-        "caption": "Conditions du rattrapage local : PSA nadir + cinétique · TEP-PSMA et IRM PI-RR · Biopsie positive · Rattrapage expert sélectionné. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Conditions du rattrapage local pour « Après irradiation : prouver une récidive réellement locale ». Le schéma relie PSA nadir + cinétique ; TEP-PSMA et IRM PI-RR ; Biopsie positive ; Rattrapage expert sélectionné sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Conditions du rattrapage local : PSA nadir + cinétique · TEP-PSMA et IRM PI-RR · Biopsie positive · Rattrapage expert sélectionné. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "PSA nadir + cinétique",
-            "detail": "Après radiothérapie ou curiethérapie, le PSA ne devient pas nécessairement indétectable."
+            "detail": "Le PSA conserve une prostate irradiée — Après radiothérapie ou curiethérapie, le PSA ne devient pas nécessairement indétectable."
           },
           {
             "label": "TEP-PSMA et IRM PI-RR",
-            "detail": "Chez un patient apte à un traitement curatif de rattrapage, le TEP-PSMA recherche d'abord une atteinte ganglionnaire ou distante ; l'IRM prostatique utilise PI-RR, et non PI-RADS, pour localiser et guider les prélèvements."
+            "detail": "Localiser puis confirmer — Chez un patient apte à un traitement curatif de rattrapage, le TEP-PSMA recherche d'abord une atteinte ganglionnaire ou distante ; l'IRM prostatique utilise PI-RR, et non PI-RADS, pour loca…"
           },
           {
             "label": "Biopsie positive",
-            "detail": "Prostatectomie de rattrapage, curiethérapie, SBRT de réirradiation, HIFU ou cryothérapie ont des profils fonctionnels différents."
+            "detail": "Une option locale pour une minorité sélectionnée — Prostatectomie de rattrapage, curiethérapie, SBRT de réirradiation, HIFU ou cryothérapie ont des profils fonctionnels différents."
           },
           {
             "label": "Rattrapage expert sélectionné",
-            "detail": "Après radiothérapie ou curiethérapie, le PSA ne devient pas nécessairement indétectable."
+            "detail": "Décision au checkpoint — La morbidité du rattrapage impose preuve histologique, stadification et sélection fonctionnelle ; PI-RR est le cadre IRM adapté après traitement."
           }
         ]
       },
@@ -225,29 +225,29 @@
         "Dans PEACE V–STORM, 196 patients avec au plus cinq ganglions pelviens détectés au TEP ont reçu six mois d'ADT et soit une MDT, soit une irradiation ganglionnaire élective avec boost."
       ],
       "visual": {
-        "kind": "anatomy",
-        "diagramType": "target-map",
-        "formatLabel": "Cible visible et territoire ganglionnaire",
+        "kind": "comparison",
+        "diagramType": "matrix",
+        "formatLabel": "Comparaison PEACE V–STORM",
         "title": "Récidive ganglionnaire : la cible visible n'est pas tout le pelvis à risque",
-        "imageSrc": "/figures/prostate/postradiotherapy-and-oligorecurrence/02-nodal.svg",
-        "altText": "Cible visible et territoire ganglionnaire pour « Récidive ganglionnaire : la cible visible n'est pas tout le pelvis à risque ». Repères représentés : Carte TEP et ancien plan ; Territoire à risque ; MDT ou électif + boost ; ADT et suivi contextualisés.",
-        "caption": "Cible visible et territoire ganglionnaire : Carte TEP et ancien plan · Territoire à risque · MDT ou électif + boost · ADT et suivi contextualisés. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "imageSrc": "/figures/prostate/postradiotherapy-and-oligorecurrence/02-nodal-v2.png",
+        "altText": "Comparaison PEACE V–STORM après vérification de la population : MDT focale des ganglions visibles versus Irradiation élective + boost du pelvis à risque, avec six mois d’ADT dans les deux bras. Le panneau de résultat montre une survie sans métastase à quatre ans de 63 % versus 76 %, HR 0,62 et p 0,063, comme signal de phase II et non supériorité définitive.",
+        "caption": "PEACE V–STORM compare, chez 196 patients avec jusqu’à cinq ganglions pelviens détectés au TEP, une MDT focale à une irradiation ganglionnaire élective avec boost ; les deux bras reçoivent six mois d’ADT. Le signal de survie sans métastase à quatre ans favorise l’électif mais n’établit ni bénéfice de survie globale ni règle pour les rechutes extrapelviennes. Synthèse originale sans donnée patient ; sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Carte TEP et ancien plan",
-            "detail": "Une oligorecurrence n'est pas définie par le nombre seul."
+            "detail": "Cartographier avant de compter — Une oligorecurrence n'est pas définie par le nombre seul."
           },
           {
             "label": "Territoire à risque",
-            "detail": "La SBRT ou le curage ciblent les ganglions visibles mais peuvent laisser une maladie microscopique dans les chaînes voisines."
+            "detail": "Focal ou électif — La SBRT ou le curage ciblent les ganglions visibles mais peuvent laisser une maladie microscopique dans les chaînes voisines."
           },
           {
             "label": "MDT ou électif + boost",
-            "detail": "Dans PEACE V–STORM, 196 patients avec au plus cinq ganglions pelviens détectés au TEP ont reçu six mois d'ADT et soit une MDT, soit une irradiation ganglionnaire élective avec boost."
+            "detail": "PEACE V–STORM change la comparaison — Dans PEACE V–STORM, 196 patients avec au plus cinq ganglions pelviens détectés au TEP ont reçu six mois d'ADT et soit une MDT, soit une irradiation ganglionnaire élective avec boost."
           },
           {
             "label": "ADT et suivi contextualisés",
-            "detail": "Une oligorecurrence n'est pas définie par le nombre seul."
+            "detail": "Décision au checkpoint — L'essai de phase II modifie la balance en faveur de l'électif dans sa population, sans démontrer une survie globale ni couvrir toutes les oligorecurrences."
           }
         ]
       },
@@ -341,24 +341,24 @@
         "formatLabel": "Bénéfice intermédiaire et incertitude",
         "title": "MDT : retarder une progression n'est pas prouver une guérison",
         "imageSrc": "/figures/prostate/postradiotherapy-and-oligorecurrence/03-uncertainty.svg",
-        "altText": "Bénéfice intermédiaire et incertitude pour « MDT : retarder une progression n'est pas prouver une guérison ». Repères représentés : Imagerie sensible ; Petit nombre de sites visibles ; MDT ± ADT ; Bénéfice intermédiaire et surveillance.",
-        "caption": "Bénéfice intermédiaire et incertitude : Imagerie sensible · Petit nombre de sites visibles · MDT ± ADT · Bénéfice intermédiaire et surveillance. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Lecture séparée de deux essais de phase II. STOMP compare surveillance et MDT sur la survie sans ADT, médianes 13 et 21 mois, HR 0,60 avec intervalle de confiance à 80 %. RADIOSA compare SBRT seule et SBRT avec six mois d’ADT sur la survie sans progression clinique, médianes 15,1 et 32,2 mois, HR 0,43.",
+        "caption": "STOMP et RADIOSA étudient des critères et des stratégies systémiques différents : leurs barres ne constituent pas une comparaison indirecte. Les résultats soutiennent un délai sans ADT ou sans progression dans des populations sélectionnées, mais ne démontrent ni survie globale ni guérison. L’imagerie, le nombre de lésions et le traitement systémique doivent rester explicités.",
         "items": [
           {
             "label": "Imagerie sensible",
-            "detail": "STOMP a randomisé 62 patients asymptomatiques avec au plus trois lésions au TEP-choline entre surveillance et MDT de tous les sites."
+            "detail": "STOMP : un délai utile mais un essai exploratoire — STOMP a randomisé 62 patients asymptomatiques avec au plus trois lésions au TEP-choline entre surveillance et MDT de tous les sites."
           },
           {
             "label": "Petit nombre de sites visibles",
-            "detail": "RADIOSA a randomisé 105 patients avec au plus trois lésions entre SBRT seule et SBRT avec six mois d'ADT."
+            "detail": "RADIOSA : l'ADT modifie l'effet observé — RADIOSA a randomisé 105 patients avec au plus trois lésions entre SBRT seule et SBRT avec six mois d'ADT."
           },
           {
             "label": "MDT ± ADT",
-            "detail": "Le TEP-PSMA révèle des lésions auparavant invisibles et déplace des patients d'une récidive biologique vers une oligorecurrence."
+            "detail": "Un état créé par l'imagerie — Le TEP-PSMA révèle des lésions auparavant invisibles et déplace des patients d'une récidive biologique vers une oligorecurrence."
           },
           {
             "label": "Bénéfice intermédiaire et surveillance",
-            "detail": "STOMP a randomisé 62 patients asymptomatiques avec au plus trois lésions au TEP-choline entre surveillance et MDT de tous les sites."
+            "detail": "Décision au checkpoint — STOMP, RADIOSA et PEACE V–STORM sont informatifs mais ne démontrent pas une guérison universelle ou un bénéfice de survie globale."
           }
         ]
       },
@@ -452,24 +452,24 @@
         "formatLabel": "Carte multi-sites",
         "title": "Radiothérapie dirigée : sécuriser chaque site et le parcours entier",
         "imageSrc": "/figures/prostate/postradiotherapy-and-oligorecurrence/04-mdt-rt.svg",
-        "altText": "Carte multi-sites pour « Radiothérapie dirigée : sécuriser chaque site et le parcours entier ». Repères représentés : Stadification complète ; Plan par site et dose cumulée ; SBRT/ENRT ± traitement systémique ; Suivi et stratégie suivante.",
-        "caption": "Carte multi-sites : Stadification complète · Plan par site et dose cumulée · SBRT/ENRT ± traitement systémique · Suivi et stratégie suivante. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte multi-sites pour « Radiothérapie dirigée : sécuriser chaque site et le parcours entier ». Le schéma relie Stadification complète ; Plan par site et dose cumulée ; SBRT/ENRT ± traitement systémique ; Suivi et stratégie suivante sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Carte multi-sites : Stadification complète · Plan par site et dose cumulée · SBRT/ENRT ± traitement systémique · Suivi et stratégie suivante. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Stadification complète",
-            "detail": "Une MDT radiothérapeutique exige une stadification récente et la volonté de traiter tous les sites considérés pertinents."
+            "detail": "Traiter toutes les cibles retenues — Une MDT radiothérapeutique exige une stadification récente et la volonté de traiter tous les sites considérés pertinents."
           },
           {
             "label": "Plan par site et dose cumulée",
-            "detail": "Ganglion pelvien, os, prostate ou lit peuvent chevaucher un ancien champ."
+            "detail": "La dose antérieure ne disparaît pas — Ganglion pelvien, os, prostate ou lit peuvent chevaucher un ancien champ."
           },
           {
             "label": "SBRT/ENRT ± traitement systémique",
-            "detail": "Le dossier fixe PSA, testostérone, toxicités, imagerie conditionnelle et définition de progression, ainsi que le rôle de l'ADT et du traitement systémique."
+            "detail": "Le traitement ne s'arrête pas à la dernière fraction — Le dossier fixe PSA, testostérone, toxicités, imagerie conditionnelle et définition de progression, ainsi que le rôle de l'ADT et du traitement systémique."
           },
           {
             "label": "Suivi et stratégie suivante",
-            "detail": "Une MDT radiothérapeutique exige une stadification récente et la volonté de traiter tous les sites considérés pertinents."
+            "detail": "Décision au checkpoint — La sécurité dépend de la dose cumulée et de ses incertitudes ; le temps écoulé n'efface pas l'exposition antérieure."
           }
         ]
       },

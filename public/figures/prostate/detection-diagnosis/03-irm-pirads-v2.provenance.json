@@ -1,0 +1,25 @@
+{
+  "purpose": "Teach zone-dependent PI-RADS interpretation and contextual biopsy decisions without fabricating MRI anatomy or patient risk.",
+  "source": {
+    "license": "Original deterministic schematic; no third-party figure reused",
+    "guidelines": [
+      {
+        "id": "acr_pirads_v21_2019",
+        "pmid": "30898406",
+        "doi": "10.1016/j.eururo.2019.02.033"
+      },
+      {
+        "id": "eau_prostate_2026"
+      }
+    ]
+  },
+  "limitations": [
+    "Zonal anatomy is conceptual and not a diagnostic image.",
+    "No lesion morphology or patient-specific PI-RADS category is depicted.",
+    "The biopsy pathway must be reconciled with the full guideline and local practice."
+  ],
+  "schemaVersion": 1,
+  "asset": "/root/.openclaw/workspace/onco-rt-academy/public/figures/prostate/detection-diagnosis/03-irm-pirads-v2.png",
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null
+}

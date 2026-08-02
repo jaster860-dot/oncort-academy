@@ -25,6 +25,10 @@
       {
         "sourceId": "eau_prostate_2026",
         "locator": "Treatment 6.2.3.a.1 : IMRT/VMAT avec IGRT, planification inverse, contraintes préspécifiées et assurance qualité formelle"
+      },
+      {
+        "sourceId": "nci_idc_prostate_aec_2023",
+        "locator": "Cas public dé-identifié Prostate-AEC-126 : scanner de simulation et RTSTRUCT cliniquement utilisé ; CC BY 4.0"
       }
     ]
   },
@@ -87,7 +91,8 @@
       ],
       "sources": [
         "sfro_recorad_prostate_2025",
-        "estro_acrop_primary_contouring_2018"
+        "estro_acrop_primary_contouring_2018",
+        "nci_idc_prostate_aec_2023"
       ],
       "keyTakeaways": [
         "RecoRad décrit une installation en décubitus dorsal, bras sur le thorax, avec immobilisation adaptée.",
@@ -97,27 +102,27 @@
       "visual": {
         "kind": "anatomy",
         "diagramType": "anatomy-map",
-        "formatLabel": "Anatomie reproductible",
+        "formatLabel": "Scanner annoté + gates de simulation",
         "title": "Simulation : fabriquer une anatomie reproductible",
-        "imageSrc": "/figures/prostate/radiotherapy-planning/01-simulation.svg",
-        "altText": "Anatomie reproductible pour « Simulation : fabriquer une anatomie reproductible ». Repères représentés : Préparation ; Géométrie reproductible ; Imagerie concordante ; Contourage fiable.",
-        "caption": "Anatomie reproductible : Préparation · Géométrie reproductible · Imagerie concordante · Contourage fiable. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "imageSrc": "/figures/prostate/radiotherapy-planning/01-simulation-v2.png",
+        "altText": "Scanner pelvien dé-identifié en coupes axiale et sagittale avec contours RTSTRUCT réels de prostate, vessie et rectum. À droite, trois gates : PRÉPARATION, géométrie représentative et Fusion vérifiée. Le message d’alerte rappelle que l’IGRT ne corrige pas une déformation anatomique majeure.",
+        "caption": "Le scanner réel permet d’évaluer la préparation et la géométrie du jour, mais une acquisition unique ne démontre pas la reproductibilité inter-fraction. Une anatomie non représentative doit être corrigée et réévaluée avant contourage ; l’IGRT corrige surtout le positionnement, pas une déformation majeure. Anatomie dé-identifiée NCI IDC Prostate-AEC-126, CC BY 4.0 ; principes RecoRad 2025. Revue nominative du visuel conservée dans la traçabilité interne.",
         "items": [
           {
             "label": "Préparation",
-            "detail": "RecoRad décrit une installation en décubitus dorsal, bras sur le thorax, avec immobilisation adaptée."
+            "detail": "Une position simple mais répétable — RecoRad décrit une installation en décubitus dorsal, bras sur le thorax, avec immobilisation adaptée."
           },
           {
             "label": "Géométrie reproductible",
-            "detail": "La simulation et les séances utilisent une vessie pleine ou non vide mais confortable et un rectum aussi peu distendu que possible."
+            "detail": "Vessie confortable et rectum maîtrisé — La simulation et les séances utilisent une vessie pleine ou non vide mais confortable et un rectum aussi peu distendu que possible."
           },
           {
             "label": "Imagerie concordante",
-            "detail": "Le scanner doit couvrir tous les volumes prévus avec des coupes fines ; l'IRM améliore l'apex, la base, les vésicules et une éventuelle lésion dominante."
+            "detail": "Acquisitions concordantes — Le scanner doit couvrir tous les volumes prévus avec des coupes fines ; l'IRM améliore l'apex, la base, les vésicules et une éventuelle lésion dominante."
           },
           {
             "label": "Contourage fiable",
-            "detail": "RecoRad décrit une installation en décubitus dorsal, bras sur le thorax, avec immobilisation adaptée."
+            "detail": "Décision au checkpoint — L'IGRT corrige surtout le positionnement ; elle ne garantit pas la correction d'une déformation anatomique majeure."
           }
         ]
       },
@@ -205,27 +210,27 @@
       "visual": {
         "kind": "anatomy",
         "diagramType": "target-map",
-        "formatLabel": "Carte GTV–CTV–PTV",
+        "formatLabel": "Scanner annoté + principe GTV–CTV–PTV",
         "title": "Volumes cibles : du risque à une anatomie explicite",
-        "imageSrc": "/figures/prostate/radiotherapy-planning/02-targets.svg",
-        "altText": "Carte GTV–CTV–PTV pour « Volumes cibles : du risque à une anatomie explicite ». Repères représentés : Indication et extension ; CTV anatomique ; Incertitudes ; PTV justifié.",
-        "caption": "Carte GTV–CTV–PTV : Indication et extension · CTV anatomique · Incertitudes · PTV justifié. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "imageSrc": "/figures/prostate/radiotherapy-planning/02-targets-v2.png",
+        "altText": "Scanner pelvien axial dé-identifié avec contours RTSTRUCT réels de la prostate, de la vessie et du rectum, puis agrandissement distinguant le contour anatomique d’une bande d’incertitude PTV conceptuelle non prescriptive. Trois encadrés séparent GTV / DIL éventuel, CTV anatomique défini par le risque, et PTV lié aux incertitudes.",
+        "caption": "Anatomie réelle dé-identifiée : prostate, vessie et rectum issus du cas public NCI IDC Prostate-AEC-126. La bande bleue illustre uniquement la fonction géométrique du PTV ; elle ne constitue ni une marge recommandée, ni le CTV/PTV de ce patient. Les vésicules, le pelvis et une éventuelle GTV-DIL ne sont volontairement pas inventés. Source anatomique CC BY 4.0 ; principes RecoRad 2025 et ESTRO-ACROP 2018. Revue nominative du visuel conservée dans la traçabilité interne.",
         "items": [
           {
             "label": "Indication et extension",
-            "detail": "Le CTV inclut la totalité de la prostate et les extensions périprostatiques identifiées au toucher rectal ou à l'IRM."
+            "detail": "CTV prostatique — Le CTV inclut la totalité de la prostate et les extensions périprostatiques identifiées au toucher rectal ou à l'IRM."
           },
           {
             "label": "CTV anatomique",
-            "detail": "Les vésicules sont incluses en partie ou en totalité selon le risque et l'extension ; T3b impose leur traitement complet."
+            "detail": "Vésicules et pelvis — Les vésicules sont incluses en partie ou en totalité selon le risque et l'extension ; T3b impose leur traitement complet."
           },
           {
             "label": "Incertitudes",
-            "detail": "RecoRad relie les marges à l'IGRT, au mouvement intrafraction et à l'incertitude de contourage : en traitement conventionnel guidé quotidiennement, les réductions ne doivent pas devenir automatiques ; en SBRT, des marges de 3 à 5 mm dépendent de la technique."
+            "detail": "PTV : une marge n'est pas un nombre magique — RecoRad relie les marges à l'IGRT, au mouvement intrafraction et à l'incertitude de contourage : en traitement conventionnel guidé quotidiennement, les réductions ne doivent pas devenir aut…"
           },
           {
             "label": "PTV justifié",
-            "detail": "Le CTV inclut la totalité de la prostate et les extensions périprostatiques identifiées au toucher rectal ou à l'IRM."
+            "detail": "Décision au checkpoint — La marge compense un budget d'incertitudes ; elle doit être cohérente avec le workflow réel."
           }
         ]
       },
@@ -303,7 +308,8 @@
       ],
       "sources": [
         "sfro_recorad_prostate_2025",
-        "eau_prostate_2026"
+        "eau_prostate_2026",
+        "nci_idc_prostate_aec_2023"
       ],
       "keyTakeaways": [
         "L'audit vérifie rectum et canal anal, vessie, têtes fémorales et bulbe pénien ; l'urètre devient particulièrement important en SBRT ou guidage IRM.",
@@ -315,25 +321,25 @@
         "diagramType": "anatomy-map",
         "formatLabel": "Voisinage des organes à risque",
         "title": "OAR : définir avant de mesurer",
-        "imageSrc": "/figures/prostate/radiotherapy-planning/03-oar.svg",
-        "altText": "Voisinage des organes à risque pour « OAR : définir avant de mesurer ». Repères représentés : OAR requis ; Définition source ; DVH correspondant ; Interprétation valide.",
-        "caption": "Voisinage des organes à risque : OAR requis · Définition source · DVH correspondant · Interprétation valide. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "imageSrc": "/figures/prostate/radiotherapy-planning/03-oar-v2.png",
+        "altText": "Deux vues du même scanner de simulation dé-identifié : une coupe axiale au niveau prostatique et un reformatage sagittal. Les contours cliniques superposés identifient la prostate en turquoise, la vessie en bleu, le rectum en corail et les deux têtes fémorales en orange. Un panneau rappelle qu’un cas unique montre les relations spatiales mais ne constitue pas un atlas de contourage.",
+        "caption": "Relation spatiale réelle entre prostate et organes à risque sur le cas public dé-identifié Prostate-AEC-126. Contours manuels utilisés cliniquement, issus de la collection NCI IDC/TCIA Prostate-Anatomical-Edge-Cases, CC BY 4.0, DOI 10.7937/QSTF-ST65. Illustration pédagogique d’un cas unique, sans dose et non destinée à enseigner les limites de contourage. Revue nominative du visuel : Sami Frikha, 2 août 2026.",
         "items": [
           {
             "label": "OAR requis",
-            "detail": "L'audit vérifie rectum et canal anal, vessie, têtes fémorales et bulbe pénien ; l'urètre devient particulièrement important en SBRT ou guidage IRM."
+            "detail": "Le socle d'organes — L'audit vérifie rectum et canal anal, vessie, têtes fémorales et bulbe pénien ; l'urètre devient particulièrement important en SBRT ou guidage IRM."
           },
           {
             "label": "Définition source",
-            "detail": "RecoRad souligne que le Gétug peut définir la paroi rectale ou vésicale tandis que d'autres référentiels utilisent l'organe in toto."
+            "detail": "Paroi ou organe entier — RecoRad souligne que le Gétug peut définir la paroi rectale ou vésicale tandis que d'autres référentiels utilisent l'organe in toto."
           },
           {
             "label": "DVH correspondant",
-            "detail": "Col vésical, trigone, urètre, sphincter strié et cavité après résection transurétrale peuvent être individualisés selon la technique et les antécédents."
+            "detail": "Contexte urinaire — Col vésical, trigone, urètre, sphincter strié et cavité après résection transurétrale peuvent être individualisés selon la technique et les antécédents."
           },
           {
             "label": "Interprétation valide",
-            "detail": "L'audit vérifie rectum et canal anal, vessie, têtes fémorales et bulbe pénien ; l'urètre devient particulièrement important en SBRT ou guidage IRM."
+            "detail": "Décision au checkpoint — Le même seuil appliqué à des volumes différents ne représente pas le même risque."
           }
         ]
       },
@@ -422,25 +428,25 @@
         "diagramType": "curve",
         "formatLabel": "Courbes dose–volume",
         "title": "DVH et distribution : relier chaque seuil à son protocole",
-        "imageSrc": "/figures/prostate/radiotherapy-planning/04-dvh.svg",
-        "altText": "Courbes dose–volume pour « DVH et distribution : relier chaque seuil à son protocole ». Repères représentés : Protocole ; Structures concordantes ; DVH ; Inspection spatiale et décision.",
-        "caption": "Courbes dose–volume : Protocole · Structures concordantes · DVH · Inspection spatiale et décision. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "imageSrc": "/figures/prostate/radiotherapy-planning/04-dvh-v2.png",
+        "altText": "Deux graphiques DVH cumulatifs explicitement synthétiques pour le protocole 60 Gy en 20 fractions. Le premier montre les objectifs PTV V57 ≥ 99 % et CTV V60 ≥ 99 % sur des courbes cibles distinctes. Le second montre des courbes synthétiques de rectum et de vessie avec les seuils du même protocole. Les axes sont Dose (Gy) et Volume relatif (%). Un panneau sépare le repère PTV D1 cm³ ≤ 63 Gy et rappelle que le DVH ne localise pas spatialement un sous-dosage ou un point chaud. AUCUNE DONNÉE PATIENT.",
+        "caption": "Lecture pédagogique d’un DVH cumulatif pour le protocole RecoRad 60 Gy en 20 fractions. Les courbes sont synthétiques, monotones et sans donnée patient ; elles servent uniquement à montrer la lecture des métriques. Les seuils sont reliés aux sections 2.6.3.1–2.6.3.2 et au tableau 5 de RecoRad prostate 2025 (DOI 10.1016/j.canrad.2025.104777). Le D1 cm³ est présenté séparément car une courbe en volume relatif ne permet pas de le déduire sans connaître le volume total du PTV. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Protocole",
-            "detail": "En fractionnement standard, RecoRad attend notamment un V95 du PTV supérieur à 95 % et une dose minimale supérieure à 90 %, avec contrôle des excès de dose."
+            "detail": "Couverture et points chauds — En fractionnement standard, RecoRad attend notamment un V95 du PTV supérieur à 95 % et une dose minimale supérieure à 90 %, avec contrôle des excès de dose."
           },
           {
             "label": "Structures concordantes",
-            "detail": "Pour 60 Gy en 20 fractions, le tableau 5 donne au rectum V46 < 30 % et V37 < 50 %, et à la vessie V60 < 5 %, V48 < 25 % et V41 ≤ 50 %."
+            "detail": "Repères OAR spécifiques — Pour 60 Gy en 20 fractions, le tableau 5 donne au rectum V46 < 30 % et V37 < 50 %, et à la vessie V60 < 5 %, V48 < 25 % et V41 ≤ 50 %."
           },
           {
             "label": "DVH",
-            "detail": "Le DVH ne montre pas où se trouvent un sous-dosage ou un point chaud."
+            "detail": "Voir le plan, pas seulement le tableau — Le DVH ne montre pas où se trouvent un sous-dosage ou un point chaud."
           },
           {
             "label": "Inspection spatiale et décision",
-            "detail": "En fractionnement standard, RecoRad attend notamment un V95 du PTV supérieur à 95 % et une dose minimale supérieure à 90 %, avec contrôle des excès de dose."
+            "detail": "Décision au checkpoint — Les repères cités sont PTV V57 à 99 % et D1 cm³ au plus 63 Gy ; les écarts ne doivent pas être masqués."
           }
         ]
       },
@@ -519,7 +525,8 @@
       "sources": [
         "sfro_recorad_prostate_2025",
         "estro_acrop_igrt_2019",
-        "eau_prostate_2026"
+        "eau_prostate_2026",
+        "nci_idc_prostate_aec_2023"
       ],
       "keyTakeaways": [
         "RecoRad recommande une imagerie prostatique quotidienne.",
@@ -529,27 +536,27 @@
       "visual": {
         "kind": "anatomy",
         "diagramType": "motion-map",
-        "formatLabel": "Correction guidée par l’image",
+        "formatLabel": "Double repère IGRT",
         "title": "IGRT : corriger la bonne cible au bon moment",
-        "imageSrc": "/figures/prostate/radiotherapy-planning/05-igrt.svg",
-        "altText": "Correction guidée par l’image pour « IGRT : corriger la bonne cible au bon moment ». Repères représentés : Image ; Recalage de la cible pertinente ; Contrôle intrafraction ; Action documentée.",
-        "caption": "Correction guidée par l’image : Image · Recalage de la cible pertinente · Contrôle intrafraction · Action documentée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "imageSrc": "/figures/prostate/radiotherapy-planning/05-igrt-v2.png",
+        "altText": "Deux coupes axiales du même scanner pelvien dé-identifié illustrent les repères IGRT. À gauche, le REPÈRE PELVIEN reste aligné alors qu’un contour prostatique déplacé est simulé. À droite, APRÈS RECALAGE PROSTATIQUE, la cible est alignée mais le repère osseux peut être décalé. Un encadré précise quoi faire Si les corrections divergent et rappelle le contrôle intrafraction.",
+        "caption": "Le turquoise représente le contour prostatique RTSTRUCT de référence sur une anatomie dé-identifiée. Le déplacement corail et le décalage osseux orange sont des transformations conceptuelles déterministes : ni mouvement patient mesuré, ni tolérance clinique. La figure montre pourquoi un plan prostate–pelvis doit comparer repère osseux et repère prostatique, appliquer une règle locale documentée puis contrôler l’intrafraction. Anatomie NCI IDC Prostate-AEC-126, CC BY 4.0 ; principes RecoRad 2025 et ESTRO-ACROP IGRT 2019. Revue nominative du visuel conservée dans la traçabilité interne.",
         "items": [
           {
             "label": "Image",
-            "detail": "RecoRad recommande une imagerie prostatique quotidienne."
+            "detail": "Imagerie prostatique quotidienne — RecoRad recommande une imagerie prostatique quotidienne."
           },
           {
             "label": "Recalage de la cible pertinente",
-            "detail": "Avec des ganglions traités simultanément, un recalage osseux protège la géométrie pelvienne mais peut laisser la prostate décalée ; un recalage purement prostatique peut compromettre les ganglions."
+            "detail": "Prostate et pelvis ne bougent pas ensemble — Avec des ganglions traités simultanément, un recalage osseux protège la géométrie pelvienne mais peut laisser la prostate décalée ; un recalage purement prostatique peut compromettre les ga…"
           },
           {
             "label": "Contrôle intrafraction",
-            "detail": "Le mouvement continue après l'image, surtout pendant une séance longue ou stéréotaxique."
+            "detail": "Intrafraction et adaptation — Le mouvement continue après l'image, surtout pendant une séance longue ou stéréotaxique."
           },
           {
             "label": "Action documentée",
-            "detail": "RecoRad recommande une imagerie prostatique quotidienne."
+            "detail": "Décision au checkpoint — Les deux cibles ont des mouvements différents ; le protocole doit gérer leur discordance."
           }
         ]
       },
@@ -640,24 +647,24 @@
         "formatLabel": "Audit de prétraitement",
         "title": "Audit de prétraitement : rendre chaque décision traçable",
         "imageSrc": "/figures/prostate/radiotherapy-planning/06-audit.svg",
-        "altText": "Audit de prétraitement pour « Audit de prétraitement : rendre chaque décision traçable ». Repères représentés : Prescription ; Plan et QA ; IGRT ; Autorisation ou reprise.",
-        "caption": "Audit de prétraitement : Prescription · Plan et QA · IGRT · Autorisation ou reprise. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Audit de prétraitement pour « Audit de prétraitement : rendre chaque décision traçable ». Le schéma relie Prescription ; Plan et QA ; IGRT ; Autorisation ou reprise sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Audit de prétraitement : Prescription · Plan et QA · IGRT · Autorisation ou reprise. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Prescription",
-            "detail": "L'audit relit intention, risque, prescription, ADT, volumes, fractionnement, préparation, imagerie, contours, contraintes, technique et IGRT comme une seule chaîne."
+            "detail": "Cohérence clinique et technique — L'audit relit intention, risque, prescription, ADT, volumes, fractionnement, préparation, imagerie, contours, contraintes, technique et IGRT comme une seule chaîne."
           },
           {
             "label": "Plan et QA",
-            "detail": "Les contrôles vérifient identité et latéralité si pertinente, version de prescription, transfert des images, fusion, CTV/PTV, OAR, calcul de dose, couverture, points chauds, contraintes, contrôle physique, plan d'imagerie et tolérances."
+            "detail": "Gates avant la première fraction — Les contrôles vérifient identité et latéralité si pertinente, version de prescription, transfert des images, fusion, CTV/PTV, OAR, calcul de dose, couverture, points chauds, contraintes, co…"
           },
           {
             "label": "IGRT",
-            "detail": "Une dérogation doit préciser valeur, cause, conséquence attendue, alternatives et approbateur."
+            "detail": "Déviation et changement anatomique — Une dérogation doit préciser valeur, cause, conséquence attendue, alternatives et approbateur."
           },
           {
             "label": "Autorisation ou reprise",
-            "detail": "L'audit relit intention, risque, prescription, ADT, volumes, fractionnement, préparation, imagerie, contours, contraintes, technique et IGRT comme une seule chaîne."
+            "detail": "Décision au checkpoint — L'audit est un gate de sécurité multidisciplinaire, pas une formalité documentaire."
           }
         ]
       },

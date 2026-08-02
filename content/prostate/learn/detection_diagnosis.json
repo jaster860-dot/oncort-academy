@@ -191,9 +191,9 @@
       "visual": {
         "kind": "comparison",
         "title": "De l'acquisition IRM à une décision de biopsie contextualisée",
-        "imageSrc": "/figures/prostate/detection-diagnosis/03-irm-pirads.svg",
-        "altText": "Schéma en trois étapes montrant une IRM prostatique de qualité, la localisation d'une lésion et sa catégorie PI-RADS, puis une décision de biopsie intégrant densité de PSA et risque clinique, avec les rappels qu'une IRM positive n'est pas un cancer certain et qu'une IRM négative n'annule pas le risque.",
-        "caption": "PI-RADS appartient au langage radiologique. Le groupe ISUP appartient à l'histologie et le stade d'extension à une autre dimension du dossier.",
+        "imageSrc": "/figures/prostate/detection-diagnosis/03-irm-pirads-v2.png",
+        "altText": "Schéma conceptuel zonal de la prostate distinguant zone périphérique à DWI dominante et zone transitionnelle à T2 dominante, échelle PI-RADS 1 à 5, puis chaîne qualité–localisation–risque intégré–biopsie. Le visuel rappelle que PI-RADS n’est ni un groupe ISUP ni un stade et qu’une IRM négative n’annule pas le risque.",
+        "caption": "PI-RADS v2.1 est une catégorie de suspicion radiologique dépendante de la zone et de la qualité des séquences ; il ne fournit ni diagnostic histologique ni probabilité individuelle universelle. La décision de biopsie intègre localisation, densité de PSA, risque prétest et stratégie d’échantillonnage. Figure conceptuelle originale, sans donnée patient.",
         "items": [
           {"label": "Acquisition de qualité", "detail": "Anatomie T2, diffusion et séquences adaptées au protocole."},
           {"label": "Localisation", "detail": "Zone, secteur, taille et rapports de la lésion."},
@@ -245,7 +245,7 @@
         {"front": "IRM négative", "back": "Réduit le risque mais ne l'annule pas ; interprétation avec densité de PSA et contexte."},
         {"front": "Cible IRM", "back": "Zone destinée à un prélèvement ciblé, sans garantie histologique préalable."}
       ],
-      "sources": ["eau_prostate_2026", "ccafu_localised_2024_2026"]
+      "sources": ["eau_prostate_2026", "ccafu_localised_2024_2026", "acr_pirads_v21_2019"]
     },
     {
       "id": "diagnosis_04_biopsy_strategy",

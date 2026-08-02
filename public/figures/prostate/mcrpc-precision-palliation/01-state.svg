@@ -1,15 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
-  <title id="title">Confirmer le mCRPC et cartographier la trajectoire</title>
-  <desc id="desc">Trajectoire vers le mCRPC pour « Confirmer le mCRPC et cartographier la trajectoire ». Repères représentés : Castration + progression + M1 ; Expositions et réponses ; Phénotype actuel ; Options réellement disponibles.</desc>
-  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
-  <rect width="1376" height="768" fill="#FFF8E8"/>
-  <rect width="18" height="768" fill="#007C83"/>
-  <text x="60" y="46" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83" letter-spacing="2">ONCORT ACADEMY · PROSTATE</text>
-  <rect x="60" y="62" width="284" height="34" rx="17" fill="#DDF3F1"/>
-  <text x="77" y="85" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83">TRAJECTOIRE VERS LE MCRPC</text>
-  <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="60" dy="0">Confirmer le mCRPC et cartographier la trajectoire</tspan></text>
-  <g><rect x="160" y="520" width="285" height="130" rx="18" fill="#E5EEF8" stroke="#2563A6" stroke-width="4"/><text x="302" y="565" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="750" fill="#24313A" text-anchor="middle"><tspan x="302" dy="0">Castration + progression</tspan><tspan x="302" dy="22">+ M1</tspan></text></g><g><rect x="415" y="435" width="285" height="215" rx="18" fill="#DDF3F1" stroke="#007C83" stroke-width="4"/><text x="557" y="480" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="750" fill="#24313A" text-anchor="middle"><tspan x="557" dy="0">Expositions et réponses</tspan></text></g><g><rect x="670" y="350" width="285" height="300" rx="18" fill="#FCE8C8" stroke="#D97706" stroke-width="4"/><text x="812" y="395" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="750" fill="#24313A" text-anchor="middle"><tspan x="812" dy="0">Phénotype actuel</tspan></text></g><g><rect x="925" y="265" width="285" height="385" rx="18" fill="#F8DDD7" stroke="#C85C4A" stroke-width="4"/><text x="1067" y="310" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="750" fill="#24313A" text-anchor="middle"><tspan x="1067" dy="0">Options réellement</tspan><tspan x="1067" dy="22">disponibles</tspan></text></g><path d="M 250 500 L 500 415 L 755 330 L 1020 245" fill="none" stroke="#24313A" stroke-width="6" marker-end="url(#arrow)"/>
-  <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
-  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Trajectoire vers le mCRPC · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
-  </svg>
+<title id="title">mCRPC : confirmer l’état puis reconstruire toute la trajectoire</title>
+<desc id="desc">Gate diagnostique exigeant castration, progression documentée et maladie métastatique, suivi d’une carte des expositions, du phénotype actuel, des réserves et des options réellement disponibles.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#24313A"/></marker></defs>
+<rect width="1376" height="768" fill="#FFF8E8"/>
+<rect width="18" height="768" fill="#007C83"/>
+<text x="58" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="1.8">ONCORT ACADEMY · PROSTATE</text>
+<rect x="58" y="51" width="340" height="32" rx="16" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="76" y="73" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="0.7">GATE DIAGNOSTIQUE + CARTE LONGITUDINALE</text>
+<text x="58" y="122" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#24313A" text-anchor="start" letter-spacing="0">mCRPC : confirmer l’état puis reconstruire toute la trajectoire</text>
+<rect x="58" y="152" width="1236" height="96" rx="17" fill="#24313A" stroke="#24313A" stroke-width="0"/>
+<text x="82" y="184" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#BBD8D2" text-anchor="start" letter-spacing="0.7">GATE DIAGNOSTIQUE · LES 3 CONDITIONS</text>
+<text x="82" y="220" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="start" letter-spacing="0">Testostérone au niveau de castration</text>
+<text x="492" y="220" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="start" letter-spacing="0">+ progression documentée</text>
+<text x="850" y="220" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="800" fill="#FFFFFF" text-anchor="start" letter-spacing="0">+ maladie métastatique</text>
+<rect x="58" y="276" width="288" height="290" rx="17" fill="#FFFFFF" stroke="#007C83" stroke-width="3"/>
+<text x="80" y="310" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="850" fill="#007C83" text-anchor="start" letter-spacing="0">HISTORIQUE</text>
+<rect x="78" y="346" width="248" height="42" rx="10" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="93" y="373" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">ARPI / taxanes / PARP</text>
+<rect x="78" y="398" width="248" height="42" rx="10" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="93" y="425" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">radiopharmaceutiques</text>
+<rect x="78" y="450" width="248" height="42" rx="10" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="93" y="477" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">réponses · durées</text>
+<rect x="78" y="502" width="248" height="42" rx="10" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="93" y="529" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">toxicités / arrêts</text>
+<rect x="366" y="276" width="288" height="290" rx="17" fill="#FFFFFF" stroke="#2563A6" stroke-width="3"/>
+<text x="388" y="310" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="850" fill="#2563A6" text-anchor="start" letter-spacing="0">PHÉNOTYPE ACTUEL</text>
+<rect x="386" y="346" width="248" height="42" rx="10" fill="#E5EEF8" stroke="#E5EEF8" stroke-width="0"/>
+<text x="401" y="373" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">symptômes / vitesse</text>
+<rect x="386" y="398" width="248" height="42" rx="10" fill="#E5EEF8" stroke="#E5EEF8" stroke-width="0"/>
+<text x="401" y="425" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">os / viscéral</text>
+<rect x="386" y="450" width="248" height="42" rx="10" fill="#E5EEF8" stroke="#E5EEF8" stroke-width="0"/>
+<text x="401" y="477" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">discordance PSA–clinique</text>
+<rect x="386" y="502" width="248" height="42" rx="10" fill="#E5EEF8" stroke="#E5EEF8" stroke-width="0"/>
+<text x="401" y="529" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">sites menaçants</text>
+<rect x="674" y="276" width="288" height="290" rx="17" fill="#FFFFFF" stroke="#D97706" stroke-width="3"/>
+<text x="696" y="310" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="850" fill="#D97706" text-anchor="start" letter-spacing="0">RÉSERVES</text>
+<rect x="694" y="346" width="248" height="42" rx="10" fill="#FCE8C8" stroke="#FCE8C8" stroke-width="0"/>
+<text x="709" y="373" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">performance / fragilité</text>
+<rect x="694" y="398" width="248" height="42" rx="10" fill="#FCE8C8" stroke="#FCE8C8" stroke-width="0"/>
+<text x="709" y="425" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">moelle / rein / foie</text>
+<rect x="694" y="450" width="248" height="42" rx="10" fill="#FCE8C8" stroke="#FCE8C8" stroke-width="0"/>
+<text x="709" y="477" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">neuropathie / cognition</text>
+<rect x="694" y="502" width="248" height="42" rx="10" fill="#FCE8C8" stroke="#FCE8C8" stroke-width="0"/>
+<text x="709" y="529" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">préférence / logistique</text>
+<rect x="982" y="276" width="288" height="290" rx="17" fill="#FFFFFF" stroke="#C85C4A" stroke-width="3"/>
+<text x="1004" y="310" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="850" fill="#C85C4A" text-anchor="start" letter-spacing="0">ACTIONNABILITÉ</text>
+<rect x="1002" y="346" width="248" height="42" rx="10" fill="#F8DDD7" stroke="#F8DDD7" stroke-width="0"/>
+<text x="1017" y="373" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">biomarqueurs</text>
+<rect x="1002" y="398" width="248" height="42" rx="10" fill="#F8DDD7" stroke="#F8DDD7" stroke-width="0"/>
+<text x="1017" y="425" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">indications / séquence</text>
+<rect x="1002" y="450" width="248" height="42" rx="10" fill="#F8DDD7" stroke="#F8DDD7" stroke-width="0"/>
+<text x="1017" y="477" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">accès / remboursement</text>
+<rect x="1002" y="502" width="248" height="42" rx="10" fill="#F8DDD7" stroke="#F8DDD7" stroke-width="0"/>
+<text x="1017" y="529" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#24313A" text-anchor="start" letter-spacing="0">essai clinique</text>
+<rect x="58" y="594" width="1236" height="82" rx="15" fill="#F8DDD7" stroke="#C85C4A" stroke-width="2"/>
+<text x="82" y="626" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#C85C4A" text-anchor="start" letter-spacing="0">PIÈGE</text>
+<text x="150" y="626" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="150" dy="0">Choisir la ligne sur le seul PSA. Une progression clinique ou viscérale peut être discordante ; l’ADT est poursuivie</tspan><tspan x="150" dy="24">sauf castration chirurgicale.</tspan></text>
+<rect x="58" y="700" width="1260" height="42" rx="12" fill="#24313A" stroke="#24313A" stroke-width="0"/>
+<text x="78" y="727" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="start" letter-spacing="0">SOURCES · CCAFU 2024–2026 · EAU 2026 · ESMO 2026 · ASCO 2025</text>
+<text x="1298" y="727" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#BBD8D2" text-anchor="end" letter-spacing="0">SYNTHÈSE ÉDUCATIVE · DONNÉES AGRÉGÉES</text>
+</svg>

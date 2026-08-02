@@ -1,20 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
-  <title id="title">Choisir le bilan d&apos;extension qui peut changer la décision</title>
-  <desc id="desc">Algorithme d’imagerie pour « Choisir le bilan d&apos;extension qui peut changer la décision ». Repères représentés : Groupe de risque ; Question de stadification ; Modalité disponible ; Impact décisionnel explicite.</desc>
-  <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
-  <rect width="1376" height="768" fill="#FFF8E8"/>
-  <rect width="18" height="768" fill="#007C83"/>
-  <text x="60" y="46" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83" letter-spacing="2">ONCORT ACADEMY · PROSTATE</text>
-  <rect x="60" y="62" width="244" height="34" rx="17" fill="#DDF3F1"/>
-  <text x="77" y="85" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="800" fill="#007C83">ALGORITHME D’IMAGERIE</text>
-  <text x="60" y="132" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="60" dy="0">Choisir le bilan d&apos;extension qui peut changer la décision</tspan></text>
-  <path d="M 688 318 L 360 444" fill="none" stroke="#24313A" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/><path d="M 688 318 L 688 444" fill="none" stroke="#24313A" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/><path d="M 688 318 L 1016 444" fill="none" stroke="#24313A" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
-    <polygon points="688,225 835,318 688,411 541,318" fill="#DDF3F1" stroke="#007C83" stroke-width="4"/>
-    <text x="688" y="304" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#24313A" text-anchor="middle"><tspan x="688" dy="0">Groupe de risque</tspan></text>
-    <g><rect x="215" y="452" width="290" height="130" rx="20" fill="#E5EEF8" stroke="#2563A6" stroke-width="3"/><text x="360" y="512.17" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="360" dy="0">Question de</tspan><tspan x="360" dy="24">stadification</tspan></text></g>
-    <g><rect x="543" y="452" width="290" height="130" rx="20" fill="#FCE8C8" stroke="#D97706" stroke-width="3"/><text x="688" y="524.35" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="688" dy="0">Modalité disponible</tspan></text></g>
-    <g><rect x="871" y="452" width="290" height="130" rx="20" fill="#FFFCF4" stroke="#24313A" stroke-width="3"/><text x="1016" y="512.17" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="1016" dy="0">Impact décisionnel</tspan><tspan x="1016" dy="24">explicite</tspan></text></g>
-  <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
-  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Algorithme d’imagerie · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
-  </svg>
+<title id="title">Bilan d’extension : intensifier l’imagerie seulement si elle peut agir</title>
+<desc id="desc">Matrice des indications d’imagerie de stadification EAU selon faible risque, intermédiaire favorable, intermédiaire défavorable et haut risque ou localement avancé.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#24313A"/></marker></defs>
+<rect width="1376" height="768" fill="#FFF8E8"/>
+<rect width="18" height="768" fill="#007C83"/>
+<text x="58" y="38" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="1.8">ONCORT ACADEMY · PROSTATE</text>
+<rect x="58" y="51" width="340" height="32" rx="16" fill="#DDF3F1" stroke="#DDF3F1" stroke-width="0"/>
+<text x="76" y="73" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="800" fill="#007C83" text-anchor="start" letter-spacing="0.7">MATRICE RISQUE–IMAGERIE</text>
+<text x="58" y="122" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#24313A" text-anchor="start" letter-spacing="0">Bilan d’extension : intensifier l’imagerie seulement si elle peut agir</text>
+<rect x="58" y="152" width="1236" height="86" rx="17" fill="#DDF3F1" stroke="#007C83" stroke-width="3"/>
+<text x="82" y="184" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#007C83" text-anchor="start" letter-spacing="0">QUESTION AVANT MODALITÉ</text>
+<text x="82" y="217" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="800" fill="#24313A" text-anchor="start" letter-spacing="0">Le résultat peut-il modifier volumes, parcours local ou stratégie systémique ?</text>
+<rect x="58" y="268" width="382" height="280" rx="18" fill="#FFFFFF" stroke="#2563A6" stroke-width="3"/>
+<text x="82" y="304" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#2563A6" text-anchor="start" letter-spacing="0">FAIBLE / INTERMÉDIAIRE FAVORABLE</text>
+<text x="82" y="354" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="82" dy="0">EAU : pas d’imagerie</tspan><tspan x="82" dy="38">additionnelle de stadification</tspan><tspan x="82" dy="38">en routine</tspan></text>
+<rect x="470" y="268" width="382" height="280" rx="18" fill="#FFFFFF" stroke="#D97706" stroke-width="3"/>
+<text x="494" y="304" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#D97706" text-anchor="start" letter-spacing="0">INTERMÉDIAIRE DÉFAVORABLE</text>
+<text x="494" y="354" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="494" dy="0">PSMA-PET si disponible</tspan><tspan x="494" dy="38">sinon au minimum imagerie</tspan><tspan x="494" dy="38">abdominopelvienne + osseuse</tspan></text>
+<rect x="882" y="268" width="382" height="280" rx="18" fill="#FFFFFF" stroke="#C85C4A" stroke-width="3"/>
+<text x="906" y="304" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="850" fill="#C85C4A" text-anchor="start" letter-spacing="0">HAUT RISQUE / LOCALEMENT AVANCÉ</text>
+<text x="906" y="354" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="750" fill="#24313A" text-anchor="start"><tspan x="906" dy="0">Dépistage métastatique</tspan><tspan x="906" dy="38">PSMA-PET si disponible</tspan><tspan x="906" dy="38">ou imagerie conventionnelle</tspan></text>
+<rect x="58" y="576" width="1236" height="100" rx="15" fill="#F8DDD7" stroke="#C85C4A" stroke-width="2"/>
+<text x="82" y="608" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="850" fill="#C85C4A" text-anchor="start" letter-spacing="0">CONVENTION D’IMAGERIE À TRACER</text>
+<text x="82" y="638" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="800" fill="#24313A" text-anchor="start"><tspan x="82" dy="0">Le PSMA-PET est plus performant, mais de nombreux essais ont défini stades et volumes en imagerie conventionnelle.</tspan><tspan x="82" dy="25">Migration de stade moléculaire ≠ preuve que la stratégie historique garde exactement le même effet.</tspan></text>
+<rect x="58" y="700" width="1260" height="42" rx="12" fill="#24313A" stroke="#24313A" stroke-width="0"/>
+<text x="78" y="727" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="start" letter-spacing="0">SOURCES · EAU 2026 · CCAFU 2024–2026 · EANM/SNMMI 2023</text>
+<text x="1298" y="727" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#BBD8D2" text-anchor="end" letter-spacing="0">SYNTHÈSE ÉDUCATIVE · DONNÉES AGRÉGÉES</text>
+</svg>

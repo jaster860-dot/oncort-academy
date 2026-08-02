@@ -110,24 +110,24 @@
         "formatLabel": "Matrice volume–risque–synchronie",
         "title": "Volume, risque et synchronie : garder les définitions de leurs essais",
         "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/01-burden-synchrony.svg",
-        "altText": "Matrice volume–risque–synchronie pour « Volume, risque et synchronie : garder les définitions de leurs essais ». Repères représentés : Imagerie conventionnelle source ; Définition nommée ; Volume et risque séparés ; Synchronie explicite avant traitement.",
-        "caption": "Matrice volume–risque–synchronie : Imagerie conventionnelle source · Définition nommée · Volume et risque séparés · Synchronie explicite avant traitement. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Matrice volume–risque–synchronie pour « Volume, risque et synchronie : garder les définitions de leurs essais ». Le schéma relie Imagerie conventionnelle source ; Définition nommée ; Volume et risque séparés ; Synchronie explicite avant traitement sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Matrice volume–risque–synchronie : Imagerie conventionnelle source · Définition nommée · Volume et risque séparés · Synchronie explicite avant traitement. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Imagerie conventionnelle source",
-            "detail": "Dans le tableau EAU 2026, le haut volume CHAARTED correspond à des métastases viscérales et/ou à au moins quatre métastases osseuses dont au moins une hors du rachis ou du pelvis ; les ganglions ne sont pas des métastases viscérales."
+            "detail": "Le volume CHAARTED est une définition, pas une impression — Dans le tableau EAU 2026, le haut volume CHAARTED correspond à des métastases viscérales et/ou à au moins quatre métastases osseuses dont au moins une hors du rachis ou du pelvis ; les gang…"
           },
           {
             "label": "Définition nommée",
-            "detail": "Le risque LATITUDE combine des caractéristiques tumorales différentes du volume CHAARTED."
+            "detail": "Le risque LATITUDE répond à une autre construction — Le risque LATITUDE combine des caractéristiques tumorales différentes du volume CHAARTED."
           },
           {
             "label": "Volume et risque séparés",
-            "detail": "Une maladie synchrone est présente lors de la première présentation ; une maladie métachrone apparaît après un traitement local antérieur."
+            "detail": "Synchronie et modalité d'imagerie restent visibles — Une maladie synchrone est présente lors de la première présentation ; une maladie métachrone apparaît après un traitement local antérieur."
           },
           {
             "label": "Synchronie explicite avant traitement",
-            "detail": "Dans le tableau EAU 2026, le haut volume CHAARTED correspond à des métastases viscérales et/ou à au moins quatre métastases osseuses dont au moins une hors du rachis ou du pelvis ; les ganglions ne sont pas des métastases viscérales."
+            "detail": "Décision au checkpoint — CHAARTED exige, pour le critère osseux, au moins quatre lésions dont au moins une hors rachis ou pelvis ; volume, risque LATITUDE et stade PSMA restent des informations distinctes."
           }
         ]
       },
@@ -219,24 +219,24 @@
         "formatLabel": "Doublet ou triplet",
         "title": "mHSPC : construire l'intensification initiale",
         "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/02-doublet-triplet.svg",
-        "altText": "Doublet ou triplet pour « mHSPC : construire l'intensification initiale ». Repères représentés : Volume–synchronie–fitness ; Socle ADT ; Doublet ou triplet ; Prévention et réévaluation.",
-        "caption": "Doublet ou triplet : Volume–synchronie–fitness · Socle ADT · Doublet ou triplet · Prévention et réévaluation. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Algorithme mHSPC. Après description de la charge selon l’essai, de la synchronie, des symptômes et de la fitness, l’ADT est le socle. Deux branches comparent le doublet ADT–ARPI pour une large population et le triplet ADT–docétaxel–ARPI chez un patient sélectionné apte à la chimiothérapie.",
+        "caption": "Chez un patient mHSPC apte, l’ADT seule n’est plus le choix par défaut. Le doublet ADT–ARPI concerne une large population ; le triplet se discute surtout chez un patient apte au docétaxel, souvent de novo et à forte charge. Sa preuve versus ADT–docétaxel ne démontre pas une supériorité sur chaque doublet moderne dans tous les sous-groupes.",
         "items": [
           {
             "label": "Volume–synchronie–fitness",
-            "detail": "La première ligne décrit volume selon la définition de l'essai, maladie de novo ou métachrone, symptômes et rythme, fitness et comorbidités, puis expositions antérieures."
+            "detail": "Quatre axes avant le médicament — La première ligne décrit volume selon la définition de l'essai, maladie de novo ou métachrone, symptômes et rythme, fitness et comorbidités, puis expositions antérieures."
           },
           {
             "label": "Socle ADT",
-            "detail": "ADT plus ARPI est une référence dans de larges populations."
+            "detail": "Doublet moderne — ADT plus ARPI est une référence dans de larges populations."
           },
           {
             "label": "Doublet ou triplet",
-            "detail": "ADT, docétaxel et ARPI est surtout soutenu chez des patients aptes à la chimiothérapie, souvent de novo et à charge élevée."
+            "detail": "Triplet sélectionné — ADT, docétaxel et ARPI est surtout soutenu chez des patients aptes à la chimiothérapie, souvent de novo et à charge élevée."
           },
           {
             "label": "Prévention et réévaluation",
-            "detail": "La première ligne décrit volume selon la définition de l'essai, maladie de novo ou métachrone, symptômes et rythme, fitness et comorbidités, puis expositions antérieures."
+            "detail": "Décision au checkpoint — La preuve et la tolérance rendent le triplet surtout pertinent chez un patient fit, souvent de novo et à forte charge."
           }
         ]
       },
@@ -316,7 +316,8 @@
         "ccafu_advanced_2024_2026",
         "eau_prostate_2026",
         "esmo_advanced_prostate_2026",
-        "eanm_snmmi_psma_pet_2023"
+        "eanm_snmmi_psma_pet_2023",
+        "stampede_primary_rt_m1_2018"
       ],
       "keyTakeaways": [
         "Chez une maladie métastatique d'emblée à faible volume en imagerie conventionnelle, l'irradiation de la prostate s'ajoute au traitement systémique et vise un bénéfice oncologique.",
@@ -324,29 +325,29 @@
         "Un patient faible volume au scanner peut avoir davantage de foyers au TEP-PSMA."
       ],
       "visual": {
-        "kind": "evidence",
-        "diagramType": "evidence-bridge",
-        "formatLabel": "Transposition de la population de preuve",
+        "kind": "comparison",
+        "diagramType": "matrix",
+        "formatLabel": "Population–résultat–applicabilité",
         "title": "Irradier la prostate en M1 : préserver la population de preuve",
-        "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/03-primary-rt.svg",
-        "altText": "Transposition de la population de preuve pour « Irradier la prostate en M1 : préserver la population de preuve ». Repères représentés : M1 de novo ; Volume conventionnel ; Systémique intensifié ; RT prostatique intégrée.",
-        "caption": "Transposition de la population de preuve : M1 de novo · Volume conventionnel · Systémique intensifié · RT prostatique intégrée. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/03-primary-rt-v2.png",
+        "altText": "Trois panneaux identifient la population STAMPEDE bras H — M1 de novo, faible charge CHAARTED en imagerie conventionnelle — puis montrent la survie globale à trois ans, 73 % sous contrôle versus 81 % avec RT prostatique, HR 0,68, avant d’expliciter ajout au systémique, absence de substitution, limites d’extrapolation et migration de stade au PSMA.",
+        "caption": "Dans STAMPEDE bras H, la RT prostatique n’améliore pas la survie globale de la population M1 non sélectionnée, mais le sous-groupe préspecifié de faible charge conventionnelle présente un bénéfice : HR 0,68 et survie à trois ans 73 % versus 81 %. Ce résultat de population concerne le M1 de novo et s’ajoute au traitement systémique ; il ne constitue pas une prescription individuelle. Graphique déterministe sur données agrégées publiées, sans donnée patient ; sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "M1 de novo",
-            "detail": "Chez une maladie métastatique d'emblée à faible volume en imagerie conventionnelle, l'irradiation de la prostate s'ajoute au traitement systémique et vise un bénéfice oncologique."
+            "detail": "Faible volume de novo — Chez une maladie métastatique d'emblée à faible volume en imagerie conventionnelle, l'irradiation de la prostate s'ajoute au traitement systémique et vise un bénéfice oncologique."
           },
           {
             "label": "Volume conventionnel",
-            "detail": "Le bénéfice n'est pas démontré de la même façon dans la maladie à volume élevé."
+            "detail": "Pas d'extrapolation automatique — Le bénéfice n'est pas démontré de la même façon dans la maladie à volume élevé."
           },
           {
             "label": "Systémique intensifié",
-            "detail": "Un patient faible volume au scanner peut avoir davantage de foyers au TEP-PSMA."
+            "detail": "Le PSMA complique la catégorie — Un patient faible volume au scanner peut avoir davantage de foyers au TEP-PSMA."
           },
           {
             "label": "RT prostatique intégrée",
-            "detail": "Chez une maladie métastatique d'emblée à faible volume en imagerie conventionnelle, l'irradiation de la prostate s'ajoute au traitement systémique et vise un bénéfice oncologique."
+            "detail": "Décision au checkpoint — La preuve concerne le traitement du primitif ajouté au standard systémique dans une population définie."
           }
         ]
       },
@@ -438,24 +439,24 @@
         "formatLabel": "Trois conditions cumulatives",
         "title": "nmCRPC : trois conditions avant de traiter",
         "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/04-nmcrpc.svg",
-        "altText": "Trois conditions cumulatives pour « nmCRPC : trois conditions avant de traiter ». Repères représentés : Castration confirmée ; Progression PSA ; M0 conventionnel ; PSADT et ARPI adapté.",
-        "caption": "Trois conditions cumulatives : Castration confirmée · Progression PSA · M0 conventionnel · PSADT et ARPI adapté. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Trois conditions cumulatives pour « nmCRPC : trois conditions avant de traiter ». Le schéma relie Castration confirmée ; Progression PSA ; M0 conventionnel ; PSADT et ARPI adapté sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Trois conditions cumulatives : Castration confirmée · Progression PSA · M0 conventionnel · PSADT et ARPI adapté. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Castration confirmée",
-            "detail": "Le nmCRPC associe progression biologique sous testostérone au niveau de castration et absence de métastase sur l'imagerie conventionnelle pertinente."
+            "detail": "Un état construit — Le nmCRPC associe progression biologique sous testostérone au niveau de castration et absence de métastase sur l'imagerie conventionnelle pertinente."
           },
           {
             "label": "Progression PSA",
-            "detail": "Un temps de doublement du PSA court, classiquement inférieur ou égal à dix mois dans les essais pivots, identifie une population à haut risque de métastases."
+            "detail": "Le risque dépend de la cinétique — Un temps de doublement du PSA court, classiquement inférieur ou égal à dix mois dans les essais pivots, identifie une population à haut risque de métastases."
           },
           {
             "label": "M0 conventionnel",
-            "detail": "Un TEP-PSMA peut révéler des lésions occultes à l'imagerie conventionnelle."
+            "detail": "PSMA positif : nommer la migration — Un TEP-PSMA peut révéler des lésions occultes à l'imagerie conventionnelle."
           },
           {
             "label": "PSADT et ARPI adapté",
-            "detail": "Le nmCRPC associe progression biologique sous testostérone au niveau de castration et absence de métastase sur l'imagerie conventionnelle pertinente."
+            "detail": "Décision au checkpoint — Les trois dimensions — castration, progression et M0 conventionnel — précèdent l'utilisation du PSADT."
           }
         ]
       },
@@ -547,24 +548,24 @@
         "formatLabel": "Carte des métastases osseuses",
         "title": "Métastases osseuses : douleur, urgence et prévention selon l'état",
         "imageSrc": "/figures/prostate/hormone-sensitive-and-nmcrpc/05-bone.svg",
-        "altText": "Carte des métastases osseuses pour « Métastases osseuses : douleur, urgence et prévention selon l'état ». Repères représentés : Symptôme ou risque local ; Urgence et stabilité ; État mHSPC ou mCRPC ; RT–chirurgie–anti-résorptif selon objectif.",
-        "caption": "Carte des métastases osseuses : Symptôme ou risque local · Urgence et stabilité · État mHSPC ou mCRPC · RT–chirurgie–anti-résorptif selon objectif. Figure éducative needs_review ; elle ne remplace ni les sources ni la revue clinique.",
+        "altText": "Carte des métastases osseuses pour « Métastases osseuses : douleur, urgence et prévention selon l'état ». Le schéma relie Symptôme ou risque local ; Urgence et stabilité ; État mHSPC ou mCRPC ; RT–chirurgie–anti-résorptif selon objectif sans représenter de données patient ni remplacer le protocole source.",
+        "caption": "Carte des métastases osseuses : Symptôme ou risque local · Urgence et stabilité · État mHSPC ou mCRPC · RT–chirurgie–anti-résorptif selon objectif. Représentation pédagogique, non à l’échelle et sans donnée patient. Sources et limites précisées dans la leçon.",
         "items": [
           {
             "label": "Symptôme ou risque local",
-            "detail": "Douleur rachidienne nouvelle, déficit neurologique, trouble sphinctérien, fracture imminente ou hypercalcémie imposent une évaluation urgente et coordonnée."
+            "detail": "Trier l'urgence — Douleur rachidienne nouvelle, déficit neurologique, trouble sphinctérien, fracture imminente ou hypercalcémie imposent une évaluation urgente et coordonnée."
           },
           {
             "label": "Urgence et stabilité",
-            "detail": "La radiothérapie palliative traite une douleur ou un risque local ; chirurgie ou stabilisation répond à l'instabilité ; un anti-résorptif à dose oncologique prévient des événements squelettiques dans certains mCRPC osseux."
+            "detail": "Trois objectifs — La radiothérapie palliative traite une douleur ou un risque local ; chirurgie ou stabilisation répond à l'instabilité ; un anti-résorptif à dose oncologique prévient des événements squelett…"
           },
           {
             "label": "État mHSPC ou mCRPC",
-            "detail": "La présence de métastases osseuses hormonosensibles ne suffit pas à prescrire systématiquement un anti-résorptif à dose de prévention des événements squelettiques."
+            "detail": "Ne pas transposer au mHSPC — La présence de métastases osseuses hormonosensibles ne suffit pas à prescrire systématiquement un anti-résorptif à dose de prévention des événements squelettiques."
           },
           {
             "label": "RT–chirurgie–anti-résorptif selon objectif",
-            "detail": "Douleur rachidienne nouvelle, déficit neurologique, trouble sphinctérien, fracture imminente ou hypercalcémie imposent une évaluation urgente et coordonnée."
+            "detail": "Décision au checkpoint — Une compression médullaire potentielle est une urgence clinique et radiologique."
           }
         ]
       },

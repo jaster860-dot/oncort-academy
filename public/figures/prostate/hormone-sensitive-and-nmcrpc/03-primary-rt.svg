@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1376" height="768" viewBox="0 0 1376 768" role="img" aria-labelledby="title desc">
   <title id="title">Irradier la prostate en M1 : préserver la population de preuve</title>
-  <desc id="desc">Transposition de la population de preuve pour « Irradier la prostate en M1 : préserver la population de preuve ». Repères représentés : M1 de novo ; Volume conventionnel ; Systémique intensifié ; RT prostatique intégrée.</desc>
+  <desc id="desc">Transposition de la population de preuve pour « Irradier la prostate en M1 : préserver la population de preuve ». Le schéma relie M1 de novo ; Volume conventionnel ; Systémique intensifié ; RT prostatique intégrée sans représenter de données patient ni remplacer le protocole source.</desc>
   <defs><marker id="arrow" markerWidth="6" markerHeight="6" refX="5.5" refY="3" orient="auto"><path d="M 0 0 L 6 3 L 0 6 z" fill="#24313A"/></marker></defs>
   <rect width="1376" height="768" fill="#FFF8E8"/>
   <rect width="18" height="768" fill="#007C83"/>
@@ -16,6 +16,6 @@
     <g><rect x="730" y="210" width="270" height="100" rx="20" fill="#FFFCF4" stroke="#D97706" stroke-width="3"/><text x="865" y="266.3" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="865" dy="0">Systémique intensifié</tspan></text></g><g><rect x="1055" y="250" width="270" height="100" rx="20" fill="#FFFCF4" stroke="#C85C4A" stroke-width="3"/><text x="1190" y="306.3" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#24313A" text-anchor="middle"><tspan x="1190" dy="0">RT prostatique intégrée</tspan></text></g>
     <text x="225" y="570" font-family="Arial" font-size="17" font-weight="800" fill="#2563A6" text-anchor="middle">PREUVE</text><text x="1151" y="570" font-family="Arial" font-size="17" font-weight="800" fill="#D97706" text-anchor="middle">DÉCISION</text>
   <rect x="60" y="688" width="1256" height="48" rx="14" fill="#24313A"/>
-  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="750" fill="#FFFFFF">Transposition de la population de preuve · SCHÉMA ÉDUCATIF · NEEDS_REVIEW</text>
-  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Revue clinique nominative requise</text>
+  <text x="84" y="718" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="750" fill="#FFFFFF">Transposition de la population de preuve · PÉDAGOGIQUE · NON À L’ÉCHELLE · SANS DONNÉE PATIENT</text>
+  <text x="1290" y="718" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="650" fill="#BBD8D2" text-anchor="end">Sources et limites dans la leçon</text>
   </svg>

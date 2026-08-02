@@ -46,8 +46,13 @@
       <tspan x="532" dy="28">+ catégorie PI-RADS</tspan>
     </text>
     <line x1="414" y1="272" x2="642" y2="272" stroke="#9dbfe8" stroke-width="2"/>
-    <text x="528" y="338" text-anchor="middle" class="body">Suspicion radiologique</text>
-    <text x="528" y="382" text-anchor="middle" class="body">standardisée</text>
+    <path d="M450 326 Q528 282 606 326 L594 399 Q528 430 462 399 Z" fill="#f7fbff" stroke="#2563a6" stroke-width="4"/>
+    <path d="M478 338 Q528 311 578 338 L570 385 Q528 404 486 385 Z" fill="#dceef2" stroke="#147d88" stroke-width="3"/>
+    <path d="M548 338 q22 -18 38 2 q-3 28 -30 31 q-19 -13 -8 -33" fill="#f8ddd7" stroke="#c85c4a" stroke-width="3"/>
+    <text x="493" y="369" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="15" font-weight="700" fill="#147d88">TZ</text>
+    <text x="592" y="410" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="14" font-weight="700" fill="#2563a6">PZ</text>
+    <text x="574" y="333" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="13" font-weight="700" fill="#c85c4a">lésion</text>
+    <text x="528" y="432" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="14" font-weight="650" fill="#334155">côté • zone • taille • catégorie</text>
   </g>
 
   <g>
@@ -84,5 +89,5 @@
 
   <rect x="178" y="628" width="1020" height="76" rx="18" fill="#dceef2" stroke="#147d88" stroke-width="2"/>
   <text x="688" y="675" text-anchor="middle" class="footer">PI-RADS n’est ni un groupe ISUP ni un stade métastatique</text>
-  <text x="688" y="742" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="16" font-weight="700" fill="#52606d">SCHÉMA ÉDUCATIF · NEEDS_REVIEW · VALIDATION CLINIQUE NOMINATIVE REQUISE</text>
+  <text x="688" y="742" text-anchor="middle" font-family="ui-sans-serif,system-ui" font-size="16" font-weight="700" fill="#52606d">SCHÉMA ÉDUCATIF · VALIDATION CLINIQUE NOMINATIVE REQUISE</text>
 </svg>

@@ -13,7 +13,6 @@ export function AcademyHeader({ compact = false }: { compact?: boolean }) {
         <Link href="/bibliotheque/prostate">Sources</Link>
       </nav>
       <div className="headerActions">
-        <span className="reviewStatus">Contenu à valider</span>
         <Link className="accountLink" href="/connexion">Synchroniser</Link>
       </div>
     </header>

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/radiotherapy-planning/03-oar-v2.png",
+  "purpose": "Educational prostate/OAR spatial relationship; not a contouring atlas.",
+  "source": {
+    "repository": "NCI Imaging Data Commons / The Cancer Imaging Archive",
+    "collection": "Prostate-Anatomical-Edge-Cases",
+    "subject": "Prostate-AEC-126",
+    "license": "CC BY 4.0",
+    "doi": "10.7937/QSTF-ST65",
+    "ctSeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.199101970343796956468775835838444083094"
+  },
+  "rtstruct": {
+    "seriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.56105734971363038737926946759328105530",
+    "structures": [
+      "Prostate",
+      "Bladder",
+      "Rectum",
+      "Femur_Head_L",
+      "Femur_Head_R"
+    ],
+    "contourProvenance": "Manual contours used clinically for radiation treatment planning, as described by the collection custodians."
+  },
+  "transformations": {
+    "ctWindowHU": [
+      -160.0,
+      240.0
+    ],
+    "axialSliceIndex": 137,
+    "sagittalColumnIndex": 258,
+    "resampling": "No interpolation for axial image; sagittal display is a direct orthogonal array reformat.",
+    "overlay": "RTSTRUCT polygons rasterized deterministically in CT patient coordinates."
+  },
+  "releaseGate": "reviewed_by_named_clinician",
+  "namedClinicalReviewer": "Sami Frikha",
+  "clinicalReviewDate": "2026-08-02",
+  "limitations": [
+    "Single public de-identified case.",
+    "Not a consensus contouring atlas.",
+    "No dose data and no protocol-specific thresholds are shown."
+  ]
+}

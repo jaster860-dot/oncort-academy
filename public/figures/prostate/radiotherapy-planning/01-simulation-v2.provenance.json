@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/radiotherapy-planning/01-simulation-v2.png",
+  "purpose": "Show which anatomical checks a planning CT supports, while separating a single representative snapshot from demonstrated reproducibility.",
+  "source": {
+    "repository": "NCI Imaging Data Commons / The Cancer Imaging Archive",
+    "collection": "Prostate-Anatomical-Edge-Cases",
+    "subject": "Prostate-AEC-126",
+    "license": "CC BY 4.0",
+    "doi": "10.7937/QSTF-ST65",
+    "guidelines": [
+      {
+        "id": "sfro_recorad_prostate_2025",
+        "locator": "Simulation and preparation sections"
+      }
+    ]
+  },
+  "transformations": {
+    "ctWindowHU": [
+      -160.0,
+      240.0
+    ],
+    "axialSliceIndex": 148,
+    "sagittalColumn": 258,
+    "contours": "Clinically used manual RTSTRUCT contours from the source collection."
+  },
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null,
+  "limitations": [
+    "One planning CT cannot demonstrate inter-fraction reproducibility.",
+    "The figure does not set a patient-specific bladder or rectal threshold.",
+    "The displayed anatomy is not a contouring atlas."
+  ]
+}

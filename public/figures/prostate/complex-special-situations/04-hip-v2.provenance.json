@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "asset": "public/figures/prostate/complex-special-situations/04-hip-v2.png",
+  "purpose": "Show true CT metal artifact and the separate acquisition, density, beam and QA controls it triggers.",
+  "source": {
+    "repository": "NCI Imaging Data Commons / The Cancer Imaging Archive",
+    "collection": "Prostate-Anatomical-Edge-Cases",
+    "subject": "Prostate-AEC-012",
+    "license": "CC BY 4.0",
+    "doi": "10.7937/QSTF-ST65",
+    "ctSeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.17177149853421450983152252638359876024",
+    "rtstructSeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.280654620930693271659767774622319272850",
+    "guidelines": [
+      {
+        "id": "sfro_recorad_prostate_2025",
+        "locator": "Planning special situations"
+      },
+      {
+        "id": "aapm_tg63_hip_prostheses_2003",
+        "doi": "10.1118/1.1565113"
+      }
+    ]
+  },
+  "transformations": {
+    "axialSliceIndex": 69,
+    "softTissueWindowHU": [
+      -160,
+      240
+    ],
+    "wideWindowHU": [
+      -200,
+      3000
+    ],
+    "implantHighlight": "Largest connected component above 1800 HU; display aid only, not a validated prosthesis contour."
+  },
+  "releaseGate": "needs_review",
+  "namedClinicalReviewer": null,
+  "limitations": [
+    "The second panel is a wide window, not metal-artifact correction.",
+    "The derived high-density outline is not a material assignment or treatment-planning structure.",
+    "No dose distribution, beam arrangement or calculation accuracy is shown."
+  ]
+}
